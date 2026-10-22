@@ -1,0 +1,70 @@
+# Value-chain stages (docs/SCHEMA.md §3.1) and their map colours.
+#
+# Palette: the eight hues of the validated reference categorical palette (dataviz skill,
+# references/palette.md), light and dark steps. The stage -> hue assignment was chosen by
+# exhaustive search (8! orderings, Recycling fixed to green): it keeps only orderings that
+# pass every hard gate of the palette validator (Machado 2009 protan/deutan simulation,
+# OKLab dE) in BOTH modes on the stage-order adjacency (stacked bars, chain-matrix
+# columns), then maximises separation between stages that tend to sit near each other on
+# the map (exploration/mining/beneficiation, refining/materials/magnets/recycling).
+# Validator results (2026-10-23), stage order, adjacent pairs:
+#   light: lightness PASS, chroma PASS, CVD worst adjacent in 6-8 floor band -> secondary
+#          encoding required (status fill + glyph + tooltip text), normal-vision PASS,
+#          contrast: yellow/magenta/aqua < 3:1 on the light surface -> markers carry a
+#          1px ink ring and the legend is always visible.
+#   dark:  all hard gates PASS.
+# All-pairs (map scatter) cannot pass with 8 hues; worst co-located pair dE 11.6. Mitigation:
+# every marker also encodes status by fill/ring, tooltips name the stage in text, and the
+# filter rail lets readers isolate stages. Brand colours (maroon, marigold) are reserved
+# for UI chrome and the mineral lens, never for stages.
+stages:
+  - id: Exploration
+    order: 1
+    color: { light: "#eb6834", dark: "#d95926" }   # orange
+    glyph: circle
+    description: "Blocks offered or auctioned, exploration licences, offshore and deep-sea areas."
+  - id: Mining
+    order: 2
+    color: { light: "#2a78d6", dark: "#3987e5" }   # blue
+    glyph: circle
+    description: "Operating mines, including by-product streams."
+  - id: Beneficiation
+    order: 3
+    color: { light: "#e87ba4", dark: "#d55181" }   # magenta
+    glyph: circle
+    description: "Ore concentration and upgrading (concentrators, mineral separation plants)."
+  - id: Refining
+    order: 4
+    color: { light: "#eda100", dark: "#c98500" }   # yellow
+    glyph: circle
+    description: "Smelting, refining and chemical conversion to metals, oxides and salts."
+  - id: Materials
+    order: 5
+    color: { light: "#1baf7a", dark: "#199e70" }   # aqua
+    glyph: circle
+    description: "Battery and advanced materials: cathode, anode, electrolyte, foils, precursors, silicon wafers."
+  - id: Magnets
+    order: 6
+    color: { light: "#e34948", dark: "#e66767" }   # red
+    glyph: circle
+    description: "Rare-earth separation, metals and alloys, and permanent magnets."
+  - id: Recycling
+    order: 7
+    color: { light: "#008300", dark: "#008300" }   # green
+    glyph: circle
+    description: "Battery, e-waste, scrap, catalyst and tailings recovery of canonical minerals."
+  - id: R&D
+    order: 8
+    color: { light: "#6250d6", dark: "#9085e9" }   # violet
+    glyph: circle
+    description: "Centres of Excellence, labs, funded programmes and pilot plants."
+  - id: Cells & Devices
+    order: 9
+    color: { light: "#898781", dark: "#898781" }   # muted neutral; demand anchors only
+    glyph: square
+    description: "Demand anchors: cell gigafactories and compound-semiconductor fabs (off by default)."
+  - id: Policy infrastructure
+    order: 10
+    color: { light: "#52514e", dark: "#c3c2b7" }   # secondary ink
+    glyph: diamond
+    description: "Government processing parks and stockpiles."

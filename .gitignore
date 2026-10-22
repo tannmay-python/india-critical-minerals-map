@@ -18,3 +18,12 @@ research/raw/**/*.zip
 qa/screenshots/
 playwright-report/
 test-results/
+
+# regenerable API indexes
+research/raw/sansad.in/ls-index-*.json
+*.part
+# raw geodata (large; provenance in data/reference/ATTRIBUTION.md)
+research/raw/geodata/**
+!research/raw/geodata/**/
+!research/raw/geodata/**/*.md
+!research/raw/geodata/**/LICENSE*

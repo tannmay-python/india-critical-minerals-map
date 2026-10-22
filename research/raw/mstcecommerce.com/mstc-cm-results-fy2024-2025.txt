@@ -1,0 +1,250 @@
+
+Major Mineral Block Auction Results
+Home
+|
+About Us
+|
+www.mstcindia.co.in
+|
+Critical Mineral Block Auction Results
+Select FY:
+Select
+2025-2026
+2026-2027
+Sl. No.
+Name of Mine Block
+Auction Number
+Mineral Concession
+(ML/CL/EL)
+Name of State
+Date of NIT
+(dd-mm-yyyy)
+Auction start
+(Date and Time)
+Auction Close
+(Date and Time)
+Name of Preferred Bidder
+MSTC Registration No.
+Final Price Offer
+1
+SANYASIKOPPA COBALT MANGANESE AND IRON MINE BLOCK
+MSTC/NRO/Designated Officer Ministry Of Mines/47/Shastri Bhawan/24-25/32860
+-
+Karnataka
+-
+24-10-2024 14:00:00
+24-10-2024 19:29:14
+Vedanta Limited
+361049
+45.00
+2
+NAYAKKARPATTI TUNGSTEN MINE BLOCK
+MSTC/NRO/Designated Officer Ministry Of Mines/48/Shastri Bhawan/24-25/32861
+-
+Tamil Nadu
+-
+24-10-2024 14:00:00
+24-10-2024 16:00:00
+HINDUSTAN ZINC LIMITED
+299959
+5.05
+3
+ENDOLIN ISHOLIN GRAPHITE MINE BLOCK
+MSTC/NRO/Designated Officer Ministry Of Mines/39/Shastri Bhawan/24-25/32840
+-
+Arunachal Pradesh
+-
+23-10-2024 14:00:00
+24-10-2024 15:19:41
+MAMCO MINING PRIVATE LIMITED
+361488
+237.50
+4
+RADHPU GRAPHITE AND VANADIUM MINE BLOCK
+MSTC/NRO/Designated Officer Ministry Of Mines/42/Shastri Bhawan/24-25/32855
+-
+Arunachal Pradesh
+-
+22-10-2024 14:00:00
+24-10-2024 02:40:11
+ORISSA METALIKS PRIVATE LIMITED
+512087
+95.00
+5
+VADAKHOL ASOLI NI CR CO AND ASSOCIATED MINE BLOCK
+MSTC/NRO/Designated Officer Ministry Of Mines/46/Shastri Bhawan/24-25/32859
+-
+Maharashtra
+-
+23-10-2024 14:00:00
+23-10-2024 16:00:00
+ASSAM MINERAL DEVELOPMENT CORPORATION LIMITED
+535734
+7.05
+6
+PONCHI GRAPHITE MINE BLOCK
+MSTC/NRO/Designated Officer Ministry Of Mines/43/Shastri Bhawan/24-25/32856
+-
+Jharkhand
+-
+22-10-2024 14:00:00
+22-10-2024 17:49:46
+Satguru Mining Private Limited
+535568
+752.05
+7
+BALEPALYAM TUNGSTEN AND ASSOCIATED MINERAL MINE BLOCK
+MSTC/NRO/Designated Officer Ministry Of Mines/44/Shastri Bhawan/24-25/32857
+-
+Andhra Pradesh
+-
+22-10-2024 14:00:00
+22-10-2024 16:00:00
+HINDUSTAN ZINC LIMITED
+299959
+6.55
+8
+PHOP GRAPHITE AND VANADIUM MINE BLOCK
+MSTC/NRO/Designated Officer Ministry Of Mines/40/Shastri Bhawan/24-25/32852
+-
+Arunachal Pradesh
+-
+18-10-2024 14:00:00
+19-10-2024 01:12:20
+Oil India Ltd
+506987
+76.05
+9
+BARWAR PHOSPHORITE MINE BLOCK
+MSTC/NRO/Designated Officer Ministry Of Mines/41/Shastri Bhawan/24-25/32854
+-
+Uttar Pradesh
+-
+18-10-2024 14:00:00
+18-10-2024 16:47:21
+MAMCO MINING PRIVATE LIMITED
+361488
+320.00
+10
+DEPO VANADIUM AND GRAPHITE MINE BLOCK
+MSTC/NRO/Designated Officer Ministry Of Mines/45/Shastri Bhawan/24-25/32858
+-
+Arunachal Pradesh
+-
+18-10-2024 14:00:00
+18-10-2024 16:00:00
+Vedanta Limited
+361049
+2.55
+11
+Test Mine Mock Auction
+MSTC/NRO/Mock of Critical Minerals /Tranche IV/24-25/31040
+-
+Delhi
+-
+08-10-2024 15:00:00
+11-10-2024 18:00:00
+MAMCO MINING PRIVATE LIMITED
+361488
+3.70
+12
+Khattali Chhoti Graphite Block
+MSTC/NRO/Designated Officer Ministry Of Mines/36/Shastri Bhawan/24-25/15359
+-
+Madhya Pradesh
+-
+09-07-2024 14:00:00
+10-07-2024 04:04:20
+Coal India Limited
+370758
+150.55
+13
+GENJANA NICKEL CHROMIUM AND PGE MINE BLOCK
+MSTC/NRO/Designated Officer Ministry Of Mines/37/Shastri Bhawan/24-25/15360
+-
+Bihar
+-
+09-07-2024 14:00:00
+09-07-2024 16:00:00
+Vedanta Limited
+361049
+6.05
+14
+Bahera Goriara Graphite and Basemetal Block
+MSTC/NRO/Designated Officer Ministry Of Mines/34/Shastri Bhawan/24-25/15356
+-
+Madhya Pradesh
+-
+05-07-2024 14:00:00
+05-07-2024 17:34:53
+VINMIR RESOURCES PVT LTD
+131890
+72.00
+15
+Gollarahatti Mallenahalli Nickel Chromium and PGE Block
+MSTC/NRO/Designated Officer Ministry Of Mines/33/Shastri Bhawan/24-25/15355
+-
+Karnataka
+-
+05-07-2024 14:00:00
+05-07-2024 16:48:30
+Vedanta Limited
+361049
+15.00
+16
+CHUTIA NAUHATTA GLAUCONITE MINE BLOCK
+MSTC/NRO/Designated Officer Ministry Of Mines/35/Shastri Bhawan/24-25/15357
+-
+Bihar
+-
+05-07-2024 14:00:00
+05-07-2024 16:00:00
+RUNGTA SONS PRIVATE LIMITED
+78958
+10.60
+17
+Golighat Graphite and Vanadium Block
+MSTC/NRO/Designated Officer Ministry Of Mines/30/Shastri Bhawan/24-25/15348
+-
+Madhya Pradesh
+-
+04-07-2024 14:00:00
+05-07-2024 02:37:42
+SHANTI GD ISPAT AND POWER PVT LTD
+76246
+155.05
+18
+KURCHHA GLAUCONITE MINE BLOCK
+MSTC/NRO/Designated Officer Ministry Of Mines/32/Shastri Bhawan/24-25/15350
+-
+Uttar Pradesh
+-
+04-07-2024 14:00:00
+04-07-2024 18:08:31
+SHOBHA MINERALS
+266979
+40.00
+19
+PIPRADIH BHURWA GLAUCONITE MINE BLOCK
+MSTC/NRO/Designated Officer Ministry Of Mines/31/Shastri Bhawan/24-25/15349
+-
+Bihar
+-
+04-07-2024 14:00:00
+04-07-2024 16:00:00
+RUNGTA SONS PRIVATE LIMITED
+78958
+10.60
+20
+Test Mine Mock Auction
+MSTC/NRO/Mock of Critical Minerals/24-25/13621
+-
+Delhi
+-
+27-06-2024 12:00:00
+27-06-2024 18:00:00
+JSW STEEL LIMITED
+70737
+2.10
+Copyright©MSTC Limited
+ 

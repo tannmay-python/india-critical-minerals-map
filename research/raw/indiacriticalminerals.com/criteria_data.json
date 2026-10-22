@@ -1,0 +1,311 @@
+{
+  "vectors": [
+    {
+      "key": "demand",
+      "name": "Current Global Demand",
+      "max": 5,
+      "family": "How much it matters",
+      "what": "Absolute annual global consumption. Determines the scale of any feasible intervention.",
+      "bands": [
+        {
+          "score": 1,
+          "label": "≤ 500 tonnes/yr"
+        },
+        {
+          "score": 2,
+          "label": "500 – 10,000 tonnes/yr"
+        },
+        {
+          "score": 3,
+          "label": "10,000 – 100,000 tonnes/yr"
+        },
+        {
+          "score": 4,
+          "label": "100,000 – 1,000,000 tonnes/yr"
+        },
+        {
+          "score": 5,
+          "label": "> 1,000,000 tonnes/yr"
+        }
+      ]
+    },
+    {
+      "key": "growth",
+      "name": "Projected Demand Growth to 2030",
+      "max": 5,
+      "family": "How much it matters",
+      "what": "Trajectory of demand, by compound annual growth rate (CAGR). Signals where future bottlenecks form.",
+      "bands": [
+        {
+          "score": 1,
+          "label": "Declining demand"
+        },
+        {
+          "score": 2,
+          "label": "Flat / stagnant"
+        },
+        {
+          "score": 3,
+          "label": "Low growth (1–5% CAGR)"
+        },
+        {
+          "score": 4,
+          "label": "Moderate growth (6–12% CAGR)"
+        },
+        {
+          "score": 5,
+          "label": "High growth (>12% CAGR)"
+        }
+      ]
+    },
+    {
+      "key": "end_use",
+      "name": "End-use Applications",
+      "max": 10,
+      "family": "How much it matters",
+      "what": "How many critical sectors depend on the mineral, and how strategic those sectors are. A sectoral additive score (max 7) plus a breadth bonus (max 3).",
+      "sub": [
+        {
+          "key": "sectoral",
+          "name": "Sectoral score",
+          "max": 7,
+          "note": "Defence +1.5, Energy/Grid +1.5, Agriculture +1.5, Semiconductors +1, Transport/EV +1, Healthcare +1, Construction +0.5; a minor use in a sector earns +0.5"
+        },
+        {
+          "key": "breadth",
+          "name": "Breadth bonus",
+          "max": 3,
+          "note": "+0.5 per additional qualifying sector beyond the first, up to +3 at seven sectors"
+        }
+      ]
+    },
+    {
+      "key": "supplier_concentration",
+      "name": "Supplier Concentration",
+      "max": 10,
+      "family": "How exposed supply is",
+      "what": "How concentrated supply is, scored separately for mining and refining because for many minerals the ore is distributed but the processing is monopolised. Each subscore uses the largest single country's share of global output.",
+      "sub": [
+        {
+          "key": "mining_diversity",
+          "name": "Mining concentration",
+          "max": 5
+        },
+        {
+          "key": "refining_diversity",
+          "name": "Refining concentration",
+          "max": 5
+        }
+      ],
+      "bands": [
+        {
+          "score": 1,
+          "label": "No country > 30%"
+        },
+        {
+          "score": 2,
+          "label": "Largest country 30–50%"
+        },
+        {
+          "score": 3,
+          "label": "Largest country 50–65%"
+        },
+        {
+          "score": 4,
+          "label": "Largest country 65–85%"
+        },
+        {
+          "score": 5,
+          "label": "Largest country > 85%"
+        }
+      ]
+    },
+    {
+      "key": "reserves",
+      "name": "Global Reserves",
+      "max": 10,
+      "family": "How exposed supply is",
+      "what": "Two questions: how long reserves last at current consumption, and how geographically concentrated they are.",
+      "sub": [
+        {
+          "key": "timeframe",
+          "name": "Reserve time-frame",
+          "max": 5,
+          "note": "1: >100 yrs; 2: 50–100; 3: 30–50; 4: 15–30; 5: <15 yrs"
+        },
+        {
+          "key": "diversification",
+          "name": "Reserve diversification",
+          "max": 5,
+          "note": "By HHI of reserves by country. 1: HHI<0.15; 2: 0.15–0.25; 3: 0.25–0.40; 4: 0.40–0.60; 5: >0.60"
+        }
+      ]
+    },
+    {
+      "key": "substitutability_recyclability",
+      "name": "Substitutability & Recyclability",
+      "max": 10,
+      "family": "How exposed supply is",
+      "what": "The two exits from a supply squeeze: replacing the mineral, or recovering it from secondary sources. Scored independently.",
+      "sub": [
+        {
+          "key": "substitutability",
+          "name": "Substitutability",
+          "max": 5,
+          "note": "1: drop-in substitute >20% of market; 5: no substitute at any cost"
+        },
+        {
+          "key": "recyclability",
+          "name": "Recyclability",
+          "max": 5,
+          "note": "1: >40% from secondary supply; 5: effectively 0% recovered"
+        }
+      ]
+    },
+    {
+      "key": "extraction_refining",
+      "name": "Extraction & Refining Complexity",
+      "max": 5,
+      "family": "How exposed supply is",
+      "what": "Technical difficulty of production, a barrier to entry that determines how contestable a concentration is.",
+      "bands": [
+        {
+          "score": 1,
+          "label": "Simple, widely accessible (standard mining + physical separation)"
+        },
+        {
+          "score": 2,
+          "label": "Moderately complex (multiple chemical stages)"
+        },
+        {
+          "score": 3,
+          "label": "Complex, specialised (multi-stage hydrometallurgy / solvent extraction)"
+        },
+        {
+          "score": 4,
+          "label": "Highly complex (near-identical element separation; <10–15 facilities worldwide)"
+        },
+        {
+          "score": 5,
+          "label": "Extreme, nation-state level (e.g. nuclear-grade separation)"
+        }
+      ]
+    },
+    {
+      "key": "upcoming_projects",
+      "name": "Upcoming Projects",
+      "max": 5,
+      "family": "How exposed supply is",
+      "what": "Whether a current bottleneck is temporary or durable, judged by the project pipeline.",
+      "bands": [
+        {
+          "score": 1,
+          "label": "Strong pipeline (>20% new supply, output 2–3 yrs)"
+        },
+        {
+          "score": 2,
+          "label": "Adequate pipeline (10–20%, output 3–5 yrs)"
+        },
+        {
+          "score": 3,
+          "label": "Thin pipeline (5–10%, output 5–7 yrs)"
+        },
+        {
+          "score": 4,
+          "label": "Minimal pipeline (<5%, output 7–10 yrs)"
+        },
+        {
+          "score": 5,
+          "label": "No pipeline; structural barrier to scaling"
+        }
+      ]
+    },
+    {
+      "key": "india_position",
+      "name": "India's Position",
+      "max": 10,
+      "family": "Where India stands",
+      "what": "India-specific: how dependent on imports, and how far India has moved to secure the mineral.",
+      "sub": [
+        {
+          "key": "import_dependence",
+          "name": "Import dependence",
+          "max": 5,
+          "note": "1: ≥60% produced domestically; 5: no domestic production"
+        },
+        {
+          "key": "strategic_posture",
+          "name": "Strategic posture",
+          "max": 5,
+          "note": "1: secured (offtakes/equity/processing); 3: intent declared only; 5: no awareness"
+        }
+      ]
+    },
+    {
+      "key": "price_volatility",
+      "name": "Price Volatility",
+      "max": 5,
+      "family": "Where India stands",
+      "what": "How violently the price has moved, independent of supply concentration. A cost to investment planning in its own right.",
+      "bands": [
+        {
+          "score": 1,
+          "label": "Stable (within 20% band over 5 yrs)"
+        },
+        {
+          "score": 2,
+          "label": "Low (20–50% band)"
+        },
+        {
+          "score": 3,
+          "label": "Moderate (50–100%, one notable spike)"
+        },
+        {
+          "score": 4,
+          "label": "High (>100%, thin/opaque market)"
+        },
+        {
+          "score": 5,
+          "label": "Extreme (>200% or market breakdown / weaponised)"
+        }
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "name": "High-volume base metals",
+      "color": "#620d3c"
+    },
+    {
+      "id": 2,
+      "name": "Heavy rare earths",
+      "color": "#f1a222"
+    },
+    {
+      "id": 3,
+      "name": "Closed-loop high-value minerals",
+      "color": "#8a5a44"
+    },
+    {
+      "id": 4,
+      "name": "Wait and Watch",
+      "color": "#3d6b7d"
+    },
+    {
+      "id": 5,
+      "name": "A widening processing chokepoint",
+      "color": "#7d6b9e"
+    },
+    {
+      "id": 6,
+      "name": "Diffused-risk and by-product minerals",
+      "color": "#2e8b57"
+    },
+    {
+      "id": 0,
+      "name": "Outlier",
+      "color": "#999999"
+    }
+  ]
+}
