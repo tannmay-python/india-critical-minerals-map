@@ -1,0 +1,20 @@
+# deps / build
+node_modules/
+dist/
+.venv/
+__pycache__/
+*.pyc
+.cache/
+# large raw downloads (MANIFEST.md is tracked)
+research/raw/**/*.pdf
+research/raw/**/*.xlsx
+research/raw/**/*.xls
+research/raw/**/*.zip
+# OS / editor
+.DS_Store
+*.swp
+.vscode/
+# QA output
+qa/screenshots/
+playwright-report/
+test-results/
