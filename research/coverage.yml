@@ -44,9 +44,12 @@ layers:
     anchor_value: 25
     source: Ministry of Mines NCMM status note
     source_date: '2026-01-10'
-    captured: 0
-    gap: 25
-    explanation: State-auction records not yet merged (registry draft of 30 rows exists; in progress).
+    captured: 25
+    gap: 0
+    explanation: 'State-route records with a preferred bidder by 10 Jan 2026, excluding copper-only blocks: MP 11, Chhattisgarh
+      6, UP 3, Jharkhand 2, Odisha 2, Maharashtra 1. Adding the Centre''s blocks in each state reproduces the note''s state
+      totals (MP 15, Chhattisgarh 10, UP 7). Copper is canonical but not in Part D, so the 14 copper-only state blocks are
+      counted separately.'
   - anchor: Exploration Licence blocks auctioned by the Centre (cumulative)
     anchor_value: 11
     source: PIB PRID 2277041
@@ -71,3 +74,12 @@ layers:
     gap: 5 / 3
     explanation: 'Non-canonical EL blocks excluded: Tranche I 2 diamond, 2 lead-zinc, 1 gold; Tranche II 2 diamond, 1 lead-zinc.
       Devkigalol-Jetpur and Harpalpur-Mahobkanth appear in both tranches (one record each).'
+  - anchor: State critical-mineral and copper blocks offered (any outcome), all channels on MSTC
+    anchor_value: no official aggregate
+    source: MSTC section listings (all sellers) and state NITs, 2018-2026
+    source_date: '2026-10-23'
+    captured: 60
+    gap: null
+    explanation: 60 state-route blocks (105 offerings). No official count of offered state blocks exists; completeness rests
+      on the full MSTC document map (336 sections, 11,427 documents) and the all-seller results pages FY2023-24 to FY2026-27.
+      States that run auctions off MSTC need a separate check (gap hunt).

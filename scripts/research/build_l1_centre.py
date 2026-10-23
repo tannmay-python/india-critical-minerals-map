@@ -47,7 +47,7 @@ STOP = (r"\b(block|blocks|mine|mineral|minerals|associated|and|the|cluster|amalg
         r"tungsten|lithium|titanium|bauxite|aluminous|laterite|nickel|chromium|pge|cobalt|manganese|copper|molybdenum|"
         r"tin|ore|iron|magnetite|ilmenite|bearing|gallium|niobium|nb|zirconium|yttrium|basemetal|cr|ni|co|final|cl|ml|"
         r"with|south|north|east|west|of|se|southeast|mbs|summary|revised|corrected|on|mineralization|mineralisation|gold|lead|zinc|pb|zn)\b")
-ID_STOP = STOP.replace("|south|north|east|west|of|se|southeast", "|of")
+ID_STOP = STOP.replace("|south|north|east|west|of|se|southeast", "|of") .replace(")\\b", "|silver)\\b")
 
 
 STATE_WORDS = r"\b(andhra pradesh|arunachal pradesh|madhya pradesh|uttar pradesh|tamil nadu|west bengal|jammu and kashmir|" \
@@ -107,15 +107,33 @@ def human_date(d):
     return f"{MONTHS[m - 1]} {y}"
 
 
+def is_centre(t):
+    return t.startswith("Centre-")
+
+
 def tranche_no(t):
-    """Centre-T5 -> 5; Centre-EL2 -> 102 (EL tranches sort after ML/CL tranches)."""
-    m = re.search(r"-(EL)?T?(\d+)$", t)
+    """Centre-T5 -> 5; Centre-EL2 -> 102. State rounds have no number (0)."""
+    m = re.search(r"^Centre-(EL)?T?(\d+)$", t)
+    if not m:
+        return 0
     return (100 if m.group(1) else 0) + int(m.group(2))
+
+
+STATE_PREFIX = {"MP": "Madhya Pradesh", "CG": "Chhattisgarh", "UP": "Uttar Pradesh", "JH": "Jharkhand", "OD": "Odisha",
+                "MH": "Maharashtra", "RJ": "Rajasthan", "KA": "Karnataka", "AP": "Andhra Pradesh"}
 
 
 def tranche_label(t):
     n = tranche_no(t)
-    return f"EL Tranche {ROMAN[n - 100]}" if n > 100 else f"Tranche {ROMAN[n]}"
+    if n > 100:
+        return f"EL Tranche {ROMAN[n - 100]}"
+    if n:
+        return f"Tranche {ROMAN[n]}"
+    pre, _, rest = t.partition("-")
+    rest = rest.replace("Phase-", "Phase ").replace("-2nd", " (second attempt)")
+    if re.fullmatch(r"\d{4}(-\d{2})?", rest):
+        return f"a {rest[:4]} state auction"
+    return f"{STATE_PREFIX.get(pre, pre)} {rest}"
 
 
 def excerpt(text, needle, before=6, after=24):
@@ -125,6 +143,43 @@ def excerpt(text, needle, before=6, after=24):
     words_b = text[:i].split()[-before:]
     words_a = text[i:].split()[:after]
     return " ".join(words_b + words_a)[:400]
+
+
+_DIST = None
+
+
+def village_geocode(village, state, district):
+    """Nominatim via scripts/research/geocode.py (state/district constrained, cached). Returns (lat, lon) or None."""
+    import subprocess
+    args = [os.path.join(ROOT, ".venv", "bin", "python"), "-I", os.path.join(ROOT, "scripts", "research", "geocode.py"),
+            village, "--state", state]
+    if district:
+        args += ["--district", re.split(r",| and |&|\(", district)[0].strip()]
+    out = subprocess.run(args, capture_output=True, text=True).stdout
+    try:
+        r = json.loads(out)
+    except json.JSONDecodeError:
+        return None
+    return (r["lat"], r["lon"]) if r.get("ok") else None
+
+
+def district_centroid(district, state):
+    """Centroid of the first named district (data/reference/districts.geojson), or None."""
+    global _DIST
+    from shapely.geometry import shape
+    if _DIST is None:
+        _DIST = json.load(open(os.path.join(ROOT, "data", "reference", "districts.geojson")))["features"]
+    first_d = re.split(r",| and |&", district)[0].strip().lower()
+    alias = {"balrampur": "balrampur", "baloda bazar": "baloda bazar", "chamrajnagar": "chamarajanagar", "shimoga": "shivamogga",
+             "angul": "anugul", "jaspur": "jashpur", "papumpare": "papum pare", "singhrauli": "singrauli", "kachchh": "kachchh", "yadgiri": "yadgir", "chittorgarh": "chittaurgarh"}
+    first_d = alias.get(first_d, first_d)
+    for ft in _DIST:
+        pr = ft["properties"]
+        if pr.get("state", "").lower() == state.lower() and pr.get("district", "").lower() == first_d:
+            g = shape(ft["geometry"])
+            c = g.centroid if g.contains(g.centroid) else g.representative_point()
+            return round(c.y, 5), round(c.x, 5)
+    return None
 
 
 def main():
@@ -206,22 +261,70 @@ def main():
 
     # MBS extracts, latest document per block key
     mbs = {}
-    for line in open(os.path.join(D, "l1-mbs-extract.jsonl")):
+    mbs_lines = list(open(os.path.join(D, "l1-mbs-extract.jsonl")))
+    for extra_mbs in ("l1-state-mbs-extract.jsonl", "l1-arch-mbs-extract.jsonl"):
+        if os.path.exists(os.path.join(D, extra_mbs)):
+            mbs_lines += list(open(os.path.join(D, extra_mbs)))
+    for line in mbs_lines:
         m = json.loads(line)
         k = key(m["title"])
-        if k and (k not in mbs or int(m["file_id"]) > int(mbs[k]["file_id"])):
+        fidn = int(m["file_id"]) if str(m["file_id"]).isdigit() else 0
+        if m.get("error"):
+            continue
+        if k and (k not in mbs or fidn > (int(mbs[k]["file_id"]) if str(mbs[k]["file_id"]).isdigit() else 0)):
             mbs[k] = m
     overrides = json.load(open(os.path.join(D, "l1-geometry-overrides.json")))
 
+    for r in csv.DictReader(open(os.path.join(D, "l1-state.csv"))):
+        rows.append(dict(r))
+    manifest = [json.loads(l) for l in open(os.path.join(ROOT, "research", "raw", "MANIFEST.jsonl"), encoding="utf-8")]
+    by_stem = {}
+    for mrec in manifest:
+        stem = os.path.basename(mrec["text_path"])
+        by_stem.setdefault(stem, mrec)
+    sources["mom-sas-2025-05-27"] = {"id": "mom-sas-2025-05-27", "url": "https://mines.gov.in/webportal/content/successful-auction-since-2015",
+        "title": "Ministry of Mines - Successful Auctions Since 2015 (500 blocks, as on 27.05.2025)", "publisher": "Ministry of Mines",
+        "tier": "T1", "date": "2025-05-27", "retrieved": TODAY,
+        "raw_path": "research/raw/mines.gov.in/mom-successful-auction-since-2015-as-on-2025-05-27.txt"}
+    for fy, slugpart in (("2023-24", "2023-2024"), ("2024-25", "2024-2025"), ("2025-26", "2025-2026"), ("2026-27", "2026-2027")):
+        sources[f"mstc-all-results-fy{fy}"] = {"id": f"mstc-all-results-fy{fy}",
+            "url": f"https://www.mstcecommerce.com/auctionhome/mlcln/mineral_auction_result.jsp?typerep=f&finYr={slugpart}&sellerRefId=0",
+            "title": f"MSTC - Mineral Block Auction Results, all sellers, FY {fy}", "publisher": "MSTC Ltd", "tier": "T1",
+            "date": TODAY, "retrieved": TODAY, "raw_path": f"research/raw/mstcecommerce.com/mstc-all-results-fy{slugpart}-2026-10-23.txt"}
+
+    def resolve_raw(sid, state, date):
+        prefix = sid[4:]
+        stem = next((k for k in sorted(by_stem) if k.startswith(prefix + "-") or k == prefix + ".txt"), None)
+        if not stem:
+            return None
+        mrec = by_stem[stem]
+        fid = re.match(r"mstc-(\d+)-", stem)
+        title = listing.get(fid.group(1), {}).get("title") if fid else None
+        if not title:
+            title = re.sub(r"^mstc-(?:[a-z]{2}-)?(?:nit|notif|mbs|corr|tech)?-?\d*-?", "", stem[:-4]).replace("-", " ").strip()
+        sources[sid] = {"id": sid, "url": mrec["url"], "title": title[:150], "publisher": f"Government of {state} (via MSTC e-auction portal)",
+                        "tier": "T1", "date": date, "retrieved": mrec.get("retrieved", TODAY), "raw_path": mrec["text_path"]}
+        return sid
+
     for r in rows:
         r["state"] = re.sub(r"\s*\(UT\)", "", r["state"]).strip()
+        r.setdefault("route", "Centre")
+        ids = []
+        for sid in (r.get("source_ids") or "").split(";"):
+            sid = sid.strip()
+            if sid.startswith("raw:"):
+                sid = resolve_raw(sid, r["state"], r.get("nit_date") or r.get("outcome_date") or TODAY) or ""
+            if sid:
+                ids.append(sid)
+        r["source_ids"] = ";".join(ids)
     groups = defaultdict(list)
     for r in rows:
-        groups[(key(r["block_name_as_printed"]), r["state"])].append(r)
+        k = r.get("merge_key") or key(r["block_name_as_printed"])
+        groups[(k, r["state"])].append(r)
 
     records, evidence = [], []
     for (k, state), offers in groups.items():
-        offers.sort(key=lambda r: (tranche_no(r["tranche"]), r["nit_date"]))
+        offers.sort(key=lambda r: (r.get("nit_date") or r.get("outcome_date") or "", tranche_no(r["tranche"])))
         last, first = offers[-1], offers[0]
         name = re.sub(r"\s+", " ", last["block_name_as_printed"]).strip()
         rid = f"blk-{ST[state]}-{slug(name)}"
@@ -255,19 +358,25 @@ def main():
             })
         lo = last["outcome"]
         status = {"Preferred bidder": "Preferred bidder", "Annulled": "Annulled", "No bids": "Annulled",
-                  "Pending": "Offered"}[lo]
+                  "Pending": "Offered", "Offered": "Re-offered" if len(offers) > 1 else "Offered"}[lo]
+        route = last.get("route") or "Centre"
+        offered_by = "the Centre" if route == "Centre" else f"the Government of {state}"
+        if len({o.get("route") or "Centre" for o in offers}) > 1:
+            offered_by = f"the Government of {state} and then the Centre"
         if lo == "Annulled" and last.get("preferred_bidder"):
             status_detail = (f"Preferred bidder ({last['preferred_bidder']}) declared in {tranche_label(last['tranche'])}, "
                              f"then the auction was annulled")
         elif status == "Preferred bidder":
             status_detail = f"{last['preferred_bidder']}, final price offer {float(last['final_offer_pct']):g}% ({tranche_label(last['tranche'])})"
-        elif status == "Offered":
+        elif lo == "Pending":
             status_detail = f"{tranche_label(last['tranche'])}: second-round e-auction pending"
+        elif lo == "Offered":
+            status_detail = f"Offered in {tranche_label(last['tranche'])}; no result published"
         else:
             reason = last.get("annulment_reason") or ("No bids received" if lo == "No bids" else "")
             status_detail = f"Annulled in {tranche_label(last['tranche'])}: {reason}".rstrip(": ")
         status_as_of = last.get("outcome_date") or last["nit_date"]
-        if status == "Offered":
+        if lo == "Pending":
             status_as_of = "2026-10-16"  # revised second-round notice for Betjharan
 
         # location
@@ -287,7 +396,15 @@ def main():
             g = shape(geom)
             c = g.centroid if g.contains(g.centroid) else g.representative_point()
             lat, lon, precision = round(c.y, 6), round(c.x, 6), "exact"
-        area = m.get("area_sq_km") if m else None
+        if not geom and village:
+            g = village_geocode(village, state, last.get("district"))
+            if g:
+                lat, lon, precision = g[0], g[1], "town"
+        if not geom and lat is None and last.get("district"):
+            c = district_centroid(last["district"], state)
+            if c:
+                lat, lon, precision = c[0], c[1], "district"
+        area = (ov.get("area_sq_km") if ov else None) or (m.get("area_sq_km") if m else None)
         if area is None and last.get("area_sq_km"):
             area = float(last["area_sq_km"])
         stage = (m.get("exploration_stage") if m else None) or last.get("exploration_stage") or None
@@ -303,12 +420,14 @@ def main():
                 sup[s].add("status")
         for s in first["source_ids"].split(";"):
             s = s.strip()
-            if s.endswith("nit") or s.endswith("nit-mbs"):
+            if s and (s.endswith("nit") or s.endswith("nit-mbs") or "-nit-" in s or s == "mom-sas-2025-05-27"
+                      or not any("nit" in x for x in first["source_ids"].split(";"))):
                 sup[s] |= {"dates.first_public", "minerals", "block.concession_type"}
         if status == "Preferred bidder":
             for s in last["source_ids"].split(";"):
-                if "results" in s or s.endswith("-pb"):
-                    sup[s.strip()].add("operator")
+                s = s.strip()
+                if s and ("results" in s or s.endswith("-pb") or s == "mom-sas-2025-05-27" or (route == "State" and "-nit-" not in s)):
+                    sup[s].add("operator")
         if ov and ov.get("source"):
             os_ = ov["source"]
             hits = glob.glob(os.path.join(RAW, f"mstc-{os_['file_id']}-*.txt"))
@@ -323,14 +442,14 @@ def main():
             mbs_sid = f"mstc-mbs-{m['file_id']}"
             sources.setdefault(mbs_sid, {"id": mbs_sid, "url": m["url"], "title": f"Mine Block Summary: {m['title']}",
                                          "publisher": "Ministry of Mines (via MSTC e-auction portal)", "tier": "T1",
-                                         "date": last["nit_date"], "retrieved": TODAY, "raw_path": m.get("raw_path")})
+                                         "date": last.get("nit_date") or last.get("outcome_date"), "retrieved": TODAY, "raw_path": m.get("raw_path")})
             sup[mbs_sid] |= {"location", "block.area_sq_km", "block.exploration_stage"}
         for s, fields in sup.items():
             if s not in sources:
                 continue
             src = sources[s]
             rec_sources.append({"id": s, "url": src["url"], "title": src["title"], "publisher": src.get("publisher") or "Ministry of Mines",
-                                "tier": src.get("tier", "T1"), "date": str(src.get("date") or last["nit_date"])[:10],
+                                "tier": src.get("tier", "T1"), "date": str(src.get("date") or last.get("nit_date") or last.get("outcome_date"))[:10],
                                 "retrieved": str(src.get("retrieved") or TODAY)[:10], "archive_url": None,
                                 "supports": sorted(fields)})
 
@@ -352,9 +471,12 @@ def main():
                        f"{float(last['final_offer_pct']):g}%." + (f" It took {n_off} attempts to auction." if n_off > 1 else ""))
         elif status == "Offered":
             sig = f"Offered in {tr_last}; the second-round e-auction was rescheduled to 26 October 2026."
+        elif lo == "Offered":
+            sig = (f"Offered {n_off} time{'s' if n_off > 1 else ''} by {offered_by}, most recently in {tr_last} "
+                   f"({human_date(last['nit_date'])}); no preferred bidder has been published.")
         else:
-            sig = (f"Offered {n_off} time{'s' if n_off > 1 else ''} by the Centre, most recently in {tr_last}, "
-                   f"and the auction was annulled ({human_date(status_as_of)}).")
+            sig = (f"Offered {n_off} time{'s' if n_off > 1 else ''} by {offered_by}, most recently in {tr_last}, "
+                   f"and the auction was annulled" + (f" ({human_date(status_as_of)})." if status_as_of else "."))
         notes = []
         if last.get("notes"):
             notes.append(last["notes"].strip())
@@ -371,14 +493,15 @@ def main():
             "commodity_as_stated": commodity, "products": [],
             "operator": last.get("preferred_bidder") if status == "Preferred bidder" else None,
             "operator_type": None, "owners": [], "partners": [],
-            "location": {"address": None, "village_or_town": village, "district": last["district"], "state": state,
+            "location": {"address": None, "village_or_town": village, "state": state,
+                         "district": last.get("district") or (re.sub(r"\s*\(.*$|,.*$", "", m["district"]).strip() if m and m.get("district") else None),
                          "country": "India", "lat": lat, "lon": lon, "precision": precision, "geometry": geom},
             "status": status, "status_as_of": status_as_of, "status_detail": status_detail,
             "capacity": {"planned": {"value": None, "unit": None, "basis": None, "phase": None},
                          "installed": {"value": None, "unit": None, "basis": None}},
             "investment": {"amount": None, "currency": None, "basis": None},
             "feedstock": None, "feedstock_detail": None, "schemes": [], "scheme_status": {},
-            "dates": {"first_public": first["nit_date"], "announced": None, "mou": None, "approved": None,
+            "dates": {"first_public": first.get("nit_date") or first.get("outcome_date"), "announced": None, "mou": None, "approved": None,
                       "construction_start": None, "original_expected_completion": None,
                       "revised_expected_completion": None, "commissioned": None, "closed": None},
             "milestones": [{"date": h["outcome_date"] or h["nit_date"],
@@ -387,10 +510,11 @@ def main():
                             "source_id": next((s for s in o["source_ids"].split(";") if s.strip() in sources), None)}
                            for h, o in zip(history, offers)],
             "narrative": {"what_it_does": what, "significance": sig},
-            "related": [], "see_also": [], "confidence": "high", "last_verified": TODAY,
+            "related": [], "see_also": [], "confidence": "medium" if (lo == "Offered" or not (last.get("district") or (m and m.get("district")))) else "high",
+            "last_verified": TODAY,
             "notes": " ".join(notes) or None,
             "sources": rec_sources,
-            "block": {"concession_type": ct, "auction_route": "Centre", "area_sq_km": area, "exploration_stage": stage,
+            "block": {"concession_type": ct, "auction_route": route, "area_sq_km": area, "exploration_stage": stage,
                       "resources": [], "resources_as_stated": (m.get("resources_snippet") if m else None)},
             "auction": {"history": history, "loi_date": None, "licence_or_lease_executed": None, "production_started": None},
         }

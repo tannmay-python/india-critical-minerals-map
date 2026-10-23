@@ -407,5 +407,42 @@
   "check": {
    "km2": 200.32
   }
+ },
+ "20205": {
+  "applies_to_titles": [
+   "Kuratiyan Copper Block"
+  ],
+  "geometry": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      74.2006,
+      26.0798
+     ],
+     [
+      74.2138,
+      26.0675
+     ],
+     [
+      74.2062,
+      26.0608
+     ],
+     [
+      74.1929,
+      26.0739
+     ],
+     [
+      74.2006,
+      26.0798
+     ]
+    ]
+   ]
+  },
+  "method": "Pillars A-D of the second table in the MBS (the document also lists the Shahpura block first). Accepted because polygon area (2.01 sq km) matches the stated 2.00 sq km.",
+  "check": {
+   "km2": 2.011
+  },
+  "area_sq_km": 2.0
  }
 }

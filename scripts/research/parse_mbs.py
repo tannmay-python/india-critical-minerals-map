@@ -185,7 +185,7 @@ def main():
         if len(r) < 5 or not container.search(r[0]):
             continue
         sec, fid, title = r[1], r[2], r[3]
-        hits = [p for p in glob.glob(os.path.join(RAWD, f"mstc-{fid}-*.txt"))]
+        hits = glob.glob(os.path.join(RAWD, f"mstc-{fid}-*.txt")) + glob.glob(os.path.join(RAWD, f"mstc-{fid}.txt"))
         out = {"listing_section": sec, "file_id": fid, "title": title, "url": r[4]}
         if not hits:
             out["error"] = "not fetched"

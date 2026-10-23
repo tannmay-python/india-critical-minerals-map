@@ -1,0 +1,194 @@
+                                                                                  
+                                                                                  
+                             MINERAL  BLOCK SUMMARY                               
+                                                                                  
+                PART A- GENERAL INFORMATION  ABOUT MINERAL  BLOCK                 
+                        BLOCK- SONRAI PHOSPHORITE BLOCK II-IV                     
+                              District- Lalitpur, Uttar Pradesh                   
+                                                                                  
+       Features                                        Details                    
+    1  Location                                                                   
+       Mineral Block                Sonrai Phosphorite Block II-IV                
+                                                                                  
+                                              In Degree Minute Seconds (DMS) Format
+                                    PILAR_ID LATITUDE   LONGITUDE  ELEVATION (M)  
+                                      C1    24° 18' 52.886" N 78° 49' 25.962" E 419.726
+                                       D    24° 18' 50.277" N 78° 49' 55.907" E 427.95
+                                       E    24° 18' 53.269" N 78° 49' 55.954" E 407.739
+                                      E1    24° 18' 53.254" N 78° 50' 8.436" E 406.454
+       Corner Points                  E2    24° 18' 53.081" N 78° 50' 56.159" E 403.019
+                                       F    24° 18' 53.277" N 78° 51' 10.581" E 400.339
+       (Latitude, Longitude)                                                      
+                                       G    24° 18' 42.232" N 78° 51' 10.804" E 404.768
+                                      G1    24° 18' 42.173" N 78° 51' 33.608" E 428.548
+                                      Q1    24° 18' 29.627" N 78° 51' 30.349" E 390.385
+                                      Q2    24° 18' 29.983" N 78° 50' 51.811" E 394.507
+                                      Q3    24° 18' 30.337" N 78° 50' 5.384" E 409.02
+                                      PB1   24° 18' 30.460" N 78° 49' 41.11" E Boundary with AMD
+                                      PB2   24° 18' 39.36" N 78° 49' 41.11" E Block
+                                      PB3   24° 18' 39.36" N 78° 49' 23.69" E     
+                                     Q-4/PB4 24° 18' 30.460"N 78° 49' 22.161"E 408.717
+       Villages                     Tori, Pisnari and Dhauri Sagar                
+       Tehsil/Taluka                Madawara                                      
+       District                     Lalitpur                                      
+       State                        Uttar Pradesh                                 
+    2  Area (Hectares)                                                            
+                                    221 Hectare (Area as per DGPS computation)    
+       Mineralised Area             32 Hectare                                    
+       Non-Mineralised Ares         189 Hectare (on surface no mineral indication)
+    3  Exploration                                                                
+       Status (G1/G2/G3/G4 Etc.)    G-2                                           
+                                                                                  
+       Exploration Agency           MECL, Nagpur                                  
+       Total Number of Boreholes with                                             
+       Meterage                      31 Nos.- 2467 meter (Drilled by MECL),       
+                                     33 Nos. – 1413.77 meter (Drilled by DGM, UP) 
+                                                                                  
+       Borehole Spacing (Density)   100M x 100M                                   
+                                                                                  
+    4  Quantity of Minerals (Gradewise)                                           
+       Mineral                      Phosphorite                                   
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                         1                                        
+                                                                                  
+                                                                                  
+                                                                                  
+
+                                                                                  
+                                                                                  
+       Total Geological Resources                                                 
+                                       SUMMARY OF GRADE WISE RESOURCE FOR PHOSPHORITE WITH
+                                        AVERAGE GRADE ESTIMATED B Y CROSS SECTIONAL METHOD
+                                                                                  
+                                              Net In-situ                         
+                                                             Average Grade (%)    
+                                               Resource                           
+                                       Grade                        Al  Fe        
+                                                                     2   2        
+                                               (Tonnes) PO % SiO %  O   O  LOI    
+                                                       2 5     2     3   3        
+                                                                    %   %         
+                                      BENEFICIABLE                                
+                                     ( 5% TO 16% P2O5 11063186.48 9.55 70.36 2.86 3.31 1.74
+                                         )                                        
+                                        SOIL                                      
+                                      RECLAMATION 3357306.75 19.91 49.44 2.39 3.03 1.80
+                                      ( 16% TO 25%                                
+                                        P2O5)                                     
+                                      BLENDABLE                                   
+                                      (25% TO 30% 1114787.81 26.92 39.44 1.03 2.35 1.07
+                                        P2O5 )                                    
+                                      CHEMICAL                                    
+                                      FERTILIZER 990598.34 33.12 24.71 0.86 1.94 0.96
+                                      ((+) 30% P2O5)                              
+                                       TOTAL  16525879.38 14.24 61.29 2.52 3.11 1.66
+                                      M. Tonnes             16.52                 
+       Avg. Grade                                   14.24 % P O                   
+                                                           2 5                    
+    5  Mineralised Zones                                                          
+       Number of Minerals Zones                          -                        
+       Total Average Thickness                           -                        
+    6  Accessibility                                                              
+       Features                                                                   
+       Nearest Rail Head            Lalitpur Railway Station                      
+       Road                         Madawara to Dhauri Sagar Road (All weather Metal Road)
+       Airport                      Bhopal, M.P., (Lalitpur airport under construction)
+    7  Hydrography                                                                
+       Local Surface Drainage (Channels) There is dendritic pattern of drainage forming few seasonal
+       Pattern                      nalas.                                        
+       Rivers/Streams               Bandai, Dhasan, Jamuni and Rohini rivers are near by
+    8  Climate                                                                    
+       Mean Annual Rainfall         The average annual rainfall in the area is 940 to 1000 mm and
+                                    average relative humidity is 58%.             
+       Temperature (December)       Minimum temperature : 18°C Maximum : 21°C     
+       Temperature (June)           Minimum Temperature: 32°C Maximum : 43°C      
+    9  Topography                                                                 
+       Toposheet Number             Survey of India Toposheet No. 54L/15          
+       Morphology of the Area       The general surface level of the flat lying regions in the map
+                                    area is 400 meter above the sea level.        
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                         2                                        
+                                                                                  
+                                                                                  
+                                                                                  
+
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+          PART B-PARTICULARS OF STATUTORY LICENCES, PERMITS, PERMISSIONS,         
+        CONCESSIONS, APPROVALS AND CONSENTS RELATED TO MINING OPERATIONS          
+                                                                                  
+                                                                                  
+       Sr. No.              PARTICULARS                    DETAILS/STATUS         
+                                                         NOC obtained and copy of 
+         1    NOC from Deportment of Atomic Energy, Government of India           
+                                                             NOC uploaded         
+                                                           To be obtained by the  
+         2    Revenue Clearance                                                   
+                                                            Preferred Bidder      
+         3    Forest Clearance                                   -do-             
+              Wild Life Clearance (Sanctuary, Reserve or Special Zone             
+         4                                                       -do-             
+              Clearance)                                                          
+         5    Environment Clearance                              -do-             
+         6    Mining Plan Approval                               -do-             
+         7    Consent to Establish                               -do-             
+                                                                                  
+         8    Explosive Licence                                  -do-             
+                                                                                  
+         9    Permission for Mine Opening                        -do-             
+        10    Permission of Installation/Trial Operation of Equipment -do-        
+                                                                                  
+        11    Ground Water Clearance (Centre/State)              -do-             
+        12    Railway Siding Approval                            -do-             
+                                                                                  
+        13    Approval for Diesel Storage                        -do-             
+        14    Power Line from State Discom                       -do-             
+                                                                                  
+              Clearance Relating to work under an existing Transmission Line      
+        15                                                       -do-             
+              or shifting of the Transmission Line                                
+        16    Gram Sabha Consent                                 -do-             
+        17    Any other clearances/approvals                     -do-             
+                                                                                  
+                                                                                  
+                         PART  C- PARTICULARS   OF  LAND                          
+                                                                                  
+                              LAND TYPE                        AREA               
+          Sr.                                                 (in Hectares)       
+                                                                                  
+          No.                                                                     
+         1    Total Concession Area                           221 Ha.             
+                                                                                  
+         2    Forest land                                    159.56 Ha.           
+                                                                                  
+         3    Non forest Government land                     19.317 Ha.           
+                                                                                  
+         4    Private land                                   42.133 Ha.           
+                                                                                  
+         5    Revenue Survey details of the area         Refer to Land Schedule   
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                         3                                        
+                                                                                  
+                                                                                  
+                                                                                  

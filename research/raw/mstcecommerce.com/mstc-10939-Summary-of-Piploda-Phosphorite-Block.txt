@@ -1,0 +1,338 @@
+                                                                                    
+                                                                                    
+                                                                                    
+                            SUMMARY  OF THE MINERAL BLOCK                           
+                                                                                    
+                      PART A - GENERAL INFORMATION ABOUT MINERAL                    
+                                       BLOCK                                        
+                 FEATURES         DETAILS                                           
+                 MINERAL BLOCK    Piploda Phosphorite block                         
+             1.  LOCATION                                                           
+                 GPS CORNER POINTS The latitude and longitude of the corner points of the
+                 (LATITUDE,       block are given below.                            
+                 LONGITUDE)                                                         
+                                    POINT ID  LATITUDE     LONGITUDE                
+                                      ID     D M    S    D   M    S                 
+                                      A     22 55  12.750 74 27  17.200             
+                                       B    22 55  28.800 74 28  26.070             
+                                       C    22 54  54.880 74 28  49.080             
+                                      D     22 54  0.000 74  28  49.080             
+                                       E    22 54  0.000 74  27  59.040             
+                                       F    22 54  2.880 74  27  59.040             
+                                      G     22 54  28.800 74 27  48.600             
+                                      H     22 54  48.600 74 27  46.080             
+                                       I    22 55  6.240 74  27  18.000             
+                 VILLAGES         Piploda Chota, Piploda Bada, Pochak, Tandladhara  
+                 TEHSIL/ TALUKA   Meghnagar Tehsil                                  
+                 DISTRICT         Jhabua                                            
+                 STATE            Madhya Pradesh                                    
+              2  AREA (HECTARES)                                                    
+                 Total Area of the Block 464 Hectares (462.5319 Hectares as per georeferenced
+                                  map based on Cadastral and 464hectares as per above
+                                  block coordinates)                                
+                 Mineralized area 112.7 Hectares                                    
+                 Non-Mineralized area 351.3 Hectares                                
+              3  EXPLORATION                                                        
+                                                                                    
+                 STATUS (G2/ G3/ G4 G4 (Piploda block is put up for CL auction)     
+                 ETC.)                                                              
+                 EXPLORATION      GEOLOGICAL SURVEY OF INDIA, SU:MP, E-5, ARERA     
+                 AGENCY           COLONY, BHOPAL – 462016                           
+                 HIGHLIGHTS OF    Remote sensing study of 500 sq. km area was carried out.
+                 REMOTE SENSING   IRS-1C (PAN) digital satellite scene (single band) was
+                                  studied using ERDAS Image Processing software. The
+                                  prominent meta-sedimentary bands (mainly quartzite,
+                                  doloRmite/dolomitic limestone) could be clearly   
+                                  distinguished from the surrounding phyllites and gneisses.
+                                  These bands of quartzite and dolomite are grey in tone
+                                  and form slightly positive topographic features. Most of
+                                  the bands extend in NNW-SSE direction.            
+                                                                                    
+                 HIGHLIGHTS OF BRS A total seven BRS samples are having more than 2%
+                 STUDY            P2O5 from Piploda block. It was observed that the 
+                                  phosphorite is confined to the dolomite and dolomitic
+                                  intercalation within the chert horizons. In some cases the
+                                  colour of the dolomite acts as a field criteria for
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                                    
+                                                                                    
+                                  delineating the phosphatic horizons e.g. the buff colored
+                                  and ochre yellow colored dolomitic bands contain in
+                                  general the low grade phosphates, whereas the grey to ash
+                                  grey loose and friable intercalations within the dolomite
+                                  contain higher grade phosphate.                   
+                 HIGHLIGHTS OF    Low Bouguer gravity anomaly and moderate to high  
+                 GEOPHYSICAL      magnetic anomaly is recorded in the proposed G4 block
+                 STUDY            (Source: GPM report).                             
+                 HIGHLIGHTS OF    P2O5 concentration recorded in stream sediment/slope wash
+                 GEOCHEMICAL      samples varies from 0.04% to 0.42% (Source: GCM report-
+                 STUDY            2013).                                            
+                 TOTAL NUMBER OF  NA                                                
+                 BOREHOLES WITH                                                     
+                 METERAGE                                                           
+                 BOREHOLE SPACING NA                                                
+                 (DENSITY)                                                          
+              4  QUANTITY OF                                                        
+                 MINERALS (GRADE                                                    
+                 WISE)                                                              
+                 MINERAL          Phosphorite                                       
+                 RESOURCES OF     Ore reserve in the adjacent area having more than 5% P2O5
+                 PHOSPHORITE IN   have been estimated block wise by S/Shri R.L. Munshi, H.H.
+                 ADJOINING BLOCKS Khan, N. Balasubramaniyan, M.K. Soni, Arun Sonakiya (1972-
+                                  1979). They have classified the blocks wise reserve into proved,
+                                  probable and possible categories as follows:      
+                                  A. Kelkua Nala-Amliyamal block:                   
+                                  Proved: 2.958 mt. (15-35%); Probable: 0.405 mt. (11.95%);
+                                  Possible: 5.86 mt. (12.63%)                       
+                                  Besides 0.787 mt. (8.82%) of Carbonatic phosphate has also
+                                  been associated in these blocks.                  
+                                  B. Kelkua block Proved: 0.272 mt. (14.46%); Probable: 0.405
+                                  mt. (16.32%)                                      
+                                  C. Khatama block Proved: 0.648 mt. (17.75%); Probable:
+                                  0.190 mt. (21.30%). Estimated for cherty phosphate.
+                                  C. Khatama North and South blocks (together) Proved: 4.715
+                                  mt. (12.28%); Probable: 2.138 mt. (12.35%); Possible: 3.789 mt.
+                                  (11.01%) have been estimated                      
+                 TOTAL GEOLOGICAL Not estimated                                     
+                 RESOURCES                                                          
+              5  MINERALISED                                                        
+                 ZONES                                                              
+                 NUMBER OF        One band comprising of dolomite and dolomitic     
+                 MINERAL ZONES    intercalation within the chert horizons           
+                 TREND  (DIP  AND NNW-SSE with dip varies from 40° to 70° due NNE to
+                 STRIKE)          SSW                                               
+                 NATURE        OF Phosphorite is confined to the dolomite and dolomitic
+                 MINERALIZATION   intercalation within the chert horizons. The part of chert that
+                                  has the embedded stromatolitic columns gives high 
+                                  phosphatic value, whereas the adjacent massive part of chert
+                                  gives very low phosphatic value. In some cases, the colour
+                                  of the dolomite acts as a field criterion for delineating the
+                                  phosphatic horizons e.g. the buff coloured and ochre yellow
+                                  coloured dolomitic bands contain in general the low grade
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                                    
+                                                                                    
+                                  phosphates, whereas the grey to ash grey loose and friable
+                                  intercalations within the dolomite contain higher grade
+                                  phosphate.                                        
+                 TOTAL THICKNESS  1-25 m and at places become 100 meters (Munshi and Khan,
+                                  1973) in the adjacent block.                      
+              6  ACCESSIBILLITY                                                     
+                 FEATURES         Physiographically, the area represents the southeastern part of
+                                  Aravalli Fold Mountain Belt. The area is characterized by
+                                  rugged and rolling topography with ridges, valleys and
+                                  pediplain. The area is drained by Anas River, Pat River, and
+                                  other ephemeral streams giving rise to dendritic drainage
+                                  pattern.                                          
+                 NEAREST RAIL HEAD Bhopal-Ratlam-Vadodara-BG Rail line              
+                 ROAD             The area is well connected by rail and roads. The area is
+                                  approachable by National Highway No. 69 (NH-69, Bhopal-
+                                  Indore-Jhabua Road) and by rail (Bhopal-Ratlam-Vadodara
+                                  Railway line). The interior parts of the area can be approached
+                                  by forest roads.                                  
+                 AIRPORT          Indore                                            
+              7  HYDROGRAPHY                                                        
+                 LOCAL SURFACE    The area is drained by Anas River, Pat River, and other
+                 DRAINAGE PATTERN ephemeral streams giving rise to dendritic drainage pattern.
+                 (CHANNELS)       The Anas is a large tributary of the Mahi River. It rises from
+                                  the south-eastern part of Jhabua district, flowing almost from
+                                  south-west to north-east direction. The northern off-shoot of
+                                  the Vindhyachal range bifurcates the Anas River at Phurtalao
+                                  hill (1770 ft.) into the northern and western branches. Most of
+                                  the river course lies in Gujarat. The Pat Nadi is a tributary of
+                                  the Anas River. It rises from the south-eastern part of Jhabua
+                                  district                                          
+                                                                                    
+                 RIVERS/ STREAMS  The area is drained by Anas River, Pat River, and other
+                                  ephemeral streams                                 
+              8  CLIMATE                                                            
+                 MEAN ANNUAL      902.85 mm                                         
+                 RAINFALL                                                           
+                 TEMPERATURE      Minimum 40 C.                                     
+                 (DECEMBER)                                                         
+                 TEMPERATURE      Temperature (annual) min max Avg: 4°C, 45°-48°C, 32°C
+                 (JUNE)                                                             
+              9  TOPOGRAPHY                                                         
+                 TOPOSHEET NUMBER 46 J/5                                            
+                 MORPHOLOGY OF    Physiographically, the area represents the southeastern part of
+                 THE AREA         Aravalli Fold Mountain Belt. The area is characterized by
+                                  rugged and rolling topography with ridges, valleys and
+                                  pediplain. The area is drained by Anas River, Pat River, and
+                                  other ephemeral streams giving rise to dendritic drainage
+                                  pattern.                                          
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+             PART B-PARTICULARS OF STATUTORY LICENCES, PERMITS, PERMISSIONS,        
+                 CONCESSIONS, APPROVALS AND CONSENTS RELATED TO MINING              
+                                      OPERATIOS                                     
+                                                                                    
+                  PARTICULARS                DETAILS/STATUS                         
+             1    FOREST CLEARANCE           TO BE OBTAINED BY THE PREFFERED        
+                                             BIDDER                                 
+             2    WILD LIFE                  TO BE OBTAINED BY THE PREFFERED        
+                  CLEARANCE(SANCTUARY,RESER  BIDDER                                 
+                  VE OR SPECIAL ZONE                                                
+                  CLEARANCE)                                                        
+             3    ENVIRONMENT CLEARANCE      TO BE OBTAINED BY THE PREFFERED        
+                                             BIDDER                                 
+             4    MINING PLAN APPROVAL       TO BE OBTAINED BY THE PREFFERED        
+                                             BIDDER                                 
+             5    CONSENT TO ESTABLISH       TO BE OBTAINED BY THE PREFFERED        
+                                             BIDDER                                 
+             6    EXPLOSIVE LICENCE          TO BE OBTAINED BY THE PREFFERED        
+                                             BIDDER                                 
+             7    PERMISSION FOR MINE OPENING TO BE OBTAINED BY THE PREFFERED       
+                                             BIDDER                                 
+             8    PERMISSION OF              TO BE OBTAINED BY THE PREFFERED        
+                  INSTALLATION/TRIAL         BIDDER                                 
+                  OPERATION OF EQUIPMENT                                            
+             9    GROUND WATER CLEARANCE     TO BE OBTAINED BY THE PREFFERED        
+                  (CENTRE/STATE)             BIDDER                                 
+             10   RAILWAY SIDING APPROVAL    TO BE OBTAINED BY THE PREFFERED        
+                                             BIDDER                                 
+             11   APPROVAL FOR DIESEL STORAGE TO BE OBTAINED BY THE PREFFERED       
+                                             BIDDER                                 
+             12   POWER LINE FROM STATE      TO BE OBTAINED BY THE PREFFERED        
+                  DISCOM                     BIDDER                                 
+             13   CLEARANCES RELATING TO     TO BE OBTAINED BY THE PREFFERED        
+                  WORK UNDER AN EXISTING     BIDDER                                 
+                  TRANSMISSION LINE OR                                              
+                  SHIFTING OF THE TRANSMISSION                                      
+                  LINE                                                              
+             14   GRAM SABHA CONSENT         TO BE OBTAINED BY THE PREFFERED        
+                                             BIDDER                                 
+             15   ANY OTHER CLEARANCES TO    TO BE OBTAINED BY THE PREFFERED        
+                  START MINING OPERATION     BIDDER                                 
+                              PART C-PARTICULARS OF LAND                            
+                                                                                    
+             S.NO.                LAND TYPE                   AREA (IN              
+                                                              HECTARES)             
+              1   TOTAL CONCESSION AREA                     464 Hectares            
+              2   FOREST LAND WITH STATUS                                           
+              3   GOVERNMENT LAND WITH STATUS                                       
+              4   PRIVATE LAND WITH STATUS                                          
+              5   CHARAGAH/PASTURE LAND (*)                                         
+              6   REVENUE SURVEY DETAILS OF THE AREA                                
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+      Fig1: Georeferenced map the Proposed Piplaoda phosphorite auction block based on Cadastral.            
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                           Fig. 2: Location of Proposed Piplaoda phosphorite auction block on Geological Map 
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+

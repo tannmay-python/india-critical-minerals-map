@@ -1,0 +1,1713 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/starter-template.css">
+<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/dataTables.bootstrap4.min.css">
+<link rel="stylesheet" href="css/sweetalert.css">
+<script src="js/sweetalert.min.js"></script>
+<script type="text/javascript" src="js/jquery-1.7.min.js"></script>
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/main.js"></script> 
+<title>Major Mineral Block Auction Results</title>
+<link href="../css/scrap_layout.css" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+	<script type="text/javascript">
+		swal("","Invalid input !!java.lang.Exception: Invalid State Selected!");
+		window.location.href = 'mineral_auction_result.jsp';
+	</script>
+	
+
+<style>
+.banner {
+    width: 100%;
+	height:150px !important;
+    background-color: #fff;
+}
+</style>
+<div class="container" >
+	<div class="banner"><img src="images/slider/mlcl_banner.jpg" class="img-fluid" /></div>
+	<div class="menubg">
+	<div class="menubar2">
+		<div id="menu">
+			<ul>
+				<li><a href="index.jsp">Home</a>|</li> 
+				<li><a href="../Layouts/about_us.html">About Us</a>|</li>
+				<li><a href="http://www.mstcindia.co.in/" >www.mstcindia.co.in</a>|</li>
+			</ul>
+		</div>
+	</div> 
+	</div>
+	<div class="middlebox">
+	<div class="">
+  <main class="page-content">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 grid-margin stretch-card mx-auto">
+          <div class="card p-2 shadow-none" style="min-height: 100vh">
+            <div class="card-body">
+              <h4 class="card-title text-uppercase text-center">Major Mineral Block Auction Results</h4>
+              <form name="bidderForm" id="bidderForm" method="post" action="mineral_auction_result.jsp">
+                <div class="col-lg-12">
+				<div class="form-group row">
+					
+						<div class="col-sm-4">
+							<label for="stateSelected">Select State:</label>
+							<select class="form-control" name="stateSelected" id="stateSelected" onchange="stateChangeFunc();" >
+							<option value="0" selected>Select</option>
+							
+								<option value="Andhra Pradesh" >Andhra Pradesh</option>
+							
+								<option value="Arunachal Pradesh" >Arunachal Pradesh</option>
+							
+								<option value="Assam" >Assam</option>
+							
+								<option value="Bihar" >Bihar</option>
+							
+								<option value="Chhattisgarh" >Chhattisgarh</option>
+							
+								<option value="Delhi" >Delhi</option>
+							
+								<option value="Goa" >Goa</option>
+							
+								<option value="Gujarat" >Gujarat</option>
+							
+								<option value="Haryana" >Haryana</option>
+							
+								<option value="Himachal Pradesh" >Himachal Pradesh</option>
+							
+								<option value="Jammu and Kashmir" >Jammu and Kashmir</option>
+							
+								<option value="Jharkhand" >Jharkhand</option>
+							
+								<option value="Karnataka" >Karnataka</option>
+							
+								<option value="Kerala" >Kerala</option>
+							
+								<option value="Ladakh" >Ladakh</option>
+							
+								<option value="Madhya Pradesh" >Madhya Pradesh</option>
+							
+								<option value="Maharashtra" >Maharashtra</option>
+							
+								<option value="Odisha" >Odisha</option>
+							
+								<option value="Rajasthan" >Rajasthan</option>
+							
+								<option value="Tamil Nadu" >Tamil Nadu</option>
+							
+								<option value="Telangana" >Telangana</option>
+							
+								<option value="Uttar Pradesh" >Uttar Pradesh</option>
+							
+								<option value="Uttarakhand" >Uttarakhand</option>
+							
+								<option value="West Bengal" >West Bengal</option>
+							
+							</select>
+						</div>
+					
+					
+					<div class="col-sm-4">
+						<input class="form-check-input" type="radio" name="typerep" id="typerep1" value="f" checked>
+						<label for="finYr">Select FY:</label>
+						<select class="form-control" for="typerep" id="finYr" name="finYr" onchange="finYrChangeFunc();">
+							<option value="0">Select</option>					
+							
+									<option value="2025-2026">2025-2026</option>
+									
+									<option value="2026-2027">2026-2027</option>
+									
+						 </select>
+					</div>
+					
+					<!-- <div class="col-sm-4">
+						<input class="form-check-input" type="radio" name="typerep" id="typerep2" value="t"  >
+						<label for="tranche">Select Tranche/Phase:</label>
+						<select class="form-control"  for="typerep" id="tranche" name="tranche" onchange="trancheChangeFunc();" style="display:none">
+							<option value="0">Select</option>					
+							
+								<option value="I">I</option>
+								
+								<option value="II">II</option>
+								
+								<option value="III">III</option>
+								
+								<option value="IV">IV</option>
+								
+								<option value="V">V</option>
+								
+								<option value="VI">VI</option>
+								
+								<option value="VII">VII</option>
+								
+								<option value="VIII">VIII</option>
+								
+								<option value="IX">IX</option>
+								
+								<option value="X">X</option>
+								
+								<option value="XI">XI</option>
+								
+								<option value="XII">XII</option>
+								
+								<option value="XIII">XIII</option>
+								
+								<option value="XIV">XIV</option>
+								
+								<option value="XV">XV</option>
+								
+								<option value="XVI">XVI</option>
+								
+								<option value="XVII">XVII</option>
+								
+								<option value="XVIII">XVIII</option>
+								
+								<option value="XIX">XIX</option>
+								
+								<option value="XX">XX</option>
+								
+								<option value="XXI">XXI</option>
+								
+								<option value="XXII">XXII</option>
+								
+								<option value="XXIII">XXIII</option>
+								
+								<option value="XXIV">XXIV</option>
+								
+								<option value="XXV">XXV</option>
+								
+								<option value="XXVI">XXVI</option>
+								
+								<option value="XXVII">XXVII</option>
+								
+								<option value="XXVIII">XXVIII</option>
+								
+								<option value="XXIX">XXIX</option>
+								
+								<option value="XXX">XXX</option>
+								
+								<option value="XXXI">XXXI</option>
+								
+								<option value="XXXII">XXXII</option>
+								
+								<option value="XXXIII">XXXIII</option>
+								
+								<option value="XXXIV">XXXIV</option>
+								
+								<option value="XXXV">XXXV</option>
+								
+								<option value="XXXVI">XXXVI</option>
+								
+								<option value="XXXVII">XXXVII</option>
+								
+								<option value="XXXVIII">XXXVIII</option>
+								
+								<option value="XXXIX">XXXIX</option>
+								
+								<option value="XL">XL</option>
+								
+						 </select>
+					</div> -->
+				</div>
+				
+					<div class="row">
+						<table class="table table-responsive table-bordered text-center">
+						<thead class="thead-light">
+							<tr>
+							  <th width="2%" scope="col">Sl. No.</th>
+							  <th width="10%" scope="col">Name of Mine Block</th>
+							  <th width="10%" scope="col">Auction Number</th>
+							  <th width="5%" scope="col">Mineral Concession<br>(ML/CL/EL)</th>
+							  <th width="10%" scope="col">Name of State</th>
+							  <th width="10%" scope="col">Date of NIT<br>(dd-mm-yyyy)</th>
+							  <th width="10%" scope="col">Auction start<br>(Date and Time)</th>
+							  <th width="10%" scope="col">Auction Close<br>(Date and Time)</th>
+							  <th width="10%" scope="col">Name of Preferred Bidder</th>
+							  <th width="3" scope="col">MSTC Registration No.</th>
+							  <th width="10%" scope="col">Final Price Offer</th>
+							</tr>
+						  </thead>
+						  <tbody>
+							  
+								<tr>
+								  <td>1</td>
+								  <td>Demo Exploration License</td>
+								  <td>MSTC/HO/MSTC Ltd/6/Demo/23-24/55611</td>
+								  <td>-</td>
+								  <td>West Bengal</td>
+								  <td>-</td>
+								  <td>28-03-2024 16:36:00</td>
+								  <td>28-03-2024 16:54:14</td>
+								  <td>NRO MLCL 2</td>
+								  <td>234545</td>
+								  <td>21.53</td>
+								</tr>
+							  
+								<tr>
+								  <td>2</td>
+								  <td>Demo MLCL</td>
+								  <td>MSTC/HO/MSTC Ltd/4/Demo/23-24/55607</td>
+								  <td>-</td>
+								  <td>West Bengal</td>
+								  <td>-</td>
+								  <td>28-03-2024 15:25:00</td>
+								  <td>28-03-2024 15:48:06</td>
+								  <td>NRO MLCL 2</td>
+								  <td>234545</td>
+								  <td>19.83</td>
+								</tr>
+							  
+								<tr>
+								  <td>3</td>
+								  <td>HPB 21 LIMESTONE KHETOLAW SARASANI NAGAUR</td>
+								  <td>MSTC/JPR/Directorate of Mines and Geology Rajasthan, Udaipur/149/Udaipur/23-24/22638</td>
+								  <td>-</td>
+								  <td>Rajasthan</td>
+								  <td>-</td>
+								  <td>13-03-2024 11:00:00</td>
+								  <td>13-03-2024 14:00:00</td>
+								  <td>Ambuja Cements Limited</td>
+								  <td>270924</td>
+								  <td>27.10</td>
+								</tr>
+							  
+								<tr>
+								  <td>4</td>
+								  <td>PSB18 LIMESTONE KHETOLAW NAGAUR</td>
+								  <td>MSTC/JPR/Directorate of Mines and Geology Rajasthan, Udaipur/148/Udaipur/23-24/22637</td>
+								  <td>-</td>
+								  <td>Rajasthan</td>
+								  <td>-</td>
+								  <td>12-03-2024 11:00:00</td>
+								  <td>12-03-2024 14:00:00</td>
+								  <td>Ambuja Cements Limited</td>
+								  <td>270924</td>
+								  <td>25.15</td>
+								</tr>
+							  
+								<tr>
+								  <td>5</td>
+								  <td>PSB17 LIMESTONE KHETOLAW NAGAUR</td>
+								  <td>MSTC/JPR/Directorate of Mines and Geology Rajasthan, Udaipur/147/Udaipur/23-24/22636</td>
+								  <td>-</td>
+								  <td>Rajasthan</td>
+								  <td>-</td>
+								  <td>11-03-2024 11:00:00</td>
+								  <td>11-03-2024 14:00:00</td>
+								  <td>Ambuja Cements Limited</td>
+								  <td>270924</td>
+								  <td>25.15</td>
+								</tr>
+							  
+								<tr>
+								  <td>6</td>
+								  <td>PSB16 LIMESTONE HARIMA NAGAUR</td>
+								  <td>MSTC/JPR/Directorate of Mines and Geology Rajasthan, Udaipur/146/Udaipur/23-24/22635</td>
+								  <td>-</td>
+								  <td>Rajasthan</td>
+								  <td>-</td>
+								  <td>07-03-2024 11:00:00</td>
+								  <td>07-03-2024 14:00:00</td>
+								  <td>Ambuja Cements Limited</td>
+								  <td>270924</td>
+								  <td>25.20</td>
+								</tr>
+							  
+								<tr>
+								  <td>7</td>
+								  <td>PSB15 LIMESTONE HARIMA NAGAUR</td>
+								  <td>MSTC/JPR/Directorate of Mines and Geology Rajasthan, Udaipur/145/Udaipur/23-24/22634</td>
+								  <td>-</td>
+								  <td>Rajasthan</td>
+								  <td>-</td>
+								  <td>06-03-2024 11:00:00</td>
+								  <td>06-03-2024 14:00:00</td>
+								  <td>Ambuja Cements Limited</td>
+								  <td>270924</td>
+								  <td>25.20</td>
+								</tr>
+							  
+								<tr>
+								  <td>8</td>
+								  <td>PSB14 LIMESTONE SARASANI NAGAUR</td>
+								  <td>MSTC/JPR/Directorate of Mines and Geology Rajasthan, Udaipur/144/Udaipur/23-24/22633</td>
+								  <td>-</td>
+								  <td>Rajasthan</td>
+								  <td>-</td>
+								  <td>05-03-2024 11:00:00</td>
+								  <td>05-03-2024 14:00:00</td>
+								  <td>Ambuja Cements Limited</td>
+								  <td>270924</td>
+								  <td>25.15</td>
+								</tr>
+							  
+								<tr>
+								  <td>9</td>
+								  <td>PSB13 LIMESTONE SARASANI NAGAUR</td>
+								  <td>MSTC/JPR/Directorate of Mines and Geology Rajasthan, Udaipur/143/Udaipur/23-24/22632</td>
+								  <td>-</td>
+								  <td>Rajasthan</td>
+								  <td>-</td>
+								  <td>04-03-2024 11:00:00</td>
+								  <td>04-03-2024 14:00:00</td>
+								  <td>Ambuja Cements Limited</td>
+								  <td>270924</td>
+								  <td>25.15</td>
+								</tr>
+							  
+								<tr>
+								  <td>10</td>
+								  <td>PSB12 LIMESTONE SARASANI NAGAUR</td>
+								  <td>MSTC/JPR/Directorate of Mines and Geology Rajasthan, Udaipur/142/Udaipur/23-24/22631</td>
+								  <td>-</td>
+								  <td>Rajasthan</td>
+								  <td>-</td>
+								  <td>01-03-2024 11:00:00</td>
+								  <td>01-03-2024 14:00:00</td>
+								  <td>Ambuja Cements Limited</td>
+								  <td>270924</td>
+								  <td>50.50</td>
+								</tr>
+							  
+								<tr>
+								  <td>11</td>
+								  <td>PSB11 LIMESTONE SARASANI NAGAUR</td>
+								  <td>MSTC/JPR/Directorate of Mines and Geology Rajasthan, Udaipur/141/Udaipur/23-24/22630</td>
+								  <td>-</td>
+								  <td>Rajasthan</td>
+								  <td>-</td>
+								  <td>29-02-2024 11:00:00</td>
+								  <td>29-02-2024 14:05:05</td>
+								  <td>Ambuja Cements Limited</td>
+								  <td>270924</td>
+								  <td>50.50</td>
+								</tr>
+							  
+								<tr>
+								  <td>12</td>
+								  <td>PSB10 LIMESTONE HARIMA NAGAUR</td>
+								  <td>MSTC/JPR/Directorate of Mines and Geology Rajasthan, Udaipur/140/Udaipur/23-24/22629</td>
+								  <td>-</td>
+								  <td>Rajasthan</td>
+								  <td>-</td>
+								  <td>28-02-2024 11:00:00</td>
+								  <td>28-02-2024 14:00:00</td>
+								  <td>Ambuja Cements Limited</td>
+								  <td>270924</td>
+								  <td>25.20</td>
+								</tr>
+							  
+								<tr>
+								  <td>13</td>
+								  <td>PSB09 LIMESTONE HARIMA NAGAUR</td>
+								  <td>MSTC/JPR/Directorate of Mines and Geology Rajasthan, Udaipur/139/Udaipur/23-24/22627</td>
+								  <td>-</td>
+								  <td>Rajasthan</td>
+								  <td>-</td>
+								  <td>27-02-2024 11:00:00</td>
+								  <td>27-02-2024 14:00:00</td>
+								  <td>Ambuja Cements Limited</td>
+								  <td>270924</td>
+								  <td>25.20</td>
+								</tr>
+							  
+								<tr>
+								  <td>14</td>
+								  <td>PSB08 LIMESTONE HARIMA NAGAUR</td>
+								  <td>MSTC/JPR/Directorate of Mines and Geology Rajasthan, Udaipur/138/Udaipur/23-24/22626</td>
+								  <td>-</td>
+								  <td>Rajasthan</td>
+								  <td>-</td>
+								  <td>26-02-2024 11:00:00</td>
+								  <td>26-02-2024 14:00:00</td>
+								  <td>Ambuja Cements Limited</td>
+								  <td>270924</td>
+								  <td>25.20</td>
+								</tr>
+							  
+								<tr>
+								  <td>15</td>
+								  <td>PSB05 LIMESTONE HARIMA NAGAUR</td>
+								  <td>MSTC/JPR/Directorate of Mines and Geology Rajasthan, Udaipur/137/Udaipur/23-24/22625</td>
+								  <td>-</td>
+								  <td>Rajasthan</td>
+								  <td>-</td>
+								  <td>23-02-2024 11:00:00</td>
+								  <td>23-02-2024 14:00:00</td>
+								  <td>Ambuja Cements Limited</td>
+								  <td>270924</td>
+								  <td>25.20</td>
+								</tr>
+							  
+								<tr>
+								  <td>16</td>
+								  <td>PSB04 LIMESTONE HARIMA NAGAUR</td>
+								  <td>MSTC/JPR/Directorate of Mines and Geology Rajasthan, Udaipur/136/Udaipur/23-24/22624</td>
+								  <td>-</td>
+								  <td>Rajasthan</td>
+								  <td>-</td>
+								  <td>22-02-2024 11:00:00</td>
+								  <td>22-02-2024 14:00:00</td>
+								  <td>Ambuja Cements Limited</td>
+								  <td>270924</td>
+								  <td>25.20</td>
+								</tr>
+							  
+								<tr>
+								  <td>17</td>
+								  <td>PSB03 LIMESTONE HARIMA NAGAUR</td>
+								  <td>MSTC/JPR/Directorate of Mines and Geology Rajasthan, Udaipur/135/Udaipur/23-24/22623</td>
+								  <td>-</td>
+								  <td>Rajasthan</td>
+								  <td>-</td>
+								  <td>21-02-2024 11:00:00</td>
+								  <td>21-02-2024 14:00:00</td>
+								  <td>Ambuja Cements Limited</td>
+								  <td>270924</td>
+								  <td>25.20</td>
+								</tr>
+							  
+								<tr>
+								  <td>18</td>
+								  <td>Karnataka Kenchanahalli Gold Block</td>
+								  <td>MSTC/BLR/Department of Mines and Geology,Karnataka/28/Bengaluru/23-24/36458</td>
+								  <td>-</td>
+								  <td>Karnataka</td>
+								  <td>-</td>
+								  <td>15-02-2024 11:00:00</td>
+								  <td>15-02-2024 13:28:12</td>
+								  <td>Aurum Geo Exploration Private Limited</td>
+								  <td>422840</td>
+								  <td>5.80</td>
+								</tr>
+							  
+								<tr>
+								  <td>19</td>
+								  <td>Barjor Gold Block</td>
+								  <td>MSTC/RPR/MINERAL RESOURCES DEPARTMENT, CHHATTISGARH/20/NAYA RAIPUR/23-24/17325</td>
+								  <td>-</td>
+								  <td>Chhattisgarh</td>
+								  <td>-</td>
+								  <td>31-01-2024 11:00:00</td>
+								  <td>31-01-2024 19:28:40</td>
+								  <td>YOGESH AGRAWAL</td>
+								  <td>446623</td>
+								  <td>36.25</td>
+								</tr>
+							  
+								<tr>
+								  <td>20</td>
+								  <td>Tumrisur Garda II Gold Block</td>
+								  <td>MSTC/RPR/MINERAL RESOURCES DEPARTMENT, CHHATTISGARH/16/NAYA RAIPUR/23-24/14171</td>
+								  <td>-</td>
+								  <td>Chhattisgarh</td>
+								  <td>-</td>
+								  <td>12-12-2023 11:00:00</td>
+								  <td>12-12-2023 18:26:09</td>
+								  <td>SHRI BAJRANG POWER AND ISPAT LIMITED</td>
+								  <td>83523</td>
+								  <td>31.60</td>
+								</tr>
+							  
+								<tr>
+								  <td>21</td>
+								  <td>Phase 4 Bharhari Iron Ore Block</td>
+								  <td>MSTC/LKO/Directorate of Geology and Mining Uttar Pardesh/14/Lucknow/23-24/35737</td>
+								  <td>-</td>
+								  <td>Uttar Pradesh</td>
+								  <td>-</td>
+								  <td>24-11-2023 11:00:00</td>
+								  <td>24-11-2023 13:00:00</td>
+								  <td>FOMENTO RESOURCES PRIVATE LIMITED</td>
+								  <td>70722</td>
+								  <td>4.80</td>
+								</tr>
+							  
+								<tr>
+								  <td>22</td>
+								  <td>Phase 4 Sonapahari Gold Block</td>
+								  <td>MSTC/LKO/Directorate of Geology and Mining Uttar Pardesh/12/Lucknow/23-24/35585</td>
+								  <td>-</td>
+								  <td>Uttar Pradesh</td>
+								  <td>-</td>
+								  <td>23-11-2023 11:00:00</td>
+								  <td>23-11-2023 15:00:29</td>
+								  <td>PROSPECT RESOURCES PRIVATE LIMITED</td>
+								  <td>131116</td>
+								  <td>40.22</td>
+								</tr>
+							  
+								<tr>
+								  <td>23</td>
+								  <td>Phase 4 Girar Iron Ore and Gold Block</td>
+								  <td>MSTC/LKO/Directorate of Geology and Mining Uttar Pardesh/13/Lucknow/23-24/35586</td>
+								  <td>-</td>
+								  <td>Uttar Pradesh</td>
+								  <td>-</td>
+								  <td>23-11-2023 11:00:00</td>
+								  <td>23-11-2023 13:00:00</td>
+								  <td>FOMENTO RESOURCES PRIVATE LIMITED</td>
+								  <td>70722</td>
+								  <td>4.05</td>
+								</tr>
+							  
+								<tr>
+								  <td>24</td>
+								  <td>Maharashtra Savali Manganese Block</td>
+								  <td>MSTC/WRO/Directorate of Geology & Mining, Nagpur/17/Cement Road/23-24/35056</td>
+								  <td>-</td>
+								  <td>Maharashtra</td>
+								  <td>-</td>
+								  <td>22-11-2023 11:00:00</td>
+								  <td>22-11-2023 13:00:00</td>
+								  <td>SHANTI GD ISPAT AND POWER PVT LTD</td>
+								  <td>76246</td>
+								  <td>3.70</td>
+								</tr>
+							  
+								<tr>
+								  <td>25</td>
+								  <td>Maharashtra Minzari-Copper Block</td>
+								  <td>MSTC/WRO/Directorate of Geology & Mining, Nagpur/16/Cement Road/23-24/35055</td>
+								  <td>-</td>
+								  <td>Maharashtra</td>
+								  <td>-</td>
+								  <td>21-11-2023 11:00:00</td>
+								  <td>21-11-2023 18:13:35</td>
+								  <td>Hindalco Industries Limited</td>
+								  <td>70748</td>
+								  <td>7.25</td>
+								</tr>
+							  
+								<tr>
+								  <td>26</td>
+								  <td>LIMESTONE HPB20 HARIMA SARASANI NAGAUR</td>
+								  <td>MSTC/JPR/Directorate of Mines and Geology Rajasthan, Udaipur/90/Udaipur/23-24/15959</td>
+								  <td>-</td>
+								  <td>Rajasthan</td>
+								  <td>-</td>
+								  <td>03-10-2023 11:00:00</td>
+								  <td>03-10-2023 14:31:58</td>
+								  <td>Ambuja Cements Limited</td>
+								  <td>270924</td>
+								  <td>29.20</td>
+								</tr>
+							  
+								<tr>
+								  <td>27</td>
+								  <td>LIMESTONE HPB 19 HARIMA KHETOLAW NAGAUR</td>
+								  <td>MSTC/JPR/Directorate of Mines and Geology Rajasthan, Udaipur/89/Udaipur/23-24/15958</td>
+								  <td>-</td>
+								  <td>Rajasthan</td>
+								  <td>-</td>
+								  <td>29-09-2023 11:00:00</td>
+								  <td>29-09-2023 15:09:37</td>
+								  <td>Shree Cement  Limited</td>
+								  <td>70586</td>
+								  <td>35.10</td>
+								</tr>
+							  
+								<tr>
+								  <td>28</td>
+								  <td>CG Giroud Uprani Glauconite Block</td>
+								  <td>MSTC/RPR/MINERAL RESOURCES DEPARTMENT, CHHATTISGARH/4/NAYA RAIPUR/23-24/14155</td>
+								  <td>-</td>
+								  <td>Chhattisgarh</td>
+								  <td>-</td>
+								  <td>27-09-2023 11:00:00</td>
+								  <td>27-09-2023 13:00:00</td>
+								  <td>NARAYANI SONS INDIA PVT LTD</td>
+								  <td>241876</td>
+								  <td>5.15</td>
+								</tr>
+							  
+								<tr>
+								  <td>29</td>
+								  <td>Karnataka Kudarka Bauxite Block</td>
+								  <td>MSTC/BLR/Department of Mines and Geology,Karnataka/16/Bengaluru/23-24/193</td>
+								  <td>-</td>
+								  <td>Karnataka</td>
+								  <td>-</td>
+								  <td>22-09-2023 11:00:00</td>
+								  <td>22-09-2023 22:46:29</td>
+								  <td>OCEAN CONSTRUCTIONS INDIA PRIVATE LIMITED</td>
+								  <td>411832</td>
+								  <td>47.00</td>
+								</tr>
+							  
+								<tr>
+								  <td>30</td>
+								  <td>Saloni Limestone Block</td>
+								  <td>MSTC/RPR/MINERAL RESOURCES DEPARTMENT, CHHATTISGARH/10/NAYA RAIPUR/23-24/14164</td>
+								  <td>-</td>
+								  <td>Chhattisgarh</td>
+								  <td>-</td>
+								  <td>21-09-2023 11:00:00</td>
+								  <td>22-09-2023 07:24:30</td>
+								  <td>STAR CEMENT MEGHALAYA LIMITED</td>
+								  <td>432288</td>
+								  <td>200.00</td>
+								</tr>
+							  
+								<tr>
+								  <td>31</td>
+								  <td>Niddodi Bauxite Block</td>
+								  <td>MSTC/BLR/Department of Mines and Geology,Karnataka/6/Bengaluru/23-24/183</td>
+								  <td>-</td>
+								  <td>Karnataka</td>
+								  <td>-</td>
+								  <td>21-09-2023 11:00:00</td>
+								  <td>21-09-2023 18:19:37</td>
+								  <td>REDSTONE TRADING CORPORATION</td>
+								  <td>360182</td>
+								  <td>52.15</td>
+								</tr>
+							  
+								<tr>
+								  <td>32</td>
+								  <td>Kareli Chandi II Limestone Block</td>
+								  <td>MSTC/RPR/MINERAL RESOURCES DEPARTMENT, CHHATTISGARH/8/NAYA RAIPUR/23-24/14161</td>
+								  <td>-</td>
+								  <td>Chhattisgarh</td>
+								  <td>-</td>
+								  <td>20-09-2023 11:00:00</td>
+								  <td>21-09-2023 01:42:32</td>
+								  <td>RUNGTA SONS PRIVATE LIMITED</td>
+								  <td>78958</td>
+								  <td>127.75</td>
+								</tr>
+							  
+								<tr>
+								  <td>33</td>
+								  <td>Devri Limestone Block</td>
+								  <td>MSTC/RPR/MINERAL RESOURCES DEPARTMENT, CHHATTISGARH/6/NAYA RAIPUR/23-24/14158</td>
+								  <td>-</td>
+								  <td>Chhattisgarh</td>
+								  <td>-</td>
+								  <td>19-09-2023 11:00:00</td>
+								  <td>19-09-2023 22:00:46</td>
+								  <td>RUNGTA SONS PRIVATE LIMITED</td>
+								  <td>78958</td>
+								  <td>141.05</td>
+								</tr>
+							  
+								<tr>
+								  <td>34</td>
+								  <td>LIMESTONE PSB07 HARIMA NAGAUR</td>
+								  <td>MSTC/JPR/Directorate of Mines and Geology Rajasthan, Udaipur/83/Udaipur/23-24/15952</td>
+								  <td>-</td>
+								  <td>Rajasthan</td>
+								  <td>-</td>
+								  <td>19-09-2023 11:00:00</td>
+								  <td>19-09-2023 14:34:34</td>
+								  <td>Ambuja Cements Limited</td>
+								  <td>270924</td>
+								  <td>26.06</td>
+								</tr>
+							  
+								<tr>
+								  <td>35</td>
+								  <td>LIMESTONE PSB06 HARIMA NAGAUR</td>
+								  <td>MSTC/JPR/Directorate of Mines and Geology Rajasthan, Udaipur/82/Udaipur/23-24/15951</td>
+								  <td>-</td>
+								  <td>Rajasthan</td>
+								  <td>-</td>
+								  <td>18-09-2023 11:00:00</td>
+								  <td>18-09-2023 17:29:38</td>
+								  <td>Ambuja Cements Limited</td>
+								  <td>270924</td>
+								  <td>38.10</td>
+								</tr>
+							  
+								<tr>
+								  <td>36</td>
+								  <td>Timmanahalli Gold Block</td>
+								  <td>MSTC/BLR/Department of Mines and Geology,Karnataka/5/Bengaluru/23-24/182</td>
+								  <td>-</td>
+								  <td>Karnataka</td>
+								  <td>-</td>
+								  <td>16-09-2023 11:00:00</td>
+								  <td>16-09-2023 14:00:00</td>
+								  <td>Oro Geo Exploration India Private Limited</td>
+								  <td>378462</td>
+								  <td>5.60</td>
+								</tr>
+							  
+								<tr>
+								  <td>37</td>
+								  <td>Makra Graphite and Vanadium Block - Betul</td>
+								  <td>MSTC/BPL/DIRECTORATE OF GEOLOGY AND MINING MP/76/BHOPAL/23-24/23297</td>
+								  <td>-</td>
+								  <td>Madhya Pradesh</td>
+								  <td>-</td>
+								  <td>14-09-2023 11:00:00</td>
+								  <td>14-09-2023 15:45:46</td>
+								  <td>Universal Industrial Equipment and Technical Services Pvt Ltd</td>
+								  <td>390464</td>
+								  <td>94.15</td>
+								</tr>
+							  
+								<tr>
+								  <td>38</td>
+								  <td>Pindrai Iron Ore Block - Katni</td>
+								  <td>MSTC/BPL/DIRECTORATE OF GEOLOGY AND MINING MP/75/BHOPAL/23-24/23296</td>
+								  <td>-</td>
+								  <td>Madhya Pradesh</td>
+								  <td>-</td>
+								  <td>14-09-2023 11:00:00</td>
+								  <td>14-09-2023 14:10:55</td>
+								  <td>SYNA STEELS PRIVATE LIMITED</td>
+								  <td>299411</td>
+								  <td>302.50</td>
+								</tr>
+							  
+								<tr>
+								  <td>39</td>
+								  <td>Modri Phosphorite Block - Khargone</td>
+								  <td>MSTC/BPL/DIRECTORATE OF GEOLOGY AND MINING MP/74/BHOPAL/23-24/23295</td>
+								  <td>-</td>
+								  <td>Madhya Pradesh</td>
+								  <td>-</td>
+								  <td>13-09-2023 11:00:00</td>
+								  <td>14-09-2023 06:58:03</td>
+								  <td>The Commodity Hub</td>
+								  <td>429150</td>
+								  <td>100.13</td>
+								</tr>
+							  
+								<tr>
+								  <td>40</td>
+								  <td>Siluwa and Jhansi Iron Ore Block - Jabalpur</td>
+								  <td>MSTC/BPL/DIRECTORATE OF GEOLOGY AND MINING MP/73/BHOPAL/23-24/23294</td>
+								  <td>-</td>
+								  <td>Madhya Pradesh</td>
+								  <td>-</td>
+								  <td>13-09-2023 11:00:00</td>
+								  <td>13-09-2023 17:23:23</td>
+								  <td>KHATRI MINERALS & MINING COMPANY </td>
+								  <td>422644</td>
+								  <td>822.55</td>
+								</tr>
+							  
+								<tr>
+								  <td>41</td>
+								  <td>Pipartola Manganese Ore Block - Balaghat</td>
+								  <td>MSTC/BPL/DIRECTORATE OF GEOLOGY AND MINING MP/72/BHOPAL/23-24/23293</td>
+								  <td>-</td>
+								  <td>Madhya Pradesh</td>
+								  <td>-</td>
+								  <td>12-09-2023 11:00:00</td>
+								  <td>12-09-2023 19:33:05</td>
+								  <td>G1 RESOURCES PRIVATE LIMITED</td>
+								  <td>306486</td>
+								  <td>267.65</td>
+								</tr>
+							  
+								<tr>
+								  <td>42</td>
+								  <td>LIMESTONE PSB02 HARIMA NAGAUR</td>
+								  <td>MSTC/JPR/Directorate of Mines and Geology Rajasthan, Udaipur/78/Udaipur/23-24/15947</td>
+								  <td>-</td>
+								  <td>Rajasthan</td>
+								  <td>-</td>
+								  <td>12-09-2023 11:00:00</td>
+								  <td>12-09-2023 16:24:35</td>
+								  <td>Ambuja Cements Limited</td>
+								  <td>270924</td>
+								  <td>30.16</td>
+								</tr>
+							  
+								<tr>
+								  <td>43</td>
+								  <td>IRON ORE BLOCK TODA SIKAR</td>
+								  <td>MSTC/JPR/Directorate of Mines and Geology Rajasthan, Udaipur/62/Udaipur/23-24/15167</td>
+								  <td>-</td>
+								  <td>Rajasthan</td>
+								  <td>-</td>
+								  <td>12-09-2023 11:00:00</td>
+								  <td>12-09-2023 14:05:49</td>
+								  <td>Emerald Buildhome Private Limited</td>
+								  <td>345427</td>
+								  <td>66.00</td>
+								</tr>
+							  
+								<tr>
+								  <td>44</td>
+								  <td>Lingaponar Manganese Ore Block - Balaghat</td>
+								  <td>MSTC/BPL/DIRECTORATE OF GEOLOGY AND MINING MP/71/BHOPAL/23-24/23292</td>
+								  <td>-</td>
+								  <td>Madhya Pradesh</td>
+								  <td>-</td>
+								  <td>11-09-2023 11:00:00</td>
+								  <td>11-09-2023 23:05:53</td>
+								  <td>Jindal Steel Limited</td>
+								  <td>82377</td>
+								  <td>87.00</td>
+								</tr>
+							  
+								<tr>
+								  <td>45</td>
+								  <td>LIMESTONE PSB01 HARIMA NAGAUR</td>
+								  <td>MSTC/JPR/Directorate of Mines and Geology Rajasthan, Udaipur/77/Udaipur/23-24/15946</td>
+								  <td>-</td>
+								  <td>Rajasthan</td>
+								  <td>-</td>
+								  <td>11-09-2023 11:00:00</td>
+								  <td>11-09-2023 17:26:26</td>
+								  <td>Ambuja Cements Limited</td>
+								  <td>270924</td>
+								  <td>36.05</td>
+								</tr>
+							  
+								<tr>
+								  <td>46</td>
+								  <td>Pahari Limestone Block - Satna</td>
+								  <td>MSTC/BPL/DIRECTORATE OF GEOLOGY AND MINING MP/69/BHOPAL/23-24/23290</td>
+								  <td>-</td>
+								  <td>Madhya Pradesh</td>
+								  <td>-</td>
+								  <td>11-09-2023 11:00:00</td>
+								  <td>11-09-2023 17:17:23</td>
+								  <td>Indu Ahluwalia</td>
+								  <td>302237</td>
+								  <td>20.10</td>
+								</tr>
+							  
+								<tr>
+								  <td>47</td>
+								  <td>Nawapara Rampura Manganese Ore Block - Jhabua</td>
+								  <td>MSTC/BPL/DIRECTORATE OF GEOLOGY AND MINING MP/70/BHOPAL/23-24/23291</td>
+								  <td>-</td>
+								  <td>Madhya Pradesh</td>
+								  <td>-</td>
+								  <td>11-09-2023 11:00:00</td>
+								  <td>11-09-2023 14:23:25</td>
+								  <td>JAI BHOLE ENTERPRISES</td>
+								  <td>432716</td>
+								  <td>200.00</td>
+								</tr>
+							  
+								<tr>
+								  <td>48</td>
+								  <td>Doter Guvali Manganese Ore Block - Jhabua</td>
+								  <td>MSTC/BPL/DIRECTORATE OF GEOLOGY AND MINING MP/67/BHOPAL/23-24/23288</td>
+								  <td>-</td>
+								  <td>Madhya Pradesh</td>
+								  <td>-</td>
+								  <td>09-09-2023 11:00:00</td>
+								  <td>10-09-2023 20:11:00</td>
+								  <td>M/S. SHREE VINAYAK MINERALS</td>
+								  <td>411212</td>
+								  <td>391.30</td>
+								</tr>
+							  
+								<tr>
+								  <td>49</td>
+								  <td>Shitalpani Copper Block - Balaghat</td>
+								  <td>MSTC/BPL/DIRECTORATE OF GEOLOGY AND MINING MP/68/BHOPAL/23-24/23289</td>
+								  <td>-</td>
+								  <td>Madhya Pradesh</td>
+								  <td>-</td>
+								  <td>09-09-2023 11:00:00</td>
+								  <td>10-09-2023 00:44:21</td>
+								  <td>The Commodity Hub</td>
+								  <td>429150</td>
+								  <td>22.10</td>
+								</tr>
+							  
+								<tr>
+								  <td>50</td>
+								  <td>Garhi-Upcha Limestone Block - Sheopur</td>
+								  <td>MSTC/BPL/DIRECTORATE OF GEOLOGY AND MINING MP/65/BHOPAL/23-24/23286</td>
+								  <td>-</td>
+								  <td>Madhya Pradesh</td>
+								  <td>-</td>
+								  <td>09-09-2023 11:00:00</td>
+								  <td>09-09-2023 21:53:20</td>
+								  <td>ULTRATECH CEMENT LIMITED</td>
+								  <td>70415</td>
+								  <td>153.05</td>
+								</tr>
+							  
+								<tr>
+								  <td>51</td>
+								  <td>Dhamani Nana Manganese Ore Block - Jhabua</td>
+								  <td>MSTC/BPL/DIRECTORATE OF GEOLOGY AND MINING MP/62/BHOPAL/23-24/23283</td>
+								  <td>-</td>
+								  <td>Madhya Pradesh</td>
+								  <td>-</td>
+								  <td>08-09-2023 11:00:00</td>
+								  <td>08-09-2023 20:57:41</td>
+								  <td>GLOBAL FLY ASH INDIA</td>
+								  <td>382508</td>
+								  <td>955.05</td>
+								</tr>
+							  
+								<tr>
+								  <td>52</td>
+								  <td>Katangjhari Manganese Ore Block - Balaghat</td>
+								  <td>MSTC/BPL/DIRECTORATE OF GEOLOGY AND MINING MP/63/BHOPAL/23-24/23284</td>
+								  <td>-</td>
+								  <td>Madhya Pradesh</td>
+								  <td>-</td>
+								  <td>08-09-2023 11:00:00</td>
+								  <td>08-09-2023 19:13:35</td>
+								  <td>The Commodity Hub</td>
+								  <td>429150</td>
+								  <td>7.40</td>
+								</tr>
+							  
+								<tr>
+								  <td>53</td>
+								  <td>East of Dabri Limestone Block - Dhar</td>
+								  <td>MSTC/BPL/DIRECTORATE OF GEOLOGY AND MINING MP/60/BHOPAL/23-24/23281</td>
+								  <td>-</td>
+								  <td>Madhya Pradesh</td>
+								  <td>-</td>
+								  <td>08-09-2023 11:00:00</td>
+								  <td>08-09-2023 17:13:15</td>
+								  <td>Shree Cement  Limited</td>
+								  <td>70586</td>
+								  <td>141.15</td>
+								</tr>
+							  
+								<tr>
+								  <td>54</td>
+								  <td>Naganwat Chhoti Manganese Block - Jhabua</td>
+								  <td>MSTC/BPL/DIRECTORATE OF GEOLOGY AND MINING MP/64/BHOPAL/23-24/23285</td>
+								  <td>-</td>
+								  <td>Madhya Pradesh</td>
+								  <td>-</td>
+								  <td>08-09-2023 11:00:00</td>
+								  <td>08-09-2023 14:52:09</td>
+								  <td>JAI BHOLE ENTERPRISES</td>
+								  <td>432716</td>
+								  <td>54.05</td>
+								</tr>
+							  
+								<tr>
+								  <td>55</td>
+								  <td>Chorgadi-Puraina Limestone Block - Rewa</td>
+								  <td>MSTC/BPL/DIRECTORATE OF GEOLOGY AND MINING MP/57/BHOPAL/23-24/23278</td>
+								  <td>-</td>
+								  <td>Madhya Pradesh</td>
+								  <td>-</td>
+								  <td>06-09-2023 11:00:00</td>
+								  <td>06-09-2023 18:22:14</td>
+								  <td>Ambuja Cements Limited</td>
+								  <td>270924</td>
+								  <td>90.95</td>
+								</tr>
+							  
+								<tr>
+								  <td>56</td>
+								  <td>Uberao Manganese Ore Block - Jhabua</td>
+								  <td>MSTC/BPL/DIRECTORATE OF GEOLOGY AND MINING MP/59/BHOPAL/23-24/23280</td>
+								  <td>-</td>
+								  <td>Madhya Pradesh</td>
+								  <td>-</td>
+								  <td>06-09-2023 11:00:00</td>
+								  <td>06-09-2023 13:00:00</td>
+								  <td>BHASWAR ASSOCIATES</td>
+								  <td>321604</td>
+								  <td>11.10</td>
+								</tr>
+							  
+								<tr>
+								  <td>57</td>
+								  <td>Bhilapar Manganese Ore and Dolomite Block - Chhindwara</td>
+								  <td>MSTC/BPL/DIRECTORATE OF GEOLOGY AND MINING MP/54/BHOPAL/23-24/23275</td>
+								  <td>-</td>
+								  <td>Madhya Pradesh</td>
+								  <td>-</td>
+								  <td>05-09-2023 11:00:00</td>
+								  <td>06-09-2023 00:40:04</td>
+								  <td>M/S. SHREE VINAYAK MINERALS</td>
+								  <td>411212</td>
+								  <td>22790.00</td>
+								</tr>
+							  
+								<tr>
+								  <td>58</td>
+								  <td>Bamanbardi Limestone Block - Dhar</td>
+								  <td>MSTC/BPL/DIRECTORATE OF GEOLOGY AND MINING MP/52/BHOPAL/23-24/23273</td>
+								  <td>-</td>
+								  <td>Madhya Pradesh</td>
+								  <td>-</td>
+								  <td>05-09-2023 11:00:00</td>
+								  <td>05-09-2023 23:00:37</td>
+								  <td>Shree Cement  Limited</td>
+								  <td>70586</td>
+								  <td>125.00</td>
+								</tr>
+							  
+								<tr>
+								  <td>59</td>
+								  <td>Guvali Manganese Ore Block - Jhabua</td>
+								  <td>MSTC/BPL/DIRECTORATE OF GEOLOGY AND MINING MP/55/BHOPAL/23-24/23276</td>
+								  <td>-</td>
+								  <td>Madhya Pradesh</td>
+								  <td>-</td>
+								  <td>05-09-2023 11:00:00</td>
+								  <td>05-09-2023 13:18:02</td>
+								  <td>ALKHNANDA STONE CRUSHER</td>
+								  <td>432576</td>
+								  <td>51.00</td>
+								</tr>
+							  
+								<tr>
+								  <td>60</td>
+								  <td>Katni Limestone Block - Satna</td>
+								  <td>MSTC/BPL/DIRECTORATE OF GEOLOGY AND MINING MP/53/BHOPAL/23-24/23274</td>
+								  <td>-</td>
+								  <td>Madhya Pradesh</td>
+								  <td>-</td>
+								  <td>05-09-2023 11:00:00</td>
+								  <td>05-09-2023 13:00:00</td>
+								  <td>Indu Ahluwalia</td>
+								  <td>302237</td>
+								  <td>5.15</td>
+								</tr>
+							  
+								<tr>
+								  <td>61</td>
+								  <td>Piploda Phosphorite Block - Jhabua</td>
+								  <td>MSTC/BPL/DIRECTORATE OF GEOLOGY AND MINING MP/56/BHOPAL/23-24/23277</td>
+								  <td>-</td>
+								  <td>Madhya Pradesh</td>
+								  <td>-</td>
+								  <td>05-09-2023 11:00:00</td>
+								  <td>05-09-2023 13:00:00</td>
+								  <td>AURO NATURAL RESOURCES PRIVATE LIMITED </td>
+								  <td>318793</td>
+								  <td>40.25</td>
+								</tr>
+							  
+								<tr>
+								  <td>62</td>
+								  <td>CL of Basemetal Bhabhriya Ka kheda</td>
+								  <td>MSTC/JPR/Directorate of Mines and Geology Rajasthan, Udaipur/42/Udaipur/23-24/14769</td>
+								  <td>-</td>
+								  <td>Rajasthan</td>
+								  <td>-</td>
+								  <td>01-09-2023 11:00:00</td>
+								  <td>01-09-2023 14:00:00</td>
+								  <td>SMO FERRO ALLOYS PRIVATE LIMITED</td>
+								  <td>343194</td>
+								  <td>3.81</td>
+								</tr>
+							  
+								<tr>
+								  <td>63</td>
+								  <td>BASE METAL LADANA BLOCK</td>
+								  <td>MSTC/JPR/Directorate of Mines and Geology Rajasthan, Udaipur/41/Udaipur/23-24/14768</td>
+								  <td>-</td>
+								  <td>Rajasthan</td>
+								  <td>-</td>
+								  <td>31-08-2023 11:30:00</td>
+								  <td>31-08-2023 14:00:00</td>
+								  <td>SMO FERRO ALLOYS PRIVATE LIMITED</td>
+								  <td>343194</td>
+								  <td>3.81</td>
+								</tr>
+							  
+								<tr>
+								  <td>64</td>
+								  <td>IRON ORE KALAKOTA BLOCK</td>
+								  <td>MSTC/JPR/Directorate of Mines and Geology Rajasthan, Udaipur/40/Udaipur/23-24/14767</td>
+								  <td>-</td>
+								  <td>Rajasthan</td>
+								  <td>-</td>
+								  <td>29-08-2023 11:00:00</td>
+								  <td>29-08-2023 17:24:33</td>
+								  <td>Emerald Buildhome Private Limited</td>
+								  <td>345427</td>
+								  <td>275.00</td>
+								</tr>
+							  
+								<tr>
+								  <td>65</td>
+								  <td>IRON ORE LADI KA BAS</td>
+								  <td>MSTC/JPR/Directorate of Mines and Geology Rajasthan, Udaipur/39/Udaipur/23-24/14766</td>
+								  <td>-</td>
+								  <td>Rajasthan</td>
+								  <td>-</td>
+								  <td>28-08-2023 11:00:00</td>
+								  <td>28-08-2023 16:57:30</td>
+								  <td>SPONGE SALES (INDIA) P LTD</td>
+								  <td>425935</td>
+								  <td>145.65</td>
+								</tr>
+							  
+								<tr>
+								  <td>66</td>
+								  <td>BASEMETAL MANPURA</td>
+								  <td>MSTC/JPR/Directorate of Mines and Geology Rajasthan, Udaipur/30/Udaipur/23-24/11526</td>
+								  <td>-</td>
+								  <td>Rajasthan</td>
+								  <td>-</td>
+								  <td>28-08-2023 11:00:00</td>
+								  <td>28-08-2023 14:00:00</td>
+								  <td>SMO FERRO ALLOYS PRIVATE LIMITED</td>
+								  <td>343194</td>
+								  <td>3.81</td>
+								</tr>
+							  
+								<tr>
+								  <td>67</td>
+								  <td>BASEMETAL PIPLIYAN KHURD</td>
+								  <td>MSTC/JPR/Directorate of Mines and Geology Rajasthan, Udaipur/29/Udaipur/23-24/11525</td>
+								  <td>-</td>
+								  <td>Rajasthan</td>
+								  <td>-</td>
+								  <td>25-08-2023 11:00:00</td>
+								  <td>25-08-2023 14:00:00</td>
+								  <td>SMO FERRO ALLOYS PRIVATE LIMITED</td>
+								  <td>343194</td>
+								  <td>3.81</td>
+								</tr>
+							  
+								<tr>
+								  <td>68</td>
+								  <td>BASEMETAL KHAKHLIYA KHERA</td>
+								  <td>MSTC/JPR/Directorate of Mines and Geology Rajasthan, Udaipur/28/Udaipur/23-24/11524</td>
+								  <td>-</td>
+								  <td>Rajasthan</td>
+								  <td>-</td>
+								  <td>24-08-2023 11:00:00</td>
+								  <td>24-08-2023 14:00:00</td>
+								  <td>SMO FERRO ALLOYS PRIVATE LIMITED</td>
+								  <td>343194</td>
+								  <td>3.81</td>
+								</tr>
+							  
+								<tr>
+								  <td>69</td>
+								  <td>Jaisinghpura North Block Iron Ore</td>
+								  <td>MSTC/BLR/Department of Mines and Geology,Karnataka/22/Bengaluru/23-24/7213</td>
+								  <td>-</td>
+								  <td>Karnataka</td>
+								  <td>-</td>
+								  <td>21-08-2023 11:00:00</td>
+								  <td>22-08-2023 16:06:45</td>
+								  <td>JSW STEEL LIMITED</td>
+								  <td>70737</td>
+								  <td>150.30</td>
+								</tr>
+							  
+								<tr>
+								  <td>70</td>
+								  <td>Karnataka Basavangudda Gold Block</td>
+								  <td>MSTC/BLR/Department of Mines and Geology,Karnataka/61/Bengaluru/22-23/37878</td>
+								  <td>-</td>
+								  <td>Karnataka</td>
+								  <td>-</td>
+								  <td>21-08-2023 11:00:00</td>
+								  <td>22-08-2023 00:52:08</td>
+								  <td>R K TRANSPORT CO</td>
+								  <td>73676</td>
+								  <td>21.60</td>
+								</tr>
+							  
+								<tr>
+								  <td>71</td>
+								  <td>Baraiburu  Tatiba  Iron and  Manganese Ore  Block</td>
+								  <td>MSTC/RNC/DEPARTMENT OF MINES AND GEOLOGY/7/Jharkhand/23-24/6159</td>
+								  <td>-</td>
+								  <td>Jharkhand</td>
+								  <td>-</td>
+								  <td>18-08-2023 11:00:00</td>
+								  <td>18-08-2023 15:47:12</td>
+								  <td>RUNGTA MINES LIMITED</td>
+								  <td>70732</td>
+								  <td>122.00</td>
+								</tr>
+							  
+								<tr>
+								  <td>72</td>
+								  <td>MERALGARA BARABALJORI IRON ORE BLOCK</td>
+								  <td>MSTC/RNC/DEPARTMENT OF MINES AND GEOLOGY/9/Jharkhand/23-24/6162</td>
+								  <td>-</td>
+								  <td>Jharkhand</td>
+								  <td>-</td>
+								  <td>10-08-2023 11:00:00</td>
+								  <td>10-08-2023 17:15:32</td>
+								  <td>AGRASEN SPONGE PRIVATE LIMITED</td>
+								  <td>131042</td>
+								  <td>250.10</td>
+								</tr>
+							  
+								<tr>
+								  <td>73</td>
+								  <td>Block no 4 H R Gaviappa 2483 Iron Ore</td>
+								  <td>MSTC/BLR/Department of Mines and Geology,Karnataka/20/Bengaluru/23-24/827</td>
+								  <td>-</td>
+								  <td>Karnataka</td>
+								  <td>-</td>
+								  <td>24-07-2023 11:00:00</td>
+								  <td>24-07-2023 14:23:32</td>
+								  <td>Ramamurthy Praveen Chandra</td>
+								  <td>380640</td>
+								  <td>149.10</td>
+								</tr>
+							  
+								<tr>
+								  <td>74</td>
+								  <td>Virpur-Lusari Block</td>
+								  <td>MSTC/VAD/Commissioner of Geology and Mining/6/Udyog Bhavan Gandhinagar/23-24/16261</td>
+								  <td>-</td>
+								  <td>Gujarat</td>
+								  <td>-</td>
+								  <td>20-07-2023 11:00:00</td>
+								  <td>20-07-2023 13:00:00</td>
+								  <td>KISHORBHAI KAMBARIYA</td>
+								  <td>194450</td>
+								  <td>5.05</td>
+								</tr>
+							  
+								<tr>
+								  <td>75</td>
+								  <td>Kodidra Block</td>
+								  <td>MSTC/VAD/Commissioner of Geology and Mining/4/Udyog Bhavan Gandhinagar/23-24/16257</td>
+								  <td>-</td>
+								  <td>Gujarat</td>
+								  <td>-</td>
+								  <td>19-07-2023 11:00:00</td>
+								  <td>19-07-2023 13:15:32</td>
+								  <td>Ambuja Cements Limited</td>
+								  <td>270924</td>
+								  <td>5.95</td>
+								</tr>
+							  
+								<tr>
+								  <td>76</td>
+								  <td>Nandana Block</td>
+								  <td>MSTC/VAD/Commissioner of Geology and Mining/5/Udyog Bhavan Gandhinagar/23-24/16259</td>
+								  <td>-</td>
+								  <td>Gujarat</td>
+								  <td>-</td>
+								  <td>19-07-2023 11:00:00</td>
+								  <td>19-07-2023 13:00:00</td>
+								  <td>L AND S COMPANY</td>
+								  <td>394599</td>
+								  <td>5.05</td>
+								</tr>
+							  
+								<tr>
+								  <td>77</td>
+								  <td>Kukaras Block -Private</td>
+								  <td>MSTC/VAD/Commissioner of Geology and Mining/3/Udyog Bhavan Gandhinagar/23-24/16256</td>
+								  <td>-</td>
+								  <td>Gujarat</td>
+								  <td>-</td>
+								  <td>18-07-2023 11:00:00</td>
+								  <td>18-07-2023 13:11:03</td>
+								  <td>Ambuja Cements Limited</td>
+								  <td>270924</td>
+								  <td>5.80</td>
+								</tr>
+							  
+								<tr>
+								  <td>78</td>
+								  <td>Mevasa Block-1</td>
+								  <td>MSTC/VAD/Commissioner of Geology and Mining/1/Udyog Bhavan Gandhinagar/23-24/16254</td>
+								  <td>-</td>
+								  <td>Gujarat</td>
+								  <td>-</td>
+								  <td>18-07-2023 11:00:00</td>
+								  <td>18-07-2023 13:00:00</td>
+								  <td>MANISHA NIRMALBHAI SAMANI</td>
+								  <td>406619</td>
+								  <td>5.06</td>
+								</tr>
+							  
+								<tr>
+								  <td>79</td>
+								  <td>Mevasa Block</td>
+								  <td>MSTC/VAD/Commissioner of Geology and Mining/2/Udyog Bhavan Gandhinagar/23-24/16255</td>
+								  <td>-</td>
+								  <td>Gujarat</td>
+								  <td>-</td>
+								  <td>18-07-2023 11:00:00</td>
+								  <td>18-07-2023 13:00:00</td>
+								  <td>L AND S COMPANY</td>
+								  <td>394599</td>
+								  <td>5.05</td>
+								</tr>
+							  
+								<tr>
+								  <td>80</td>
+								  <td>IRON ORE BLOCK NYORANA DHANDELA</td>
+								  <td>MSTC/JPR/Directorate of Mines and Geology Rajasthan, Udaipur/21/Udaipur/23-24/7368</td>
+								  <td>-</td>
+								  <td>Rajasthan</td>
+								  <td>-</td>
+								  <td>11-07-2023 11:00:00</td>
+								  <td>11-07-2023 14:00:00</td>
+								  <td>PACIFIC INDUSTRIES LIMITED</td>
+								  <td>227852</td>
+								  <td>40.05</td>
+								</tr>
+							  
+								<tr>
+								  <td>81</td>
+								  <td>LIMESTONE BLOCK HARIYAV JASPURA</td>
+								  <td>MSTC/JPR/Directorate of Mines and Geology Rajasthan, Udaipur/20/Udaipur/23-24/7367</td>
+								  <td>-</td>
+								  <td>Rajasthan</td>
+								  <td>-</td>
+								  <td>10-07-2023 11:00:00</td>
+								  <td>10-07-2023 21:26:29</td>
+								  <td>UDAIPUR CEMENT WORKS LIMITED</td>
+								  <td>411833</td>
+								  <td>134.95</td>
+								</tr>
+							  
+								<tr>
+								  <td>82</td>
+								  <td>CG North of Arjunda Glauconite Block</td>
+								  <td>MSTC/RPR/MINERAL RESOURCES DEPARTMENT, CHHATTISGARH/2/NAYA RAIPUR/23-24/4517</td>
+								  <td>-</td>
+								  <td>Chhattisgarh</td>
+								  <td>-</td>
+								  <td>04-07-2023 11:00:00</td>
+								  <td>04-07-2023 13:00:00</td>
+								  <td>PODDAR DIAMOND PRIVATE LIMITED</td>
+								  <td>383319</td>
+								  <td>2.09</td>
+								</tr>
+							  
+								<tr>
+								  <td>83</td>
+								  <td>Maharashtra Kondhala-Limestone Block</td>
+								  <td>MSTC/WRO/Directorate of Geology & Mining, Nagpur/9/Cement Road/23-24/5631</td>
+								  <td>-</td>
+								  <td>Maharashtra</td>
+								  <td>-</td>
+								  <td>18-05-2023 11:00:00</td>
+								  <td>18-05-2023 17:42:44</td>
+								  <td>Shree Cement  Limited</td>
+								  <td>70586</td>
+								  <td>27.00</td>
+								</tr>
+							  
+								<tr>
+								  <td>84</td>
+								  <td>Maharashtra Surjagad 6 Iron Ore block</td>
+								  <td>MSTC/WRO/Directorate of Geology & Mining, Nagpur/8/Cement Road/23-24/5629</td>
+								  <td>-</td>
+								  <td>Maharashtra</td>
+								  <td>-</td>
+								  <td>17-05-2023 11:00:00</td>
+								  <td>17-05-2023 23:36:56</td>
+								  <td>Sunflag Iron and Steel Company Limited</td>
+								  <td>70909</td>
+								  <td>118.45</td>
+								</tr>
+							  
+								<tr>
+								  <td>85</td>
+								  <td>Maharashtra Surjagad 5 Iron Ore block</td>
+								  <td>MSTC/WRO/Directorate of Geology & Mining, Nagpur/7/Cement Road/23-24/5628</td>
+								  <td>-</td>
+								  <td>Maharashtra</td>
+								  <td>-</td>
+								  <td>16-05-2023 11:00:00</td>
+								  <td>16-05-2023 19:21:03</td>
+								  <td>Omsairam Steels and Alloys Pvt Ltd</td>
+								  <td>245994</td>
+								  <td>102.58</td>
+								</tr>
+							  
+								<tr>
+								  <td>86</td>
+								  <td>Maharashtra Surjagad 4 Iron Ore block</td>
+								  <td>MSTC/WRO/Directorate of Geology & Mining, Nagpur/6/Cement Road/23-24/5626</td>
+								  <td>-</td>
+								  <td>Maharashtra</td>
+								  <td>-</td>
+								  <td>12-05-2023 11:00:00</td>
+								  <td>12-05-2023 20:38:45</td>
+								  <td>JSW STEEL LIMITED</td>
+								  <td>70247</td>
+								  <td>131.05</td>
+								</tr>
+							  
+								<tr>
+								  <td>87</td>
+								  <td>Maharashtra Surjagad 3 Iron Ore block</td>
+								  <td>MSTC/WRO/Directorate of Geology & Mining, Nagpur/5/Cement Road/23-24/5625</td>
+								  <td>-</td>
+								  <td>Maharashtra</td>
+								  <td>-</td>
+								  <td>11-05-2023 11:00:00</td>
+								  <td>11-05-2023 20:24:39</td>
+								  <td>Omsairam Steels and Alloys Pvt Ltd</td>
+								  <td>245994</td>
+								  <td>115.10</td>
+								</tr>
+							  
+								<tr>
+								  <td>88</td>
+								  <td>Maharashtra Surjagad 2 Iron Ore block</td>
+								  <td>MSTC/WRO/Directorate of Geology & Mining, Nagpur/4/Cement Road/23-24/5620</td>
+								  <td>-</td>
+								  <td>Maharashtra</td>
+								  <td>-</td>
+								  <td>10-05-2023 11:00:00</td>
+								  <td>11-05-2023 01:12:02</td>
+								  <td>Universal Industrial Equipment and Technical Services Pvt Ltd</td>
+								  <td>390464</td>
+								  <td>139.75</td>
+								</tr>
+							  
+								<tr>
+								  <td>89</td>
+								  <td>Maharashtra Surjagad 1 Iron Ore block</td>
+								  <td>MSTC/WRO/Directorate of Geology & Mining, Nagpur/1/Cement Road/23-24/5602</td>
+								  <td>-</td>
+								  <td>Maharashtra</td>
+								  <td>-</td>
+								  <td>09-05-2023 11:00:00</td>
+								  <td>10-05-2023 01:32:04</td>
+								  <td>NATURAL RESOURCES ENERGY PRIVATE LIMITED</td>
+								  <td>380851</td>
+								  <td>126.35</td>
+								</tr>
+							  
+								<tr>
+								  <td>90</td>
+								  <td>Maharashtra Devalmari Katepalli</td>
+								  <td>MSTC/WRO/Directorate of Geology & Mining, Nagpur/2/Cement Road/23-24/5617</td>
+								  <td>-</td>
+								  <td>Maharashtra</td>
+								  <td>-</td>
+								  <td>09-05-2023 11:00:00</td>
+								  <td>09-05-2023 13:00:00</td>
+								  <td>Ambuja Cements Limited</td>
+								  <td>270924</td>
+								  <td>7.55</td>
+								</tr>
+							  
+								<tr>
+								  <td>91</td>
+								  <td>Maharashtra South Padve-Bauxite Block</td>
+								  <td>MSTC/WRO/Directorate of Geology & Mining, Nagpur/3/Cement Road/23-24/5618</td>
+								  <td>-</td>
+								  <td>Maharashtra</td>
+								  <td>-</td>
+								  <td>09-05-2023 11:00:00</td>
+								  <td>09-05-2023 13:00:00</td>
+								  <td>SOCIEDADE DE FOMENTO INDUSTRIAL PRIVATE LIMITED</td>
+								  <td>108539</td>
+								  <td>2.15</td>
+								</tr>
+							  
+								<tr>
+								  <td>92</td>
+								  <td>Block IX-Surla-Sonshi Mineral Block</td>
+								  <td>MSTC/WRO/THE DIRECTOR OF MINES/5/PANAJI/23-24/3865</td>
+								  <td>-</td>
+								  <td>Goa</td>
+								  <td>-</td>
+								  <td>28-04-2023 11:00:00</td>
+								  <td>28-04-2023 18:27:37</td>
+								  <td>JSW STEEL LIMITED</td>
+								  <td>70247</td>
+								  <td>109.80</td>
+								</tr>
+							  
+								<tr>
+								  <td>93</td>
+								  <td>Block VIII-Thivim-Pirna Mineral Block</td>
+								  <td>MSTC/WRO/THE DIRECTOR OF MINES/4/PANAJI/23-24/3862</td>
+								  <td>-</td>
+								  <td>Goa</td>
+								  <td>-</td>
+								  <td>27-04-2023 11:00:00</td>
+								  <td>27-04-2023 16:39:25</td>
+								  <td>K A I INTERNATIONAL PRIVATE LIMITED</td>
+								  <td>130969</td>
+								  <td>100.12</td>
+								</tr>
+							  
+								<tr>
+								  <td>94</td>
+								  <td>Block VII-Cudnem Mineral Block</td>
+								  <td>MSTC/WRO/THE DIRECTOR OF MINES/3/PANAJI/23-24/3856</td>
+								  <td>-</td>
+								  <td>Goa</td>
+								  <td>-</td>
+								  <td>26-04-2023 11:00:00</td>
+								  <td>26-04-2023 16:41:48</td>
+								  <td>Vedanta Limited</td>
+								  <td>70822</td>
+								  <td>93.15</td>
+								</tr>
+							  
+								<tr>
+								  <td>95</td>
+								  <td>Block VI- Cudnem-Cormolem Mineral Block</td>
+								  <td>MSTC/WRO/THE DIRECTOR OF MINES/2/PANAJI/23-24/3849</td>
+								  <td>-</td>
+								  <td>Goa</td>
+								  <td>-</td>
+								  <td>25-04-2023 11:00:00</td>
+								  <td>25-04-2023 17:19:43</td>
+								  <td>JSW STEEL LIMITED</td>
+								  <td>70247</td>
+								  <td>96.65</td>
+								</tr>
+							  
+								<tr>
+								  <td>96</td>
+								  <td>Block V- Advalpale-Thivim Mineral Block</td>
+								  <td>MSTC/WRO/THE DIRECTOR OF MINES/1/PANAJI/23-24/3758</td>
+								  <td>-</td>
+								  <td>Goa</td>
+								  <td>-</td>
+								  <td>21-04-2023 11:00:00</td>
+								  <td>21-04-2023 15:01:10</td>
+								  <td>FOMENTO RESOURCES PRIVATE LIMITED</td>
+								  <td>70722</td>
+								  <td>58.85</td>
+								</tr>
+							  
+								<tr>
+								  <td>97</td>
+								  <td>Chiropat Bauxite</td>
+								  <td>MSTC/RNC/DEPARTMENT OF MINES AND GEOLOGY/1/Jharkhand/23-24/1</td>
+								  <td>-</td>
+								  <td>Jharkhand</td>
+								  <td>-</td>
+								  <td>20-04-2023 11:00:00</td>
+								  <td>20-04-2023 13:00:00</td>
+								  <td>MAA KUDARGARHI STEELS PRIVATE LIMITED</td>
+								  <td>108239</td>
+								  <td>13.05</td>
+								</tr>
+							  
+						  </tbody>
+						</table>
+					 </div>
+				
+                </div>
+				<input type="hidden" name="sellerRefId" id="sellerRefId" value="0">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+
+	<div class="blnkspc"></div>     
+	<div class="blnkspc"></div>       
+	<!--footer-->
+	<div class="foot_below">
+		<div class="foot_txt">Copyright&copy;MSTC Limited</div>
+	</div>
+	</div>
+</div>
+<script>
+$(document).ready(function(){
+var typeRepVal = $('input[name="typerep"]:checked').val();
+	if (typeRepVal == 't') {
+		$("#typerep1").prop("checked", false);
+		$("#tranche").css("display","");
+		$("#finYr").css("display","none"); 
+	}else{
+		$("#typerep2").prop("checked", false);
+		$("#tranche").css("display","none");
+		$("#finYr").css("display",""); 
+	}
+});
+function stateChangeFunc(){
+	$('#finYr').val('0');
+	$('#tranche').val('0');     
+}
+$( 'input[name="typerep"]:radio' ).on('change', function() {
+	var typeRepVal = $('input[name="typerep"]:checked').val();
+	if (typeRepVal == 't') {
+		$("#typerep1").prop("checked", false);
+		$("#tranche").css("display","");
+		$("#finYr").css("display","none"); 
+	}else{
+		$("#typerep2").prop("checked", false);
+		$("#tranche").css("display","none");
+		$("#finYr").css("display",""); 
+	}
+	$('#finYr').val('0');
+	$('#tranche').val('0');  
+});		
+function finYrChangeFunc(){
+	if($('#stateSelected').val() == "0"){
+		swal("","Please Select State !!");
+		$('#stateSelected').focus();
+		return false;
+	}
+	
+	var typeSelected = false
+	if($("#typerep").prop("checked") == true){
+		typeSelected = true;
+	}
+	
+	var typerep=$('#typerep').val();
+	
+	if(typeSelected==true & typerep=='f'){
+		if($('#finYr').val() == "0"){
+			swal("","Please Select Financial Year !!");
+			$('#finYr').focus();
+			return false;
+		}
+	}
+	$('#bidderForm').submit();
+}
+function trancheChangeFunc(){
+	
+	if($('#stateSelected').val() == "0"){
+		swal("","Please Select State !!");
+		$('#stateSelected').focus();
+		return false;
+	}
+	var typeSelected = false
+	if($("#typerep").prop("checked") == true){
+		typeSelected = true;
+	}
+	var typerep=$('#typerep').val();
+	if(typeSelected==true & typerep=='t' ){
+		if($('#tranche').val() == "0"){
+			swal("","Please Select Tranche/Phase !!");
+			$('#finYr').focus();
+			return false;
+		}
+	}
+	$('#bidderForm').submit();
+}
+</script>
+</body> 
+</html> 
