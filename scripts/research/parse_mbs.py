@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Extract key fields from MSTC Mine Block Summary (MBS) raw texts.
 
-Usage: parse_mbs.py LISTING.tsv > research/drafts/l1-mbs-extract.jsonl
+Usage: parse_mbs.py LISTING.tsv [CONTAINER_REGEX] > research/drafts/l1-mbs-extract.jsonl
 LISTING.tsv is research/raw/mstcecommerce.com/mstc-mlcl-listing-*.tsv (from mstc_listing.py).
 For each 'Mine Block Summary' row (container 429) it opens research/raw/mstcecommerce.com/mstc-<FILE_ID>-*.txt
 and extracts, by regex over the RAW text:
@@ -180,8 +180,9 @@ def extract(path):
 
 def main():
     rows = [l.rstrip("\n").split("\t") for l in open(sys.argv[1], encoding="utf-8")]
+    container = re.compile(sys.argv[2] if len(sys.argv) > 2 else r"429\.html$")
     for r in rows:
-        if len(r) < 5 or "429" not in r[0]:
+        if len(r) < 5 or not container.search(r[0]):
             continue
         sec, fid, title = r[1], r[2], r[3]
         hits = [p for p in glob.glob(os.path.join(RAWD, f"mstc-{fid}-*.txt"))]

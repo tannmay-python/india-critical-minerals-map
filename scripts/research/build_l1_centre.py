@@ -46,12 +46,18 @@ STOP = (r"\b(block|blocks|mine|mineral|minerals|associated|and|the|cluster|amalg
         r"glauconitic|ree|rm|rare|earth|element|elements|metal|metals|phosphorite|phosphate|rock|limestone|potash|halite|"
         r"tungsten|lithium|titanium|bauxite|aluminous|laterite|nickel|chromium|pge|cobalt|manganese|copper|molybdenum|"
         r"tin|ore|iron|magnetite|ilmenite|bearing|gallium|niobium|nb|zirconium|yttrium|basemetal|cr|ni|co|final|cl|ml|"
-        r"with|south|north|east|west|of|se|southeast|mbs|summary|revised|corrected|on)\b")
+        r"with|south|north|east|west|of|se|southeast|mbs|summary|revised|corrected|on|mineralization|mineralisation|gold|lead|zinc|pb|zn)\b")
 ID_STOP = STOP.replace("|south|north|east|west|of|se|southeast", "|of")
+
+
+STATE_WORDS = r"\b(andhra pradesh|arunachal pradesh|madhya pradesh|uttar pradesh|tamil nadu|west bengal|jammu and kashmir|" \
+    r"karnataka|kerala|rajasthan|gujarat|gujrat|odisha|orissa|bihar|jharkhand|chhattisgarh|chattishgarh|maharashtra|maharastra|" \
+    r"telangana|punjab|uttarakhand|goa|assam|exploration|el|licence|license)\b"
 
 
 def key(name):
     s = name.lower().replace("&", " ").replace("_", " ").replace("(", " ").replace(")", " ")
+    s = re.sub(STATE_WORDS, " ", s)
     s = re.sub(r"^\s*\d+\s*[.)]?\s*", "", s)
     s = re.sub(STOP, " ", s)
     return re.sub(r"[^a-z]+", "", s)
@@ -61,6 +67,7 @@ def slug(name):
     s = name.lower().replace("&", " ").replace("_", " ").replace("(", " ").replace(")", " ")
     s = re.sub(r"^\s*\d+\s*[.)]?\s*", "", s)
     s = re.sub(ID_STOP, " ", s)
+    s = re.sub(STATE_WORDS, " ", s)
     s = re.sub(r"[^a-z]+", "-", s).strip("-")
     return re.sub(r"-{2,}", "-", s)
 
@@ -101,7 +108,14 @@ def human_date(d):
 
 
 def tranche_no(t):
-    return int(t.split("T")[-1])
+    """Centre-T5 -> 5; Centre-EL2 -> 102 (EL tranches sort after ML/CL tranches)."""
+    m = re.search(r"-(EL)?T?(\d+)$", t)
+    return (100 if m.group(1) else 0) + int(m.group(2))
+
+
+def tranche_label(t):
+    n = tranche_no(t)
+    return f"EL Tranche {ROMAN[n - 100]}" if n > 100 else f"Tranche {ROMAN[n]}"
 
 
 def excerpt(text, needle, before=6, after=24):
@@ -116,11 +130,12 @@ def excerpt(text, needle, before=6, after=24):
 def main():
     sources = {s["id"]: s for s in yaml.safe_load(open(os.path.join(D, "l1-centre-sources.yml")))}
     listing = {}
-    lst = sorted(glob.glob(os.path.join(RAW, "mstc-mlcl-listing-*.tsv")))[-1]
-    for line in open(lst, encoding="utf-8"):
-        f = line.rstrip("\n").split("\t")
-        if len(f) >= 5:
-            listing[f[2]] = {"section": f[1], "title": f[3], "url": f[4], "container": f[0]}
+    for lst in (sorted(glob.glob(os.path.join(RAW, "mstc-all-sections-*.tsv")))[-1:] +
+                sorted(glob.glob(os.path.join(RAW, "mstc-mlcl-listing-*.tsv")))[-1:]):
+        for line in open(lst, encoding="utf-8"):
+            f = line.rstrip("\n").split("\t")
+            if len(f) >= 5 and f[2] != "?":
+                listing[f[2]] = {"section": f[1], "title": f[3], "url": f[4], "container": f[0]}
 
     def raw_path(fid):
         hits = glob.glob(os.path.join(RAW, f"mstc-{fid}-*.txt"))
@@ -138,6 +153,18 @@ def main():
     mk("mstc-t8-nit", "27316", "GoI MoM - Tranche VIII - Notice Inviting Tender", "2026-07-15")
     mk("mstc-t8-notice-2026-10-13", "28594", "Tranche VIII - Notice: intimation to TQBs, opening of IPO, annulment and second round of e-auction", "2026-10-13")
     mk("mstc-t8-betjharan-revised", "28621", "Revised notice: second round of e-auction of Betjharan Titanium, Vanadium and Iron Ore Block", "2026-10-16")
+    mk("mstc-el1-nit", "19563", "GoI MoM - EL - Tranche I - Notice Inviting Tender", "2025-03-13")
+    mk("mstc-el1-blocks", "20090", "Details of 13 Blocks of EL in Tranche I (GSI presentation)", "2025-03-13")
+    mk("mstc-el1-tqb", "22108", "EL Tranche I - Notice regarding intimation to TQBs, opening of IPO and second round of e-auction", "2025-08-12")
+    mk("mstc-el1-pb", "22686", "Notice for Preferred Bidder Declaration of 07 Exploration Blocks under Tranche I", "2025-09-16")
+    mk("mstc-el2-nit", "25192", "GoI MoM - EL - Tranche II - Notice Inviting Tender", "2026-02-12")
+    mk("mstc-el2-annulment", "26954", "GoI MoM - EL - Tranche II - Auction Annulment Notice", "2026-06-19")
+    for fy, slugpart in (("2025-26", "2025-2026"), ("2026-27", "2026-2027")):
+        url = f"https://www.mstcecommerce.com/auctionhome/mlcln/mineral_auction_result.jsp?typerep=f&finYr={slugpart}&sellerRefId=41731"
+        sources[f"mstc-results-el-fy{fy}"] = {"id": f"mstc-results-el-fy{fy}", "url": url,
+            "title": f"MSTC - Exploration Licence Block Auction Results, FY {fy} (Ministry of Mines)", "publisher": "MSTC Ltd",
+            "tier": "T1", "date": TODAY, "retrieved": TODAY,
+            "raw_path": f"research/raw/mstcecommerce.com/mstc-el-results-fy{slugpart}-r2026-10-23b.txt"}
     for fy, slugpart in (("2025-26", "2025-2026"), ("2026-27", "2026-2027")):
         url = f"https://www.mstcecommerce.com/auctionhome/mlcln/mineral_auction_result.jsp?typerep=f&finYr={slugpart}&sellerRefId=31608"
         sources[f"mstc-results-cm-fy{fy}"] = {"id": f"mstc-results-cm-fy{fy}", "url": url,
@@ -146,8 +173,8 @@ def main():
             "raw_path": f"research/raw/mstcecommerce.com/mstc-cm-results-fy{slugpart}-r2026-10-23b.txt"}
 
     # Results page rows (preferred bidder, final offer, auction close)
-    results = [r for r in csv.DictReader(open(os.path.join(D, "l1-mstc-results.csv"))) if "cm-results" in r["file"]
-               and "mock" not in r["block"].lower()]
+    results = [r for r in csv.DictReader(open(os.path.join(D, "l1-mstc-results.csv")))
+               if "mock" not in r["block"].lower()]
     res_by_key = defaultdict(list)
     for r in results:
         res_by_key[(key(r["block"]), r["state"].lower())].append(r)
@@ -160,10 +187,15 @@ def main():
     rows = []
     for r in csv.DictReader(open(os.path.join(D, "l1-centre-registry.csv"))):
         rows.append(dict(r, attempt=None))
-    for r in csv.DictReader(open(os.path.join(D, "l1-centre-t6-t8.csv"))):
+    extra = list(csv.DictReader(open(os.path.join(D, "l1-centre-t6-t8.csv")))) + \
+        list(csv.DictReader(open(os.path.join(D, "l1-centre-el.csv"))))
+    for r in extra:
         r = dict(r)
         hits = res_by_key.get((key(r["block_name_as_printed"]), r["state"].lower()), [])
-        hits = [h for h in hits if dmy(h["nit_date"]) == r["nit_date"]]
+        is_el = r["concession_type"] == "EL"
+        hits = [h for h in hits if (("el-results" in h["file"]) == is_el) and (dmy(h["nit_date"]) in (r["nit_date"], None))]
+        if len(hits) > 1:
+            hits = [h for h in hits if dmy(h["nit_date"]) == r["nit_date"]] or hits
         if r["outcome"] == "Preferred bidder":
             assert len(hits) == 1, (r["block_name_as_printed"], hits)
             h = hits[0]
@@ -194,6 +226,10 @@ def main():
         name = re.sub(r"\s+", " ", last["block_name_as_printed"]).strip()
         rid = f"blk-{ST[state]}-{slug(name)}"
         m = mbs.get(k)
+        if m is None and k:
+            from rapidfuzz import fuzz, process
+            hit = process.extractOne(k, list(mbs), scorer=fuzz.ratio, score_cutoff=90)
+            m = mbs[hit[0]] if hit else None  # spelling variants, e.g. Dumrimunda / Dumurimunda
         ov = None
         if m and m["file_id"] in overrides:
             ov = overrides[m["file_id"]]
@@ -221,15 +257,15 @@ def main():
         status = {"Preferred bidder": "Preferred bidder", "Annulled": "Annulled", "No bids": "Annulled",
                   "Pending": "Offered"}[lo]
         if lo == "Annulled" and last.get("preferred_bidder"):
-            status_detail = (f"Preferred bidder ({last['preferred_bidder']}) declared in Tranche {ROMAN[tranche_no(last['tranche'])]}, "
+            status_detail = (f"Preferred bidder ({last['preferred_bidder']}) declared in {tranche_label(last['tranche'])}, "
                              f"then the auction was annulled")
         elif status == "Preferred bidder":
-            status_detail = f"{last['preferred_bidder']}, final price offer {float(last['final_offer_pct']):g}% (Tranche {ROMAN[tranche_no(last['tranche'])]})"
+            status_detail = f"{last['preferred_bidder']}, final price offer {float(last['final_offer_pct']):g}% ({tranche_label(last['tranche'])})"
         elif status == "Offered":
-            status_detail = f"Tranche {ROMAN[tranche_no(last['tranche'])]}: second-round e-auction pending"
+            status_detail = f"{tranche_label(last['tranche'])}: second-round e-auction pending"
         else:
             reason = last.get("annulment_reason") or ("No bids received" if lo == "No bids" else "")
-            status_detail = f"Annulled in Tranche {ROMAN[tranche_no(last['tranche'])]}: {reason}".rstrip(": ")
+            status_detail = f"Annulled in {tranche_label(last['tranche'])}: {reason}".rstrip(": ")
         status_as_of = last.get("outcome_date") or last["nit_date"]
         if status == "Offered":
             status_as_of = "2026-10-16"  # revised second-round notice for Betjharan
@@ -301,13 +337,19 @@ def main():
         n_off = len(offers)
         ct = last["concession_type"]
         kind = {"CL": "composite licence", "ML": "mining lease", "EL": "exploration licence"}[ct]
-        what = (f"A {area:.2f} sq km block offered for a {kind}, for {commodity.lower()}, in {last['district']} district, {state}"
+        art = "an" if kind[0] in "aeiou" else "a"
+        dword = "districts" if re.search(r" and |,", last["district"]) else "district"
+        what = (f"A {area:.2f} sq km block offered for {art} {kind}, for {commodity.lower()}, in {last['district']} {dword}, {state}"
                 + (f", explored to {stage} level." if stage else ".")) if area else \
-               f"A block offered for a {kind}, for {commodity.lower()}, in {last['district']} district, {state}."
-        tr_last = f"Tranche {ROMAN[tranche_no(last['tranche'])]}"
+               f"A block offered for {art} {kind}, for {commodity.lower()}, in {last['district']} {dword}, {state}."
+        tr_last = f"{tranche_label(last['tranche'])}"
         if status == "Preferred bidder":
-            sig = (f"{last['preferred_bidder']} won it in {tr_last} ({human_date(status_as_of)}) with a final price offer of "
-                   f"{float(last['final_offer_pct']):g}%." + (f" It took {n_off} attempts to auction." if n_off > 1 else ""))
+            if ct == "EL":
+                sig = (f"{last['preferred_bidder']} won the exploration licence in {tr_last} ({human_date(status_as_of)}) with the lowest "
+                       f"final price offer, {float(last['final_offer_pct']):g}% (exploration-licence auctions are reverse auctions).")
+            else:
+                sig = (f"{last['preferred_bidder']} won it in {tr_last} ({human_date(status_as_of)}) with a final price offer of "
+                       f"{float(last['final_offer_pct']):g}%." + (f" It took {n_off} attempts to auction." if n_off > 1 else ""))
         elif status == "Offered":
             sig = f"Offered in {tr_last}; the second-round e-auction was rescheduled to 26 October 2026."
         else:
@@ -340,7 +382,7 @@ def main():
                       "construction_start": None, "original_expected_completion": None,
                       "revised_expected_completion": None, "commissioned": None, "closed": None},
             "milestones": [{"date": h["outcome_date"] or h["nit_date"],
-                            "event": f"{h['tranche'].replace('Centre-T', 'Tranche ')}: {h['outcome'].lower()}"
+                            "event": f"{tranche_label(h['tranche'])}: {h['outcome'].lower()}"
                                      + (f" ({h['preferred_bidder']}, {h['final_offer_pct']:g}%)" if h["preferred_bidder"] and h["final_offer_pct"] is not None else ""),
                             "source_id": next((s for s in o["source_ids"].split(";") if s.strip() in sources), None)}
                            for h, o in zip(history, offers)],

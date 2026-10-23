@@ -11,7 +11,8 @@ for path in sys.argv[1:]:
     for m in re.finditer(r'(?is)<a[^>]+href="(download_docs\.jsp\?FILE_ID=[^"]+)"[^>]*>(.*?)</a>|>\s*([^<>\s][^<>]{2,79}?)\s*(?=<)', h):
         if m.group(1):
             href = H.unescape(m.group(1))
-            fid = re.match(r"download_docs\.jsp\?FILE_ID=(\d+)", href).group(1)
+            fm = re.match(r"download_docs\.jsp\?FILE_ID=([^_&]+)", href)
+            fid = fm.group(1) if fm else "?"
             title = re.sub(r"\s+", " ", H.unescape(re.sub(r"<[^>]+>", "", m.group(2)))).strip()
             url = "https://www.mstcecommerce.com/auctionhome/" + urllib.parse.quote(href, safe="?=&/._-")
             print(f"{path.split('/')[-1]}\t{section}\t{fid}\t{title}\t{url}")

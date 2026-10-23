@@ -335,5 +335,77 @@
    "title": "Corrigendum 1 to Tender Document: Biarpalli Graphite and Manganese Block (corrected corner points)",
    "date": "2023-12-13"
   }
+ },
+ "25201": {
+  "applies_to_titles": [
+   "Chinna Kodur REE Exploration Block"
+  ],
+  "geometry": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      78.8652778,
+      18.2372222
+     ],
+     [
+      78.9522222,
+      18.2372222
+     ],
+     [
+      78.9522222,
+      18.0213889
+     ],
+     [
+      78.8652778,
+      18.0213889
+     ],
+     [
+      78.8652778,
+      18.2372222
+     ]
+    ]
+   ]
+  },
+  "method": "Corner points A-D of the MBS (village coordinates listed in the same table excluded). Accepted because polygon area (221.00 sq km) matches the stated 219.89 sq km.",
+  "check": {
+   "km2": 221.0
+  }
+ },
+ "19570": {
+  "applies_to_titles": [
+   "Taramba-Dalbhanga Gold and Copper Exploration Block"
+  ],
+  "geometry": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      85.595,
+      22.967
+     ],
+     [
+      85.75,
+      22.967
+     ],
+     [
+      85.75,
+      22.855
+     ],
+     [
+      85.5949444,
+      22.8525944
+     ],
+     [
+      85.595,
+      22.967
+     ]
+    ]
+   ]
+  },
+  "method": "OCR (macOS Vision) of the MBS corner table A-D. Accepted because polygon area (200.32 sq km) matches the stated 199.31 sq km.",
+  "check": {
+   "km2": 200.32
+  }
  }
 }

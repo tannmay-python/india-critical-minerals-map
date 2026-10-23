@@ -76,10 +76,10 @@
     closed: null
   milestones:
   - date: '2024-06-21'
-    event: "Tranche 2: annulled"
+    event: "Tranche II: annulled"
     source_id: mstc-t2-nit
   - date: '2024-10-22'
-    event: "Tranche 4: preferred bidder (Hindustan Zinc Limited, 6.55%)"
+    event: "Tranche IV: preferred bidder (Hindustan Zinc Limited, 6.55%)"
     source_id: mstc-t4-nit
   narrative:
     what_it_does: A 3.08 sq km block offered for a composite licence, for tungsten and associated minerals (mo,
@@ -285,7 +285,7 @@
     closed: null
   milestones:
   - date: '2026-10-16'
-    event: "Tranche 8: preferred bidder (Kalinga Resources Limited, 105.6%)"
+    event: "Tranche VIII: preferred bidder (Kalinga Resources Limited, 105.6%)"
     source_id: mstc-t8-nit
   narrative:
     what_it_does: A 3.97 sq km block offered for a composite licence, for molybdenum, in Kurnool district, Andhra
@@ -435,7 +435,7 @@
     closed: null
   milestones:
   - date: '2026-01-28'
-    event: "Tranche 6: preferred bidder (VNR Minerals LLP, 60.05%)"
+    event: "Tranche VI: preferred bidder (VNR Minerals LLP, 60.05%)"
     source_id: mstc-t6-nit
   narrative:
     what_it_does: A 1.06 sq km block offered for a composite licence, for cobalt and manganese, in Vizianagaram
@@ -503,6 +503,170 @@
       preferred_bidder: VNR Minerals LLP
       final_offer_pct: 60.05
       reserve_price: "2.00%"
+    loi_date: null
+    licence_or_lease_executed: null
+    production_started: null
+- id: blk-ap-ontillu-chandragiri
+  name: Ontillu-Chandragiri REE Exploration Block
+  aliases: []
+  layer: blocks
+  stages:
+  - Exploration
+  minerals:
+  - Rare earths (unspecified)
+  commodity_as_stated: REE
+  products: []
+  operator: Coal India Limited
+  operator_type: null
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Tirupati town is about 20 km to the east of the block while
+    district: Tirupati and Chittoor
+    state: Andhra Pradesh
+    country: India
+    lat: 13.499277
+    lon: 79.265175
+    precision: exact
+    geometry:
+      type: Polygon
+      coordinates:
+      - - - 79.16
+          - 13.46
+        - - 79.312
+          - 13.601
+        - - 79.368
+          - 13.534
+        - - 79.22
+          - 13.4
+        - - 79.16
+          - 13.46
+  status: Preferred bidder
+  status_as_of: '2025-08-13'
+  status_detail: "Coal India Limited, final price offer 0.05% (EL Tranche I)"
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2025-03-13'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: '2025-08-13'
+    event: "EL Tranche I: preferred bidder (Coal India Limited, 0.05%)"
+    source_id: mstc-el1-nit
+  narrative:
+    what_it_does: A 209.62 sq km block offered for an exploration licence, for ree, in Tirupati and Chittoor districts,
+      Andhra Pradesh, explored to G4 level.
+    significance: "Coal India Limited won the exploration licence in EL Tranche I (August 2025) with the lowest\
+      \ final price offer, 0.05% (exploration-licence auctions are reverse auctions)."
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-23'
+  notes: "EL auctions are reverse auctions: the preferred bidder quotes the lowest share of the auction premium.\
+    \ Letter of intent / licence execution status not yet checked (see OPEN_QUESTIONS)."
+  sources:
+  - id: mstc-el1-nit
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=19563_GoI%20MoM%20-%20EL%20-%20Tranche%20I%20-%20Notice%20Inviting%20Tender.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: GoI MoM - EL - Tranche I - Notice Inviting Tender
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2025-03-13'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+    - status
+  - id: mstc-el1-blocks
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=20090_2.%20Details%20of%2013%20Blocks%20of%20EL%20in%20Tranche%20I.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: Details of 13 Blocks of EL in Tranche I (GSI presentation)
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2025-03-13'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - status
+  - id: mstc-el1-pb
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=22686_GOI_Notice%20for%20Preferred%20Bidder%20Declaration%20of%2007%20Exploration%20Blocks%20under%20Tranche%20I.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: Notice for Preferred Bidder Declaration of 07 Exploration Blocks under Tranche I
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2025-09-16'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - operator
+    - status
+  - id: mstc-results-el-fy2025-26
+    url: "https://www.mstcecommerce.com/auctionhome/mlcln/mineral_auction_result.jsp?typerep=f&finYr=2025-2026&sellerRefId=41731"
+    title: MSTC - Exploration Licence Block Auction Results, FY 2025-26 (Ministry of Mines)
+    publisher: MSTC Ltd
+    tier: T1
+    date: '2026-10-23'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - operator
+    - status
+  - id: mstc-mbs-19576
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=19576_1.%20MBS_Block_Ontillu-Chandragiri_REE_Andhra%20Pradesh.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: "Mine Block Summary: 1. MBS_Block_Ontillu-Chandragiri_REE_Andhra Pradesh"
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2025-03-13'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - block.area_sq_km
+    - block.exploration_stage
+    - location
+  block:
+    concession_type: EL
+    auction_route: Centre
+    area_sq_km: 209.62
+    exploration_stage: G4
+    resources: []
+    resources_as_stated: null
+  auction:
+    history:
+    - tranche: Centre-EL1
+      nit_date: '2025-03-13'
+      outcome: Preferred bidder
+      outcome_date: '2025-08-13'
+      annulment_reason: null
+      preferred_bidder: Coal India Limited
+      final_offer_pct: 0.05
+      reserve_price: null
     loi_date: null
     licence_or_lease_executed: null
     production_started: null
@@ -576,7 +740,7 @@
     closed: null
   milestones:
   - date: '2026-10-13'
-    event: "Tranche 8: annulled"
+    event: "Tranche VIII: annulled"
     source_id: mstc-t8-nit
   narrative:
     what_it_does: A 1.05 sq km block offered for a composite licence, for graphite, in Alluri Sitharama Raju district,
@@ -716,10 +880,10 @@
     closed: null
   milestones:
   - date: '2024-06-21'
-    event: "Tranche 2: no bids"
+    event: "Tranche II: no bids"
     source_id: mstc-t2-nit
   - date: '2024-10-18'
-    event: "Tranche 4: preferred bidder (Vedanta Limited, 2.55%)"
+    event: "Tranche IV: preferred bidder (Vedanta Limited, 2.55%)"
     source_id: mstc-t4-nit
   narrative:
     what_it_does: A 1.05 sq km block offered for a composite licence, for vanadium, graphite (amorphous), in Papumpare
@@ -922,7 +1086,7 @@
     closed: null
   milestones:
   - date: '2024-10-23'
-    event: "Tranche 4: preferred bidder (Mamco Mining Private Limited, 237.5%)"
+    event: "Tranche IV: preferred bidder (Mamco Mining Private Limited, 237.5%)"
     source_id: mstc-t4-nit
   narrative:
     what_it_does: A 5.03 sq km block offered for a composite licence, for graphite, in Uppar Dibang Valley district,
@@ -1079,10 +1243,10 @@
     closed: null
   milestones:
   - date: '2024-06-21'
-    event: "Tranche 2: no bids"
+    event: "Tranche II: no bids"
     source_id: mstc-t2-nit
   - date: '2024-11-26'
-    event: "Tranche 4: no bids"
+    event: "Tranche IV: no bids"
     source_id: mstc-t4-nit
   narrative:
     what_it_does: A 1.06 sq km block offered for a composite licence, for ree and associated minerals (copper, gold
@@ -1277,10 +1441,10 @@
     closed: null
   milestones:
   - date: '2026-02-06'
-    event: "Tranche 6: annulled"
+    event: "Tranche VI: annulled"
     source_id: mstc-t6-nit
   - date: '2026-06-11'
-    event: "Tranche 7: preferred bidder (Oilmax Energy Private Limited, 235%)"
+    event: "Tranche VII: preferred bidder (Oilmax Energy Private Limited, 235%)"
     source_id: mstc-t7-nit
   narrative:
     what_it_does: A 1.55 sq km block offered for a composite licence, for vanadium, graphite, in Pakke Kessang district,
@@ -1466,10 +1630,10 @@
     closed: null
   milestones:
   - date: '2024-06-21'
-    event: "Tranche 2: annulled"
+    event: "Tranche II: annulled"
     source_id: mstc-t2-nit
   - date: '2024-10-18'
-    event: "Tranche 4: preferred bidder (Oil India Ltd, 76.05%)"
+    event: "Tranche IV: preferred bidder (Oil India Ltd, 76.05%)"
     source_id: mstc-t4-nit
   narrative:
     what_it_does: A 1.09 sq km block offered for a composite licence, for graphite and vanadium, in Lower Subansiri
@@ -1677,10 +1841,10 @@
     closed: null
   milestones:
   - date: '2024-06-21'
-    event: "Tranche 2: annulled"
+    event: "Tranche II: annulled"
     source_id: mstc-t2-nit
   - date: '2024-10-22'
-    event: "Tranche 4: preferred bidder (Orissa Metaliks Private Limited, 95%)"
+    event: "Tranche IV: preferred bidder (Orissa Metaliks Private Limited, 95%)"
     source_id: mstc-t4-nit
   narrative:
     what_it_does: A 1.53 sq km block offered for a composite licence, for graphite (amorphous) and vanadium, in
@@ -1887,7 +2051,7 @@
     closed: null
   milestones:
   - date: '2026-01-19'
-    event: "Tranche 6: preferred bidder (Yuma Enterprises, 254.05%)"
+    event: "Tranche VI: preferred bidder (Yuma Enterprises, 254.05%)"
     source_id: mstc-t6-nit
   narrative:
     what_it_does: A 0.97 sq km block offered for a composite licence, for vanadium, graphite, in Keyi Panyor (earlier
@@ -2026,10 +2190,10 @@
     closed: null
   milestones:
   - date: '2024-03-13'
-    event: "Tranche 1: annulled"
+    event: "Tranche I: annulled"
     source_id: mstc-t1-nit
   - date: '2024-07-05'
-    event: "Tranche 3: preferred bidder (Rungta Sons Private Limited, 10.6%)"
+    event: "Tranche III: preferred bidder (Rungta Sons Private Limited, 10.6%)"
     source_id: mstc-t3-nit
   narrative:
     what_it_does: A 4.64 sq km block offered for a composite licence, for glauconite, in Rohtas district, Bihar,
@@ -2246,10 +2410,10 @@
     closed: null
   milestones:
   - date: '2024-03-13'
-    event: "Tranche 1: annulled"
+    event: "Tranche I: annulled"
     source_id: mstc-t1-nit
   - date: '2024-07-09'
-    event: "Tranche 3: preferred bidder (Vedanta Limited, 6.05%)"
+    event: "Tranche III: preferred bidder (Vedanta Limited, 6.05%)"
     source_id: mstc-t3-nit
   narrative:
     what_it_does: A 7.89 sq km block offered for a composite licence, for nickel, chromium and pge, in Gaya district,
@@ -2467,10 +2631,10 @@
     closed: null
   milestones:
   - date: '2026-06-19'
-    event: "Tranche 7: annulled"
+    event: "Tranche VII: annulled"
     source_id: mstc-t7-nit
   - date: '2026-10-15'
-    event: "Tranche 8: preferred bidder (FGM Private Limited, 4.55%)"
+    event: "Tranche VIII: preferred bidder (FGM Private Limited, 4.55%)"
     source_id: mstc-t8-nit
   narrative:
     what_it_does: A 10.13 sq km block offered for a composite licence, for glauconite, in Rohtas district, Bihar,
@@ -2649,10 +2813,10 @@
     closed: null
   milestones:
   - date: '2024-03-13'
-    event: "Tranche 1: annulled"
+    event: "Tranche I: annulled"
     source_id: mstc-t1-nit
   - date: '2024-07-04'
-    event: "Tranche 3: preferred bidder (Rungta Sons Private Limited, 10.6%)"
+    event: "Tranche III: preferred bidder (Rungta Sons Private Limited, 10.6%)"
     source_id: mstc-t3-nit
   narrative:
     what_it_does: A 4.15 sq km block offered for a composite licence, for glauconite, in Rohtas district, Bihar,
@@ -2870,10 +3034,10 @@
     closed: null
   milestones:
   - date: '2026-06-19'
-    event: "Tranche 7: annulled"
+    event: "Tranche VII: annulled"
     source_id: mstc-t7-nit
   - date: '2026-10-22'
-    event: "Tranche 8: preferred bidder (Alt Carbon Tech Private Limited, 401.05%)"
+    event: "Tranche VIII: preferred bidder (Alt Carbon Tech Private Limited, 401.05%)"
     source_id: mstc-t8-nit
   narrative:
     what_it_does: A 1.25 sq km block offered for a composite licence, for vanadium bearing magnetite-ilmenite, in
@@ -3053,7 +3217,7 @@
     closed: null
   milestones:
   - date: '2026-06-19'
-    event: "Tranche 7: annulled"
+    event: "Tranche VII: annulled"
     source_id: mstc-t7-nit
   narrative:
     what_it_does: A 8.33 sq km block offered for a composite licence, for glauconite, in Rohtas district, Bihar,
@@ -3192,10 +3356,10 @@
     closed: null
   milestones:
   - date: '2026-06-19'
-    event: "Tranche 7: annulled"
+    event: "Tranche VII: annulled"
     source_id: mstc-t7-nit
   - date: '2026-10-16'
-    event: "Tranche 8: preferred bidder (FGM Private Limited, 17.05%)"
+    event: "Tranche VIII: preferred bidder (FGM Private Limited, 17.05%)"
     source_id: mstc-t8-nit
   narrative:
     what_it_does: A 7.51 sq km block offered for a composite licence, for glauconite, in Rohtas district, Bihar,
@@ -3374,10 +3538,10 @@
     closed: null
   milestones:
   - date: '2024-06-21'
-    event: "Tranche 2: annulled"
+    event: "Tranche II: annulled"
     source_id: mstc-t2-nit
   - date: '2024-11-26'
-    event: "Tranche 4: no bids"
+    event: "Tranche IV: no bids"
     source_id: mstc-t4-nit
   narrative:
     what_it_does: A 9.13 sq km block offered for a composite licence, for glauconite, in Mahasamund district, Chhattisgarh,
@@ -3580,10 +3744,10 @@
     closed: null
   milestones:
   - date: '2024-06-21'
-    event: "Tranche 2: annulled"
+    event: "Tranche II: annulled"
     source_id: mstc-t2-nit
   - date: '2024-11-26'
-    event: "Tranche 4: no bids"
+    event: "Tranche IV: no bids"
     source_id: mstc-t4-nit
   narrative:
     what_it_does: A 6.50 sq km block offered for a composite licence, for tungsten, in Jaspur district, Chhattisgarh,
@@ -3797,11 +3961,11 @@
     closed: null
   milestones:
   - date: '2026-01-20'
-    event: "Tranche 6: preferred bidder (Harban singh & sons enterprises private limited, 318.64%)"
+    event: "Tranche VI: preferred bidder (Harban singh & sons enterprises private limited, 318.64%)"
     source_id: mstc-t6-nit
   narrative:
     what_it_does: A 9.50 sq km block offered for a composite licence, for tin ore (cassiterite) and associated minerals
-      (tantalum, niobium), in Sukma and Bastar district, Chhattisgarh, explored to G3 level.
+      (tantalum, niobium), in Sukma and Bastar districts, Chhattisgarh, explored to G3 level.
     significance: "Harban singh & sons enterprises private limited won it in Tranche VI (January 2026) with a final\
       \ price offer of 318.64%."
   related: []
@@ -3942,7 +4106,7 @@
     closed: null
   milestones:
   - date: '2026-06-16'
-    event: "Tranche 7: preferred bidder (Shri Mahakaal Infrastructure, 680.3%)"
+    event: "Tranche VII: preferred bidder (Shri Mahakaal Infrastructure, 680.3%)"
     source_id: mstc-t7-nit
   narrative:
     what_it_does: A 54.27 sq km block offered for a composite licence, for graphite, in Balrampur district, Chhattisgarh,
@@ -4097,7 +4261,7 @@
     closed: null
   milestones:
   - date: '2026-10-13'
-    event: "Tranche 8: annulled"
+    event: "Tranche VIII: annulled"
     source_id: mstc-t8-nit
   narrative:
     what_it_does: A 3.27 sq km block offered for a composite licence, for glauconitic sandstone, in Mahasamund district,
@@ -4236,14 +4400,14 @@
     closed: null
   milestones:
   - date: '2026-06-19'
-    event: "Tranche 7: annulled"
+    event: "Tranche VII: annulled"
     source_id: mstc-t7-nit
   - date: '2026-10-15'
-    event: "Tranche 8: preferred bidder (AMPL Minerals Private Limited, 15.2%)"
+    event: "Tranche VIII: preferred bidder (AMPL Minerals Private Limited, 15.2%)"
     source_id: mstc-t8-nit
   narrative:
     what_it_does: A 40.18 sq km block offered for a composite licence, for glauconitic sandstone, in Balod and Dhamtari
-      district, Chhattisgarh, explored to G3 level.
+      districts, Chhattisgarh, explored to G3 level.
     significance: "AMPL Minerals Private Limited won it in Tranche VIII (October 2026) with a final price offer\
       \ of 15.2%. It took 2 attempts to auction."
   related: []
@@ -4419,10 +4583,10 @@
     closed: null
   milestones:
   - date: '2026-06-19'
-    event: "Tranche 7: annulled"
+    event: "Tranche VII: annulled"
     source_id: mstc-t7-nit
   - date: '2026-10-13'
-    event: "Tranche 8: annulled"
+    event: "Tranche VIII: annulled"
     source_id: mstc-t8-nit
   narrative:
     what_it_does: A 27.05 sq km block offered for a composite licence, for glauconitic sandstone, in Balod district,
@@ -4590,7 +4754,7 @@
     closed: null
   milestones:
   - date: '2024-03-20'
-    event: "Tranche 1: preferred bidder (Maiki South Mining Private Limited, 76.05%)"
+    event: "Tranche I: preferred bidder (Maiki South Mining Private Limited, 76.05%)"
     source_id: mstc-t1-nit
   narrative:
     what_it_does: A 2.56 sq km block offered for a composite licence, for lithium and ree, in Korba district, Chhattisgarh,
@@ -4756,10 +4920,10 @@
     closed: null
   milestones:
   - date: '2024-11-26'
-    event: "Tranche 4: no bids"
+    event: "Tranche IV: no bids"
     source_id: mstc-t4-nit
   - date: '2025-05-30'
-    event: "Tranche 5: no bids"
+    event: "Tranche V: no bids"
     source_id: mstc-t5-nit
   narrative:
     what_it_does: A 3.98 sq km block offered for a composite licence, for glauconite, in Mahasamund district, Chhattisgarh,
@@ -4950,7 +5114,7 @@
     closed: null
   milestones:
   - date: '2025-05-16'
-    event: "Tranche 5: preferred bidder (Coal India Limited, 189.75%)"
+    event: "Tranche V: preferred bidder (Coal India Limited, 189.75%)"
     source_id: mstc-t5-nit
   narrative:
     what_it_does: A 3.66 sq km block offered for a mining lease, for graphite and vanadium, in Balrampur-Ramanujganj
@@ -5104,13 +5268,13 @@
     closed: null
   milestones:
   - date: '2024-06-21'
-    event: "Tranche 2: annulled"
+    event: "Tranche II: annulled"
     source_id: mstc-t2-nit
   - date: '2024-11-26'
-    event: "Tranche 4: annulled"
+    event: "Tranche IV: annulled"
     source_id: mstc-t4-nit
   - date: '2025-05-16'
-    event: "Tranche 5: preferred bidder (NLC India Limited, 8.6%)"
+    event: "Tranche V: preferred bidder (NLC India Limited, 8.6%)"
     source_id: mstc-t5-nit
   narrative:
     what_it_does: A 10.09 sq km block offered for a composite licence, for phosphorite and limestone, in Balod district,
@@ -5359,7 +5523,7 @@
     closed: null
   milestones:
   - date: '2026-10-13'
-    event: "Tranche 8: annulled"
+    event: "Tranche VIII: annulled"
     source_id: mstc-t8-nit
   narrative:
     what_it_does: A 3.20 sq km block offered for a composite licence, for vanadium, gallium, titanium, ree, bauxite
@@ -5500,7 +5664,7 @@
     closed: null
   milestones:
   - date: '2026-10-13'
-    event: "Tranche 8: annulled"
+    event: "Tranche VIII: annulled"
     source_id: mstc-t8-nit
   narrative:
     what_it_does: A 3.04 sq km block offered for a mining lease, for phosphorite and limestone, in Balod district,
@@ -5640,10 +5804,10 @@
     closed: null
   milestones:
   - date: '2024-11-26'
-    event: "Tranche 4: annulled"
+    event: "Tranche IV: annulled"
     source_id: mstc-t4-nit
   - date: '2025-05-15'
-    event: "Tranche 5: preferred bidder (NLC India Limited, 11.05%)"
+    event: "Tranche V: preferred bidder (NLC India Limited, 11.05%)"
     source_id: mstc-t5-nit
   narrative:
     what_it_does: A 9.60 sq km block offered for a composite licence, for phosphorite and limestone, in Balod district,
@@ -5768,6 +5932,205 @@
     loi_date: null
     licence_or_lease_executed: null
     production_started: null
+- id: blk-gj-devkigalol-jetpur
+  name: Devkigalol-Jetpur, Vanadium and associated Mineralization Exploration Block
+  aliases:
+  - Devkigalol-Jetpur Vanadium Exploration Block
+  layer: blocks
+  stages:
+  - Exploration
+  minerals:
+  - Vanadium
+  commodity_as_stated: Vanadium and associated mineralization
+  products: []
+  operator: null
+  operator_type: null
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Devkigadol
+    district: Rajkot
+    state: Gujarat
+    country: India
+    lat: 21.666905
+    lon: 70.650363
+    precision: exact
+    geometry:
+      type: Polygon
+      coordinates:
+      - - - 70.5736222
+          - 21.75
+        - - 70.5845361
+          - 21.7499389
+        - - 70.584625
+          - 21.7247167
+        - - 70.6564417
+          - 21.7245139
+        - - 70.6562917
+          - 21.6868389
+        - - 70.75
+          - 21.6868389
+        - - 70.75
+          - 21.6222361
+        - - 70.5736222
+          - 21.6222361
+        - - 70.5736222
+          - 21.75
+  status: Annulled
+  status_as_of: '2026-06-19'
+  status_detail: "Annulled in EL Tranche II: Nil bids received"
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2025-03-13'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: '2025-03-13'
+    event: "EL Tranche I: annulled"
+    source_id: mstc-el1-nit
+  - date: '2026-06-19'
+    event: "EL Tranche II: annulled"
+    source_id: mstc-el2-nit
+  narrative:
+    what_it_does: A 169.57 sq km block offered for an exploration licence, for vanadium and associated mineralization,
+      in Rajkot district, Gujarat.
+    significance: Offered 2 times by the Centre, most recently in EL Tranche II, and the auction was annulled (June
+      2026).
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-23'
+  notes: Block also falls in parts of Junagadh and Amreli districts (NIT).
+  sources:
+  - id: mstc-el1-nit
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=19563_GoI%20MoM%20-%20EL%20-%20Tranche%20I%20-%20Notice%20Inviting%20Tender.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: GoI MoM - EL - Tranche I - Notice Inviting Tender
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2025-03-13'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+  - id: mstc-el1-blocks
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=20090_2.%20Details%20of%2013%20Blocks%20of%20EL%20in%20Tranche%20I.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: Details of 13 Blocks of EL in Tranche I (GSI presentation)
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2025-03-13'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+  - id: mstc-el1-tqb
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=22108_EL-GOI%20-%20Tranche%20I%20-%20Auction%20Notice%20Regarding%20Intimation%20to%20TQBs%2C%20Opening%20of%20IPO%2C%20Intimation%20to%20QBs%20and%20Second%20Round%20of%20e-Auction.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: EL Tranche I - Notice regarding intimation to TQBs, opening of IPO and second round of e-auction
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2025-08-12'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+  - id: mstc-el1-pb
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=22686_GOI_Notice%20for%20Preferred%20Bidder%20Declaration%20of%2007%20Exploration%20Blocks%20under%20Tranche%20I.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: Notice for Preferred Bidder Declaration of 07 Exploration Blocks under Tranche I
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2025-09-16'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+  - id: mstc-el2-nit
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25192_GoI%20MoM%20-%20EL%20-%20Tranche%20II%20-%20Notice%20Inviting%20Tender.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: GoI MoM - EL - Tranche II - Notice Inviting Tender
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2026-02-12'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - status
+  - id: mstc-el2-annulment
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=26954_GoI%20MoM%20-%20EL%20-%20Tranche%20II%20-%20Auction%20Annulment%20Notice.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: GoI MoM - EL - Tranche II - Auction Annulment Notice
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2026-06-19'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - status
+  - id: mstc-mbs-25204
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25204_MBS_Devkigalol-Jetpur%20-Gujrat.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: "Mine Block Summary: MBS_Devkigalol-Jetpur -Gujrat"
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2026-02-12'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - block.area_sq_km
+    - block.exploration_stage
+    - location
+  block:
+    concession_type: EL
+    auction_route: Centre
+    area_sq_km: 169.57
+    exploration_stage: null
+    resources: []
+    resources_as_stated: null
+  auction:
+    history:
+    - tranche: Centre-EL1
+      nit_date: '2025-03-13'
+      outcome: Annulled
+      outcome_date: null
+      annulment_reason: No preferred bidder; not listed for e-auction in the notice of 12 Aug 2025 (reason not published)
+      preferred_bidder: null
+      final_offer_pct: null
+      reserve_price: null
+    - tranche: Centre-EL2
+      nit_date: '2026-02-12'
+      outcome: Annulled
+      outcome_date: '2026-06-19'
+      annulment_reason: Nil bids received
+      preferred_bidder: null
+      final_offer_pct: null
+      reserve_price: "40.00%"
+    loi_date: null
+    licence_or_lease_executed: null
+    production_started: null
 - id: blk-gj-katesar-guneri
   name: Katesar-Guneri Glauconite Block
   aliases: []
@@ -5853,10 +6216,10 @@
     closed: null
   milestones:
   - date: '2025-05-30'
-    event: "Tranche 5: no bids"
+    event: "Tranche V: no bids"
     source_id: mstc-t5-nit
   - date: '2026-06-11'
-    event: "Tranche 7: preferred bidder (Moti Marbals, 3.6%)"
+    event: "Tranche VII: preferred bidder (Moti Marbals, 3.6%)"
     source_id: mstc-t7-nit
   narrative:
     what_it_does: A 4.99 sq km block offered for a composite licence, for glauconite, in Kachchh district, Gujarat,
@@ -6051,7 +6414,7 @@
     closed: null
   milestones:
   - date: '2024-08-27'
-    event: "Tranche 1: annulled"
+    event: "Tranche I: annulled"
     source_id: mstc-t1-nit
   narrative:
     what_it_does: A 5.48 sq km block offered for a composite licence, for nickel and chromium, in Aravalli district,
@@ -6207,10 +6570,10 @@
     closed: null
   milestones:
   - date: '2024-03-13'
-    event: "Tranche 1: annulled"
+    event: "Tranche I: annulled"
     source_id: mstc-t1-nit
   - date: '2024-07-25'
-    event: "Tranche 3: annulled"
+    event: "Tranche III: annulled"
     source_id: mstc-t3-nit
   narrative:
     what_it_does: A 3.18 sq km block offered for a composite licence, for lithium, titanium and bauxite (aluminous
@@ -6403,10 +6766,10 @@
     closed: null
   milestones:
   - date: '2024-03-13'
-    event: "Tranche 1: annulled"
+    event: "Tranche I: annulled"
     source_id: mstc-t1-nit
   - date: '2024-07-25'
-    event: "Tranche 3: annulled"
+    event: "Tranche III: annulled"
     source_id: mstc-t3-nit
   narrative:
     what_it_does: A 5.14 sq km block offered for a composite licence, for potash, in Garhwa district, Jharkhand,
@@ -6598,7 +6961,7 @@
     closed: null
   milestones:
   - date: '2024-10-22'
-    event: "Tranche 4: preferred bidder (Satguru Mining Private Limited, 752.05%)"
+    event: "Tranche IV: preferred bidder (Satguru Mining Private Limited, 752.05%)"
     source_id: mstc-t4-nit
   narrative:
     what_it_does: A 0.10 sq km block offered for a mining lease, for graphite, in Palamu district, Jharkhand, explored
@@ -6786,7 +7149,7 @@
     closed: null
   milestones:
   - date: '2026-02-06'
-    event: "Tranche 6: annulled"
+    event: "Tranche VI: annulled"
     source_id: mstc-t6-nit
   narrative:
     what_it_does: A 0.28 sq km block offered for a composite licence, for titanium, bauxite and associated minerals
@@ -6853,6 +7216,335 @@
       preferred_bidder: null
       final_offer_pct: null
       reserve_price: "2.00%"
+    loi_date: null
+    licence_or_lease_executed: null
+    production_started: null
+- id: blk-jh-taramba-dalbhanga
+  name: Taramba-Dalbhanga Gold and Copper Exploration Block
+  aliases: []
+  layer: blocks
+  stages:
+  - Exploration
+  minerals:
+  - Copper
+  commodity_as_stated: Gold and Copper
+  products: []
+  operator: Maheshwari Mining Private Limited
+  operator_type: null
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Taramba
+    district: Khunti, Saraikela Kharsawan, Ranchi and West Singhbhum
+    state: Jharkhand
+    country: India
+    lat: 22.910393
+    lon: 85.672212
+    precision: exact
+    geometry:
+      type: Polygon
+      coordinates:
+      - - - 85.595
+          - 22.967
+        - - 85.75
+          - 22.967
+        - - 85.75
+          - 22.855
+        - - 85.5949444
+          - 22.8525944
+        - - 85.595
+          - 22.967
+  status: Preferred bidder
+  status_as_of: '2025-08-13'
+  status_detail: "Maheshwari Mining Private Limited, final price offer 4.75% (EL Tranche I)"
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2025-03-13'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: '2025-08-13'
+    event: "EL Tranche I: preferred bidder (Maheshwari Mining Private Limited, 4.75%)"
+    source_id: mstc-el1-nit
+  narrative:
+    what_it_does: A 199.31 sq km block offered for an exploration licence, for gold and copper, in Khunti, Saraikela
+      Kharsawan, Ranchi and West Singhbhum districts, Jharkhand.
+    significance: "Maheshwari Mining Private Limited won the exploration licence in EL Tranche I (August 2025) with\
+      \ the lowest final price offer, 4.75% (exploration-licence auctions are reverse auctions)."
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-23'
+  notes: "EL auctions are reverse auctions: the preferred bidder quotes the lowest share of the auction premium.\
+    \ Boundary polygon recovered by OCR of the MBS annexure; checked against the stated block area. Letter of intent\
+    \ / licence execution status not yet checked (see OPEN_QUESTIONS)."
+  sources:
+  - id: mstc-el1-nit
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=19563_GoI%20MoM%20-%20EL%20-%20Tranche%20I%20-%20Notice%20Inviting%20Tender.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: GoI MoM - EL - Tranche I - Notice Inviting Tender
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2025-03-13'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+    - status
+  - id: mstc-el1-blocks
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=20090_2.%20Details%20of%2013%20Blocks%20of%20EL%20in%20Tranche%20I.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: Details of 13 Blocks of EL in Tranche I (GSI presentation)
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2025-03-13'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - status
+  - id: mstc-el1-pb
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=22686_GOI_Notice%20for%20Preferred%20Bidder%20Declaration%20of%2007%20Exploration%20Blocks%20under%20Tranche%20I.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: Notice for Preferred Bidder Declaration of 07 Exploration Blocks under Tranche I
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2025-09-16'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - operator
+    - status
+  - id: mstc-results-el-fy2025-26
+    url: "https://www.mstcecommerce.com/auctionhome/mlcln/mineral_auction_result.jsp?typerep=f&finYr=2025-2026&sellerRefId=41731"
+    title: MSTC - Exploration Licence Block Auction Results, FY 2025-26 (Ministry of Mines)
+    publisher: MSTC Ltd
+    tier: T1
+    date: '2026-10-23'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - operator
+    - status
+  - id: mstc-mbs-19570
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=19570_7.%20MBS_Taramba-Dalbhanga_Gold-Copper_Block_Jharkhand.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: "Mine Block Summary: 7. MBS_Taramba-Dalbhanga_Gold-Copper_Block_Jharkhand"
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2025-03-13'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - block.area_sq_km
+    - block.exploration_stage
+    - location
+  block:
+    concession_type: EL
+    auction_route: Centre
+    area_sq_km: 199.31
+    exploration_stage: null
+    resources: []
+    resources_as_stated: null
+  auction:
+    history:
+    - tranche: Centre-EL1
+      nit_date: '2025-03-13'
+      outcome: Preferred bidder
+      outcome_date: '2025-08-13'
+      annulment_reason: null
+      preferred_bidder: Maheshwari Mining Private Limited
+      final_offer_pct: 4.75
+      reserve_price: null
+    loi_date: null
+    licence_or_lease_executed: null
+    production_started: null
+- id: blk-ka-devadurga
+  name: Devadurga Gold and Copper Exploration Block
+  aliases: []
+  layer: blocks
+  stages:
+  - Exploration
+  minerals:
+  - Copper
+  commodity_as_stated: Gold and Copper
+  products: []
+  operator: The Singareni Collieries Company Limited
+  operator_type: null
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Devadurga
+    district: Raichur
+    state: Karnataka
+    country: India
+    lat: 16.396218
+    lon: 76.817049
+    precision: exact
+    geometry:
+      type: Polygon
+      coordinates:
+      - - - 76.739425
+          - 16.4503972
+        - - 76.8949333
+          - 16.4505056
+        - - 76.8943278
+          - 16.3419278
+        - - 76.7394778
+          - 16.3418889
+        - - 76.739425
+          - 16.4503972
+  status: Preferred bidder
+  status_as_of: '2025-08-19'
+  status_detail: "The Singareni Collieries Company Limited, final price offer 37.75% (EL Tranche I)"
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2025-03-13'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: '2025-08-19'
+    event: "EL Tranche I: preferred bidder (The Singareni Collieries Company Limited, 37.75%)"
+    source_id: mstc-el1-nit
+  narrative:
+    what_it_does: A 199.13 sq km block offered for an exploration licence, for gold and copper, in Raichur district,
+      Karnataka, explored to G3 level.
+    significance: "The Singareni Collieries Company Limited won the exploration licence in EL Tranche I (August\
+      \ 2025) with the lowest final price offer, 37.75% (exploration-licence auctions are reverse auctions)."
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-23'
+  notes: "EL auctions are reverse auctions: the preferred bidder quotes the lowest share of the auction premium.\
+    \ Letter of intent / licence execution status not yet checked (see OPEN_QUESTIONS)."
+  sources:
+  - id: mstc-el1-nit
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=19563_GoI%20MoM%20-%20EL%20-%20Tranche%20I%20-%20Notice%20Inviting%20Tender.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: GoI MoM - EL - Tranche I - Notice Inviting Tender
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2025-03-13'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+    - status
+  - id: mstc-el1-blocks
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=20090_2.%20Details%20of%2013%20Blocks%20of%20EL%20in%20Tranche%20I.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: Details of 13 Blocks of EL in Tranche I (GSI presentation)
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2025-03-13'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - status
+  - id: mstc-el1-pb
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=22686_GOI_Notice%20for%20Preferred%20Bidder%20Declaration%20of%2007%20Exploration%20Blocks%20under%20Tranche%20I.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: Notice for Preferred Bidder Declaration of 07 Exploration Blocks under Tranche I
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2025-09-16'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - operator
+    - status
+  - id: mstc-results-el-fy2025-26
+    url: "https://www.mstcecommerce.com/auctionhome/mlcln/mineral_auction_result.jsp?typerep=f&finYr=2025-2026&sellerRefId=41731"
+    title: MSTC - Exploration Licence Block Auction Results, FY 2025-26 (Ministry of Mines)
+    publisher: MSTC Ltd
+    tier: T1
+    date: '2026-10-23'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - operator
+    - status
+  - id: mstc-mbs-19569
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=19569_8.%20MBS%20_Devadurga_Gold_Block_Karnataka.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: "Mine Block Summary: 8. MBS _Devadurga_Gold_Block_Karnataka"
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2025-03-13'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - block.area_sq_km
+    - block.exploration_stage
+    - location
+  block:
+    concession_type: EL
+    auction_route: Centre
+    area_sq_km: 199.13
+    exploration_stage: G3
+    resources: []
+    resources_as_stated: null
+  auction:
+    history:
+    - tranche: Centre-EL1
+      nit_date: '2025-03-13'
+      outcome: Preferred bidder
+      outcome_date: '2025-08-19'
+      annulment_reason: null
+      preferred_bidder: The Singareni Collieries Company Limited
+      final_offer_pct: 37.75
+      reserve_price: null
     loi_date: null
     licence_or_lease_executed: null
     production_started: null
@@ -6926,10 +7618,10 @@
     closed: null
   milestones:
   - date: '2024-11-26'
-    event: "Tranche 4: annulled"
+    event: "Tranche IV: annulled"
     source_id: mstc-t4-nit
   - date: '2025-05-15'
-    event: "Tranche 5: preferred bidder (Ramgad Minerals and Mining Limited, 2.3%)"
+    event: "Tranche V: preferred bidder (Ramgad Minerals and Mining Limited, 2.3%)"
     source_id: mstc-t5-nit
   narrative:
     what_it_does: A 5.58 sq km block offered for a composite licence, for phosphate and ree, in Koppal district,
@@ -7123,7 +7815,7 @@
     closed: null
   milestones:
   - date: '2025-05-20'
-    event: "Tranche 5: preferred bidder (R K Mineral Development Private Limited, 271%)"
+    event: "Tranche V: preferred bidder (R K Mineral Development Private Limited, 271%)"
     source_id: mstc-t5-nit
   narrative:
     what_it_does: A 5.01 sq km block offered for a composite licence, for graphite, in Kolar district, Karnataka,
@@ -7286,7 +7978,7 @@
     closed: null
   milestones:
   - date: '2024-07-05'
-    event: "Tranche 2: preferred bidder (Vedanta limited, 15%)"
+    event: "Tranche II: preferred bidder (Vedanta limited, 15%)"
     source_id: mstc-t2-nit
   narrative:
     what_it_does: A 12.38 sq km block offered for a composite licence, for nickel, chromium and pge, in Hassan district,
@@ -7453,10 +8145,10 @@
     closed: null
   milestones:
   - date: '2026-02-06'
-    event: "Tranche 6: annulled"
+    event: "Tranche VI: annulled"
     source_id: mstc-t6-nit
   - date: '2026-06-11'
-    event: "Tranche 7: preferred bidder (Hindustan Zinc Limited, 10.05%)"
+    event: "Tranche VII: preferred bidder (Hindustan Zinc Limited, 10.05%)"
     source_id: mstc-t7-nit
   narrative:
     what_it_does: A 3.14 sq km block offered for a mining lease, for ree and yttrium, in Chamrajnagar district,
@@ -7644,10 +8336,10 @@
     closed: null
   milestones:
   - date: '2024-11-26'
-    event: "Tranche 4: annulled"
+    event: "Tranche IV: annulled"
     source_id: mstc-t4-nit
   - date: '2025-05-30'
-    event: "Tranche 5: no bids"
+    event: "Tranche V: no bids"
     source_id: mstc-t5-nit
   narrative:
     what_it_does: A 9.99 sq km block offered for a composite licence, for nickel and pge, in Hassan district, Karnataka,
@@ -7841,10 +8533,10 @@
     closed: null
   milestones:
   - date: '2025-05-30'
-    event: "Tranche 5: annulled"
+    event: "Tranche V: annulled"
     source_id: mstc-t5-nit
   - date: '2026-01-16'
-    event: "Tranche 6: preferred bidder (FGM Private Limited, 7.35%)"
+    event: "Tranche VI: preferred bidder (FGM Private Limited, 7.35%)"
     source_id: mstc-t6-nit
   narrative:
     what_it_does: A 2.08 sq km block offered for a composite licence, for ree, in Raichur district, Karnataka, explored
@@ -8025,10 +8717,10 @@
     closed: null
   milestones:
   - date: '2024-06-21'
-    event: "Tranche 2: annulled"
+    event: "Tranche II: annulled"
     source_id: mstc-t2-nit
   - date: '2024-10-24'
-    event: "Tranche 4: preferred bidder (Vedanta Limited, 45%)"
+    event: "Tranche IV: preferred bidder (Vedanta Limited, 45%)"
     source_id: mstc-t4-nit
   narrative:
     what_it_does: A 10.56 sq km block offered for a composite licence, for cobalt, manganese and iron (poly-metal),
@@ -8234,7 +8926,7 @@
     closed: null
   milestones:
   - date: '2024-07-05'
-    event: "Tranche 2: preferred bidder (Vinmir Resources Pvt. Ltd., 72%)"
+    event: "Tranche II: preferred bidder (Vinmir Resources Pvt. Ltd., 72%)"
     source_id: mstc-t2-nit
   narrative:
     what_it_does: A 0.99 sq km block offered for a composite licence, for graphite and basmental, in Sidhi district,
@@ -8405,7 +9097,7 @@
     closed: null
   milestones:
   - date: '2024-07-04'
-    event: "Tranche 2: preferred bidder (Shanti GD Ispat and Power Pvt. Ltd., 155.05%)"
+    event: "Tranche II: preferred bidder (Shanti GD Ispat and Power Pvt. Ltd., 155.05%)"
     source_id: mstc-t2-nit
   narrative:
     what_it_does: A 0.82 sq km block offered for a mining lease, for graphite and vanadium, in Betul district, Madhya
@@ -8573,7 +9265,7 @@
     closed: null
   milestones:
   - date: '2024-07-09'
-    event: "Tranche 2: preferred bidder (Coal India Limited, 150.55%)"
+    event: "Tranche II: preferred bidder (Coal India Limited, 150.55%)"
     source_id: mstc-t2-nit
   narrative:
     what_it_does: A 6.00 sq km block offered for a composite licence, for graphite, in Alirajpur district, Madhya
@@ -8746,7 +9438,7 @@
     closed: null
   milestones:
   - date: '2026-06-19'
-    event: "Tranche 7: annulled"
+    event: "Tranche VII: annulled"
     source_id: mstc-t7-nit
   narrative:
     what_it_does: A 4.44 sq km block offered for a composite licence, for titanium, vanadium and aluminous laterite,
@@ -8813,6 +9505,169 @@
       preferred_bidder: null
       final_offer_pct: null
       reserve_price: "2.00%"
+    loi_date: null
+    licence_or_lease_executed: null
+    production_started: null
+- id: blk-mp-padhar
+  name: Padhar PGE Exploration Block
+  aliases: []
+  layer: blocks
+  stages:
+  - Exploration
+  minerals:
+  - PGEs (unspecified)
+  commodity_as_stated: PGE
+  products: []
+  operator: Sunmark Thermal Power Private Limited
+  operator_type: null
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Padhar
+    district: Betul
+    state: Madhya Pradesh
+    country: India
+    lat: 22.060109
+    lon: 77.82782
+    precision: exact
+    geometry:
+      type: Polygon
+      coordinates:
+      - - - 77.7542814
+          - 22.1175294
+        - - 77.7523592
+          - 22.0000947
+        - - 77.9035492
+          - 22.0038036
+        - - 77.901565
+          - 22.1200375
+        - - 77.7542814
+          - 22.1175294
+  status: Preferred bidder
+  status_as_of: '2025-08-14'
+  status_detail: "Sunmark Thermal Power Private Limited, final price offer 0.05% (EL Tranche I)"
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2025-03-13'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: '2025-08-14'
+    event: "EL Tranche I: preferred bidder (Sunmark Thermal Power Private Limited, 0.05%)"
+    source_id: mstc-el1-nit
+  narrative:
+    what_it_does: A 199.54 sq km block offered for an exploration licence, for pge, in Betul district, Madhya Pradesh.
+    significance: "Sunmark Thermal Power Private Limited won the exploration licence in EL Tranche I (August 2025)\
+      \ with the lowest final price offer, 0.05% (exploration-licence auctions are reverse auctions)."
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-23'
+  notes: "EL auctions are reverse auctions: the preferred bidder quotes the lowest share of the auction premium.\
+    \ Letter of intent / licence execution status not yet checked (see OPEN_QUESTIONS)."
+  sources:
+  - id: mstc-el1-nit
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=19563_GoI%20MoM%20-%20EL%20-%20Tranche%20I%20-%20Notice%20Inviting%20Tender.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: GoI MoM - EL - Tranche I - Notice Inviting Tender
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2025-03-13'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+    - status
+  - id: mstc-el1-blocks
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=20090_2.%20Details%20of%2013%20Blocks%20of%20EL%20in%20Tranche%20I.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: Details of 13 Blocks of EL in Tranche I (GSI presentation)
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2025-03-13'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - status
+  - id: mstc-el1-pb
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=22686_GOI_Notice%20for%20Preferred%20Bidder%20Declaration%20of%2007%20Exploration%20Blocks%20under%20Tranche%20I.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: Notice for Preferred Bidder Declaration of 07 Exploration Blocks under Tranche I
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2025-09-16'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - operator
+    - status
+  - id: mstc-results-el-fy2025-26
+    url: "https://www.mstcecommerce.com/auctionhome/mlcln/mineral_auction_result.jsp?typerep=f&finYr=2025-2026&sellerRefId=41731"
+    title: MSTC - Exploration Licence Block Auction Results, FY 2025-26 (Ministry of Mines)
+    publisher: MSTC Ltd
+    tier: T1
+    date: '2026-10-23'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - operator
+    - status
+  - id: mstc-mbs-19577
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=19577_9.%E2%81%A0%20%E2%81%A0MBS_Padhar_PGE_Block_Madhya%20Pradesh.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: "Mine Block Summary: 9.⁠ ⁠MBS_Padhar_PGE_Block_Madhya Pradesh"
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2025-03-13'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - block.area_sq_km
+    - block.exploration_stage
+    - location
+  block:
+    concession_type: EL
+    auction_route: Centre
+    area_sq_km: 199.54
+    exploration_stage: null
+    resources: []
+    resources_as_stated: null
+  auction:
+    history:
+    - tranche: Centre-EL1
+      nit_date: '2025-03-13'
+      outcome: Preferred bidder
+      outcome_date: '2025-08-14'
+      annulment_reason: null
+      preferred_bidder: Sunmark Thermal Power Private Limited
+      final_offer_pct: 0.05
+      reserve_price: null
     loi_date: null
     licence_or_lease_executed: null
     production_started: null
@@ -8885,7 +9740,7 @@
     closed: null
   milestones:
   - date: '2025-05-21'
-    event: "Tranche 5: preferred bidder (Sunflag Iron and Steel Company Limited, 70.27%)"
+    event: "Tranche V: preferred bidder (Sunflag Iron and Steel Company Limited, 70.27%)"
     source_id: mstc-t5-nit
   narrative:
     what_it_does: A 10.72 sq km block offered for a composite licence, for phosphorite, in Chhatarpur district,
@@ -9053,7 +9908,7 @@
     closed: null
   milestones:
   - date: '2026-10-13'
-    event: "Tranche 8: annulled"
+    event: "Tranche VIII: annulled"
     source_id: mstc-t8-nit
   narrative:
     what_it_does: A 3.98 sq km block offered for a composite licence, for rare earth element and rare metals, in
@@ -9193,7 +10048,7 @@
     closed: null
   milestones:
   - date: '2024-06-21'
-    event: "Tranche 2: no bids"
+    event: "Tranche II: no bids"
     source_id: mstc-t2-nit
   narrative:
     what_it_does: A 8.21 sq km block offered for a composite licence, for pge, nickel, chromium and associated mineral,
@@ -9349,7 +10204,7 @@
     closed: null
   milestones:
   - date: '2026-10-13'
-    event: "Tranche 8: annulled"
+    event: "Tranche VIII: annulled"
     source_id: mstc-t8-nit
   narrative:
     what_it_does: A 6.39 sq km block offered for a composite licence, for vanadium, gallium, titanium, bauxite and
@@ -9488,7 +10343,7 @@
     closed: null
   milestones:
   - date: '2026-01-17'
-    event: "Tranche 6: preferred bidder (Coal India Limited, 40.6%)"
+    event: "Tranche VI: preferred bidder (Coal India Limited, 40.6%)"
     source_id: mstc-t6-nit
   narrative:
     what_it_does: A 3.98 sq km block offered for a composite licence, for ree and rm, in Nagpur district, Maharashtra,
@@ -9734,10 +10589,10 @@
     closed: null
   milestones:
   - date: '2025-05-30'
-    event: "Tranche 5: annulled"
+    event: "Tranche V: annulled"
     source_id: mstc-t5-nit
   - date: '2026-01-16'
-    event: "Tranche 6: preferred bidder (R K Earth Resources Private Limited, 30.75%)"
+    event: "Tranche VI: preferred bidder (R K Earth Resources Private Limited, 30.75%)"
     source_id: mstc-t6-nit
   narrative:
     what_it_does: A 1.51 sq km block offered for a mining lease, for tungsten ore, in Nagpur district, Maharashtra,
@@ -9848,6 +10703,168 @@
     loi_date: null
     licence_or_lease_executed: null
     production_started: null
+- id: blk-mh-kondalwadi-tantalum
+  name: Kondalwadi Tantalum Exploration Block
+  aliases: []
+  layer: blocks
+  stages:
+  - Exploration
+  minerals:
+  - Tantalum
+  commodity_as_stated: Tantalum
+  products: []
+  operator: null
+  operator_type: null
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Naigaon
+    district: Nanded
+    state: Maharashtra
+    country: India
+    lat: 18.875531
+    lon: 77.747829
+    precision: exact
+    geometry:
+      type: Polygon
+      coordinates:
+      - - - 77.6973332
+          - 18.9600511
+        - - 77.7983239
+          - 18.9600511
+        - - 77.7983239
+          - 18.7910114
+        - - 77.6973332
+          - 18.7910114
+        - - 77.6973332
+          - 18.9600511
+  status: Annulled
+  status_as_of: '2025-03-13'
+  status_detail: "Annulled in EL Tranche I: No preferred bidder; not listed for e-auction in the notice of 12 Aug\
+    \ 2025 (reason not published)"
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2025-03-13'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: '2025-03-13'
+    event: "EL Tranche I: annulled"
+    source_id: mstc-el1-nit
+  narrative:
+    what_it_does: A 199.36 sq km block offered for an exploration licence, for tantalum, in Nanded district, Maharashtra.
+    significance: Offered 1 time by the Centre, most recently in EL Tranche I, and the auction was annulled (March
+      2025).
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-23'
+  notes: Outcome inferred from the absence of the block in the e-auction schedule and the preferred-bidder declaration;
+    no block-level annulment notice found.
+  sources:
+  - id: mstc-el1-nit
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=19563_GoI%20MoM%20-%20EL%20-%20Tranche%20I%20-%20Notice%20Inviting%20Tender.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: GoI MoM - EL - Tranche I - Notice Inviting Tender
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2025-03-13'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+    - status
+  - id: mstc-el1-blocks
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=20090_2.%20Details%20of%2013%20Blocks%20of%20EL%20in%20Tranche%20I.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: Details of 13 Blocks of EL in Tranche I (GSI presentation)
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2025-03-13'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - status
+  - id: mstc-el1-tqb
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=22108_EL-GOI%20-%20Tranche%20I%20-%20Auction%20Notice%20Regarding%20Intimation%20to%20TQBs%2C%20Opening%20of%20IPO%2C%20Intimation%20to%20QBs%20and%20Second%20Round%20of%20e-Auction.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: EL Tranche I - Notice regarding intimation to TQBs, opening of IPO and second round of e-auction
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2025-08-12'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - status
+  - id: mstc-el1-pb
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=22686_GOI_Notice%20for%20Preferred%20Bidder%20Declaration%20of%2007%20Exploration%20Blocks%20under%20Tranche%20I.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: Notice for Preferred Bidder Declaration of 07 Exploration Blocks under Tranche I
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2025-09-16'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - status
+  - id: mstc-mbs-19567
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=19567_10.%20MBS_Kondalwadi_Tantalum_Block_Maharastra.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: "Mine Block Summary: 10. MBS_Kondalwadi_Tantalum_Block_Maharastra"
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2025-03-13'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - block.area_sq_km
+    - block.exploration_stage
+    - location
+  block:
+    concession_type: EL
+    auction_route: Centre
+    area_sq_km: 199.36
+    exploration_stage: null
+    resources: []
+    resources_as_stated: null
+  auction:
+    history:
+    - tranche: Centre-EL1
+      nit_date: '2025-03-13'
+      outcome: Annulled
+      outcome_date: null
+      annulment_reason: No preferred bidder; not listed for e-auction in the notice of 12 Aug 2025 (reason not published)
+      preferred_bidder: null
+      final_offer_pct: null
+      reserve_price: null
+    loi_date: null
+    licence_or_lease_executed: null
+    production_started: null
 - id: blk-mh-vadakhol-asoli
   name: Vadakhol-Asoli Ni, Cr, Co and Associated Mineral Block
   aliases: []
@@ -9918,10 +10935,10 @@
     closed: null
   milestones:
   - date: '2024-06-21'
-    event: "Tranche 2: annulled"
+    event: "Tranche II: annulled"
     source_id: mstc-t2-nit
   - date: '2024-10-23'
-    event: "Tranche 4: preferred bidder (Assam Mineral Development Corporation Limited, 7.05%)"
+    event: "Tranche IV: preferred bidder (Assam Mineral Development Corporation Limited, 7.05%)"
     source_id: mstc-t4-nit
   narrative:
     what_it_does: A 14.76 sq km block offered for a composite licence, for ni, cr, co and associated mineral, in
@@ -10127,7 +11144,7 @@
     closed: null
   milestones:
   - date: '2024-03-19'
-    event: "Tranche 1: preferred bidder (Kundan Gold Mines Private Limited, 13.05%)"
+    event: "Tranche I: preferred bidder (Kundan Gold Mines Private Limited, 13.05%)"
     source_id: mstc-t1-nit
   narrative:
     what_it_does: A 7.53 sq km block offered for a composite licence, for graphite, in Angul district, Odisha, explored
@@ -10224,6 +11241,148 @@
     loi_date: null
     licence_or_lease_executed: null
     production_started: null
+- id: blk-od-amdabera-rangamatia
+  name: Amdabera-Rangamatia Vanadium Titanium Exploration Block
+  aliases: []
+  layer: blocks
+  stages:
+  - Exploration
+  minerals:
+  - Vanadium
+  - Titanium
+  commodity_as_stated: Titanium and Vanadium
+  products: []
+  operator: Govind Kumar Agrawal
+  operator_type: null
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Amdabera
+    district: Mayurbhanj
+    state: Odisha
+    country: India
+    lat: 22.208108
+    lon: 86.375027
+    precision: exact
+    geometry:
+      type: Polygon
+      coordinates:
+      - - - 86.3331564
+          - 22.1128081
+        - - 86.3332833
+          - 22.3032606
+        - - 86.4169611
+          - 22.3032989
+        - - 86.4167289
+          - 22.1129861
+        - - 86.3331564
+          - 22.1128081
+  status: Preferred bidder
+  status_as_of: '2026-06-16'
+  status_detail: "Govind Kumar Agrawal, final price offer 6.15% (EL Tranche II)"
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2026-02-12'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: '2026-06-16'
+    event: "EL Tranche II: preferred bidder (Govind Kumar Agrawal, 6.15%)"
+    source_id: mstc-el2-nit
+  narrative:
+    what_it_does: A 181.51 sq km block offered for an exploration licence, for titanium and vanadium, in Mayurbhanj
+      district, Odisha.
+    significance: "Govind Kumar Agrawal won the exploration licence in EL Tranche II (June 2026) with the lowest\
+      \ final price offer, 6.15% (exploration-licence auctions are reverse auctions)."
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-23'
+  notes: "Ceiling price 40%; EL auctions are reverse auctions. Letter of intent / licence execution status not yet\
+    \ checked (see OPEN_QUESTIONS)."
+  sources:
+  - id: mstc-el2-nit
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25192_GoI%20MoM%20-%20EL%20-%20Tranche%20II%20-%20Notice%20Inviting%20Tender.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: GoI MoM - EL - Tranche II - Notice Inviting Tender
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2026-02-12'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+    - status
+  - id: mstc-results-el-fy2026-27
+    url: "https://www.mstcecommerce.com/auctionhome/mlcln/mineral_auction_result.jsp?typerep=f&finYr=2026-2027&sellerRefId=41731"
+    title: MSTC - Exploration Licence Block Auction Results, FY 2026-27 (Ministry of Mines)
+    publisher: MSTC Ltd
+    tier: T1
+    date: '2026-10-23'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - operator
+    - status
+  - id: mstc-mbs-25198
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25198_MBS_Amdabera_Rangamatia_Odisha_EL%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: "Mine Block Summary: MBS_Amdabera_Rangamatia_Odisha_EL Block"
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2026-02-12'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - block.area_sq_km
+    - block.exploration_stage
+    - location
+  block:
+    concession_type: EL
+    auction_route: Centre
+    area_sq_km: 181.51
+    exploration_stage: null
+    resources: []
+    resources_as_stated: null
+  auction:
+    history:
+    - tranche: Centre-EL2
+      nit_date: '2026-02-12'
+      outcome: Preferred bidder
+      outcome_date: '2026-06-16'
+      annulment_reason: null
+      preferred_bidder: Govind Kumar Agrawal
+      final_offer_pct: 6.15
+      reserve_price: "40.00%"
+    loi_date: null
+    licence_or_lease_executed: null
+    production_started: null
 - id: blk-od-babja
   name: Babja Graphite and Manganese Block
   aliases: []
@@ -10293,7 +11452,7 @@
     closed: null
   milestones:
   - date: '2024-03-19'
-    event: "Tranche 1: preferred bidder (Agrasen Sponge Private Limited, 85.05%)"
+    event: "Tranche I: preferred bidder (Agrasen Sponge Private Limited, 85.05%)"
     source_id: mstc-t1-nit
   narrative:
     what_it_does: A 0.20 sq km block offered for a mining lease, for graphite and manganese ore, in Balangir district,
@@ -10459,7 +11618,7 @@
     closed: null
   milestones:
   - date: '2026-07-15'
-    event: "Tranche 8: pending"
+    event: "Tranche VIII: pending"
     source_id: mstc-t8-nit
   narrative:
     what_it_does: A 3.92 sq km block offered for a composite licence, for titanium, vanadium and iron ore (magnetite),
@@ -10608,7 +11767,7 @@
     closed: null
   milestones:
   - date: '2026-01-16'
-    event: "Tranche 6: preferred bidder (VNR Minerals LLP, 265%)"
+    event: "Tranche VI: preferred bidder (VNR Minerals LLP, 265%)"
     source_id: mstc-t6-nit
   narrative:
     what_it_does: A 2.01 sq km block offered for a composite licence, for graphite, manganese and associated minerals
@@ -10747,7 +11906,7 @@
     closed: null
   milestones:
   - date: '2024-03-15'
-    event: "Tranche 1: preferred bidder (Agrasen Sponge Private Limited, 70.05%)"
+    event: "Tranche I: preferred bidder (Agrasen Sponge Private Limited, 70.05%)"
     source_id: mstc-t1-nit
   narrative:
     what_it_does: A 1.32 sq km block offered for a mining lease, for graphite and manganese, in Balangir district,
@@ -10925,7 +12084,7 @@
     closed: null
   milestones:
   - date: '2024-03-13'
-    event: "Tranche 1: annulled"
+    event: "Tranche I: annulled"
     source_id: mstc-t1-nit
   narrative:
     what_it_does: A 1.04 sq km block offered for a mining lease, for nickel and copper, in Mayurbhanj district,
@@ -11090,7 +12249,7 @@
     closed: null
   milestones:
   - date: '2026-01-23'
-    event: "Tranche 6: preferred bidder (Shrinibash Sahoo, 835%)"
+    event: "Tranche VI: preferred bidder (Shrinibash Sahoo, 835%)"
     source_id: mstc-t6-nit
   narrative:
     what_it_does: A 4.26 sq km block offered for a composite licence, for graphite, manganese and associated minerals
@@ -11234,7 +12393,7 @@
     closed: null
   milestones:
   - date: '2026-06-12'
-    event: "Tranche 7: preferred bidder (VNR Minerals LLP, 673.6%)"
+    event: "Tranche VII: preferred bidder (VNR Minerals LLP, 673.6%)"
     source_id: mstc-t7-nit
   narrative:
     what_it_does: A 13.93 sq km block offered for a composite licence, for graphite, in Kalahandi district, Odisha,
@@ -11389,7 +12548,7 @@
     closed: null
   milestones:
   - date: '2026-06-12'
-    event: "Tranche 7: preferred bidder (VNR Minerals LLP, 309.3%)"
+    event: "Tranche VII: preferred bidder (VNR Minerals LLP, 309.3%)"
     source_id: mstc-t7-nit
   narrative:
     what_it_does: A 13.13 sq km block offered for a composite licence, for graphite, in Kalahandi district, Odisha,
@@ -11540,7 +12699,7 @@
     closed: null
   milestones:
   - date: '2026-01-21'
-    event: "Tranche 6: preferred bidder (VNR Minerals LLP, 265%)"
+    event: "Tranche VI: preferred bidder (VNR Minerals LLP, 265%)"
     source_id: mstc-t6-nit
   narrative:
     what_it_does: A 2.57 sq km block offered for a composite licence, for graphite, manganese and associated minerals
@@ -11608,6 +12767,149 @@
       preferred_bidder: VNR Minerals LLP
       final_offer_pct: 265.0
       reserve_price: "2.00%"
+    loi_date: null
+    licence_or_lease_executed: null
+    production_started: null
+- id: blk-od-mushanal-dumrimunda
+  name: Mushanal-Dumrimunda REE Exploration Block
+  aliases: []
+  layer: blocks
+  stages:
+  - Exploration
+  minerals:
+  - Rare earths (unspecified)
+  commodity_as_stated: Rare Earth Elements
+  products: []
+  operator: Maheshwari Mining Private Limited
+  operator_type: null
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Mushanal
+    district: Kalahandi
+    state: Odisha
+    country: India
+    lat: 19.812558
+    lon: 83.333245
+    precision: exact
+    geometry:
+      type: Polygon
+      coordinates:
+      - - - 83.2500139
+          - 19.7583333
+        - - 83.25
+          - 19.8666667
+        - - 83.4166667
+          - 19.8666667
+        - - 83.4166667
+          - 19.7693194
+        - - 83.4129972
+          - 19.7583361
+        - - 83.2500139
+          - 19.7583333
+  status: Preferred bidder
+  status_as_of: '2026-06-17'
+  status_detail: "Maheshwari Mining Private Limited, final price offer 6.55% (EL Tranche II)"
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2026-02-12'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: '2026-06-17'
+    event: "EL Tranche II: preferred bidder (Maheshwari Mining Private Limited, 6.55%)"
+    source_id: mstc-el2-nit
+  narrative:
+    what_it_does: A 209.31 sq km block offered for an exploration licence, for rare earth elements, in Kalahandi
+      district, Odisha.
+    significance: "Maheshwari Mining Private Limited won the exploration licence in EL Tranche II (June 2026) with\
+      \ the lowest final price offer, 6.55% (exploration-licence auctions are reverse auctions)."
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-23'
+  notes: "Ceiling price 40%; EL auctions are reverse auctions. Letter of intent / licence execution status not yet\
+    \ checked (see OPEN_QUESTIONS)."
+  sources:
+  - id: mstc-el2-nit
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25192_GoI%20MoM%20-%20EL%20-%20Tranche%20II%20-%20Notice%20Inviting%20Tender.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: GoI MoM - EL - Tranche II - Notice Inviting Tender
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2026-02-12'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+    - status
+  - id: mstc-results-el-fy2026-27
+    url: "https://www.mstcecommerce.com/auctionhome/mlcln/mineral_auction_result.jsp?typerep=f&finYr=2026-2027&sellerRefId=41731"
+    title: MSTC - Exploration Licence Block Auction Results, FY 2026-27 (Ministry of Mines)
+    publisher: MSTC Ltd
+    tier: T1
+    date: '2026-10-23'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - operator
+    - status
+  - id: mstc-mbs-25199
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25199_MBS_Mushanal_Dumurimunda_Odisha_%20EL%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: "Mine Block Summary: MBS_Mushanal_Dumurimunda_Odisha_ EL Block"
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2026-02-12'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - block.area_sq_km
+    - block.exploration_stage
+    - location
+  block:
+    concession_type: EL
+    auction_route: Centre
+    area_sq_km: 209.3135
+    exploration_stage: null
+    resources: []
+    resources_as_stated: null
+  auction:
+    history:
+    - tranche: Centre-EL2
+      nit_date: '2026-02-12'
+      outcome: Preferred bidder
+      outcome_date: '2026-06-17'
+      annulment_reason: null
+      preferred_bidder: Maheshwari Mining Private Limited
+      final_offer_pct: 6.55
+      reserve_price: "40.00%"
     loi_date: null
     licence_or_lease_executed: null
     production_started: null
@@ -11688,10 +12990,10 @@
     closed: null
   milestones:
   - date: '2026-06-19'
-    event: "Tranche 7: annulled"
+    event: "Tranche VII: annulled"
     source_id: mstc-t7-nit
   - date: '2026-10-16'
-    event: "Tranche 8: preferred bidder (Subburajan, 30.44%)"
+    event: "Tranche VIII: preferred bidder (Subburajan, 30.44%)"
     source_id: mstc-t8-nit
   narrative:
     what_it_does: A 0.14 sq km block offered for a composite licence, for graphite, in Rayagada district, Odisha,
@@ -11872,7 +13174,7 @@
     closed: null
   milestones:
   - date: '2025-05-15'
-    event: "Tranche 5: preferred bidder (Vinmir Resources Pvt. Ltd., 179%)"
+    event: "Tranche V: preferred bidder (Vinmir Resources Pvt. Ltd., 179%)"
     source_id: mstc-t5-nit
   narrative:
     what_it_does: A 12.23 sq km block offered for a composite licence, for graphite, in Balangir district, Odisha,
@@ -11944,8 +13246,7 @@
     area_sq_km: 12.2329
     exploration_stage: G3
     resources: []
-    resources_as_stated: Geological Resources with Grade (Inferred Mineral Resource-333) The total net inferred
-      resource (333) of Graphite is 0.153 million tonnes over a cumulative
+    resources_as_stated: null
   auction:
     history:
     - tranche: Centre-T5
@@ -12038,7 +13339,7 @@
     closed: null
   milestones:
   - date: '2026-10-15'
-    event: "Tranche 8: preferred bidder (VNR Minerals LLP, 211%)"
+    event: "Tranche VIII: preferred bidder (VNR Minerals LLP, 211%)"
     source_id: mstc-t8-nit
   narrative:
     what_it_does: A 1.39 sq km block offered for a mining lease, for graphite, manganese, in Balangir district,
@@ -12198,10 +13499,10 @@
     closed: null
   milestones:
   - date: '2026-02-06'
-    event: "Tranche 6: annulled"
+    event: "Tranche VI: annulled"
     source_id: mstc-t6-nit
   - date: '2026-10-13'
-    event: "Tranche 8: annulled"
+    event: "Tranche VIII: annulled"
     source_id: mstc-t8-nit
   narrative:
     what_it_does: A 45.93 sq km block offered for a composite licence, for potash and halite, in Fazilka district,
@@ -12380,7 +13681,7 @@
     closed: null
   milestones:
   - date: '2024-06-21'
-    event: "Tranche 2: no bids"
+    event: "Tranche II: no bids"
     source_id: mstc-t2-nit
   narrative:
     what_it_does: A 14.17 sq km block offered for a composite licence, for potash and halite, in Hanumangarh district,
@@ -12535,7 +13836,7 @@
     closed: null
   milestones:
   - date: '2026-01-28'
-    event: "Tranche 6: preferred bidder (Team Geo Resources Private Limited, 47.3%)"
+    event: "Tranche VI: preferred bidder (Team Geo Resources Private Limited, 47.3%)"
     source_id: mstc-t6-nit
   narrative:
     what_it_does: A 1.34 sq km block offered for a mining lease, for ree, niobium and zirconium, in Balotra district,
@@ -12681,7 +13982,7 @@
     closed: null
   milestones:
   - date: '2026-10-13'
-    event: "Tranche 8: annulled"
+    event: "Tranche VIII: annulled"
     source_id: mstc-t8-nit
   narrative:
     what_it_does: A 2.00 sq km block offered for a mining lease, for potash and halite, in Hanumangarh district,
@@ -12821,10 +14122,10 @@
     closed: null
   milestones:
   - date: '2024-11-26'
-    event: "Tranche 4: annulled"
+    event: "Tranche IV: annulled"
     source_id: mstc-t4-nit
   - date: '2025-05-16'
-    event: "Tranche 5: preferred bidder (Hindustan Zinc Limited, 3.05%)"
+    event: "Tranche V: preferred bidder (Hindustan Zinc Limited, 3.05%)"
     source_id: mstc-t5-nit
   narrative:
     what_it_does: A 18.41 sq km block offered for a composite licence, for potash and halite, in Hanumangarh district,
@@ -13021,10 +14322,10 @@
     closed: null
   milestones:
   - date: '2024-11-26'
-    event: "Tranche 4: annulled"
+    event: "Tranche IV: annulled"
     source_id: mstc-t4-nit
   - date: '2025-05-15'
-    event: "Tranche 5: preferred bidder (Oil India Ltd., 15.15%)"
+    event: "Tranche V: preferred bidder (Oil India Ltd., 15.15%)"
     source_id: mstc-t5-nit
   narrative:
     what_it_does: A 17.00 sq km block offered for a composite licence, for potash and halite, in Hanumangarh district,
@@ -13217,7 +14518,7 @@
     closed: null
   milestones:
   - date: '2026-06-12'
-    event: "Tranche 7: preferred bidder (SKN .haryana City Gas Distribution Private Limited, 25%)"
+    event: "Tranche VII: preferred bidder (SKN .haryana City Gas Distribution Private Limited, 25%)"
     source_id: mstc-t7-nit
   narrative:
     what_it_does: A 2.07 sq km block offered for a composite licence, for ree, in Balotra district, Rajasthan, explored
@@ -13299,6 +14600,146 @@
     loi_date: null
     licence_or_lease_executed: null
     production_started: null
+- id: blk-rj-khandap-sewali
+  name: Khandap-Sewali REE Exploration Block
+  aliases: []
+  layer: blocks
+  stages:
+  - Exploration
+  minerals:
+  - Rare earths (unspecified)
+  commodity_as_stated: Rare Earth Elements
+  products: []
+  operator: null
+  operator_type: null
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Khandap
+    district: Balotra
+    state: Rajasthan
+    country: India
+    lat: 25.688871
+    lon: 72.639659
+    precision: exact
+    geometry:
+      type: Polygon
+      coordinates:
+      - - - 72.5885981
+          - 25.7822083
+        - - 72.6848386
+          - 25.78291
+        - - 72.6861003
+          - 25.5668225
+        - - 72.588435
+          - 25.6276389
+        - - 72.5885981
+          - 25.7822083
+  status: Annulled
+  status_as_of: '2026-06-19'
+  status_detail: "Annulled in EL Tranche II: Fewer than three technically qualified bidders (Rule 19E(11) Mineral\
+    \ (Auction) Rules)"
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2026-02-12'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: '2026-06-19'
+    event: "EL Tranche II: annulled"
+    source_id: mstc-el2-nit
+  narrative:
+    what_it_does: A 200.00 sq km block offered for an exploration licence, for rare earth elements, in Balotra district,
+      Rajasthan, explored to G3 level.
+    significance: Offered 1 time by the Centre, most recently in EL Tranche II, and the auction was annulled (June
+      2026).
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-23'
+  notes: null
+  sources:
+  - id: mstc-el2-nit
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25192_GoI%20MoM%20-%20EL%20-%20Tranche%20II%20-%20Notice%20Inviting%20Tender.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: GoI MoM - EL - Tranche II - Notice Inviting Tender
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2026-02-12'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+    - status
+  - id: mstc-el2-annulment
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=26954_GoI%20MoM%20-%20EL%20-%20Tranche%20II%20-%20Auction%20Annulment%20Notice.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: GoI MoM - EL - Tranche II - Auction Annulment Notice
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2026-06-19'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - status
+  - id: mstc-mbs-25200
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25200_MBS_Khandap_Sewali_Rajasthan_EL%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: "Mine Block Summary: MBS_Khandap_Sewali_Rajasthan_EL Block"
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2026-02-12'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - block.area_sq_km
+    - block.exploration_stage
+    - location
+  block:
+    concession_type: EL
+    auction_route: Centre
+    area_sq_km: 200.0
+    exploration_stage: G3
+    resources: []
+    resources_as_stated: null
+  auction:
+    history:
+    - tranche: Centre-EL2
+      nit_date: '2026-02-12'
+      outcome: Annulled
+      outcome_date: '2026-06-19'
+      annulment_reason: Fewer than three technically qualified bidders (Rule 19E(11) Mineral (Auction) Rules)
+      preferred_bidder: null
+      final_offer_pct: null
+      reserve_price: "40.00%"
+    loi_date: null
+    licence_or_lease_executed: null
+    production_started: null
 - id: blk-rj-lakhasar
   name: Lakhasar Potash and Halite Block
   aliases: []
@@ -13372,7 +14813,7 @@
     closed: null
   milestones:
   - date: '2024-06-21'
-    event: "Tranche 2: no bids"
+    event: "Tranche II: no bids"
     source_id: mstc-t2-nit
   narrative:
     what_it_does: A 18.30 sq km block offered for a composite licence, for potash and halite, in Bikaner district,
@@ -13531,7 +14972,7 @@
     closed: null
   milestones:
   - date: '2026-10-13'
-    event: "Tranche 8: annulled"
+    event: "Tranche VIII: annulled"
     source_id: mstc-t8-nit
   narrative:
     what_it_does: A 0.66 sq km block offered for a composite licence, for tungsten and associated minerals, in Nagaur
@@ -13599,6 +15040,169 @@
       preferred_bidder: null
       final_offer_pct: null
       reserve_price: "2.00%"
+    loi_date: null
+    licence_or_lease_executed: null
+    production_started: null
+- id: blk-rj-nawatala-devigarh
+  name: Nawatala-Devigarh REE Exploration Block
+  aliases: []
+  layer: blocks
+  stages:
+  - Exploration
+  minerals:
+  - Rare earths (unspecified)
+  commodity_as_stated: REE
+  products: []
+  operator: Central Mine Planning and Design Institute Limited
+  operator_type: null
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Nawatala
+    district: Barmer
+    state: Rajasthan
+    country: India
+    lat: 26.232063
+    lon: 72.158948
+    precision: exact
+    geometry:
+      type: Polygon
+      coordinates:
+      - - - 72.2291264
+          - 26.3375331
+        - - 72.2886878
+          - 26.2961956
+        - - 72.0881364
+          - 26.1239017
+        - - 72.0329758
+          - 26.1745044
+        - - 72.2291264
+          - 26.3375331
+  status: Preferred bidder
+  status_as_of: '2025-08-20'
+  status_detail: "Central Mine Planning and Design Institute Limited, final price offer 36.45% (EL Tranche I)"
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2025-03-13'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: '2025-08-20'
+    event: "EL Tranche I: preferred bidder (Central Mine Planning and Design Institute Limited, 36.45%)"
+    source_id: mstc-el1-nit
+  narrative:
+    what_it_does: A 207.63 sq km block offered for an exploration licence, for ree, in Barmer district, Rajasthan.
+    significance: "Central Mine Planning and Design Institute Limited won the exploration licence in EL Tranche\
+      \ I (August 2025) with the lowest final price offer, 36.45% (exploration-licence auctions are reverse auctions)."
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-23'
+  notes: "EL auctions are reverse auctions: the preferred bidder quotes the lowest share of the auction premium.\
+    \ Letter of intent / licence execution status not yet checked (see OPEN_QUESTIONS)."
+  sources:
+  - id: mstc-el1-nit
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=19563_GoI%20MoM%20-%20EL%20-%20Tranche%20I%20-%20Notice%20Inviting%20Tender.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: GoI MoM - EL - Tranche I - Notice Inviting Tender
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2025-03-13'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+    - status
+  - id: mstc-el1-blocks
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=20090_2.%20Details%20of%2013%20Blocks%20of%20EL%20in%20Tranche%20I.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: Details of 13 Blocks of EL in Tranche I (GSI presentation)
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2025-03-13'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - status
+  - id: mstc-el1-pb
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=22686_GOI_Notice%20for%20Preferred%20Bidder%20Declaration%20of%2007%20Exploration%20Blocks%20under%20Tranche%20I.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: Notice for Preferred Bidder Declaration of 07 Exploration Blocks under Tranche I
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2025-09-16'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - operator
+    - status
+  - id: mstc-results-el-fy2025-26
+    url: "https://www.mstcecommerce.com/auctionhome/mlcln/mineral_auction_result.jsp?typerep=f&finYr=2025-2026&sellerRefId=41731"
+    title: MSTC - Exploration Licence Block Auction Results, FY 2025-26 (Ministry of Mines)
+    publisher: MSTC Ltd
+    tier: T1
+    date: '2026-10-23'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - operator
+    - status
+  - id: mstc-mbs-19565
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=19565_12.%20MBS_Nawatala-Devigarh_REE_Block_Rajasthan.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: "Mine Block Summary: 12. MBS_Nawatala-Devigarh_REE_Block_Rajasthan"
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2025-03-13'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - block.area_sq_km
+    - block.exploration_stage
+    - location
+  block:
+    concession_type: EL
+    auction_route: Centre
+    area_sq_km: 207.63
+    exploration_stage: null
+    resources: []
+    resources_as_stated: null
+  auction:
+    history:
+    - tranche: Centre-EL1
+      nit_date: '2025-03-13'
+      outcome: Preferred bidder
+      outcome_date: '2025-08-20'
+      annulment_reason: null
+      preferred_bidder: Central Mine Planning and Design Institute Limited
+      final_offer_pct: 36.45
+      reserve_price: null
     loi_date: null
     licence_or_lease_executed: null
     production_started: null
@@ -13671,7 +15275,7 @@
     closed: null
   milestones:
   - date: '2026-01-16'
-    event: "Tranche 6: preferred bidder (Wonder Cement Limited, 34.4%)"
+    event: "Tranche VI: preferred bidder (Wonder Cement Limited, 34.4%)"
     source_id: mstc-t6-nit
   narrative:
     what_it_does: A 2.70 sq km block offered for a composite licence, for rock phosphate, in Jaisalmer district,
@@ -13848,10 +15452,10 @@
     closed: null
   milestones:
   - date: '2026-02-06'
-    event: "Tranche 6: annulled"
+    event: "Tranche VI: annulled"
     source_id: mstc-t6-nit
   - date: '2026-06-19'
-    event: "Tranche 7: annulled"
+    event: "Tranche VII: annulled"
     source_id: mstc-t7-nit
   narrative:
     what_it_does: A 1.55 sq km block offered for a mining lease, for tungsten, lithium and associated minerals (rubidium,
@@ -14019,7 +15623,7 @@
     closed: null
   milestones:
   - date: '2026-01-21'
-    event: "Tranche 6: preferred bidder (Pahel Dynamic Private Limited, 205%)"
+    event: "Tranche VI: preferred bidder (Pahel Dynamic Private Limited, 205%)"
     source_id: mstc-t6-nit
   narrative:
     what_it_does: A 1.02 sq km block offered for a composite licence, for ree and nb, in Barmer district, Rajasthan,
@@ -14160,7 +15764,7 @@
     closed: null
   milestones:
   - date: '2024-03-21'
-    event: "Tranche 1: preferred bidder (Dalmia Bharat Refractories Limited, 45%)"
+    event: "Tranche I: preferred bidder (Dalmia Bharat Refractories Limited, 45%)"
     source_id: mstc-t1-nit
   narrative:
     what_it_does: A 6.33 sq km block offered for a composite licence, for graphite, in Sivaganga district, Tamil
@@ -14328,10 +15932,10 @@
     closed: null
   milestones:
   - date: '2024-03-13'
-    event: "Tranche 1: annulled"
+    event: "Tranche I: annulled"
     source_id: mstc-t1-nit
   - date: '2024-07-25'
-    event: "Tranche 3: annulled"
+    event: "Tranche III: annulled"
     source_id: mstc-t3-nit
   narrative:
     what_it_does: A 2.66 sq km block offered for a composite licence, for graphite, in Tenkasi district, Tamil Nadu,
@@ -14527,7 +16131,7 @@
     closed: null
   milestones:
   - date: '2024-03-13'
-    event: "Tranche 1: no bids"
+    event: "Tranche I: no bids"
     source_id: mstc-t1-nit
   narrative:
     what_it_does: A 0.59 sq km block offered for a composite licence, for molybdenum, in Krishnagiri district, Tamil
@@ -14669,7 +16273,7 @@
     closed: null
   milestones:
   - date: '2024-03-13'
-    event: "Tranche 1: annulled"
+    event: "Tranche I: annulled"
     source_id: mstc-t1-nit
   narrative:
     what_it_does: A 0.48 sq km block offered for a mining lease, for molybdenum, in Dharmapuri district, Tamil Nadu,
@@ -14823,10 +16427,10 @@
     closed: null
   milestones:
   - date: '2024-06-21'
-    event: "Tranche 2: annulled"
+    event: "Tranche II: annulled"
     source_id: mstc-t2-nit
   - date: '2025-01-24'
-    event: "Tranche 4: annulled (Hindustan Zinc Limited, 5.05%)"
+    event: "Tranche IV: annulled (Hindustan Zinc Limited, 5.05%)"
     source_id: mstc-t4-nit
   narrative:
     what_it_does: A 20.16 sq km block offered for a composite licence, for tungsten, in Madurai district, Tamil
@@ -15045,7 +16649,7 @@
     closed: null
   milestones:
   - date: '2024-03-13'
-    event: "Tranche 1: annulled"
+    event: "Tranche I: annulled"
     source_id: mstc-t1-nit
   narrative:
     what_it_does: A 3.00 sq km block offered for a composite licence, for molybdenum ore, in Krishnagiri district,
@@ -15198,7 +16802,7 @@
     closed: null
   milestones:
   - date: '2024-03-13'
-    event: "Tranche 1: annulled"
+    event: "Tranche I: annulled"
     source_id: mstc-t1-nit
   narrative:
     what_it_does: A 1.03 sq km block offered for a composite licence, for molybdenum ore, in Dharmapuri district,
@@ -15350,7 +16954,7 @@
     closed: null
   milestones:
   - date: '2024-03-13'
-    event: "Tranche 1: no bids"
+    event: "Tranche I: no bids"
     source_id: mstc-t1-nit
   narrative:
     what_it_does: A 0.65 sq km block offered for a composite licence, for molybdenum ore, in Krishnagiri district,
@@ -15493,7 +17097,7 @@
     closed: null
   milestones:
   - date: '2026-10-13'
-    event: "Tranche 8: annulled"
+    event: "Tranche VIII: annulled"
     source_id: mstc-t8-nit
   narrative:
     what_it_does: A 4.06 sq km block offered for a composite licence, for titanium, vanadium, gallium and aluminous
@@ -15560,6 +17164,144 @@
       preferred_bidder: null
       final_offer_pct: null
       reserve_price: "2.00%"
+    loi_date: null
+    licence_or_lease_executed: null
+    production_started: null
+- id: blk-tg-chinna-kodur
+  name: Chinna Kodur REE Exploration Block
+  aliases: []
+  layer: blocks
+  stages:
+  - Exploration
+  minerals:
+  - Rare earths (unspecified)
+  commodity_as_stated: REE
+  products: []
+  operator: null
+  operator_type: null
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: "Mailaram (18°13'33.70\"N: 78°55'3.63\"E) Chinna Kodur"
+    district: Siddipet
+    state: Telangana
+    country: India
+    lat: 18.129306
+    lon: 78.90875
+    precision: exact
+    geometry:
+      type: Polygon
+      coordinates:
+      - - - 78.8652778
+          - 18.2372222
+        - - 78.9522222
+          - 18.2372222
+        - - 78.9522222
+          - 18.0213889
+        - - 78.8652778
+          - 18.0213889
+        - - 78.8652778
+          - 18.2372222
+  status: Annulled
+  status_as_of: '2026-06-19'
+  status_detail: "Annulled in EL Tranche II: Nil bids received"
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2026-02-12'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: '2026-06-19'
+    event: "EL Tranche II: annulled"
+    source_id: mstc-el2-nit
+  narrative:
+    what_it_does: A 219.89 sq km block offered for an exploration licence, for ree, in Siddipet district, Telangana.
+    significance: Offered 1 time by the Centre, most recently in EL Tranche II, and the auction was annulled (June
+      2026).
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-23'
+  notes: Boundary polygon recovered by OCR of the MBS annexure; checked against the stated block area.
+  sources:
+  - id: mstc-el2-nit
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25192_GoI%20MoM%20-%20EL%20-%20Tranche%20II%20-%20Notice%20Inviting%20Tender.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: GoI MoM - EL - Tranche II - Notice Inviting Tender
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2026-02-12'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+    - status
+  - id: mstc-el2-annulment
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=26954_GoI%20MoM%20-%20EL%20-%20Tranche%20II%20-%20Auction%20Annulment%20Notice.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: GoI MoM - EL - Tranche II - Auction Annulment Notice
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2026-06-19'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - status
+  - id: mstc-mbs-25201
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25201_MBS_Chinna%20Kodur_Telangana_EL%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: "Mine Block Summary: MBS_Chinna Kodur_Telangana_EL Block"
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2026-02-12'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - block.area_sq_km
+    - block.exploration_stage
+    - location
+  block:
+    concession_type: EL
+    auction_route: Centre
+    area_sq_km: 219.89
+    exploration_stage: null
+    resources: []
+    resources_as_stated: null
+  auction:
+    history:
+    - tranche: Centre-EL2
+      nit_date: '2026-02-12'
+      outcome: Annulled
+      outcome_date: '2026-06-19'
+      annulment_reason: Nil bids received
+      preferred_bidder: null
+      final_offer_pct: null
+      reserve_price: "40.00%"
     loi_date: null
     licence_or_lease_executed: null
     production_started: null
@@ -15633,10 +17375,10 @@
     closed: null
   milestones:
   - date: '2026-02-06'
-    event: "Tranche 6: annulled"
+    event: "Tranche VI: annulled"
     source_id: mstc-t6-nit
   - date: '2026-06-12'
-    event: "Tranche 7: preferred bidder (NLC India Limited, 7.05%)"
+    event: "Tranche VII: preferred bidder (NLC India Limited, 7.05%)"
     source_id: mstc-t7-nit
   narrative:
     what_it_does: "A 3.72 sq km block offered for a composite licence, for vanadium, titanium & aluminous laterite,\
@@ -15746,6 +17488,287 @@
     loi_date: null
     licence_or_lease_executed: null
     production_started: null
+- id: blk-tg-kondagattu
+  name: Kondagattu REE Exploration Block
+  aliases: []
+  layer: blocks
+  stages:
+  - Exploration
+  minerals:
+  - Rare earths (unspecified)
+  commodity_as_stated: REE
+  products: []
+  operator: null
+  operator_type: null
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Kondagattu
+    district: Rajanna Sircilla and Jagtial
+    state: Telangana
+    country: India
+    lat: 18.633176
+    lon: 78.94895
+    precision: exact
+    geometry:
+      type: Polygon
+      coordinates:
+      - - - 78.8935561
+          - 18.5550406
+        - - 79.0037394
+          - 18.5538111
+        - - 79.0037819
+          - 18.7122594
+        - - 78.8943692
+          - 18.7119661
+        - - 78.8935561
+          - 18.5550406
+  status: Annulled
+  status_as_of: '2026-06-19'
+  status_detail: "Annulled in EL Tranche II: Nil bids received"
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2026-02-12'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: '2026-06-19'
+    event: "EL Tranche II: annulled"
+    source_id: mstc-el2-nit
+  narrative:
+    what_it_does: A 202.29 sq km block offered for an exploration licence, for ree, in Rajanna Sircilla and Jagtial
+      districts, Telangana.
+    significance: Offered 1 time by the Centre, most recently in EL Tranche II, and the auction was annulled (June
+      2026).
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-23'
+  notes: null
+  sources:
+  - id: mstc-el2-nit
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25192_GoI%20MoM%20-%20EL%20-%20Tranche%20II%20-%20Notice%20Inviting%20Tender.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: GoI MoM - EL - Tranche II - Notice Inviting Tender
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2026-02-12'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+    - status
+  - id: mstc-el2-annulment
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=26954_GoI%20MoM%20-%20EL%20-%20Tranche%20II%20-%20Auction%20Annulment%20Notice.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: GoI MoM - EL - Tranche II - Auction Annulment Notice
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2026-06-19'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - status
+  - id: mstc-mbs-25202
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25202_MBS_Kondagattu_Telangana_EL%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: "Mine Block Summary: MBS_Kondagattu_Telangana_EL Block"
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2026-02-12'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - block.area_sq_km
+    - block.exploration_stage
+    - location
+  block:
+    concession_type: EL
+    auction_route: Centre
+    area_sq_km: 202.29
+    exploration_stage: null
+    resources: []
+    resources_as_stated: null
+  auction:
+    history:
+    - tranche: Centre-EL2
+      nit_date: '2026-02-12'
+      outcome: Annulled
+      outcome_date: '2026-06-19'
+      annulment_reason: Nil bids received
+      preferred_bidder: null
+      final_offer_pct: null
+      reserve_price: "40.00%"
+    loi_date: null
+    licence_or_lease_executed: null
+    production_started: null
+- id: blk-tg-momanpet
+  name: Momanpet REE, Vanadium and Titanium Exploration Block
+  aliases: []
+  layer: blocks
+  stages:
+  - Exploration
+  minerals:
+  - Vanadium
+  - Titanium
+  - Rare earths (unspecified)
+  commodity_as_stated: REE, Vanadium and Titanium
+  products: []
+  operator: null
+  operator_type: null
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Vikarabad town is about 22 km north of the block and
+    district: Vikarabad and Sangareddy
+    state: Telangana
+    country: India
+    lat: 17.542962
+    lon: 77.901573
+    precision: exact
+    geometry:
+      type: Polygon
+      coordinates:
+      - - - 77.8219944
+          - 17.5896417
+        - - 78.0
+          - 17.5873861
+        - - 78.0
+          - 17.5
+        - - 77.7871278
+          - 17.5
+        - - 77.8219944
+          - 17.5896417
+  status: Annulled
+  status_as_of: '2026-06-19'
+  status_detail: "Annulled in EL Tranche II: Fewer than three technically qualified bidders (Rule 19E(11) Mineral\
+    \ (Auction) Rules)"
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2026-02-12'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: '2026-06-19'
+    event: "EL Tranche II: annulled"
+    source_id: mstc-el2-nit
+  narrative:
+    what_it_does: A 203.00 sq km block offered for an exploration licence, for ree, vanadium and titanium, in Vikarabad
+      and Sangareddy districts, Telangana.
+    significance: Offered 1 time by the Centre, most recently in EL Tranche II, and the auction was annulled (June
+      2026).
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-23'
+  notes: null
+  sources:
+  - id: mstc-el2-nit
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25192_GoI%20MoM%20-%20EL%20-%20Tranche%20II%20-%20Notice%20Inviting%20Tender.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: GoI MoM - EL - Tranche II - Notice Inviting Tender
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2026-02-12'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+    - status
+  - id: mstc-el2-annulment
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=26954_GoI%20MoM%20-%20EL%20-%20Tranche%20II%20-%20Auction%20Annulment%20Notice.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: GoI MoM - EL - Tranche II - Auction Annulment Notice
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2026-06-19'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - status
+  - id: mstc-mbs-25203
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25203_MBS_Momanpet_Telangana_EL%20Block_.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: "Mine Block Summary: MBS_Momanpet_Telangana_EL Block_"
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2026-02-12'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - block.area_sq_km
+    - block.exploration_stage
+    - location
+  block:
+    concession_type: EL
+    auction_route: Centre
+    area_sq_km: 203.0
+    exploration_stage: null
+    resources: []
+    resources_as_stated: null
+  auction:
+    history:
+    - tranche: Centre-EL2
+      nit_date: '2026-02-12'
+      outcome: Annulled
+      outcome_date: '2026-06-19'
+      annulment_reason: Fewer than three technically qualified bidders (Rule 19E(11) Mineral (Auction) Rules)
+      preferred_bidder: null
+      final_offer_pct: null
+      reserve_price: "40.00%"
+    loi_date: null
+    licence_or_lease_executed: null
+    production_started: null
 - id: blk-tg-parvathapur
   name: "Parvathapur Vanadium, Titanium & Aluminous Laterite Block"
   aliases: []
@@ -15816,10 +17839,10 @@
     closed: null
   milestones:
   - date: '2026-02-06'
-    event: "Tranche 6: annulled"
+    event: "Tranche VI: annulled"
     source_id: mstc-t6-nit
   - date: '2026-06-11'
-    event: "Tranche 7: preferred bidder (NLC India Limited, 6.05%)"
+    event: "Tranche VII: preferred bidder (NLC India Limited, 6.05%)"
     source_id: mstc-t7-nit
   narrative:
     what_it_does: "A 3.35 sq km block offered for a composite licence, for vanadium, titanium & aluminous laterite,\
@@ -16002,7 +18025,7 @@
     closed: null
   milestones:
   - date: '2024-10-18'
-    event: "Tranche 4: preferred bidder (Mamco Mining Private Limited, 320%)"
+    event: "Tranche IV: preferred bidder (Mamco Mining Private Limited, 320%)"
     source_id: mstc-t4-nit
   narrative:
     what_it_does: A 5.05 sq km block offered for a composite licence, for phosphorite, in Lalitpur district, Uttar
@@ -16089,6 +18112,198 @@
     loi_date: null
     licence_or_lease_executed: null
     production_started: null
+- id: blk-up-harpalpur-mahobkanth
+  name: Harpalpur-Mahobkanth Zirconium Exploration Block
+  aliases: []
+  layer: blocks
+  stages:
+  - Exploration
+  minerals:
+  - Zirconium
+  commodity_as_stated: Zirconium
+  products: []
+  operator: Maheshwari Mining Private Limited
+  operator_type: null
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Puchhi
+    district: Jhansi and Mahoba
+    state: Uttar Pradesh
+    country: India
+    lat: 25.308333
+    lon: 79.366667
+    precision: exact
+    geometry:
+      type: Polygon
+      coordinates:
+      - - - 79.25
+          - 25.35
+        - - 79.4833333
+          - 25.35
+        - - 79.4833333
+          - 25.2666667
+        - - 79.25
+          - 25.2666667
+        - - 79.25
+          - 25.35
+  status: Preferred bidder
+  status_as_of: '2026-06-18'
+  status_detail: "Maheshwari Mining Private Limited, final price offer 32.95% (EL Tranche II)"
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2025-03-13'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: '2025-03-13'
+    event: "EL Tranche I: annulled"
+    source_id: mstc-el1-nit
+  - date: '2026-06-18'
+    event: "EL Tranche II: preferred bidder (Maheshwari Mining Private Limited, 32.95%)"
+    source_id: mstc-el2-nit
+  narrative:
+    what_it_does: A 216.87 sq km block offered for an exploration licence, for zirconium, in Jhansi and Mahoba districts,
+      Uttar Pradesh.
+    significance: "Maheshwari Mining Private Limited won the exploration licence in EL Tranche II (June 2026) with\
+      \ the lowest final price offer, 32.95% (exploration-licence auctions are reverse auctions)."
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-23'
+  notes: "Second attempt; ceiling price 34%. Letter of intent / licence execution status not yet checked (see OPEN_QUESTIONS)."
+  sources:
+  - id: mstc-el1-nit
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=19563_GoI%20MoM%20-%20EL%20-%20Tranche%20I%20-%20Notice%20Inviting%20Tender.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: GoI MoM - EL - Tranche I - Notice Inviting Tender
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2025-03-13'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+  - id: mstc-el1-blocks
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=20090_2.%20Details%20of%2013%20Blocks%20of%20EL%20in%20Tranche%20I.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: Details of 13 Blocks of EL in Tranche I (GSI presentation)
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2025-03-13'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+  - id: mstc-el1-tqb
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=22108_EL-GOI%20-%20Tranche%20I%20-%20Auction%20Notice%20Regarding%20Intimation%20to%20TQBs%2C%20Opening%20of%20IPO%2C%20Intimation%20to%20QBs%20and%20Second%20Round%20of%20e-Auction.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: EL Tranche I - Notice regarding intimation to TQBs, opening of IPO and second round of e-auction
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2025-08-12'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+  - id: mstc-el1-pb
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=22686_GOI_Notice%20for%20Preferred%20Bidder%20Declaration%20of%2007%20Exploration%20Blocks%20under%20Tranche%20I.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: Notice for Preferred Bidder Declaration of 07 Exploration Blocks under Tranche I
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2025-09-16'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+  - id: mstc-el2-nit
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25192_GoI%20MoM%20-%20EL%20-%20Tranche%20II%20-%20Notice%20Inviting%20Tender.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: GoI MoM - EL - Tranche II - Notice Inviting Tender
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2026-02-12'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - status
+  - id: mstc-results-el-fy2026-27
+    url: "https://www.mstcecommerce.com/auctionhome/mlcln/mineral_auction_result.jsp?typerep=f&finYr=2026-2027&sellerRefId=41731"
+    title: MSTC - Exploration Licence Block Auction Results, FY 2026-27 (Ministry of Mines)
+    publisher: MSTC Ltd
+    tier: T1
+    date: '2026-10-23'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - operator
+    - status
+  - id: mstc-mbs-25206
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25206_MBS_Harpalpur-%20Mahobkanth_Zirconium_Block_Uttar%20Pradesh.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: "Mine Block Summary: MBS_Harpalpur- Mahobkanth_Zirconium_Block_Uttar Pradesh"
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2026-02-12'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - block.area_sq_km
+    - block.exploration_stage
+    - location
+  block:
+    concession_type: EL
+    auction_route: Centre
+    area_sq_km: 216.87
+    exploration_stage: null
+    resources: []
+    resources_as_stated: null
+  auction:
+    history:
+    - tranche: Centre-EL1
+      nit_date: '2025-03-13'
+      outcome: Annulled
+      outcome_date: null
+      annulment_reason: Technically qualified bidders intimated (12 Aug 2025) but the block was not taken to e-auction;
+        re-offered as a second attempt
+      preferred_bidder: null
+      final_offer_pct: null
+      reserve_price: null
+    - tranche: Centre-EL2
+      nit_date: '2026-02-12'
+      outcome: Preferred bidder
+      outcome_date: '2026-06-18'
+      annulment_reason: null
+      preferred_bidder: Maheshwari Mining Private Limited
+      final_offer_pct: 32.95
+      reserve_price: "34.00%"
+    loi_date: null
+    licence_or_lease_executed: null
+    production_started: null
 - id: blk-up-kurchha
   name: Kurchha Glauconite Block
   aliases: []
@@ -16158,10 +18373,10 @@
     closed: null
   milestones:
   - date: '2024-03-13'
-    event: "Tranche 1: annulled"
+    event: "Tranche I: annulled"
     source_id: mstc-t1-nit
   - date: '2024-07-04'
-    event: "Tranche 3: preferred bidder (Shobha Minerals, 40%)"
+    event: "Tranche III: preferred bidder (Shobha Minerals, 40%)"
     source_id: mstc-t3-nit
   narrative:
     what_it_does: A 0.17 sq km block offered for a composite licence, for glauconite, in Sonbhadra district, Uttar
@@ -16377,10 +18592,10 @@
     closed: null
   milestones:
   - date: '2024-11-26'
-    event: "Tranche 4: annulled"
+    event: "Tranche IV: annulled"
     source_id: mstc-t4-nit
   - date: '2025-05-20'
-    event: "Tranche 5: preferred bidder (Hindustan Zinc Limited, 3.55%)"
+    event: "Tranche V: preferred bidder (Hindustan Zinc Limited, 3.55%)"
     source_id: mstc-t5-nit
   narrative:
     what_it_does: A 2.10 sq km block offered for a composite licence, for ree (rare earth element), in Sonbhadra
@@ -16578,7 +18793,7 @@
     closed: null
   milestones:
   - date: '2024-03-15'
-    event: "Tranche 1: preferred bidder (Sagar Stone Industries, 400%)"
+    event: "Tranche I: preferred bidder (Sagar Stone Industries, 400%)"
     source_id: mstc-t1-nit
   narrative:
     what_it_does: A 13.94 sq km block offered for a composite licence, for phosphorite, in Lalitpur district, Uttar
@@ -16743,7 +18958,7 @@
     closed: null
   milestones:
   - date: '2026-02-06'
-    event: "Tranche 6: annulled"
+    event: "Tranche VI: annulled"
     source_id: mstc-t6-nit
   narrative:
     what_it_does: A 10.34 sq km block offered for a composite licence, for titanium, bauxite and aluminous laterite,
@@ -16883,10 +19098,10 @@
     closed: null
   milestones:
   - date: '2026-02-06'
-    event: "Tranche 6: annulled"
+    event: "Tranche VI: annulled"
     source_id: mstc-t6-nit
   - date: '2026-06-11'
-    event: "Tranche 7: preferred bidder (Pahel Dynamic Private Limited, 20.1%)"
+    event: "Tranche VII: preferred bidder (Pahel Dynamic Private Limited, 20.1%)"
     source_id: mstc-t7-nit
   narrative:
     what_it_does: A 8.81 sq km block offered for a composite licence, for rock phosphate, in Dehradun district,
@@ -17066,10 +19281,10 @@
     closed: null
   milestones:
   - date: '2026-02-06'
-    event: "Tranche 6: annulled"
+    event: "Tranche VI: annulled"
     source_id: mstc-t6-nit
   - date: '2026-10-13'
-    event: "Tranche 8: annulled"
+    event: "Tranche VIII: annulled"
     source_id: mstc-t8-nit
   narrative:
     what_it_does: A 1.03 sq km block offered for a composite licence, for rare metals (cs, li, rb), in Purulia district,
@@ -17244,7 +19459,7 @@
     closed: null
   milestones:
   - date: '2026-02-06'
-    event: "Tranche 6: annulled"
+    event: "Tranche VI: annulled"
     source_id: mstc-t6-nit
   narrative:
     what_it_does: A 2.49 sq km block offered for a composite licence, for ree and rm, in Purulia district, West

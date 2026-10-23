@@ -25,3 +25,11 @@ Every candidate considered and rejected, with the rule that rejected it, so the 
 
 | Candidate | Layer | Rule | Notes / source |
 |---|---|---|---|
+| Chatakpur-Bagu Gold Exploration Block (Jharkhand) | L1 | Gold only; not canonical | Centre EL Tranche I; preferred bidder Maheshwari Mining (MSTC EL results FY2025-26) |
+| Jinjgaon Lead and Zinc Exploration Block (Maharashtra) | L1 | Lead-zinc; not canonical (D-003) | Centre EL Tranche I; preferred bidder Vanity Techstructures |
+| Shergaon Lead-Zinc Exploration Block (Arunachal Pradesh) | L1 | Lead-zinc; not canonical (D-003) | Centre EL Tranches I-II; preferred bidder Ranjan Kumar Pattanaik (EL II) |
+| North of Kondagaon Diamond EL Block; Sorgaon-Garenga Diamond EL Block (Chhattisgarh) | L1 | Diamond; not canonical | Centre EL Tranche I |
+| Shergarh Diamond EL Block (MP); Kurkheda Diamond EL Block (Maharashtra) | L1 | Diamond; not canonical | Centre EL Tranche II; annulled, nil bids (19 Jun 2026) |
+| Bauxite blocks auctioned by states (Chhattisgarh, Gujarat, Jharkhand, Karnataka, MP, Maharashtra, Odisha) | L1 | D-003 | Ministry of Mines successful-auction list (27 May 2025) |
+| Rajasthan "Basemetal" CL blocks: Khakhiliya Khera, Pipliyan, Manpura, Ladana-Ladani, Bhabhriya ka Kheda (SMO Ferro Alloys, Aug-Sep 2023) | L1 | Borderline: the list says only "Basemetal"; copper not named. Revisit if MBS names copper | MoM successful-auction list (27 May 2025) |
+| Amlihwah Gold and Basemetal Block (MP, Kundan Gold Mines, Jul 2024) | L1 | Borderline: gold and unspecified base metal | MoM successful-auction list (27 May 2025) |

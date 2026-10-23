@@ -1,62 +1,73 @@
-# Coverage reconciliation ledger (RESEARCH_PROTOCOL §7.1). Source of truth for research/COVERAGE.md
-# and the app's Methodology page (scripts/build-coverage.py renders the markdown).
-# captured = records in data/ that match the anchor's definition, computed on 2026-10-23.
 layers:
-  - layer: L1 Blocks
-    anchors:
-      - anchor: "Unique blocks taken up for auction by the Centre, Tranches 1-7"
-        anchor_value: 88
-        source: "PIB PRID 2277041"
-        source_date: "2026-06-23"
-        captured: 88
-        gap: 0
-        explanation: "143 offerings across Tranches 1-8 resolve to 100 unique blocks; 88 of them were offered in Tranches 1-7 and 12 are new in Tranche 8."
-      - anchor: "Blocks successfully auctioned by the Centre, Tranches 1-7"
-        anchor_value: 56
-        source: "PIB PRID 2277041"
-        source_date: "2026-06-23"
-        captured: 56
-        gap: 0
-        explanation: "55 blocks have a standing preferred bidder; the 56th, Nayakkarpatti (Tamil Nadu), had a preferred bidder declared in Tranche IV (Hindustan Zinc, 5.05%) before the auction was annulled. PIB's count evidently includes it; the MSTC results page also still lists it."
-      - anchor: "Tranche 7: blocks offered / auctioned"
-        anchor_value: "19 / 10"
-        source: "MSTC Tranche VII NIT (23 Mar 2026) and Auction Conclusion Notice (8 Jul 2026); PIB PRID 2277041"
-        source_date: "2026-07-08"
-        captured: "19 / 10"
-        gap: 0
-        explanation: null
-      - anchor: "Tranche 8: blocks offered (13 first attempt + 7 second attempt)"
-        anchor_value: 20
-        source: "MSTC Tranche VIII NIT"
-        source_date: "2026-07-15"
-        captured: 20
-        gap: 0
-        explanation: "As of 23 Oct 2026: 7 preferred bidders declared, 12 blocks annulled (notice of 13 Oct 2026), and Betjharan's second-round e-auction is set for 26 Oct 2026."
-      - anchor: "Critical-mineral blocks auctioned by the Centre, as of 10 Jan 2026"
-        anchor_value: 34
-        source: "Ministry of Mines NCMM status note"
-        source_date: "2026-01-10"
-        captured: 34
-        gap: 0
-        explanation: "Tranches 1-5: 33 standing preferred bidders plus Nayakkarpatti, consistent with the PIB basis above."
-      - anchor: "Critical-mineral blocks auctioned by states, as of 10 Jan 2026"
-        anchor_value: 25
-        source: "Ministry of Mines NCMM status note"
-        source_date: "2026-01-10"
-        captured: 0
-        gap: 25
-        explanation: "State-auction records not yet merged (registry draft of 30 rows exists; in progress)."
-      - anchor: "Exploration Licence blocks auctioned by the Centre (cumulative)"
-        anchor_value: 11
-        source: "PIB PRID 2277041"
-        source_date: "2026-06-23"
-        captured: 0
-        gap: 11
-        explanation: "EL Tranches I-II in progress. MSTC EL results pages list 11 preferred bidders across both tranches; 3 are gold or lead-zinc blocks that fall outside the canonical list."
-      - anchor: "Offshore mineral blocks, Tranche I"
-        anchor_value: 13
-        source: "MSTC Offshore Tranche I NIT; later annulled (MSTC notice)"
-        source_date: "2024-11-28"
-        captured: 0
-        gap: 13
-        explanation: "In progress; Offshore Tranche II NIT has also been issued."
+- layer: L1 Blocks
+  anchors:
+  - anchor: Unique blocks taken up for auction by the Centre, Tranches 1-7
+    anchor_value: 88
+    source: PIB PRID 2277041
+    source_date: '2026-06-23'
+    captured: 88
+    gap: 0
+    explanation: 143 offerings across Tranches 1-8 resolve to 100 unique blocks; 88 of them were offered in Tranches 1-7 and
+      12 are new in Tranche 8.
+  - anchor: Blocks successfully auctioned by the Centre, Tranches 1-7
+    anchor_value: 56
+    source: PIB PRID 2277041
+    source_date: '2026-06-23'
+    captured: 56
+    gap: 0
+    explanation: 55 blocks have a standing preferred bidder; the 56th, Nayakkarpatti (Tamil Nadu), had a preferred bidder
+      declared in Tranche IV (Hindustan Zinc, 5.05%) before the auction was annulled. PIB's count evidently includes it; the
+      MSTC results page also still lists it.
+  - anchor: 'Tranche 7: blocks offered / auctioned'
+    anchor_value: 19 / 10
+    source: MSTC Tranche VII NIT (23 Mar 2026) and Auction Conclusion Notice (8 Jul 2026); PIB PRID 2277041
+    source_date: '2026-07-08'
+    captured: 19 / 10
+    gap: 0
+    explanation: null
+  - anchor: 'Tranche 8: blocks offered (13 first attempt + 7 second attempt)'
+    anchor_value: 20
+    source: MSTC Tranche VIII NIT
+    source_date: '2026-07-15'
+    captured: 20
+    gap: 0
+    explanation: 'As of 23 Oct 2026: 7 preferred bidders declared, 12 blocks annulled (notice of 13 Oct 2026), and Betjharan''s
+      second-round e-auction is set for 26 Oct 2026.'
+  - anchor: Critical-mineral blocks auctioned by the Centre, as of 10 Jan 2026
+    anchor_value: 34
+    source: Ministry of Mines NCMM status note
+    source_date: '2026-01-10'
+    captured: 34
+    gap: 0
+    explanation: 'Tranches 1-5: 33 standing preferred bidders plus Nayakkarpatti, consistent with the PIB basis above.'
+  - anchor: Critical-mineral blocks auctioned by states, as of 10 Jan 2026
+    anchor_value: 25
+    source: Ministry of Mines NCMM status note
+    source_date: '2026-01-10'
+    captured: 0
+    gap: 25
+    explanation: State-auction records not yet merged (registry draft of 30 rows exists; in progress).
+  - anchor: Exploration Licence blocks auctioned by the Centre (cumulative)
+    anchor_value: 11
+    source: PIB PRID 2277041
+    source_date: '2026-06-23'
+    captured: 8
+    gap: 3
+    explanation: 'All 11 preferred bidders are on the MSTC EL results pages (EL Tranche I: 7, declared 16 Sep 2025; EL Tranche
+      II: 4). 8 are canonical-mineral blocks now in data/blocks.yml; the other 3 (Chatakpur-Bagu gold, Jinjgaon lead-zinc,
+      Shergaon lead-zinc) are excluded as non-canonical and logged in EXCLUDED.md.'
+  - anchor: Offshore mineral blocks, Tranche I
+    anchor_value: 13
+    source: MSTC Offshore Tranche I NIT; later annulled (MSTC notice)
+    source_date: '2024-11-28'
+    captured: 0
+    gap: 13
+    explanation: In progress; Offshore Tranche II NIT has also been issued.
+  - anchor: 'Exploration Licence blocks offered by the Centre (EL Tranche I: 13; EL Tranche II: 11)'
+    anchor_value: 13 / 11
+    source: MSTC EL Tranche I and II NITs
+    source_date: '2026-02-12'
+    captured: 8 / 8 canonical
+    gap: 5 / 3
+    explanation: 'Non-canonical EL blocks excluded: Tranche I 2 diamond, 2 lead-zinc, 1 gold; Tranche II 2 diamond, 1 lead-zinc.
+      Devkigalol-Jetpur and Harpalpur-Mahobkanth appear in both tranches (one record each).'
