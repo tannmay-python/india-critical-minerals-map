@@ -1,0 +1,636 @@
+- id: Centre-T1
+  route: Centre
+  number: 1
+  launched: '2023-11-29'
+  bids_due: null
+  results_date: '2024-08-27'
+  offered: 20
+  auctioned: 6
+  annulled: 14
+  pending: 0
+  states:
+  - Bihar
+  - Chhattisgarh
+  - Gujarat
+  - Jammu and Kashmir
+  - Jharkhand
+  - Odisha
+  - Tamil Nadu
+  - Uttar Pradesh
+  minerals:
+  - Copper
+  - Graphite
+  - Lithium
+  - Molybdenum
+  - Nickel
+  - PGEs (unspecified)
+  - Phosphorus
+  - Potash
+  - Rare earths (unspecified)
+  - Titanium
+  notes: 'Annulled count includes blocks with no bids. '
+  sources:
+  - id: mstc-t1-annulment
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14441_Critical%20and%20Strategic%20Mineral%20Block%20Auction-Annulment%20Notice.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: 'Tranche I: Critical and Strategic Mineral Block Auction - Annulment Notice'
+    publisher: Ministry of Mines (Designated Officer) via MSTC e-auction portal
+    tier: T1
+    date: '2024-03-13'
+    retrieved: '2026-10-23'
+    supports:
+    - offered
+    - auctioned
+    - annulled
+    - launched
+  - id: mstc-t1-kundol-annulment
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=16623_Auction%20Annulment%20Notice%20-%20Kundol%20Nickel%20and%20Chromium%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: Auction Annulment Notice - Kundol Nickel and Chromium Block
+    publisher: Ministry of Mines (Designated Officer) via MSTC e-auction portal
+    tier: T1
+    date: '2024-08-27'
+    retrieved: '2026-10-23'
+    supports:
+    - offered
+    - auctioned
+    - annulled
+    - launched
+  - id: mstc-t1-nit
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=12721_Tranche-1-NIT%2020%20Blocks.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: 'Notice Inviting Tender, Tranche I: Invitation of Bids for Grant of Mineral Concession of Critical and Strategic
+      Minerals (20 blocks, with Mineral Block Summaries)'
+    publisher: Ministry of Mines (Designated Officer) via MSTC e-auction portal
+    tier: T1
+    date: '2023-11-29'
+    retrieved: '2026-10-23'
+    supports:
+    - offered
+    - auctioned
+    - annulled
+    - launched
+  - id: mstc-t1-pb
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=15863_GoI_MoM_Tranche%201_Declaration%20of%20Preferred%20Bidder%20of%206%20blocks.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: 'Tranche I: Notice for Preferred Bidder Declaration of 6 Critical & Strategic Mineral Blocks'
+    publisher: Ministry of Mines (Designated Officer) via MSTC e-auction portal
+    tier: T1
+    date: '2024-06-27'
+    retrieved: '2026-10-23'
+    supports:
+    - offered
+    - auctioned
+    - annulled
+    - launched
+  - id: mstc-t1-tqb-notice
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14440_Important%20Notice%20Regarding%20Intimation%20to%20Technically%20Qualified%20Bidders%2C%20Opening%20of%20IPO%2C%20Intimation%20to%20Qualified%20Bidders%20and%20Second%20Round%20of%20e-Auction.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: 'Tranche I: Important Notice Regarding Intimation to Technically Qualified Bidders, Opening of IPO and Second Round
+      of e-Auction'
+    publisher: Ministry of Mines (Designated Officer) via MSTC e-auction portal
+    tier: T1
+    date: '2024-03-13'
+    retrieved: '2026-10-23'
+    supports:
+    - offered
+    - auctioned
+    - annulled
+    - launched
+- id: Centre-T2
+  route: Centre
+  number: 2
+  launched: '2024-02-29'
+  bids_due: null
+  results_date: '2024-07-09'
+  offered: 18
+  auctioned: 4
+  annulled: 14
+  pending: 0
+  states:
+  - Andhra Pradesh
+  - Arunachal Pradesh
+  - Chhattisgarh
+  - Karnataka
+  - Madhya Pradesh
+  - Maharashtra
+  - Rajasthan
+  - Tamil Nadu
+  minerals:
+  - Cobalt
+  - Copper
+  - Graphite
+  - Nickel
+  - PGEs (unspecified)
+  - Phosphorus
+  - Potash
+  - Rare earths (unspecified)
+  - Tungsten
+  - Vanadium
+  notes: 'Annulled count includes blocks with no bids. '
+  sources:
+  - id: mstc-t2-annulment
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=15690_GoI%20MoM%20-%20Auction%20Annulment%20Notice_Tranche%20II.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: 'Tranche II: Auction Annulment Notice'
+    publisher: Ministry of Mines (Designated Officer) via MSTC e-auction portal
+    tier: T1
+    date: '2024-06-21'
+    retrieved: '2026-10-23'
+    supports:
+    - offered
+    - auctioned
+    - annulled
+    - launched
+  - id: mstc-t2-nit
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14475_GoI-MoM%20Tranche%20II-NIT.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: Notice Inviting Tender, Tranche II (18 critical and strategic mineral blocks)
+    publisher: Ministry of Mines (Designated Officer) via MSTC e-auction portal
+    tier: T1
+    date: '2024-02-29'
+    retrieved: '2026-10-23'
+    supports:
+    - offered
+    - auctioned
+    - annulled
+    - launched
+  - id: mstc-t2-nit-mbs
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14104_GoI-MoM%20Tranche%20II-NIT%20-%20with%20MBS.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: Tranche II NIT with Mineral Block Summaries
+    publisher: Ministry of Mines (Designated Officer) via MSTC e-auction portal
+    tier: T1
+    date: '2024-02-29'
+    retrieved: '2026-10-23'
+    supports:
+    - offered
+    - auctioned
+    - annulled
+    - launched
+  - id: mstc-t2-pb
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=16122_GoI%20MoM%20-%20Tranche%20II%20-%20PB%20Declaration%20Notice.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: 'Tranche II: Notice for Preferred Bidder Declaration of 4 Critical & Strategic Mineral Blocks'
+    publisher: Ministry of Mines (Designated Officer) via MSTC e-auction portal
+    tier: T1
+    date: '2024-07-20'
+    retrieved: '2026-10-23'
+    supports:
+    - offered
+    - auctioned
+    - annulled
+    - launched
+  - id: mstc-t2-tqb-notice
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=15636_GoI%20MoM%20-%20Important%20Notice%20Regarding%20Intimation%20to%20Technically%20Qualified%20Bidders_Tranche%20II.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: 'Tranche II: Important Notice Regarding Intimation to Technically Qualified Bidders'
+    publisher: Ministry of Mines (Designated Officer) via MSTC e-auction portal
+    tier: T1
+    date: '2024-06-20'
+    retrieved: '2026-10-23'
+    supports:
+    - offered
+    - auctioned
+    - annulled
+    - launched
+- id: Centre-T3
+  route: Centre
+  number: 3
+  launched: '2024-03-14'
+  bids_due: null
+  results_date: '2024-07-25'
+  offered: 7
+  auctioned: 4
+  annulled: 3
+  pending: 0
+  states:
+  - Bihar
+  - Jammu and Kashmir
+  - Jharkhand
+  - Tamil Nadu
+  - Uttar Pradesh
+  minerals:
+  - Graphite
+  - Lithium
+  - Nickel
+  - PGEs (unspecified)
+  - Potash
+  - Titanium
+  notes: ''
+  sources:
+  - id: mstc-t3-annulment
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=16190_GoI%20MoM%20-%20Auction%20Annulment%20Notice_Tranche%20III.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: 'Tranche III: Auction Annulment Notice'
+    publisher: Ministry of Mines (Designated Officer) via MSTC e-auction portal
+    tier: T1
+    date: '2024-07-25'
+    retrieved: '2026-10-23'
+    supports:
+    - offered
+    - auctioned
+    - annulled
+    - launched
+  - id: mstc-t3-nit
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14477_Notice%20Inviting%20Tender%20%28NIT%29%20-%20%20Tranche%20III.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: Notice Inviting Tender, Tranche III (7 blocks, second attempt)
+    publisher: Ministry of Mines (Designated Officer) via MSTC e-auction portal
+    tier: T1
+    date: '2024-03-14'
+    retrieved: '2026-10-23'
+    supports:
+    - offered
+    - auctioned
+    - annulled
+    - launched
+  - id: mstc-t3-nit-mbs
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14476_NIT%20with%20attached%20mineral%20block%20summary%20-%20Tranche%20III.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: Tranche III NIT with attached Mineral Block Summaries
+    publisher: Ministry of Mines (Designated Officer) via MSTC e-auction portal
+    tier: T1
+    date: '2024-03-14'
+    retrieved: '2026-10-23'
+    supports:
+    - offered
+    - auctioned
+    - annulled
+    - launched
+  - id: mstc-t3-pb
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=16123_GoI%20MoM%20-%20Tranche%20III%20-%20PB%20Declaration%20Notice.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: 'Tranche III: Notice for Preferred Bidder Declaration of 4 Critical & Strategic Mineral Blocks'
+    publisher: Ministry of Mines (Designated Officer) via MSTC e-auction portal
+    tier: T1
+    date: '2024-07-20'
+    retrieved: '2026-10-23'
+    supports:
+    - offered
+    - auctioned
+    - annulled
+    - launched
+  - id: mstc-t3-tqb-notice
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=15928_GoI%20MoM%20-%20Tranche%20III%20-%20Auction%20Notice%20Regarding%20Intimation%20to%20Technically%20Qualified%20Bidders%2C%20Opening%20of%20IPO%2C%20Intimation%20to%20Qualified%20Bidders%20and%20Second%20Round%20of%20e-Auction.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: 'Tranche III: Notice Regarding Intimation to TQBs, Opening of IPO and Second Round of e-Auction'
+    publisher: Ministry of Mines (Designated Officer) via MSTC e-auction portal
+    tier: T1
+    date: '2024-07-03'
+    retrieved: '2026-10-23'
+    supports:
+    - offered
+    - auctioned
+    - annulled
+    - launched
+- id: Centre-T4
+  route: Centre
+  number: 4
+  launched: '2024-06-24'
+  bids_due: null
+  results_date: '2025-01-24'
+  offered: 21
+  auctioned: 9
+  annulled: 12
+  pending: 0
+  states:
+  - Andhra Pradesh
+  - Arunachal Pradesh
+  - Chhattisgarh
+  - Jharkhand
+  - Karnataka
+  - Maharashtra
+  - Rajasthan
+  - Tamil Nadu
+  - Uttar Pradesh
+  minerals:
+  - Cobalt
+  - Copper
+  - Graphite
+  - Nickel
+  - PGEs (unspecified)
+  - Phosphorus
+  - Potash
+  - Rare earths (unspecified)
+  - Tungsten
+  - Vanadium
+  notes: 'Annulled count includes blocks with no bids. '
+  sources:
+  - id: mstc-t4-annulment
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=17803_Auction%20Annulment%20Notice%20Tranche%20IV.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: 'Tranche IV: Auction Annulment Notice'
+    publisher: Ministry of Mines (Designated Officer) via MSTC e-auction portal
+    tier: T1
+    date: '2024-11-26'
+    retrieved: '2026-10-23'
+    supports:
+    - offered
+    - auctioned
+    - annulled
+    - launched
+  - id: mstc-t4-nayakkarpatti-annulment
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=18720_Auction%20Annulment%20Notice%20of%20Nayakkarpatti%20Tungsten%20Block%2C%20Tamil%20Nadu.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: Auction Annulment Notice - Nayakkarpatti Tungsten Block
+    publisher: Ministry of Mines (Designated Officer) via MSTC e-auction portal
+    tier: T1
+    date: '2025-01-24'
+    retrieved: '2026-10-23'
+    supports:
+    - offered
+    - auctioned
+    - annulled
+    - launched
+  - id: mstc-t4-nit
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=15825_1.%20GoI%20MoM%20-%20Tranche%20IV%20-%20NIT.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: 'Notice Inviting Tender, Tranche IV (21 blocks: 11 first attempt, 10 second attempt)'
+    publisher: Ministry of Mines (Designated Officer) via MSTC e-auction portal
+    tier: T1
+    date: '2024-06-24'
+    retrieved: '2026-10-23'
+    supports:
+    - offered
+    - auctioned
+    - annulled
+    - launched
+  - id: mstc-t4-pb
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=17481_GoI-MoM-Tranche%20IV-%20PB%20Declaration%20Notice.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: 'Tranche IV: Notice for Preferred Bidder Declaration of 08 Critical & Strategic Mineral Blocks'
+    publisher: Ministry of Mines (Designated Officer) via MSTC e-auction portal
+    tier: T1
+    date: '2024-11-07'
+    retrieved: '2026-10-23'
+    supports:
+    - offered
+    - auctioned
+    - annulled
+    - launched
+  - id: mstc-t4-pb2
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=17807_Notice%20for%20Preferred%20Bidder%20Declaration%20of%2002%20Critical%20and%20Strategic%20Mineral%20Blocks%20under%20Tranche%20IV.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: 'Tranche IV: Notice for Preferred Bidder Declaration of 02 Critical & Strategic Mineral Blocks'
+    publisher: Ministry of Mines (Designated Officer) via MSTC e-auction portal
+    tier: T1
+    date: '2024-11-26'
+    retrieved: '2026-10-23'
+    supports:
+    - offered
+    - auctioned
+    - annulled
+    - launched
+- id: Centre-T5
+  route: Centre
+  number: 5
+  launched: '2025-01-20'
+  bids_due: null
+  results_date: '2025-05-30'
+  offered: 15
+  auctioned: 10
+  annulled: 5
+  pending: 0
+  states:
+  - Chhattisgarh
+  - Gujarat
+  - Karnataka
+  - Madhya Pradesh
+  - Maharashtra
+  - Odisha
+  - Rajasthan
+  - Uttar Pradesh
+  minerals:
+  - Graphite
+  - Nickel
+  - PGEs (unspecified)
+  - Phosphorus
+  - Potash
+  - Rare earths (unspecified)
+  - Tungsten
+  - Vanadium
+  notes: 'Annulled count includes blocks with no bids. '
+  sources:
+  - id: mstc-t5-annulment
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=20843_GoI%20MoM%20-%20Tranche%20V%20-%20Auction%20Annulment%20Notice.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: 'Tranche V: Auction Annulment Notice'
+    publisher: Ministry of Mines (Designated Officer) via MSTC e-auction portal
+    tier: T1
+    date: '2025-05-30'
+    retrieved: '2026-10-23'
+    supports:
+    - offered
+    - auctioned
+    - annulled
+    - launched
+  - id: mstc-t5-nit
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=18641_GoI%20MoM%20-%20Tranche%20V%20-%20Notice%20Inviting%20Tender.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: 'Notice Inviting Tender, Tranche V (15 blocks: 7 first attempt, 8 second attempt)'
+    publisher: Ministry of Mines (Designated Officer) via MSTC e-auction portal
+    tier: T1
+    date: '2025-01-20'
+    retrieved: '2026-10-23'
+    supports:
+    - offered
+    - auctioned
+    - annulled
+    - launched
+  - id: mstc-t5-pb
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=20794_GoI-MoM-Tranche%20V-%20PB%20Declaration%20Notice.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: 'Tranche V: Notice for Preferred Bidder Declaration of 10 Critical & Strategic Mineral Blocks'
+    publisher: Ministry of Mines (Designated Officer) via MSTC e-auction portal
+    tier: T1
+    date: '2025-05-27'
+    retrieved: '2026-10-23'
+    supports:
+    - offered
+    - auctioned
+    - annulled
+    - launched
+  - id: mstc-t5-surajpura-revised-mbs-notice
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=18803_GoI%20MoM%20-%20Tranche%20V%20-%20Notification%20for%20Revised%20MBS%20of%20Surajpura%20Phosphorite%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: 'Tranche V: Notification for Revised MBS of Surajpura Phosphorite Block'
+    publisher: Ministry of Mines (Designated Officer) via MSTC e-auction portal
+    tier: T1
+    date: '2025-01-28'
+    retrieved: '2026-10-23'
+    supports:
+    - offered
+    - auctioned
+    - annulled
+    - launched
+- id: Centre-T6
+  route: Centre
+  number: 6
+  launched: '2025-09-16'
+  bids_due: null
+  results_date: '2026-02-06'
+  offered: 23
+  auctioned: 12
+  annulled: 11
+  pending: 0
+  states:
+  - Andhra Pradesh
+  - Arunachal Pradesh
+  - Chhattisgarh
+  - Jharkhand
+  - Karnataka
+  - Maharashtra
+  - Odisha
+  - Punjab
+  - Rajasthan
+  - Telangana
+  - Uttar Pradesh
+  - Uttarakhand
+  - West Bengal
+  minerals:
+  - Cobalt
+  - Gallium
+  - Graphite
+  - Lithium
+  - Niobium
+  - Phosphorus
+  - Potash
+  - Rare earths (unspecified)
+  - Tantalum
+  - Tin
+  - Titanium
+  - Tungsten
+  - Vanadium
+  - Yttrium
+  - Zirconium
+  notes: ''
+  sources:
+  - id: mstc-t6-annulment
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25112_GoI%20MoM%20-%20Tranche%20VI%20-%20Auction%20Annulment%20Notice.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: GoI MoM - Tranche VI - Auction Annulment Notice
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2026-02-06'
+    retrieved: '2026-10-23'
+    supports:
+    - offered
+    - auctioned
+    - annulled
+    - launched
+  - id: mstc-t6-nit
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=22681_GoI%20MoM%20-%20Tranche%20VI%20-%20NIT.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: GoI MoM - Tranche VI - Notice Inviting Tender
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2025-09-16'
+    retrieved: '2026-10-23'
+    supports:
+    - offered
+    - auctioned
+    - annulled
+    - launched
+- id: Centre-T7
+  route: Centre
+  number: 7
+  launched: '2026-03-23'
+  bids_due: null
+  results_date: '2026-06-19'
+  offered: 19
+  auctioned: 10
+  annulled: 9
+  pending: 0
+  states:
+  - Arunachal Pradesh
+  - Bihar
+  - Chhattisgarh
+  - Gujarat
+  - Karnataka
+  - Madhya Pradesh
+  - Odisha
+  - Rajasthan
+  - Telangana
+  - Uttarakhand
+  minerals:
+  - Graphite
+  - Lithium
+  - Niobium
+  - Phosphorus
+  - Potash
+  - Rare earths (unspecified)
+  - Tin
+  - Titanium
+  - Tungsten
+  - Vanadium
+  - Yttrium
+  notes: ''
+  sources:
+  - id: mstc-t7-annulment
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=26944_GoI%20MoM%20-%20Tranche%20VII%20-%20Auction%20Annulment%20Notice.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: GoI MoM - Tranche VII - Auction Annulment Notice
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2026-06-19'
+    retrieved: '2026-10-23'
+    supports:
+    - offered
+    - auctioned
+    - annulled
+    - launched
+  - id: mstc-t7-conclusion
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=27225_GoI%20MoM%20-%20Tranche%20VII%20-%20Auction%20Conclusion%20Notice.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: GoI MoM - Tranche VII - Auction Conclusion Notice
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2026-07-08'
+    retrieved: '2026-10-23'
+    supports:
+    - offered
+    - auctioned
+    - annulled
+    - launched
+  - id: mstc-t7-nit
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25649_GoI%20MoM%20-%20Tranche%20VII%20-%20NIT_N.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: GoI MoM - Tranche VII - Notice Inviting Tender
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2026-03-23'
+    retrieved: '2026-10-23'
+    supports:
+    - offered
+    - auctioned
+    - annulled
+    - launched
+- id: Centre-T8
+  route: Centre
+  number: 8
+  launched: '2026-07-15'
+  bids_due: null
+  results_date: '2026-10-22'
+  offered: 20
+  auctioned: 7
+  annulled: 12
+  pending: 1
+  states:
+  - Andhra Pradesh
+  - Bihar
+  - Chhattisgarh
+  - Maharashtra
+  - Odisha
+  - Punjab
+  - Rajasthan
+  - Telangana
+  - West Bengal
+  minerals:
+  - Gallium
+  - Graphite
+  - Lithium
+  - Molybdenum
+  - Phosphorus
+  - Potash
+  - Rare earths (unspecified)
+  - Titanium
+  - Tungsten
+  - Vanadium
+  notes: 'Results incomplete as of 2026-10-23: one block awaiting second-round e-auction.'
+  sources:
+  - id: mstc-t8-nit
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=27316_GoI%20MoM%20-%20Tranche%20VIII%20-%20NIT.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: GoI MoM - Tranche VIII - Notice Inviting Tender
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2026-07-15'
+    retrieved: '2026-10-23'
+    supports:
+    - offered
+    - auctioned
+    - annulled
+    - launched
+  - id: mstc-t8-notice-2026-10-13
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=28594_Notice%20Intimation%20to%20TQBs%2C%20Opening%20of%20IPO%2C%20Intimation%20to%20QBs%2C%20Anullment%20and%20Second%20Round%20of%20e-Auction%20%281%29.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: 'Tranche VIII - Notice: intimation to TQBs, opening of IPO, annulment and second round of e-auction'
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2026-10-13'
+    retrieved: '2026-10-23'
+    supports:
+    - offered
+    - auctioned
+    - annulled
+    - launched

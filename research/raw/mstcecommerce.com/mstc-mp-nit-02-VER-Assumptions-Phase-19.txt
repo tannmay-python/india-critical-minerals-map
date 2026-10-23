@@ -1,0 +1,183 @@
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                            Phase XIX – Major Mineral Auction
+                   Assumptions for VER Estimation of mineral blocks under Phase – XIX Major mineral auction of Madhya Pradesh
+                                                                                                                    
+    S                                                                                                               
+          Block Name  Name of Mineral Resource & Grade (in MT) Pricing Assumption         Remarks                   
+   No.                                                                                                              
+                                                      Madhya Pradesh Price for                                      
+                                                                        Madhya Pradesh Price for Limestone Cement Grade (For the month of
+                                                      Limestone Cement Grade                                        
+                                   Total Resource = 0.97                March - 25 to February - 26). Average Sales Price for February 2026
+         Argat (Part-B)                               (For the month of March - 25                                  
+    1                   Limestone  (Cement-Grade = 0.60                 has not been published by IBM, Accordingly, “Madhya Pradesh Price”
+        Limestone Block                               to February - 26). Blendable                                  
+                                   Blendable Grade= 0.37)               for the latest month published i.e., January 2026 has been considered
+                                                      grade is considered as cement                                 
+                                                                        for February 2026, while calculating the average sale price.
+                                                      grade limestone.                                              
+                                                      Madhya Pradesh Price for                                      
+                                                                        Madhya Pradesh Price for Limestone Cement Grade (For the month of
+                                                      Limestone Cement Grade                                        
+                                   Total Resources = 5.68               March - 25 to February - 26). Average Sales Price for February 2026
+         Argat (Part-C)                               (For the month of March - 25                                  
+    2                   Limestone  (Cement-Grade = 0.13,                has not been published by IBM, Accordingly, “Madhya Pradesh Price”
+        Limestone Block                               to February - 26). Blendable                                  
+                                   Blendable Grade= 5.55)               for the latest month published i.e., January 2026 has been considered
+                                                      grade is considered as cement                                 
+                                                                        for February 2026, while calculating the average sale price.
+                                                      grade limestone.                                              
+                                                      Madhya Pradesh Price for                                      
+                                                                        Madhya Pradesh Price for Limestone Cement Grade (For the month of
+                                                      Limestone Cement Grade                                        
+                                   Total Resources = 2.12               March - 25 to February - 26). Average Sales Price for February 2026
+         Argat (Part-D)                               (For the month of March - 25                                  
+    3                   Limestone  (Cement-Grade = 1.34,                has not been published by IBM, Accordingly, “Madhya Pradesh Price”
+        Limestone Block                               to February - 26). Blendable                                  
+                                   Blendable Grade= 0.78)               for the latest month published i.e., January 2026 has been considered
+                                                      grade is considered as cement                                 
+                                                                        for February 2026, while calculating the average sale price.
+                                                      grade limestone.                                              
+                                                      Madhya Pradesh Price for                                      
+                                                                        Madhya Pradesh Price for Limestone Cement Grade (For the month of
+           Bharewa                 Total Resources= 113.392 Limestone Cement Grade                                  
+                                                                        March - 25 to February - 26). Average Sales Price for February 2026
+          Biharakala,              (Blendable Grade = 60.023 (For the month of March - 25                           
+    4                   Limestone                                       has not been published by IBM, Accordingly, “Madhya Pradesh Price”
+          Tikarkala                Cement Grade= 53.37) to February - 26). Blendable                                
+                                                                        for the latest month published i.e., January 2026 has been considered
+        Limestone Block                               grade is considered as cement                                 
+                                                                        for February 2026, while calculating the average sale price.
+                                                      grade limestone.                                              
+                                                                        Madhya Pradesh Price for Limestone Cement Grade (For the month of
+                                                      Madhya Pradesh Price for                                      
+                                                                        March - 25 to February - 26). Average Sales Price for February 2026
+          Khadgada                 Limestone = 17.17  Limestone Cement Grade                                        
+    5                   Limestone                                       has not been published by IBM, Accordingly, “Madhya Pradesh Price”
+        Limestone Block            (Cement Grade)     (For the month of March - 25                                  
+                                                                        for the latest month published i.e., January 2026 has been considered
+                                                      to February - 26)                                             
+                                                                        for February 2026, while calculating the average sale price.
+                                                                        All India Price for Zinc (For the month of March- 25 to February - 26).
+        Biskhan Extended           Zinc = 3.38        All India Price for Zinc (For Average Sales Price for February 2026 has not been published by IBM,
+    6    Basemetal (Zn) Basemetal (Zn) Average Grade = 1.136% Zn the month of March - 25 to Accordingly, “All India Price” for the latest month published i.e.,
+            Block                                     February - 26)    January 2026 has been considered for February 2026, while calculating
+                                                                        the average sale price.                     
+                                                                                                   Page 1 of 3      
+          March 30, 2026                                                                                            
+
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                            Phase XIX – Major Mineral Auction
+    S                                                                                                               
+          Block Name  Name of Mineral Resource & Grade (in MT) Pricing Assumption         Remarks                   
+   No.                                                                                                              
+         Bagda-Sawarsa Basemetal (Lead,                                                                             
+                                                                        The estimated resource quantity has not been reported in the GR or
+        Basemetal (Lead, Zinc, Copper, Silver                                                                       
+    7                                      NA                NA         Mineral Block Summary. Hence Value of Estimated Resource cannot
+        Zinc, Copper and and associated                                                                             
+                                                                        be estimated.                               
+         Silver) Block  minerals)                                                                                   
+                                                                        Madhya Pradesh Price for Manganese below 25% Mn content and Iron
+                                   Manganese - 0.007                                                                
+         Khudawal Iron-                               Madhya Pradesh Price for Ore between 51% to 55% Fe content (For the month of March 2025 to
+                                   Average Grade = 12.80%                                                           
+           Ore and   Iron and Manganese               Manganese and Iron Ore (For February 2026). Average Sales Price for February 2026 has not been
+    8                              Iron = 1.06 (Lumps) and 0.31                                                     
+         Manganese Ore    Ore                         the month of March - 25 to published by IBM, Accordingly, “Madhya Pradesh Price” for the latest
+                                   (Fines)                                                                          
+            Block                                     February - 26)    month published i.e., January 2026 has been considered for February
+                                   Average Grade = 48-52% Fe                                                        
+                                                                        2026, while calculating the average sale price.
+                                                                        Aluminous Laterite:                         
+                                                      Aluminous Laterite:                                           
+                                                                        For Aluminous Laterite mineral in the block, price of Cement grade
+                                                                        Bauxite is being used for VER estimation as IBM does not publish
+                                                       Madhya Pradesh Price for                                     
+           Bhalwar                                                      price for Aluminous Laterite.               
+                                                      Aluminous Laterite assumed                                    
+    9   Aluminous Laterite Aluminous Laterite Aluminous Laterite = 2.960 The Average Sale Price for Bauxite (Non-Metallurgical) Cement
+                                                        to be Bauxite (Non-                                         
+            Block                                                       Grade) for February 2026 has not been published by IBM.
+                                                      Metallurgical) Cement Grade                                   
+                                                                        Accordingly, “Madhya Pradesh Price” for the latest month published
+                                                      (For the month of March - 25                                  
+                                                                        i.e., January 2026 has been considered for February 2026 while
+                                                         to February- 26)                                           
+                                                                        calculating the average sale price.         
+         Jhiti Iron Ore,                                                The estimated resource quantity has not been reported in the GR or
+                     Iron Ore, Manganese,                                                                           
+    10   Manganese, and                    NA                NA         Mineral Block Summary. Hence Value of Estimated Resource cannot
+                      and Laterite Block                                                                            
+         Laterite Block                                                 be estimated.                               
+                                                                        Madhya Pradesh Price for Manganese below 25% Mn content (For the
+                                   Manganese = 0.044887 Madhya Pradesh Price for month of March 2025 to February 2026). Average Sales Price for
+         Dhamani Nana              Average Grade = 21.52% to Manganese and Iron Ore (For February 2026 has not been published by IBM, Accordingly, “Madhya
+    11                  Manganese                                                                                   
+            Block                  22.81%             the month of March - 25 to Pradesh Price” for the latest month published i.e., January 2026 has
+                                                      February - 26)    been considered for February 2026, while calculating the average sale
+                                                                        price.                                      
+                                                                        Madhya Pradesh Price for Manganese above 35% Mn content (For the
+                                                      Madhya Pradesh Price for month of March 2025 to February 2026). Average Sales Price for
+          Bahiyatikur              Manganese = 0.020122 Manganese and Iron Ore (For February 2026 has not been published by IBM, Accordingly, “Madhya
+    12                  Manganese                                                                                   
+        Manganese Block            Average Grade = 35.70% the month of March - 25 to Pradesh Price” for the latest month published i.e., January 2026 has
+                                                      February - 26)    been considered for February 2026, while calculating the average sale
+                                                                        price.                                      
+         Bhatia-Nadan                                                   Madhya Pradesh Price for Limestone Cement Grade (For the month of
+                                   Limestone = 32.10  Madhya Pradesh Price for                                      
+    13    Sarda Prasad  Limestone                                       March - 25 to February - 26). Average Sales Price for February 2026
+                                   (Cement Grade)     Limestone Cement Grade                                        
+        Limestone Block                                                 has not been published by IBM, Accordingly, “Madhya Pradesh Price”
+                                                                                                   Page 2 of 3      
+          March 30, 2026                                                                                            
+
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                            Phase XIX – Major Mineral Auction
+    S                                                                                                               
+          Block Name  Name of Mineral Resource & Grade (in MT) Pricing Assumption         Remarks                   
+   No.                                                                                                              
+                                                      (For the month of March - 25 for the latest month published i.e., January 2026 has been considered
+                                                      to February - 26) for February 2026, while calculating the average sale price.
+                                                                        All India Price for Zinc (For the month of March- 25 to February - 26).
+         Kehalpur (East)           Zinc = 3.158       All India Price for Zinc (For Average Sales Price for February 2026 has not been published by IBM,
+    14   Basemetal (Zn) Base metal (Zn) Average Grade = 0.316% Zn the month of March - 25 to Accordingly, “All India Price” for the latest month published i.e.,
+            Block                                     February - 26)    January 2026 has been considered for February 2026, while calculating
+                                                                        the average sale price.                     
+                                                      Madhya Pradesh Price for                                      
+                                                      Limestone Cement Grade Madhya Pradesh Price for Limestone Cement Grade (For the month of
+                                   Limestone = 26.80  (For the month of March - 25 March - 25 to February - 26). Average Sales Price for February 2026
+          Hinotaghat                                                                                                
+    15                  Limestone  (Blendable Grade – 10.81 to February - 26). Blendable has not been published by IBM, Accordingly, “Madhya Pradesh Price”
+        Limestone Block                                                                                             
+                                   Threshold Grade – 15.99) grade and Threshold grade is for the latest month published i.e., January 2026 has been considered
+                                                      considered as cement grade for February 2026, while calculating the average sale price.
+                                                      limestone                                                     
+                                                      Madhya Pradesh Price for                                      
+                                                      Limestone Cement Grade Madhya Pradesh Price for Limestone Cement Grade (For the month of
+                                   Limestone = 8.38   (For the month of March - 25 March - 25 to February - 26). Average Sales Price for February 2026
+         Kuiyan Barwah                                                                                              
+    16                  Limestone  (Blendable Grade – 3.76 to February - 26). Blendable has not been published by IBM, Accordingly, “Madhya Pradesh Price”
+        Limestone Block                                                                                             
+                                   Unclassified – 4.62) grade and Unclassified is for the latest month published i.e., January 2026 has been considered
+                                                      considered as cement grade for February 2026, while calculating the average sale price.
+                                                      limestone                                                     
+                                                      Madhya Pradesh Price for                                      
+                                                      Limestone Cement Grade Madhya Pradesh Price for Limestone Cement Grade (For the month of
+                                   Limestone = 3.11   (For the month of March - 25 March - 25 to February - 26). Average Sales Price for February 2026
+         Birwa Bhitwan                                                                                              
+    17                  Limestone  (Blendable Grade – 2.073 to February - 26). Blendable has not been published by IBM, Accordingly, “Madhya Pradesh Price”
+        Limestone Block                                                                                             
+                                   Threshold Grade – 1.036) grade and Threshold grade is for the latest month published i.e., January 2026 has been considered
+                                                      considered as cement grade for February 2026, while calculating the average sale price.
+                                                      limestone                                                     
+                                                                                                   Page 3 of 3      
+          March 30, 2026                                                                                            
+                                                                                                                    
+                                                                                                                    

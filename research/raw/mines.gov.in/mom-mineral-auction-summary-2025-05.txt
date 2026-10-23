@@ -1,0 +1,30 @@
+PAGE: Mineral Auction Summary | created 2025-05-19 04:52:08
+Mineral | 2015-16 | 2016-17 | 2017-18 | 2018-19 | 2019-20 | 2020-21 | 2021-22 | 2022-23 | 2023-24 | 2024-25 | 2025-26 | Total
+Limestone | 4 | 5 | 10 | 5 | 4 | 9 | 18 | 20 | 35 | 55 |  | 165
+Iron Ore | 1 | 7 | 2 | 9 | 17 | 1 | 13* | 32 | 24 | 10 | 4 | 119
+Iron Ore & Manganese | 0 | 0 | 0 | 0 | 6 | 0 | 1* | 2 | 1 | 1 |  | 10
+Gold | 1 | 1 | 1 | 1 | 0 | 2 | 2 | 5 | 4 | 5 |  | 22
+Manganese | 0 | 1 | 0 | 1 | 3 | 0 | 3 | 19 | 11 | 5 |  | 43
+Manganese & Dolomite |  |  |  |  |  |  |  |  |  | 1 |  | 1
+Diamond | 0 | 1 | 0 | 0 | 1 | 0 | - |  |  | 1 |  | 3
+Bauxite | 0 | 0 | 1 | 0 | 5 | 1 | 5 | 14 | 8 | 13 | 7 | 54
+Graphite | 0 | 0 | 0 | 3 | 2 | 0 | 1 | 5 | 1 | 9 |  | 21
+Vanadium & Graphite | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 3 |  | 3
+Chromite | 0 | 0 | 0 | 0 | 3 | 0 | - |  |  |  |  | 3
+Copper | 0 | 0 | 0 | 0 | 2 | 0 | - |  | 2 |  |  | 4
+Kyanite | 0 | 0 | 0 | 0 | 0 | 0 | 1 |  |  |  |  | 1
+Rock Phosphate | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 3 |  |  |  | 4
+Copper & Gold | 0 | 0 | 0 | 0 | 0 | 0 | 1 |  |  |  |  | 1
+Phosphorite | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 3 | 2 | 2 |  | 7
+Ni, Cr and associated PGE | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 |  | 2 |  | 4
+Ni, Cr and Co |  |  |  |  |  |  |  |  |  | 1 |  | 1
+Glauconite (Potash) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 | 3 |  | 5
+Basemetal | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 5 |  |  | 5
+Silicious Earth | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 |  | 2
+Semi Precious Stone | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |  | 1
+Lithium & REE | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |  | 1
+Co,Mn &Iron |  |  |  |  |  |  |  |  |  | 1 |  | 1
+Garnet |  |  |  |  |  |  |  |  |  | 1 |  | 1
+Tungsten | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 |  | 2
+Aluminous Laterite&Laterite |  |  |  |  |  |  |  |  |  |  | 2 | 2
+Total | 6 | 15 | 14 | 19 | 43 | 13 | 46* | 105 | 95 | 119 | 13 | 486

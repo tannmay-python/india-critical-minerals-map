@@ -1,0 +1,93 @@
+{
+ "status": "200",
+ "result": [
+  {
+   "id": 2071,
+   "CreatedOn": "2025-05-29 07:14:13",
+   "jsonOptTxtDetails": "{\"CONTENT_TYPE\":\"Content\",\"SECTION_ID\":\"Mines-IV (Auctions)\"}",
+   "selectType": "1",
+   "pageName": "Details of Successful Auction during the year",
+   "pageNameInHindi": "Details of Successful Auction during the year",
+   "snippet": "",
+   "snippetInHindi": "",
+   "readMore": "",
+   "metaTitle": "",
+   "metaKeywords": "",
+   "metaDescription": "",
+   "uploadImage": "",
+   "content": "&lt;p&gt;\r\n&lt;style type=\"text/css\"&gt;&lt;!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--&gt;\r\n&lt;/style&gt;\r\n&lt;/p&gt;\r\n\r\n&lt;table border=\"1\" cellpadding=\"0\" cellspacing=\"0\" data-sheets-baot=\"1\" data-sheets-root=\"1\" dir=\"ltr\" xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\r\n\t&lt;colgroup&gt;\r\n\t\t&lt;col width=\"53\" /&gt;\r\n\t\t&lt;col width=\"100\" /&gt;\r\n\t\t&lt;col width=\"113\" /&gt;\r\n\t\t&lt;col width=\"100\" /&gt;\r\n\t\t&lt;col width=\"100\" /&gt;\r\n\t\t&lt;col width=\"100\" /&gt;\r\n\t\t&lt;col width=\"100\" /&gt;\r\n\t\t&lt;col width=\"100\" /&gt;\r\n\t\t&lt;col width=\"115\" /&gt;\r\n\t\t&lt;col width=\"100\" /&gt;\r\n\t\t&lt;col width=\"139\" /&gt;\r\n\t&lt;/colgroup&gt;\r\n\t&lt;tbody&gt;\r\n\t\t&lt;tr&gt;\r\n\t\t\t&lt;td colspan=\"11\" rowspan=\"1\" style=\"text-align: center;\"&gt;Successful Auctions so far in 2025-26 &amp;ndash; 23(ML- 10, CL-13)&lt;/td&gt;\r\n\t\t&lt;/tr&gt;\r\n\t\t&lt;tr&gt;\r\n\t\t\t&lt;td colspan=\"11\" rowspan=\"1\" style=\"text-align: center;\"&gt;(as on 27.05.2025 )&lt;/td&gt;\r\n\t\t&lt;/tr&gt;\r\n\t\t&lt;tr&gt;\r\n\t\t\t&lt;td&gt;S No&lt;/td&gt;\r\n\t\t\t&lt;td&gt;State&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Name of the Block&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Mineral&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Date of auction&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Date of Prefered Bidder&lt;/td&gt;\r\n\t\t\t&lt;td&gt;ML / CL&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Area (in Ha)&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Reserves (in MT)&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Final Bid (in %)&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Preferred Bidder&lt;/td&gt;\r\n\t\t&lt;/tr&gt;\r\n\t\t&lt;tr&gt;\r\n\t\t\t&lt;td&gt;1&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Chhattisgarh&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Bailadila Deposit 01A Iron Ore Block&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Iron Ore&lt;/td&gt;\r\n\t\t\t&lt;td&gt;24.03.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;11.04.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;CL&lt;/td&gt;\r\n\t\t\t&lt;td&gt;850&lt;/td&gt;\r\n\t\t\t&lt;td&gt;55.23&lt;/td&gt;\r\n\t\t\t&lt;td&gt;151.25&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Arcelor Mittal Nippon Steel India Limited&lt;/td&gt;\r\n\t\t&lt;/tr&gt;\r\n\t\t&lt;tr&gt;\r\n\t\t\t&lt;td&gt;2&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Chhattisgarh&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Bailadila Deposit 01B Iron Ore Block&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Iron Ore&lt;/td&gt;\r\n\t\t\t&lt;td&gt;25.03.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;11.04.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;CL&lt;/td&gt;\r\n\t\t\t&lt;td&gt;850&lt;/td&gt;\r\n\t\t\t&lt;td&gt;103.25&lt;/td&gt;\r\n\t\t\t&lt;td&gt;157.45&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Arcelor Mittal Nippon Steel India Limited&lt;/td&gt;\r\n\t\t&lt;/tr&gt;\r\n\t\t&lt;tr&gt;\r\n\t\t\t&lt;td&gt;3&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Chhattisgarh&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Bailadila Deposit 01C Iron Ore Block&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Iron Ore&lt;/td&gt;\r\n\t\t\t&lt;td&gt;26.03.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;11.04.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;CL&lt;/td&gt;\r\n\t\t\t&lt;td&gt;825&lt;/td&gt;\r\n\t\t\t&lt;td&gt;129.93&lt;/td&gt;\r\n\t\t\t&lt;td&gt;152&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Rungta Sons Pvt. Ltd.&lt;/td&gt;\r\n\t\t&lt;/tr&gt;\r\n\t\t&lt;tr&gt;\r\n\t\t\t&lt;td&gt;4&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Chhattisgarh&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Hahaladdi-North Extension Iron Ore Block&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Iron Ore&lt;/td&gt;\r\n\t\t\t&lt;td&gt;28.03.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;11.04.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;CL&lt;/td&gt;\r\n\t\t\t&lt;td&gt;201.614&lt;/td&gt;\r\n\t\t\t&lt;td&gt;2.54&lt;/td&gt;\r\n\t\t\t&lt;td&gt;210&lt;/td&gt;\r\n\t\t\t&lt;td&gt;SagarStone Industries&lt;/td&gt;\r\n\t\t&lt;/tr&gt;\r\n\t\t&lt;tr&gt;\r\n\t\t\t&lt;td&gt;5&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Gujarat&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Kenedy Block-4&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Aluminous Laterite &amp;amp; Laterite&lt;/td&gt;\r\n\t\t\t&lt;td&gt;16.04.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;19.04.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;ML&lt;/td&gt;\r\n\t\t\t&lt;td&gt;7.2399&lt;/td&gt;\r\n\t\t\t&lt;td&gt;4.95&lt;/td&gt;\r\n\t\t\t&lt;td&gt;20.15&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Shivhari Minerals&lt;/td&gt;\r\n\t\t&lt;/tr&gt;\r\n\t\t&lt;tr&gt;\r\n\t\t\t&lt;td&gt;6&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Gujarat&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Nandana Block-4&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Bauxite (Aluminous Laterite) &amp;amp; Laterite&lt;/td&gt;\r\n\t\t\t&lt;td&gt;17.04.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;19.04.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;ML&lt;/td&gt;\r\n\t\t\t&lt;td&gt;5.0283&lt;/td&gt;\r\n\t\t\t&lt;td&gt;1.05&lt;/td&gt;\r\n\t\t\t&lt;td&gt;20.15&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Meena Agency Limited&lt;/td&gt;\r\n\t\t&lt;/tr&gt;\r\n\t\t&lt;tr&gt;\r\n\t\t\t&lt;td&gt;7&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Gujarat.&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Ran Block-1&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Bauxite (Aluminous Laterite) &amp;amp; Laterite&lt;/td&gt;\r\n\t\t\t&lt;td&gt;22.04.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;05.05.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;ML&lt;/td&gt;\r\n\t\t\t&lt;td&gt;5.0586&lt;/td&gt;\r\n\t\t\t&lt;td&gt;2.06&lt;/td&gt;\r\n\t\t\t&lt;td&gt;20.2&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Haradasbhai Karshanbhai Ambaliya&lt;/td&gt;\r\n\t\t&lt;/tr&gt;\r\n\t\t&lt;tr&gt;\r\n\t\t\t&lt;td&gt;8&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Gujarat.&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Satapara Block-2&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Aluminous Laterite &amp;amp; Laterite&lt;/td&gt;\r\n\t\t\t&lt;td&gt;23.04.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;05.05.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;ML&lt;/td&gt;\r\n\t\t\t&lt;td&gt;4.1522&lt;/td&gt;\r\n\t\t\t&lt;td&gt;1.47&lt;/td&gt;\r\n\t\t\t&lt;td&gt;20.15&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Allurich Minerals&lt;/td&gt;\r\n\t\t&lt;/tr&gt;\r\n\t\t&lt;tr&gt;\r\n\t\t\t&lt;td&gt;9&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Gujarat.&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Virpur Lusari Block-1&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Bauxite (Aluminous Laterite), Laterite &amp;amp;Marl&lt;/td&gt;\r\n\t\t\t&lt;td&gt;24.04.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;05.05.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;ML&lt;/td&gt;\r\n\t\t\t&lt;td&gt;5.5943&lt;/td&gt;\r\n\t\t\t&lt;td&gt;2.57&lt;/td&gt;\r\n\t\t\t&lt;td&gt;20.15&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Bauxlife Resources&lt;/td&gt;\r\n\t\t&lt;/tr&gt;\r\n\t\t&lt;tr&gt;\r\n\t\t\t&lt;td&gt;10&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Gujarat.&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Virpur Lusari Block-4&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Bauxite (Aluminous Laterite) &amp;amp; Laterite&lt;/td&gt;\r\n\t\t\t&lt;td&gt;25.04.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;05.05.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;ML&lt;/td&gt;\r\n\t\t\t&lt;td&gt;4.5326&lt;/td&gt;\r\n\t\t\t&lt;td&gt;2.38&lt;/td&gt;\r\n\t\t\t&lt;td&gt;20.15&lt;/td&gt;\r\n\t\t\t&lt;td&gt;L and S Company&lt;/td&gt;\r\n\t\t&lt;/tr&gt;\r\n\t\t&lt;tr&gt;\r\n\t\t\t&lt;td&gt;11&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Gujarat.&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Virpur Lusari Block-6&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Bauxite (Aluminous Laterite), Laterite &amp;amp;Marl&lt;/td&gt;\r\n\t\t\t&lt;td&gt;01.05.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;05.05.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;ML&lt;/td&gt;\r\n\t\t\t&lt;td&gt;4.8557&lt;/td&gt;\r\n\t\t\t&lt;td&gt;2.12&lt;/td&gt;\r\n\t\t\t&lt;td&gt;20.45&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Kachhara Bhimabhai Kambaria&lt;/td&gt;\r\n\t\t&lt;/tr&gt;\r\n\t\t&lt;tr&gt;\r\n\t\t\t&lt;td&gt;12&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Gujarat.&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Virpur Lusari Block-7&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Bauxite (Aluminous Laterite) &amp;amp; Laterite&lt;/td&gt;\r\n\t\t\t&lt;td&gt;02.05.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;05.05.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;ML&lt;/td&gt;\r\n\t\t\t&lt;td&gt;4.6992&lt;/td&gt;\r\n\t\t\t&lt;td&gt;1.84&lt;/td&gt;\r\n\t\t\t&lt;td&gt;20.15&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Dipak Meragbhai Chavda&lt;/td&gt;\r\n\t\t&lt;/tr&gt;\r\n\t\t&lt;tr&gt;\r\n\t\t\t&lt;td&gt;13&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Gujarat.&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Virpur Lusari Block-8&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Bauxite (Aluminous Laterite) &amp;amp; Laterite&lt;/td&gt;\r\n\t\t\t&lt;td&gt;03.05.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;05.05.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;ML&lt;/td&gt;\r\n\t\t\t&lt;td&gt;4.0482&lt;/td&gt;\r\n\t\t\t&lt;td&gt;0.97&lt;/td&gt;\r\n\t\t\t&lt;td&gt;20.15&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Vajsi Desurbhai Goriya&lt;/td&gt;\r\n\t\t&lt;/tr&gt;\r\n\t\t&lt;tr&gt;\r\n\t\t\t&lt;td&gt;14&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Central Govt./Chhattisgarh&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Oranga-Revatipur Graphite and Vanadium Block&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Graphite and Vanadium&lt;/td&gt;\r\n\t\t\t&lt;td&gt;16.05.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;27.05.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;ML&lt;/td&gt;\r\n\t\t\t&lt;td&gt;366.478&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Graphite-16.20 Vanadium-0.70&lt;/td&gt;\r\n\t\t\t&lt;td&gt;189.75&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Coal India Limited&lt;/td&gt;\r\n\t\t&lt;/tr&gt;\r\n\t\t&lt;tr&gt;\r\n\t\t\t&lt;td&gt;15&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Central Govt./Odisha&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Salepali Graphite Block&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Graphite&lt;/td&gt;\r\n\t\t\t&lt;td&gt;15.05.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;27.05.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;CL&lt;/td&gt;\r\n\t\t\t&lt;td&gt;1223.29&lt;/td&gt;\r\n\t\t\t&lt;td&gt;0.153&lt;/td&gt;\r\n\t\t\t&lt;td&gt;179&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Vinmir Resources Pvt. Ltd.&lt;/td&gt;\r\n\t\t&lt;/tr&gt;\r\n\t\t&lt;tr&gt;\r\n\t\t\t&lt;td&gt;16&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Central Govt./Karnataka&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Ganacharpura Graphite Block&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Graphite&lt;/td&gt;\r\n\t\t\t&lt;td&gt;20.05.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;27.05.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;CL&lt;/td&gt;\r\n\t\t\t&lt;td&gt;500.925&lt;/td&gt;\r\n\t\t\t&lt;td&gt;0.556&lt;/td&gt;\r\n\t\t\t&lt;td&gt;271&lt;/td&gt;\r\n\t\t\t&lt;td&gt;R K Mineral Development Private Limited&lt;/td&gt;\r\n\t\t&lt;/tr&gt;\r\n\t\t&lt;tr&gt;\r\n\t\t\t&lt;td&gt;17&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Central Govt./Madhya Pradesh&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Surajpura Phosphorite Block&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Phosphorite&lt;/td&gt;\r\n\t\t\t&lt;td&gt;21.05.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;27.05.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;CL&lt;/td&gt;\r\n\t\t\t&lt;td&gt;1072.29&lt;/td&gt;\r\n\t\t\t&lt;td&gt;NA&lt;/td&gt;\r\n\t\t\t&lt;td&gt;70.27&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Sunflag Iron and Steel Company Limited&lt;/td&gt;\r\n\t\t&lt;/tr&gt;\r\n\t\t&lt;tr&gt;\r\n\t\t\t&lt;td&gt;18&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Central Govt./Chhattisgarh&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Raipura Phosphorite and Limestone Block&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Phosphorite and Limestone&lt;/td&gt;\r\n\t\t\t&lt;td&gt;16.05.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;27.05.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;CL&lt;/td&gt;\r\n\t\t\t&lt;td&gt;1009.36&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Phosphorite-14.44 Limestone-147.30&lt;/td&gt;\r\n\t\t\t&lt;td&gt;8.6&lt;/td&gt;\r\n\t\t\t&lt;td&gt;NLC India Limited&lt;/td&gt;\r\n\t\t&lt;/tr&gt;\r\n\t\t&lt;tr&gt;\r\n\t\t\t&lt;td&gt;19&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Central Govt./Chhattisgarh&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Semhardih Phosphorite and Limestone Block&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Phosphorite and Limestone&lt;/td&gt;\r\n\t\t\t&lt;td&gt;15.05.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;27.05.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;CL&lt;/td&gt;\r\n\t\t\t&lt;td&gt;960.35&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Phosphorite-3.39 Limestone-428.89&lt;/td&gt;\r\n\t\t\t&lt;td&gt;11.05&lt;/td&gt;\r\n\t\t\t&lt;td&gt;NLC India Limited&lt;/td&gt;\r\n\t\t&lt;/tr&gt;\r\n\t\t&lt;tr&gt;\r\n\t\t\t&lt;td&gt;20&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Central Govt./Karnataka&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Dombarahalli Phosphate and REE Block&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Phosphate and REE&lt;/td&gt;\r\n\t\t\t&lt;td&gt;15.05.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;27.05.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;CL&lt;/td&gt;\r\n\t\t\t&lt;td&gt;558.28&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Phosphate-18.97 REE-2.10&lt;/td&gt;\r\n\t\t\t&lt;td&gt;2.3&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Ramgad Minerals and Mining Limited&lt;/td&gt;\r\n\t\t&lt;/tr&gt;\r\n\t\t&lt;tr&gt;\r\n\t\t\t&lt;td&gt;21&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Central Govt./Rajasthan&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Jhandawali - Satipura Amalgamated Potash and Halite Block&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Potash and Halite&lt;/td&gt;\r\n\t\t\t&lt;td&gt;16.05.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;27.05.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;CL&lt;/td&gt;\r\n\t\t\t&lt;td&gt;1841.22&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Potash-214.31 Halite-5840.16&lt;/td&gt;\r\n\t\t\t&lt;td&gt;3.05&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Hindustan Zinc Limited&lt;/td&gt;\r\n\t\t&lt;/tr&gt;\r\n\t\t&lt;tr&gt;\r\n\t\t\t&lt;td&gt;22&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Central Govt./Rajasthan&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Jorkian-Satipura-Khunja Amalgamated Potash and Halite Block&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Potash and Halite&lt;/td&gt;\r\n\t\t\t&lt;td&gt;15.05.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;27.05.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;CL&lt;/td&gt;\r\n\t\t\t&lt;td&gt;1699.98&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Potash-251.22 Halite-5355.65&lt;/td&gt;\r\n\t\t\t&lt;td&gt;15.15&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Oil India Ltd.&lt;/td&gt;\r\n\t\t&lt;/tr&gt;\r\n\t\t&lt;tr&gt;\r\n\t\t\t&lt;td&gt;23&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Central Govt./UttarPradesh&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Nawatola-Laband REE Block&lt;/td&gt;\r\n\t\t\t&lt;td&gt;REE&lt;/td&gt;\r\n\t\t\t&lt;td&gt;20.05.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;27.05.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;CL&lt;/td&gt;\r\n\t\t\t&lt;td&gt;210.01&lt;/td&gt;\r\n\t\t\t&lt;td&gt;0.182&lt;/td&gt;\r\n\t\t\t&lt;td&gt;3.55&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Hindustan Zinc Limited&lt;/td&gt;\r\n\t\t&lt;/tr&gt;\r\n\t\t&lt;tr&gt;\r\n\t\t\t&lt;td&gt;24&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Andhra Pradesh&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Jagrajupeta&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Manganese&lt;/td&gt;\r\n\t\t\t&lt;td&gt;26.05.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;27.05.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;ML&lt;/td&gt;\r\n\t\t\t&lt;td&gt;150&lt;/td&gt;\r\n\t\t\t&lt;td&gt;0.29&lt;/td&gt;\r\n\t\t\t&lt;td&gt;66&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Vinmir Resources Private Limited&lt;/td&gt;\r\n\t\t&lt;/tr&gt;\r\n\t\t&lt;tr&gt;\r\n\t\t\t&lt;td&gt;25&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Andhra Pradesh&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Errakonda&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Iron Ore&lt;/td&gt;\r\n\t\t\t&lt;td&gt;26.05.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;27.05.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;CL&lt;/td&gt;\r\n\t\t\t&lt;td&gt;1500&lt;/td&gt;\r\n\t\t\t&lt;td&gt;NA&lt;/td&gt;\r\n\t\t\t&lt;td&gt;54.7&lt;/td&gt;\r\n\t\t\t&lt;td&gt;RK Earth Resources Private Limited&lt;/td&gt;\r\n\t\t&lt;/tr&gt;\r\n\t\t&lt;tr&gt;\r\n\t\t\t&lt;td&gt;26&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Andhra Pradesh&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Nimmalavalasa&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Manganese&lt;/td&gt;\r\n\t\t\t&lt;td&gt;26.05.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;27.05.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;CL&lt;/td&gt;\r\n\t\t\t&lt;td&gt;445&lt;/td&gt;\r\n\t\t\t&lt;td&gt;NA&lt;/td&gt;\r\n\t\t\t&lt;td&gt;11.1&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Vinmir Resources Private Limited&lt;/td&gt;\r\n\t\t&lt;/tr&gt;\r\n\t\t&lt;tr&gt;\r\n\t\t\t&lt;td&gt;27&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Andhra Pradesh&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Mandiravalasa&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Manganese&lt;/td&gt;\r\n\t\t\t&lt;td&gt;16.05.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;27.05.2025&lt;/td&gt;\r\n\t\t\t&lt;td&gt;CL&lt;/td&gt;\r\n\t\t\t&lt;td&gt;300&lt;/td&gt;\r\n\t\t\t&lt;td&gt;NA&lt;/td&gt;\r\n\t\t\t&lt;td&gt;27&lt;/td&gt;\r\n\t\t\t&lt;td&gt;Vinmir Resources Private Limited&lt;/td&gt;\r\n\t\t&lt;/tr&gt;\r\n\t&lt;/tbody&gt;\r\n&lt;/table&gt;",
+   "contentInHindi": "",
+   "pageAlias": "details-of-successful-auction-during-the-year",
+   "section": 1,
+   "stmUpdatedOn": "2025-05-29 12:44:13",
+   "selectTypetext": "Content",
+   "sectiontext": "Mines-IV (Auctions)"
+  }
+ ],
+ "columnHead": [
+  {
+   "colHeader": "selectType",
+   "colName": "CONTENT_TYPE"
+  },
+  {
+   "colHeader": "pageName",
+   "colName": "CONTHEADING"
+  },
+  {
+   "colHeader": "pageNameInHindi",
+   "colName": "CNTHEADHINDI"
+  },
+  {
+   "colHeader": "snippet",
+   "colName": "CONTSNIP"
+  },
+  {
+   "colHeader": "snippetInHindi",
+   "colName": "CONTSNIPHINDI"
+  },
+  {
+   "colHeader": "readMore",
+   "colName": "MROELINK"
+  },
+  {
+   "colHeader": "metaTitle",
+   "colName": "METATITLE"
+  },
+  {
+   "colHeader": "metaKeywords",
+   "colName": "METAKEYWORD"
+  },
+  {
+   "colHeader": "metaDescription",
+   "colName": "METADESCRIPTION"
+  },
+  {
+   "colHeader": "uploadImage",
+   "colName": "FEATERIMG"
+  },
+  {
+   "colHeader": "content",
+   "colName": "CONTTXT"
+  },
+  {
+   "colHeader": "contentInHindi",
+   "colName": "CONTTEXTHIND"
+  },
+  {
+   "colHeader": "pageAlias",
+   "colName": "VCHALIAS"
+  },
+  {
+   "colHeader": "section",
+   "colName": "SECTION_ID"
+  },
+  {
+   "colHeader": "CreatedOn",
+   "colName": "CreatedOn"
+  },
+  {
+   "colHeader": "Edit",
+   "colName": "Edit"
+  }
+ ]
+}

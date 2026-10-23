@@ -1,0 +1,305 @@
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                               Summary of the Mineral Block                         
+                   PART A - GENERAL INFORMATION ABOUT MINERALBLOCK                  
+                                                                                    
+             FEATURES             DETAILS                                           
+                                                                                    
+          1. LOCATION                                                               
+                                                                                    
+             MINERAL BLOCK        GHISI BASEMETAL BLOCK                             
+             CORNER POINTS           PILLAR        DGPS COORDINATES                 
+                                                                                    
+             (LATITUDE, LONGITUDE)             LATITUDE       LONGITUDE             
+                                                                                    
+                                     Point A 21° 58' 29.93916" N 78° 10' 14.22488" E
+                                                                                    
+                                     Point B 21° 58' 41.04722" N 78° 09' 49.91732" E
+                                                                                    
+                                     Point C 21° 58' 52.62603" N 78° 09' 55.94376" E
+                                                                                    
+                                     Point D 21° 58' 49.53682" N 78° 10' 02.07722" E
+                                                                                    
+                                     Point E 21° 59' 06.53527" N 78° 10' 11.14701" E
+                                                                                    
+                                     Point F 21° 58' 58.32480" N 78° 10' 29.24674" E
+                                                                                    
+                                   BOREHOLES    LATITUDE      LONGITUDE             
+                                                                                    
+                                     GH-1    21° 58' 50.02543" N 78° 10' 15.96524" E
+                                                                                    
+                                     GH-2    21° 58' 47.24949" N 78° 10' 14.56506" E
+                                                                                    
+                                     GH-3     21° 58' 52.944" N 78° 10' 17.448" E   
+                                                                                    
+                                     GH-4    21° 58' 44.19427" N 78° 10' 13.39586" E
+                                                                                    
+                                     GH-5    21° 58' 41.05683" N 78° 10' 12.21507" E
+                                                                                    
+                                     GH-6    21° 58' 38.34974" N 78° 10' 10.10857" E
+                                                                                    
+                                    MPBBG-01 21° 58' 39.74898" N 78° 10' 11.03423" E
+                                                                                    
+                                    MPBBG-02 21° 58' 45.70245" N 78° 10' 13.85046" E
+                                                                                    
+                                    MPBBG-03 21° 58' 48.51720" N 78° 10' 15.19079" E
+                                                                                    
+                                    MPBBG-04 21° 58' 42.52465" N 78° 10' 12.46696" E
+                                                                                    
+                                    MPBBG-05 21° 58' 37.07122" N 78° 10' 09.21888" E
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                    MPBBG-06 21° 58' 51.66474" N 78° 10' 16.41392" E
+                                                                                    
+                                    MPBBG-07 21° 58' 49.45137" N 78° 10' 18.09833" E
+                                                                                    
+                                    MPBBG-08 21° 58' 46.32293" N 78° 10' 16.62178" E
+                                                                                    
+                                    MPBBG-09 21° 58' 43.30637" N 78° 10' 15.57613" E
+                                                                                    
+                                    MPBBG-10 21° 58' 40.05664" N 78° 10' 14.41754" E
+                                                                                    
+                                    MPBBG-11 21° 58' 37.23720" N 78° 10' 12.49267" E
+                                                                                    
+                                    MPBBG-12 21° 58' 48.51077" N 78° 10' 20.08617" E
+                                                                                    
+                                    MPBBG-13 21° 58' 41.87717" N 78° 10' 10.51088" E
+                                                                                    
+                                    TOTAL AREA OF BLOCK (SQ KM.) 0.634 SQ KM        
+                                                                                    
+             VILLAGES             GHISI                                             
+             TEHSIL/ TALUKA       AMLA                                              
+                                                                                    
+             DISTRICT             BETUL                                             
+                                                                                    
+             STATE                MADHYA PRADESH                                    
+                                                                                    
+           2 AREA (HECTARES)      63.410 HECT                                       
+                                                                                    
+             MINERALISED AREA     8.610 HECT                                        
+                                                                                    
+             NON-MINERALISED AREA 54.800 HECT                                       
+                                                                                    
+           3 EXPLORATION                                                            
+             STATUS (G2/ G3/ G4 ETC.) G2                                            
+                                                                                    
+             EXPLORATION AGENCY   GSI, SUMP BHOPAL                                  
+                                                                                    
+             TOTAL NUMBER OF      TOTAL NUMBER OF BOREHOLES: 19 NO.                 
+             BOREHOLES WITH                                                         
+                                  TOTAL METERAGE: 3146.7M                           
+             METERAGE                                                               
+             BOREHOLE SPACING     50m for 1st level, 100m for 2nd level boreholes   
+             (DENSITY)                                                              
+                                                                                    
+           4 QUANTITY OF MINERALS                                                   
+             (GRADE WISE)                                                           
+                                                                                    
+             MINERAL              Base metals (Zn, )                                
+                                                                                    
+             TOTAL GEOLOGICAL     0.3127 MILLION TONNES with an average of Zn 2.04%, Cu 0.18%
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+             RESOURCES            and Pb 0.35%, (BY CROSS SECTION METHOD)           
+                                  0.2893 MILLION TONNES with an average Zn 2.03% Cu 0.18%
+                                  and Pb 0.34% (BY LV SECTION METHOD)               
+                                                                                    
+           5 MINERALISED ZONES                                                      
+                                                                                    
+             NUMBER OF MINERAL ZONES 02                                             
+                                                                                    
+             TREND (DIP AND STRIKE) N250E – S250W dip 550 due southeast.            
+                                                                                    
+             TOTAL THICKNESS      1.76m to 6.69m                                    
+                                                                                    
+           6 ACCESSIBILLITY                                                         
+                                                                                    
+             FEATURES             DETAILS                                           
+             NEAREST RAIL HEAD    AMLA, 9 KM,                                       
+                                                                                    
+             ROAD                 AMLA-BORI-BOREDEHI ROAD                           
+                                                                                    
+             AIRPORT              NAGPUR                                            
+                                                                                    
+           7 HYDROGRAPHY                                                            
+                                                                                    
+             LOCAL SURFACE DRAINAGE DENDRITIC TO SUB-DENDRITIC PATTERN,             
+             PATTERN (CHANNELS)                                                     
+                                                                                    
+             RIVERS/ STREAMS      Nomajor river in the area.                        
+                                                                                    
+           8 CLIMATE                                                                
+             MEAN ANNUAL RAINFALL 800 TO 900 MM                                     
+                                                                                    
+             TEMPERATURE (DECEMBER) Minimum 100 C. Average 100to 200C               
+                                                                                    
+             TEMPERATURE (JUNE)   Maximum 450 C. Average 400                        
+                                                                                    
+           9 TOPOGRAPHY                                                             
+                                                                                    
+             TOPOSHEET NUMBER     55K/1                                             
+             MORPHOLOGY OF THE AREA THE AREA IS PLAIN TO GENTLY UNDULATING.         
+                                                                                    
+                                                                                    
+                                                                                    
+          PART B-PARTICULARS OF STATUTORY LICENCES, PERMITS, PERMISSIONS,           
+                                                                                    
+          CONCESSIONS, APPROVALS AND CONSENTS RELATED TO MINING OPERATIOS           
+                                                                                    
+                PARTICULARS                   DETAILS/STATUS                        
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+          1     FOREST CLEARANCE              TO BE OBTAINED BY THE PREFFERED BIDDER
+                                                                                    
+          2     WILD LIFE CLEARANCE(SANCTUARY,RESERVE OR TO BE OBTAINED BY THE PREFFERED BIDDER
+                SPECIAL ZONE CLEARANCE)                                             
+                                                                                    
+          3     ENVIRONMENT CLEARANCE         TO BE OBTAINED BY THE PREFFERED BIDDER
+          4     MINING PLAN APPROVAL          TO BE OBTAINED BY THE PREFFERED BIDDER
+                                                                                    
+          5     CONSENT TO ESTABLISH          TO BE OBTAINED BY THE PREFFERED BIDDER
+                                                                                    
+          6     EXPLOSIVE LICENCE             TO BE OBTAINED BY THE PREFFERED BIDDER
+                                                                                    
+          7     PERMISSION FOR MINE OPENING   TO BE OBTAINED BY THE PREFFERED BIDDER
+                                                                                    
+          8     PERMISSION OF INSTALLATION/TRIAL OPERATION TO BE OBTAINED BY THE PREFFERED BIDDER
+                OF EQUIPMENT                                                        
+                                                                                    
+          9     GROUND WATER CLEARANCE (CENTRE/STATE) TO BE OBTAINED BY THE PREFFERED BIDDER
+                                                                                    
+          10    RAILWAY SIDING APPROVAL       TO BE OBTAINED BY THE PREFFERED BIDDER
+                                                                                    
+          11    APPROVAL FOR DIESEL STORAGE   TO BE OBTAINED BY THE PREFFERED BIDDER
+                                                                                    
+          12    POWER LINE FROM STATE DISCOM  TO BE OBTAINED BY THE PREFFERED BIDDER
+          13    CLEARANCES RELATING TO WORK UNDER AN TO BE OBTAINED BY THE PREFFERED BIDDER
+                                                                                    
+                EXISTING TRANSMISSION LINE OR SHIFTING OF THE                       
+                TRANSMISSION LINE                                                   
+                                                                                    
+          14    GRAM SABHA CONSENT            TO BE OBTAINED BY THE PREFFERED BIDDER
+          15    ANY OTHER CLEARANCES TO START MINING TO BE OBTAINED BY THE PREFFERED BIDDER
+                                                                                    
+                OPERATION                                                           
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                              PART C-PARTICULARS OF LAND                            
+                                                                                    
+          S.NO.                   LAND TYPE                  AREA (IN HECTARES)     
+                                                                                    
+            1   TOTAL CONCESSION AREA                        63.410 HECTARES        
+                                                                                    
+            2   FOREST LAND WITH STATUS                      NON FOREST             
+                                                                                    
+            3   GOVERNMENT LAND WITH STATUS                  10.37 HECTARES         
+                                                                                    
+            4   PRIVATE LAND WITH STATUS                     53.04 HECTARES         
+            5   CHARAGAH/PASTURE LAND (*)                    0.798 HECTARES         
+                                                                                    
+            6   REVENUE SURVEY DETAILS OF THE AREA           Available              
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+

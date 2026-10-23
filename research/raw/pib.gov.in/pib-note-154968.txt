@@ -1,0 +1,441 @@
+
+ Press Note Details: Press Information Bureau
+Skip to Content
+सुगम्यता विवरण 
+स्क्रीन रीडर का उपयोग 
+Region
+PIB Delhi
+PIB Mumbai
+PIB Hyderabad
+PIB Chennai
+PIB Chandigarh
+PIB Kolkata
+PIB Bengaluru
+PIB Bhubaneswar
+PIB Ahmedabad
+PIB Guwahati
+PIB Thiruvananthpuram
+PIB Imphal
+PIB Mizoram
+PIB Agartala
+PIB Gangtok
+PIB Kohima
+PIB Shillong
+PIB Itanagar
+PIB Lucknow
+PIB Bhopal
+PIB Jaipur
+PIB Patna
+PIB Ranchi
+PIB Shimla
+PIB Raipur
+PIB Jammu and Kashmir
+PIB Vijayawada
+PIB Dehradun
+National
+Language
+हिन्दी
+English
+ढूंढ़ें
+पत्र सूचना कार्यालय
+सूचना और प्रसारण मंत्रालय, भारत सरकार
+हमारे बारे में
+पत्र सूचना कार्यालय के बारे में
+पीआईबी के मुख्य कार्य
+पत्र सूचना कार्यालय (पीआईबी) का संगठनात्मक ढांचा
+पीआईबी के वर्तमान और पूर्व प्रमुख
+मुख्यालय के पीआईबी अधिकारियों के टेलीफोन नं
+प्रेस विज्ञप्ति
+सभी प्रेस विज्ञप्ति
+पीएमओ प्रेस विज्ञप्ति
+2004 से 2017 तक की विज्ञप्तियां
+गैलरी
+फ़ोटो
+वीडियो
+ई-पुस्तिका
+इन्फोग्राफिक
+वेबकास्ट वीडियो
+इवेंट
+वर्षांत समीक्षा - 2025
+अनुसंधान इकाई
+विश्लेषक
+तथ्य-पत्र
+एफएक्यू
+फीचर
+स्वतंत्रता दिवस 2026
+सरकार के 12 साल
+मीडिया सुविधाएं
+प्रत्यायन
+सुविधाएं
+मीडिया निमंत्रण
+मीडिया सूची
+जेडब्ल्यूएस
+आर्काइव
+अभिलेखागार के बारे में
+1947-2001
+2002-2003
+2004 के बाद
+तथ्यों की जांच
+तथ्यों की जांच के बारे में
+तथ्यों की जांच के लिए जमा करें
+एफ ए क्यू
+संख्याओं में तथ्य की जाँच
+तथ्यों की जांच की गई
+धोखाधड़ी की वेबसाइटें
+होम
+सभी विश्लेषक
+ Explainer Details 
+ Technology
+ India’s Semiconductor Revolution
+Powering the Future of Electronics
+ Posted On:
+ 03 AUG 2025 2:49PM
+“Today's India inspires confidence in the world… When the chips are down, you can bet on India”
+- Prime Minister Narendra Modi.
+Key Takeaways
+India’s chip market is booming
+, set to hit $100–110 Bn by 2030.
+India Semiconductor Mission (
+₹
+76,000 Cr outlay)
+ boosts local manufacturing, design, and talent.
+On 12
+th
+ August, 2025, 
+four more semiconductor units were approved
+; with an outlay of 
+Rs.4600 crore.
+Total approved projects under ISM reaches to 
+10
+ with cumulative investments of around 
+Rs.1.60 lakh crore in 6 states.
+India is emerging as a global semiconductor hub
+ with major investments and events like SEMICON India 2025.
+Semicon India 2025
+ from 
+300+ global exhibitors
+ and 
+18 countries
+, signalling India’s rise as a trusted chip partner.
+Introduction
+What makes a phone smart, a computer process millions of commands in fraction of seconds, a TV bring out the reality as it is happening right now, a satellite collect data and send signals across the world? It all comes down to that tiny thing called semiconductor chip, that one can hold between one’s fingers.  
+Semiconductors are the essential building blocks of modern electronics, acting as the hidden brains that make devices work. Semiconductors are materials whose electrical conductivity lies between that of conductors and insulators. They can behave as either, depending on the conditions, making it ideal for electronic devices. This unique property allows semiconductors to be used in the creation of tiny electronic chips that control how modern devices function – not just your everyday devices but even satellites and defence systems. In Chandrayaan 3 Mission,  Vikram lander used Indian made technology and AI to find a safe landing spot all on its own, all  
+by taking complex decisions. Thus acting as a brain, semiconductor chips, help machines take decisions while processing heavy data, giving them iterative direction. 
+These chips are therefore  the backbone of modern electronics, enabling the functioning of devices such as smartphones, computers, electric vehicles, satellites and even defence systems 
+like Aakshteer. 
+The chips are made from  semiconductor material and  can store, process, and transfer information, helping devices perform tasks such as calling, storing data, or sensing electrical signals. Each chip contains millions (or even billions) of microscale switches called transistors, which control electrical signals much like brain cells pass messages in our bodies. It also has other tiny components like resistors, capacitors, and wiring. Together, these elements process and move information. 
+Why Semiconductor Industry Matters: A Strategic Context 
+Semiconductors are at the heart of modern technology. They power essential systems in healthcare, transport, communication, defence, and space. As the world moves toward greaterdigitalization and automation, semiconductors have become integral to economic security and strategic independence. We can recall the acute shortage of chips that the world faced following the Covid 19 pandemic and the Ukraine Russia war that affected the manufacturing of cars, mobile phones and other electronics.  
+The main drivers of growth in the semiconductor industry include the accelerating pace of digitization across sectors, which is increasing the demand for faster, more efficient, and compact electronic components. There is a growing reliance on advanced semiconductor-based systems to process and store vast amounts of data generated by digital platforms, smart devices, and connected infrastructure. The rapid adoption of artificial intelligence and machine learning, both at the edge and in cloud data centres is fuelling the need for high-performance, energy-efficient chips that can handle complex computing tasks in real time.
+Currently, countries like the Taiwan, South Korea, Japan, China and US dominate the semiconductor industry. Taiwan produces more than 60% of the world’s semiconductors, including nearly 90% of the most advanced ones.
+[1]
+ Such dependence on a single region has exposed global supply chains to significant risks—from pandemics and natural disasters to geopolitical tensions. Recognizing this challenge, many countries are now building secure and diversified supply chains. The United States, European Union, Japan, and South Korea have launched national strategies to support domestic chip manufacturing and reduce over-reliance on a single region. India is emerging as an important and trusted partner in this global shift.
+India as a player in the Semiconductor Market
+The global demand for chips is skyrocketing, but the supply chain remains very fragile owing to the concentration of the industry in a few limited geographies. There is a clear need for global diversification of manufacturing.  India is emerging as a dominant player in this regard.  Initiatives like including  Electronics Systems Design and Manufacturing (ESDM) as one of the key sectors under Make in India, or the India Semiconductor Mission and Semicon India programme have helped create an ecosystem to support the industry.  The global semiconductor market is expected to reach USD 1 Trillion by 2030 with India’s market occupying a substantial portion of it.
+[2]
+ India has the capacity to emerge as a key contributor to the 3 primary pillars of the semiconductor manufacturing supply chain – 
+Equipment
+ – leveraging strong base of MSMEs to produce components for semiconductor equipment: 
+Materials
+ -India is a rich source of chemicals, minerals and gases which can be utilized by semiconductor supply chain companies; and 
+Services
+ (R&D, Logistics and supply chain, major talent in AI, big data, cloud computing and IoT. 
+In May 2025, the Union Minister for Electronics & IT, Railways, and Information & Broadcasting, Shri Ashwini Vaishnaw, inaugurated two state-of-the-art semiconductor design facilities in Noida and Bengaluru. These centres are India’s first to focus on advanced 3-nanometer chip design, marking a significant milestone in the nation’s semiconductor innovation journey.
+Highlighting the achievement, The Minister stated that designing at 3 nanometers is truly next-generation, noting that while India had previously achieved 7nm and 5nm designs, this development marks a new frontier in semiconductor innovation.
+Capitalizing on the fast progress of its semiconductor journey so far, India is making a generational shift towards  becoming  a future leader in the field, and  is designing, packaging & manufacturing Made in India chips. As the use of intelligent chips grows rapidly,  India is  refining the packaging technology of designs to make them among the best in the world. In fabrication India is moving from traditional Silicon based semiconductors to the latest Silicon Carbide based semiconductors, while in design the roadmap is to introduce the more advanced 3D Glass packaging technology. Silicon Carbide SiC is more stable & robust than Si semiconductors as it can easily withstand high temperature of 2400 degree celsius & high voltage conditions. Such technology is critical for sectors like defence systems,  missiles, radars & rockets in space. Thanks to the concerted efforts of industry, India is all set to have its own first Made in India chip soon. With these developments India will be in a position to give the world one of the best semiconductor design, fabrication & manufacturing ecosystems. 
+As per industry estimates, the size of the Indian semiconductor market was about $38 Bn in 2023, $45-$50 billion in 2024-2025 and is expected to reach $ 100-110$ Bn by 2030.
+[3]
+[4]
+India Semiconductor Mission
+The 
+India Semiconductor Mission
+ was approved by the Union Cabinet in December 2021. With an outlay   of ₹76,000 crore, the programme aims to provide financial support for investments in semiconductor fabrication, display manufacturing & chip design to strengthen India's integration into global electronics value chains.Envisioned to be led by global experts in the Semiconductor and Display industry, ISM  aims to build a strong semiconductor and display ecosystem, positioning India as a global hub for electronics manufacturing and design, while serving as the nodal agency for the efficient and seamless implementation of semiconductor and display schemes.
+[5]
+Mission focus of ISM 
+Set up Chip Manufacturing plants(fabs)
+Create packaging and testing units
+Supporting startups in chip design
+Training young engineers
+Bring Global companies to Invest in India
+Objectives of ISM
+Formulate a long-term strategy for developing sustainable semiconductors and display manufacturing facilities and semiconductor design eco-system in the country.
+Facilitate the adoption of secure microelectronics and developing trusted semiconductor supply chain, including raw materials, specialty chemicals, gases, and manufacturing equipment.
+Enable a multi-fold growth of Indian semiconductor design industry by providing requisite support in the form of Electronic Design Automation (EDA) tools, foundry services and other suitable mechanisms for early-stage start-ups.
+Promote and facilitate indigenous Intellectual Property (IP) generation.
+Encourage, enable and incentivize Transfer of Technologies (ToT).
+Establish suitable mechanisms to harness economies of scale in Indian semiconductor and display industry.
+Enable cutting-edge research in semiconductors and display industry including evolutionary and revolutionary technologies through grants, global collaborations and other mechanisms in academia / research institutions, industry, and through establishing Centres of Excellence (CoEs).
+Enable collaborations and partnership programs with national and international agencies, industries and institutions for catalysing collaborative research, commercialization and skill development.
+The India Semiconductor Mission is driven by the Indian government in collaboration with various industry associations, research organizations, and educational institutions. It operates under the guidance of the Ministry of Electronics and Information Technology (MeitY) and other relevant government bodies. ISM is crucial for strengthening India's position in the semiconductor market, which is expected to reach $63 billion by 2026.
+[1]
+ With these initiatives, India seeks to build a self-reliant electronics ecosystem, lessen its reliance on imports, and establish itself as a significant contributor to the global semiconductor supply chain
+Schemes under ISM:
+1. Semiconductor Fabs Scheme
+This scheme provides up to 50% fiscal support for setting up semiconductor wafer fabrication (fab) units in India. 
+It targets advanced nodes such as 28nm or below, as well as mature technologies. 
+The goal is to establish high-tech, large-scale fabs that serve both domestic and global demand.
+2. Display Fabs Scheme
+Offers financial assistance of up to 50% of project cost to set up display fabrication units in India.
+It covers technologies such as AMOLED and LCD displays, aiming to reduce import dependence and promote domestic innovation in next-gen display manufacturing.
+3. Compound Semiconductors and ATMP/OSAT Scheme
+Supports setting up units for compound semiconductors, silicon photonics, MEMS/sensors, and       discrete semiconductors. 
+It also includes ATMP/OSAT facilities (chip packaging and testing), with up to 50% capital support, to complete the downstream value chain.
+4. Design Linked Incentive (DLI) Scheme
+With a total outlay of Rs. 1000 Cr, promotes semiconductor design startups and MSMEs by offering financial support across product development stages. 
+The scheme includes reimbursement of R&D costs, access to state-of-the-art design tools.
+Incentives up to ₹15 crore per company to encourage innovation in chip design.
+Commitment of 
+₹
+234 crore to Indian startups- 
+Since the launch of the DLI Scheme in 2022:
+The government had committed the support of 
+₹
+234 crore
+ for the chip design projects from 22 companies with a total project cost of 
+₹
+690 crore
+.
+These chips will be used in CCTV cameras, mobile networks, satellites, cars, smart devices, etc.
+These startups have together raised over ₹380 crore from VC investors.
+Five startups have already built and tested their chip designs with global chip manufacturers.
+More than 72 companies have been given access to advanced software tools to help them design chips.
+Skill Enhancement Under ISM
+The India Semiconductor Mission offers various skill development programs, training workshops, and certification courses to individuals interested in enhancing their skills and knowledge in the semiconductor field. These initiatives provide hands-on learning, industry exposure, and mentorship opportunities to nurture talent and promote career growth.
+278 colleges in India
+ are teaching & using Electronics Design Application, EDA tools. Almost 
+60,000 manpower
+ has already been trained as we move ahead in making India a top-class semiconductor powerhouse. By 2032, a shortfall of 10 Lakh skilled work force is expected for which we are readying ourselves. Towards this end, India is actively involving the students, which has resulted into 20 student designed chips from 17 institutions being fabricated so far. India is also actively engaging Malaysia Japan, South Korea & Singapore as its research partner nations.
+To foster talent development in the semiconductor chip design, the Government has launched several initiatives, as outlined below:
+New curriculum by All India Council for Technical Education (AICTE)
+for VLSI Design & Technology, Integrated Circuit (IC) manufacturing.
+Developing 85,000 skilled manpower in semiconductor design sector & providing EDA tools to design semiconductor chips, over 10 years.
+45,000+ students from 100 institutions enrolled so far.
+Skilled Manpower Advanced Research and Training (SMART) Lab at NIELIT Calicut to train 1 lakh engineers nation-wide with 44,000+ engineers already trained.
+Collaboration with industry and universities such as Lam Research, IBM and Purdue University.
+C2S program: 278 academic institutions and 72 start-ups have been given EDA tools, as of August 2025.
+60 thousand students benefitted, as of August 2025.
+20 chips from 17 institutions fabricated so far, as of August 2025.
+Leveraging the country's large talent pool, global semiconductor design companies are now rapidly expanding their workforce in India to design cutting-edge chips.
+Research institutions and academia play a crucial role in the India Semiconductor Mission. They contribute through cutting-edge research, technology development, and talent grooming. Collaborations between industry and academia are encouraged to foster innovation, knowledge exchange, and collaborative projects that address industry challenges and drive technological advancements.
+[6]
+Strategic Collaborations under ISM
+Lam Research and IISc
+ have signed a Memorandum of Understanding (MoU) to use the Semiverse simulation platform to instruct 60,000 engineers over the next ten years.
+Future Skills Program, 
+an initiative taken by the government to train 20,000 engineers in Madhya Pradesh.
+[7]
+Micron and IIT Roorkee
+ have signed a MoU partnership to foster innovation and develop a highly skilled workforce.
+[8]
+IBM: 
+Partnership to provide Indian students and professionals access to advanced labs, internships, and research centres, enhancing practical exposure and global industry alignment.
+Purdue University: 
+MoU to foster cutting-edge R&D, talent curation, and commercialization in semiconductors and display technologies, with a focus on innovation-driven collaboration between academia and industry
+.
+[9]
+Mapping India’s Semiconductor Ecosystem
+India’s semiconductor ecosystem is shaping itself from policy to production readiness, driven by the India Semiconductor Mission with new fabrication, assembly, and design hubs taking root across the country, molding India’s emerging chip landscape into a tangible shape.
+Date 
+Company
+Location
+Investment
+Output Capacity
+JUN 2023
+Micron Technology 
+Sanand, Gujarat
+₹22,516 crore
+ATMP Facility, with phased ramp-up.
+[10]
+FEB2024
+Tata Electronics (TEPL) in partnership with Powerchip Semiconductor Manufacturing Corp (PSMC) of Taiwan
+Dholera, Gujarat
+ ~₹91,000 crore
+50,000 wafers/month
+[11]
+FEB 2024
+CG Power & Industrial Pvt Ltd in partnership with
+Renesas & Stars 
+Sanand, Gujarat
+~₹7,600 crore
+15 million chips/day
+[12]
+FEB 2024
+Tata Semiconductor Assembly and Test Pvt Ltd (TSAT)
+Morigaon, Assam
+₹27,000 crore
+48 million chips/day
+[13]
+SEPT 2024
+KaynesSemiconPvt Ltd
+Sanand, Gujarat
+₹3,307 crore
+6.33 million chips/day
+[14]
+MAY 
+2025
+HCL-Foxconn JV
+Jewar, Uttar Pradesh
+₹3,700 crore
+20,000 wafers/month 
+(36 M units/yr)
+[15]
+AUGUST 2025
+SicSem Private Limited
+Bhubaneshwar, Odisha
+₹2,066 crore
+60 thousand wafers per year; ATMP capacity: 96 million
+Units/year
+AUGUST 2025
+3D Glass Solutions Inc.
+Bhubaneshwar, Odisha
+₹1,943 Cr
+Glass panels: 70
+Thousand units/year; ATMP : 50 million units/ year
+AUGUST 2025
+CDIL (Continental Device)
+Mohali, Punjab
+₹117 Cr
+158 million units /year
+AUGUST 2025
+ASIP (Advanced System in Package Technologies)
+Andhra Pradesh
+₹468 Cr
+96 million units /year
+[16]
+SEMICON India
+As part of its efforts to position India as a global hub for semiconductor innovation and manufacturing, the Government has launched the SEMICON India Programme with an investment of ₹76,000 crore
+[17]
+, implemented through the India Semiconductor Mission (ISM). A key initiative under this vision is SEMICON India, a flagship event organised in partnership with SEMI (Semiconductor Equipment and Materials International). The platform brings together global industry leaders, policymakers, academia, and startups to foster investment, dialogue, and strategic partnerships. SEMICON India plays a catalytic role in advancing ISM’s goals by enabling cross-border collaborations, promoting research commercialization, enhancing skill development, and showcasing India’s growing potential in the global semiconductor value chain. Three editions of SEMICON India have been held so far, in  2022 (Bangalore), 2023(Gandhinagar), 2024 (Greater Noida) .
+The 4
+th
+ edition is to be held in Delhi from September 2-4
+th
+, 2025. 
+Semicon India
+2025 co-hosted by 
+India Semiconductor Mission (ISM) and SEMI will be held from September 2–4, 2025, at Yashobhoomi (IICC), New Delhi. It is set to display India’s redefining role in the global semiconductor ecosystem. The three day event will bring together industry leaders, innovators, academia, government and other stakeholders to drive collaboration and technology advancements across the entire supply chain.
+A key high point of SEMICON India 2025 is the significantly higher level of stakeholder participation compared to previous editions.
+First-Ever Global Pavilions, Country Roundtables, Skilling Initiatives, and Design Startup Pavilion to Witness Record Stakeholder Participation
+Will host over 300 exhibiting companies from 18 countries and regions.
+CON India 2025: Bu
+The event would be of high interest for business and technology leaders, researchers, and industry analysts from across the microelectronics supply chain, including managers, equipment manufacturers, people working in design, scientists, engineers,  college / graduate students, technicians among many others. 
+Some of the significant features of this event include :
+Higher level of stakeholder participation
+: SEMICON India 2025 has significantly higher level of stakeholder participation as compared to previous editions. With over 300 exhibitors from 18 countries, this edition underscores India’s emergence as a trusted, innovation-driven semiconductor destination
+. 
+Four International Pavilions
+—For the first time ever, there will be four international pavilions from Japan, South Korea, Singapore, and Malaysia in SEMICON India 2025 
+International Roundtables
+ -   Also debuting for the first time are eight Country Roundtables. These exclusive, high level discussions will bring together industry leaders, government officials and  companies from India and key partner nations to exchange ideas and  foster bilateral collaboration.
+Workforce Development Pavilion
+ - Analysts have projected an industry requirement of around one million additional skilled workers in the sector by 2030.  To ensure a strong pipeline of diverse pipeline of semiconductor professionals it is important to encourage  skilling and future-readiness, training, upskilling, for students and engineers. This pavilion is being set up with the objective of providing career counselling to guide and mentor young talent.
+Semiconductor Design Startup Pavilion
+- The event will also feature a dedicated Semiconductor Design Startup Pavilion, offering a platform for innovation-led chip design enterprises. Additionally, nine State Government Pavilions will participate this year, up from six in the previous edition.
+Other special features in the event aimed at strengthening India’s talent pipeline and ecosystem capabilities include the Startup Pavilion, B2B Forums.
+[18]
+Recent Developments
+In May 2025, The Union Cabinet approved the establishment of one more semiconductor unit under India Semiconductor Mission. The unit approved is a joint venture of HCL and Foxconn. This plant will manufacture display driver chips for mobile phones, laptops, automobiles, PCs, and myriads of other devices that have display. The plant is designed for 20,000 wafers per month. The design output capacity is 36 million units per month.
+[19]
+At the Global Investors Summit 2025, it was announced that India's 
+first indigenous semiconductor chip
+ would be ready for production this year. Five production units are under construction, signalling a significant milestone for domestic capability.
+[20]
+To further strengthen the talent pipeline, the government has initiated a program to
+train 85,000 engineers in advanced semiconductor and electronics manufacturing.
+[21]
+Madhya Pradesh has made a significant stride in the IT and electronics sector with the inauguration of its first IT campus, backed by an investment of ₹150 crore over the next six years. Spanning 1 lakh square feet, the state-of-the-art facility is designed to support end-to-end manufacturing of IT hardware and electronic products under one roof. The plant will produce a wide range of components, including servers, desktops, motherboards, chassis, RAM, SSDs, as well as advanced technologies such as drones and robots. It will also manufacture desktop computers, all-in-one workstations, laptops, tablets, and monitors. The project is expected to generate employment for around 1,200 professionals, positioning the state as a growing hub for electronics manufacturing in India.
+[22]
+In July 2025, Netrasemi, a startup supported under the government’s chip design scheme, has received Venture Capital (VC) investment of 
+₹
+107 crore
+. The company is working on making chips for smart vision, CCTV cameras, and Internet of Things (IoT) applications.
+[23]
+Conclusion
+India’s electronic industry is growing rapidly, with semiconductors at the heart of this transformation. To meet rising demand and reduce import dependence, the government has launched strategic initiatives like the India Semiconductor Mission, the SEMICON India Programme, and global partnerships such as iCET. These efforts signal India’s shift from a consumer to a key player in the global semiconductor value chain. As approved facilities begin operations and new projects take shape, the country is positioning itself as a trusted hub for semiconductor manufacturing, strengthening its digital economy, national security, and technological self-reliance. From dependence to dominance, the chip revolution is real and its happening right here, right now in Bharat.
+References:
+Make in India: 
+https://indianembassyberlin.gov.in/pdf/menu/miim/Sectorial_Report_November_2022.pdf
+Ministry of Electronics & IT:
+https://www.pib.gov.in/PressReleasePage.aspx?PRID=2128468
+https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2115965
+https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2039638
+https://www.pib.gov.in/PressReleseDetail.aspx?PRID=2147821
+https://www.pib.gov.in/PressReleasePage.aspx?PRID=1983128
+https://www.pib.gov.in/PressReleasePage.aspx?PRID=2088268
+https://www.pib.gov.in/PressReleasePage.aspx?PRID=2106249
+https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2117925
+https://www.pib.gov.in/PressReleasePage.aspx?PRID=2012209
+https://www.pib.gov.in/PressReleseDetail.aspx?PRID=2143965
+https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1817833
+https://www.pib.gov.in/PressReleasePage.aspx?PRID=1990385
+https://www.pib.gov.in/PressReleseDetail.aspx?PRID=2147821
+https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2148393
+https://www.pib.gov.in/PressReleasePage.aspx?PRID=2155456
+India Semiconductor Mission: 
+https://ism.gov.in/
+India Science and Technology Portal:
+https://www.indiascienceandtechnology.gov.in/st-visions/national-mission/india-semiconductor-mission-ism
+Cabinet: 
+https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2010132
+https://www.pib.gov.in/PressReleasePage.aspx?PRID=2128604
+https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1739768820.pdf
+Semicon India: 
+https://www.semiconindia.org/
+Prime Minister’s Office: 
+https://www.pib.gov.in/PressReleasePage.aspx?PRID=2053675
+Taiwan And The Global Semiconductor Supply Chain: 
+https://roc-taiwan.org/uploads/sites/86/2024/02/February-2024-Issue.pdf
+Click here to see pdf
+***
+SK/AKS
+(Explainer ID: 154968)
+ आगंतुक पटल : 27217
+Provide suggestions / comments
+इस विज्ञप्ति को इन भाषाओं में पढ़ें: 
+ हिन्दी 
+ ,
+ Bengali 
+सूचना का अधिकार एवं हमसे सम्‍पर्क करें
+पत्र सूचना कार्यालय के मुख्यालय में कार्यरत अधिकारियों के टेलीफोन नंबर
+पीआईबी, मुख्यालय नई दिल्ली में कौन क्या है।
+पत्र सूचना कार्यालय के क्षेत्रीय शाखा 
+लोक शिकायत अधिकारी
+आन्‍तरिक शिकायत समिति कमेटी
+ संपर्क अधिकारी
+केंद्रीय जन सूचना अधिकारी, अपीलीय प्राधिकारियों की सूची
+बजट आबंटन
+कार्य आबंटन
+नागरिक अधिकार पत्र
+पारदर्शिता लेखा परीक्षा
+सीपीआईओ और अपी‍लीय अधिकारी की नियुक्ति 
+सूचना पुस्तिका
+वेब सूचना प्रबंधक
+लोक शिकायत निवेदन करने के लिए पोर्टल
+शी बॉक्स पोर्टल
+ भारत सरकार के लिंक्‍स 
+सूचना एवं प्रसारण मंत्रालय
+वस्त्र मंत्रालय
+वित्त मंत्रालय
+कृषि मंत्रालय
+गृह मंत्रालय
+आवासन और शहरी मामलों का मंत्रालय
+शिक्षा मंत्रालय
+पंचायती राज मंत्रालय
+पेट्रोलियम एवं प्राकृतिक गैस मंत्रालय
+विद्युत मंत्रालय
+और देखें
+हाइपरलिंकिंग नीति
+गोपनीयता संबंधी नीति
+स्वत्वाधिकार नीति
+उपयोग संबंधी शर्तें
+ निविदा
+अभिलेखागार
+प्रतिक्रिया
+साइटमैप
+हमसे सम्‍पर्क करें
+The website belongs to Press Information Bureau, Ministry of Information and Broadcasting, Government of India
+साइट को राष्ट्रीय सूचना विज्ञान केन्द्र (एनआईसी) द्वारा होस्ट किया जाता है । इस पर सूचनाएं पत्र सूचना कार्यालय, "ए" विंग, शास्त्री भवन, डॉ राजेंद्र प्रसाद रोड़, शास्त्री भवन, नई दिल्ली – 110001, फोन : 23389338 द्वारा उपलब्ध करवाई जाती है और अद्यतित की जाती है ।
+आगंतुकों की संख्या: 
+ 7611
+ अंतिम अद्यतन तिथि: 
+23 Oct 2026 8:12 AM

@@ -144,7 +144,7 @@ def sentences(t):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("files", nargs="*")
-    ap.add_argument("--quiet", action="store_true")
+    ap.add_argument("-q", "--quiet", action="store_true")
     ap.add_argument("--max", type=int, default=25)
     a = ap.parse_args()
     R = Report(a.max)

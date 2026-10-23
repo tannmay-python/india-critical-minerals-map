@@ -1,0 +1,120 @@
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                            Phase XX – Major Mineral Auction
+                    Assumptions for VER Estimation of mineral blocks under Phase – XX Major mineral auction of Madhya Pradesh
+                                                                                                                    
+    S                                                                                                               
+          Block Name  Name of Mineral Resource & Grade (in MT) Pricing Assumption         Remarks                   
+   No.                                                                                                              
+                                                                        All India Price for Zinc (For the month of July - 25 to June - 26).
+       Biskhan Extended                               All India Price for Zinc (For Average Sales Price for June 2026 has not been published by IBM,
+                                   Zinc = 3.38                                                                      
+    1  Basemetal (Zn)  Basemetal (Zn)                 the month of July - 25 to Accordingly, “All India Price” for the latest month published i.e.,
+                                   Average Grade = 1.136% Zn                                                        
+       Block                                          June - 26)        May 2026 has been considered for June 2026, while calculating the
+                                                                        average sale price.                         
+                                                                        Madhya Pradesh Price for Manganese below 25% Mn content (For
+                                                      Madhya Pradesh Price for                                      
+       Dhamani Nana                Manganese = 0.044887                 the month of July - 25 to June - 26). Average Sales Price for June
+                                                      Manganese and Iron Ore                                        
+    2  Manganese        Manganese  Average Grade = 21.52% to            2026 has not been published by IBM, Accordingly, “Madhya Pradesh
+                                                      (For the month of July - 25                                   
+       Block                       22.81%                               Price” for the latest month published i.e., May 2026 has been
+                                                      to June - 26)                                                 
+                                                                        considered for June 2026, while calculating the average sale price.
+                                                                        Madhya Pradesh Price for Manganese above 35% Mn content (For
+                                                      Madhya Pradesh Price for                                      
+                                                                        the month of July - 25 to June - 26). Average Sales Price for June
+       Bahiyatikur                 Manganese = 0.020122 Manganese and Iron Ore                                      
+    3                   Manganese                                       2026 has not been published by IBM, Accordingly, “Madhya Pradesh
+       Manganese Block             Average Grade = 35.70% (For the month of July - 25                               
+                                                                        Price” for the latest month published i.e., May 2026 has been
+                                                      to June - 26)                                                 
+                                                                        considered for June 2026, while calculating the average sale price.
+                                                      Madhya Pradesh Price for Madhya Pradesh Price for Limestone Cement Grade (For the month
+       Bhatia-Nadan                Limestone = 32.10  Limestone   Cement of July - 25 to June - 26). Average Sales Price for June 2026 has not
+    4  Sarda Prasad     Limestone                                       been published by IBM, Accordingly, “Madhya Pradesh Price” for
+                                   (Cement Grade)     Grade(For the month of July                                   
+       Limestone Block                                                  the latest month published i.e., May 2026 has been considered for
+                                                      - 25 to June - 26)                                            
+                                                                        June 2026, while calculating the average sale price”
+                                                      Madhya Pradesh Price for Madhya Pradesh Price for Limestone Cement Grade (For the month
+                                                      Limestone Cement Grade of July - 25 to June - 26). Average Sales Price for June 2026 has not
+                                   Limestone = 8.38   (For the month of July - 25 been published by IBM, Accordingly, “Madhya Pradesh Price” for
+       Kuiyan Barwah                                                                                                
+    5                   Limestone  (Blendable Grade – 3.76 to June - 26). Blendable the latest month published i.e., May 2026 has been considered for
+       Limestone Block                                                                                              
+                                   Unclassified – 4.62) grade and Unclassified is June 2026, while calculating the average sale price.
+                                                      considered as cement grade                                    
+                                                      limestone                                                     
+                                                      Madhya Pradesh Price for Madhya Pradesh Price for Limestone Cement Grade (For the month
+                                                      Limestone Cement Grade of July - 25 to June - 26). Average Sales Price for June 2026 has not
+                                  Limestone = 3.11    (For the month of July - 25 been published by IBM, Accordingly, “Madhya Pradesh Price” for
+       Birwa Bhitwan                                                                                                
+    6                   Limestone (Blendable Grade – 2.073 to June - 26). Blendable the latest month published i.e., May 2026 has been considered for
+       Limestone Block                                                                                              
+                                  Threshold Grade – 1.036) grade and Threshold grade June 2026, while calculating the average sale price.
+                                                      is considered as cement                                       
+                                                      grade limestone.                                              
+                                                                                                   Page 1 of 2      
+          July 30, 2026                                                                                             
+
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                            Phase XX – Major Mineral Auction
+                                                                        All India Price for Zinc (For the month of July - 25 to June - 26).
+                                   At 0.2% Zinc cutoff =                                                            
+        Kehalpur (East)                               All India Price for Zinc (For Average Sales Price for June 2026 has not been published by IBM,
+                                   3.158                                                                            
+    7   Basemetal (Zn) Base metal (Zn)                the month of July - 25 to Accordingly, “All India Price” for the latest month published i.e.,
+                                   Average Grade = 0.316%                                                           
+        Block                                         June - 26)        May 2026 has been considered for June 2026, while calculating the
+                                   Zn                                                                               
+                                                                        average sale price.                         
+                                                                        Madhya Pradesh Price for Limestone Cement Grade (For the month
+                                                      Madhya Pradesh Price for                                      
+                                   Limestone = 1.12                     of July - 25 to June - 26). Average Sales Price for June 2026 has not
+       Bamhorikalan                                   Limestone Cement Grade                                        
+    8                   Limestone  (Blendable Grade – 0.25              been published by IBM, Accordingly, “Madhya Pradesh Price” for
+       Limestone Block                                (For the month of July - 25 to                                
+                                   Cement Grade– 0.87                   the latest month published i.e., May 2026 has been considered for
+                                                      June - 26))                                                   
+                                                                        June 2026, while calculating the average sale price”
+                                                                        Madhya Pradesh Price for Limestone Cement Grade (For the month
+                                                      Madhya Pradesh Price for                                      
+                                   Limestone = 1.39                     of July - 25 to June - 26). Average Sales Price for June 2026 has not
+       Ramsthan                                       Limestone Cement Grade                                        
+    9                   Limestone  (Blendable Grade – 0.84              been published by IBM, Accordingly, “Madhya Pradesh Price” for
+       Limestone Block                                (For the month of July - 25 to                                
+                                   Cement Grade – 0.55                  the latest month published i.e., May 2026 has been considered for
+                                                      June - 26))                                                   
+                                                                        June 2026, while calculating the average sale price”
+       Kandai Bauxite &                                                 The estimated resource quantity has not been reported in the GR or
+                    Aluminous Laterite &                                                                            
+    10 Aluminous Laterite                 NA                  NA        Mineral Block Summary. Hence Value of Estimated Resource
+                         Bauxite                                                                                    
+       Block                                                            cannot be estimated.                        
+       Darshani                                                                                                     
+                                                                        The estimated resource quantity has not been reported in the GR or
+       Manganese, Iron Manganese , Iron Ore                                                                         
+    11                                     NA                NA         Mineral Block Summary. Hence Value of Estimated Resource
+       Ore & Laterite and Laterite Block                                                                            
+                                                                        cannot be estimated.                        
+       Block                                                                                                        
+                                  Cu - At 0.2% Cu cutoff –              All India Price for Copper, Silver, Gold (For the month of July - 25
+                                  79201.598 tonnes @0.64%               to June - 26).                              
+                                  Cu,                                   For Copper, Average Sales Price for June 2026 has not been
+                                  Ag - 79201.598 tonnes @               published by IBM, Accordingly, “All India Price” for the latest
+       Salaiya Phatak                                All India Price for Copper,                                    
+                    Basemetal (Cu, Ag, & 335.13 ppm Ag,                 month published i.e., May 2026 has been considered for June 2026,
+    12 Basemetal (Cu, Ag,                            Silver, Gold (For the month of                                 
+                          Au)                                           while calculating the average sale price.   
+       & Au) Block                                   July - 25 to June - 26)                                        
+                                  Au - At 0.5 ppm Au cutoff -           For Silver & Gold, Average Sales Price for May 2026 & June 2026
+                                  39793.178 tonnes @ 1.01               has not been published by IBM, Accordingly, “All India Price” for
+                                  ppm Au                                the latest month published i.e., April 2026 has been considered for
+                                                                        May 2026 & June 2026, while calculating the average sale price.
+                                                                                                   Page 2 of 2      
+          July 30, 2026                                                                                             

@@ -1,0 +1,402 @@
+#!/usr/bin/env python3
+"""Assemble L1 block records for the CENTRAL Government critical-mineral tranches.
+
+Inputs (all in research/drafts/ unless noted):
+  l1-centre-registry.csv     Tranches 1-5, one row per block per offering (researcher draft, T1 sources)
+  l1-centre-t6-t8.csv        Tranches 6-8, transcribed from the NITs and notices
+  l1-centre-sources.yml      source catalogue for the T1-T5 rows
+  l1-mstc-results.csv        parsed MSTC 'Critical Mineral Block Auction Results' pages
+  l1-mbs-extract.jsonl       fields + polygons parsed from every Mine Block Summary
+  l1-geometry-overrides.json polygons recovered by OCR for image-only tables
+  research/raw/mstcecommerce.com/mstc-mlcl-listing-*.tsv   MSTC document listing (URLs)
+Output: research/drafts/l1-centre-blocks.yml and l1-centre-blocks.evidence.jsonl
+"""
+import csv
+import glob
+import json
+import os
+import re
+from collections import defaultdict
+
+import yaml
+
+ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+D = os.path.join(ROOT, "research", "drafts")
+RAW = os.path.join(ROOT, "research", "raw", "mstcecommerce.com")
+TODAY = "2026-10-23"
+ROMAN = {1: "I", 2: "II", 3: "III", 4: "IV", 5: "V", 6: "VI", 7: "VII", 8: "VIII"}
+ST = {"Andhra Pradesh": "ap", "Arunachal Pradesh": "ar", "Assam": "as", "Bihar": "br", "Chhattisgarh": "cg",
+      "Goa": "ga", "Gujarat": "gj", "Haryana": "hr", "Himachal Pradesh": "hp", "Jharkhand": "jh", "Karnataka": "ka",
+      "Kerala": "kl", "Madhya Pradesh": "mp", "Maharashtra": "mh", "Manipur": "mn", "Meghalaya": "ml",
+      "Mizoram": "mz", "Nagaland": "nl", "Odisha": "od", "Punjab": "pb", "Rajasthan": "rj", "Sikkim": "sk",
+      "Tamil Nadu": "tn", "Telangana": "tg", "Tripura": "tr", "Uttar Pradesh": "up", "Uttarakhand": "uk",
+      "West Bengal": "wb", "Jammu and Kashmir": "jk", "Ladakh": "la"}
+MONTHS = "January February March April May June July August September October November December".split()
+
+# Commodity words -> canonical dashboard names (owner decisions D-000, D-001).
+MINERAL_RULES = [
+    (r"graphite", "Graphite"), (r"vanadi", "Vanadium"), (r"glauconit", "Potash"), (r"potash", "Potash"),
+    (r"phosph", "Phosphorus"), (r"tungsten|wolfram|scheelite", "Tungsten"), (r"lithium|\bli\b", "Lithium"),
+    (r"titanium|ilmenite", "Titanium"), (r"nickel|\bni\b", "Nickel"), (r"cobalt|\bco\b", "Cobalt"),
+    (r"copper", "Copper"), (r"molybden", "Molybdenum"), (r"\btin\b|cassiterite", "Tin"), (r"tantal", "Tantalum"),
+    (r"niobium|\bnb\b", "Niobium"), (r"zircon", "Zirconium"), (r"gallium", "Gallium"), (r"yttrium", "Yttrium"),
+    (r"\bpge\b|platinum", "PGEs (unspecified)"), (r"\bree\b|rare earth", "Rare earths (unspecified)"),
+]
+STOP = (r"\b(block|blocks|mine|mineral|minerals|associated|and|the|cluster|amalgamated|graphite|vanadium|glauconite|"
+        r"glauconitic|ree|rm|rare|earth|element|elements|metal|metals|phosphorite|phosphate|rock|limestone|potash|halite|"
+        r"tungsten|lithium|titanium|bauxite|aluminous|laterite|nickel|chromium|pge|cobalt|manganese|copper|molybdenum|"
+        r"tin|ore|iron|magnetite|ilmenite|bearing|gallium|niobium|nb|zirconium|yttrium|basemetal|cr|ni|co|final|cl|ml|"
+        r"with|south|north|east|west|of|se|southeast|mbs|summary|revised|corrected|on)\b")
+ID_STOP = STOP.replace("|south|north|east|west|of|se|southeast", "|of")
+
+
+def key(name):
+    s = name.lower().replace("&", " ").replace("_", " ").replace("(", " ").replace(")", " ")
+    s = re.sub(r"^\s*\d+\s*[.)]?\s*", "", s)
+    s = re.sub(STOP, " ", s)
+    return re.sub(r"[^a-z]+", "", s)
+
+
+def slug(name):
+    s = name.lower().replace("&", " ").replace("_", " ").replace("(", " ").replace(")", " ")
+    s = re.sub(r"^\s*\d+\s*[.)]?\s*", "", s)
+    s = re.sub(ID_STOP, " ", s)
+    s = re.sub(r"[^a-z]+", "-", s).strip("-")
+    return re.sub(r"-{2,}", "-", s)
+
+
+def canon(commodity):
+    c = commodity.lower()
+    out = []
+    for rx, name in MINERAL_RULES:
+        if re.search(rx, c) and name not in out:
+            out.append(name)
+    if "Yttrium" in out and "Rare earths (unspecified)" in out:
+        pass  # REE named generically plus yttrium named specifically: keep both
+    if re.search(r"rare metal", c) and not out:
+        out.append("Lithium") if re.search(r"\bli\b", c) else None
+    return out
+
+
+ACR = {"LLP", "NLC", "VNR", "SKN", "AMPL", "FGM", "GD", "RK", "SCCL", "CMPDI", "PSU"}
+
+
+def smart_title(s):
+    s = re.sub(r"^M/S\.?\s*", "", s.strip(), flags=re.I)
+    if s != s.upper():
+        return s
+    words = []
+    for w in s.split():
+        bare = re.sub(r"[^A-Z]", "", w)
+        if bare in ACR or (len(bare) <= 2 and bare not in {"OF", "AND"}):
+            words.append(w)
+        else:
+            words.append(w.capitalize() if w.lower() not in {"of", "and"} else w.lower())
+    return " ".join(words)
+
+
+def human_date(d):
+    y, m = d[:4], int(d[5:7])
+    return f"{MONTHS[m - 1]} {y}"
+
+
+def tranche_no(t):
+    return int(t.split("T")[-1])
+
+
+def excerpt(text, needle, before=6, after=24):
+    i = text.lower().find(needle.lower())
+    if i < 0:
+        return None
+    words_b = text[:i].split()[-before:]
+    words_a = text[i:].split()[:after]
+    return " ".join(words_b + words_a)[:400]
+
+
+def main():
+    sources = {s["id"]: s for s in yaml.safe_load(open(os.path.join(D, "l1-centre-sources.yml")))}
+    listing = {}
+    lst = sorted(glob.glob(os.path.join(RAW, "mstc-mlcl-listing-*.tsv")))[-1]
+    for line in open(lst, encoding="utf-8"):
+        f = line.rstrip("\n").split("\t")
+        if len(f) >= 5:
+            listing[f[2]] = {"section": f[1], "title": f[3], "url": f[4], "container": f[0]}
+
+    def raw_path(fid):
+        hits = glob.glob(os.path.join(RAW, f"mstc-{fid}-*.txt"))
+        return os.path.relpath(hits[0], ROOT) if hits else None
+
+    # Sources for T6-T8 (container listing gives the URLs)
+    def mk(sid, fid, title, date):
+        sources[sid] = {"id": sid, "url": listing[fid]["url"], "title": title, "publisher": "Ministry of Mines (via MSTC e-auction portal)",
+                        "tier": "T1", "date": date, "retrieved": TODAY, "raw_path": raw_path(fid)}
+    mk("mstc-t6-nit", "22681", "GoI MoM - Tranche VI - Notice Inviting Tender", "2025-09-16")
+    mk("mstc-t6-annulment", "25112", "GoI MoM - Tranche VI - Auction Annulment Notice", "2026-02-06")
+    mk("mstc-t7-nit", "25649", "GoI MoM - Tranche VII - Notice Inviting Tender", "2026-03-23")
+    mk("mstc-t7-annulment", "26944", "GoI MoM - Tranche VII - Auction Annulment Notice", "2026-06-19")
+    mk("mstc-t7-conclusion", "27225", "GoI MoM - Tranche VII - Auction Conclusion Notice", "2026-07-08")
+    mk("mstc-t8-nit", "27316", "GoI MoM - Tranche VIII - Notice Inviting Tender", "2026-07-15")
+    mk("mstc-t8-notice-2026-10-13", "28594", "Tranche VIII - Notice: intimation to TQBs, opening of IPO, annulment and second round of e-auction", "2026-10-13")
+    mk("mstc-t8-betjharan-revised", "28621", "Revised notice: second round of e-auction of Betjharan Titanium, Vanadium and Iron Ore Block", "2026-10-16")
+    for fy, slugpart in (("2025-26", "2025-2026"), ("2026-27", "2026-2027")):
+        url = f"https://www.mstcecommerce.com/auctionhome/mlcln/mineral_auction_result.jsp?typerep=f&finYr={slugpart}&sellerRefId=31608"
+        sources[f"mstc-results-cm-fy{fy}"] = {"id": f"mstc-results-cm-fy{fy}", "url": url,
+            "title": f"MSTC - Critical Mineral Block Auction Results, FY {fy} (Ministry of Mines)", "publisher": "MSTC Ltd",
+            "tier": "T1", "date": TODAY, "retrieved": TODAY,
+            "raw_path": f"research/raw/mstcecommerce.com/mstc-cm-results-fy{slugpart}-r2026-10-23b.txt"}
+
+    # Results page rows (preferred bidder, final offer, auction close)
+    results = [r for r in csv.DictReader(open(os.path.join(D, "l1-mstc-results.csv"))) if "cm-results" in r["file"]
+               and "mock" not in r["block"].lower()]
+    res_by_key = defaultdict(list)
+    for r in results:
+        res_by_key[(key(r["block"]), r["state"].lower())].append(r)
+
+    def dmy(s):
+        m = re.match(r"(\d{2})-(\d{2})-(\d{4})", s or "")
+        return f"{m.group(3)}-{m.group(2)}-{m.group(1)}" if m else None
+
+    # Registry rows
+    rows = []
+    for r in csv.DictReader(open(os.path.join(D, "l1-centre-registry.csv"))):
+        rows.append(dict(r, attempt=None))
+    for r in csv.DictReader(open(os.path.join(D, "l1-centre-t6-t8.csv"))):
+        r = dict(r)
+        hits = res_by_key.get((key(r["block_name_as_printed"]), r["state"].lower()), [])
+        hits = [h for h in hits if dmy(h["nit_date"]) == r["nit_date"]]
+        if r["outcome"] == "Preferred bidder":
+            assert len(hits) == 1, (r["block_name_as_printed"], hits)
+            h = hits[0]
+            r["preferred_bidder"] = smart_title(h["preferred_bidder"])
+            r["final_offer_pct"] = h["final_offer"]
+            r["outcome_date"] = dmy(h["auction_close"])
+        rows.append(r)
+
+    # MBS extracts, latest document per block key
+    mbs = {}
+    for line in open(os.path.join(D, "l1-mbs-extract.jsonl")):
+        m = json.loads(line)
+        k = key(m["title"])
+        if k and (k not in mbs or int(m["file_id"]) > int(mbs[k]["file_id"])):
+            mbs[k] = m
+    overrides = json.load(open(os.path.join(D, "l1-geometry-overrides.json")))
+
+    for r in rows:
+        r["state"] = re.sub(r"\s*\(UT\)", "", r["state"]).strip()
+    groups = defaultdict(list)
+    for r in rows:
+        groups[(key(r["block_name_as_printed"]), r["state"])].append(r)
+
+    records, evidence = [], []
+    for (k, state), offers in groups.items():
+        offers.sort(key=lambda r: (tranche_no(r["tranche"]), r["nit_date"]))
+        last, first = offers[-1], offers[0]
+        name = re.sub(r"\s+", " ", last["block_name_as_printed"]).strip()
+        rid = f"blk-{ST[state]}-{slug(name)}"
+        m = mbs.get(k)
+        ov = None
+        if m and m["file_id"] in overrides:
+            ov = overrides[m["file_id"]]
+        commodity = last["commodity_as_stated"]
+        minerals = canon(" ".join(o["commodity_as_stated"] for o in offers))
+        # sources referenced by the offerings
+        sids = []
+        for o in offers:
+            for s in o["source_ids"].split(";"):
+                s = s.strip()
+                if s and s not in sids:
+                    sids.append(s)
+        history = []
+        for o in offers:
+            outcome = {"No bids": "No bids"}.get(o["outcome"], o["outcome"])
+            history.append({
+                "tranche": o["tranche"], "nit_date": o["nit_date"] or None, "outcome": outcome,
+                "outcome_date": o.get("outcome_date") or None,
+                "annulment_reason": o.get("annulment_reason") or None,
+                "preferred_bidder": o.get("preferred_bidder") or None,
+                "final_offer_pct": float(o["final_offer_pct"]) if o.get("final_offer_pct") else None,
+                "reserve_price": o.get("reserve_price") or None,
+            })
+        lo = last["outcome"]
+        status = {"Preferred bidder": "Preferred bidder", "Annulled": "Annulled", "No bids": "Annulled",
+                  "Pending": "Offered"}[lo]
+        if lo == "Annulled" and last.get("preferred_bidder"):
+            status_detail = (f"Preferred bidder ({last['preferred_bidder']}) declared in Tranche {ROMAN[tranche_no(last['tranche'])]}, "
+                             f"then the auction was annulled")
+        elif status == "Preferred bidder":
+            status_detail = f"{last['preferred_bidder']}, final price offer {float(last['final_offer_pct']):g}% (Tranche {ROMAN[tranche_no(last['tranche'])]})"
+        elif status == "Offered":
+            status_detail = f"Tranche {ROMAN[tranche_no(last['tranche'])]}: second-round e-auction pending"
+        else:
+            reason = last.get("annulment_reason") or ("No bids received" if lo == "No bids" else "")
+            status_detail = f"Annulled in Tranche {ROMAN[tranche_no(last['tranche'])]}: {reason}".rstrip(": ")
+        status_as_of = last.get("outcome_date") or last["nit_date"]
+        if status == "Offered":
+            status_as_of = "2026-10-16"  # revised second-round notice for Betjharan
+
+        # location
+        village = None
+        if m and m.get("villages"):
+            village = re.split(r"[,;]| and ", m["villages"])[0].strip()
+        elif last.get("tehsil_or_village"):
+            vm = re.search(r"Villages?:\s*([^;,]+)", last["tehsil_or_village"])
+            village = vm.group(1).split(" and ")[0].strip() if vm else None
+        geom, lat, lon, precision = None, None, None, "district"
+        if ov:
+            geom = ov["geometry"]
+        elif m and m.get("polygon") and m.get("geometry_check") == "ok":
+            geom = {"type": "Polygon", "coordinates": [m["polygon"]]}
+        if geom:
+            from shapely.geometry import shape
+            g = shape(geom)
+            c = g.centroid if g.contains(g.centroid) else g.representative_point()
+            lat, lon, precision = round(c.y, 6), round(c.x, 6), "exact"
+        area = m.get("area_sq_km") if m else None
+        if area is None and last.get("area_sq_km"):
+            area = float(last["area_sq_km"])
+        stage = (m.get("exploration_stage") if m else None) or last.get("exploration_stage") or None
+
+        rec_sources = []
+        sup = defaultdict(set)
+        nit_first = next((s for s in sids if s.endswith("-nit") or s.endswith("-nit-mbs")), None)
+        for s in sids:
+            sup[s].add("auction.history")
+        for s in last["source_ids"].split(";"):
+            s = s.strip()
+            if s:
+                sup[s].add("status")
+        for s in first["source_ids"].split(";"):
+            s = s.strip()
+            if s.endswith("nit") or s.endswith("nit-mbs"):
+                sup[s] |= {"dates.first_public", "minerals", "block.concession_type"}
+        if status == "Preferred bidder":
+            for s in last["source_ids"].split(";"):
+                if "results" in s or s.endswith("-pb"):
+                    sup[s.strip()].add("operator")
+        if ov and ov.get("source"):
+            os_ = ov["source"]
+            hits = glob.glob(os.path.join(RAW, f"mstc-{os_['file_id']}-*.txt"))
+            url = listing.get(os_["file_id"], {}).get("url") or next((json.loads(l)["url"] for l in open(os.path.join(ROOT, "research", "raw", "MANIFEST.jsonl"))
+                                                                      if f"FILE_ID={os_['file_id']}" in l), None)
+            sources[os_["id"]] = {"id": os_["id"], "url": url, "title": os_["title"], "publisher": "Ministry of Mines (via MSTC e-auction portal)",
+                                  "tier": "T1", "date": os_["date"], "retrieved": TODAY,
+                                  "raw_path": os.path.relpath(hits[0], ROOT) if hits else None}
+            sup[os_["id"]].add("location")
+        mbs_sid = None
+        if m:
+            mbs_sid = f"mstc-mbs-{m['file_id']}"
+            sources.setdefault(mbs_sid, {"id": mbs_sid, "url": m["url"], "title": f"Mine Block Summary: {m['title']}",
+                                         "publisher": "Ministry of Mines (via MSTC e-auction portal)", "tier": "T1",
+                                         "date": last["nit_date"], "retrieved": TODAY, "raw_path": m.get("raw_path")})
+            sup[mbs_sid] |= {"location", "block.area_sq_km", "block.exploration_stage"}
+        for s, fields in sup.items():
+            if s not in sources:
+                continue
+            src = sources[s]
+            rec_sources.append({"id": s, "url": src["url"], "title": src["title"], "publisher": src.get("publisher") or "Ministry of Mines",
+                                "tier": src.get("tier", "T1"), "date": str(src.get("date") or last["nit_date"])[:10],
+                                "retrieved": str(src.get("retrieved") or TODAY)[:10], "archive_url": None,
+                                "supports": sorted(fields)})
+
+        n_off = len(offers)
+        ct = last["concession_type"]
+        kind = {"CL": "composite licence", "ML": "mining lease", "EL": "exploration licence"}[ct]
+        what = (f"A {area:.2f} sq km block offered for a {kind}, for {commodity.lower()}, in {last['district']} district, {state}"
+                + (f", explored to {stage} level." if stage else ".")) if area else \
+               f"A block offered for a {kind}, for {commodity.lower()}, in {last['district']} district, {state}."
+        tr_last = f"Tranche {ROMAN[tranche_no(last['tranche'])]}"
+        if status == "Preferred bidder":
+            sig = (f"{last['preferred_bidder']} won it in {tr_last} ({human_date(status_as_of)}) with a final price offer of "
+                   f"{float(last['final_offer_pct']):g}%." + (f" It took {n_off} attempts to auction." if n_off > 1 else ""))
+        elif status == "Offered":
+            sig = f"Offered in {tr_last}; the second-round e-auction was rescheduled to 26 October 2026."
+        else:
+            sig = (f"Offered {n_off} time{'s' if n_off > 1 else ''} by the Centre, most recently in {tr_last}, "
+                   f"and the auction was annulled ({human_date(status_as_of)}).")
+        notes = []
+        if last.get("notes"):
+            notes.append(last["notes"].strip())
+        if m and m.get("resources_snippet"):
+            pass
+        if ov:
+            notes.append("Boundary polygon recovered by OCR of the MBS annexure; checked against the stated block area.")
+        if status == "Preferred bidder":
+            notes.append("Letter of intent / licence execution status not yet checked (see OPEN_QUESTIONS).")
+        rec = {
+            "id": rid, "name": name,
+            "aliases": sorted({re.sub(r"\s+", " ", o["block_name_as_printed"]).strip() for o in offers} - {name}),
+            "layer": "blocks", "stages": ["Exploration"], "minerals": minerals,
+            "commodity_as_stated": commodity, "products": [],
+            "operator": last.get("preferred_bidder") if status == "Preferred bidder" else None,
+            "operator_type": None, "owners": [], "partners": [],
+            "location": {"address": None, "village_or_town": village, "district": last["district"], "state": state,
+                         "country": "India", "lat": lat, "lon": lon, "precision": precision, "geometry": geom},
+            "status": status, "status_as_of": status_as_of, "status_detail": status_detail,
+            "capacity": {"planned": {"value": None, "unit": None, "basis": None, "phase": None},
+                         "installed": {"value": None, "unit": None, "basis": None}},
+            "investment": {"amount": None, "currency": None, "basis": None},
+            "feedstock": None, "feedstock_detail": None, "schemes": [], "scheme_status": {},
+            "dates": {"first_public": first["nit_date"], "announced": None, "mou": None, "approved": None,
+                      "construction_start": None, "original_expected_completion": None,
+                      "revised_expected_completion": None, "commissioned": None, "closed": None},
+            "milestones": [{"date": h["outcome_date"] or h["nit_date"],
+                            "event": f"{h['tranche'].replace('Centre-T', 'Tranche ')}: {h['outcome'].lower()}"
+                                     + (f" ({h['preferred_bidder']}, {h['final_offer_pct']:g}%)" if h["preferred_bidder"] and h["final_offer_pct"] is not None else ""),
+                            "source_id": next((s for s in o["source_ids"].split(";") if s.strip() in sources), None)}
+                           for h, o in zip(history, offers)],
+            "narrative": {"what_it_does": what, "significance": sig},
+            "related": [], "see_also": [], "confidence": "high", "last_verified": TODAY,
+            "notes": " ".join(notes) or None,
+            "sources": rec_sources,
+            "block": {"concession_type": ct, "auction_route": "Centre", "area_sq_km": area, "exploration_stage": stage,
+                      "resources": [], "resources_as_stated": (m.get("resources_snippet") if m else None)},
+            "auction": {"history": history, "loi_date": None, "licence_or_lease_executed": None, "production_started": None},
+        }
+        if not geom:
+            rec["notes"] = ((rec["notes"] or "") + " Needs district centroid.").strip()
+        records.append(rec)
+
+        # Evidence for fields added in this assembly (T6-T8 offerings, MBS-derived fields)
+        if m:
+            for field, val, line in (("block.area_sq_km", area, m.get("area_line")), ("block.exploration_stage", stage, m.get("stage_line"))):
+                if line:
+                    evidence.append({"entity": rid, "field": field, "value": val, "source_id": mbs_sid,
+                                     "excerpt": " ".join(line.split()[:30]), "raw_path": m.get("raw_path"), "retrieved": TODAY,
+                                     "checked_by": "researcher"})
+            if geom:
+                evidence.append({"entity": rid, "field": "location", "value": [lat, lon], "source_id": mbs_sid,
+                                 "excerpt": f"{len(m.get('polygon') or [])} boundary corner points ({m.get('corner_kind') or 'OCR'}); polygon area "
+                                            f"{m.get('polygon_area_sq_km_approx')} sq km vs stated {m.get('area_sq_km')} sq km",
+                                 "raw_path": m.get("raw_path"), "retrieved": TODAY, "checked_by": "researcher"})
+        for o, h in zip(offers, history):
+            if tranche_no(o["tranche"]) < 6:
+                continue
+            for s in o["source_ids"].split(";"):
+                s = s.strip()
+                src = sources.get(s)
+                if not src or not src.get("raw_path") or not os.path.exists(os.path.join(ROOT, src["raw_path"])):
+                    continue
+                text = open(os.path.join(ROOT, src["raw_path"]), encoding="utf-8", errors="ignore").read()
+                text = re.sub(r"\s+", " ", text)
+                needle = re.split(r"[ ,(]", o["block_name_as_printed"].strip())[0]
+                ex = excerpt(text, needle)
+                if ex:
+                    field = "operator" if "results" in s else "auction.history"
+                    evidence.append({"entity": rid, "field": field, "value": h["outcome"] if field != "operator" else h["preferred_bidder"],
+                                     "source_id": s, "excerpt": " ".join(ex.split()[:30]), "raw_path": src["raw_path"],
+                                     "retrieved": TODAY, "checked_by": "researcher"})
+
+    records.sort(key=lambda r: (r["location"]["state"], r["name"]))
+    with open(os.path.join(D, "l1-centre-blocks.yml"), "w", encoding="utf-8") as f:
+        yaml.safe_dump(records, f, sort_keys=False, allow_unicode=True, width=120)
+    with open(os.path.join(D, "l1-centre-blocks.evidence.jsonl"), "w", encoding="utf-8") as f:
+        for line in open(os.path.join(D, "l1-centre.evidence.jsonl"), encoding="utf-8"):
+            f.write(line)
+        for e in evidence:
+            f.write(json.dumps(e, ensure_ascii=False) + "\n")
+    print(f"{len(records)} block records; {sum(1 for r in records if r['location']['geometry'])} with polygons; "
+          f"{len(evidence)} new evidence lines")
+
+
+if __name__ == "__main__":
+    main()

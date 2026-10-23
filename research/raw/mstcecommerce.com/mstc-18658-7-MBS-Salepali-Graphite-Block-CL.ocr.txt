@@ -1,0 +1,48 @@
+=== page 4 ===
+Annexure-1
+Block Boundary Co-ordinates of Salepali Graphite Block
+DATUM-WGS-84; ZONE-44(NORTH)
+CARDINAL
+UTM (M)  DMS
+POINTS
+NORTHING  EASTING  LATITUDE  LONGITUDE
+A  2288833.025  710429.466  20°41'13.63"N  83° 01' 12.90" E
+2289560.339  714812.079  20° 41'35.47" N  83° 03'44.62" E
+C  2288003.436  715220.132  20° 40'44.69" N  83° 03'58.03" E
+D  2285696.481  710225.214  20° 39' 31.74" N  83° 01' 04.49" E
+E  2286925.059  709644.194  20° 40'11.92" N  83° 00'44.95" E
+Page 4 of 5
+=== page 5 ===
+Block map of Salepali Graphite Block
+District: Balangir, State: Odisha, Area = 1223.29 Ha
+Mahasamund
+Bargarh
+Subarnapur
+Balangir
+Gariaband\Nuapada  Baudh
+Kandhamal
+Dhamtari  Kalahandi
+83°1'0"E  83°1'30"E  83°2'0"E
+B
+20°41'30"N
+20410
+20°39'30"N 20°40'0'N 20°40'30'N 20°41'0"N 20°41'30"N
+D
+83°1'0"E  83°1'30"E  83°2'0"E  83°2'30"E  83°3'0"E  83°3'30"E  83°4'0"E
+0.425  0.85  1.7  2.55  3.4
+• Kilometers
+Coordinate of Block Boundary Points
+Legend
+CORNER
+LATITUDE  LONGITUDE  • Block_Boundary_Points
+POINTS
+Block Boundary
+A  20° 41' 13.630" N 83° 1' 12.900" E
+B  20° 41' 35.470" N  83° 3'44.620"E
+C  20° 40'44.690" N  83° 3'58.030"E
+D  20° 39' 31.740" N  83° 1'4.490" E  MINERAL EXPLORATION AND CONSULTANCY LTD
+E  20° 40' 11.920" N 83° 0' 44.950" E  MECL
+thormeny Mineral Exmloramon corporatlon Ltd.
+Ministry of Mines, Govt of India Enterprise, MINIRATNA-I CPSE
+An ISO 9001:2015, 14001:2015 & 45001.2018 Certified Company
+Page 5 of 5

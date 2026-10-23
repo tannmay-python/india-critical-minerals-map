@@ -1,0 +1,352 @@
+                                                                                    
+                                                                                    
+                                                                                    
+                             SUMMARY OF THE MINERAL BLOCK                           
+                                                                                    
+                        PART A - GENERAL INFORMATION ABOUT MINERAL                  
+                                        BLOCK                                       
+                 FEATURES           DETAILS                                         
+                 MINERAL BLOCK NAME  Pastalaimal Basemetal Block                    
+              1. LOCATION                                                           
+                 GPS CORNER POINTS   Corner Points Longitude   Latitude             
+                 (LATITUDE, LONGITUDE)   A      21° 57' 52.728" N 78° 16' 57.656" E 
+                                         B      21° 58' 9.089" N 78° 17' 46.128" E  
+                                         C      21° 57' 33.181" N 78° 18' 2.575" E  
+                                         D      21° 57' 16.494" N 78° 17' 13.931" E 
+                 VILLAGES           Pastalaimal, Rayatwari, Somalapur               
+                 TEHSIL/ TALUKA     Amla Tehsil                                     
+                 DISTRICT           Betul                                           
+                 STATE              Madhya Pradesh                                  
+              2  AREA (HECTARES)                                                    
+                 Total Area of the Block 172.9938 Hectares                          
+                 Total Area of the Block 172.9938 Hectares                          
+                 Excluding restricted area                                          
+                 Mineralized area   86 Hectares                                     
+                 Non-Mineralized area 86.9938 Hectares                              
+              3  EXPLORATION                                                        
+                 Status (G2/ G3/ G4 etc.) G4                                        
+                 Exploration Agency Geological Survey of India                      
+                 Highlights of Geochemical Grab/Spot BRS samples: Zn values in total of 23 nos. of BRS
+                 Survey             samples ranges from 20 ppm to 600ppm.           
+                                    Soil Samples: A total of 256 soil samples collected.
+                                    Cu: 5 to 960ppm; Pb: 5 to 160ppm; Zn: 20ppm to 2100 ppm.
+                                    Geochemical Survey: In order to understand the pattern and
+                                    intensity of secondary dispersion of the metal ions in the area, the
+                                    soil sampling was carried out systematically in a grid pattern
+                                    covering the host rock. For this purpose, a base line was drawn
+                                    along strike of the host rock and traverse line across it at a spacing
+                                    of 200m. Sample points were located at 20m intervals along
+                                    traverse lines. Soil samples were collected from B-horizon of the
+                                    soil profile which is fairly well developed in the area between 20
+                                    to 60 cm depth.                                 
+                                    The analytical results of 256 soil samples collected from 06
+                                    sampling lines i.e from 00 to E80 and 33 soil samples of Ryatwari
+                                    temple area which was collected in F.S 2003-04 show dispersion
+                                    of Cu, Pb and Zn in varying degree. The Copper values range
+                                    from less than 5ppm to 960 ppm, Lead from less than 5ppm to
+                                    160 ppm and Zinc from 20ppm to 2100ppm, Nickle from less
+                                    than 5 ppm to 100 ppm with one single value of 295 ppm, Cobalt
+                                    from less than 5 ppm to 60 ppm, Silver and Cadmium all less than
+                                    5 ppm.                                          
+                                    Zinc: The minimum value of zinc is found to be 20ppm while
+                                    maximum is 2100ppm. A threshold value of 1258 ppm with
+                                    background value of 660.69 ppm and mean of 446.68 ppm of zinc
+                                    were obtained in the total population. Anomalous values
+                                    exceeding 1000 ppm have been contoured and four anomalous
+                                    zone of                                         
+                                    (i) 260m x 60m (around 00/S120 grid i. e just south of Ryatwari
+                                    village)                                        
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                                    
+                                                                                    
+                                    (ii) 340m x40m (around E-20/S22 to E-40/S24 grid i. e 300m
+                                    south of the first anomaly)                     
+                                    (iii) 120m x 20m open end anomaly (around E-20/S54 peg and
+                                    average width of 40m)                           
+                                    (iv) open end anomaly of 300m x 20m (around 00/00 to E-20/N-
+                                    80 survey peg).                                 
+                                    Copper: The minimum value of copper is less than 05 ppm and
+                                    maximum is 960 ppm. A threshold value of 446.68 ppm with
+                                    background value of 223.87 ppm and mean of 112.20 ppm of
+                                    copper were obtained in the total population. Anomalous values
+                                    exceeding 450 ppm have been contoured. One anomalous zone of
+                                    450m x 60m (around 00/S-12 survey peg, south of Ryatwari
+                                    village) was demarcated.                        
+                                    Lead: The minimum value of Lead is less than 05 ppm and
+                                    maximum is 160 ppm. A threshold value of 112.20 ppm with
+                                    background value of 56.23 ppm and mean of 28.18 ppm of Lead
+                                    were obtained in the total population. Anomalous values
+                                    exceeding 100 ppm have been contoured. One anomalous zone of
+                                    250m x 100 m (around E-60/S-40 survey peg) was demarcated.
+                 Highlights of Ground Based on the integration of different Geophysical surveys of
+                 Geophysical Survey electrical (resistivity and chargeability), magnetic & spontaneous
+                                    polarisation the following conclusions were made:
+                                    The strong E-W oriented magnetic contours situated north of the
+                                    baseline between W40 and E150 indicate a part of regional
+                                    geological structure passing through the present area. This zone
+                                    in association with resistivity values less than 3000 ohm-mts and
+                                    the chargeability values less than 12 msec may not carry any
+                                    sulphide mineralisation but may contain iron rich minerals due to
+                                    high magnetic contrast. The association of magnetic rich minerals
+                                    can be located in this zone only compare to the other areas under
+                                    survey. In general, the resistivity values less than 300 Ohm-mt
+                                    occupy 70 - 75% of the area is corroborated with the low
+                                    chargeability values less than 10 msec may reveal absence of
+                                    abundance of sulphide mineralisation. However, the high
+                                    chargeability values covering a small portion of the area ranging
+                                    from 17 to 24 msec is interpreted as a geological feature orienting
+                                    NE-SW situated north of the baseline between W40 and W160. It
+                                    is also associated with resistivity values less than 3000 Ohm-mts.
+                                    This feature may be holding sulphide mineralisation in the
+                                    existing Rhyolitic terrain as the chargeability increases drastically
+                                    within 200 X 300 mts. The chances of occurrence of zinc
+                                    mineralisation at this zone of outer periphery of the chargeability
+                                    contour may not be ruled out. It is also observed that the zone of
+                                    high resistivity values more than 3000 Ohm-mts associated with
+                                    high chargeability values ranging between 15 and 20 msec may
+                                    also contain highly disseminated sulphide mineralisation like the
+                                    zone with station interval S20 to S40 through E40 and E80 of
+                                    traverses as well as the zone with station interval S10 to S20
+                                    between E100 and E150 traverses. A NNW-SSE trending SP low
+                                    between E20 and E70 indicate the formational change and may
+                                    be due to variation of ground water table in the area.
+                 Highlights of National Nil                                         
+                 Geophysical Mapping                                                
+                 Highlights of National The following observations were recorded during National
+                 Geochemical Mapping Geochemical Mapping carried out in the Toposheet no 55K/05.
+                                    Pastalaimal block falls in toposheet 55K/05     
+                                    Cu: Min: 06 ppm Max: 314 ppm                    
+
+                                                                                    
+                                                                                    
+                                                                                    
+                                    Pb: Min: 10 ppm Min: 88 ppm                     
+                                    Zn: Min: 12 ppm Min: 178 ppm                    
+                                    V: Min: 58 ppm Min: 459 ppm                     
+                                    Cr: Min: 49 ppm Min: 262 ppm                    
+                                    Co: Min: 06 ppm Min: 77 ppm                     
+                 Pitting/Trenching  03 nos. (50 cu. m)                              
+                 Highlights of Pitting/ Trenching Trench TR1:                       
+                                    Cu: 15 to 280ppm; Pb: <5 to 10 ppm; Zn: 85ppm to 605 ppm;
+                                    Ni: <5 to 470ppm; Co: <5 to 510ppm; Cd: <5 to 500ppm;
+                                    Trench TR2:                                     
+                                    Cu: 5 to 35ppm; Pb: 5 to 10 ppm; Zn: 225ppm to 700ppm;
+                                    Trench TR3:                                     
+                                    Cu: <5 to 5ppm; Pb: <5 to 5ppm; Zn: 40ppm to 105 ppm;
+                 Total Number of Boreholes with 02 Nos. (During FS: 2017-18)        
+                 meterage                                                           
+                 Borehole Spacing (Density) NA                                      
+              4  QUANTITY OF MINERALS                                               
+                 (GRADE WISE)                                                       
+                 MINERAL            Basemetal                                       
+                 TOTAL GEOLOGICAL   NA                                              
+                 RESOURCES                                                          
+              5  MINERALISED ZONES                                                  
+                 NUMBER OF MINERAL  During FS: 2004-05: 06 nos.                     
+                 ZONES              With the help of soil geochemical samples, four Zinc anomaly
+                                    zones of 260m x 60m; 340m x40m; 120m x 20m open end
+                                    anomaly;300m x 20m open end anomaly including one isolated
+                                    copper anomaly zone of 450m x 60m and one lead anomaly
+                                    zones of 250m x 100 m were delineated in the area.
+                                    During FS: 2017-18: 06 zones in two boreholes.  
+                                    Mineralized zone at 0.20% Zn cutoff in borehole MPBP-01:
+                                     Mineralized Thickness True Weighted            
+                                     zones    along    thickness average of         
+                                              borehole         Zn                   
+                                     I        2.90 m   2.05 m  0.21%                
+                                     II       2.45 m   1.73 m  0.24%                
+                                     III      2.10 m   1.48 m  0.27%                
+                                     IV       3.35 m   2.37 m  0.22%                
+                                     V        3.05 m   2.16 m  0.35%                
+                                    Mineralized zone at 0.20% Zn cutoff in borehole MPBP-03:
+                                     Mineralized Thickness True Weighted            
+                                     zones     along   thickness average of         
+                                               borehole       Zn                    
+                                     I         4.05 m  2.86 m 0.26%                 
+                 TREND (DIP AND STRIKE) The mineralisation trend is parallel to dominant foliations N60ºE-
+                                    S60W to N75ºE-S75W with around 50ºSE dip.       
+                 Highlights of the Petrographical/ During the ore petrographic studies, sulphide mineralization is
+                 Petrochemical Studies found in rocks mainly in garnetiferous- quartz-biotite schist and
+                                    in foliated rhyolites. Mineralisation occurs in form of
+                                    disseminated specks, blebs and rare veinlets comprising of pyrite,
+                                    chalcopyrite and sphalerite.                    
+                                    Pyrite occurs in two forms namely, 1) minute discrete grains with
+                                    nearly euhedral outline. 2) This type of pyrite is invariably seen
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                                    
+                                                                                    
+                                    as amoebic particles in close association with chalcopyrite and
+                                    sphalerite.                                     
+                                    Chalcopyrite occurs as a minor phase in the sulphide veinlets.
+                                    They have embayed margins both against pyrite and sphalerite.
+                                    No exsolution features are observed in the Chalcopyrite.
+                                    Sphalerite occurs in the sulphide veinlets and form the major
+                                    component. The sphalerite has pyrite and chalcopyrite as
+                                    inclusions and also appear to have replaced them towards the
+                                    margin.                                         
+                                    From the mutual relationships of the three sulphide phases, it
+                                    appears that pyrite could have formed as a distinct phase while
+                                    the sulphide in the veinlets formed at a later stage and the
+                                    paragenetic sequence comprises as pyrite, chalcopyrite and then
+                                    sphalerite. Late-stage deformation in the host rock has resulted in
+                                    remobilization of the veinlets along minor later fractures.
+                 Justification for further Considering the surface indication of mineralization in host rock
+                 exploration        garnetiferous-qtz-biot-mus-schist and in associated foliated
+                                    rhyolites/garnetiferous rhyolites, significant soil geochemical and
+                                    geophysical anomaly on it and positive intersection of
+                                    mineralized zones in two scout boreholes drilled in anomalous
+                                    zones, further detailed exploration is recommended to know the
+                                    total basemetal potentiality of the block area. Hence block area
+                                    can be considered for CL auction..              
+              6  ACCESSIBILLITY                                                     
+                 FEATURES           DETAILS                                         
+                 NEAREST RAIL HEAD  Amla Railway station                            
+                 ROAD               The Pastalaimal-Ryatwari-Somlapur block is situated 4 km
+                                    south-east of Dehalwara village which is located on Amla-
+                                    Bordehi Road.                                   
+                 AIRPORT            Nagpur                                          
+              7  HYDROGRAPHY                                                        
+                 LOCAL SURFACE      Lower order tributaries drain the area forming a subdendritic
+                 DRAINAGE PATTERN   pattern.                                        
+                 (CHANNELS)                                                         
+                 RIVERS/ STREAMS    The area forms a small part of the regime of Bel River system.
+                                    Bel river flows from west to east and joins Kanhan river at
+                                    Sangwa village.                                 
+              8  CLIMATE                                                            
+                 MEAN ANNUAL RAINFALL 871 mm                                        
+                 TEMPERATURE        45°C                                            
+                 (DECEMBER)                                                         
+                 TEMPERATURE (JUNE) 11°C                                            
+              9  TOPOGRAPHY                                                         
+                 TOPOSHEET NUMBER   55K/05                                          
+                 MORPHOLOGY OF THE  Highest elevation is (779 m) in the area, is a peak of a hillock
+                 AREA               sequence located north of Ryatwari village. Lowest elevation is
+                                    in the stream at 710 m. The maximum elevation difference
+                                    between the ground and hills/ mounds is about 70 m and the
+                                    average elevation is about 734m.                
+                PART B-PARTICULARS OF STATUTORY LICENCES, PERMITS, PERMISSIONS,     
+              CONCESSIONS, APPROVALS AND CONSENTS RELATED TO MINING OPERATIOS       
+                   PARTICULARS                DETAILS/STATUS                        
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                                    
+                                                                                    
+             1     FOREST CLEARANCE           TO BE OBTAINED BY THE PREFFERED       
+                                              BIDDER                                
+             2     WILD LIFE CLEARANCE (SANCTUARY, TO BE OBTAINED BY THE PREFFERED  
+                   RESERVE OR SPECIAL ZONE    BIDDER                                
+                   CLEARANCE)                                                       
+             3     ENVIRONMENT CLEARANCE      TO BE OBTAINED BY THE PREFFERED       
+                                              BIDDER                                
+             4     MINING PLAN APPROVAL       TO BE OBTAINED BY THE PREFFERED       
+                                              BIDDER                                
+             5     CONSENT TO ESTABLISH       TO BE OBTAINED BY THE PREFFERED       
+                                              BIDDER                                
+             6     EXPLOSIVE LICENCE          TO BE OBTAINED BY THE PREFFERED       
+                                              BIDDER                                
+             7     PERMISSION FOR MINE OPENING TO BE OBTAINED BY THE PREFFERED      
+                                              BIDDER                                
+             8     PERMISSION OF INSTALLATION/TRIAL TO BE OBTAINED BY THE PREFFERED 
+                   OPERATION OF EQUIPMENT     BIDDER                                
+             9     GROUND WATER CLEARANCE     TO BE OBTAINED BY THE PREFFERED       
+                   (CENTRE/STATE)             BIDDER                                
+             10    RAILWAY SIDING APPROVAL    TO BE OBTAINED BY THE PREFFERED       
+                                              BIDDER                                
+             11    APPROVAL FOR DIESEL STORAGE TO BE OBTAINED BY THE PREFFERED      
+                                              BIDDER                                
+             12    POWER LINE FROM STATE DISCOM TO BE OBTAINED BY THE PREFFERED     
+                                              BIDDER                                
+             13    CLEARANCES RELATING TO WORK TO BE OBTAINED BY THE PREFFERED      
+                   UNDER AN EXISTING TRANSMISSION BIDDER                            
+                   LINE OR SHIFTING OF THE                                          
+                   TRANSMISSION LINE                                                
+             14    GRAM SABHA CONSENT         TO BE OBTAINED BY THE PREFFERED       
+                                              BIDDER                                
+             15    ANY OTHER CLEARANCES TO START TO BE OBTAINED BY THE PREFFERED    
+                   MINING OPERATION           BIDDER                                
+                               PART C-PARTICULARS OF LAND                           
+                                                                                    
+              S.NO.                LAND TYPE                  AREA (IN              
+                                                             HECTARES)              
+               1   TOTAL CONCESSION AREA                   172.9938 Hectares        
+               2   FOREST LAND WITH STATUS                       -                  
+               3   GOVERNMENT LAND WITH STATUS                   -                  
+               4   PRIVATE LAND WITH STATUS                      -                  
+               5   CHARAGAH/PASTURE LAND                         -                  
+               6   REVENUE SURVEY DETAILS OF THE AREA            -                  
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                Fig: Map showing Geology with the block area of Pastalaimal Block.           
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+

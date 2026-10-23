@@ -1,0 +1,1084 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head id="Head1"><title>
+	Press Release Page | Press Information Bureau
+</title><link href="css/style.css?v=1" rel="stylesheet" type="text/css" /><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="alternate stylesheet" href="css/change.css?v=1" media="screen" title="change" /><link rel="alternate stylesheet" href="css/green.css?v=1" media="screen" title="green" /><link rel="alternate stylesheet" href="css/yellow.css" media="screen" title="yellow" /><link rel="stylesheet" type="text/css" href="css/prtint.css" media="print" /><link rel="stylesheet" href="css/style3.1.css" type="text/css" /><link id="pibA11yCss" rel="stylesheet" href="/css/accessibility.css?v=7" type="text/css" />
+    <script type="text/javascript">
+        (function (d) {
+            var t = "";
+            try {
+                t = window.localStorage.getItem("pibStyle") || "";
+            } catch (e) {
+                t = "";
+            }
+            if (t === "orange") {
+                t = "yellow";
+            }
+            var c = t === "change" ? " pib-hc"
+                : t === "green" ? " pib-theme-green"
+                : t === "yellow" ? " pib-theme-yellow" : "";
+            d.documentElement.className += c + " pib-a11y-content";
+        }(document));
+    </script>
+
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/js/accessibility.js?v=7"></script>
+
+    <script type="text/javascript">
+            $(document).ready(function () {
+                  function getParameterByName(name) {
+                        var url = window.location.href;
+                        name = name.replace(/[\[\]]/g, '\\$&');
+                        var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+                              results = regex.exec(url);
+                        if (!results) return null;
+                        if (!results[2]) return '';
+                        return decodeURIComponent(results[2].replace(/\+/g, ' '));
+                  }
+                  let prid = parseInt(getParameterByName('PRID'), 10);
+
+                  if (!isNaN(prid) && prid > 0) {
+                        $.ajax({
+                              type: "POST",
+                              url: "AjaxMethod.aspx/UpdatePRHitCount",
+                              async: false,
+                              data: JSON.stringify({ 'PermId': prid }),
+                              contentType: "application/json; charset=utf-8",
+                              dataType: "json",
+                              success: function (response) {
+                                    console.log(response);
+                              },
+                              error: function (error) {
+                                    console.log("Error in AJAX request", error);
+                              }
+                        });
+                  } else {
+                        console.log("Invalid parameters:", prid);
+                  }
+            });
+    </script>
+    <style type="text/css">
+        .table-responsive {
+            width: 100%;
+            overflow-x: auto;
+        }
+
+        .banner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+        }
+
+        full-width {
+            width: 100%;
+        }
+
+        .logo-left, .logo-center, .countdown {
+            display: flex;
+            align-items: center;
+        }
+
+            .logo-left img, .logo-center img {
+                height: 70px;
+            }
+
+        .countdown {
+            text-align: center;
+            background-color: var(--dbim-text, #150202);
+            border-radius: 10px;
+            padding: 10px;
+            border: 2px solid grey;
+        }
+
+        .firstnumber {
+            color: #000000;
+            position: absolute;
+            top: 50px;
+            right: 90px;
+            font-size: 30px;
+        }
+
+        .secondnumber {
+            position: absolute;
+            color: #000000;
+            right: 45px;
+            top: 50px;
+            font-size: 30px;
+        }
+
+        .countdown .days {
+            font-size: 35px;
+            color: gold;
+        }
+
+        .countdown p {
+            margin: 0;
+        }
+
+        .countdown .text {
+            font-size: 16px;
+        }
+
+        a {
+            word-break: break-all;
+        }
+
+        iframe, img {
+            max-width: 100%;
+        }
+
+        /* === DBIM 3.0 Option 4 Separator Line & Reading Meta Styling === */
+        .pr-share--footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+            border-top: 1px solid var(--dbim-border, #d1d5db);
+            padding-top: 16px;
+            margin-top: 24px;
+        }
+
+        .pr-share__left {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .pr-reading-meta {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 0.95rem;
+            color: var(--dbim-text-secondary, #475569);
+            font-weight: 500;
+            white-space: nowrap;
+            margin-left: auto;
+        }
+
+        .pr-reading-meta__item {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .pr-reading-meta__divider {
+            color: var(--dbim-border, #cbd5e1);
+            font-weight: 300;
+        }
+
+        .pib-hc .pr-reading-meta,
+        .pib-hc .pr-reading-meta svg {
+            color: currentColor !important;
+        }
+
+        @media (max-width: 680px) {
+            .pr-share--footer {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .pr-reading-meta {
+                margin-left: 0;
+                width: 100%;
+                justify-content: flex-start;
+            }
+        }
+
+        @media(max-width:1199px) {
+            .firstnumber {
+                top: 40px;
+                right: 72px;
+                font-size: 30px;
+            }
+
+            .secondnumber {
+                right: 35px;
+                top: 40px;
+                font-size: 30px;
+            }
+        }
+
+        @media(max-width:990px) {
+            .firstnumber {
+                top: 25px;
+                right: 54px;
+                font-size: 30px;
+            }
+
+            .secondnumber {
+                right: 25px;
+                top: 25px;
+                font-size: 30px;
+            }
+        }
+
+        @media(max-width:768px) {
+            .countdown, .days {
+                font-size: 12px !important;
+            }
+
+            .firstnumber {
+                top: 25%;
+                right: 8%;
+                font-size: 30px;
+            }
+
+            .secondnumber {
+                right: 4.5%;
+                top: 25%;
+                font-size: 30px;
+            }
+        }
+
+        @media(max-width:475px) {
+            .countdown, .days {
+                font-size: 10px !important;
+                top: 20%;
+            }
+
+            .bannerimgdiv {
+                padding: 0 !important;
+            }
+
+            .bannerimg {
+                width: 108% !important;
+            }
+        }
+    </style>
+    <script type="text/javascript">
+            $(function () {
+                  $("[id*=printPDF]").click(function () {
+                        $("[id*=hfGridHtml]").val($("#PdfDiv").html());
+                  });
+            });
+            $(function () {
+                  $("[id*=printPDFEvent]").click(function () {
+                        $("[id*=hfGridHtml]").val($("#PdfDiv").html());
+                  });
+            });
+    </script>
+
+    <link id="pibConsentCss" href="/css/consent.css?v=8" rel="stylesheet" type="text/css" /><link id="pibFontsCss" href="/css/fonts-noto.css?v=6" rel="stylesheet" type="text/css" /><link id="pibDbimCss" href="/css/dbim.css?v=1120" rel="stylesheet" type="text/css" /><meta property="og:title" content="Ministry of Mines to Launch Auction of Offshore Mineral Blocks in Andaman Sea" /><meta property="og:url" content="www.pib.gov.in/Pressreleaseshare.aspx?PRID=2317207" /><meta property="og:description" content="The Ministry of Mines, Government of India, will launch the auction of offshore mineral blocks tomor" /><meta property="og:image" content="https:/pib.gov.in/images/indian-emblem.png" />
+                                <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="C4E7H-KSCMC-422L4-W3EM5-U36MF",function(){function e(){if(!i){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,o.parentNode.appendChild(e),i=!0}}function t(e){i=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(o.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",o.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"C4E7H-KSCMC-422L4-W3EM5-U36MF";var o=document.currentScript||document.getElementsByTagName("script")[0],i=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!i)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),o.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="eqausaa4ytiwijqacqlqauyaabvnvzui-f-d1e78b85b-clienttons-s.akamaihd.net",o="false"=="true"?2:1,i={"ak.v":"41","ak.cp":"1825201","ak.ai":parseInt("1215205",10),"ak.ol":"0","ak.cr":11,"ak.ipv":6,"ak.proto":"h2","ak.rid":"128f6bb4","ak.r":24958,"ak.a2":n,"ak.m":"dscb","ak.n":"ff","ak.cport":62328,"ak.gh":"23.3.70.4","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"","ak.t":"1792730760","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==wnwbZt27YgT7s50+ohG0IWuUo0rwL7gV4zKBtaaOol1pUEuBP842zztG1O5fkPpN7chYi1QgPC/z9vNgO6j/EF9qtKf2sA7U1gulYsCRpQc9dXZlB27I5I9/7+1ycVQUzeMsmEQ3kVo6Kfu+1DXNe6+Ej9vA0sBbzA7bfE1Lw0cxtnxhFMtKA53hvZVvm/PGF8l6SWB+H2T3T8nojBfTBcE1ZwGW7JyarKJB53QDlqyFiPwmWyXI7QOP6ginknjTIQaEqldSRo+zpisQ99s87b+ne0p7WeNcZ6zSFiBqleMtWVV3vJ+f73uc8lTt7JKs0Vn5BBQzUvQnIbKQppNsoQcHjYNh7Wdr9f2aByNVk6x0IjDT+Er//kAafAnRHEcqlyUftQlsMz0r+HIKpyT0jIk9qF9ium8BS1gsTFTPlfA=","ak.pv":"9","ak.dpoabenc":"","ak.tf":o};if(""!==t)i["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))i["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var e=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+<body>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
+     style="position:absolute;width:0;height:0;overflow:hidden" id="dbim-icon-sprite">
+    <defs>
+        <symbol id="icon-angle-double-left" viewBox="0 0 24 24"><path d="M11.6 4.6 4.2 12l7.4 7.4 2.2-2.2L8.6 12l5.2-5.2z"/><path d="M19 4.6 11.6 12 19 19.4l2.2-2.2L16 12l5.2-5.2z"/></symbol>
+        <symbol id="icon-angle-double-right" viewBox="0 0 24 24"><path d="M12.4 4.6 10.2 6.8 15.4 12l-5.2 5.2 2.2 2.2L19.8 12z"/><path d="M5 4.6 2.8 6.8 8 12l-5.2 5.2L5 19.4 12.4 12z"/></symbol>
+        <symbol id="icon-arrow-left" viewBox="0 0 24 24"><path d="M20.8 10.6H9.6v2.8h11.2z"/><path d="M10.8 5.6 3.2 12l7.6 6.4z"/></symbol>
+        <symbol id="icon-arrow-right" viewBox="0 0 24 24"><path d="M3.2 10.6h11.2v2.8H3.2z"/><path d="M13.2 5.6 20.8 12l-7.6 6.4z"/></symbol>
+        <symbol id="icon-blogger" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M6.4 2.4h11.2a4 4 0 0 1 4 4v11.2a4 4 0 0 1-4 4H6.4a4 4 0 0 1-4-4V6.4a4 4 0 0 1 4-4zm2.8 5.2a2 2 0 0 0 0 4h2.4a2 2 0 0 0 0-4zm0 5.6a2 2 0 0 0 0 4h5.6a2 2 0 0 0 0-4z"/></symbol>
+        <symbol id="icon-calendar" viewBox="0 0 24 24"><path d="M7.6 2.4H10v2.4H7.6z"/><path d="M14 2.4h2.4v2.4H14z"/><path fill-rule="evenodd" d="M4 4.8h16a1.6 1.6 0 0 1 1.6 1.6v13.2a1.6 1.6 0 0 1-1.6 1.6H4a1.6 1.6 0 0 1-1.6-1.6V6.4A1.6 1.6 0 0 1 4 4.8zm.4 5.6v8.4h15.2v-8.4z"/><path d="M6.4 12.4h3.2v3.2H6.4z"/></symbol>
+        <symbol id="icon-chevron-left" viewBox="0 0 24 24"><path d="M15.4 4.6 8 12l7.4 7.4 2.2-2.2L12.4 12l5.2-5.2z"/></symbol>
+        <symbol id="icon-chevron-right" viewBox="0 0 24 24"><path d="M8.6 4.6 6.4 6.8 11.6 12l-5.2 5.2 2.2 2.2L16 12z"/></symbol>
+        <symbol id="icon-circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/></symbol>
+        <symbol id="icon-download" viewBox="0 0 24 24"><path d="M10.8 3h2.4v7.6h3.4L12 16.6l-4.6-6h3.4z"/><path d="M4 17.2h2.4v2.4h11.2v-2.4H20v3.2a1.4 1.4 0 0 1-1.4 1.4H5.4A1.4 1.4 0 0 1 4 20.4z"/></symbol>
+        <symbol id="icon-facebook" viewBox="0 0 24 24"><path d="M13.6 21.6v-8.4h2.8l.42-3.3h-3.22V7.8c0-.95.27-1.6 1.64-1.6h1.74V3.26a23 23 0 0 0-2.54-.13c-2.5 0-4.22 1.53-4.22 4.34v2.43H7.4v3.3h2.82v8.4z"/></symbol>
+        <symbol id="icon-fact-check" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.4 3.6 5.6v6.2c0 4.6 3.4 8.6 8.4 9.8 5-1.2 8.4-5.2 8.4-9.8V5.6zm-1 13.2-3.6-3.6 1.7-1.7 1.9 1.9 4.5-4.5 1.7 1.7z"/></symbol>
+        <symbol id="icon-hashtag" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M8.8 3h2.4l-1 6h3.2l1-6h2.4l-1 6h3.4v2.4h-3.8l-.6 3.2h3.6V17h-4l-1 5h-2.4l1-5h-3.2l-1 5H5.4l1-5H3V14.6h3.8l.6-3.2H3.8V9h4zm.6 8.4-.6 3.2h3.2l.6-3.2z"/></symbol>
+        <symbol id="icon-home" viewBox="0 0 24 24"><path d="M12 3.4 2.8 11.6h2.4v8.4a1 1 0 0 0 1 1h3.3v-5.4h5v5.4h3.3a1 1 0 0 0 1-1v-8.4h2.4z"/></symbol>
+        <symbol id="icon-instagram" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M7.6 2.4h8.8a5.2 5.2 0 0 1 5.2 5.2v8.8a5.2 5.2 0 0 1-5.2 5.2H7.6a5.2 5.2 0 0 1-5.2-5.2V7.6a5.2 5.2 0 0 1 5.2-5.2zm0 2.4a2.8 2.8 0 0 0-2.8 2.8v8.8a2.8 2.8 0 0 0 2.8 2.8h8.8a2.8 2.8 0 0 0 2.8-2.8V7.6a2.8 2.8 0 0 0-2.8-2.8z"/><path fill-rule="evenodd" d="M12 6.8a5.2 5.2 0 1 0 0 10.4 5.2 5.2 0 0 0 0-10.4zm0 2.4a2.8 2.8 0 1 1 0 5.6 2.8 2.8 0 0 1 0-5.6z"/><circle cx="17.3" cy="6.7" r="1.3"/></symbol>
+        <symbol id="icon-linkedin" viewBox="0 0 24 24"><path d="M4.8 8.8h3.6v12H4.8z"/><circle cx="6.6" cy="5.4" r="2.1"/><path d="M10.8 8.8h3.45v1.65h.05c.48-.9 1.65-1.85 3.4-1.85 3.63 0 4.3 2.35 4.3 5.4v6.6h-3.6v-5.85c0-1.4-.03-3.2-1.95-3.2-1.95 0-2.25 1.52-2.25 3.1v5.95h-3.6z"/></symbol>
+        <symbol id="icon-mail" viewBox="0 0 24 24"><path d="M2.4 7.6v9.2a1.6 1.6 0 0 0 1.6 1.6h16a1.6 1.6 0 0 0 1.6-1.6V7.6L12 14z"/><path d="M21.2 5.4H2.8L12 11.8z"/></symbol>
+        <symbol id="icon-mail-open" viewBox="0 0 24 24"><path d="M2.4 9.8h19.2v9.6A1.6 1.6 0 0 1 20 21H4a1.6 1.6 0 0 1-1.6-1.6z"/><path d="M12 2.6 21.6 9.2h-3.8L12 5.3 6.2 9.2H2.4z"/><path d="m3.9 11.2 8.1 5.4 8.1-5.4 1.5 1.3-9.6 6.4-9.6-6.4z"/></symbol>
+        <symbol id="icon-map-marker" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.4a7 7 0 0 0-7 7c0 5.2 7 12.2 7 12.2s7-7 7-12.2a7 7 0 0 0-7-7zm0 9.6a2.6 2.6 0 1 1 0-5.2 2.6 2.6 0 0 1 0 5.2z"/></symbol>
+        <symbol id="icon-newspaper" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M2.8 4.4h14.8v15.2H2.8zm2 2v11.2h10.8V6.4z"/><path d="M6 7.6h8.4v1.6H6z"/><path d="M6 10.8h8.4v1.6H6z"/><path d="M6 14h5.2v1.6H6z"/><path d="M18.4 8.4h2.8v9.6a1.4 1.4 0 0 1-2.8 0z"/></symbol>
+        <symbol id="icon-pause" viewBox="0 0 24 24"><rect x="7.4" y="4" width="3.6" height="16" rx="0.9"/><rect x="13" y="4" width="3.6" height="16" rx="0.9"/></symbol>
+    <symbol id="icon-play" viewBox="0 0 24 24"><path d="M8 4.5v15l12-7.5z"/></symbol>
+        <symbol id="icon-picture" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M2.4 5.2h19.2v13.6H2.4zm2 2v9.6h15.2V7.2z"/><path d="M5.6 16.4 10 11l2.6 3 2-2.2 4 4.6z"/><circle cx="8" cy="10.4" r="1.5"/></symbol>
+        <symbol id="icon-press-conference" viewBox="0 0 24 24"><circle cx="12" cy="5.2" r="2.6"/><path d="M7.6 12.2a4.4 4.4 0 0 1 8.8 0z"/><circle cx="4.9" cy="9.6" r="2.2"/><path d="M1.8 15.2a3.1 3.1 0 0 1 6.2 0z"/><circle cx="19.1" cy="9.6" r="2.2"/><path d="M16 15.2a3.1 3.1 0 0 1 6.2 0z"/><path d="M6.6 13.6h10.8l2.2 7.8H4.4z"/></symbol>
+        <symbol id="icon-print" viewBox="0 0 24 24"><path d="M6.4 2.8h11.2v4.4H6.4z"/><path d="M4 8.4h16a1.6 1.6 0 0 1 1.6 1.6v5.6a1.6 1.6 0 0 1-1.6 1.6h-1.6v-2.8H6v2.8H4a1.6 1.6 0 0 1-1.6-1.6V10A1.6 1.6 0 0 1 4 8.4z"/><path d="M7.2 15.6h9.6v5.6H7.2z"/></symbol>
+        <symbol id="icon-rss" viewBox="0 0 24 24"><circle cx="4.8" cy="19.2" r="2.4"/><path d="M2.4 11.2v3.2a6.4 6.4 0 0 1 6.4 6.4H12A9.6 9.6 0 0 0 2.4 11.2z"/><path d="M2.4 4.8V8A13.6 13.6 0 0 1 16 21.6h3.2A16.8 16.8 0 0 0 2.4 4.8z"/></symbol>
+        <symbol id="icon-search-plus" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M10 2.8a7.2 7.2 0 1 0 0 14.4 7.2 7.2 0 0 0 0-14.4zm0 2.4a4.8 4.8 0 1 1 0 9.6 4.8 4.8 0 0 1 0-9.6z"/><path d="M15.3 14.6 21.2 20.5l-1.5 1.5-5.9-5.9z"/><path d="M9.2 6.8h1.6v2.4h2.4v1.6h-2.4v2.4H9.2v-2.4H6.8V9.2h2.4z"/></symbol>
+        <symbol id="icon-share" viewBox="0 0 24 24"><circle cx="18" cy="5.6" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="18.4" r="3"/><path d="M8.3 10.9 15.7 7.2l.9 1.8-7.4 3.7z"/><path d="M9.2 13.1 16.6 16.8l-.9 1.8-7.4-3.7z"/></symbol>
+        <symbol id="icon-twitter" viewBox="0 0 24 24"><path d="M4.2 3h4.3l11.3 18h-4.3z"/><path d="M19.3 3h-2.6L4.2 21h2.6z"/></symbol>
+        <symbol id="icon-university" viewBox="0 0 24 24"><path d="M12 2.4 21.6 7.2v1.6H2.4V7.2z"/><path d="M4.8 10.4h2.4v8H4.8z"/><path d="M9.2 10.4h2.4v8H9.2z"/><path d="M13.4 10.4h2.4v8h-2.4z"/><path d="M17.6 10.4H20v8h-2.4z"/><path d="M3.2 19.8h17.6v1.8H3.2z"/></symbol>
+        <symbol id="icon-volume-up" viewBox="0 0 24 24"><path d="M3.2 9.2h3.3l5-4.2v14l-5-4.2H3.2z"/><path d="M14.6 8.4a5 5 0 0 1 0 7.2l1.6 1.6a7.2 7.2 0 0 0 0-10.4z"/><path d="M17.4 5.6a8.8 8.8 0 0 1 0 12.8l1.5 1.5a10.9 10.9 0 0 0 0-15.8z"/></symbol>
+        <symbol id="icon-whatsapp" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.4a9.5 9.5 0 0 0-8.1 14.5L2.4 21.6l4.8-1.4A9.5 9.5 0 1 0 12 2.4zm0 2.2a7.3 7.3 0 1 1-3.8 13.5l-.4-.2-2.6.7.7-2.5-.3-.4A7.3 7.3 0 0 1 12 4.6z"/><path d="M9.4 7.8c-.2-.5-.4-.5-.6-.5h-.5a1 1 0 0 0-.7.3c-.3.3-.9.9-.9 2.1s.9 2.4 1 2.6c.1.2 1.7 2.8 4.3 3.8 2.1.8 2.6.7 3 .6.5 0 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.5-.3-1.6-.8c-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6 6 0 0 1-1.8-1.1 6.6 6.6 0 0 1-1.2-1.6c-.1-.2 0-.4.1-.5l.4-.5.3-.5v-.5z"/></symbol>
+        <symbol id="icon-youtube" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M21.6 7.2a2.8 2.8 0 0 0-2-2C17.9 4.8 12 4.8 12 4.8s-5.9 0-7.6.4a2.8 2.8 0 0 0-2 2A29 29 0 0 0 2 12a29 29 0 0 0 .4 4.8 2.8 2.8 0 0 0 2 2c1.7.4 7.6.4 7.6.4s5.9 0 7.6-.4a2.8 2.8 0 0 0 2-2A29 29 0 0 0 22 12a29 29 0 0 0-.4-4.8zM10.2 15.1V8.9l5.1 3.1z"/></symbol>
+    </defs>
+</svg>
+
+    <form method="post" action="./PressReleasePage.aspx?PRID=2317207&amp;reg=48&amp;lang=2" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="sc_HiddenField" id="sc_HiddenField" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZPQet1wIx1Q48y3xJY2k25Y7qxH5RrQ9qQcN-OiTC9guZtri9w2&amp;t=639246310055090729" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=x6wALODbMJK5e0eRC_p1LdIxBJXt0U_WW5GWfJqHAqo6frgCmGRfEywglicTersO2OKrFhK1gAIp0Wk2al2YrpdR3uWqH6f4nfjBsCyRUfTUUVmb0&amp;t=ffffffffecf8d3f2" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=P5lTttoqSeZXoYRLQMIScH645UK3RD852IErF2548Wz9Ssv0rLjB4fhVKnHcMpqkaMHpNAGOeWY02Lf4aBYN9-dVBme_SNK5KJwmFQNpMixYDZ7M0&amp;t=ffffffffecf8d3f2" type="text/javascript"></script>
+<script src="/PressReleasePage.aspx?_TSM_HiddenField_=sc_HiddenField&amp;_TSM_CombinedScripts_=%3b%3bAjaxControlToolkit%2c+Version%3d3.5.7.123%2c+Culture%3dneutral%2c+PublicKeyToken%3d28f01b0e84b6d53e%3aen-US%3a5a4df314-b4a2-4da2-a207-9284f1b1e96c%3ade1feab2%3af2c8e708%3a8613aea7%3af9cec9bc%3a3202a5a2%3aab09e3fe%3a87104b7c%3a720a52bf%3a589eaa30%3aa67c2700%3abe6fb298" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="59B53027" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="I3kh1fX7sCcLJpLbIxspnKnGxwndJiDPYOn3G/roNqaWR9g9t5oKUH4uiM3RH5P5nbTsxamUMKNKHNGfgXqf2fznpsZSenQnKLWWIvAYwncs0nqUcpBp52DEFzMeSHHZelb6ojTgbAwII9nM96Hvst0Q/blaSQ6tlbcHwuUFcPsVc39M646CuDHtQPg9+URHAF9tIAJLpDLSt/qjjtHdYp2nGxVUC6MVHbim1zFRo8WnEKcKoYqz79YMEwrAWJ7aQ3MvYQQC2jPFbYjVozr9K36NDRg=" />
+</div>
+        
+        <div id="templateCss"></div>
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('sc', 'form1', ['tupdate12','update12'], [], [], 90, '');
+//]]>
+</script>
+
+        <input type="hidden" name="hfGridHtml" id="hfGridHtml" />
+        <div class="container" style='margin-bottom: 50px;'>
+            <div id="accessories">
+                
+                <div class="pull-right" style="display: flex">
+                    <div id="voll"></div>
+                    <div id="vollDT"></div>
+                    
+
+<span class="print-icons">
+<input type="image" name="Print1$print" id="Print1_print" aria-label="Print" src="images/printer_icon.png" alt="print page button" style="padding: 5px 10px 5px 10px;" />
+</span>
+                </div>
+            </div>
+            <input type="hidden" name="hydpermid" id="hydpermid" value="2317207" />
+            
+
+            <div class="innner-page-main-about-us-content-right-part">
+                <div id="MinistryName" class="MinistryNameSubhead text-center">
+                    Ministry of Mines 
+                </div>
+                <div id="lg_g"><div class='log_oo'>  <img src='https://static.pib.gov.in/WriteReadData/specificdocs/photo/2026/sep/ph_9768_20260902_10000501.png' alt='azadi ka amrit mahotsav' /> </div></div>
+
+                <div class="text-center event-heading-background">
+                    
+                    <h1 id="Titleh2">
+                        Ministry of Mines to Launch Auction of Offshore Mineral Blocks in Andaman Sea
+                    </h1>
+                    <h3 id="Subtitleh3">
+                        <span id="ltrSubtitle"></span>
+                    </h3>
+                </div>
+
+                <div id="PrDateTime" class="ReleaseDateSubHeaddateTime text-center pt20">
+                    Posted On:
+                              30 SEP 2026 6:15PM by PIB Delhi
+                </div>
+                
+                <div class='pt20'>
+                </div>
+                <input type="hidden" name="hydphotoUrl" id="hydphotoUrl" />
+                
+
+                <!-- Release content wrapper for client-side zero-reflow word count -->
+                <div id="pibReleaseBody">
+                    <p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:#333333">The Ministry of Mines, Government of India, will launch the auction of offshore mineral blocks tomorrow, marking an important step towards unlocking India&rsquo;s offshore mineral potential and strengthening the country&rsquo;s long-term mineral resource security.</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:#333333">Offshore mineral resources are important in the context of technological advancement, clean energy transition and resilient supply chains. Minerals such as cobalt, nickel, manganese, copper and rare earth elements are important inputs for electric mobility, renewable energy systems, advanced electronics and strategic industries. Development of domestic offshore mineral resources can therefore contribute to India&rsquo;s objectives of self-reliance, resource security and sustainable economic growth.</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:#333333">The auction is being conducted under the provisions of the Offshore Areas Mineral (Development and Regulation) Act, 2002 and the Offshore Areas Mineral (Auction) Rules, 2024, as amended from time to time. Following amendments to the OAMDR Act in 2023, the Ministry of Mines has been empowered to auction offshore mineral blocks, enabling transparent and competitive allocation of offshore mineral resources.</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:#333333">The auction comprises two offshore mineral blocks in the Andaman Sea region, which will be offered for grant of Composite Licence. It is expected to encourage systematic exploration, attract investment and promote the adoption of advanced technologies for offshore mineral exploration and development.</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:#333333">The initiative reflects the Government&rsquo;s commitment to expanding India&rsquo;s mineral resource base through systematic exploration and responsible development of offshore resources. It is also expected to facilitate greater private sector participation and technological innovation in an emerging area with significant potential for meeting future industrial and strategic requirements.</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:#333333">The launch of the auction marks another step towards harnessing India&rsquo;s offshore mineral wealth and strengthening the country&rsquo;s mineral security for emerging technologies, industrial development and long-term economic growth.</span></span></span></p>
+
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:#333333">***</span></span></span></p>
+
+<p><strong><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:#333333">Prajith Kumar MV</span></span></span></strong></p>
+
+                </div>
+
+                <div id="reel_pic">
+                </div>
+
+                <br />
+                <span id="ReleaseId">(Release ID: 2317207)</span>
+                <span id="lblViews">Visitor Counter : 874</span>
+                <div>
+                    
+                </div>
+                
+
+                <span id="lblRefPhoto"></span>
+
+                <div class="BackgroundRelease">
+                    
+                </div>
+                <div>
+                    
+                </div>
+                <div class="ReleaseLang">Read this release in: 
+                
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2317283' target="_blank">
+                            Urdu </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2317270' target="_blank">
+                            हिन्दी </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2317344' target="_blank">
+                            Telugu </a>
+                    
+                </div>
+
+                <div class="RelTag">
+                    <ul>
+                        
+                    </ul>
+                </div>
+                <div class="clear">
+                </div>
+
+                <!-- DBIM 3.0 Option 4: Separator Line with Left Share Rail & Right Reading Metrics -->
+                <div class="pr-share pr-share--footer" role="region" aria-label="Share and reading details">
+                    <div class="pr-share__left">
+                        <span class="pr-share__label" aria-hidden="true">Share</span>
+                        <ul class="pr-share__list">
+                            <li><a class="pr-share__btn pr-share__btn--facebook"
+                                href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2317207"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on Facebook">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-facebook" xlink:href="#icon-facebook"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--twitter"
+                                href="https://twitter.com/intent/tweet?url=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2317207"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on X">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-twitter" xlink:href="#icon-twitter"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--whatsapp"
+                                href="https://api.whatsapp.com/send?text=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2317207"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on WhatsApp">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-whatsapp" xlink:href="#icon-whatsapp"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--linkedin"
+                                href="https://www.linkedin.com/sharing/share-offsite/?url=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2317207"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on LinkedIn">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-linkedin" xlink:href="#icon-linkedin"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--mail"
+                                href="mailto:?subject=Press+release+from+PIB&amp;body=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2317207"
+                                aria-label="Share by email">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-mail" xlink:href="#icon-mail"></use>
+                                </svg>
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div class="pr-reading-meta" id="prReadingMeta" aria-label="Reading statistics">
+                        <span class="pr-reading-meta__item">
+                            <!-- Modern Document / Word Count Icon -->
+                            <svg class="pr-reading-meta__icon" width="18" height="18" viewbox="0 0 16 16" fill="currentColor" aria-hidden="true" focusable="false">
+                                <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5" />
+                                <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z" />
+                            </svg>
+                            <span id="prWordCount">-- words</span>
+                        </span>
+
+                        <span class="pr-reading-meta__divider" aria-hidden="true">|</span>
+
+                        <span class="pr-reading-meta__item">
+                            <!-- Modern Precision Clock / Read Time Icon -->
+                            <svg class="pr-reading-meta__icon" width="18" height="18" viewbox="0 0 16 16" fill="currentColor" aria-hidden="true" focusable="false">
+                                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                            </svg>
+                            <span id="prReadTime">-- min read</span>
+                        </span>
+                    </div>
+                </div>
+
+                <div id="RelLink" class="RelLink">
+                    <ul>
+                        
+                    </ul>
+                </div>
+                <center>
+                    
+                </center>
+            </div>
+
+            <div id="update12">
+	
+                    
+                    <input type="hidden" name="Hidden" id="Hidden" />
+                    <div id="P_CategoryManagement" class="ModalWindow" style="border-width:0px;height:60%;width:60%;overflow:auto;display: none">
+		
+                        <div>
+                            <input type="image" name="btnClose" id="btnClose" src="images/close_flat_icon.png" />
+                        </div>
+                        <div id="description">
+                        </div>
+                        <div class="text-center">
+                            <h2>
+                                
+                                <br>
+                                
+                            </h2>
+                        </div>
+                        <br />
+                        <div class="clear">
+                        </div>
+                        
+                    
+	</div>
+                
+</div>
+        </div>
+
+        <div id="PdfDiv" style="display: none;">
+            <table width="100%">
+                <tr>
+                    <td style="font-weight: 200; text-align: center">
+                        Ministry of Mines 
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 200; text-align: center; font-size: 30px;">
+                            Ministry of Mines to Launch Auction of Offshore Mineral Blocks in Andaman Sea
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 200; text-align: center; font-size: 30px;">
+                            
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="text-align: center; font-size: 14px;">
+                            Posted On:
+                                          30 SEP 2026 6:15PM by PIB Delhi
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 200; text-align: left; font-size: 16px;">
+                            <p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:#333333">The Ministry of Mines, Government of India, will launch the auction of offshore mineral blocks tomorrow, marking an important step towards unlocking India&rsquo;s offshore mineral potential and strengthening the country&rsquo;s long-term mineral resource security.</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:#333333">Offshore mineral resources are important in the context of technological advancement, clean energy transition and resilient supply chains. Minerals such as cobalt, nickel, manganese, copper and rare earth elements are important inputs for electric mobility, renewable energy systems, advanced electronics and strategic industries. Development of domestic offshore mineral resources can therefore contribute to India&rsquo;s objectives of self-reliance, resource security and sustainable economic growth.</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:#333333">The auction is being conducted under the provisions of the Offshore Areas Mineral (Development and Regulation) Act, 2002 and the Offshore Areas Mineral (Auction) Rules, 2024, as amended from time to time. Following amendments to the OAMDR Act in 2023, the Ministry of Mines has been empowered to auction offshore mineral blocks, enabling transparent and competitive allocation of offshore mineral resources.</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:#333333">The auction comprises two offshore mineral blocks in the Andaman Sea region, which will be offered for grant of Composite Licence. It is expected to encourage systematic exploration, attract investment and promote the adoption of advanced technologies for offshore mineral exploration and development.</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:#333333">The initiative reflects the Government&rsquo;s commitment to expanding India&rsquo;s mineral resource base through systematic exploration and responsible development of offshore resources. It is also expected to facilitate greater private sector participation and technological innovation in an emerging area with significant potential for meeting future industrial and strategic requirements.</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:#333333">The launch of the auction marks another step towards harnessing India&rsquo;s offshore mineral wealth and strengthening the country&rsquo;s mineral security for emerging technologies, industrial development and long-term economic growth.</span></span></span></p>
+
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:#333333">***</span></span></span></p>
+
+<p><strong><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:#333333">Prajith Kumar MV</span></span></span></strong></p>
+
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 100; text-align: left; font-size: 16px;">
+                            (Release ID: 2317207)
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="font-weight: 200; text-align: center; font-size: 24px;"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="clearfix">
+        </div>
+
+        <div class="section1">
+            <div id="frst_t">
+                <div id="arr_rm"><div class='sticky-social_mb'><ul class='social_mb'><a href='http://www.facebook.com/share.php?u=https://pib.gov.in/PressReleasePage.aspx?PRID=2317207' target='_blank'><li class='fb_b'   ></li></a><a href='https://twitter.com/intent/tweet?url=https://pib.gov.in/PressReleasePage.aspx?PRID=2317207&text=Ministry of Mines to Launch Auction of Offshore Mineral Blocks in Andaman Sea' target='_blank'><li class='twitter_r'  > </li></a><a href='https://api.whatsapp.com/send?text=https://pib.gov.in/PressReleasePage.aspx?PRID=2317207' target='_blank'><li class='whatsapp_r'  ></li></a><a href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=&su=Ministry of Mines to Launch Auction of Offshore Mineral Blocks in Andaman Sea&body=https://pib.gov.in/PressReleasePage.aspx?PRID=2317207&ui=2&tf=1&pli=1' title='Share by Email' target='_blank'><li class='fa-envelope_r' ></li></a><a href='https://www.linkedin.com/shareArticle?mini=true&url=https://pib.gov.in/PressReleasePage.aspx?PRID=2317207&title=Ministry of Mines to Launch Auction of Offshore Mineral Blocks in Andaman Sea&summary=My%20favorite%20developer%20program&source=LinkedIn' target='_blank'><li class='fa-linkedin_r'  ></li></a></ul></div></div>
+            </div>
+            <div id="second_t">
+                <div id="sndr_rm"><div class='sticky-social'><ul class='social'><a href='http://www.facebook.com/share.php?u=https://pib.gov.in/PressReleasePage.aspx?PRID=2317207' target='_blank'><li class='fb_b'   ></li></a><a href='https://twitter.com/intent/tweet?url=https://pib.gov.in/PressReleasePage.aspx?PRID=2317207&text=Ministry of Mines to Launch Auction of Offshore Mineral Blocks in Andaman Sea' target='_blank'><li class='twitter_r'  > </li></a><a href='https://api.whatsapp.com/send?text=https://pib.gov.in/PressReleasePage.aspx?PRID=2317207' target='_blank'><li class='whatsapp_r'  ></li></a><a href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=&su=Ministry of Mines to Launch Auction of Offshore Mineral Blocks in Andaman Sea&body=https://pib.gov.in/PressReleasePage.aspx?PRID=2317207&ui=2&tf=1&pli=1' title='Share by Email' target='_blank'><li class='fa-envelope_r' ></li></a><a href='https://www.linkedin.com/shareArticle?mini=true&url=https://pib.gov.in/PressReleasePage.aspx?PRID=2317207&title=Ministry of Mines to Launch Auction of Offshore Mineral Blocks in Andaman Sea&summary=My%20favorite%20developer%20program&source=LinkedIn' target='_blank'><li class='fa-linkedin_r'  ></li></a></ul></div></div>
+            </div>
+        </div>
+        <input type="hidden" name="ltrTitlee" id="ltrTitlee" value="Ministry of Mines to Launch Auction of Offshore Mineral Blocks in Andaman Sea" />
+        <input type="hidden" name="ltrSubtitlee" id="ltrSubtitlee" />
+        <input type="hidden" name="ltrDescriptionn" id="ltrDescriptionn" value="&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:#333333&quot;>The Ministry of Mines, Government of India, will launch the auction of offshore mineral blocks tomorrow, marking an important step towards unlocking India&amp;rsquo;s offshore mineral potential and strengthening the country&amp;rsquo;s long-term mineral resource security.&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:#333333&quot;>Offshore mineral resources are important in the context of technological advancement, clean energy transition and resilient supply chains. Minerals such as cobalt, nickel, manganese, copper and rare earth elements are important inputs for electric mobility, renewable energy systems, advanced electronics and strategic industries. Development of domestic offshore mineral resources can therefore contribute to India&amp;rsquo;s objectives of self-reliance, resource security and sustainable economic growth.&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:#333333&quot;>The auction is being conducted under the provisions of the Offshore Areas Mineral (Development and Regulation) Act, 2002 and the Offshore Areas Mineral (Auction) Rules, 2024, as amended from time to time. Following amendments to the OAMDR Act in 2023, the Ministry of Mines has been empowered to auction offshore mineral blocks, enabling transparent and competitive allocation of offshore mineral resources.&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:#333333&quot;>The auction comprises two offshore mineral blocks in the Andaman Sea region, which will be offered for grant of Composite Licence. It is expected to encourage systematic exploration, attract investment and promote the adoption of advanced technologies for offshore mineral exploration and development.&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:#333333&quot;>The initiative reflects the Government&amp;rsquo;s commitment to expanding India&amp;rsquo;s mineral resource base through systematic exploration and responsible development of offshore resources. It is also expected to facilitate greater private sector participation and technological innovation in an emerging area with significant potential for meeting future industrial and strategic requirements.&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:#333333&quot;>The launch of the auction marks another step towards harnessing India&amp;rsquo;s offshore mineral wealth and strengthening the country&amp;rsquo;s mineral security for emerging technologies, industrial development and long-term economic growth.&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:center&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:#333333&quot;>***&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p>&lt;strong>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:#333333&quot;>Prajith Kumar MV&lt;/span>&lt;/span>&lt;/span>&lt;/strong>&lt;/p>
+" />
+        <script type="text/javascript">
+                  var mPlayer = document.getElementById("background_music");
+                  var mPlayAction = document.getElementById("playbutton");
+                  var isPlaying = false;
+
+                  function playAudio() {
+                        mPlayer.play();
+                        isPlaying = true;
+                        document.getElementById('stopA').style.display = "block";
+                        document.getElementById('playA').style.display = "none";
+                  }
+
+                  function pauseAudio() {
+                        mPlayer.pause();
+                        isPlaying = false;
+                        document.getElementById('playA').style.display = "block";
+                        document.getElementById('stopA').style.display = "none";
+                  }
+        </script>
+        <script type="text/javascript">
+                  var synth = window.speechSynthesis;
+
+                  function CleanHtml(html) {
+                        html = html.replace(/<script[\s\S]*?<\/script>/gi, '');
+                        return html;
+                  }
+                  function stripHtml(html) {
+                        let tmp = document.createElement("DIV");
+                        tmp.innerHTML = CleanHtml(html);
+                        return tmp.textContent || tmp.innerText || "";
+                  }
+        </script>
+        <script type="text/javascript">
+                  $(document).ready(function () {
+                        $("table").each(function () {
+                              if (!$(this).closest(".table-responsive").length) {
+                                    $(this).wrap("<div class='table-responsive'></div>");
+                              }
+                        });
+
+                        var width = $(window).width();
+                        if (width < 768) {
+                              document.getElementById('frst_t').style.display = "block";
+                              document.getElementById('second_t').style.display = "none";
+                        } else if (width < 991) {
+                              document.getElementById('frst_t').style.display = "block";
+                              document.getElementById('second_t').style.display = "none";
+                        } else if (width < 1199) {
+                              document.getElementById('frst_t').style.display = "none";
+                              document.getElementById('second_t').style.display = "block";
+                        } else {
+                              document.getElementById('frst_t').style.display = "none";
+                              document.getElementById('second_t').style.display = "block";
+                        }
+                  });
+        </script>
+        <style type="text/css">
+            @media print {
+                .sticky-social, .sticky-social_mb, .pull-right, #printPDF {
+                    display: none !important;
+                }
+            }
+
+            .f_vl {
+                padding-right: 30px;
+                font-size: 17px;
+                cursor: pointer;
+            }
+
+            .log_oo {
+                display: flex;
+                justify-content: space-between;
+            }
+
+                .log_oo img {
+                    width: 150px;
+                }
+
+            .sticky-social_mb {
+                position: fixed;
+                bottom: 0px;
+                padding: 0px;
+                margin: 0px;
+                width: 100%;
+            }
+
+            .social_mb {
+                list-style: none;
+                display: flex;
+                width: 100%;
+                margin-bottom: -8px;
+            }
+
+                .social_mb a {
+                    padding: 8px 0px;
+                    font-size: 30px;
+                    transition: all 0.8s ease-in-out;
+                    width: 20% !important;
+                    text-align: center;
+                }
+        </style>
+        <style type="text/css">
+            .section1 {
+                position: relative;
+                padding: 10px 0px;
+                width: 100%;
+            }
+
+            .sticky-social {
+                position: fixed;
+                top: 20px;
+                left: 0px;
+                padding: 0px;
+                margin: 0px;
+            }
+
+            .social {
+                list-style: none;
+            }
+
+                .social a li {
+                    padding: 8px 12px;
+                    font-size: 25px;
+                    transition: all 0.8s ease-in-out;
+                }
+
+                    .social a li:hover {
+                        margin-right: -30px;
+                        box-shadow: 2px 5px 10px grey;
+                    }
+
+                        .social a li:hover .fa {
+                            margin-left: 20px;
+                        }
+
+            .fb_b {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .twitter_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .whatsapp_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .fa-envelope_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .fa-linkedin_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+        </style>
+        <style type="text/css">
+            @media only screen and (max-device-width: 767px) {
+                p span img {
+                    max-width: 90% !important;
+                    height: auto !important;
+                }
+
+                p img {
+                    max-width: 90% !important;
+                    height: auto !important;
+                }
+
+                h2 {
+                    font-size: var(--dbim-h2, 20px);
+                    font-weight: 600 !important;
+                }
+
+                h3 {
+                    font-size: var(--dbim-h3, 16px);
+                    font-weight: 600 !important;
+                }
+            }
+        </style>
+        <style type="text/css">
+            .film-roll-badge {
+                position: absolute;
+                top: 82%;
+                right: 20px;
+                width: 230px;
+                height: 70px;
+                background: repeating-linear-gradient( to right, var(--dbim-green-key, #0F5757) 0px, var(--dbim-green-key, #0F5757) 18px, var(--dbim-text, #150202) 18px, var(--dbim-text, #150202) 36px );
+                border-top: 8px solid var(--dbim-green-key, #0F5757);
+                border-bottom: 8px solid var(--dbim-green-key, #0F5757);
+                border-radius: 8px;
+                overflow: hidden;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+                animation: moveFilm 8s linear infinite;
+                z-index: 10;
+            }
+
+                .film-roll-badge::before,
+                .film-roll-badge::after {
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 10px;
+                    background: repeating-linear-gradient( to right, var(--dbim-green-key, #0F5757) 0px, var(--dbim-green-key, #0F5757) 10px, #fff 10px, #fff 20px );
+                    left: 0;
+                    z-index: 2;
+                }
+
+                .film-roll-badge::before {
+                    top: -4px;
+                }
+
+                .film-roll-badge::after {
+                    bottom: -4px;
+                }
+
+            .film-roll-inner {
+                position: relative;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                animation: flicker 2s infinite ease-in-out;
+            }
+
+            .countdown-text {
+                font-size: 1.3rem;
+                font-weight: 700;
+                color: #fff;
+                text-shadow: 0 0 6px rgba(255, 255, 255, 0.4), 0 0 10px #000;
+                white-space: nowrap;
+            }
+
+            @keyframes moveFilm {
+                0% {
+                    background-position: 0 0;
+                }
+
+                100% {
+                    background-position: 120px 0;
+                }
+            }
+
+            @keyframes flicker {
+                0%, 100% {
+                    opacity: 1;
+                }
+
+                50% {
+                    opacity: 0.9;
+                }
+
+                25% {
+                    opacity: 0.95;
+                }
+
+                75% {
+                    opacity: 0.85;
+                }
+            }
+
+            @media (max-width: 1500px) {
+                .film-roll-badge {
+                    top: 68%;
+                    right: 18px;
+                    height: 65px;
+                    font-size: 0.85rem;
+                }
+
+                .press-section {
+                    margin-top: 35px;
+                }
+            }
+
+            @media (max-width: 992px) {
+                .film-roll-badge {
+                    top: 52%;
+                    right: 10px;
+                    width: 200px;
+                    height: 60px;
+                }
+            }
+
+            @media (max-width: 768px) {
+                .film-roll-badge {
+                    top: 56%;
+                    right: 10px;
+                    width: 124px;
+                    height: 55px;
+                }
+
+                .countdown-text {
+                    font-size: 0.9rem;
+                }
+            }
+
+            @media (max-width: 576px) {
+                .film-roll-badge {
+                    top: 59%;
+                    right: 5px;
+                    height: 50px;
+                }
+
+                .countdown-text {
+                    font-size: 0.85rem;
+                }
+            }
+        </style>
+        <script type="text/javascript">
+                  const festivalStart = new Date("2025-11-20T00:00:00").getTime();
+                  const festivalEnd = new Date("2025-11-28T23:59:59").getTime();
+                  const countdownElement = document.getElementById("countdown");
+
+                  if (countdownElement) {
+                        const interval = setInterval(() => {
+                              const now = new Date().getTime();
+
+                              if (now < festivalStart) {
+                                    const diff = festivalStart - now;
+                                    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                                    const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+
+                                    countdownElement.innerHTML = `${days} Day${days !== 1 ? 's' : ''} ${hours} Hour${hours !== 1 ? 's' : ''} to go`;
+                              } else if (now >= festivalStart && now <= festivalEnd) {
+                                    const dayNumber = Math.floor((now - festivalStart) / (1000 * 60 * 60 * 24)) + 1;
+                                    countdownElement.innerHTML = `56th IFFI - Day ${dayNumber}`;
+                              } else {
+                                    countdownElement.innerHTML = `✨ IFFI closes but never ends…`;
+                                    const elements = document.querySelectorAll('.film-roll-badge');
+                                    elements.forEach(el => el.style.width = "350px");
+                                    clearInterval(interval);
+                              }
+                        }, 1000);
+                  }
+        </script>
+        <script type="text/javascript">
+                  const miffStart = new Date("2026-06-15T00:00:00").getTime();
+                  const miffEnd = new Date("2026-06-15T23:59:59").getTime();
+                  const miffElement = document.getElementById("miff");
+
+                  if (miffElement) {
+                        const miffInterval = setInterval(() => {
+                              const now = new Date().getTime();
+
+                              if (now < miffStart) {
+                                    const diff = miffStart - now;
+                                    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                                    miffElement.innerHTML = `${days} Day${days === 1 ? '' : 's'} to MIFF ...`;
+                              } else if (now >= miffStart && now <= miffEnd) {
+                                    const dayNumber = Math.floor((now - miffStart) / (1000 * 60 * 60 * 24)) + 1;
+                                    miffElement.innerHTML = `19th MIFF - Day ${dayNumber}`;
+                              } else {
+                                    miffElement.innerHTML = `✨ MIFF concludes, cinema lives on...`;
+                                    document.querySelectorAll('.film-roll-badge').forEach(el => el.style.width = "350px");
+                                    clearInterval(miffInterval);
+                              }
+                        }, 1000);
+                  }
+        </script>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("sc_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.ModalPopupBehavior, {"BackgroundCssClass":"modalBackground","PopupControlID":"P_CategoryManagement","dynamicServicePath":"/PressReleasePage.aspx","id":"mpe"}, null, null, $get("Hidden"));
+});
+//]]>
+</script>
+<input type="hidden" name="__ncforminfo" value="xF73HMTAWh1mDVyMEC91QSfNkzetLkTVSNEOUDqvzadUqaJpGLIi00hEp27gzR-4cqkUA-5g7XcNobhA_b_bsqVreOyVx59UNygO647axStEhA3L4EDIwg=="/></form>
+    
+
+<script type="application/json" id="pibConsentConfig">{"ga4Id":"G-Q414Y0X6EE,G-QJJ6LZ8LHV","policyUrl":"/CookiePolicy.aspx","text":{"bannerLabel":"Cookie consent","title":"Cookies on this website","body":"We use essential cookies to make this website work. We also set analytics cookies when you arrive, so we can see how the site is used and improve it - you can switch these off below or at any time from the Cookie Policy page. Cookies from embedded social media content are set only if you allow them.","policyLink":"Read our Cookie Policy","accept":"Accept all","reject":"Reject optional","customize":"Customise","prefsTitle":"Cookie preferences","prefsIntro":"Choose which cookies this website may set. Essential cookies cannot be switched off because the site does not work without them. Analytics cookies are on unless you turn them off. Social media cookies stay off until you allow them. You can change these choices at any time from the Cookie Policy page.","essentialName":"Essential cookies","essentialDesc":"Needed for the site to function. These remember your session, your language and region, your text size and colour theme, and verify the security check on forms. They are always on.","analyticsName":"Analytics cookies","analyticsDesc":"Help us understand how visitors use the site - which pages are read and how long people stay - so it can be improved. The information is collected in a form that does not directly identify you. These are on when you arrive; switching them off here stops them and deletes the ones already set.","socialName":"Social media cookies","socialDesc":"Set by content embedded from X, Facebook and YouTube, such as timelines and videos. These platforms may use them to track you across websites. They stay off until you allow them.","save":"Save preferences","cancel":"Cancel"}}</script>
+<script type="text/javascript" src='/js/consent.js?v=10'></script>
+
+<script type="text/javascript" src='/js/consent-embeds.js?v=10'></script>
+
+
+    <!-- Minimal O(N) Time and O(1) Auxiliary Space Word Count & Read Time Calculation -->
+    <script type="text/javascript">
+            (function () {
+                  function calculateReadingStats() {
+                        var bodyEl = document.getElementById("pibReleaseBody");
+                        if (!bodyEl) return;
+
+                        // textContent extracts text without triggering expensive layout/reflow computations
+                        var text = bodyEl.textContent || "";
+                        var words = 0;
+                        var inWord = false;
+
+                        // O(N) single pass character code scan: achieves O(1) space with zero array allocations
+                        for (var i = 0, len = text.length; i < len; i++) {
+                              var code = text.charCodeAt(i);
+                              // Delimits on ASCII whitespace, control characters, tabs, newlines, and non-breaking spaces (160)
+                              if (code <= 32 || code === 160) {
+                                    inWord = false;
+                              } else if (!inWord) {
+                                    inWord = true;
+                                    words++;
+                              }
+                        }
+
+                        // Standard 250 WPM reading speed (e.g., 612 words yields 2 min read)
+                        var minutes = Math.max(1, Math.round(words / 250));
+
+                        var elWords = document.getElementById("prWordCount");
+                        var elTime = document.getElementById("prReadTime");
+
+                        if (elWords) elWords.textContent = words + (words === 1 ? " word" : " words");
+                        if (elTime) elTime.textContent = minutes + " min read";
+                  }
+
+                  if (document.readyState === "loading") {
+                        document.addEventListener("DOMContentLoaded", calculateReadingStats);
+                  } else {
+                        calculateReadingStats();
+                  }
+            })();
+    </script>
+
+    <script type="text/javascript">
+            (function () {
+                  try {
+                        if (window.self === window.top) { return; }
+                  } catch (e) { return; }
+                  var s = document.createElement("style");
+                  s.textContent = ".sticky-social, .sticky-social_mb { display: none !important; }";
+                  (document.head || document.documentElement).appendChild(s);
+            }());
+    </script>
+</body>
+</html>

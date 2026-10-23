@@ -1,0 +1,551 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/starter-template.css">
+<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/dataTables.bootstrap4.min.css">
+<link rel="stylesheet" href="css/sweetalert.css">
+<script src="js/sweetalert.min.js"></script>
+<script type="text/javascript" src="js/jquery-1.7.min.js"></script>
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/main.js"></script> 
+<title>Major Mineral Block Auction Results</title>
+<link href="../css/scrap_layout.css" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+	<script type="text/javascript">
+		swal("","Invalid input !!java.lang.Exception: Invalid State Selected!");
+		window.location.href = 'mineral_auction_result.jsp';
+	</script>
+	
+
+<style>
+.banner {
+    width: 100%;
+	height:150px !important;
+    background-color: #fff;
+}
+</style>
+<div class="container" >
+	<div class="banner"><img src="images/slider/mlcl_banner.jpg" class="img-fluid" /></div>
+	<div class="menubg">
+	<div class="menubar2">
+		<div id="menu">
+			<ul>
+				<li><a href="index.jsp">Home</a>|</li> 
+				<li><a href="../Layouts/about_us.html">About Us</a>|</li>
+				<li><a href="http://www.mstcindia.co.in/" >www.mstcindia.co.in</a>|</li>
+			</ul>
+		</div>
+	</div> 
+	</div>
+	<div class="middlebox">
+	<div class="">
+  <main class="page-content">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 grid-margin stretch-card mx-auto">
+          <div class="card p-2 shadow-none" style="min-height: 100vh">
+            <div class="card-body">
+              <h4 class="card-title text-uppercase text-center">Critical Mineral Block Auction Results</h4>
+              <form name="bidderForm" id="bidderForm" method="post" action="mineral_auction_result.jsp">
+                <div class="col-lg-12">
+				<div class="form-group row">
+					
+					
+					<div class="col-sm-4">
+						<input class="form-check-input" type="radio" name="typerep" id="typerep1" value="f" checked>
+						<label for="finYr">Select FY:</label>
+						<select class="form-control" for="typerep" id="finYr" name="finYr" onchange="finYrChangeFunc();">
+							<option value="0">Select</option>					
+							
+									<option value="2025-2026">2025-2026</option>
+									
+									<option value="2026-2027" selected>2026-2027</option>
+									
+						 </select>
+					</div>
+					
+					<!-- <div class="col-sm-4">
+						<input class="form-check-input" type="radio" name="typerep" id="typerep2" value="t"  >
+						<label for="tranche">Select Tranche/Phase:</label>
+						<select class="form-control"  for="typerep" id="tranche" name="tranche" onchange="trancheChangeFunc();" style="display:none">
+							<option value="0">Select</option>					
+							
+								<option value="I">I</option>
+								
+								<option value="II">II</option>
+								
+								<option value="III">III</option>
+								
+								<option value="IV">IV</option>
+								
+								<option value="V">V</option>
+								
+								<option value="VI">VI</option>
+								
+								<option value="VII">VII</option>
+								
+								<option value="VIII">VIII</option>
+								
+								<option value="IX">IX</option>
+								
+								<option value="X">X</option>
+								
+								<option value="XI">XI</option>
+								
+								<option value="XII">XII</option>
+								
+								<option value="XIII">XIII</option>
+								
+								<option value="XIV">XIV</option>
+								
+								<option value="XV">XV</option>
+								
+								<option value="XVI">XVI</option>
+								
+								<option value="XVII">XVII</option>
+								
+								<option value="XVIII">XVIII</option>
+								
+								<option value="XIX">XIX</option>
+								
+								<option value="XX">XX</option>
+								
+								<option value="XXI">XXI</option>
+								
+								<option value="XXII">XXII</option>
+								
+								<option value="XXIII">XXIII</option>
+								
+								<option value="XXIV">XXIV</option>
+								
+								<option value="XXV">XXV</option>
+								
+								<option value="XXVI">XXVI</option>
+								
+								<option value="XXVII">XXVII</option>
+								
+								<option value="XXVIII">XXVIII</option>
+								
+								<option value="XXIX">XXIX</option>
+								
+								<option value="XXX">XXX</option>
+								
+								<option value="XXXI">XXXI</option>
+								
+								<option value="XXXII">XXXII</option>
+								
+								<option value="XXXIII">XXXIII</option>
+								
+								<option value="XXXIV">XXXIV</option>
+								
+								<option value="XXXV">XXXV</option>
+								
+								<option value="XXXVI">XXXVI</option>
+								
+								<option value="XXXVII">XXXVII</option>
+								
+								<option value="XXXVIII">XXXVIII</option>
+								
+								<option value="XXXIX">XXXIX</option>
+								
+								<option value="XL">XL</option>
+								
+						 </select>
+					</div> -->
+				</div>
+				
+					<div class="row">
+						<table class="table table-responsive table-bordered text-center">
+						<thead class="thead-light">
+							<tr>
+							  <th width="2%" scope="col">Sl. No.</th>
+							  <th width="10%" scope="col">Name of Mine Block</th>
+							  <th width="10%" scope="col">Auction Number</th>
+							  <th width="5%" scope="col">Mineral Concession<br>(ML/CL/EL)</th>
+							  <th width="10%" scope="col">Name of State</th>
+							  <th width="10%" scope="col">Date of NIT<br>(dd-mm-yyyy)</th>
+							  <th width="10%" scope="col">Auction start<br>(Date and Time)</th>
+							  <th width="10%" scope="col">Auction Close<br>(Date and Time)</th>
+							  <th width="10%" scope="col">Name of Preferred Bidder</th>
+							  <th width="3" scope="col">MSTC Registration No.</th>
+							  <th width="10%" scope="col">Final Price Offer</th>
+							</tr>
+						  </thead>
+						  <tbody>
+							  
+								<tr>
+								  <td>1</td>
+								  <td>Sapneri Vanadium bearing Magnetite Ilmenite Block</td>
+								  <td>MSTC/NRO/Designated Officer Ministry Of Mines/40/Shastri Bhawan/26-27/37394</td>
+								  <td>CL</td>
+								  <td>Bihar</td>
+								  <td>15-07-2026</td>
+								  <td>22-10-2026 14:00:00</td>
+								  <td>22-10-2026 18:48:19</td>
+								  <td>Alt Carbon Tech Private Limited</td>
+								  <td>689632</td>
+								  <td>401.05</td>
+								</tr>
+							  
+								<tr>
+								  <td>2</td>
+								  <td>Naringpanga South Graphite Block</td>
+								  <td>MSTC/NRO/Designated Officer Ministry Of Mines/37/Shastri Bhawan/26-27/37391</td>
+								  <td>CL</td>
+								  <td>Odisha</td>
+								  <td>15-07-2026</td>
+								  <td>16-10-2026 14:00:00</td>
+								  <td>16-10-2026 20:06:52</td>
+								  <td>SUBBURAJAN</td>
+								  <td>693455</td>
+								  <td>30.44</td>
+								</tr>
+							  
+								<tr>
+								  <td>3</td>
+								  <td>Lanjabanda Molybdenum Block</td>
+								  <td>MSTC/NRO/Designated Officer Ministry Of Mines/35/Shastri Bhawan/26-27/37389</td>
+								  <td>CL</td>
+								  <td>Andhra Pradesh</td>
+								  <td>15-07-2026</td>
+								  <td>15-10-2026 14:00:00</td>
+								  <td>16-10-2026 20:06:17</td>
+								  <td>KALINGA RESOURCES LIMITED</td>
+								  <td>663543</td>
+								  <td>105.60</td>
+								</tr>
+							  
+								<tr>
+								  <td>4</td>
+								  <td>Tipa Glauconite Block</td>
+								  <td>MSTC/NRO/Designated Officer Ministry Of Mines/39/Shastri Bhawan/26-27/37393</td>
+								  <td>CL</td>
+								  <td>Bihar</td>
+								  <td>15-07-2026</td>
+								  <td>16-10-2026 14:00:00</td>
+								  <td>16-10-2026 16:00:00</td>
+								  <td>FGM Private Limited</td>
+								  <td>580858</td>
+								  <td>17.05</td>
+								</tr>
+							  
+								<tr>
+								  <td>5</td>
+								  <td>Tamiya Graphite and Manganese Block</td>
+								  <td>MSTC/NRO/Designated Officer Ministry Of Mines/34/Shastri Bhawan/26-27/37388</td>
+								  <td>ML</td>
+								  <td>Odisha</td>
+								  <td>15-07-2026</td>
+								  <td>15-10-2026 14:00:00</td>
+								  <td>15-10-2026 21:09:40</td>
+								  <td>VNR MINERALS LLP</td>
+								  <td>582254</td>
+								  <td>211.00</td>
+								</tr>
+							  
+								<tr>
+								  <td>6</td>
+								  <td>Gurur Glauconite Block</td>
+								  <td>MSTC/NRO/Designated Officer Ministry Of Mines/33/Shastri Bhawan/26-27/37387</td>
+								  <td>CL</td>
+								  <td>Chhattisgarh</td>
+								  <td>15-07-2026</td>
+								  <td>15-10-2026 14:00:00</td>
+								  <td>15-10-2026 16:00:00</td>
+								  <td>AMPL MINERALS PRIVATE LIMITED</td>
+								  <td>703321</td>
+								  <td>15.20</td>
+								</tr>
+							  
+								<tr>
+								  <td>7</td>
+								  <td>Nawara Nawadih Glauconite Block</td>
+								  <td>MSTC/NRO/Designated Officer Ministry Of Mines/36/Shastri Bhawan/26-27/37390</td>
+								  <td>CL</td>
+								  <td>Bihar</td>
+								  <td>15-07-2026</td>
+								  <td>15-10-2026 14:00:00</td>
+								  <td>15-10-2026 16:00:00</td>
+								  <td>FGM Private Limited</td>
+								  <td>580858</td>
+								  <td>4.55</td>
+								</tr>
+							  
+								<tr>
+								  <td>8</td>
+								  <td>Dindo Belkurta Basera Graphite Block</td>
+								  <td>MSTC/NRO/Designated Officer Ministry Of Mines/11/Shastri Bhawan/26-27/14660</td>
+								  <td>CL</td>
+								  <td>Chhattisgarh</td>
+								  <td>23-03-2026</td>
+								  <td>16-06-2026 14:00:00</td>
+								  <td>16-06-2026 19:37:11</td>
+								  <td>SHRI MAHAKAAL INFRASTRUCTURE</td>
+								  <td>477521</td>
+								  <td>680.30</td>
+								</tr>
+							  
+								<tr>
+								  <td>9</td>
+								  <td>Lamer Panga B Graphite Block</td>
+								  <td>MSTC/NRO/Designated Officer Ministry Of Mines/9/Shastri Bhawan/26-27/14658</td>
+								  <td>CL</td>
+								  <td>Odisha</td>
+								  <td>23-03-2026</td>
+								  <td>12-06-2026 14:00:00</td>
+								  <td>12-06-2026 21:25:29</td>
+								  <td>VNR MINERALS LLP</td>
+								  <td>582254</td>
+								  <td>309.30</td>
+								</tr>
+							  
+								<tr>
+								  <td>10</td>
+								  <td>Karna REE Block</td>
+								  <td>MSTC/NRO/Designated Officer Ministry Of Mines/10/Shastri Bhawan/26-27/14659</td>
+								  <td>CL</td>
+								  <td>Rajasthan</td>
+								  <td>23-03-2026</td>
+								  <td>12-06-2026 14:00:00</td>
+								  <td>12-06-2026 19:06:16</td>
+								  <td>SKN .HARYANA CITY GAS DISTRIBUTION PRIVATE LIMITED</td>
+								  <td>574022</td>
+								  <td>25.00</td>
+								</tr>
+							  
+								<tr>
+								  <td>11</td>
+								  <td>Govindpur Vanadium Titanium and Aluminous Laterite Mine Block</td>
+								  <td>MSTC/NRO/Designated Officer Ministry Of Mines/8/Shastri Bhawan/26-27/14657</td>
+								  <td>CL</td>
+								  <td>Telangana</td>
+								  <td>23-03-2026</td>
+								  <td>12-06-2026 14:00:00</td>
+								  <td>12-06-2026 16:00:00</td>
+								  <td>NLC India Limited</td>
+								  <td>469842</td>
+								  <td>7.05</td>
+								</tr>
+							  
+								<tr>
+								  <td>12</td>
+								  <td>Lamer Panga A Graphite Block</td>
+								  <td>MSTC/NRO/Designated Officer Ministry Of Mines/4/Shastri Bhawan/26-27/14509</td>
+								  <td>CL</td>
+								  <td>Odisha</td>
+								  <td>23-03-2026</td>
+								  <td>11-06-2026 14:00:00</td>
+								  <td>12-06-2026 02:31:40</td>
+								  <td>VNR MINERALS LLP</td>
+								  <td>582254</td>
+								  <td>673.60</td>
+								</tr>
+							  
+								<tr>
+								  <td>13</td>
+								  <td>Gundlupet REE and Yttrium Mine Block</td>
+								  <td>MSTC/NRO/Designated Officer Ministry Of Mines/3/Shastri Bhawan/26-27/14507</td>
+								  <td>ML</td>
+								  <td>Karnataka</td>
+								  <td>23-03-2026</td>
+								  <td>11-06-2026 14:00:00</td>
+								  <td>11-06-2026 18:00:40</td>
+								  <td>HINDUSTAN ZINC LIMITED</td>
+								  <td>299959</td>
+								  <td>10.05</td>
+								</tr>
+							  
+								<tr>
+								  <td>14</td>
+								  <td>Parvathapur Vanadium Titanium and Aluminous Laterite Mine Block</td>
+								  <td>MSTC/NRO/Designated Officer Ministry Of Mines/2/Shastri Bhawan/26-27/14505</td>
+								  <td>CL</td>
+								  <td>Telangana</td>
+								  <td>23-03-2026</td>
+								  <td>11-06-2026 14:00:00</td>
+								  <td>11-06-2026 16:00:00</td>
+								  <td>NLC India Limited</td>
+								  <td>469842</td>
+								  <td>6.05</td>
+								</tr>
+							  
+								<tr>
+								  <td>15</td>
+								  <td>Pakro Vanadium and Graphite Mine Block</td>
+								  <td>MSTC/NRO/Designated Officer Ministry Of Mines/5/Shastri Bhawan/26-27/14510</td>
+								  <td>CL</td>
+								  <td>Arunachal Pradesh</td>
+								  <td>23-03-2026</td>
+								  <td>11-06-2026 14:00:00</td>
+								  <td>11-06-2026 16:00:00</td>
+								  <td>OILMAX ENERGY PRIVATE LIMITED</td>
+								  <td>587804</td>
+								  <td>235.00</td>
+								</tr>
+							  
+								<tr>
+								  <td>16</td>
+								  <td>Katesar Guneri Glauconite Block</td>
+								  <td>MSTC/NRO/Designated Officer Ministry Of Mines/6/Shastri Bhawan/26-27/14512</td>
+								  <td>CL</td>
+								  <td>Gujarat</td>
+								  <td>23-03-2026</td>
+								  <td>11-06-2026 14:00:00</td>
+								  <td>11-06-2026 16:00:00</td>
+								  <td>MOTI MARBALS</td>
+								  <td>632580</td>
+								  <td>3.60</td>
+								</tr>
+							  
+								<tr>
+								  <td>17</td>
+								  <td>Kathyur Phosphate Mine Block</td>
+								  <td>MSTC/NRO/Designated Officer Ministry Of Mines/7/Shastri Bhawan/26-27/14513</td>
+								  <td>CL</td>
+								  <td>Uttarakhand</td>
+								  <td>23-03-2026</td>
+								  <td>11-06-2026 14:00:00</td>
+								  <td>11-06-2026 16:00:00</td>
+								  <td>PAHEL DYNAMIC PRIVATE LIMITED</td>
+								  <td>590519</td>
+								  <td>20.10</td>
+								</tr>
+							  
+								<tr>
+								  <td>18</td>
+								  <td>Test Mine Mock Auction</td>
+								  <td>MSTC/NRO/Designated Officer Ministry Of Mines/1/Shastri Bhawan/26-27/12379</td>
+								  <td>CL</td>
+								  <td>Delhi</td>
+								  <td>01-06-2026</td>
+								  <td>02-06-2026 15:00:00</td>
+								  <td>06-06-2026 14:00:00</td>
+								  <td>FORWAY INFRAPROPERTIES PRIVATE LIMITED</td>
+								  <td>131888</td>
+								  <td>3000.55</td>
+								</tr>
+							  
+						  </tbody>
+						</table>
+					 </div>
+				
+                </div>
+				<input type="hidden" name="sellerRefId" id="sellerRefId" value="31608">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+
+	<div class="blnkspc"></div>     
+	<div class="blnkspc"></div>       
+	<!--footer-->
+	<div class="foot_below">
+		<div class="foot_txt">Copyright&copy;MSTC Limited</div>
+	</div>
+	</div>
+</div>
+<script>
+$(document).ready(function(){
+var typeRepVal = $('input[name="typerep"]:checked').val();
+	if (typeRepVal == 't') {
+		$("#typerep1").prop("checked", false);
+		$("#tranche").css("display","");
+		$("#finYr").css("display","none"); 
+	}else{
+		$("#typerep2").prop("checked", false);
+		$("#tranche").css("display","none");
+		$("#finYr").css("display",""); 
+	}
+});
+function stateChangeFunc(){
+	$('#finYr').val('0');
+	$('#tranche').val('0');     
+}
+$( 'input[name="typerep"]:radio' ).on('change', function() {
+	var typeRepVal = $('input[name="typerep"]:checked').val();
+	if (typeRepVal == 't') {
+		$("#typerep1").prop("checked", false);
+		$("#tranche").css("display","");
+		$("#finYr").css("display","none"); 
+	}else{
+		$("#typerep2").prop("checked", false);
+		$("#tranche").css("display","none");
+		$("#finYr").css("display",""); 
+	}
+	$('#finYr').val('0');
+	$('#tranche').val('0');  
+});		
+function finYrChangeFunc(){
+	if($('#stateSelected').val() == "0"){
+		swal("","Please Select State !!");
+		$('#stateSelected').focus();
+		return false;
+	}
+	
+	var typeSelected = false
+	if($("#typerep").prop("checked") == true){
+		typeSelected = true;
+	}
+	
+	var typerep=$('#typerep').val();
+	
+	if(typeSelected==true & typerep=='f'){
+		if($('#finYr').val() == "0"){
+			swal("","Please Select Financial Year !!");
+			$('#finYr').focus();
+			return false;
+		}
+	}
+	$('#bidderForm').submit();
+}
+function trancheChangeFunc(){
+	
+	if($('#stateSelected').val() == "0"){
+		swal("","Please Select State !!");
+		$('#stateSelected').focus();
+		return false;
+	}
+	var typeSelected = false
+	if($("#typerep").prop("checked") == true){
+		typeSelected = true;
+	}
+	var typerep=$('#typerep').val();
+	if(typeSelected==true & typerep=='t' ){
+		if($('#tranche').val() == "0"){
+			swal("","Please Select Tranche/Phase !!");
+			$('#finYr').focus();
+			return false;
+		}
+	}
+	$('#bidderForm').submit();
+}
+</script>
+</body> 
+</html> 

@@ -1,0 +1,781 @@
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+            Sl. No   Block Name   Name of       Resource and Grade ^  Pricing Assumption    Remarks                 
+                                   Mineral                                                                          
+             1.    Aad Sarai-Garhwa Diamond NA                       NA              The estimated resource quantity
+                   Diamond Block                                                     has not been reported in the GR
+                                                                                     or Mineral Block Summary.      
+                                                                                     Hence Value of Estimated       
+                                                                                     Resource cannot be estimated.  
+             2.    Aber Laterite & Limestone Limestone: 5.25 million tonnes (Cement Madhya Pradesh The Average Sale Price for May
+                   Limestone Block and Laterite Grade)               State Price for 2023 and June 2023 has not been
+                                                                     Cement Grade    published by IBM. Accordingly, 
+                                                                     Limestone       “Madhya Pradesh state price” for
+                                                                     (For the month of July the latest month published i.e.
+                                                                     2022 till June 2023) April 2023 has been considered
+                                                                                     for May 2023 and June          
+                                                                                     2023 while calculating the     
+                                                                                     average sale price.            
+                                                                                     Presence of minor mineral is   
+                                                                                     there in the block but same has
+                                                                                                                    
+                                                                                     not been considered for VER    
+                                                                                     estimation.                    
+             3.    Amlihwah Gold and Gold and NA                     NA              The estimated resource quantity
+                   Base Metal Block Base metal                                       has not been reported in the GR
+                                                                                     or Mineral Block Summary.      
+                                                                                     Hence Value of Estimated       
+                                                                                     Resource cannot be estimated.  
+             4.    Badiya Limestone Limestone 0.56 million tonnes    Madhya Pradesh  The Average Sale Price for May 
+                   Block                   (Cement Grade)            State Price for 2023 and June 2023 has not been
+                                                                     Cement Grade    published by IBM. Accordingly, 
+                                                                     Limestone       “Madhya Pradesh state price” for
+                                                                     (For the month of July the latest month published i.e.
+                                                                     2022 till June 2023) April 2023 has been considered
+                                                                                     for May 2023 and June          
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+            Sl. No   Block Name   Name of       Resource and Grade ^  Pricing Assumption    Remarks                 
+                                   Mineral                                                                          
+                                                                                     2023 while calculating the     
+                                                                                     average sale price.            
+             5.    Bamanbardi    Limestone 158 million tonnes        Madhya Pradesh  The Average Sale Price for May 
+                   Limestone Block         (Cement Grade)            State Price for 2023 and June 2023 has not been
+                                                                                                                    
+                                                                     Cement Grade    published by IBM. Accordingly, 
+                                                                     Limestone       “Madhya Pradesh state price” for
+                                                                     (For the month of July the latest month published i.e.
+                                                                     2022 till June 2023) April 2023 has been considered
+                                                                                     for May 2023 and June          
+                                                                                     2023 while calculating the     
+                                                                                     average sale price.            
+             6.    Bargaon Tarora Basemetal NA                       NA              The estimated resource quantity
+                   Basemental Block (Cu & Zn)                                        has not been reported in the GR
+                                                                                     or Mineral Block Summary.      
+                                                                                     Hence Value of Estimated       
+                                                                                     Resource cannot be estimated.  
+             7.    Belkhedi      Basemetal NA                        NA              The estimated resource quantity
+                   Basemental Block                                                  has not been reported in the GR
+                                                                                     or Mineral Block Summary.      
+                                                                                     Hence Value of Estimated       
+                                                                                     Resource cannot be estimated.  
+             8.    Betwasa Graphite Graphite NA                      NA              The estimated resource quantity
+                   Block                                                             has not been reported in the GR
+                                                                                     or Mineral Block Summary.      
+                                                                                     Hence Value of Estimated       
+                                                                                     Resource cannot be estimated.  
+                                                                                                                    
+             9.    Bhilapar      Manganese Manganese Ore: 63,000 tonnes Madhya Pradesh The Average Sale Price for May
+                   Manganese Ore and Ore and (12.40% to 29.40% Mn)   State Price for 2023 and June 2023 has not been
+                   Dolomite Block Dolomite                           Manganese (Mn.  published by IBM. Accordingly, 
+                                                                     below 25%)      “Madhya Pradesh state price” for
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+            Sl. No   Block Name   Name of       Resource and Grade ^  Pricing Assumption    Remarks                 
+                                   Mineral                                                                          
+                                                                     (For the month of July the latest month published i.e.
+                                                                     2022 till June 2023) April 2023 has been considered
+                                                                                     for May 2023 and June 2023     
+                                                                                     while calculating the average sale
+                                                                                     price.                         
+                                                                                                                    
+                                                                                     Presence of minor mineral      
+                                                                                     (Dolomite) is there in the block
+                                                                                     but same has not been          
+                                                                                     considered for VER estimation  
+             10.   Byodihar Gold and Gold and NA                     NA              The estimated resource quantity
+                   Basemetal Block Base metal                                        has not been reported in the GR
+                                                                                     or Mineral Block Summary.      
+                                                                                     Hence Value of Estimated       
+                                                                                     Resource cannot be estimated.  
+             11.   Chhatarpur Iron Laterite, Iron Manganese Ore      Madhya Pradesh  Manganese Ore                  
+                                                                                                                    
+                   Ore, Manganese Ore and  0.12 million tonnes       State Price for The Average Sale Price for May 
+                   Ore and Laterite Manganese (Mn is 10 to 35% Mn)   Manganese Ore (25% 2023 and June 2023 has not been
+                   Block         Ore                                 to below 35% Mn) published by IBM. Accordingly,
+                                           Iron Ore                  (For the month of July “Madhya Pradesh state price” for
+                                           2.03 million tonnes       2022 till June 2023) the latest month published i.e.
+                                           (Fe = 45.39 to 52.59%)                    April 2023 has been considered 
+                                                                     Madhya Pradesh  for May 2023 and June          
+                                           Lumps to Fines ratio – 19.4: 80.6 State Price for Iron 2023 while calculating the
+                                                                     Ore Lumps (51% to average sale price.          
+                                                                     below 55% Fe)                                  
+                                                                     (For the month of July Iron Ore Lumps          
+                                                                     2022 till June 2023) The Average Sale Price for May
+                                                                                     2023 and June 2023 has not been
+                                                                     Madhya Pradesh  published by IBM. Accordingly, 
+                                                                     State Price for Iron “Madhya Pradesh state price” for
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+            Sl. No   Block Name   Name of       Resource and Grade ^  Pricing Assumption    Remarks                 
+                                   Mineral                                                                          
+                                                                     Ore Fines (51% to the latest month published i.e.
+                                                                     below 55% Fe)   April 2023 has been considered 
+                                                                     (For the month of July for May 2023 and June   
+                                                                     2022 till June 2023) 2023 while calculating the
+                                                                                     average sale price.            
+                                                                                                                    
+                                                                                     Iron Ore Fines                 
+                                                                                     The Average Sale Price for May 
+                                                                                     2023 and June 2023 has not been
+                                                                                     published by IBM. Accordingly, 
+                                                                                     “Madhya Pradesh state price” for
+                                                                                     the latest month published i.e.
+                                                                                     April 2023 has been considered 
+                                                                                     for May 2023 and June          
+                                                                                     2023 while calculating the     
+                                                                                     average sale price.            
+                                                                                                                    
+                                                                                     Presence of minor mineral is   
+                                                                                     there in the block but same has
+                                                                                     not been considered for VER    
+                                                                                                                    
+                                                                                     estimation.                    
+             12.   Chorgadi - Puraina Limestone 100.98 million tonnes Madhya Pradesh The Average Sale Price for May 
+                   Limestone Block         Cement Grade: 61.89 million tonnes State Price for 2023 and June 2023 has not been
+                                           Blendable Grade: 39.09 million tonnes Cement Grade published by IBM. Accordingly,
+                                           (Cement Grade)            Limestone       “Madhya Pradesh state price” for
+                                                                     (For the month of July the latest month published i.e.
+                                                                     2022 till June 2023) April 2023 has been considered
+                                                                                     for May 2023 and June 2023     
+                                                                                     while calculating the average sale
+                                                                                     price.                         
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+            Sl. No   Block Name   Name of       Resource and Grade ^  Pricing Assumption    Remarks                 
+                                   Mineral                                                                          
+                                                                                     Blendable grade Limestone has  
+                                                                                     been considered as cement      
+                                                                                     grade for VER estimation       
+             13.   Dhamani Nana  Manganese 44,887 tonnes             Madhya Pradesh  The Average Sale Price for May 
+                   Manganese Ore           (+20%-25% Mn)             State Price for 2023 and June 2023 has not been
+                   Block                                             Manganese (Mn.  published by IBM. Accordingly, 
+                                                                     below 25%)      “Madhya Pradesh state price” for
+                                                                     (For the month of July the latest month published i.e.
+                                                                     2022 till June 2023) April 2023 has been considered
+                                                                                     for May 2023 and June 2023     
+                                                                                     while calculating the average sale
+                                                                                     price.                         
+             14.   Doter- Guvali Manganese NA                        NA              The estimated resource quantity
+                   Manganese Ore                                                     has not been reported in the GR
+                   Block                                                             or Mineral Block Summary.      
+                                                                                     Hence Value of Estimated       
+                                                                                                                    
+                                                                                     Resource cannot be estimated.  
+             15.   East of Dabri Limestone 105 MT (Cement Grade)     Madhya Pradesh  The Average Sale Price for May 
+                   Limestone Block                                   State Price for 2023 and June 2023 has not been
+                                                                     Cement Grade    published by IBM. Accordingly, 
+                                                                     Limestone       “Madhya Pradesh state price” for
+                                                                     (For the month of July the latest month published i.e.
+                                                                     2022 till June 2023) April 2023 has been considered
+                                                                                     for May 2023 and June          
+                                                                                     2023 while calculating the     
+                                                                                     average sale price.            
+             16.   Garhi Upcha   Limestone 76.44 MT (Cement Grade)   Madhya Pradesh  The Average Sale Price for May 
+                   Limestone Block                                   State Price for 2023 and June 2023 has not been
+                                                                     Cement Grade    published by IBM. Accordingly, 
+                                                                     Limestone       “Madhya Pradesh state price” for
+                                                                                     the latest month published i.e.
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+            Sl. No   Block Name   Name of       Resource and Grade ^  Pricing Assumption    Remarks                 
+                                   Mineral                                                                          
+                                                                     (For the month of July April 2023 has been considered
+                                                                     2022 till June 2023) for May 2023 and June     
+                                                                                     2023 while calculating the     
+                                                                                     average sale price.            
+             17.   Guvali Manganese Manganese 36,000 tonnes          Madhya Pradesh  The Average Sale Price for May 
+                   Ore Block               (11.50% Mn)               State Price for 2023 and June 2023 has not been
+                                                                     Manganese (Mn.  published by IBM. Accordingly, 
+                                                                     below 25%)      “Madhya Pradesh state price” for
+                                                                     (For the month of July the latest month published i.e.
+                                                                     2022 till June 2023) April 2023 has been considered
+                                                                                     for May 2023 and June 2023     
+                                                                                     while calculating the average sale
+                                                                                     price.                         
+             18.   Harsa-1 Diamond Diamond NA                        NA              The estimated resource quantity
+                   Block                                                             has not been reported in the GR
+                                                                                     or Mineral Block Summary.      
+                                                                                                                    
+                                                                                     Hence Value of Estimated       
+                                                                                     Resource cannot be estimated.  
+             19.   Harsa-2 Diamond Diamond NA                        NA              The estimated resource quantity
+                   Block                                                             has not been reported in the GR
+                                                                                     or Mineral Block Summary.      
+                                                                                     Hence Value of Estimated       
+                                                                                     Resource cannot be estimated.  
+             20.   Juwari Chhoti-Gura Graphite NA                    NA              The estimated resource quantity
+                   Bara Graphite Block                                               has not been reported in the GR
+                                                                                     or Mineral Block Summary.      
+                                                                                     Hence Value of Estimated       
+                                                                                     Resource cannot be estimated.  
+             21.   Karmau and    Limestone 22.97MT (Blendable and Cement Grade) Madhya Pradesh The Average Sale Price for May
+                   Mungwari                Cement grade: 21.17 MT    State Price for 2023 and June 2023 has not been
+                   Limestone Block         Blendable Grade: 1.79 MT                  published by IBM. Accordingly, 
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+            Sl. No   Block Name   Name of       Resource and Grade ^  Pricing Assumption    Remarks                 
+                                   Mineral                                                                          
+                                                                     Cement Grade    “Madhya Pradesh state price” for
+                                                                     Limestone       the latest month published i.e.
+                                                                     (For the month of July April 2023 has been considered
+                                                                     2022 till June 2023) for May 2023 and June 2023
+                                                                                     while calculating the average sale
+                                                                                     price.                         
+                                                                                                                    
+                                                                                     Blendable grade limestone is   
+                                                                                     being considered as cement     
+                                                                                     grade for VER estimation.      
+             22.   Karondi Sagodi Limestone 34.32 MT (Cement Grade)  Madhya Pradesh  The Average Sale Price for May 
+                   Limestone Block                                   State Price for 2023 and June 2023 has not been
+                                                                     Cement Grade    published by IBM. Accordingly, 
+                                                                     Limestone       “Madhya Pradesh state price” for
+                                                                     (For the month of July the latest month published i.e.
+                                                                     2022 till June 2023) April 2023 has been considered
+                                                                                     for May 2023 and June          
+                                                                                     2023 while calculating the     
+                                                                                                                    
+                                                                                     average sale price.            
+             23.   Katangjhari   Manganese 2,18,357 tonnes           Madhya Pradesh  The Average Sale Price for May 
+                   Manganese Ore           (29.08% Mn)               State Price for 2023 and June 2023 has not been
+                   Block                                             Manganese (25%- published by IBM. Accordingly, 
+                                                                     35%)            “Madhya Pradesh state price” for
+                                                                     (For the month of July the latest month published i.e.
+                                                                     2022 till June 2023) April 2023 has been considered
+                                                                                     for May 2023 and June 2023     
+                                                                                     while calculating the average sale
+                                                                                     price.                         
+             24.   Katni Limestone Limestone 7.62 million tonnes     Madhya Pradesh  The Average Sale Price for May 
+                   Block                   (Cement Grade)            State Price for 2023 and June 2023 has not been
+                                                                                     published by IBM. Accordingly, 
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+            Sl. No   Block Name   Name of       Resource and Grade ^  Pricing Assumption    Remarks                 
+                                   Mineral                                                                          
+                                                                     Cement Grade    “Madhya Pradesh state price” for
+                                                                     Limestone       the latest month published i.e.
+                                                                     (For the month of July April 2023 has been considered
+                                                                     2022 till June 2023) for May 2023 and June     
+                                                                                     2023 while calculating the     
+                                                                                     average sale price.            
+             25.   Khari Takari  Limestone 75.4 MT (Cement Grade)    Madhya Pradesh  The Average Sale Price for May 
+                   Limestone Block                                   State Price for 2023 and June 2023 has not been
+                                                                     Cement Grade    published by IBM. Accordingly, 
+                                                                     Limestone       “Madhya Pradesh state price” for
+                                                                     (For the month of July the latest month published i.e.
+                                                                     2022 till June 2023) April 2023 has been considered
+                                                                                     for May 2023 and June          
+                                                                                     2023 while calculating the     
+                                                                                     average sale price.            
+             26.   Khatali Chhoti Graphite NA                        NA              The estimated resource quantity
+                                                                                                                    
+                   Graphite Block                                                    has not been reported in the GR
+                                                                                     or Mineral Block Summary.      
+                                                                                     Hence Value of Estimated       
+                                                                                     Resource cannot be estimated.  
+             27.   Kheriya Limestone Limestone 61.24 million tonnes  Madhya Pradesh  The Average Sale Price for May 
+                   Block                   (Cement Grade)            State Price for 2023 and June 2023 has not been
+                                                                     Cement Grade    published by IBM. Accordingly, 
+                                                                     Limestone       “Madhya Pradesh state price” for
+                                                                     (For the month of July the latest month published i.e.
+                                                                     2022 till June 2023) April 2023 has been considered
+                                                                                     for May 2023 and June          
+                                                                                     2023 while calculating the     
+                                                                                     average sale price.            
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+            Sl. No   Block Name   Name of       Resource and Grade ^  Pricing Assumption    Remarks                 
+                                   Mineral                                                                          
+             28.   Lingaponar    Manganese 16,160 tonnes             Madhya Pradesh  The Average Sale Price for May 
+                   Manganese Ore Ore       (22.39% to below 38.71% Mn) State Price for 2023 and June 2023 has not been
+                   Block                                             Manganese (Mn.  published by IBM. Accordingly, 
+                                                                     25%-35%)        “Madhya Pradesh state price” for
+                                                                     (For the month of July the latest month published i.e.
+                                                                     2022 till June 2023) April 2023 has been considered
+                                                                                     for May 2023 and June 2023     
+                                                                                     while calculating the average sale
+                                                                                     price.                         
+             29.   Makra Graphite Graphite and Graphite              All India Prices for Graphite                  
+                   Vanadium Block Vanadium 0.62 million tonnes       Graphite (With less The Average Sale Price for May
+                                           (Average Grade of 9.05% Fixed Carbon) than 20% fixed 2023 and June 2023 has not been
+                                                                     carbon)         published by IBM. Accordingly, 
+                                           Vanadium                  (For the month of July “All India Price” for the latest
+                                           0.49 million tonnes       2022 till June 2023) month published i.e. April 2023
+                                           (840 ppm Vanadium)                        has been considered for May    
+                                                                                                                    
+                                                                     All India Prices for 2023 and June 2023 while  
+                                                                     Vanadium Pentoxide calculating the average sale
+                                                                     (1499.6 ppm)    price.                         
+                                                                     (For the month of July                         
+                                                                     2022 till June 2023) Vanadium                  
+                                                                                     The Average Sale Price for April
+                                                                                     2023, May 2023, and June 2023  
+                                                                                     has not been published by IBM. 
+                                                                                     Accordingly, “All India Price” for
+                                                                                     the latest month published i.e.
+                                                                                     March 2023 has been considered 
+                                                                                     for April 2023, May 2023, and  
+                                                                                     June 2023 while calculating the
+                                                                                     average sale price.            
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+            Sl. No   Block Name   Name of       Resource and Grade ^  Pricing Assumption    Remarks                 
+                                   Mineral                                                                          
+             30.   Modri Phosphorite Phosphorite 50,625 tonnes at 8.46% p2o5 and Madhya Pradesh The Average Sale Price for May
+                   Block                   22,500 tonnes at 16.66 % of P2O5 State Price for 2023 and June 2023 has not been
+                                                                     Phosphorite Upto published by IBM. Accordingly,
+                                                                     20% P2O5        “Madhya Pradesh state price” for
+                                                                     (For the month of July the latest month published i.e.
+                                                                     2022 till June 2023) April 2023 has been considered
+                                                                                     for May 2023 and June          
+                                                                                     2023 while calculating the     
+                                                                                     average sale price.            
+                                                                                                                    
+                                                                                     Resource of 50,625 tonnes at   
+                                                                                     8.46% p2o5 has been considered 
+                                                                                     for VER estimation.            
+             31.   Mordongri     PGE       NA                        NA              The estimated resource quantity
+                   (Jamtara) Platinum                                                has not been reported in the GR
+                   Group Elements                                                    or Mineral Block Summary.      
+                                                                                                                    
+                   (PGE) Block                                                       Hence Value of Estimated       
+                                                                                     Resource cannot be estimated.  
+             32.   Naganwat-Chhoti Manganese 54,900 tonnes           Madhya Pradesh  The Average Sale Price for May 
+                   Manganese Ore Ore       (Average Grade 30.96% Mn) State Price for 2023 and June 2023 has not been
+                   Block                                             Manganese (Mn.  published by IBM. Accordingly, 
+                                                                     25%-35%)        “Madhya Pradesh state price” for
+                                                                     (For the month of July the latest month published i.e.
+                                                                     2022 till June 2023) April 2023 has been considered
+                                                                                     for May 2023 and June 2023     
+                                                                                     while calculating the average sale
+                                                                                     price.                         
+             33.   Nawapara Rampura Manganese NA                     NA              The estimated resource quantity
+                   Manganese Ore Ore                                                 has not been reported in the GR
+                   Block                                                             or Mineral Block Summary.      
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+            Sl. No   Block Name   Name of       Resource and Grade ^  Pricing Assumption    Remarks                 
+                                   Mineral                                                                          
+                                                                                     Hence Value of Estimated       
+                                                                                     Resource cannot be estimated.  
+             34.   Nimarmunda    Limestone 7.51 MT (Cement Grade)    Madhya Pradesh  The Average Sale Price for May 
+                   Limestone Block                                   State Price for 2023 and June 2023 has not been
+                                                                                                                    
+                                                                     Cement Grade    published by IBM. Accordingly, 
+                                                                     Limestone       “Madhya Pradesh state price” for
+                                                                     (For the month of July the latest month published i.e.
+                                                                     2022 till June 2023) April 2023 has been considered
+                                                                                     for May 2023 and June          
+                                                                                     2023 while calculating the     
+                                                                                     average sale price.            
+             35.   Pachama Dadar Bauxite   2.63 million tonnes       All India Prices for The Average Sale Price for April
+                   Bauxite Block           (Metallurgical Grade – 43.82% Alumina) Aluminum 2023 has not been published by
+                                                                     (For the month of July IBM. Accordingly, “All India
+                                                                     2022 till June 2023) Prices” for the latest month
+                                                                                     published i.e. May 2023 has been
+                                                                                     considered for June 2023 while 
+                                                                                     calculating the average sale   
+                                                                                     price.                         
+             36.   Pahari Limestone Limestone 23.28 million tonnes   Madhya Pradesh  The Average Sale Price for May 
+                   Block                   (Cement Grade)            State Price for 2023 and June 2023 has not been
+                                                                     Cement Grade    published by IBM. Accordingly, 
+                                                                     Limestone       “Madhya Pradesh state price” for
+                                                                     (For the month of July the latest month published i.e.
+                                                                     2022 till June 2023) April 2023 has been considered
+                                                                                     for May 2023 and June 2023     
+                                                                                     while calculating the average sale
+                                                                                     price.                         
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+            Sl. No   Block Name   Name of       Resource and Grade ^  Pricing Assumption    Remarks                 
+                                   Mineral                                                                          
+             37.   Palasdor      Manganese 19,600 tonnes             Madhya Pradesh  The Average Sale Price for May 
+                   Manganese Ore           (Mn – 28.44%)             State Price for 2023 and June 2023 has not been
+                   Block                                             Manganese (Mn.  published by IBM. Accordingly, 
+                                                                     25%-35%)        “Madhya Pradesh state price” for
+                                                                     (For the month of July the latest month published i.e.
+                                                                     2022 till June 2023) April 2023 has been considered
+                                                                                     for May 2023 and June 2023     
+                                                                                     while calculating the average sale
+                                                                                     price.                         
+             38.   Parsili Iron Ore and Iron Ore 101.44 MT (58.76% Fe) Madhya Pradesh Iron Ore Lumps                
+                   Dolomite Block                                    State Price for Iron The Average Sale Price for only
+                                           Lumps to Fines ratio – 19.4 : 80.6 Ore Lumps (58% to April 2023 has been published by
+                                                                     below 60% Fe)   IBM. Accordingly, “Madhya      
+                                                                     (For the month of July Pradesh State Price” for the
+                                                                     2022 till June 2023) latest month published i.e. April
+                                                                                     2023 has been considered for all
+                                                                                                                    
+                                                                     All India Price for Iron the remaining months while
+                                                                     Ore Fines (58% to calculating the average sale 
+                                                                     below 60% Fe)   price.                         
+                                                                                                                    
+                                                                     (For the month of July Iron Ore Fines          
+                                                                     2022 till June 2023) The Average Sale Price for May
+                                                                                     2023 and June 2023 has not been
+                                                                                     published by IBM. Accordingly, 
+                                                                                     “All India Price” for the latest
+                                                                                     month published i.e. April 2023
+                                                                                     has been considered for May    
+                                                                                     2023 and June 2023 while       
+                                                                                     calculating the average sale   
+                                                                                     price.                         
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+            Sl. No   Block Name   Name of       Resource and Grade ^  Pricing Assumption    Remarks                 
+                                   Mineral                                                                          
+                                                                                     Presence of minor mineral is   
+                                                                                     there in the block but same has
+                                                                                     not been considered for VER    
+                                                                                     estimation.                    
+                                                                                                                    
+             39.   Pastalaimal   Basemetal NA                        NA              The estimated resource quantity
+                   Basemental Block                                                  has not been reported in the GR
+                                                                                     or Mineral Block Summary.      
+                                                                                     Hence Value of Estimated       
+                                                                                     Resource cannot be estimated.  
+             40.   Patra Graphite Graphite NA                        NA              The estimated resource quantity
+                   Block                                                             has not been reported in the GR
+                                                                                     or Mineral Block Summary.      
+                                                                                     Hence Value of Estimated       
+                                                                                     Resource cannot be estimated.  
+                                                                                                                    
+             41.   Patra North   Graphite  NA                        NA              The estimated resource quantity
+                   Graphite Block                                                    has not been reported in the GR
+                                                                                     or Mineral Block Summary.      
+                                                                                     Hence Value of Estimated       
+                                                                                     Resource cannot be estimated.  
+             42.   Pindrai Iron Ore Iron Ore 2.12 million tonnes     All India Price for Iron Iron Ore Lumps        
+                   Block                   (Fe = 52% and 58.1% from 2 samples) Ore Lumps (55% to The Average Sale Price for May
+                                                                     below 58% Fe)   2023 and June 2023 has not been
+                                           Lumps to Fines ratio – 19.4 : 80.6 (For the month of July published by IBM. Accordingly,
+                                                                     2022 till June 2023) “All India price” for the latest
+                                                                                     month published i.e. April 2023
+                                                                     Madhya Pradesh  has been considered for May    
+                                                                     State Price for Iron 2023 and June 2023 while  
+                                                                     Ore Fines (55% to calculating the average sale 
+                                                                     below 58% Fe)   price.                         
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+            Sl. No   Block Name   Name of       Resource and Grade ^  Pricing Assumption    Remarks                 
+                                   Mineral                                                                          
+                                                                     (For the month of July Iron Ore Fines          
+                                                                     2022 till June 2023) The Average Sale Price for August
+                                                                                     2022, October 2022 to February 
+                                                                                     2023, May 2023 and June 2023   
+                                                                                     has not been published by IBM. 
+                                                                                     Accordingly, “Madhya Pradesh   
+                                                                                     state price” for the latest month
+                                                                                     published i.e. April 2023 has  
+                                                                                     been considered for August     
+                                                                                     2022, October 2022 to February 
+                                                                                     2023, May 2023 and June 2023   
+                                                                                     while calculating the average sale
+                                                                                     price.                         
+                                                                                                                    
+             43.   Pipariya Mal (West) Bauxite and 25,23,924 tonnes “Bauxite” (35.107%) Madhya Pradesh The Average Sale Price for May
+                   Bauxite Block Aluminous                           State Price for 2023 and June 2023 has not been
+                                 Laterite  50,61,645 “Aluminous Laterite” Bauxite Non- published by IBM. Accordingly,
+                                           (25.327%)                 Metallurgical   “Madhya Pradesh state price” for
+                                                                                                                    
+                                                                     (For the month of July the latest month published i.e.
+                                                                     2022 till June 2023) April 2023 has been considered
+                                                                                     for May 2023 and June          
+                                                                                     2023 while calculating the     
+                                                                                     average sale price.            
+                                                                                                                    
+                                                                                     Presence of minor mineral is   
+                                                                                     there in the block but same has
+                                                                                     not been considered for VER    
+                                                                                     estimation.                    
+             44.   Pipartola     Manganese 35,658 tonnes             Madhya Pradesh  The Average Sale Price for May 
+                   Manganese Ore           (33.128% Mn)              State Price for 2023 and June 2023 has not been
+                   Block                                                             published by IBM. Accordingly, 
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+            Sl. No   Block Name   Name of       Resource and Grade ^  Pricing Assumption    Remarks                 
+                                   Mineral                                                                          
+                                                                     Manganese (Mn.  “Madhya Pradesh state price” for
+                                                                     25%-35%)        the latest month published i.e.
+                                                                     (For the month of July April 2023 has been considered
+                                                                     2022 till June 2023) for May 2023 and June 2023
+                                                                                     while calculating the average sale
+                                                                                     price.                         
+             45.   Piploda Phosphorite Phosphorite NA                NA              The estimated resource quantity
+                   Block                                                             has not been reported in the GR
+                                                                                     or Mineral Block Summary.      
+                                                                                     Hence Value of Estimated       
+                                                                                     Resource cannot be estimated.  
+             46.   Sadkhera      Phosphorite NA                      NA              The estimated resource quantity
+                   Jayantimala                                                       has not been reported in the GR
+                   Phosphorite Block                                                 or Mineral Block Summary.      
+                                                                                     Hence Value of Estimated       
+                                                                                     Resource cannot be estimated.  
+                                                                                                                    
+             47.   Shitalpani Copper Copper 0.36 million tonnes      All India Prices for The Average Sale Price for April
+                   Block                   (0.37% Cu)                Copper          2023 has not been published by 
+                                                                     (For the month of July IBM. Accordingly, “All India
+                                                                     2022 till June 2023) Price” for the latest month
+                                                                                     published i.e. May 2023 has been
+                                                                                     considered for June 2023 while 
+                                                                                     calculating the average sale   
+                                                                                     price.                         
+             48.   Siluwa and Jhansi Iron Ore 855,000 Tonnes (40.18% to 49.83% Fe) MP State Price for Iron Ore Lumps
+                   Iron Ore Block                                    Iron Ore Lumps (45% The Average Sale Price for May
+                                           Lumps to Fines ratio – 19.4: 80.6 -51% Fe) 2023 and June 2023 has not been
+                                                                     (For the month of July published by IBM. Accordingly,
+                                                                     2022 till June 2023) “MP State Price” for the latest
+                                                                                     month published i.e. April 2023
+                                                                                     has been considered for May    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+            Sl. No   Block Name   Name of       Resource and Grade ^  Pricing Assumption    Remarks                 
+                                   Mineral                                                                          
+                                                                     MP State Price for 2023 and June 2023 while    
+                                                                     Iron Ore Fines (45% - calculating the average sale
+                                                                     51% Fe)         price.                         
+                                                                     (For the month of July                         
+                                                                     2022 till June 2023) Iron Ore Fines            
+                                                                                     The Average Sale Price for May 
+                                                                                     2023 and June 2023 has not been
+                                                                                     published by IBM. Accordingly, 
+                                                                                     “MP State Price” for the latest
+                                                                                     month published i.e. April 2023
+                                                                                     has been considered for May    
+                                                                                     2023 and June 2023 while       
+                                                                                     calculating the average sale   
+                                                                                     price.                         
+                                                                                                                    
+             49.   Sohagi Majhigawa Diamond NA                       NA              The estimated resource quantity
+                   Purwa Diamond                                                     has not been reported in the GR
+                   Block                                                             or Mineral Block Summary.      
+                                                                                                                    
+                                                                                     Hence Value of Estimated       
+                                                                                     Resource cannot be estimated.  
+             50.   Uberao Manganese Manganese 20,546.24 tonnes (29.5% Mn) Madhya Pradesh The Average Sale Price for May
+                   Ore Block                                         State Price for 2023 and June 2023 has not been
+                                                                     Manganese (25%- published by IBM. Accordingly, 
+                                                                     35%)            “Madhya Pradesh state price” for
+                                                                     (For the month of July the latest month published i.e.
+                                                                     2022 till June 2023) April 2023 has been considered
+                                                                                     for May 2023 and June          
+                                                                                     2023 while calculating the     
+                                                                                     average sale price.            
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+            Sl. No   Block Name   Name of       Resource and Grade ^  Pricing Assumption    Remarks                 
+                                   Mineral                                                                          
+             51.   Ublar – Chagdi Graphite NA                        NA              The estimated resource quantity
+                   Graphite Block                                                    has not been reported in the GR
+                                                                                     or Mineral Block Summary.      
+                                                                                     Hence Value of Estimated       
+                                                                                     Resource cannot be estimated.  
+           ^ These details including the mineral grade and the estimated quantity of mineral resource has been taken from the respective Mineral Block summaries
+           as shared by Govt. of Madhya Pradesh and discussions held with Govt. of Madhya Pradesh.                  
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    

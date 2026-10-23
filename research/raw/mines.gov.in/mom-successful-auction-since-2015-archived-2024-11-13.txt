@@ -1,0 +1,433 @@
+PAGE: Successful Auction Since 2015 | created 2024-11-13 11:25:40
+Successful Auctions Since 2015: 427(ML-279, CL-148):
+ |  | (as on 11.11.2024) |  | 
+S No | State | Name of the Block | Mineral | Date of auction | ML / CL | Area (in Ha) | Reserves (in MT) | Final Bid (in %) | Preferred Bidder
+1 | Andhra Pradesh | Gudipadu block | Limestone | 08.06.2016 | ML | 40.82 | 26.66 | 8.12 | Penna Cements
+2 | Andhra Pradesh | Erragudi-Hussainapuram–Yanakandla | Limestone | 26.09.2017 | ML | 131.57 | 9.03 | 10.6 | SreeJayajothi Cements Pvt Ltd
+3 | Andhra Pradesh | Nandavaram–Venkatapuram | Limestone | 26.09.2017 | ML | 24.739 | 1.66 | 10.7 | SreeJayajothi Cements Pvt Ltd
+4 | Andhra Pradesh | Chigargunta – Bisanatham | Gold | 27.07.2018 | ML | 262.01 | 2.22 | 38.25 | NMDC Limited
+5 | Andhra Pradesh | Chintalayapalle-Abdullapuram-Korumanipalli (CAK) | Limestone | 28.11.2018 | ML | 417.51 | 92.24 | 13.4 | Adani Cementation Ltd (Surrendered)
+6 | Andhra Pradesh | Gorlagutta | Limestone | 27.05.2021 | ML | 181.03 | 61.14 | 7.25 | M/s. SreeJayajothi Cements Private Limited
+7 | Andhra Pradesh | Devada Block | Mangnese | 04.10.2021 | ML | 81.95 | 6.52 | 7.3 | Mahalakshmi Minerals
+8 | Andhra Pradesh | Gutupalli, Kurnool | Iron Ore | 26.10.2021 | ML | 29.75 | 1.23 | 105.3 | M/s TejaInfratech
+9 | Andhra Pradesh | Veldurthy Iron Ore Block | Iron Ore | 15.03.2022 | ML | 22.044 | NA | 41.6 | M/s AMODA Iron & steel Ltd.
+10 | Andhra Pradesh | Chinnabantupalli | Manganese | 22.04.2022 | ML | 44.53 | NA | 11.7 | M/s Veerashiva Granites Exports pvt Limited
+11 | Andhra Pradesh | Nanda | Manganese | 21.04.2022 | CL | 204 | NA | 12 | M/s Andhra Mining Corporation
+12 | Andhra Pradesh | Mulagapadu | Manganese | 21.04.2022 | CL | 402 | NA | 11.1 | M/s AZ Mining and Trading Enterprises
+13 | Andhra Pradesh | Garikapeta | Manganese | 21.04.2022 | CL | 460 | NA | 11 | M/s MOR Metals and Minerals
+14 | Andhra Pradesh | Sivannadoraval | Manganese | 21.04.2022 | CL | 420 | NA | 11.2 | M/s Hill Side Estates LLP
+15 | Andhra Pradesh | Budharayavalasa | Manganese | 22.04.2022 | CL | 638 | NA | 11.1 | M/s MOR Metals and Minerals
+16 | Andhra Pradesh | Batuva | Manganese | 22.04.2022 | CL | 243 | NA | 11.1 | M/s AZ Mining and Trading Enterprises
+17 | Andhra Pradesh | Peddalingalavalasa | Manganese | 22.04.2022 | CL | 472 | NA | 11 | M/s Easterwood Estates LLP
+18 | Andhra Pradesh | Ramagiri North | Gold | 31.10.2022 | CL | N.A. | N.A. | 20.35 | Andhra Mining Corporation
+19 | Andhra Pradesh | Ramagiri South | Gold | 31.10.2022 | CL | N.A. | N.A. | 20.4 | Andhra Mining Corporation
+20 | Andhra Pradesh | Boksampalli South | Gold | 31.10.2022 | CL | N.A. | N.A. | 20.4 | Andhra Mining Corporation
+21 | Andhra Pradesh | Lakshmakapalle (North) | Iron Ore | 28.07.2023 | CL | N.A. | N.A. | 17.1 | JSW Steel Ltd.
+22 | Andhra Pradesh | Lakshmakapalle (South) | Iron Ore | 28.07.2023 | CL | N.A. | N.A. | 16.2 | JSW Steel Ltd.
+23 | Andhra Pradesh | Addankivaripalem | Iron Ore | 28.07.2023 | CL | N.A. | N.A. | 14.4 | JSW Steel Ltd.
+24 | Andhra Pradesh | Mincheri RF | Iron Ore | 11.03.2024 | CL | 1327 | NA | 12.6 | South-West Mining Limited
+25 | Andhra Pradesh | Adakula | Semi-Precious stone | 19.03.2024 | CL | 36.997 | NA | 3.6 | Shri P. Satyanarayana
+26 | Chhattisgarh | Karhi-Chandi | Limestone | 18.02.2016 | ML | 242.13 | 155 | 58.95 | Shree Cement
+27 | Chhattisgarh | Kesla | Limestone | 19.02.2016 | ML | 108 | 67 | 10.15 | Century Cement
+28 | Chhattisgarh | Baghmara | Gold | 26.02.2016 | CL | 474.3 | 2.7 | 12.55 | Vedanta Ltd
+29 | Chhattisgarh | Kesla II | Limestone | 01.05.2017 | ML | 357.07 | 215 | 96.15 | Dalmia (bharat) cement
+30 | Chhattisgarh | Guma Limestone block, Palari | Limestone | 12.03.2018 | ML | 249.03 | 124 | 138.3 | Ultratech Cement
+31 | Chhattisgarh | Mohra (Block A), Balodabazar-Bhatapara | Limestone | 08.09.2020 | ML | 127.05 | 56.847 | 5.45 | M/s Shree Cement
+32 | Chhattisgarh | Parsabhadar, Balodabazar-Bhatapara | Limestone | 08.09.2020 | ML | 28.461 | 9.614 | 34.15 | M/s Nu Vista Ltd
+33 | Chhattisgarh | Kathiya-Pachri Block | Limestone | 11.10.2021 | ML | 323.332 | 190.59 | 150.1 | Mangalam Cement Industries
+34 | Chhattisgarh | Nahardih-Maghaipur | Limestone | 12.10.2021 | ML | 365.252 | 77.84 | 66.05 | Nalwa Steel& Power Ltd
+35 | Chhattisgrah | Dallirajhara | Iron Ore | 04.05.2022 | ML | 80 | 50.95 | 70.15 | Staya Power &Ispat Ltd.
+36 | Chhattisgarh | Serangdag Block | Bauxite | 06.05.2022 | ML | 93.85 | 1.99 | 67 | Balaji Marble and Tiles Pvt. Ltd.
+37 | Chhattisgarh | Kalwar Block | Iron Ore | 06.05.2022 | ML | 23.72 | 0.332 | 62.26 | M/s Pitambara Logistics & Infrastructure Pvt. Ltd.
+38 | Chhattisgarh | KesadaEklamaChelikama | Iron Ore | 10.05.2022 | ML | 755.039 | 60.074 | 117.55 | M/s Arecelor Mittal Nippon Steel India Ltd.
+39 | Chhattisgarh | Dondi Iron Ore  Block | Iron Ore | 01.08.2022 | CL | 25.26 | 1.84 | 97 | M/s Geeta  Minerals
+40 | Chhattisgarh | Thakurtola Iron Ore Block | Iron Ore | 03.08.2022 | CL | 82.849 | 2.13 | 151.2 | M/s Balaji Minerals
+41 | Chhattisgarh | Sapnadar Bauxite (A,B,C) Block | Bauxite | 10.08.2022 | ML | 101.85 | 7 | 6.2 | Maa Kudargarhi Steel Pvt. Ltd.
+42 | Chhattisgarh | Kandraja Bauxite Block | Bauxite | 12.08.2022 | ML | 89.738 | 4.65 | 6.15 | Maa Kudargarhi Steel Pvt. Ltd.
+43 | Chhattisgarh | Godhatola Iron Ore Block | Iron Ore | 02.11.2022 | CL | 300 | N.A. | 120 | M/s Balaji Minerals
+44 | Chhattisgarh | Laladhurwa -Jognipali Limestone Block | Limestone | 24.11.2022 | ML | 200.9 | 48.43 | 23.55 | Green Sustainable Manufacturing Pvt. Ltd.
+45 | Chhattisgarh | Kelwardabri | Ni, Cr and associated PGE Minerals | 22.12.2022 | CL | N.A. | N.A. | 4.15 | M/s Vedanta Ltd.
+46 | Chhattisgarh | Tendubhata | Iron Ore | 23.12.2022 | CL | N.A. | 0.78 | 24.1 | M/s TMC Mineral Resources Pvt. Ltd.
+47 | Chhattisgarh | Sandi, Rajnandgaon | Limestone | 03.03.2023 | ML | 404 | 178.81 | 25.05 | M/s Shree Cements Ltd.
+48 | Chhattisgarh | Bhalukona – Jamnidih, Mahasamund | Ni, Cr and associated PGE Minerals | 07.03.2023 | CL | 3000 | N.A. | 21 | M/s Deccan Gold Mines Ltd.
+49 | Chhattisgarh | Damchua | Bauxite (M) | 14.03.2023 | CL | 600 | 16.2 | 10.05 | M/s Hindalco
+50 | Chhattisgarh | North of Surbena- Khajri | Bauxite (M) | 15.03.2023 | CL | 600 | 16.2 | 10.05 | M/s Hindalco
+51 | Chhattisgarh | Hahaladdi, North BastarKanker | Iron Ore | 22.03.2023 | CL | 42.63 | 0.79 | 125.05 | M/s Pushp Steel & Mining Pvt. Ltd.
+52 | Chhattisgarh | Lohhater,North Bastar Kanker | Iron Ore | 27.03.2023 | CL | 40 | 2.01 | 31.65 | M/s Technoblast Mining Ciorporation
+53 | Chhattisgarh | Kennapara | Graphite | 29.03.2023 | CL | 2400 | N.A. | 111 | M/s Maa Kudargarhi Steels Pvt Ltd
+54 | Chhattisgarh | Murka Basera | Graphite | 31.03.2023 | CL | 2400 | N.A. | 165.05 | M/s Maa Kudargarhi Steels Pvt Ltd
+55 | Chhattisgarh | North of Arjunda | Glauconite (Potash) | 04.07.2023 | CL | 600 | N.A. | 2.09 | M/s Poddar Diamond Pvt Ltd
+56 | Chhattisgarh | Saloni Block | Limestone | 21.09.2023 | CL | 600 | 43.42 | 200 | M/s Star Cement Meghalaya Limited
+57 | Chhattisgarh | Devri Limestone Block | Limestone | 19.09.2023 | CL | 630 | 51.03 | 141.05 | M/s Rungta Sons Pvt Ltd
+58 | Chhattisgarh | Kareli Chandi Block | Limestone | 20.09.2023 | CL | 500 | 280.09 | 127.75 | M/s Rungta Sons Pvt Ltd
+59 | Chhattisgarh | Giroud Uprani Block | Glauconite | 27.09.2023 | CL | N.A. | N.A. | 5.15 | M/s Narayani Sons Pvt. Ltd
+60 | Chhattisgarh | Tumrisur Garda II | Gold | 20.12.2023 | CL | 240 | N.A | 31.6 | Shri Bajrang Power and Ispat Limited
+61 | Gujarat | Mudhvay Sub- block B | Limestone | 25.05.2017 | ML | 233.5 | 301.5 | 20 | Shree Cement
+62 | Gujarat | Mudhvay Sub- block C | Limestone | 26.05.2017 | ML | 251.9 | 325 | 30.05 | Adani Cementation
+63 | Gujarat | Mudhvay Sub- block D | Limestone | 30.05.2017 | ML | 107.1 | 125 | 35 | JSW Cement
+64 | Gujarat | Mudhvay - A | Limestone | 31.01.2021 | ML | 198.9 | 264 | 7.01 | J K Lakshmi Cement Ltd
+65 | Gujarat | Dhank - A | Limestone | 21.10.2020 | ML | 22.06 | 1.76 | 22.56 | Mignesh Infrastructure  Pvt
+66 | Gujarat | Dhank - C | Limestone | 21.10.2020 | ML | 64.28 | 15.31 | 103.4 | Shree Digvijay Cement Company
+67 | Gujarat | Sutrapada | Limestone | 21.10.2020 | ML | 39.72 | 3.91 | 6.5 | Gujarat Siddhi Cement Ltd.
+68 | Gujarat | Mevasa | Bauxite | 12.05.2021 | ML | 8.73 | 0.99 | 5.62 | Patel Kaushik Kumar
+69 | Gujarat | Satpara | Bauxite | 07.05.2021 | ML | 5.54 | 2.23 | 5.14 | Karan Polabhai Gojiya
+70 | Gujarat | Lamba | Bauxite | 11.05.2021 | ML | 6.63 | 2.33 | 5.14 | Ramsi Meramanbhai Barad
+71 | Gujarat | Jodhpur Study Area | Limestone & Marl | 17.02.2022 | ML | 30.097 | 45.424 | 5.7 | Shree Digvijay Cement Company Ltd.
+72 | Gujarat | Harsol Block-1 | Limestone & Marl | 17.02.2022 | ML | 6.28 | 2.764 | 5.2 | Ashok Kumar Amrutbhai Patel
+73 | Gujarat | Mevasa Block-1 | Bauxite (Aluminous Laterite) and Laterite (minor mineral) | 18.07.2023 | ML | 5.99 | 2.35 | 5.06 | Manisha Nirmalbhai Samani
+74 | Gujarat | Mevasa Block | Bauxite, and Marl | 18.07.2023 | ML | 5.53 | 2 | 5.05 | L & S Company
+75 | Gujarat | Kukaras block (Private) | Limestone and Marl | 18.07.2023 | ML | 29.17 | 10.15 | 5.8 | Ambuja Cements Limited
+76 | Gujarat | Nandana Block | Bauxite Limestone and Marl | 19.07.2023 | ML | 29.17 | 10.15 | 5.05 | L & S Company
+77 | Gujarat | Kodidra Block | Limestone and Marl | 19.07.2023 | ML | 29.17 | 10.15 | 5.95 | Ambuja Cements Limited
+78 | Gujarat | Virpur Lusari Block | Bauxite (Aluminous Laterite), Limestone and Marl | 21.07.2023 | ML | 29.17 | 10.15 | 5.05 | Kishorbhai Kambariya
+79 | Gujarat | Varvada Limestone & Marl Block | Limestone & Marl Block | 24.07.2024 | ML | 5.66 | 4.41 | 20.05 | Jesa Ranamal Kandoriya
+80 | Gujarat | Gangetha & Bhuva Timbi Block | Limestone & Marl Block | 24.07.2024 | ML | 48.478 | 13.3 | 20.45 | Ambuja Cement limited
+81 | Gujarat | Kukaras Block (Govt.) | Limestone & Marl Block | 24.07.2024 | ML | 29.1681 | 10.15 | 130 | Rasibhai Babubhai Vadodariya
+82 | Gujarat | Shepa Limestone & Marl Block | Limestone & Marl Block | 24.07.2024 | ML | 5.66 | 4.41 | 20.15 | Bharat Quarry Works
+83 | Gujarat | Amrutpura Block-C | Bauxite(Aluminous Laterite) and Laterite | 29.07.2024 | ML | 5 | 2.18 | 77.6 | Annapurna Minerals
+84 | Gujarat | Amrutpura Block-D | Bauxite(Aluminous Laterite) and Laterite | 29.07.2024 | ML | 5 | 3.42 | 71.6 | Harikrushna Container Mfg
+85 | Gujarat | Amrutpura Block-E | Bauxite(Aluminous Laterite) and Laterite | 29.07.2024 | ML | 5 | 2.46 | 85.9 | Annapurna Minerals
+86 | Jharkhand | Pahardia | Gold | 26.10.2016 | CL | 279.09 | 1.162 | 28.1 | MaithanIspat Ltd
+87 | Jharkhand | Hariharpur-Lem-Bicha_Block-I | Limestone | 12.02.2016 | CL | 180 | 0.424 | 12 | Burnpur Cement
+88 | Jharkhand | Hariharpur-Lem-Bicha_Block-II | Limestone | 12.02.2016 | CL | 379 | 0.671 | 12 | Burnpur Cement
+89 | Jharkhand | Parasi Gold and Associated Minerals, Tamar Block | Gold | 01.11.2017 | ML | 69.24 | 9.894 | 17 | Rungta Mines Ltd
+90 | Jharkhand | Bhangaon Iron Ore Block | Iron Ore | 28.06.2018 | ML | 118 | 38.25 | 89 | South West Mining Ltd
+91 | Jharkhand | Lesliganj | Graphite | 01.08.2018 | ML | 94.521 | 0.6689 | 75 | Team Geo Resources Pvt Ltd
+92 | Jharkhand | Dulsulma | Graphite | 01.03.2019 | ML | 36.29 | 1.48 | 149.2 | Team Geo Resources Pvt Ltd
+93 | Jharkhand | Chiropat Bauxite Block/Gumla&Lohardaga | Bauxite | 20.04.2023 | ML | 63 | 4.412 | 13.05 | M/s Maa Kudargarhi Steels Private Limited
+94 | Jharkhand | Baraiburu - Tatiba Iron and Manganese Ore Block | Iron and Manganese Ore | 18.08.2023 | CL | 258.99 | Fe – 77.85 | 122 | M/s Rungta Mines
+Mn- 3.61
+95 | Jharkhand | Meralgara-Barabaljori Iron Ore Block | Iron Ore Block | 10.08.2023 | ML | 115.22 | 0.64 | 250.1 | M/s Agrasen Sponge Pvt. Ltd.
+96 | Karnataka | ML No. 262, Ramgad, Bellary | Iron Ore | 01.10.2016 | ML | 33.8 | 31.53 | 90.82 | JSW Ltd
+97 | Karnataka | ML No. 2487, Karadikolla, Bellary | Iron Ore | 03.10.2016 | ML | 86.12 | 14.709 | 100.3 | MSPL Ltd
+98 | Karnataka | ML No. 2366, Ittanahalli, Bellary | Iron Ore | 04.10.2016 | ML | 33.21 | 6.939 | 58.9 | JSW Ltd
+99 | Karnataka | ML No. 2365, Ittanahalli, Bellary | Iron Ore | 04.10.2016 | ML | 130.53 | 33.89 | 81.1 | JSW Ltd
+100 | Karnataka | ML No. 2313, Malgolla, Bellary | Iron Ore | 05.10.2016 | ML | 21.61 | 10.026 | 100.1 | JSW Ltd
+101 | Karnataka | ML No. 2559, Swamimalai range, Bellary | Iron Ore | 05.10.2016 | ML | 26.71 | 28.47 | 111.1 | MSPL Ltd
+102 | Karnataka | ML No. 2290, Sandur, Bellary | Iron Ore | 06.10.2016 | ML | 100.54 | 28.618 | 102.5 | JSW Ltd
+103 | Karnataka | ML No. 2148 | Iron Ore | 06.09.2018 | ML | 60.66 | 63.33 | 129.9 | MSPL Limited
+104 | Karnataka | ML No. 2563 | Iron Ore | 05.09.2018 | ML | 30.09 | 9.26 | 111 | MSPL Limited
+105 | Karnataka | ML No. 995 | Iron Ore | 04.09.2018 | ML | 32.89 | 9.708 | 95.2 | JSW Steel Ltd
+106 | Karnataka | ML No. 2433 | Iron Ore | 03.09.2018 | ML | 29.49 | 10.024 | 59.5 | Minera Steel and Power Pvt Ltd
+107 | Karnataka | ML No. 2245, | Iron Ore | 03.09.2018 | ML | 24.47 | 7.577 | 55.5 | Kirloskar Ferrous Industries Ltd
+108 | Karnataka | ML No. 2566 | Iron Ore | 05.12.2018 | ML | 7.57 | 3.179 | 36.7 | Kirloskar Ferrous Industries Ltd
+109 | Karnataka | ML No. 2185 | Iron Ore | 05.12.2018 | ML | 44.42 | 9.224 | 39.1 | Hothur Ispat Pvt Ltd
+110 | Karnataka | ML No. 2346 | Iron Ore | 24.07.2019 | ML | 93.6 | 60.67 | 67.1 | JSW Steel Limited
+111 | Karnataka | ML No. 2239 | Iron Ore | 24.07.2019 | ML | 43.58 | 12.207 | 97.5 | JSW Steel Limited
+112 | Karnataka | ML No. 2531 | Iron Ore | 25.07.2019 | ML | 56 | 3.567 | 72.1 | MSPL Limited
+113 | Karnataka | ML No. 1602 | Iron Ore | 25.07.2019 | ML | 107.51 | 22.266 | 102.7 | JSW Steel Limited
+114 | Karnataka | Kannur wadi Block | Limestone | 19.12.2020 | ML | 550 | 376.51 | 35.15 | ACC
+115 | Karnataka | Hanamaneri | Limestone | 10.12.2021 | ML | 730 | 708.2 | 52 | JK Cement Ltd.
+116 | Karnataka | Ravur | Limestone | 09.12.2021 | ML | 430 | 147.9 | 50.2 | Ultratech Ltd.
+117 | Karnataka | ML No. 2584 M/s Auro Minerals | Iron Ore | 21.02.2022 | ML | 32.05 | 6.72 | 107.5 | Minra Steels
+118 | Karnataka | ML No. 2586 M/s Gogga  Gurushanthaiah and Brothers | Iron Ore | 19.01.2022 | ML | 15025 | 0.562 | 60.1 | M/s Baig Trading Company
+119 | Karnataka | Bommanalli | Limestone | 14.01.2022 | ML | 500 | 463.925 | 25.1 | M/s Ramco Cement
+120 | Karnataka | AjjanahalliTumakuru | Gold | 28-03-2022 | CL | 9.49 | 5.55 | 15.1 | M./s Kundker Products
+121 | Karnataka | Diggaon | Limestone | 23-03-2022 | ML | 786.32 | 812.67 | 23.34 | M/s Ultratech Cements
+122 | Karnataka | Belagatta, Chitradurga | Gold | 30.03.2022 | CL | 2501.58 | N.A | 13.1 | M/s PM Granites
+123 | Karnataka | ChittapurSw Limestone Block | Limestone | 11.05.2022 | CL | 438 | 438 | 42.7 | M/s Dalmia Bharat Cement Ltd.
+124 | Karnataka | Satanur Limestone Block | Limestone | 12.05.2022 | CL | 503.32 | 503 | 47.2 | M/s JSW Cements Ltd.
+125 | Karnataka | Sulhalli Limestone Block | Limestone | 13.05.2022 | CL | 502.13 | 466 | 106.5 | M/s Ambuja Cements Ltd.
+126 | Karnataka | M/s Tiffin Barytes Asbestos & Paints Ltd, ML No 2293 | Iron Ore | 03.02.2022 | ML | 191.3 | 18.381 | 85.2 | GVPR Engineers Limited
+127 | Karnataka | ML No. 2585 Thangavelu& Others | Iron Ore | 01.09.2022 | ML | 60.92 | 3.3 | 26 | B.L Ranisamyuktha
+128 | Karnataka | M/s Ramgad Minerals & Mining (P) Ltd , ML. No. 2451 | Iron Ore | 01.09.2022 | ML | 24.04 | 2.137 | 85.2 | Udayshivakumar Infra Private Limited
+129 | Karnataka | Sri M Srinivasulu, ML.No. 2631 | Iron Ore | 02.09.2022 | ML | 75.14 | 9.88 | 80.6 | Rai Bahadur Seth Shreeram Narasingdas Private Limited
+130 | Karnataka | Somanahalli Block | Iron Ore | 20.03.2023 | ML | 190.13 | 26.34 | 140.1 | M/s Ramalingam Construction Company Pvt. Ltd.
+131 | Karnataka | Jaisinghpura South Block | Iron Ore | 24.03.2023 | ML | 297.38 | 32.08 | 145.8 | M/s JSW Steel
+132 | Karnataka | Vyasanakere Block | Iron Ore | 28.03.2023 | ML | 405.4 | 27.22 | 114.3 | M/s JSW Steel
+133 | Karnataka | Udagi | Limestone | 30.03.2023 | ML | 646.34 | 459.41 | 50.9 | M/sUltratech Cement
+134 | Karnataka | Block No. 04, HRG | Iron Ore | 24.07.2023 | ML | 40.04 | 5.32 | 149.1 | R Praveen Chnadra
+135 | Karnataka | Thimmanahalli Gold block | Gold | 21.08.2023 | CL | N.A. | N.A. | 5.6 | Oro Geo Exploration India Ltd
+136 | Karnataka | Jaisinghpura North Block | Iron Ore | 21.08.2023 | ML | 298.59. | N.A. | 17.66 | JSW Steel Limited
+137 | Karnataka | Basavanagudda | Gold | 21.08.2023 | CL | 2501.9 | N.A. | 21.6 | R.K. Transport Corporation
+138 | Karnataka | Nidodi Bauxite Block | Bauxite | 21.09.2023 | CL | 52.82 | NA | 52.15 | Redstone Trading Corporation
+139 | Karnataka | Kuddarka Bauxite Block | Bauxite | 22.09.2023 | CL | 52 | NA | 52 | Ocean Construction India Pvt. Ltd.
+140 | Karnataka | Kenchanahalli | Gold & Associated Minerals | 30.07.2024 | CL | 4080 | NA | 5.8 | M/s Aurum Geo Exploration Private Limited
+141 | Madhya Pradesh | Hatupur Block, Brijpur | Diamond | 05.10.2016 | CL | 133.5 | 0.604 | 22.31 | Bansal Construction  Company
+142 | Madhya Pradesh | Deora- Sitapuri- Udiyapura | Limestone | 15.05.2018 | ML | 344.78 | 61.96 | 77.1 | Ultratech Cement Ltd
+143 | Madhya Pradesh | Hinauti- 1 | Limestone | 15.05.2018 | ML | 20.23 | 2.81 | 21.05 | Digiana Industries Pvt Ltd
+144 | Madhya Pradesh | Hinauti- 2 | Limestone | 16.05.2018 | ML | 12.14 | 1.67 | 25.05 | Digiana Industries Pvt Ltd
+145 | Madhya Pradesh | Gauthana-Tikari Graphite Block | Graphite | 17.05.2018 | ML | 33.016 | 6.24 | 200.1 | Urmila Dilip Chandan
+146 | Madhya Pradesh | Pratappura Iron-ore Block | Iron Ore | 18.05.2018 | ML | 9.02 | 2.43 | 275 | Swastik Buildmat India Pvt Ltd
+147 | Madhya Pradesh | Bunder | Diamond | 10.12.2019 | ML | 364 | 34.20 Million Carats | 30.05 | Essel Mining & Industries Ltd
+148 | Madhya Pradesh | Gauthana | Graphite | 23.12.2019 | CL | 9.993 | 4.69 | 97.55 | Team Geo Resources Pvt Ltd
+149 | Madhya Pradesh | Badarkha Limestone Block, Satna | Limestone | 24.06.2020 | ML | 121.1 | 17.2 | 5.95 | Dalmia Cement Bharat Ltd.
+150 | Madhya Pradesh | Kosdana Limestone Block, Dhar | Limestone | 24.06.2020 | ML | 44.293 | 14.21 | 100.7 | Wonder Cement Ltd
+151 | Madhya Pradesh | Baghrelisani Bauxite Block, Dindori | Bauxite | 24.06.2020 | ML | 20.151 | 0.133 | 32 | Yash Logistic Pvt Ltd
+152 | Madhya Pradesh | Imaliya Gold Block, Katni | Gold | 24.06.2020 | ML | 6.51 | 0.35 | 6.5 | Prospect Resources Ltd
+153 | Madhya Pradesh | Chakariya Gold Block, Singrauli | Gold | 24.06.2020 | ML | 23.57 | 0.137 | 5.4 | Garima Natural Resources Pvt Ltd
+154 | Madhya Pradesh | RamstahnGhunchihai Block | Limestone | 13.07.2021 | ML | 1917.15 | 209.77 | 65.5 | Ultratech Ltd.
+155 | Madhya Pradesh | Jamuwantikala | Limestone | 07.01.2022 | ML | 6.313 | 2.98 | 55.15 | M/s Jitendra Kumar Kushwaha
+156 | Madhya Pradesh | Tikar, Distt. Rewa | Bauxite | 04.01.2022 | ML | 26.77 | 1.04 | 52 | Katni Minerals Pvt. Ltd.
+157 | Madhya Pradesh | Mardeora, Distt. Chhatarpur | Rock Phosphate | 05.01.2022 | ML | 9.951 | 3.59 | 320 | Shobha Minerals
+158 | Madhya Pradesh | Jam | Manganese | 19.04.2022 | CL | 6.81 | 0.02 | 45.5 | M/s Jitendra Kumar Kushwaha
+159 | Madhya Pradesh | Pahari-Narora-Tiloura-TanajaBansipur | Limestone | 19.04.2022 | ML | 256.998 | 52.13 | 70.05 | Roadway Solutions India Infra Limited
+160 | Madhya Pradesh | Pipariya Mal | Bauxite | 19.04.2022 | ML | 273.215 | 47.7 | 5.7 | Anand Mining Corporation
+161 | Madhya Pradesh | Botejhari | Manganese | 20.04.2022 | CL | 6.094 | 0.07 | 45.1 | Om Sairam Steels & Alloys Pvt. Ltd.
+162 | Madhya Pradesh | Dhaukan-Dhaurra-Urdaurra | Iron Ore | 20.04.2022 | ML | 153.031 | 40.12 | 120.5 | Pacific Iron Manufacturing Ltd.
+163 | Madhya Pradesh | Pahari, Narora, Tiloura | Limestone | 20.04.2022 | ML | 227.55 | 24.35 | 132 | Roadway Solutions India Infra Limited
+164 | Madhya Pradesh | Baruyee | Bauxite | 21.04.2022 | ML | 9.049 | 0.24 | 31.95 | M/s Sanjay Rai
+165 | Madhya Pradesh | AtarharaParsokha | Limestone | 21.04.2022 | ML | 349.172 | 41.47 | 40 | Ultratech Cement
+166 | Madhya Pradesh | Kubri | Bauxite and Limestone | 22.04.2022 | CL | 12.44 | 4.63 | 65.55 | Yash Logistic Pvt. Ltd.
+167 | Madhya Pradesh | Jamuwanikala | Bauxite | 26.04.2022 | CL | 6.313 | 0.12 | 26.6 | Shri Krishan Stone Crusher
+168 | Madhya Pradesh | Bajna Iron Ore | Iron Ore | 26.07.2022 | ML | 96 | 38.814 | 74.05 | Sunflag Iron & Steel Company Ltd.
+169 | Madhya Pradesh | Khudawal Iron Ore and Manganese Ore | Iron Ore | 26.07.2022 | ML | 11.02 | 19.1 | 355.05 | SGMM Pre Pvt Ltd.
+170 | Madhya Pradesh | Kachaldara Rock Phosphate | Rock Phosphate | 27.07.2022 | CL | 19.36 | 40.11 | 260 | Auro Natural Resources Pvt. Ltd.
+171 | Madhya Pradesh | RupakhedaPiplouda Rock Phosphate | Rock Phosphate | 26.07.2022 | CL | 50 | 86.15 | 297.05 | India Phosphate Ltd.
+172 | Madhya Pradesh | GhoraChitawara Limestone | Limestone | 26.07.2022 | CL | 606 | 44.65 | 65.65 | JK Lakshmi Cement Ltd.
+173 | Madhya Pradesh | Bhatia Limestone Block | Limestone | 03.01.2023 | ML | 23.86 | 12.73 | 6.4 | InduAhluwalia
+174 | Madhya Pradesh | SukhaSatpara | Limestone | 03.01.2023 | ML | 216 | 64.01 | 100.5 | Heidelberg Cement India Ltd.
+175 | Madhya Pradesh | Rewara | Limestone | 03.01.2023 | ML | 23.9 | 1.868 | 6.4 | Arrow Associates
+176 | Madhya Pradesh | GurharPahar | Gold | 03.01.2023 | ML | 149.3 | 7.29 | 5.45 | Inward Tech Consultant Pvt. Ltd.
+177 | Madhya Pradesh | Khatamba | Rock Phosphate | 03.01.2023 | CL |  | 27.98 | 288 | Auro Natural Resources Pvt. Ltd.
+178 | Madhya Pradesh | NandiaLoharpura | Manganese | 03.01.2023 | CL | 21.387 | 0.2 | 62 | Shobha Mineral
+179 | Madhya Pradesh | Netara | Graphite | 04.01.2023 | CL | 960 |  | 10.5 | Inward Tech Consultant Pvt. Ltd.
+180 | Madhya Pradesh | Budbuda | Manganese | 04.01.2023 | CL | 5.204 | 0.45 | 320 | Bhaswar Associates
+181 | Madhya Pradesh | Panihar Iron Ore Block | Iron Ore | 05.01.2023 | CL |  | 0.14 | 353 | Bhaswar Associates
+182 | Madhya Pradesh | Dhobitala Manganese Ore Block | Iron Ore | 06.01.2023 | CL |  | 0.02 | 399.5 | Achieving Consulting Services
+183 | Madhya Pradesh | NaganwatBadi, Jhabua | Manganese | 16.03.2023 | CL | 4.91 | 0.067 | 126.1 | M/s Achieving Consulting Service
+184 | Madhya Pradesh | Patehra REE & Graphite | Graphite | 16.03.2023 | CL | 36.7 | N.A. | 4.05 | M/s Nisarg Ispat Pvt. Ltd.
+185 | Madhya Pradesh | WarjiriDadar and Bear Hill, Balaghat | Bauxite (M) | 17.03.2023 | ML | 117.15 | 0.97 | 5.45 | M/s Nisarg Ispat Pvt. Ltd.
+186 | Madhya Pradesh | Kotpahar, Balaghat | Bauxite (M) | 21.03.2023 | ML | 35.9 | 0.4 | 5.3 | M/s Katni Minerals Pvt. Ltd.
+187 | Madhya Pradesh | Katni Limestone Block*(10A2b Case) | Limestone | 05.09.2023 | ML | 120.949 | 7.621 | 5.15 | Indu Ahluwalia
+188 | Madhya Pradesh | Pahari Limestone Block | Limestone | 11.09.2023 | ML | 100.144 | 23.28 | 20.1 | Indu Ahluwalia
+(10A2d Case)
+189 | Madhya Pradesh | Pipartola Manganese Ore Block*(10A2b Case) | Manganese Ore | 12.09.2023 | ML | 4.653 | 0.035 | 267.65 | G1 Resources Pvt. Ltd.
+190 | Madhya Pradesh | Chorgadi-Puraina Limestone Block | Limestone | 06.09.2023 | ML | 378.404 | 89.8 | 90.95 | Ambuja Cements
+191 | Madhya Pradesh | Bhilapar Manganese Ore & Dolomite Block(10A2b Case) | Manganese Ore & Dolomite | 05.09.2023 | CL | 9.037 | Mn-0.063 Do- 0.16 | 22790 | Shree Vinayak Minerals
+192 | Madhya Pradesh | Dhamani Nana Manganese Ore Block*(10A2b Case) | Manganese Ore | 08.09.2023 | CL | 4.7 | 0.044 | 955.05 | Global Fly Ash India
+193 | Madhya Pradesh | Guvali Manganese Ore Block*(10A2b Case) | Manganese Ore | 05.09.2023 | CL | 4.61 | 0.036 | 51 | Alkknanda Stone Crusher
+194 | Madhya Pradesh | Katangjhari Manganese Ore Block*(10A2b Case) | Manganese Ore | 08.09.2023 | CL | 5.101 | 0.2 | 7.4 | The Commodity Hub
+195 | Madhya Pradesh | Lingaponar Manganese Ore Block(10A2b Case) | Manganese Ore | 11.09.2023 | CL | 9.712 | 0.03 | 87 | Jindal Steel and Power
+196 | Madhya Pradesh | Naganwat-Chhoti Manganese Ore Block*(10A2b Case) | Manganese Ore | 08.09.2023 | CL | 11.86 | 0.05 | 54.05 | Jai Bhole Enterprises
+197 | Madhya Pradesh | Uberao Manganese Ore Block* | Manganese Ore | 06.09.2023 | CL | 4.68 | 0.02 | 11.1 | Bhaswar Associates
+198 | Madhya Pradesh | Bamanbardi Limestone Block | Limestone | 05.09.2023 | CL | 913.3954 | 158 | 125 | Shree Cements Limited
+199 | Madhya Pradesh | Doter Guvali Manganese Ore Block | Manganese Ore | 09.09.2023 | CL | 736.4 | NA | 391.3 | Shree Vinayak Minerals
+200 | Madhya Pradesh | East of Dabri Limestone Block | Limestone | 08.09.2023 | CL | 815 | 105 | 141.15 | Shree Cements Limited
+201 | Madhya Pradesh | Garhi-Upcha Limestone Block | Limestone | 09.09.2023 | CL | 1001.95 | 76.44 | 153.05 | Ultratech Cement Limited
+202 | Madhya Pradesh | Nawapara Rampura Manganese Ore Block | Manganese Ore | 11.09.2023 | CL | 725.7 | NA | 200 | Jai Bhole Enterprises
+203 | Madhya Pradesh | Piploda Phosphorite Block | Phosphorite | 05.09.2023 | CL | 464 | NA | 40.25 | Auro Natural Resources Pvt Ltd
+204 | Madhya Pradesh | Shitalpani Copper Block* | Copper | 09.09.2023 | CL | 220.971 | 0.36 | 22.1 | The Commodity Hub
+205 | Madhya Pradesh | Siluwa and Jhansi Iron Ore Block | Iron Ore | 13.09.2023 | ML | 4.59 | 0.86 | 822.55 | Khatri Minerals & Mining Company
+206 | Madhya Pradesh | Modri Phosphorite Block | Phosphorite | 13.09.2023 | CL | 699.55 | 0.05 | 100.1 | The Commodity Hub
+207 | Madhya Pradesh | Pindrai Iron Ore Block | Iron Ore | 14.09.2023 | ML | 6 | 2.12 | 302.52 | Syna Steels Private Limited
+208 | Madhya Pradesh | Makra Block | Graphite Vanadium | 14.09.2023 | CL | 37.5 | 0.49 | 94.15 | Universal Industrial Equipment and Technical Services Pvt Limited
+209 | Madhya Pradesh | Aber Laterite and Limestone Block | Laterite & Limestone | 29.07.2024 | ML | 114.007 | 7.94 | 10.13 | Ask Resources & Consultancy
+210 | Madhya Pradesh | Badiya Limestone Block* | Limestone | 29.07.2024 | ML | 3.625 | 1.09 | 7.05 | Samarth Lime Industries
+211 | Madhya Pradesh | Karmau and Mungwari Limestone Block* | Limestone | 29.07.2024 | ML | 150.906 | 39.022 | 30.05 | Ambuja Cements Ltd.
+212 | Madhya Pradesh | Nimarmunda Limestone Block* | Limestone | 29.07.2024 | ML | 127.271 | 7.51 | 51.5 | Shobha Minerals
+213 | Madhya Pradesh | Pachama Dadar Bauxite Block* | Bauxite | 29.07.2024 | ML | 156 | 2.62 | 61.5 | Sagar Stone Industries
+214 | Madhya Pradesh | Pipariyamal (West) Bauxite Block* | Bauxite & Laterite | 29.07.2024 | ML | 273.215 | 47.69 | 6.18 | Anand Mining Corporation
+215 | Madhya Pradesh | Amlihwah Gold and Basemetal Block* | Gold & Base Metal | 29.07.2024 | CL | 961 | NA | 1.1 | Kundan Gold Mines Pvt. Ltd.
+216 | Madhya Pradesh | Khari Takari limestone Block | Limestone | 08.11.2024 | CL | 672 | 75.4 | 45.05 | Ambuja Cements Limited
+217 | Madhya Pradesh | Nandiya Agarwara Manganese Block | Manganese | 08.11.2024 | CL | 212.87 | NA | 38 | Sagar Stone Industries
+218 | Maharashtra | Chitale- watangi | Bauxite | 20.06.2017 | ML | 75 | 2.86 | 55 | Gamma Iron India Ltd
+219 | Maharashtra | NandgaonEkodi | Limestone | 20.06.2017 | ML | 369.52 | 42.1 | 125.1 | Ambuja Cements Ltd
+220 | Maharashtra | Guguldoh | Manganese | 12.04.2018 | ML | 105 | 0.44 | 55.6 | Shanti GD Ispat
+221 | Maharashtra | Parli | Bauxite | 08.05.2019 | ML | 7.12 | 0.64 | 51.6 | Shree Malhar Minerals
+222 | Maharashtra | Humdara- Ghodepaiwadi | Bauxite | 08.05.2019 | ML | 120.48 | 2.365 | 115.2 | Gamma Iron India Limited
+223 | Maharashtra | Parseoni | Manganese | 08.05.2019 | ML | 44 | 0.159 | 92.1 | Universal Impex
+224 | Maharashtra | Thanewasana | Copper | 08.05.2019 | CL | 768.62 | 8.02 | 3.6 | Vedanta Limited
+225 | Maharashtra | Lohardongri | Iron Ore | 09.05.2019 | ML | 35.73 | 1.48 | 90.2 | Sunflag Iron and Steel Company Limited
+226 | Maharashtra | Ghungur- I | Bauxite | 09.05.2019 | ML | 14.24 | 0.8 | 87.3 | Shri Bhairavnat Earthmover and Company
+227 | Maharashtra | Dubarpeth | Copper | 09.05.2019 | CL | 816.29 | 1.343 | 2.1 | Vedanta Limited
+228 | Maharashtra | Nanar | Bauxite | 10.05.2019 | ML | 144.95 | 7.94 | 25.1 | Sociedade De Fomento Industrial Private Limited
+229 | Maharashtra | Ghungur- II | Bauxite | 10.05.2019 | ML | 10.65 | 0.32 | 69.3 | ShriJugai Minerals
+230 | Maharashtra | Gojoli–Somanpalli–Dongargaon | Limestone | 10.05.2019 | ML | 646.55 | 43.4 | 5.2 | Dalmia Cement Bharat Limited
+231 | Maharashtra | Kurai | Limestone | 11.01.2022 | ML | 480.8 | 89.14 | 185 | ACC Limited
+232 | Maharashtra | Hivra | Manganese | 11.01.2022 | ML | 6.9 | 0.042 | 92.4 | PM Granite Export Pvt
+233 | Maharashtra | Girola(Jamdi) | Kyanite | 11.01.2022 | ML | 6.55 | 0.393 | 32.05 | Shanti GD Ispat& Powers Pvt Ltd
+234 | Maharashtra | MandriPanchala | Manganese | 11.01.2022 | CL | 44.77 | 0.213 | 111.1 | PM Granite Export Pvt. Ltd.
+235 | Maharashtra | Dongargaon Block | Limestone | 31.03.2022 | ML | 252.36 | 12.95 | 176 | RCCPL Pvt. Ltd.
+236 | Maharashtra | Chikhalgaon (West) Block | Bauxite | 31.03.2022 | ML | 21.87 | 2.8 | 5.2 | GNP Reality LLP
+237 | Maharashtra | Bidwadi Block | Graphite | 31.03.2022 | ML | 157.02 | 3.58 | 5.1 | Elegant Hospitality Services
+238 | Maharashtra | Ajgaon Block | Iron Ore | 31.03.2022 | CL | 840 | NA | 25 | JSW Steel Ltd.
+239 | Maharshtra | GhanpurMudholi (West) | Copper & Gold | 31.03.2022 | CL | 917.42 | Cu-0.22 Au-0.11 | 2.05 | M/s Vedanta Ltd.
+240 | Maharshtra | Satarda | Iron Ore | 01.04.2022 | CL | 1200 | NA | 71.25 | M/s Arcelor Mittal
+241 | Maharshtra | Mauli | Iron Ore | 06.04.2022 | ML | 24.26 | 0.98 | 96 | M/s Sociedade De Fomento Industrial Pvt. Ltd.
+242 | Maharshtra | Lanjera-Futala block | Manganese | 30.06.2022 | CL | 800 | 0.07 | 33 | PM Granite Pvt. Ltd
+243 | Maharshtra | Kondura block | Iron Ore | 01.07.2022 | CL | 300 | NA | 76 | Fomento Resources Pvt Ltd
+244 | Maharshtra | Nanos block | Iron Ore | 05.07.2022 | CL | 372 | NA | 80.05 | Sociedadde Fomentor industrial Pvt Ltd
+245 | Maharshtra | Sasoli block | Iron Ore | 06.07.2022 | CL | 2000 | NA | 97.75 | Vedanta Ltd
+246 | Maharashtra | DevalmariKatepalli Limestone Block* | Limestone | 09.05.2023 | ML | 537.54 | 149.5 | 7.55 | Ambuja Cements Ltd.
+247 | Maharashtra | Surjagad – 1 Iron Ore Block | Iron Ore | 09.05.2023 | CL | 1526 | N.A. | 126.35 | Natural Resources Energy Private Ltd.
+248 | Maharashtra | Surjagad – 2 Iron Ore Block | Iron Ore | 09.05.2023 | CL | 886 | N.A. | 139.75 | Universal Industrial Equipment and Technical Services Pvt. Ltd.
+249 | Maharashtra | Surjagad – 3 Iron Ore Block | Iron Ore | 09.05.2023 | CL | 640 | N.A. | 115.1 | Omsairam Steels and Alloys Pvt. Ltd.
+250 | Maharashtra | Surjagad – 4 Iron Ore Block | Iron Ore | 12.05.2023 | CL | 397 | N.A. | 131.05 | JSW Steels Ltd.
+251 | Maharashtra | South Padve | Bauxite | 09.05.2023 | CL | 500 | N.A. | 2.15 | Sociedade De foment Industrial Pvt. Ltd.
+252 | Maharshtra | Surjagad – 6 Iron Ore Block | Iron Ore | 17.05.2023 | CL | 658 | N.A. | 118.45 | Sunflag Iron and Steel Company Limited
+253 | Maharashtra | Kondhala | Limestone | 19.05.2023 | ML | 105 | 43.15 | 27 | Shree Cement Limited
+254 | Maharashtra | Minzhari Copper Block | Copper | 21.11.2023 | CL | 1743 | 1.13 | 7.25 | Hindalco Industries Limited
+255 | Maharashtra | Savali Manganese Block | Manganese | 22.11.2023 | CL | 1200 | 0.065 | 3.7 | Shanti GD Ispat and Power Private Limited
+256 | Maharashtra | Wanoja Limestone Block | Limestone | 05.09.2024 | ML | 313 | 50.38 | 25.05 | Dalmia Cement Bharat Limited
+257 | Maharashtra | Borgaon-Khandla Limestone Block | Limestone | 13.09.2024 | ML | 376 | 30.72 | 18.55 | ACC Limited
+258 | Odisha | Ghoraburhani- Sagasahi | Iron Ore | 02.03.2016 | ML | 139.2 | 99.59 | 44.35 | Nippon Steel India Ltd.
+259 | Odisha | Lasarda-Pacheri | Manganese | 27.12.2016 | CL | 256.3 | 11.16 | 44.65 | Thriveni Earthmovers
+260 | Odisha | Kottameta | Limestone | 27.12.2016 | ML | 801.17 | 98.69 | 12.05 | Dalmia (bharat) cement
+261 | Odisha | Kalamang West (Northern part) | Iron Ore | 18.05.2017 | ML | 92.875 | 92.85 | 100.1 | Bhushan Steel Ltd
+262 | Odisha | Netrabandha | Iron Ore | 19.05.2017 | ML | 139.22 | 81.973 | 87.15 | Bhushan Power and Steel Ltd
+263 | Odisha | Khatkurbahal Block (North) | Limestone | 25.10.2019 | ML | 156.01 | 47.308 | 25.6 | Shiva Cements Ltd
+264 | Odisha | Jagdalpur Block | Graphite | 25.10.2019 | ML | 17.863 | 0.981 | 63.55 | Kalinga Enterprises Pvt Ltd
+265 | Odisha | Kamarda Block | Chromite | 25.10.2019 | ML | 107.24 | 2.375 | 96.8 | T. S. Alloys Ltd
+266 | Odisha | Saruabil Block | Chromite | 25.10.2019 | ML | 246.86 | 10.126 | 88.5 | T. S. Alloys Ltd.
+267 | Odisha | Nuagaon Iron Ore Block | Iron Ore | 31.01.2020 | ML | 776.97 | 789.05 | 95.2 | JSW Steel Ltd
+268 | Odisha | Narayanposhi Iron Ore & Manganese Block | Iron Ore & Manganese | 01.02.2020 | ML | 347.01 | 185.1 | 98.55 | JSW Steel Ltd
+269 | Odisha | Thakurani Iron Ore Block | Iron Ore | 02.02.2020 | ML | 228.74 | 179.27 | 107.6 | Arcelor Mittal India Pvt Ltd
+270 | Odisha | Balda Iron Ore Block | Iron Ore | 03.02.2020 | ML | 343.98 | 200.11 | 118.1 | Serajuddin & Co.
+271 | Odisha | Ganua Iron Ore Block | Iron Ore | 04.02.2020 | ML | 88.516 | 118.92 | 132 | JSW Steel Ltd
+272 | Odisha | Jilling - Langalota Iron Ore Block | Iron Ore | 05.02.2020 | ML | 456.04 | 72.84 | 135 | Shyam Ores Jharkhand Pvt. Ltd(Reserved for OMC)
+273 | Odisha | Jajang Iron Ore Block | Iron Ore | 06.02.2020 | ML | 669.08 | 39.42 | 110 | JSW Steel Ltd
+274 | Odisha | Roida II Iron Ore Block | Iron Ore | 07.02.2020 | ML | 74.702 | 25.89 | 90.9 | Narbheram Power and Steel Pvt Ltd
+275 | Odisha | Mahulsukha Iron Ore & Manganese Block | Iron Ore and Manganese | 08.02.2020 | ML | 390.32 | 33.54 | 92.7 | Patnaik Minerals Private Ltd
+276 | Odisha | Gorumahisani Iron Ore Block | Iron Ore | 10.02.2020 | ML | 348.05 | 17.6 | 115 | Ghanshyam Mishra & Sons Private Limited
+277 | Odisha | Nadidih Iron Ore and Manganese Block(Feegrade) | Iron Ore and Manganese | 16.09.2021 | ML | 117.21 | 23.69 | 92.3 | ESL Steel Ltd.
+278 | Odisha | Kolmong Iron Ore and Manganese Block | Iron Ore and Manganese | 12.02.2020 | ML | 218.48 | Fe-1.4, Mn-3.69 | 100 | Yazdani Steel & Power Ltd
+279 | Odisha | Siljora-Kalimati Block | Iron Ore and Manganese | 13.02.2020 | ML | 713.51 | Fe-0.72, Mn-3.79 | 154 | DebabrataBehera
+280 | Odisha | Jaribahal Iron Ore Block | Iron Ore | 14.02.2020 | ML | 107.44 | 7.15 | 150 | Kashvi International Pvt Ltd
+281 | Odisha | Teherai Iron Ore and Manganese Block | Iron Ore and Manganese | 15.02.2020 | ML | 135.08 | Fe-8.90, Mn-0.06 | 93.06 | Tarama Appartment Pvt Ltd (Forefeited)
+282 | Odisha | Jururi Iron Ore Block | Iron Ore | 16.02.2020 | ML | 73.413 | 2.7 | 126.3 | JagatJanani Services Private Limited
+283 | Odisha | Katasahi Manganese Block | Manganese | 17.02.2020 | ML | 200.51 | 0.65 | 130.3 | Agrasen Sponge Pvt Ltd
+284 | Odisha | Kanther - Koira Manganese Block | Manganese | 18.02.2020 | ML | 73.301 | 0.62 | 110.1 | P.M. Granite Export Private Limited
+285 | Odisha | Guali Iron Ore Block | Iron Ore | 17.03.2020 | ML | 365.03 | 194.94 | 144 | Jindal Steel & Power Ltd(Reserved for OMC)
+286 | Odisha | Sukinda Chromite Block | Chromite Ore | 18.03.2020 | ML | 406 | 92.548 | 93.75 | T S Alloys Limited
+287 | Odisha | Badampahar Iron Ore Block | Iron Ore | 01.07.2020 | ML | 128.43 | 4.484 | 95.15 | GM Iron & Steel Company Ltd
+288 | Odisha | Kasia Iron Ore & Dolomite Block | Iron Ore & Dolomite | 16.09.2021 | ML | 194.19 | 278.04 | 118.1 | Jindal Steel & Power Ltd.
+289 | Odisha | Nadidih Iron Ore Block (BICO) | Iron Ore | 16.09.2021 | ML | 74.5 | 27.04 | 95.6 | ESL Steel Ltd.
+290 | Odisha | Chandiposhi Iron Ore Block | Iron Ore | 16.09.2021 | ML | 131.58 | 47.07 | 113.1 | Rungta Mines Ltd.
+291 | Odisha | JumkaPathiriposhiPahar Iron Ore Block | Iron Ore | 16.09.2021 | ML | 158.509 | 140.28 | 110.15 | Rungta Mines Ltd.
+292 | Odisha | Dholtapahar Iron Ore Block | Iron Ore | 16.09.2021 | ML | 60.51 | 23.92 | 126.55 | Kashvi Power & Steel Pvt. Ltd.
+293 | Odisha | Gandhalpada Iron Ore Block | Iron Ore | 16.09.2021 | ML | 241.1 | 314.37 | 141.25 | TATA Steel Mining Ltd.
+294 | Odisha | NetrabandhaPahar (West) | Iron Ore | 16.09.2021 | ML | 74.37 | 17.265 | 139.5 | Raga TradeconPvt. Ltd.
+295 | Odisha | Pureibahal Block | Iron Ore | 04.10.2021 | ML | 64.337 | 46.8 | 124 | Rungta Mines Limeted
+296 | Odisha | BeheraBhanjipali Limestone Block | Limestone | 29.03.2022 | ML | 119.143 | 3.822 | 5.05 | ACC Limited
+297 | Odisha | Naringpanga Graphite Block | Graphite | 29.03.2022 | ML | 4.3 | 0.142 | 7.55 | MaaKudargarhi Steel (P) Ltd.
+298 | Odisha | Uskalabgu Block | Limestone | 08.02.2023 | ML | 547.13 | 141.41 | 5.05 | Ambuja Cements
+299 | Odisha | Kutrumali Block | Bauxite | 11.02.2023 | ML | 701.79 | 127.74 | 126.76 | Mundra Aluminium Ltd
+300 | Odisha | Sijimali Block | Bauxite | 09.02.2023 | ML | 1549 | 311 | 112.16 | Vedanta Ltd.
+301 | Odisha | Ballada Block | Bauxite | 15.02.2023 | ML | 144.95 | 22.13 | 72.25 | Mundra Aluminium Ltd
+302 | Odisha | Kendudhi North  Block | Iron ore & Manganese | 14.03.2023 | ML | 187.86 | 109.76 | 100 | Rungta Mines Limited
+303 | Odisha | Kedesala North East Block | Iron Ore | 17.03.2023 | ML | 100.44 | 51.89 | 100 | Rungta Mines Limited
+304 | Odisha | Orahuri Block (E) | Manganese & Iron Ore | 21.03.2023 | ML | 50.203 | 7.18 | 140.1 | Om Sairam Steels & Alloys Pvt. Ltd.
+305 | Odisha | Kusumdhi Block | Manganese | 14.03.2023 | ML | 29.12 | 0.135 | 99.5 | Trustline Mining and Minerals
+306 | Rajasthan | 3B1- (b) Deh | Limestone | 22.09.2016 | ML | 247.87 | 168.84 | 60.09 | Emami Cement
+307 | Rajasthan | 3B1- (a) Deh | Limestone | 06.01.2017 | ML | 474.5 | 174.45 | 67.94 | Emami Cement
+308 | Rajasthan | Sindwari, Ramakhera, Satkhnda Block - B | Limestone | 05.01.2017 | ML | 267.63 | 126.95 | 48.05 | Dalmia (bharat) cement
+309 | Rajasthan | 3D1, Harima-Pithsar | Limestone | 17.07.2018 | ML | 357.09 | 199.154 | 41.6 | JSW Cement  Ltd
+310 | Rajasthan | 3B2, Sarasani | Limestone | 05.02.2018 | ML | 470 | 205.537 | 60.1 | JSW Cement Ltd
+311 | Rajasthan | Parewar B, Block District Jaisalmer | Limestone | 10.12.2020 | ML | 420 | 209.265 | 15.4 | Wonder Cement Ltd.
+312 | Rajasthan | Khinya –IIA Block | Limestone | 15.02.2021 | ML | 304 | 178.205 | 15.45 | J.K. Cements Ltd.
+313 | Rajasthan | Block No. 13 of 4GIIA | Limestone | 16.02.2021 | ML | 16.28 | 10.4083 | 26.67 | Hansdeep Industries and Trading Company Ltd.
+314 | Rajasthan | Rata-Mandha-1A(RM-1A) | Limestone | 16.12.2021 | ML | 420 | 209.715 | 15.25 | Deccan Cements Limited Deccan Chambers Somaji Guda,
+315 | Rajasthan | Harima PithasarNagaur, Blocks 3D2 | Limestone | 20.12.2021 | ML | 424.086 | 142.579 | 37 | Ambuja Cements Limited
+316 | Rajasthan | Gothra-Parasrampura West block | Limestone | 24.01.2022 | ML | 287.754 | 163.165 | 192 | ACC Cement Ltd
+317 | Rajasthan | Block- 3C-1 n/v Deh-Harima | Limestone | 27.01.2022 | ML | 300.75 | 183.258 | 130.1 | JSW Cement Ltd.
+318 | Rajasthan | Block- 3C-2 n/v Deh-Harima | Limestone | 28.01.2022 | ML | 386.02 | 150.76 | 50.05 | JSW Cement Ltd.
+319 | Rajasthan | Gothra-Parasrampura East block | Limestone | 25.01.2022 | ML | 460.4 | 158.39 | 192.05 | Dalmia Cement Bharat Ltd.
+320 | Rajasthan | SindwariChariya Block A | Limestone | 16.02.2022 | ML | 203.55 | 156.596 | 130 | JK Cements Ltd.
+321 | Rajasthan | 4GI-a Nagaur | Limestone | 11.04.2022 | ML | 610.86 | 182.43 | 45.32 | JK Laxmi Cement Ltd.
+322 | Rajasthan | Bagawas block | Iron Ore | 29.07.2022 | ML | 5.927 | 57.88 | 452 | Shri Shubhash Lohiya, Prop. Bharat Coal Traders, Punjab
+323 | Rajasthan | Kala Khunta Manganese Block | Managnese | 02.08.2022 | CL | 6.3 | 6.56 | 12.11 | M/s SaiyadAkhtar Ali
+324 | Rajasthan | Dhulkhera-Jipiya Block | Iron ore | 07.09.2022 | CL | 868.68 | 30.4 | 117 | M/s Jindal Steel & Power Ltd.
+325 | Rajasthan | Rupakhera Block, Banswara | Manganese | 07.10.2022 | CL | 473.5 | 6.93 | 10.1 | M/s Syed Akhtar Ali
+326 | Rajasthan | Tambesra Block,Banswara | Manganese | 10.10.2022 | CL | 241 | 4.03 | 10.05 | M/s Syed Akhtar Ali
+327 | Rajasthan | Ramgarh Block, Jaisalmer | Limestone | 14.11.2022 | ML | 256 | 194.19 | 21.55 | Dalmia Bharat Green Vision Ltd.
+328 | Rajasthan | NimanaDunia | Limestone | 20.01.2023 | ML | 299.15 | 204.01 | 85.15 | M/s Mangalam Cements
+329 | Rajasthan | Nayorana-Dandela | Iron Ore | 11.07.2023 | CL | 16.78 | 3.3 | 40.05 | Pacific Industries Limited
+330 | Rajasthan | Hariyav Jashpura | Limestone | 10.07.2023 | ML | 94.62 | 74.21 | 134.95 | Udaipur Cement Works Ltd.
+331 | Rajasthan | Khakhiliya Khera Block Rajasmand, CL | Basemetal& Associated Minerals | 24.08.2023 | CL | 642.45 | N.A. | 3.81 | SMO Ferro Alloys Pvt. Ltd.
+332 | Rajasthan | Pipliyan Block, Udaipur, , CL | Basemetal | 25.08.2023 | CL | 518.65 | N.A. | 3.81 | SMO Ferro Alloys Pvt. Ltd.
+333 | Rajasthan | Manpura Block, Banera, , CL | Basemetal& Associated Minerals | 28.08.2023 | CL | 1150 | N.A. | 3.81 | SMO Ferro Alloys Pvt. Ltd.
+334 | Rajasthan | Ladi Ka Bas Block Tehsil Neem ka Thana & District Sikar | Iron Ore | 28.08.2023 | CL | 38.75 | 8.7 | 145.65 | Sponge Sales India Pvt. Ltd.
+335 | Rajasthan | Kalakota Block Tehsil Neem ka Thana & District Sikar | Iron Ore | 29.08.2023 | CL | 34.44 | 3.9 | 275 | Emerald Buildhome Private Ltd.
+336 | Rajasthan | Ladanan/v Ladana-Ladani, Tehsil Mavli, District - Udaipur(Raj) | Basemetal | 31.08.2023 | CL | 300 | N.A. | 3.81 | SMO Ferro Alloys Pvt. Ltd.
+337 | Rajasthan | Bhabhriya ka Kheda Block n/v Lakha Ka Khera District Chittaurgarh | Basemetal | 04.09.2023 | CL | 970 | N.A. | 3.81 | SMO Ferro Alloys Pvt. Ltd.
+338 | Rajasthan | Toda Block n/v Toda, Tehsil Neem ka Thana, District Sikar | Iron Ore | 12.09.2023 | CL | 18.43 | 1.8 | 66 | Emerald Buildhome Pvt Ltd
+339 | Rajasthan | PSB02 n/V Harima Tehsil, District Nagaur | Limestone | 12.09.2023 | ML | 4.9 | 2.7 | 30.16 | Ambuja Cement Ltd
+340 | Rajasthan | PSB01 n/V Tehsil & District Nagaur | Limestone | 11.09.2023 | ML | 4.9 | 2.7 | 36.05 | Ambuja Cement Ltd
+341 | Rajasthan | PSB06 n/V Tehsil & District Nagaur | Limestone | 18.09.2023 | ML | 4.8 | 2.82 | 38.1 | Ambuja Cement Ltd
+342 | Rajasthan | PSB07 n/V Tehsil & District Nagaur | Limestone | 19.09.2023 | ML | 4.8 | 2.7 | 26.06 | Ambuja Cement Ltd
+343 | Rajasthan | HPB 19 n/V Harima Khetolaw, Pithasia, Sarasani | Limestone | 03.10.2023 | ML | 476.8 | 161.95 | 35.1 | M/s Shree Cement Ltd
+344 | Rajasthan | HPB 20 n/V Harima Khetolaw, Pithasia, Sarasani | Limestone | 04.10.2023 | ML | 547.55 | 166.94 | 29.2 | Ambuja Cement Ltd
+345 | Rajasthan | PSB03 n/v Harima Tehsil & District Nagpur | Limestone | 21.02.2024 | ML | 4.8 | 2.7 | 25.2 | M/s Ambuja Cements Ltd.
+346 | Rajasthan | PSB04 n/v Harima Tehsil & District Nagpur | Limestone | 22.02.2024 | ML | 4.8 | 2.16 | 25.2 | M/s Ambuja Cements Ltd.
+347 | Rajasthan | PSB05 n/v Harima Tehsil & District Nagpur | Limestone | 23.02.2024 | ML | 4.8 | 2.16 | 25.2 | M/s Ambuja Cements Ltd.
+348 | Rajasthan | PSB08 n/v Harima Tehsil & District Nagpur | Limestone | 26.02.2024 | ML | 4.8 | 2.7 | 25.2 | M/s Ambuja Cements Ltd.
+349 | Rajasthan | PSB09 n/v Harima Tehsil & District Nagpur | Limestone | 27.02.2024 | ML | 4.8 | 2.16 | 25.2 | M/s Ambuja Cements Ltd.
+350 | Rajasthan | PSB010 n/v Harima Tehsil & District Nagpur | Limestone | 28.02.2024 | ML | 4.8 | 2.16 | 25.2 | M/s Ambuja Cements Ltd.
+351 | Rajasthan | PSB011 n/v Harima Tehsil & District Nagpur | Limestone | 29.02.2024 | ML | 4.8 | 2.52 | 50.5 | M/s Ambuja Cements Ltd.
+352 | Rajasthan | PSB012 n/v Harima Tehsil & District Nagpur | Limestone | 01.03.2024 | ML | 4.8 | 2.52 | 50.5 | M/s Ambuja Cements Ltd.
+353 | Rajasthan | PSB013 n/v Harima Tehsil & District Nagpur | Limestone | 04.03.2024 | ML | 4.8 | 2.52 | 25.15 | M/s Ambuja Cements Ltd.
+354 | Rajasthan | PSB 014 n/v Sarsani tehsil & district Nagaur | Limestone | 05.03.2024 | ML | 4.8 | 2.52 | 25.15 | M/s Ambuja Cements Ltd.
+355 | Rajasthan | PSB 015 n/v Sarsani tehsil & district Nagaur | Limestone | 06.03.2024 | ML | 4.8 | 1.49 | 25.2 | M/s Ambuja Cements Ltd.
+356 | Rajasthan | PSB016 n/v Harima Tehsil & District Nagaur | Limestone | 07.03.2024 | ML | 4.8 | 0.9 | 25.2 | M/s Ambuja Cements Ltd.
+357 | Rajasthan | PSB017 n/v Harima Tehsil & District Nagaur | Limestone | 11.03.2024 | ML | 4.8 | 3.42 | 25.15 | M/s Ambuja Cements Ltd.
+358 | Rajasthan | PSB 018 n/v Khetolow Tehsil & District Nagaur | Limestone | 12.03.2024 | ML | 4.8 | 3.42 | 25.15 | M/s Ambuja Cements Ltd.
+359 | Rajasthan | HPB21 n/v Khetolow Tehsil & District Nagaur | Limestone | 13.03.2024 | ML | 307 | 108.9 | 27.1 | M/s Ambuja Cements Ltd.
+360 | Rajasthan | Lalso Ki Dhani Block | Siliceous Earth | 03.04.2024 | CL | 90 | 0.08 | 12.2 | RK Enterprises
+361 | Rajasthan | Basri Ganeshpura Block | Iron Ore | 18.04.2024 | CL | 38.19 | 6.5 | 97.01 | Terroso Quartz Private Ltd.
+362 | Rajasthan | Dedrauli Iron-ore Block | Iron Ore | 29.04.2024 | CL | 754.38 | 395.14 | 211.9 | Pacific Industries bLtd.
+363 | Rajasthan | Khora Iron-block | Iron Ore | 30.04.2024 | CL | 462.3 | 354.27 | 108.2 | Win Ferro Alloys Private Ltd.
+364 | Rajasthan | Todupura Iron-block | Iron Ore | 02.05.2024 | CL | 260.71 | 85.42 | 175.05 | Gallantt Ispat Ltd.
+365 | Rajasthan | Joga-II block | Limestone | 13.05.2024 | ML | 376 | 265.362 | 70.5 | Ambuja Cements Ltd.
+366 | Rajasthan | Chandakheri-Shadi-Palka block | Limestone | 14.05.2024 | ML | 741 | 171.72 | 23.1 | J.K. Cement Ltd
+367 | Rajasthan | TKB 11 n/v Jorawarpura, Haripura | Limestone | 29.05.2024 | ML | 112.89 | 31.47 | 51.05 | Galxy Mining and Royalties Pvt. Ltd.
+368 | Rajasthan | TKSB 17 n/v Haripura | Limestone | 06.06.2024 | ML | 4.82 | 1.92 | 74 | J.K. Cement Ltd
+369 | Rajasthan | TKSB 18 n/v Haripura | Limestone | 07.06.2024 | ML | 4.8 | 1.5 | 38.05 | Suncity Chemical & Minerals Pvt. Ltd.
+370 | Rajasthan | TKSB 23 n/v Haripura | Limestone | 14.06.2024 | ML | 4.81 | 3.22 | 65.05 | J.K. Cement Ltd
+371 | Rajasthan | TKSB 24 n/v Haripura | Limestone | 18.06.2024 | ML | 4.8 | 2.52 | 38.25 | Suncity Chemical & Minerals Pvt. Ltd.
+372 | Rajasthan | Bhukia-Jagpura Block | Gold and Associated Mineralization | 16.05.2024 | ML | 940 | 113.52 | 65.3 | Shri Saiyyed Owais Ali
+373 | Rajasthan | TKSB 30 n/v Haripura | Limestone | 26.06.2024 | ML | 4.81 | 3.43 | 86.2 | J.K. Cement Ltd
+374 | Rajasthan | TKSB 31 n/v Haripura | Limestone | 27.06.2024 | ML | 4.8 | 2.75 | 77.3 | Mundan Construction
+375 | Rajasthan | TKSB 37 n/v Haripura | Limestone | 05.07.2024 | ML | 4.81 | 3.26 | 85 | Sigma Minerals Ltd.
+376 | Rajasthan | TKSB 38 n/v Haripura, Khodwa | Limestone | 08.07.2024 | ML | 4.8 | 3.56 | 81 | White N White Minerals
+377 | Rajasthan | Liloti Block | Iron Ore | 16.08.2024 | CL | 410.94 | 3.65 | 77.55 | Ambashakti Udyog Ltd.
+378 | Rajasthan | Mandai II | Siliceous Earth | 20.08.2024 | CL | 10 | 0.15 | 12.16 | Silvrr Mist Retail Pvt. Ltd.
+379 | Rajasthan | NB 01 | Limestone | 05.09.2024 | ML | 22.4081 | 14.5 | 37.75 | Nuvoco Vistas Corporation Ltd.
+380 | Rajasthan | NB 02 | Limestone | 06.09.2024 | ML | 8.6246 | 5.4 | 38.05 | Nuvoco Vistas Corporation Ltd.
+381 | Rajasthan | NB 03 | Limestone | 09.09.2024 | ML | 10.3417 | 8.53 | 41.05 | Nuvoco Vistas Corporation Ltd.
+382 | Rajasthan | NB 04 | Limestone | 10.09.2024 | ML | 33.9047 | 14.14 | 60.15 | Star Cement North East Ltd.
+383 | Rajasthan | NB 05 | Limestone | 11.09.2024 | ML | 20.2697 | 7.47 | 60.15 | Star Cement North East Ltd.
+384 | Rajasthan | NB 06 | Limestone | 12.09.2024 | ML | 8.583 | 3.86 | 60.05 | Star Cement North East Ltd.
+385 | Rajasthan | NB 07 | Limestone | 17.09.2024 | ML | 14.3246 | 13.25 | 70.1 | Star Cement North East Ltd.
+386 | Rajasthan | NB08 | Limestone | 18.09.2024 | ML | 8.4162 | 7.78 | 62 | Star Cement North East Ltd.
+387 | Rajasthan | NB09 | Limestone | 19.09.2024 | ML | 4.1793 | 1.93 | 32 | Ridhi Sidhi Int Udyog
+388 | Rajasthan | NB10 | Limestone | 20.09.2024 | ML | 4.0547 | 3.75 | 36.05 | Ambika Suppliers
+389 | Rajasthan | NB 11 | Limestone | 23.09.2024 | ML | 10.1841 | 6.3 | 70.05 | Star Cement North East Ltd.
+390 | Uttar Pradesh | SonraiPhosphorite Block V | Phosphorite | 08.04.2022 | CL | 189 | 1.8 | 38.48 | M/s RHSM Holdings, Bhopal
+391 | Uttar Pradesh | SonraiPhosphorite Block I, Lalitpur | Phosphorite | 14.09.2022 | CL | 160 | 0.2 | 62.05 | M/s RSHSM Commerce PVT. LTD.
+392 | Uttar Pradesh | SonraiPhosphorite Block II- IV | Phosphorite | 22.12.2022 | ML | 221 | N.A. | 53.85 | M/s Leelakrishna Industries Pvt. Ltd.
+393 | Uttar Pradesh | Dhurva-BiadandBlock,Sonbhadra | Gold | 23.12.2022 | CL |  | N.A. | 10.1 | M/s Kundan Care Gold Group Delhi
+394 | Uttar Pradesh | Girar | Iron Ore & Gold | 23.11.2023 | CL | 271.18 | Fe-100 Au- 12.29 | 4.05 | Fomento Resources Pvt. Ltd.
+395 | Uttar Pradesh | Bharhari | Iron Ore | 24.11.2023 | CL | 134.77 | 14.89 | 4.8 | Fomento Resources Pvt. Ltd.
+396 | Uttar Pradesh | Sona Pahari | Gold | 23.11.2023 | CL | 79 | 0.052 | 40.22 | Prospect Resource Limited
+397 | Goa | Bicholim Mineral Blocks | Iron Ore | 14.12.2022 | ML | 478.52 | 85.465 | 63.55 | Vedanta
+398 | Goa | Sirigao-Mayem Mineral Block | Iron Ore | 15.12.2022 | ML | 171.25 | 23.584 | 99.25 | Salgaoncar Shipping
+399 | Goa | Monte De Sirigao Mineral Block | Iron Ore | 16.12.2022 | ML | 95.67 | 9.594 | 111.28 | Rajaram Bandekar (Shrigao) Mines
+400 | Goa | Kalay Mineral Block | Iron Ore | 21.12.2022 | ML | 179.18 | 20.83 | 86.4 | Fomento Resources Private Limited
+401 | Goa | Block V- Advalpale-Thivim Mineral Block | Iron Ore | 21.04.2023 | ML | 36.22 | 3.83 | 58.85 | Fomento Resources Private Limited
+402 | Goa | Block VI- Cudnem-Cormolem Mineral Block | Iron Ore | 25.04.2023 | ML | 38.51 | 9.77 | 96.65 | JSW Steel Limited
+403 | Goa | Block VII-Cudnem Mineral Block | Iron Ore | 26.04.2023 | ML | 75.3 | 8.28 | 93.15 | Vedanta Limited
+404 | Goa | Block VIII-Thivim-Pirna Mineral Block | Iron Ore | 2704.2023. | ML | 72.05 | 1.69 | 100.12 | K A I International Private Limited
+405 | Goa | Block IX-Surla-Sonshi Mineral Block | Iron Ore | 28.04.2023 | ML | 254.51 | 65.73 | 109.8 | JSW Steel Limited
+406 | Central Government/ Uttar Pradesh | Pahadi Kalan-Gora Kalan Phosphorite Block | Phosphorite | 24.06.2024 | CL | 1393.83 | 19.08 | 400 | Sagar Stone Industries
+407 | Central Government/Odisha | Biarpalli Graphite and Manganese Block | Graphite and Manganese | 24.06.2024 | ML | 131.82 | 3.358 | 70.05 | Agrasen Sponge Private Limited
+408 | Central Government/Odisha | Babja Graphite and Manganese Block | Graphite and Manganese Ore | 24.06.2024 | ML | 19.5 | 0.8 | 85.05 | Agrasen Sponge Private Limited
+409 | Central Government/Odisha | Akharkata Graphite Block | Graphite | 24.06.2024 | CL | 752.77 | NA | 13.05 | Kundan Gold Mines Private Limited
+410 | Central Government/ Chhatisgarh | Katghora Lithium and REE Block | Lithium and REE | 24.06.2024 | CL | 256.12 | NA | 76.05 | Maiki South Mining Private Limited
+411 | Central Government/ Tamil Nadu | Iluppakudi Graphite Block | Graphite | 24.06.2024 | CL | 633.36 | NA | 45 | Dalmia Bharat Refractories Limited
+412 | Central Government/ Madhya Pradesh | Golighat Graphite and Vanadium Block | Graphite and Vanadium | 20.07.2024 | ML | 82 | 5.88 | 155.05 | Shanti GD Ispat and Power Pvt.
+413 | Central Government/ Karnataka | Gollarahatti-Mallenahalli Nickel, PGE and Chromium Block | Nickel, PGE and Chromium | 20.07.2024 | CL | 1238.122 | NA | 15 | Vedanta Limited
+414 | Central Government/ Madhya Pradesh | Bahera- Goriara Graphite and Basemetal Block | Graphite and Basemetal | 20.07.2024 | CL | 99.49 | 2.33 | 72 | Vinmir Resources Pvt. Ltd.
+415 | Central Government/ Madhya Pradesh | Khattali Chhoti Graphite Block | Graphite | 20.07.2024 | CL | 599.76 | NA | 150.55 | Coal India Limited
+416 | Central Government/ Bihar | Pipradih-Bhurwa Glauconite Block | Glauconite | 20.07.2024 | CL | 415.38 | 88.38 | 10.6 | Rungta Sons Private Limited
+417 | Central Government/ Uttar Pradesh | Kurchha Glauconite Block | Glauconite | 20.07.2024 | CL | 17.3 | 1.85 | 40 | Shobha Minerals
+418 | Central Government/ Bihar | Chutia-Nauhatta Glauconite Block | Glauconite | 20.07.2024 | CL | 463.995 | 141.73 | 10.6 | Rungta Sons Private Limited
+419 | Central Government/ Bihar | Genjana Nickel, Chromium and PGE Block | Nickel, Chromium and PGE | 20.07.2024 | CL | 788.85 | NA | 6.05 | Vedanta Limited
+420 | Central Government/Arunachal Pradesh | Depo Vanadium and Graphite Block | Vanadium and Graphite(Amorphous) | 18.10.2024 | CL | 104.65 | Vandium-0.389,Graphite-0.22 | 2.55 | Vedanta Limited
+421 | Central Government/Arunachal Pradesh | Phop Graphite and Vanadium Block, | Graphite and Vanadium | 18.10.2024 | CL | 108.86 | Vandium-6.37,Graphite-6.50 | 76.05 | Oil India Ltd
+422 | Central Government/Uttar Pradesh | Barwar Phosphorite Block | Phosphorite | 18.10.2024 | CL | 505.38 | 1.47 | 320 | Mamco Mining Private Limited
+423 | Central Government/ Andhra Pradesh | Balepalyam Tungsten and Associated Mineral Block | Tungsten and Associated Mineral | 22.10.2024 | CL | 308.3 | 0.079 | 6.55 | Hindustan Zinc Limited
+424 | Central Government/Arunachal Pradesh | Radhpu Graphite and Vanadium Block | Graphite and Vanadium | 22.10.2024 | CL | 152.74 | Vandium-9.156,Graphite-5.83 | 95 | Orissa Metaliks Private Limited
+425 | Central Government/Arunachal Pradesh | Endolin-Isholin Graphite Block | Graphite | 23.10.2024 | CL | 503.15 | NA | 237.5 | Mamco Mining Private Limited
+426 | Central Government/Karnataka | Sanyasikoppa Cobalt, Manganese and Iron Block | Cobalt, Manganese and Iron | 24.10.2024 | CL | 1055.64 | NA | 45 | Vedanta Limited
+427 | Central Government/Tamil Nadu | Nayakkarpatti Tungsten Block, | Tungsten | 24.10.2024 | CL | 2015.51 | NA | 5.05 | Hindustan Zinc Limited

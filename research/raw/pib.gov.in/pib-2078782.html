@@ -1,0 +1,1266 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head id="Head1"><title>
+	Press Release Page | Press Information Bureau
+</title><link href="css/style.css?v=1" rel="stylesheet" type="text/css" /><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="alternate stylesheet" href="css/change.css?v=1" media="screen" title="change" /><link rel="alternate stylesheet" href="css/green.css?v=1" media="screen" title="green" /><link rel="alternate stylesheet" href="css/yellow.css" media="screen" title="yellow" /><link rel="stylesheet" type="text/css" href="css/prtint.css" media="print" /><link rel="stylesheet" href="css/style3.1.css" type="text/css" /><link id="pibA11yCss" rel="stylesheet" href="/css/accessibility.css?v=7" type="text/css" />
+    <script type="text/javascript">
+        (function (d) {
+            var t = "";
+            try {
+                t = window.localStorage.getItem("pibStyle") || "";
+            } catch (e) {
+                t = "";
+            }
+            if (t === "orange") {
+                t = "yellow";
+            }
+            var c = t === "change" ? " pib-hc"
+                : t === "green" ? " pib-theme-green"
+                : t === "yellow" ? " pib-theme-yellow" : "";
+            d.documentElement.className += c + " pib-a11y-content";
+        }(document));
+    </script>
+
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/js/accessibility.js?v=7"></script>
+
+    <script type="text/javascript">
+            $(document).ready(function () {
+                  function getParameterByName(name) {
+                        var url = window.location.href;
+                        name = name.replace(/[\[\]]/g, '\\$&');
+                        var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+                              results = regex.exec(url);
+                        if (!results) return null;
+                        if (!results[2]) return '';
+                        return decodeURIComponent(results[2].replace(/\+/g, ' '));
+                  }
+                  let prid = parseInt(getParameterByName('PRID'), 10);
+
+                  if (!isNaN(prid) && prid > 0) {
+                        $.ajax({
+                              type: "POST",
+                              url: "AjaxMethod.aspx/UpdatePRHitCount",
+                              async: false,
+                              data: JSON.stringify({ 'PermId': prid }),
+                              contentType: "application/json; charset=utf-8",
+                              dataType: "json",
+                              success: function (response) {
+                                    console.log(response);
+                              },
+                              error: function (error) {
+                                    console.log("Error in AJAX request", error);
+                              }
+                        });
+                  } else {
+                        console.log("Invalid parameters:", prid);
+                  }
+            });
+    </script>
+    <style type="text/css">
+        .table-responsive {
+            width: 100%;
+            overflow-x: auto;
+        }
+
+        .banner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+        }
+
+        full-width {
+            width: 100%;
+        }
+
+        .logo-left, .logo-center, .countdown {
+            display: flex;
+            align-items: center;
+        }
+
+            .logo-left img, .logo-center img {
+                height: 70px;
+            }
+
+        .countdown {
+            text-align: center;
+            background-color: var(--dbim-text, #150202);
+            border-radius: 10px;
+            padding: 10px;
+            border: 2px solid grey;
+        }
+
+        .firstnumber {
+            color: #000000;
+            position: absolute;
+            top: 50px;
+            right: 90px;
+            font-size: 30px;
+        }
+
+        .secondnumber {
+            position: absolute;
+            color: #000000;
+            right: 45px;
+            top: 50px;
+            font-size: 30px;
+        }
+
+        .countdown .days {
+            font-size: 35px;
+            color: gold;
+        }
+
+        .countdown p {
+            margin: 0;
+        }
+
+        .countdown .text {
+            font-size: 16px;
+        }
+
+        a {
+            word-break: break-all;
+        }
+
+        iframe, img {
+            max-width: 100%;
+        }
+
+        /* === DBIM 3.0 Option 4 Separator Line & Reading Meta Styling === */
+        .pr-share--footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+            border-top: 1px solid var(--dbim-border, #d1d5db);
+            padding-top: 16px;
+            margin-top: 24px;
+        }
+
+        .pr-share__left {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .pr-reading-meta {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 0.95rem;
+            color: var(--dbim-text-secondary, #475569);
+            font-weight: 500;
+            white-space: nowrap;
+            margin-left: auto;
+        }
+
+        .pr-reading-meta__item {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .pr-reading-meta__divider {
+            color: var(--dbim-border, #cbd5e1);
+            font-weight: 300;
+        }
+
+        .pib-hc .pr-reading-meta,
+        .pib-hc .pr-reading-meta svg {
+            color: currentColor !important;
+        }
+
+        @media (max-width: 680px) {
+            .pr-share--footer {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .pr-reading-meta {
+                margin-left: 0;
+                width: 100%;
+                justify-content: flex-start;
+            }
+        }
+
+        @media(max-width:1199px) {
+            .firstnumber {
+                top: 40px;
+                right: 72px;
+                font-size: 30px;
+            }
+
+            .secondnumber {
+                right: 35px;
+                top: 40px;
+                font-size: 30px;
+            }
+        }
+
+        @media(max-width:990px) {
+            .firstnumber {
+                top: 25px;
+                right: 54px;
+                font-size: 30px;
+            }
+
+            .secondnumber {
+                right: 25px;
+                top: 25px;
+                font-size: 30px;
+            }
+        }
+
+        @media(max-width:768px) {
+            .countdown, .days {
+                font-size: 12px !important;
+            }
+
+            .firstnumber {
+                top: 25%;
+                right: 8%;
+                font-size: 30px;
+            }
+
+            .secondnumber {
+                right: 4.5%;
+                top: 25%;
+                font-size: 30px;
+            }
+        }
+
+        @media(max-width:475px) {
+            .countdown, .days {
+                font-size: 10px !important;
+                top: 20%;
+            }
+
+            .bannerimgdiv {
+                padding: 0 !important;
+            }
+
+            .bannerimg {
+                width: 108% !important;
+            }
+        }
+    </style>
+    <script type="text/javascript">
+            $(function () {
+                  $("[id*=printPDF]").click(function () {
+                        $("[id*=hfGridHtml]").val($("#PdfDiv").html());
+                  });
+            });
+            $(function () {
+                  $("[id*=printPDFEvent]").click(function () {
+                        $("[id*=hfGridHtml]").val($("#PdfDiv").html());
+                  });
+            });
+    </script>
+
+    <link id="pibConsentCss" href="/css/consent.css?v=8" rel="stylesheet" type="text/css" /><link id="pibFontsCss" href="/css/fonts-noto.css?v=6" rel="stylesheet" type="text/css" /><link id="pibDbimCss" href="/css/dbim.css?v=1120" rel="stylesheet" type="text/css" /><meta property="og:title" content="Ministry of Mines Launches the First Ever Tranche of Auction of Mineral Blocks in the Offshore Areas" /><meta property="og:url" content="www.pib.gov.in/Pressreleaseshare.aspx?PRID=2078782" /><meta property="og:description" content="The first ever tranche of e-auction of mineral blocks in the offshore areas of India was launched by" /><meta property="og:image" content="https:/pib.gov.in/images/indian-emblem.png" />
+                                <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="C4E7H-KSCMC-422L4-W3EM5-U36MF",function(){function e(){if(!i){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,o.parentNode.appendChild(e),i=!0}}function t(e){i=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(o.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",o.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"C4E7H-KSCMC-422L4-W3EM5-U36MF";var o=document.currentScript||document.getElementsByTagName("script")[0],i=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!i)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),o.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="eqausaa4ytiwijqacqlqauyaabvnvzuj-f-0ff903384-clienttons-s.akamaihd.net",o="false"=="true"?2:1,i={"ak.v":"41","ak.cp":"1825201","ak.ai":parseInt("1215205",10),"ak.ol":"0","ak.cr":6,"ak.ipv":6,"ak.proto":"h2","ak.rid":"128f6dd0","ak.r":24958,"ak.a2":n,"ak.m":"dscb","ak.n":"ff","ak.cport":62335,"ak.gh":"23.3.70.4","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"","ak.t":"1792730761","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==tcbSzVxAPlV0fAkPHzsV+5s7FgX9VrKRfrk0fS5VCwSmte7He0ojVTj8PBP2HXxH2NZQtX9Oz7PLV/ywz6QHCunJFOTcPPcl+9eAXuIn3WZzJUZOx52Ys1L6JkAtxXBrLfBx5x7inxJ0Fgjq4BDJGvflr3VnDnsSZ8vn8Yxk0Kmqt/tlxU50Ck86cBxK8lR74XEQ93oPo7NhdSNgfUlI7qTKRGcSJ37g34hJf+elhnd5FYNFOayNPOWdmvJYWNneZFONztS/HQK24dPiBoTO+pl0liA+moanavAPNxUwq6kP6Ah/S2lVLaKoj/tJ5uEzX1kB2ahlX2J3dJu3ptfVlFx8CgvS7OH0CQgcPyTZ82c04OuT/ltttWSAhhNTf/H8atgHh71EbwwkBAT9Kb76CVm3RuWL+JF9TGh0L451wdk=","ak.pv":"9","ak.dpoabenc":"","ak.tf":o};if(""!==t)i["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))i["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var e=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+<body>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
+     style="position:absolute;width:0;height:0;overflow:hidden" id="dbim-icon-sprite">
+    <defs>
+        <symbol id="icon-angle-double-left" viewBox="0 0 24 24"><path d="M11.6 4.6 4.2 12l7.4 7.4 2.2-2.2L8.6 12l5.2-5.2z"/><path d="M19 4.6 11.6 12 19 19.4l2.2-2.2L16 12l5.2-5.2z"/></symbol>
+        <symbol id="icon-angle-double-right" viewBox="0 0 24 24"><path d="M12.4 4.6 10.2 6.8 15.4 12l-5.2 5.2 2.2 2.2L19.8 12z"/><path d="M5 4.6 2.8 6.8 8 12l-5.2 5.2L5 19.4 12.4 12z"/></symbol>
+        <symbol id="icon-arrow-left" viewBox="0 0 24 24"><path d="M20.8 10.6H9.6v2.8h11.2z"/><path d="M10.8 5.6 3.2 12l7.6 6.4z"/></symbol>
+        <symbol id="icon-arrow-right" viewBox="0 0 24 24"><path d="M3.2 10.6h11.2v2.8H3.2z"/><path d="M13.2 5.6 20.8 12l-7.6 6.4z"/></symbol>
+        <symbol id="icon-blogger" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M6.4 2.4h11.2a4 4 0 0 1 4 4v11.2a4 4 0 0 1-4 4H6.4a4 4 0 0 1-4-4V6.4a4 4 0 0 1 4-4zm2.8 5.2a2 2 0 0 0 0 4h2.4a2 2 0 0 0 0-4zm0 5.6a2 2 0 0 0 0 4h5.6a2 2 0 0 0 0-4z"/></symbol>
+        <symbol id="icon-calendar" viewBox="0 0 24 24"><path d="M7.6 2.4H10v2.4H7.6z"/><path d="M14 2.4h2.4v2.4H14z"/><path fill-rule="evenodd" d="M4 4.8h16a1.6 1.6 0 0 1 1.6 1.6v13.2a1.6 1.6 0 0 1-1.6 1.6H4a1.6 1.6 0 0 1-1.6-1.6V6.4A1.6 1.6 0 0 1 4 4.8zm.4 5.6v8.4h15.2v-8.4z"/><path d="M6.4 12.4h3.2v3.2H6.4z"/></symbol>
+        <symbol id="icon-chevron-left" viewBox="0 0 24 24"><path d="M15.4 4.6 8 12l7.4 7.4 2.2-2.2L12.4 12l5.2-5.2z"/></symbol>
+        <symbol id="icon-chevron-right" viewBox="0 0 24 24"><path d="M8.6 4.6 6.4 6.8 11.6 12l-5.2 5.2 2.2 2.2L16 12z"/></symbol>
+        <symbol id="icon-circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/></symbol>
+        <symbol id="icon-download" viewBox="0 0 24 24"><path d="M10.8 3h2.4v7.6h3.4L12 16.6l-4.6-6h3.4z"/><path d="M4 17.2h2.4v2.4h11.2v-2.4H20v3.2a1.4 1.4 0 0 1-1.4 1.4H5.4A1.4 1.4 0 0 1 4 20.4z"/></symbol>
+        <symbol id="icon-facebook" viewBox="0 0 24 24"><path d="M13.6 21.6v-8.4h2.8l.42-3.3h-3.22V7.8c0-.95.27-1.6 1.64-1.6h1.74V3.26a23 23 0 0 0-2.54-.13c-2.5 0-4.22 1.53-4.22 4.34v2.43H7.4v3.3h2.82v8.4z"/></symbol>
+        <symbol id="icon-fact-check" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.4 3.6 5.6v6.2c0 4.6 3.4 8.6 8.4 9.8 5-1.2 8.4-5.2 8.4-9.8V5.6zm-1 13.2-3.6-3.6 1.7-1.7 1.9 1.9 4.5-4.5 1.7 1.7z"/></symbol>
+        <symbol id="icon-hashtag" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M8.8 3h2.4l-1 6h3.2l1-6h2.4l-1 6h3.4v2.4h-3.8l-.6 3.2h3.6V17h-4l-1 5h-2.4l1-5h-3.2l-1 5H5.4l1-5H3V14.6h3.8l.6-3.2H3.8V9h4zm.6 8.4-.6 3.2h3.2l.6-3.2z"/></symbol>
+        <symbol id="icon-home" viewBox="0 0 24 24"><path d="M12 3.4 2.8 11.6h2.4v8.4a1 1 0 0 0 1 1h3.3v-5.4h5v5.4h3.3a1 1 0 0 0 1-1v-8.4h2.4z"/></symbol>
+        <symbol id="icon-instagram" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M7.6 2.4h8.8a5.2 5.2 0 0 1 5.2 5.2v8.8a5.2 5.2 0 0 1-5.2 5.2H7.6a5.2 5.2 0 0 1-5.2-5.2V7.6a5.2 5.2 0 0 1 5.2-5.2zm0 2.4a2.8 2.8 0 0 0-2.8 2.8v8.8a2.8 2.8 0 0 0 2.8 2.8h8.8a2.8 2.8 0 0 0 2.8-2.8V7.6a2.8 2.8 0 0 0-2.8-2.8z"/><path fill-rule="evenodd" d="M12 6.8a5.2 5.2 0 1 0 0 10.4 5.2 5.2 0 0 0 0-10.4zm0 2.4a2.8 2.8 0 1 1 0 5.6 2.8 2.8 0 0 1 0-5.6z"/><circle cx="17.3" cy="6.7" r="1.3"/></symbol>
+        <symbol id="icon-linkedin" viewBox="0 0 24 24"><path d="M4.8 8.8h3.6v12H4.8z"/><circle cx="6.6" cy="5.4" r="2.1"/><path d="M10.8 8.8h3.45v1.65h.05c.48-.9 1.65-1.85 3.4-1.85 3.63 0 4.3 2.35 4.3 5.4v6.6h-3.6v-5.85c0-1.4-.03-3.2-1.95-3.2-1.95 0-2.25 1.52-2.25 3.1v5.95h-3.6z"/></symbol>
+        <symbol id="icon-mail" viewBox="0 0 24 24"><path d="M2.4 7.6v9.2a1.6 1.6 0 0 0 1.6 1.6h16a1.6 1.6 0 0 0 1.6-1.6V7.6L12 14z"/><path d="M21.2 5.4H2.8L12 11.8z"/></symbol>
+        <symbol id="icon-mail-open" viewBox="0 0 24 24"><path d="M2.4 9.8h19.2v9.6A1.6 1.6 0 0 1 20 21H4a1.6 1.6 0 0 1-1.6-1.6z"/><path d="M12 2.6 21.6 9.2h-3.8L12 5.3 6.2 9.2H2.4z"/><path d="m3.9 11.2 8.1 5.4 8.1-5.4 1.5 1.3-9.6 6.4-9.6-6.4z"/></symbol>
+        <symbol id="icon-map-marker" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.4a7 7 0 0 0-7 7c0 5.2 7 12.2 7 12.2s7-7 7-12.2a7 7 0 0 0-7-7zm0 9.6a2.6 2.6 0 1 1 0-5.2 2.6 2.6 0 0 1 0 5.2z"/></symbol>
+        <symbol id="icon-newspaper" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M2.8 4.4h14.8v15.2H2.8zm2 2v11.2h10.8V6.4z"/><path d="M6 7.6h8.4v1.6H6z"/><path d="M6 10.8h8.4v1.6H6z"/><path d="M6 14h5.2v1.6H6z"/><path d="M18.4 8.4h2.8v9.6a1.4 1.4 0 0 1-2.8 0z"/></symbol>
+        <symbol id="icon-pause" viewBox="0 0 24 24"><rect x="7.4" y="4" width="3.6" height="16" rx="0.9"/><rect x="13" y="4" width="3.6" height="16" rx="0.9"/></symbol>
+    <symbol id="icon-play" viewBox="0 0 24 24"><path d="M8 4.5v15l12-7.5z"/></symbol>
+        <symbol id="icon-picture" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M2.4 5.2h19.2v13.6H2.4zm2 2v9.6h15.2V7.2z"/><path d="M5.6 16.4 10 11l2.6 3 2-2.2 4 4.6z"/><circle cx="8" cy="10.4" r="1.5"/></symbol>
+        <symbol id="icon-press-conference" viewBox="0 0 24 24"><circle cx="12" cy="5.2" r="2.6"/><path d="M7.6 12.2a4.4 4.4 0 0 1 8.8 0z"/><circle cx="4.9" cy="9.6" r="2.2"/><path d="M1.8 15.2a3.1 3.1 0 0 1 6.2 0z"/><circle cx="19.1" cy="9.6" r="2.2"/><path d="M16 15.2a3.1 3.1 0 0 1 6.2 0z"/><path d="M6.6 13.6h10.8l2.2 7.8H4.4z"/></symbol>
+        <symbol id="icon-print" viewBox="0 0 24 24"><path d="M6.4 2.8h11.2v4.4H6.4z"/><path d="M4 8.4h16a1.6 1.6 0 0 1 1.6 1.6v5.6a1.6 1.6 0 0 1-1.6 1.6h-1.6v-2.8H6v2.8H4a1.6 1.6 0 0 1-1.6-1.6V10A1.6 1.6 0 0 1 4 8.4z"/><path d="M7.2 15.6h9.6v5.6H7.2z"/></symbol>
+        <symbol id="icon-rss" viewBox="0 0 24 24"><circle cx="4.8" cy="19.2" r="2.4"/><path d="M2.4 11.2v3.2a6.4 6.4 0 0 1 6.4 6.4H12A9.6 9.6 0 0 0 2.4 11.2z"/><path d="M2.4 4.8V8A13.6 13.6 0 0 1 16 21.6h3.2A16.8 16.8 0 0 0 2.4 4.8z"/></symbol>
+        <symbol id="icon-search-plus" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M10 2.8a7.2 7.2 0 1 0 0 14.4 7.2 7.2 0 0 0 0-14.4zm0 2.4a4.8 4.8 0 1 1 0 9.6 4.8 4.8 0 0 1 0-9.6z"/><path d="M15.3 14.6 21.2 20.5l-1.5 1.5-5.9-5.9z"/><path d="M9.2 6.8h1.6v2.4h2.4v1.6h-2.4v2.4H9.2v-2.4H6.8V9.2h2.4z"/></symbol>
+        <symbol id="icon-share" viewBox="0 0 24 24"><circle cx="18" cy="5.6" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="18.4" r="3"/><path d="M8.3 10.9 15.7 7.2l.9 1.8-7.4 3.7z"/><path d="M9.2 13.1 16.6 16.8l-.9 1.8-7.4-3.7z"/></symbol>
+        <symbol id="icon-twitter" viewBox="0 0 24 24"><path d="M4.2 3h4.3l11.3 18h-4.3z"/><path d="M19.3 3h-2.6L4.2 21h2.6z"/></symbol>
+        <symbol id="icon-university" viewBox="0 0 24 24"><path d="M12 2.4 21.6 7.2v1.6H2.4V7.2z"/><path d="M4.8 10.4h2.4v8H4.8z"/><path d="M9.2 10.4h2.4v8H9.2z"/><path d="M13.4 10.4h2.4v8h-2.4z"/><path d="M17.6 10.4H20v8h-2.4z"/><path d="M3.2 19.8h17.6v1.8H3.2z"/></symbol>
+        <symbol id="icon-volume-up" viewBox="0 0 24 24"><path d="M3.2 9.2h3.3l5-4.2v14l-5-4.2H3.2z"/><path d="M14.6 8.4a5 5 0 0 1 0 7.2l1.6 1.6a7.2 7.2 0 0 0 0-10.4z"/><path d="M17.4 5.6a8.8 8.8 0 0 1 0 12.8l1.5 1.5a10.9 10.9 0 0 0 0-15.8z"/></symbol>
+        <symbol id="icon-whatsapp" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.4a9.5 9.5 0 0 0-8.1 14.5L2.4 21.6l4.8-1.4A9.5 9.5 0 1 0 12 2.4zm0 2.2a7.3 7.3 0 1 1-3.8 13.5l-.4-.2-2.6.7.7-2.5-.3-.4A7.3 7.3 0 0 1 12 4.6z"/><path d="M9.4 7.8c-.2-.5-.4-.5-.6-.5h-.5a1 1 0 0 0-.7.3c-.3.3-.9.9-.9 2.1s.9 2.4 1 2.6c.1.2 1.7 2.8 4.3 3.8 2.1.8 2.6.7 3 .6.5 0 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.5-.3-1.6-.8c-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6 6 0 0 1-1.8-1.1 6.6 6.6 0 0 1-1.2-1.6c-.1-.2 0-.4.1-.5l.4-.5.3-.5v-.5z"/></symbol>
+        <symbol id="icon-youtube" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M21.6 7.2a2.8 2.8 0 0 0-2-2C17.9 4.8 12 4.8 12 4.8s-5.9 0-7.6.4a2.8 2.8 0 0 0-2 2A29 29 0 0 0 2 12a29 29 0 0 0 .4 4.8 2.8 2.8 0 0 0 2 2c1.7.4 7.6.4 7.6.4s5.9 0 7.6-.4a2.8 2.8 0 0 0 2-2A29 29 0 0 0 22 12a29 29 0 0 0-.4-4.8zM10.2 15.1V8.9l5.1 3.1z"/></symbol>
+    </defs>
+</svg>
+
+    <form method="post" action="./PressReleasePage.aspx?PRID=2078782&amp;reg=48&amp;lang=2" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="sc_HiddenField" id="sc_HiddenField" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZPQet1wIx1Q48y3xJY2k25Y7qxH5RrQ9qQcN-OiTC9guZtri9w2&amp;t=639246310055090729" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=x6wALODbMJK5e0eRC_p1LdIxBJXt0U_WW5GWfJqHAqo6frgCmGRfEywglicTersO2OKrFhK1gAIp0Wk2al2YrpdR3uWqH6f4nfjBsCyRUfTUUVmb0&amp;t=ffffffffecf8d3f2" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=P5lTttoqSeZXoYRLQMIScH645UK3RD852IErF2548Wz9Ssv0rLjB4fhVKnHcMpqkaMHpNAGOeWY02Lf4aBYN9-dVBme_SNK5KJwmFQNpMixYDZ7M0&amp;t=ffffffffecf8d3f2" type="text/javascript"></script>
+<script src="/PressReleasePage.aspx?_TSM_HiddenField_=sc_HiddenField&amp;_TSM_CombinedScripts_=%3b%3bAjaxControlToolkit%2c+Version%3d3.5.7.123%2c+Culture%3dneutral%2c+PublicKeyToken%3d28f01b0e84b6d53e%3aen-US%3a5a4df314-b4a2-4da2-a207-9284f1b1e96c%3ade1feab2%3af2c8e708%3a8613aea7%3af9cec9bc%3a3202a5a2%3aab09e3fe%3a87104b7c%3a720a52bf%3a589eaa30%3aa67c2700%3abe6fb298" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="59B53027" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="ycAf/jH8W8cJjMAVAe/yjYJN4WdjnEmhhWklsVrUNAV7sRofsbCzwTDKQpl48hupKt5nfEhG/00BXodKxTsz9QBHexHPY5dDdfHOlnk9rQ2CCrfO8Sxp2kVx71I6e3bjla6du3GfaQHVW62MUBq7GNJhctSdFhOmQE1No0FVJy1yZh7va2TfOmBvSgBA2Hx/vL2S6Vy5w4a0bVtqJigxUamPYlKjYVWsLwRGA/slWIcHYIgPRRni7+/ysCSzCfxqNrgLZqaYE+fcum558FqG0hl4epA=" />
+</div>
+        
+        <div id="templateCss"></div>
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('sc', 'form1', ['tupdate12','update12'], [], [], 90, '');
+//]]>
+</script>
+
+        <input type="hidden" name="hfGridHtml" id="hfGridHtml" />
+        <div class="container" style='margin-bottom: 50px;'>
+            <div id="accessories">
+                
+                <div class="pull-right" style="display: flex">
+                    <div id="voll"></div>
+                    <div id="vollDT"></div>
+                    
+
+<span class="print-icons">
+<input type="image" name="Print1$print" id="Print1_print" aria-label="Print" src="images/printer_icon.png" alt="print page button" style="padding: 5px 10px 5px 10px;" />
+</span>
+                </div>
+            </div>
+            <input type="hidden" name="hydpermid" id="hydpermid" value="2078782" />
+            
+
+            <div class="innner-page-main-about-us-content-right-part">
+                <div id="MinistryName" class="MinistryNameSubhead text-center">
+                    Ministry of Mines 
+                </div>
+                <div id="lg_g"><div class='log_oo'>  <img src='https://static.pib.gov.in/WriteReadData/specificdocs/photo/2026/sep/ph_9768_20260902_10000501.png' alt='azadi ka amrit mahotsav' /> </div></div>
+
+                <div class="text-center event-heading-background">
+                    
+                    <h1 id="Titleh2">
+                        Ministry of Mines Launches the First Ever Tranche of Auction of Mineral Blocks in the Offshore Areas
+                    </h1>
+                    <h3 id="Subtitleh3">
+                        <span id="ltrSubtitle"><br/>Aims at Driving India Towards Achieving Atmanirbharta in Critical Minerals, Economic Resilience, and a Sustainable Future<br/><br/>Thirteen Blocks Spread Across Arabian Sea and Andaman Sea up for Auction in First Tranche</span>
+                    </h3>
+                </div>
+
+                <div id="PrDateTime" class="ReleaseDateSubHeaddateTime text-center pt20">
+                    Posted On:
+                              28 NOV 2024 8:52PM by PIB Delhi
+                </div>
+                
+                <div class='pt20'>
+                </div>
+                <input type="hidden" name="hydphotoUrl" id="hydphotoUrl" />
+                
+
+                <!-- Release content wrapper for client-side zero-reflow word count -->
+                <div id="pibReleaseBody">
+                    <p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">The first ever tranche of e-auction of mineral blocks in the offshore areas of India was launched by Shri G. Kishan Reddy, Union Minister of Coal and Mines on 28<sup>th</sup> November, 2024. This landmark event is a major step forward in India&rsquo;s journey to explore and utilize its extensive offshore mineral resources within its Exclusive Economic Zone (EEZ). </span></span></span></p>
+
+<p style="margin-left:0in; margin-right:0in; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">This first tranche of auction includes 13 mineral blocks spanning across the Arabian Sea and Andaman Sea, featuring a mix of minerals, such as construction sand, lime-mud and polymetallic nodules and crusts. These minerals are critical for infrastructure development, high-tech manufacturing and the green energy transition.</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white"><strong><u>Details of blocks put up for auction:</u></strong></span></span></span></p>
+
+<table border="1" bordercolor="#ccc" cellpadding="5" cellspacing="0" class="MsoTableGrid" style="border-collapse:collapse">
+	<tbody>
+		<tr>
+			<td style="width:184.05pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white"><strong>Mineral(s)</strong></span></span></span></p>
+			</td>
+			<td style="width:106.3pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white"><strong>Number of Blocks</strong></span></span></span></p>
+			</td>
+			<td style="width:160.45pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white"><strong>Location </strong></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:184.05pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">Construction sand</span></span></span></p>
+			</td>
+			<td style="width:106.3pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">3</span></span></span></p>
+			</td>
+			<td style="width:160.45pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">Off the coast of Kerala, Arabian Sea</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:184.05pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">Lime-mud</span></span></span></p>
+			</td>
+			<td style="width:106.3pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">3</span></span></span></p>
+			</td>
+			<td style="width:160.45pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">Off the coast of Gujarat, Arabian Sea</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:184.05pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">Polymetallic nodules and crusts (containing Cobalt, Nickel, etc.)</span></span></span></p>
+			</td>
+			<td style="width:106.3pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">7</span></span></span></p>
+			</td>
+			<td style="width:160.45pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">Off Great Nicobar Islands, Andaman Sea</span></span></span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p style="margin-left:0in; margin-right:0in; text-align:justify"><br />
+<span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">The event was attended by officials from the Ministry of Mines, other Central Government Ministries and Departments, representatives of embassies/ high commission of Republic of Korea, Indonesia, Netherlands, United Kingdom and Australia, State Governments, industry leaders, public sector enterprises, potential bidders and media houses, marking a historic moment for India&rsquo;s mining sector.</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">Shri G. Kishan Reddy, Union Minister of Coal and Mines, termed the launch as a historical moment which added a new chapter in the mines and mineral sector of India. He stated that this occasion is a step towards realising the vision of Prime Minister Shri Narendra Modi of Viksit Bharat. He emphasised that the demand for critical minerals is going to increase many folds and India is making all efforts to become a leading player in global critical minerals market. He said that India is going to launch National Critical Mineral Mission soon to strengthen supply chains of critical minerals in India. </span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">The Minister gave an overview of the reforms brought by the government to increase ease of doing business in the mining sector. He highlighted that 438 mineral blocks have been auctioned after introduction of auction regime in the year 2015. This resulted in the increase of the revenue of the States exponentially. He further emphasized that India&#39;s offshore mining initiative aims to reduce critical mineral imports, foster sustainable mining and enhance capacity-building efforts in the country. He called upon industry stakeholders to come forward for participating in exploration, mining and technology development to make India a global powerhouse in the offshore mining sector</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">Shri V. L. Kantha Rao, Secretary of the Ministry of Mines, in his address, elaborated on the efforts made by Geological Survey of India (GSI) for exploration of mineral resources in the seabed during the last 40-50 years. GSI has identified about six lakh sq. kms of offshore area having potential for offshore mining. He informed that all the exploration data generated by GSI is available in the National Geological Data Repository (NGDR) portal. </span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">Shri Rao mentioned that the Government has prescribed reasonable royalty rates for the offshore minerals to encourage industry participation. The Government has carefully selected the best blocks for auction. He requested the industry players to come forward and participate actively in the first ever auction being launched for offshore minerals in the country. He also assured that the Government is fully committed to support and facilitate the offshore exploration and mining activities in the country.</span></span></span></p>
+
+<p style="margin-left:0in; margin-right:0in; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">The commencement of sale of the tender document of offshore mineral blocks will begin from 3<sup>rd</sup> December, 2024. Prospective bidders can submit their bids by the end of February, 2025.</span></span></span></p>
+
+<p style="margin-left:0in; margin-right:0in; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">Detailed information on the mineral blocks, auction terms and timelines can be accessed on the MSTC auction platform at <a href="https://www.mstcecommerce.com/auctionhome/mlcln/" target="_blank">https://www.mstcecommerce.com/auctionhome/mlcln/</a>. The auction will be conducted online in a transparent two-stage ascending forward auction process, where the highest bid based on the percentage of the mineral value will secure the winning bid.</span></span></span></p>
+
+<p style="margin-left:0in; margin-right:0in; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">The Government of India is committed to continuing this momentum by putting more offshore mineral blocks in auction in a phased approach, supporting India&rsquo;s ambitions for mineral security, technological advancement and sustainable development.</span></span></span></p>
+
+<center><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Union Minister Shri G. Kishan Reddy commended the auction launch as “the beginning of a new era in offshore exploration.” He stated that these mineral blocks in India’s EEZ would play a critical role in securing vital resources for sectors such as infrastructure, electric… <a href="https://t.co/AIuOZ0NwI6">pic.twitter.com/AIuOZ0NwI6</a></p>&mdash; Ministry of Mines (@MinesMinIndia) <a href="https://twitter.com/MinesMinIndia/status/1862127412517232815?ref_src=twsrc%5Etfw">November 28, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Hon’ble Union Minister of Coal and Mines, Shri G. Kishan Reddy officially launched 1st Tranche of Auction of Mineral Blocks in India’s Exclusive Economic Zone (EEZ)! This groundbreaking initiative aims to unlock resources vital for India’s energy &amp; industrial self-reliance.… <a href="https://t.co/UyC7tctCAX">pic.twitter.com/UyC7tctCAX</a></p>&mdash; Ministry of Mines (@MinesMinIndia) <a href="https://twitter.com/MinesMinIndia/status/1862125727371682080?ref_src=twsrc%5Etfw">November 28, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Shri V. L. Kantha Rao. Secretary, Ministry of Mines in his address underscored the importance of reducing import reliance, describing it as “key to India’s future.” He highlighted how the offshore auction will diversify India’s mineral sources and support the nation’s <a href="https://twitter.com/hashtag/NetZero?src=hash&amp;ref_src=twsrc%5Etfw">#NetZero</a>… <a href="https://t.co/hOjYDo6AYo">pic.twitter.com/hOjYDo6AYo</a></p>&mdash; Ministry of Mines (@MinesMinIndia) <a href="https://twitter.com/MinesMinIndia/status/1862120595133202791?ref_src=twsrc%5Etfw">November 28, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+
+<p style="margin-left:0in; margin-right:0in; text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">****</span></span></span></p>
+
+<p style="margin-left:0in; margin-right:0in; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white"><strong>ST</strong></span></span></span></p>
+
+                </div>
+
+                <div id="reel_pic">
+                </div>
+
+                <br />
+                <span id="ReleaseId">(Release ID: 2078782)</span>
+                <span id="lblViews">Visitor Counter : 2549</span>
+                <div>
+                    
+                </div>
+                
+
+                <span id="lblRefPhoto"></span>
+
+                <div class="BackgroundRelease">
+                    
+                </div>
+                <div>
+                    
+                </div>
+                <div class="ReleaseLang">Read this release in: 
+                
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2079429' target="_blank">
+                            हिन्दी </a>
+                    
+                </div>
+
+                <div class="RelTag">
+                    <ul>
+                        
+                    </ul>
+                </div>
+                <div class="clear">
+                </div>
+
+                <!-- DBIM 3.0 Option 4: Separator Line with Left Share Rail & Right Reading Metrics -->
+                <div class="pr-share pr-share--footer" role="region" aria-label="Share and reading details">
+                    <div class="pr-share__left">
+                        <span class="pr-share__label" aria-hidden="true">Share</span>
+                        <ul class="pr-share__list">
+                            <li><a class="pr-share__btn pr-share__btn--facebook"
+                                href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2078782"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on Facebook">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-facebook" xlink:href="#icon-facebook"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--twitter"
+                                href="https://twitter.com/intent/tweet?url=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2078782"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on X">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-twitter" xlink:href="#icon-twitter"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--whatsapp"
+                                href="https://api.whatsapp.com/send?text=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2078782"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on WhatsApp">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-whatsapp" xlink:href="#icon-whatsapp"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--linkedin"
+                                href="https://www.linkedin.com/sharing/share-offsite/?url=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2078782"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on LinkedIn">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-linkedin" xlink:href="#icon-linkedin"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--mail"
+                                href="mailto:?subject=Press+release+from+PIB&amp;body=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2078782"
+                                aria-label="Share by email">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-mail" xlink:href="#icon-mail"></use>
+                                </svg>
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div class="pr-reading-meta" id="prReadingMeta" aria-label="Reading statistics">
+                        <span class="pr-reading-meta__item">
+                            <!-- Modern Document / Word Count Icon -->
+                            <svg class="pr-reading-meta__icon" width="18" height="18" viewbox="0 0 16 16" fill="currentColor" aria-hidden="true" focusable="false">
+                                <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5" />
+                                <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z" />
+                            </svg>
+                            <span id="prWordCount">-- words</span>
+                        </span>
+
+                        <span class="pr-reading-meta__divider" aria-hidden="true">|</span>
+
+                        <span class="pr-reading-meta__item">
+                            <!-- Modern Precision Clock / Read Time Icon -->
+                            <svg class="pr-reading-meta__icon" width="18" height="18" viewbox="0 0 16 16" fill="currentColor" aria-hidden="true" focusable="false">
+                                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                            </svg>
+                            <span id="prReadTime">-- min read</span>
+                        </span>
+                    </div>
+                </div>
+
+                <div id="RelLink" class="RelLink">
+                    <ul>
+                        
+                    </ul>
+                </div>
+                <center>
+                    
+                </center>
+            </div>
+
+            <div id="update12">
+	
+                    
+                    <input type="hidden" name="Hidden" id="Hidden" />
+                    <div id="P_CategoryManagement" class="ModalWindow" style="border-width:0px;height:60%;width:60%;overflow:auto;display: none">
+		
+                        <div>
+                            <input type="image" name="btnClose" id="btnClose" src="images/close_flat_icon.png" />
+                        </div>
+                        <div id="description">
+                        </div>
+                        <div class="text-center">
+                            <h2>
+                                
+                                <br>
+                                
+                            </h2>
+                        </div>
+                        <br />
+                        <div class="clear">
+                        </div>
+                        
+                    
+	</div>
+                
+</div>
+        </div>
+
+        <div id="PdfDiv" style="display: none;">
+            <table width="100%">
+                <tr>
+                    <td style="font-weight: 200; text-align: center">
+                        Ministry of Mines 
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 200; text-align: center; font-size: 30px;">
+                            Ministry of Mines Launches the First Ever Tranche of Auction of Mineral Blocks in the Offshore Areas
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 200; text-align: center; font-size: 30px;">
+                            <div style='height:30px;width:100%;'></div>Aims at Driving India Towards Achieving Atmanirbharta in Critical Minerals, Economic Resilience, and a Sustainable Future<div style='height:30px;width:100%;'></div><div style='height:30px;width:100%;'></div>Thirteen Blocks Spread Across Arabian Sea and Andaman Sea up for Auction in First Tranche
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="text-align: center; font-size: 14px;">
+                            Posted On:
+                                          28 NOV 2024 8:52PM by PIB Delhi
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 200; text-align: left; font-size: 16px;">
+                            <p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">The first ever tranche of e-auction of mineral blocks in the offshore areas of India was launched by Shri G. Kishan Reddy, Union Minister of Coal and Mines on 28<sup>th</sup> November, 2024. This landmark event is a major step forward in India&rsquo;s journey to explore and utilize its extensive offshore mineral resources within its Exclusive Economic Zone (EEZ). </span></span></span></p>
+
+<p style="margin-left:0in; margin-right:0in; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">This first tranche of auction includes 13 mineral blocks spanning across the Arabian Sea and Andaman Sea, featuring a mix of minerals, such as construction sand, lime-mud and polymetallic nodules and crusts. These minerals are critical for infrastructure development, high-tech manufacturing and the green energy transition.</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white"><strong><u>Details of blocks put up for auction:</u></strong></span></span></span></p>
+
+<table border="1" bordercolor="#ccc" cellpadding="5" cellspacing="0" class="MsoTableGrid" style="border-collapse:collapse">
+	<tbody>
+		<tr>
+			<td style="width:184.05pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white"><strong>Mineral(s)</strong></span></span></span></p>
+			</td>
+			<td style="width:106.3pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white"><strong>Number of Blocks</strong></span></span></span></p>
+			</td>
+			<td style="width:160.45pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white"><strong>Location </strong></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:184.05pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">Construction sand</span></span></span></p>
+			</td>
+			<td style="width:106.3pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">3</span></span></span></p>
+			</td>
+			<td style="width:160.45pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">Off the coast of Kerala, Arabian Sea</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:184.05pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">Lime-mud</span></span></span></p>
+			</td>
+			<td style="width:106.3pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">3</span></span></span></p>
+			</td>
+			<td style="width:160.45pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">Off the coast of Gujarat, Arabian Sea</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:184.05pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">Polymetallic nodules and crusts (containing Cobalt, Nickel, etc.)</span></span></span></p>
+			</td>
+			<td style="width:106.3pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">7</span></span></span></p>
+			</td>
+			<td style="width:160.45pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">Off Great Nicobar Islands, Andaman Sea</span></span></span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p style="margin-left:0in; margin-right:0in; text-align:justify"><br />
+<span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">The event was attended by officials from the Ministry of Mines, other Central Government Ministries and Departments, representatives of embassies/ high commission of Republic of Korea, Indonesia, Netherlands, United Kingdom and Australia, State Governments, industry leaders, public sector enterprises, potential bidders and media houses, marking a historic moment for India&rsquo;s mining sector.</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">Shri G. Kishan Reddy, Union Minister of Coal and Mines, termed the launch as a historical moment which added a new chapter in the mines and mineral sector of India. He stated that this occasion is a step towards realising the vision of Prime Minister Shri Narendra Modi of Viksit Bharat. He emphasised that the demand for critical minerals is going to increase many folds and India is making all efforts to become a leading player in global critical minerals market. He said that India is going to launch National Critical Mineral Mission soon to strengthen supply chains of critical minerals in India. </span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">The Minister gave an overview of the reforms brought by the government to increase ease of doing business in the mining sector. He highlighted that 438 mineral blocks have been auctioned after introduction of auction regime in the year 2015. This resulted in the increase of the revenue of the States exponentially. He further emphasized that India&#39;s offshore mining initiative aims to reduce critical mineral imports, foster sustainable mining and enhance capacity-building efforts in the country. He called upon industry stakeholders to come forward for participating in exploration, mining and technology development to make India a global powerhouse in the offshore mining sector</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">Shri V. L. Kantha Rao, Secretary of the Ministry of Mines, in his address, elaborated on the efforts made by Geological Survey of India (GSI) for exploration of mineral resources in the seabed during the last 40-50 years. GSI has identified about six lakh sq. kms of offshore area having potential for offshore mining. He informed that all the exploration data generated by GSI is available in the National Geological Data Repository (NGDR) portal. </span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">Shri Rao mentioned that the Government has prescribed reasonable royalty rates for the offshore minerals to encourage industry participation. The Government has carefully selected the best blocks for auction. He requested the industry players to come forward and participate actively in the first ever auction being launched for offshore minerals in the country. He also assured that the Government is fully committed to support and facilitate the offshore exploration and mining activities in the country.</span></span></span></p>
+
+<p style="margin-left:0in; margin-right:0in; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">The commencement of sale of the tender document of offshore mineral blocks will begin from 3<sup>rd</sup> December, 2024. Prospective bidders can submit their bids by the end of February, 2025.</span></span></span></p>
+
+<p style="margin-left:0in; margin-right:0in; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">Detailed information on the mineral blocks, auction terms and timelines can be accessed on the MSTC auction platform at <a href="https://www.mstcecommerce.com/auctionhome/mlcln/" target="_blank">https://www.mstcecommerce.com/auctionhome/mlcln/</a>. The auction will be conducted online in a transparent two-stage ascending forward auction process, where the highest bid based on the percentage of the mineral value will secure the winning bid.</span></span></span></p>
+
+<p style="margin-left:0in; margin-right:0in; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">The Government of India is committed to continuing this momentum by putting more offshore mineral blocks in auction in a phased approach, supporting India&rsquo;s ambitions for mineral security, technological advancement and sustainable development.</span></span></span></p>
+
+<center><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Union Minister Shri G. Kishan Reddy commended the auction launch as “the beginning of a new era in offshore exploration.” He stated that these mineral blocks in India’s EEZ would play a critical role in securing vital resources for sectors such as infrastructure, electric… <a href="https://t.co/AIuOZ0NwI6">pic.twitter.com/AIuOZ0NwI6</a></p>&mdash; Ministry of Mines (@MinesMinIndia) <a href="https://twitter.com/MinesMinIndia/status/1862127412517232815?ref_src=twsrc%5Etfw">November 28, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Hon’ble Union Minister of Coal and Mines, Shri G. Kishan Reddy officially launched 1st Tranche of Auction of Mineral Blocks in India’s Exclusive Economic Zone (EEZ)! This groundbreaking initiative aims to unlock resources vital for India’s energy &amp; industrial self-reliance.… <a href="https://t.co/UyC7tctCAX">pic.twitter.com/UyC7tctCAX</a></p>&mdash; Ministry of Mines (@MinesMinIndia) <a href="https://twitter.com/MinesMinIndia/status/1862125727371682080?ref_src=twsrc%5Etfw">November 28, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Shri V. L. Kantha Rao. Secretary, Ministry of Mines in his address underscored the importance of reducing import reliance, describing it as “key to India’s future.” He highlighted how the offshore auction will diversify India’s mineral sources and support the nation’s <a href="https://twitter.com/hashtag/NetZero?src=hash&amp;ref_src=twsrc%5Etfw">#NetZero</a>… <a href="https://t.co/hOjYDo6AYo">pic.twitter.com/hOjYDo6AYo</a></p>&mdash; Ministry of Mines (@MinesMinIndia) <a href="https://twitter.com/MinesMinIndia/status/1862120595133202791?ref_src=twsrc%5Etfw">November 28, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+
+<p style="margin-left:0in; margin-right:0in; text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">****</span></span></span></p>
+
+<p style="margin-left:0in; margin-right:0in; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white"><strong>ST</strong></span></span></span></p>
+
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 100; text-align: left; font-size: 16px;">
+                            (Release ID: 2078782)
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="font-weight: 200; text-align: center; font-size: 24px;"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="clearfix">
+        </div>
+
+        <div class="section1">
+            <div id="frst_t">
+                <div id="arr_rm"><div class='sticky-social_mb'><ul class='social_mb'><a href='http://www.facebook.com/share.php?u=https://pib.gov.in/PressReleasePage.aspx?PRID=2078782' target='_blank'><li class='fb_b'   ></li></a><a href='https://twitter.com/intent/tweet?url=https://pib.gov.in/PressReleasePage.aspx?PRID=2078782&text=Ministry of Mines Launches the First Ever Tranche of Auction of Mineral Blocks in the Offshore Areas' target='_blank'><li class='twitter_r'  > </li></a><a href='https://api.whatsapp.com/send?text=https://pib.gov.in/PressReleasePage.aspx?PRID=2078782' target='_blank'><li class='whatsapp_r'  ></li></a><a href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=&su=Ministry of Mines Launches the First Ever Tranche of Auction of Mineral Blocks in the Offshore Areas&body=https://pib.gov.in/PressReleasePage.aspx?PRID=2078782&ui=2&tf=1&pli=1' title='Share by Email' target='_blank'><li class='fa-envelope_r' ></li></a><a href='https://www.linkedin.com/shareArticle?mini=true&url=https://pib.gov.in/PressReleasePage.aspx?PRID=2078782&title=Ministry of Mines Launches the First Ever Tranche of Auction of Mineral Blocks in the Offshore Areas&summary=My%20favorite%20developer%20program&source=LinkedIn' target='_blank'><li class='fa-linkedin_r'  ></li></a></ul></div></div>
+            </div>
+            <div id="second_t">
+                <div id="sndr_rm"><div class='sticky-social'><ul class='social'><a href='http://www.facebook.com/share.php?u=https://pib.gov.in/PressReleasePage.aspx?PRID=2078782' target='_blank'><li class='fb_b'   ></li></a><a href='https://twitter.com/intent/tweet?url=https://pib.gov.in/PressReleasePage.aspx?PRID=2078782&text=Ministry of Mines Launches the First Ever Tranche of Auction of Mineral Blocks in the Offshore Areas' target='_blank'><li class='twitter_r'  > </li></a><a href='https://api.whatsapp.com/send?text=https://pib.gov.in/PressReleasePage.aspx?PRID=2078782' target='_blank'><li class='whatsapp_r'  ></li></a><a href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=&su=Ministry of Mines Launches the First Ever Tranche of Auction of Mineral Blocks in the Offshore Areas&body=https://pib.gov.in/PressReleasePage.aspx?PRID=2078782&ui=2&tf=1&pli=1' title='Share by Email' target='_blank'><li class='fa-envelope_r' ></li></a><a href='https://www.linkedin.com/shareArticle?mini=true&url=https://pib.gov.in/PressReleasePage.aspx?PRID=2078782&title=Ministry of Mines Launches the First Ever Tranche of Auction of Mineral Blocks in the Offshore Areas&summary=My%20favorite%20developer%20program&source=LinkedIn' target='_blank'><li class='fa-linkedin_r'  ></li></a></ul></div></div>
+            </div>
+        </div>
+        <input type="hidden" name="ltrTitlee" id="ltrTitlee" value="Ministry of Mines Launches the First Ever Tranche of Auction of Mineral Blocks in the Offshore Areas" />
+        <input type="hidden" name="ltrSubtitlee" id="ltrSubtitlee" value="&lt;br/>Aims at Driving India Towards Achieving Atmanirbharta in Critical Minerals, Economic Resilience, and a Sustainable Future&lt;br/>&lt;br/>Thirteen Blocks Spread Across Arabian Sea and Andaman Sea up for Auction in First Tranche" />
+        <input type="hidden" name="ltrDescriptionn" id="ltrDescriptionn" value="&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;background-color:white&quot;>The first ever tranche of e-auction of mineral blocks in the offshore areas of India was launched by Shri G. Kishan Reddy, Union Minister of Coal and Mines on 28th November, 2024. This landmark event is a major step forward in India&amp;rsquo;s journey to explore and utilize its extensive offshore mineral resources within its Exclusive Economic Zone (EEZ). &lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;margin-left:0in; margin-right:0in; text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;background-color:white&quot;>This first tranche of auction includes 13 mineral blocks spanning across the Arabian Sea and Andaman Sea, featuring a mix of minerals, such as construction sand, lime-mud and polymetallic nodules and crusts. These minerals are critical for infrastructure development, high-tech manufacturing and the green energy transition.&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;background-color:white&quot;>&lt;strong>&lt;u>Details of blocks put up for auction:&lt;/u>&lt;/strong>&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;table border=&quot;1&quot; bordercolor=&quot;#ccc&quot; cellpadding=&quot;5&quot; cellspacing=&quot;0&quot; class=&quot;MsoTableGrid&quot; style=&quot;border-collapse:collapse&quot;>
+	&lt;tbody>
+		&lt;tr>
+			&lt;td style=&quot;width:184.05pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;background-color:white&quot;>&lt;strong>Mineral(s)&lt;/strong>&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;width:106.3pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;background-color:white&quot;>&lt;strong>Number of Blocks&lt;/strong>&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;width:160.45pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;background-color:white&quot;>&lt;strong>Location &lt;/strong>&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+		&lt;tr>
+			&lt;td style=&quot;width:184.05pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;background-color:white&quot;>Construction sand&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;width:106.3pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;background-color:white&quot;>3&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;width:160.45pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;background-color:white&quot;>Off the coast of Kerala, Arabian Sea&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+		&lt;tr>
+			&lt;td style=&quot;width:184.05pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;background-color:white&quot;>Lime-mud&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;width:106.3pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;background-color:white&quot;>3&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;width:160.45pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;background-color:white&quot;>Off the coast of Gujarat, Arabian Sea&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+		&lt;tr>
+			&lt;td style=&quot;width:184.05pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;background-color:white&quot;>Polymetallic nodules and crusts (containing Cobalt, Nickel, etc.)&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;width:106.3pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;background-color:white&quot;>7&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;width:160.45pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;background-color:white&quot;>Off Great Nicobar Islands, Andaman Sea&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+	&lt;/tbody>
+&lt;/table>
+
+&lt;p style=&quot;margin-left:0in; margin-right:0in; text-align:justify&quot;>&lt;br />
+&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;background-color:white&quot;>The event was attended by officials from the Ministry of Mines, other Central Government Ministries and Departments, representatives of embassies/ high commission of Republic of Korea, Indonesia, Netherlands, United Kingdom and Australia, State Governments, industry leaders, public sector enterprises, potential bidders and media houses, marking a historic moment for India&amp;rsquo;s mining sector.&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;background-color:white&quot;>Shri G. Kishan Reddy, Union Minister of Coal and Mines, termed the launch as a historical moment which added a new chapter in the mines and mineral sector of India. He stated that this occasion is a step towards realising the vision of Prime Minister Shri Narendra Modi of Viksit Bharat. He emphasised that the demand for critical minerals is going to increase many folds and India is making all efforts to become a leading player in global critical minerals market. He said that India is going to launch National Critical Mineral Mission soon to strengthen supply chains of critical minerals in India. &lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;background-color:white&quot;>The Minister gave an overview of the reforms brought by the government to increase ease of doing business in the mining sector. He highlighted that 438 mineral blocks have been auctioned after introduction of auction regime in the year 2015. This resulted in the increase of the revenue of the States exponentially. He further emphasized that India&amp;#39;s offshore mining initiative aims to reduce critical mineral imports, foster sustainable mining and enhance capacity-building efforts in the country. He called upon industry stakeholders to come forward for participating in exploration, mining and technology development to make India a global powerhouse in the offshore mining sector&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;background-color:white&quot;>Shri V. L. Kantha Rao, Secretary of the Ministry of Mines, in his address, elaborated on the efforts made by Geological Survey of India (GSI) for exploration of mineral resources in the seabed during the last 40-50 years. GSI has identified about six lakh sq. kms of offshore area having potential for offshore mining. He informed that all the exploration data generated by GSI is available in the National Geological Data Repository (NGDR) portal. &lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;background-color:white&quot;>Shri Rao mentioned that the Government has prescribed reasonable royalty rates for the offshore minerals to encourage industry participation. The Government has carefully selected the best blocks for auction. He requested the industry players to come forward and participate actively in the first ever auction being launched for offshore minerals in the country. He also assured that the Government is fully committed to support and facilitate the offshore exploration and mining activities in the country.&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;margin-left:0in; margin-right:0in; text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;background-color:white&quot;>The commencement of sale of the tender document of offshore mineral blocks will begin from 3rd December, 2024. Prospective bidders can submit their bids by the end of February, 2025.&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;margin-left:0in; margin-right:0in; text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;background-color:white&quot;>Detailed information on the mineral blocks, auction terms and timelines can be accessed on the MSTC auction platform at &lt;a href=&quot;https://www.mstcecommerce.com/auctionhome/mlcln/&quot; target=&quot;_blank&quot;>https://www.mstcecommerce.com/auctionhome/mlcln/&lt;/a>. The auction will be conducted online in a transparent two-stage ascending forward auction process, where the highest bid based on the percentage of the mineral value will secure the winning bid.&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;margin-left:0in; margin-right:0in; text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;background-color:white&quot;>The Government of India is committed to continuing this momentum by putting more offshore mineral blocks in auction in a phased approach, supporting India&amp;rsquo;s ambitions for mineral security, technological advancement and sustainable development.&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;>Union Minister Shri G. Kishan Reddy commended the auction launch as “the beginning of a new era in offshore exploration.” He stated that these mineral blocks in India’s EEZ would play a critical role in securing vital resources for sectors such as infrastructure, electric… &lt;a href=&quot;https://t.co/AIuOZ0NwI6&quot;>pic.twitter.com/AIuOZ0NwI6&lt;/a>&lt;/p>&amp;mdash; Ministry of Mines (@MinesMinIndia) &lt;a href=&quot;https://twitter.com/MinesMinIndia/status/1862127412517232815?ref_src=twsrc%5Etfw&quot;>November 28, 2024&lt;/a> 
+&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;>Hon’ble Union Minister of Coal and Mines, Shri G. Kishan Reddy officially launched 1st Tranche of Auction of Mineral Blocks in India’s Exclusive Economic Zone (EEZ)! This groundbreaking initiative aims to unlock resources vital for India’s energy &amp;amp; industrial self-reliance.… &lt;a href=&quot;https://t.co/UyC7tctCAX&quot;>pic.twitter.com/UyC7tctCAX&lt;/a>&lt;/p>&amp;mdash; Ministry of Mines (@MinesMinIndia) &lt;a href=&quot;https://twitter.com/MinesMinIndia/status/1862125727371682080?ref_src=twsrc%5Etfw&quot;>November 28, 2024&lt;/a> 
+&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;>Shri V. L. Kantha Rao. Secretary, Ministry of Mines in his address underscored the importance of reducing import reliance, describing it as “key to India’s future.” He highlighted how the offshore auction will diversify India’s mineral sources and support the nation’s &lt;a href=&quot;https://twitter.com/hashtag/NetZero?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;>#NetZero&lt;/a>… &lt;a href=&quot;https://t.co/hOjYDo6AYo&quot;>pic.twitter.com/hOjYDo6AYo&lt;/a>&lt;/p>&amp;mdash; Ministry of Mines (@MinesMinIndia) &lt;a href=&quot;https://twitter.com/MinesMinIndia/status/1862120595133202791?ref_src=twsrc%5Etfw&quot;>November 28, 2024&lt;/a> 
+
+&lt;p style=&quot;margin-left:0in; margin-right:0in; text-align:center&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;background-color:white&quot;>****&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;margin-left:0in; margin-right:0in; text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;background-color:white&quot;>&lt;strong>ST&lt;/strong>&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+" />
+        <script type="text/javascript">
+                  var mPlayer = document.getElementById("background_music");
+                  var mPlayAction = document.getElementById("playbutton");
+                  var isPlaying = false;
+
+                  function playAudio() {
+                        mPlayer.play();
+                        isPlaying = true;
+                        document.getElementById('stopA').style.display = "block";
+                        document.getElementById('playA').style.display = "none";
+                  }
+
+                  function pauseAudio() {
+                        mPlayer.pause();
+                        isPlaying = false;
+                        document.getElementById('playA').style.display = "block";
+                        document.getElementById('stopA').style.display = "none";
+                  }
+        </script>
+        <script type="text/javascript">
+                  var synth = window.speechSynthesis;
+
+                  function CleanHtml(html) {
+                        html = html.replace(/<script[\s\S]*?<\/script>/gi, '');
+                        return html;
+                  }
+                  function stripHtml(html) {
+                        let tmp = document.createElement("DIV");
+                        tmp.innerHTML = CleanHtml(html);
+                        return tmp.textContent || tmp.innerText || "";
+                  }
+        </script>
+        <script type="text/javascript">
+                  $(document).ready(function () {
+                        $("table").each(function () {
+                              if (!$(this).closest(".table-responsive").length) {
+                                    $(this).wrap("<div class='table-responsive'></div>");
+                              }
+                        });
+
+                        var width = $(window).width();
+                        if (width < 768) {
+                              document.getElementById('frst_t').style.display = "block";
+                              document.getElementById('second_t').style.display = "none";
+                        } else if (width < 991) {
+                              document.getElementById('frst_t').style.display = "block";
+                              document.getElementById('second_t').style.display = "none";
+                        } else if (width < 1199) {
+                              document.getElementById('frst_t').style.display = "none";
+                              document.getElementById('second_t').style.display = "block";
+                        } else {
+                              document.getElementById('frst_t').style.display = "none";
+                              document.getElementById('second_t').style.display = "block";
+                        }
+                  });
+        </script>
+        <style type="text/css">
+            @media print {
+                .sticky-social, .sticky-social_mb, .pull-right, #printPDF {
+                    display: none !important;
+                }
+            }
+
+            .f_vl {
+                padding-right: 30px;
+                font-size: 17px;
+                cursor: pointer;
+            }
+
+            .log_oo {
+                display: flex;
+                justify-content: space-between;
+            }
+
+                .log_oo img {
+                    width: 150px;
+                }
+
+            .sticky-social_mb {
+                position: fixed;
+                bottom: 0px;
+                padding: 0px;
+                margin: 0px;
+                width: 100%;
+            }
+
+            .social_mb {
+                list-style: none;
+                display: flex;
+                width: 100%;
+                margin-bottom: -8px;
+            }
+
+                .social_mb a {
+                    padding: 8px 0px;
+                    font-size: 30px;
+                    transition: all 0.8s ease-in-out;
+                    width: 20% !important;
+                    text-align: center;
+                }
+        </style>
+        <style type="text/css">
+            .section1 {
+                position: relative;
+                padding: 10px 0px;
+                width: 100%;
+            }
+
+            .sticky-social {
+                position: fixed;
+                top: 20px;
+                left: 0px;
+                padding: 0px;
+                margin: 0px;
+            }
+
+            .social {
+                list-style: none;
+            }
+
+                .social a li {
+                    padding: 8px 12px;
+                    font-size: 25px;
+                    transition: all 0.8s ease-in-out;
+                }
+
+                    .social a li:hover {
+                        margin-right: -30px;
+                        box-shadow: 2px 5px 10px grey;
+                    }
+
+                        .social a li:hover .fa {
+                            margin-left: 20px;
+                        }
+
+            .fb_b {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .twitter_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .whatsapp_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .fa-envelope_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .fa-linkedin_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+        </style>
+        <style type="text/css">
+            @media only screen and (max-device-width: 767px) {
+                p span img {
+                    max-width: 90% !important;
+                    height: auto !important;
+                }
+
+                p img {
+                    max-width: 90% !important;
+                    height: auto !important;
+                }
+
+                h2 {
+                    font-size: var(--dbim-h2, 20px);
+                    font-weight: 600 !important;
+                }
+
+                h3 {
+                    font-size: var(--dbim-h3, 16px);
+                    font-weight: 600 !important;
+                }
+            }
+        </style>
+        <style type="text/css">
+            .film-roll-badge {
+                position: absolute;
+                top: 82%;
+                right: 20px;
+                width: 230px;
+                height: 70px;
+                background: repeating-linear-gradient( to right, var(--dbim-green-key, #0F5757) 0px, var(--dbim-green-key, #0F5757) 18px, var(--dbim-text, #150202) 18px, var(--dbim-text, #150202) 36px );
+                border-top: 8px solid var(--dbim-green-key, #0F5757);
+                border-bottom: 8px solid var(--dbim-green-key, #0F5757);
+                border-radius: 8px;
+                overflow: hidden;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+                animation: moveFilm 8s linear infinite;
+                z-index: 10;
+            }
+
+                .film-roll-badge::before,
+                .film-roll-badge::after {
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 10px;
+                    background: repeating-linear-gradient( to right, var(--dbim-green-key, #0F5757) 0px, var(--dbim-green-key, #0F5757) 10px, #fff 10px, #fff 20px );
+                    left: 0;
+                    z-index: 2;
+                }
+
+                .film-roll-badge::before {
+                    top: -4px;
+                }
+
+                .film-roll-badge::after {
+                    bottom: -4px;
+                }
+
+            .film-roll-inner {
+                position: relative;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                animation: flicker 2s infinite ease-in-out;
+            }
+
+            .countdown-text {
+                font-size: 1.3rem;
+                font-weight: 700;
+                color: #fff;
+                text-shadow: 0 0 6px rgba(255, 255, 255, 0.4), 0 0 10px #000;
+                white-space: nowrap;
+            }
+
+            @keyframes moveFilm {
+                0% {
+                    background-position: 0 0;
+                }
+
+                100% {
+                    background-position: 120px 0;
+                }
+            }
+
+            @keyframes flicker {
+                0%, 100% {
+                    opacity: 1;
+                }
+
+                50% {
+                    opacity: 0.9;
+                }
+
+                25% {
+                    opacity: 0.95;
+                }
+
+                75% {
+                    opacity: 0.85;
+                }
+            }
+
+            @media (max-width: 1500px) {
+                .film-roll-badge {
+                    top: 68%;
+                    right: 18px;
+                    height: 65px;
+                    font-size: 0.85rem;
+                }
+
+                .press-section {
+                    margin-top: 35px;
+                }
+            }
+
+            @media (max-width: 992px) {
+                .film-roll-badge {
+                    top: 52%;
+                    right: 10px;
+                    width: 200px;
+                    height: 60px;
+                }
+            }
+
+            @media (max-width: 768px) {
+                .film-roll-badge {
+                    top: 56%;
+                    right: 10px;
+                    width: 124px;
+                    height: 55px;
+                }
+
+                .countdown-text {
+                    font-size: 0.9rem;
+                }
+            }
+
+            @media (max-width: 576px) {
+                .film-roll-badge {
+                    top: 59%;
+                    right: 5px;
+                    height: 50px;
+                }
+
+                .countdown-text {
+                    font-size: 0.85rem;
+                }
+            }
+        </style>
+        <script type="text/javascript">
+                  const festivalStart = new Date("2025-11-20T00:00:00").getTime();
+                  const festivalEnd = new Date("2025-11-28T23:59:59").getTime();
+                  const countdownElement = document.getElementById("countdown");
+
+                  if (countdownElement) {
+                        const interval = setInterval(() => {
+                              const now = new Date().getTime();
+
+                              if (now < festivalStart) {
+                                    const diff = festivalStart - now;
+                                    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                                    const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+
+                                    countdownElement.innerHTML = `${days} Day${days !== 1 ? 's' : ''} ${hours} Hour${hours !== 1 ? 's' : ''} to go`;
+                              } else if (now >= festivalStart && now <= festivalEnd) {
+                                    const dayNumber = Math.floor((now - festivalStart) / (1000 * 60 * 60 * 24)) + 1;
+                                    countdownElement.innerHTML = `56th IFFI - Day ${dayNumber}`;
+                              } else {
+                                    countdownElement.innerHTML = `✨ IFFI closes but never ends…`;
+                                    const elements = document.querySelectorAll('.film-roll-badge');
+                                    elements.forEach(el => el.style.width = "350px");
+                                    clearInterval(interval);
+                              }
+                        }, 1000);
+                  }
+        </script>
+        <script type="text/javascript">
+                  const miffStart = new Date("2026-06-15T00:00:00").getTime();
+                  const miffEnd = new Date("2026-06-15T23:59:59").getTime();
+                  const miffElement = document.getElementById("miff");
+
+                  if (miffElement) {
+                        const miffInterval = setInterval(() => {
+                              const now = new Date().getTime();
+
+                              if (now < miffStart) {
+                                    const diff = miffStart - now;
+                                    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                                    miffElement.innerHTML = `${days} Day${days === 1 ? '' : 's'} to MIFF ...`;
+                              } else if (now >= miffStart && now <= miffEnd) {
+                                    const dayNumber = Math.floor((now - miffStart) / (1000 * 60 * 60 * 24)) + 1;
+                                    miffElement.innerHTML = `19th MIFF - Day ${dayNumber}`;
+                              } else {
+                                    miffElement.innerHTML = `✨ MIFF concludes, cinema lives on...`;
+                                    document.querySelectorAll('.film-roll-badge').forEach(el => el.style.width = "350px");
+                                    clearInterval(miffInterval);
+                              }
+                        }, 1000);
+                  }
+        </script>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("sc_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.ModalPopupBehavior, {"BackgroundCssClass":"modalBackground","PopupControlID":"P_CategoryManagement","dynamicServicePath":"/PressReleasePage.aspx","id":"mpe"}, null, null, $get("Hidden"));
+});
+//]]>
+</script>
+<input type="hidden" name="__ncforminfo" value="4XAjYghBEY8t_1_UnCEJlOhoIrTDyPCWRKnHvlpOC02j8U8rM__EjA5gUozxbUfU1kFMqtlCgvICkVdYZZxOWTyx3e_uOHAqFK4k3oVEDSs83QPXNqlP8g=="/></form>
+    
+
+<script type="application/json" id="pibConsentConfig">{"ga4Id":"G-Q414Y0X6EE,G-QJJ6LZ8LHV","policyUrl":"/CookiePolicy.aspx","text":{"bannerLabel":"Cookie consent","title":"Cookies on this website","body":"We use essential cookies to make this website work. We also set analytics cookies when you arrive, so we can see how the site is used and improve it - you can switch these off below or at any time from the Cookie Policy page. Cookies from embedded social media content are set only if you allow them.","policyLink":"Read our Cookie Policy","accept":"Accept all","reject":"Reject optional","customize":"Customise","prefsTitle":"Cookie preferences","prefsIntro":"Choose which cookies this website may set. Essential cookies cannot be switched off because the site does not work without them. Analytics cookies are on unless you turn them off. Social media cookies stay off until you allow them. You can change these choices at any time from the Cookie Policy page.","essentialName":"Essential cookies","essentialDesc":"Needed for the site to function. These remember your session, your language and region, your text size and colour theme, and verify the security check on forms. They are always on.","analyticsName":"Analytics cookies","analyticsDesc":"Help us understand how visitors use the site - which pages are read and how long people stay - so it can be improved. The information is collected in a form that does not directly identify you. These are on when you arrive; switching them off here stops them and deletes the ones already set.","socialName":"Social media cookies","socialDesc":"Set by content embedded from X, Facebook and YouTube, such as timelines and videos. These platforms may use them to track you across websites. They stay off until you allow them.","save":"Save preferences","cancel":"Cancel"}}</script>
+<script type="text/javascript" src='/js/consent.js?v=10'></script>
+
+<script type="text/javascript" src='/js/consent-embeds.js?v=10'></script>
+
+
+    <!-- Minimal O(N) Time and O(1) Auxiliary Space Word Count & Read Time Calculation -->
+    <script type="text/javascript">
+            (function () {
+                  function calculateReadingStats() {
+                        var bodyEl = document.getElementById("pibReleaseBody");
+                        if (!bodyEl) return;
+
+                        // textContent extracts text without triggering expensive layout/reflow computations
+                        var text = bodyEl.textContent || "";
+                        var words = 0;
+                        var inWord = false;
+
+                        // O(N) single pass character code scan: achieves O(1) space with zero array allocations
+                        for (var i = 0, len = text.length; i < len; i++) {
+                              var code = text.charCodeAt(i);
+                              // Delimits on ASCII whitespace, control characters, tabs, newlines, and non-breaking spaces (160)
+                              if (code <= 32 || code === 160) {
+                                    inWord = false;
+                              } else if (!inWord) {
+                                    inWord = true;
+                                    words++;
+                              }
+                        }
+
+                        // Standard 250 WPM reading speed (e.g., 612 words yields 2 min read)
+                        var minutes = Math.max(1, Math.round(words / 250));
+
+                        var elWords = document.getElementById("prWordCount");
+                        var elTime = document.getElementById("prReadTime");
+
+                        if (elWords) elWords.textContent = words + (words === 1 ? " word" : " words");
+                        if (elTime) elTime.textContent = minutes + " min read";
+                  }
+
+                  if (document.readyState === "loading") {
+                        document.addEventListener("DOMContentLoaded", calculateReadingStats);
+                  } else {
+                        calculateReadingStats();
+                  }
+            })();
+    </script>
+
+    <script type="text/javascript">
+            (function () {
+                  try {
+                        if (window.self === window.top) { return; }
+                  } catch (e) { return; }
+                  var s = document.createElement("style");
+                  s.textContent = ".sticky-social, .sticky-social_mb { display: none !important; }";
+                  (document.head || document.documentElement).appendChild(s);
+            }());
+    </script>
+</body>
+</html>

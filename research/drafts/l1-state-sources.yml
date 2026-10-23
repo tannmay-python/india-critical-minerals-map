@@ -1,0 +1,76 @@
+# Sources for L1 state-auction registry (research/drafts/l1-state-registry.csv)
+# fields: id, url, title, publisher, tier, date, retrieved, raw_path
+- id: mom-ncmm-note-2026-01-10
+  url: "https://mines.gov.in/admin/storage/ckeditor/NCMM%27_1768030756.pdf"
+  title: "National Critical Mineral Mission (NCMM) — Rashtriya Khanij Chintan Shivir 2026 presentation (slide: State wise auction summary of Critical Minerals)"
+  publisher: "Ministry of Mines"
+  tier: T1
+  date: "2026-01-10"
+  retrieved: "2026-10-23"
+  raw_path: "research/raw/mines.gov.in/ncmm-status-note-2026-01-10.txt"
+- id: mom-sas-2025-05-27
+  url: "https://mines.gov.in/webportal/content/sucessfully-auction-since-2015"
+  title: "Sucessfully Auction, Since 2015 — Successful Auctions Since 2015: 500 (ML-313, CL-187) (as on 27.05.2025)"
+  publisher: "Ministry of Mines (Mines-IV Auctions section), mines.gov.in CMS"
+  tier: T1
+  date: "2025-05-27"
+  retrieved: "2026-10-23"
+  raw_path: "research/raw/mines.gov.in/mom-successful-auction-since-2015-as-on-2025-05-27.txt"
+  note: "JS-rendered page; content pulled from the site's own CMS API (POST https://mines.gov.in/admin/api/ManageContent/viewAll, pageAlias=sucessfully-auction-since-2015) and decoded; JSON + text rendering archived."
+- id: mom-sas-2024-11-11
+  url: "https://mines.gov.in/webportal/content/archived/successful-auction-since-2015-6551"
+  title: "Successful Auction Since 2015 — Successful Auctions Since 2015: 427 (ML-279, CL-148) (as on 11.11.2024) [archived version]"
+  publisher: "Ministry of Mines, mines.gov.in CMS archive"
+  tier: T1
+  date: "2024-11-11"
+  retrieved: "2026-10-23"
+  raw_path: "research/raw/mines.gov.in/mom-successful-auction-since-2015-archived-2024-11-13.txt"
+  note: "Pulled via POST https://mines.gov.in/admin/archivedContentData {pageAlias: successful-auction-since-2015-6551}. This is the URL cited in LS USQ 316 (27.11.2024)."
+- id: mom-mineral-auction-summary-2025-05
+  url: "https://mines.gov.in/webportal/content/mineral-auction-summary"
+  title: "Mineral Auction Summary (mineral-wise, year-wise counts of successful auctions since 2015)"
+  publisher: "Ministry of Mines, mines.gov.in CMS"
+  tier: T1
+  date: "2025-05-19"
+  retrieved: "2026-10-23"
+  raw_path: "research/raw/mines.gov.in/mom-mineral-auction-summary-2025-05.txt"
+- id: mom-statewise-auction-summary-2025-05-05
+  url: "https://mines.gov.in/webportal/content/year-wise-state-wise-auction-summary"
+  title: "Year Wise state wise Auction Summary (updated as on 05.05.2025)"
+  publisher: "Ministry of Mines, mines.gov.in CMS"
+  tier: T1
+  date: "2025-05-05"
+  retrieved: "2026-10-23"
+  raw_path: "research/raw/mines.gov.in/mom-year-wise-state-wise-auction-summary-2025-05-05.txt"
+- id: mom-successful-auction-fy2025-26
+  url: "https://mines.gov.in/webportal/content/successful-auction"
+  title: "Details of Successful Auction during the year — Successful Auctions so far in 2025-26 – 23 (as on 27.05.2025)"
+  publisher: "Ministry of Mines, mines.gov.in CMS"
+  tier: T1
+  date: "2025-05-27"
+  retrieved: "2026-10-23"
+  raw_path: "research/raw/mines.gov.in/mom-successful-auction-2025-26-as-on-2025-05-27.txt"
+- id: ls-usq316-2024-11-27
+  url: "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/183/AU316_7wi1Ug.pdf?source=lsapps"
+  title: "Lok Sabha USQ 316, Mine Blocks Auctioned to Private and Public Companies (27.11.2024)"
+  publisher: "Lok Sabha / Ministry of Mines"
+  tier: T1
+  date: "2024-11-27"
+  retrieved: "2026-10-23"
+  raw_path: "research/raw/sansad.in/ls-au316-2024-11-27.txt"
+- id: ls-usq1444-2024-12-04
+  url: "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/183/AU1444_E1XKHd.pdf?source=lsapps"
+  title: "Lok Sabha USQ 1444, e-Auction of Critical and Strategic Mineral Blocks (04.12.2024)"
+  publisher: "Lok Sabha / Ministry of Mines"
+  tier: T1
+  date: "2024-12-04"
+  retrieved: "2026-10-23"
+  raw_path: "research/raw/sansad.in/ls-au1444-2024-12-04.txt"
+- id: ls-usq1673-2025-12-10
+  url: "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/186/AU1673_5DFNN8.pdf?source=lsapps"
+  title: "Lok Sabha USQ 1673, Auction of Critical and Strategic Mineral Blocks (10.12.2025)"
+  publisher: "Lok Sabha / Ministry of Mines"
+  tier: T1
+  date: "2025-12-10"
+  retrieved: "2026-10-23"
+  raw_path: "research/raw/sansad.in/ls-au1673-2025-12-10.txt"

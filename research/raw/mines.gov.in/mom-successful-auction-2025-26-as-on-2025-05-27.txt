@@ -1,0 +1,31 @@
+PAGE: Details of Successful Auction during the year | created 2025-05-29 07:14:13
+Successful Auctions so far in 2025-26 – 23(ML- 10, CL-13)
+(as on 27.05.2025 )
+S No | State | Name of the Block | Mineral | Date of auction | Date of Prefered Bidder | ML / CL | Area (in Ha) | Reserves (in MT) | Final Bid (in %) | Preferred Bidder
+1 | Chhattisgarh | Bailadila Deposit 01A Iron Ore Block | Iron Ore | 24.03.2025 | 11.04.2025 | CL | 850 | 55.23 | 151.25 | Arcelor Mittal Nippon Steel India Limited
+2 | Chhattisgarh | Bailadila Deposit 01B Iron Ore Block | Iron Ore | 25.03.2025 | 11.04.2025 | CL | 850 | 103.25 | 157.45 | Arcelor Mittal Nippon Steel India Limited
+3 | Chhattisgarh | Bailadila Deposit 01C Iron Ore Block | Iron Ore | 26.03.2025 | 11.04.2025 | CL | 825 | 129.93 | 152 | Rungta Sons Pvt. Ltd.
+4 | Chhattisgarh | Hahaladdi-North Extension Iron Ore Block | Iron Ore | 28.03.2025 | 11.04.2025 | CL | 201.614 | 2.54 | 210 | SagarStone Industries
+5 | Gujarat | Kenedy Block-4 | Aluminous Laterite & Laterite | 16.04.2025 | 19.04.2025 | ML | 7.2399 | 4.95 | 20.15 | Shivhari Minerals
+6 | Gujarat | Nandana Block-4 | Bauxite (Aluminous Laterite) & Laterite | 17.04.2025 | 19.04.2025 | ML | 5.0283 | 1.05 | 20.15 | Meena Agency Limited
+7 | Gujarat. | Ran Block-1 | Bauxite (Aluminous Laterite) & Laterite | 22.04.2025 | 05.05.2025 | ML | 5.0586 | 2.06 | 20.2 | Haradasbhai Karshanbhai Ambaliya
+8 | Gujarat. | Satapara Block-2 | Aluminous Laterite & Laterite | 23.04.2025 | 05.05.2025 | ML | 4.1522 | 1.47 | 20.15 | Allurich Minerals
+9 | Gujarat. | Virpur Lusari Block-1 | Bauxite (Aluminous Laterite), Laterite &Marl | 24.04.2025 | 05.05.2025 | ML | 5.5943 | 2.57 | 20.15 | Bauxlife Resources
+10 | Gujarat. | Virpur Lusari Block-4 | Bauxite (Aluminous Laterite) & Laterite | 25.04.2025 | 05.05.2025 | ML | 4.5326 | 2.38 | 20.15 | L and S Company
+11 | Gujarat. | Virpur Lusari Block-6 | Bauxite (Aluminous Laterite), Laterite &Marl | 01.05.2025 | 05.05.2025 | ML | 4.8557 | 2.12 | 20.45 | Kachhara Bhimabhai Kambaria
+12 | Gujarat. | Virpur Lusari Block-7 | Bauxite (Aluminous Laterite) & Laterite | 02.05.2025 | 05.05.2025 | ML | 4.6992 | 1.84 | 20.15 | Dipak Meragbhai Chavda
+13 | Gujarat. | Virpur Lusari Block-8 | Bauxite (Aluminous Laterite) & Laterite | 03.05.2025 | 05.05.2025 | ML | 4.0482 | 0.97 | 20.15 | Vajsi Desurbhai Goriya
+14 | Central Govt./Chhattisgarh | Oranga-Revatipur Graphite and Vanadium Block | Graphite and Vanadium | 16.05.2025 | 27.05.2025 | ML | 366.478 | Graphite-16.20 Vanadium-0.70 | 189.75 | Coal India Limited
+15 | Central Govt./Odisha | Salepali Graphite Block | Graphite | 15.05.2025 | 27.05.2025 | CL | 1223.29 | 0.153 | 179 | Vinmir Resources Pvt. Ltd.
+16 | Central Govt./Karnataka | Ganacharpura Graphite Block | Graphite | 20.05.2025 | 27.05.2025 | CL | 500.925 | 0.556 | 271 | R K Mineral Development Private Limited
+17 | Central Govt./Madhya Pradesh | Surajpura Phosphorite Block | Phosphorite | 21.05.2025 | 27.05.2025 | CL | 1072.29 | NA | 70.27 | Sunflag Iron and Steel Company Limited
+18 | Central Govt./Chhattisgarh | Raipura Phosphorite and Limestone Block | Phosphorite and Limestone | 16.05.2025 | 27.05.2025 | CL | 1009.36 | Phosphorite-14.44 Limestone-147.30 | 8.6 | NLC India Limited
+19 | Central Govt./Chhattisgarh | Semhardih Phosphorite and Limestone Block | Phosphorite and Limestone | 15.05.2025 | 27.05.2025 | CL | 960.35 | Phosphorite-3.39 Limestone-428.89 | 11.05 | NLC India Limited
+20 | Central Govt./Karnataka | Dombarahalli Phosphate and REE Block | Phosphate and REE | 15.05.2025 | 27.05.2025 | CL | 558.28 | Phosphate-18.97 REE-2.10 | 2.3 | Ramgad Minerals and Mining Limited
+21 | Central Govt./Rajasthan | Jhandawali - Satipura Amalgamated Potash and Halite Block | Potash and Halite | 16.05.2025 | 27.05.2025 | CL | 1841.22 | Potash-214.31 Halite-5840.16 | 3.05 | Hindustan Zinc Limited
+22 | Central Govt./Rajasthan | Jorkian-Satipura-Khunja Amalgamated Potash and Halite Block | Potash and Halite | 15.05.2025 | 27.05.2025 | CL | 1699.98 | Potash-251.22 Halite-5355.65 | 15.15 | Oil India Ltd.
+23 | Central Govt./UttarPradesh | Nawatola-Laband REE Block | REE | 20.05.2025 | 27.05.2025 | CL | 210.01 | 0.182 | 3.55 | Hindustan Zinc Limited
+24 | Andhra Pradesh | Jagrajupeta | Manganese | 26.05.2025 | 27.05.2025 | ML | 150 | 0.29 | 66 | Vinmir Resources Private Limited
+25 | Andhra Pradesh | Errakonda | Iron Ore | 26.05.2025 | 27.05.2025 | CL | 1500 | NA | 54.7 | RK Earth Resources Private Limited
+26 | Andhra Pradesh | Nimmalavalasa | Manganese | 26.05.2025 | 27.05.2025 | CL | 445 | NA | 11.1 | Vinmir Resources Private Limited
+27 | Andhra Pradesh | Mandiravalasa | Manganese | 16.05.2025 | 27.05.2025 | CL | 300 | NA | 27 | Vinmir Resources Private Limited
