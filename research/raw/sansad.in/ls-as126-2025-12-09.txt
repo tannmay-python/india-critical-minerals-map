@@ -1,0 +1,194 @@
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                 GOVERNMENT  OF INDIA                             
+                             MINISTRY OF HEAVY INDUSTRIES                         
+                                      LOK SABHA                                   
+                               STARRED  QUESTION NO. 126                          
+                                 ANSWERED  ON 09.12.2025                          
+                                                                                  
+              INDIGENOUS LITHIUM-ION BATTERY MANUFACTURING   AND ENERGY           
+                                 STORAGE  INITIATIVES                             
+                                                                                  
+          *126. SHRI Y S AVINASH REDDY:                                           
+                                                                                  
+          Will the Minister of HEAVY INDUSTRIES be pleased to state:              
+                                                                                  
+          (a) whether the Government has announced a 10 gigawatt RFP for grid-scale energy storage systems,
+          if so, the details thereof;                                             
+                                                                                  
+                                                                                  
+          (b) whether the Government is promoting indigenous manufacturing of advanced chemistry cells
+          under the ACC-PLI scheme, and if so, the current and projected production capacity;
+                                                                                  
+          (c) whether projected demand for lithium-ion batteries in India is expected to reach 600-900GWh
+          by 2032 and if so, the measures being taken to meet this demand sustainably; and
+                                                                                  
+          (d) whether safety standards are being developed for lithium-ion batteries considering application
+          and environmental factors, if so, the details thereof?                  
+                                                                                  
+                                       ANSWER                                     
+                           THE MINISTER OF HEAVY INDUSTRIES                       
+                                (SH. H.D. KUMARASWAMY)                            
+                                                                                  
+          (a) to (d): A statement is laid on the Table of the house.              
+                                                                                  
+                                        ******                                    
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+          STATEMENT  REFERRED  TO  IN REPLY TO PART  (a) TO (d) OF LOK SABHA      
+          STARRED QUESTION NO. 126 FOR 09.12.2025 ASKED BY SHRI Y S AVINASH REDDY 
+          REGARDING  “INDIGENOUS  LITHIUM-ION  BATTERY  MANUFACTURING   AND       
+          ENERGY STORAGE  INITIATIVES”                                            
+                                                                                  
+          (a) & (b): The Ministry of Heavy Industries is administering the Production Linked Incentive
+          (PLI) scheme namely “National Programme on Advanced Chemistry Cell (ACC) Battery Storage,”
+          approved in May 2021 with a total outlay of ₹18,100 crore to establish 50 GWh of domestic
+          Advanced Chemistry Cell manufacturing capacity, out of which 10 GWh is earmarked for Grid Scale
+          Stationary Storage (GSSS) applications.                                 
+                                                                                  
+               40 GWh capacity has been awarded to four beneficiary firms. Under the PLI ACC scheme,
+          beneficiary-wise details of their projected and current production capacities are as under:
+                                                                                  
+                                                                                  
+                                              Projected Capacity Current Capacity 
+            Sl. No. Beneficiary firms under PLI ACC Scheme                        
+                                                 (in GWh)     (in GWh)            
+             1.  ACC Energy Storage Pvt. Ltd.      5             0                
+             2.  Ola Cell Technologies Pvt. Ltd.   20            1                
+             3.  Reliance New Energy Battery Storage Ltd. 5      0                
+             4.  Reliance New Energy Battery Ltd.  10            0                
+                            TOTAL                  40            1                
+          (c): As per the NITI Aayog report “Advanced Chemistry Cell Battery Reuse and Recycling in
+          India” published in May 2022, under the optimistic scenario, the projected annual demand for
+          lithium-ion batteries is expected to reach about 210 GWh by 2030.       
+                                                                                  
+               Under the PLI ACC Scheme, the Government is supporting the establishment of 50 GWh
+          ACC capacity. Besides the PLI ACC scheme applicants, at least 10 manufacturers have announced
+          a cumulative capacity of about 178 GWh in the country over the next five years.
+                                                                                  
+          (d): Bureau of Indian Standards (BIS) has published the safety standards, prescribing safety
+          requirements and test protocols for lithium-ion batteries as per annexure. Further, Ministry of
+          Environment, Forest and Climate Change (MOEFCC) has notified Battery Waste Management
+                                                                                  
+          Rules, 2022, dated 22nd August 2022 for environmental factors.          
+                                                                                  
+                                         *****                                    
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                  ANNEXURE        
+                                                                                  
+          ANNEXURE  REFERRED  TO IN REPLY TO  PART (d) OF LOK SABHA STARRED       
+          QUESTION  NO. 126 FOR 09.12.2025 ASKED BY SHRI Y S AVINASH  REDDY       
+          REGARDING  “INDIGENOUS  LITHIUM-ION  BATTERY  MANUFACTURING   AND       
+          ENERGY STORAGE  INITIATIVES”                                            
+                                                                                  
+          List of Safety Standards published by BIS                               
+                                                                                  
+              IS 18237: 2023: Safety of Primary and Secondary Lithium Cells and Batteries during
+               Transport.                                                         
+                                                                                  
+              IS 16893 (Part 2) :2018: Secondary lithium - Ion cells for the propulsion of electric road
+               vehicles: Part 2 reliability and abuse testing.                    
+                                                                                  
+              IS 16893 2018 (Part 3): Secondary Lithium - Ion Cells for the Propulsion of Electric Road
+               Vehicles Part 3 Safety Requirements.                               
+              IS 16805: 2018: Secondary Cells and Batteries Containing Alkaline or Other Non-Acid
+               Electrolytes – Safety Requirements for Secondary Lithium Cells and Batteries, for use in
+               Industrial Applications.                                           
+                                                                                  
+              IS 16046 (Part 2) :2018: Secondary Cells and Batteries containing Alkaline or other Non-
+               Acid Electrolytes – Safety Requirements for portable sealed secondary cells and for batteries
+               made from them for use in portable applications Part 2 Lithium systems.
+                                                                                  
+                                         *****                                    
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  

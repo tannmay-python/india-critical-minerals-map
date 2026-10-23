@@ -1,0 +1,121 @@
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                  GOVERNMENT  OF INDIA                              
+                               MINISTRY OF EARTH SCIENCES                           
+                                       LOK SABHA                                    
+                                STARRED QUESTION NO. *266                           
+                      TO BE ANSWERED ON WEDNESDAY, 19TH MARCH, 2025                 
+                                                                                    
+                                     MATSYA-6000                                    
+                                                                                    
+             *266. SHRI BIBHU PRASAD TARAI:                                         
+                   SHRI JAGDAMBIKA PAL:                                             
+                                                                                    
+                   Will the Minister of EARTH SCIENCES be pleased to state:         
+                                                                                    
+             (a)   the details of the safety measures incorporated into the Matsya-6000 to ensure the
+                   well-being of the scientists operating at extreme ocean depths;  
+             (b)   the manner in which the Government plans to address issues like underwater voice
+                   communication inefficiencies;                                    
+             (c)   whether there are any plans to collaborate with international oceanographic
+                   institutes for knowledge exchange and skill enhancement related to deep-sea
+                   submersible operations; and                                      
+             (d)   if so, the details thereof?                                      
+                                                                                    
+                                        ANSWER                                      
+                      THE MINISTER OF STATE (INDEPENDENT CHARGE) FOR                
+                           MINISTRY OF SCIENCE AND TECHNOLOGY                       
+                                  AND EARTH SCIENCES                                
+                                  (DR. JITENDRA SINGH)                              
+                                                                                    
+             (a) to (d): A Statement is laid on the Table of the House.             
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+              STATEMENT LAID ON THE TABLE OF THE LOK SABHA IN REPLY TO (a) to (d) OF
+              STARRED QUESTION NO. *266 REGARDING "MATSYA-6000" TO BE ANSWERED      
+                                   ON MARCH 19, 2025                                
+                                                                                    
+             (a)   Matsya-6000 is India’s flagship human submersible aimed to carry three persons to
+                   a depth of 6000 meters, developed by the National Institute of Ocean Technology
+                   (NIOT), Chennai, under the Ministry of Earth Sciences, as part of the Samudrayaan
+                   project of the Deep Ocean Mission launched by the Government of India in 2021.
+                                                                                    
+                   Matsya- 6000 (2.1-meter diameter personnel sphere) which houses the crew is
+                   made of a Titanium alloy and maintains an inside pressure of 1 atmosphere (atm).
+                   Further, the personnel sphere spherical pressure hull is tested to bear 720 bars of
+                   pressure, which is 1.2 times more than the pressure expected at 6000 meters. All
+                   human safety parameters are continuously monitored during the operations and are
+                   communicated to the ship-based Mission Control Centre through an acoustic
+                   modem, with the pilot communicating updates through the Underwater Acoustic
+                   Telephone every 30 minutes. It is designed for operations of up to 12 hours, with
+                   an emergency endurance of up to 96 hours, supported by a DNV-certified Human
+                   Support and Safety System (HSSS). DNV (Det Norske Veritas) is an 
+                   internationally accredited registrar and classification society headquartered in
+                   Norway. The HSSS maintains the oxygen level at 20 per cent, the CO level at less
+                                                               2                    
+                   than 1000 ppmv (part per million by volume), and controls humidity by
+                   measurement sensors to ensure human life comfort and safety.     
+                   The submersible is designed to perpetually float unless made to dive through water
+                   filling in its ballast tanks. It has three different combinations of weight drop
+                   mechanisms for ascending to the surface to maintain the safety. It has additional
+                   emergency power, control, and communication devices for emergency scenarios.
+                                                                                    
+             (b)   Matsya-6000 is equipped with an Underwater Acoustic Telephone that has been
+                   operated and tested for operations up to 10,000 meters depth of human operation
+                   vehicles, in addition to a sub-phone rated for 500-meter depth operations. The
+                   voice communication is designed to be utilised every 30 minutes with the
+                   submersible pilot and the Mission Control Centre so that continuous
+                   communication is ensured.                                        
+                                                                                    
+             (c)   Yes Sir.                                                         
+                                                                                    
+             (d)   NIOT has signed MoU with the IFREMER (French Research Institute for
+                   Exploitation of the Sea), France, facilitating scientific knowledge exchange and
+                   participation with the French human scientific submersible for 6000 meters depth
+                   named NAUTILE.                                                   
+                                                                                    
+                                                                                    
+                                        *****                                       
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    

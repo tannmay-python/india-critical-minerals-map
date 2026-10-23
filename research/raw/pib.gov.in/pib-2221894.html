@@ -1,0 +1,1144 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head id="Head1"><title>
+	Press Release Page | Press Information Bureau
+</title><link href="css/style.css?v=1" rel="stylesheet" type="text/css" /><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="alternate stylesheet" href="css/change.css?v=1" media="screen" title="change" /><link rel="alternate stylesheet" href="css/green.css?v=1" media="screen" title="green" /><link rel="alternate stylesheet" href="css/yellow.css" media="screen" title="yellow" /><link rel="stylesheet" type="text/css" href="css/prtint.css" media="print" /><link rel="stylesheet" href="css/style3.1.css" type="text/css" /><link id="pibA11yCss" rel="stylesheet" href="/css/accessibility.css?v=7" type="text/css" />
+    <script type="text/javascript">
+        (function (d) {
+            var t = "";
+            try {
+                t = window.localStorage.getItem("pibStyle") || "";
+            } catch (e) {
+                t = "";
+            }
+            if (t === "orange") {
+                t = "yellow";
+            }
+            var c = t === "change" ? " pib-hc"
+                : t === "green" ? " pib-theme-green"
+                : t === "yellow" ? " pib-theme-yellow" : "";
+            d.documentElement.className += c + " pib-a11y-content";
+        }(document));
+    </script>
+
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/js/accessibility.js?v=7"></script>
+
+    <script type="text/javascript">
+            $(document).ready(function () {
+                  function getParameterByName(name) {
+                        var url = window.location.href;
+                        name = name.replace(/[\[\]]/g, '\\$&');
+                        var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+                              results = regex.exec(url);
+                        if (!results) return null;
+                        if (!results[2]) return '';
+                        return decodeURIComponent(results[2].replace(/\+/g, ' '));
+                  }
+                  let prid = parseInt(getParameterByName('PRID'), 10);
+
+                  if (!isNaN(prid) && prid > 0) {
+                        $.ajax({
+                              type: "POST",
+                              url: "AjaxMethod.aspx/UpdatePRHitCount",
+                              async: false,
+                              data: JSON.stringify({ 'PermId': prid }),
+                              contentType: "application/json; charset=utf-8",
+                              dataType: "json",
+                              success: function (response) {
+                                    console.log(response);
+                              },
+                              error: function (error) {
+                                    console.log("Error in AJAX request", error);
+                              }
+                        });
+                  } else {
+                        console.log("Invalid parameters:", prid);
+                  }
+            });
+    </script>
+    <style type="text/css">
+        .table-responsive {
+            width: 100%;
+            overflow-x: auto;
+        }
+
+        .banner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+        }
+
+        full-width {
+            width: 100%;
+        }
+
+        .logo-left, .logo-center, .countdown {
+            display: flex;
+            align-items: center;
+        }
+
+            .logo-left img, .logo-center img {
+                height: 70px;
+            }
+
+        .countdown {
+            text-align: center;
+            background-color: var(--dbim-text, #150202);
+            border-radius: 10px;
+            padding: 10px;
+            border: 2px solid grey;
+        }
+
+        .firstnumber {
+            color: #000000;
+            position: absolute;
+            top: 50px;
+            right: 90px;
+            font-size: 30px;
+        }
+
+        .secondnumber {
+            position: absolute;
+            color: #000000;
+            right: 45px;
+            top: 50px;
+            font-size: 30px;
+        }
+
+        .countdown .days {
+            font-size: 35px;
+            color: gold;
+        }
+
+        .countdown p {
+            margin: 0;
+        }
+
+        .countdown .text {
+            font-size: 16px;
+        }
+
+        a {
+            word-break: break-all;
+        }
+
+        iframe, img {
+            max-width: 100%;
+        }
+
+        /* === DBIM 3.0 Option 4 Separator Line & Reading Meta Styling === */
+        .pr-share--footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+            border-top: 1px solid var(--dbim-border, #d1d5db);
+            padding-top: 16px;
+            margin-top: 24px;
+        }
+
+        .pr-share__left {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .pr-reading-meta {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 0.95rem;
+            color: var(--dbim-text-secondary, #475569);
+            font-weight: 500;
+            white-space: nowrap;
+            margin-left: auto;
+        }
+
+        .pr-reading-meta__item {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .pr-reading-meta__divider {
+            color: var(--dbim-border, #cbd5e1);
+            font-weight: 300;
+        }
+
+        .pib-hc .pr-reading-meta,
+        .pib-hc .pr-reading-meta svg {
+            color: currentColor !important;
+        }
+
+        @media (max-width: 680px) {
+            .pr-share--footer {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .pr-reading-meta {
+                margin-left: 0;
+                width: 100%;
+                justify-content: flex-start;
+            }
+        }
+
+        @media(max-width:1199px) {
+            .firstnumber {
+                top: 40px;
+                right: 72px;
+                font-size: 30px;
+            }
+
+            .secondnumber {
+                right: 35px;
+                top: 40px;
+                font-size: 30px;
+            }
+        }
+
+        @media(max-width:990px) {
+            .firstnumber {
+                top: 25px;
+                right: 54px;
+                font-size: 30px;
+            }
+
+            .secondnumber {
+                right: 25px;
+                top: 25px;
+                font-size: 30px;
+            }
+        }
+
+        @media(max-width:768px) {
+            .countdown, .days {
+                font-size: 12px !important;
+            }
+
+            .firstnumber {
+                top: 25%;
+                right: 8%;
+                font-size: 30px;
+            }
+
+            .secondnumber {
+                right: 4.5%;
+                top: 25%;
+                font-size: 30px;
+            }
+        }
+
+        @media(max-width:475px) {
+            .countdown, .days {
+                font-size: 10px !important;
+                top: 20%;
+            }
+
+            .bannerimgdiv {
+                padding: 0 !important;
+            }
+
+            .bannerimg {
+                width: 108% !important;
+            }
+        }
+    </style>
+    <script type="text/javascript">
+            $(function () {
+                  $("[id*=printPDF]").click(function () {
+                        $("[id*=hfGridHtml]").val($("#PdfDiv").html());
+                  });
+            });
+            $(function () {
+                  $("[id*=printPDFEvent]").click(function () {
+                        $("[id*=hfGridHtml]").val($("#PdfDiv").html());
+                  });
+            });
+    </script>
+
+    <link id="pibConsentCss" href="/css/consent.css?v=8" rel="stylesheet" type="text/css" /><link id="pibFontsCss" href="/css/fonts-noto.css?v=6" rel="stylesheet" type="text/css" /><link id="pibDbimCss" href="/css/dbim.css?v=1120" rel="stylesheet" type="text/css" /><meta property="og:title" content="Budget 2026-27 lays strong foundation for AI Data Centres and Semiconductor Ecosystem" /><meta property="og:url" content="www.pib.gov.in/Pressreleaseshare.aspx?PRID=2221894" /><meta property="og:description" content="Union Finance Minister Smt. Nirmala Sitharaman today presented the Union Budget for the Financial Ye" /><meta property="og:image" content="https:/pib.gov.in/images/indian-emblem.png" />
+                                <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="C4E7H-KSCMC-422L4-W3EM5-U36MF",function(){function e(){if(!i){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,o.parentNode.appendChild(e),i=!0}}function t(e){i=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(o.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",o.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"C4E7H-KSCMC-422L4-W3EM5-U36MF";var o=document.currentScript||document.getElementsByTagName("script")[0],i=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!i)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),o.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="eqausagjcb5rwjqacqh5aaaaabvnuw6u-f-d0407cb66-clienttons-s.akamaihd.net",o="false"=="true"?2:1,i={"ak.v":"41","ak.cp":"1825201","ak.ai":parseInt("1215205",10),"ak.ol":"0","ak.cr":50,"ak.ipv":6,"ak.proto":"h2","ak.rid":"2a8d15cf","ak.r":32706,"ak.a2":n,"ak.m":"dscb","ak.n":"ff","ak.cport":58572,"ak.gh":"23.201.55.159","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"","ak.t":"1792695252","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==/DMnh2e1zMZ2yLTu3hrkv2RgUeAzdl12jg5r++ZIY+fgX1JH+BZKmRTipJtfgf1/eK5iy4K/PYtyb9GemXIPKqZ6HPHTkoYpTQyLgTbRTk2zYLNm/Y1vlXYUcNMdtjMJ0UOgb1Ccah2BVlHdDPS++D1rFTJHVIVJyu+ke69ztK/c7TZrf4zPN84VvSUdBNbWgOhndxy2w6GF9q8SnhhWLmy1a6lfOFjRWygJ6+OSDM8Y46+7CHmGgWPazSx1R8mu6X8iTpEjZRKmoM0Z2FvPu8BKwi/Wlpuc59LxGsIPCWAH18/f5EXmuVAjGTPIcc+cZ0C7UYs+x+gG3Wkf4Knm9DRFd5JUCmkZj4gkevI8kj+M9HBHn5Gh5mtKPAeFKXzNP00W1tnm2Kk16ZbWYu2GTFdyymsaFkhikDYN+qMrycg=","ak.pv":"9","ak.dpoabenc":"","ak.tf":o};if(""!==t)i["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))i["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var e=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+<body>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
+     style="position:absolute;width:0;height:0;overflow:hidden" id="dbim-icon-sprite">
+    <defs>
+        <symbol id="icon-angle-double-left" viewBox="0 0 24 24"><path d="M11.6 4.6 4.2 12l7.4 7.4 2.2-2.2L8.6 12l5.2-5.2z"/><path d="M19 4.6 11.6 12 19 19.4l2.2-2.2L16 12l5.2-5.2z"/></symbol>
+        <symbol id="icon-angle-double-right" viewBox="0 0 24 24"><path d="M12.4 4.6 10.2 6.8 15.4 12l-5.2 5.2 2.2 2.2L19.8 12z"/><path d="M5 4.6 2.8 6.8 8 12l-5.2 5.2L5 19.4 12.4 12z"/></symbol>
+        <symbol id="icon-arrow-left" viewBox="0 0 24 24"><path d="M20.8 10.6H9.6v2.8h11.2z"/><path d="M10.8 5.6 3.2 12l7.6 6.4z"/></symbol>
+        <symbol id="icon-arrow-right" viewBox="0 0 24 24"><path d="M3.2 10.6h11.2v2.8H3.2z"/><path d="M13.2 5.6 20.8 12l-7.6 6.4z"/></symbol>
+        <symbol id="icon-blogger" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M6.4 2.4h11.2a4 4 0 0 1 4 4v11.2a4 4 0 0 1-4 4H6.4a4 4 0 0 1-4-4V6.4a4 4 0 0 1 4-4zm2.8 5.2a2 2 0 0 0 0 4h2.4a2 2 0 0 0 0-4zm0 5.6a2 2 0 0 0 0 4h5.6a2 2 0 0 0 0-4z"/></symbol>
+        <symbol id="icon-calendar" viewBox="0 0 24 24"><path d="M7.6 2.4H10v2.4H7.6z"/><path d="M14 2.4h2.4v2.4H14z"/><path fill-rule="evenodd" d="M4 4.8h16a1.6 1.6 0 0 1 1.6 1.6v13.2a1.6 1.6 0 0 1-1.6 1.6H4a1.6 1.6 0 0 1-1.6-1.6V6.4A1.6 1.6 0 0 1 4 4.8zm.4 5.6v8.4h15.2v-8.4z"/><path d="M6.4 12.4h3.2v3.2H6.4z"/></symbol>
+        <symbol id="icon-chevron-left" viewBox="0 0 24 24"><path d="M15.4 4.6 8 12l7.4 7.4 2.2-2.2L12.4 12l5.2-5.2z"/></symbol>
+        <symbol id="icon-chevron-right" viewBox="0 0 24 24"><path d="M8.6 4.6 6.4 6.8 11.6 12l-5.2 5.2 2.2 2.2L16 12z"/></symbol>
+        <symbol id="icon-circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/></symbol>
+        <symbol id="icon-download" viewBox="0 0 24 24"><path d="M10.8 3h2.4v7.6h3.4L12 16.6l-4.6-6h3.4z"/><path d="M4 17.2h2.4v2.4h11.2v-2.4H20v3.2a1.4 1.4 0 0 1-1.4 1.4H5.4A1.4 1.4 0 0 1 4 20.4z"/></symbol>
+        <symbol id="icon-facebook" viewBox="0 0 24 24"><path d="M13.6 21.6v-8.4h2.8l.42-3.3h-3.22V7.8c0-.95.27-1.6 1.64-1.6h1.74V3.26a23 23 0 0 0-2.54-.13c-2.5 0-4.22 1.53-4.22 4.34v2.43H7.4v3.3h2.82v8.4z"/></symbol>
+        <symbol id="icon-fact-check" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.4 3.6 5.6v6.2c0 4.6 3.4 8.6 8.4 9.8 5-1.2 8.4-5.2 8.4-9.8V5.6zm-1 13.2-3.6-3.6 1.7-1.7 1.9 1.9 4.5-4.5 1.7 1.7z"/></symbol>
+        <symbol id="icon-hashtag" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M8.8 3h2.4l-1 6h3.2l1-6h2.4l-1 6h3.4v2.4h-3.8l-.6 3.2h3.6V17h-4l-1 5h-2.4l1-5h-3.2l-1 5H5.4l1-5H3V14.6h3.8l.6-3.2H3.8V9h4zm.6 8.4-.6 3.2h3.2l.6-3.2z"/></symbol>
+        <symbol id="icon-home" viewBox="0 0 24 24"><path d="M12 3.4 2.8 11.6h2.4v8.4a1 1 0 0 0 1 1h3.3v-5.4h5v5.4h3.3a1 1 0 0 0 1-1v-8.4h2.4z"/></symbol>
+        <symbol id="icon-instagram" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M7.6 2.4h8.8a5.2 5.2 0 0 1 5.2 5.2v8.8a5.2 5.2 0 0 1-5.2 5.2H7.6a5.2 5.2 0 0 1-5.2-5.2V7.6a5.2 5.2 0 0 1 5.2-5.2zm0 2.4a2.8 2.8 0 0 0-2.8 2.8v8.8a2.8 2.8 0 0 0 2.8 2.8h8.8a2.8 2.8 0 0 0 2.8-2.8V7.6a2.8 2.8 0 0 0-2.8-2.8z"/><path fill-rule="evenodd" d="M12 6.8a5.2 5.2 0 1 0 0 10.4 5.2 5.2 0 0 0 0-10.4zm0 2.4a2.8 2.8 0 1 1 0 5.6 2.8 2.8 0 0 1 0-5.6z"/><circle cx="17.3" cy="6.7" r="1.3"/></symbol>
+        <symbol id="icon-linkedin" viewBox="0 0 24 24"><path d="M4.8 8.8h3.6v12H4.8z"/><circle cx="6.6" cy="5.4" r="2.1"/><path d="M10.8 8.8h3.45v1.65h.05c.48-.9 1.65-1.85 3.4-1.85 3.63 0 4.3 2.35 4.3 5.4v6.6h-3.6v-5.85c0-1.4-.03-3.2-1.95-3.2-1.95 0-2.25 1.52-2.25 3.1v5.95h-3.6z"/></symbol>
+        <symbol id="icon-mail" viewBox="0 0 24 24"><path d="M2.4 7.6v9.2a1.6 1.6 0 0 0 1.6 1.6h16a1.6 1.6 0 0 0 1.6-1.6V7.6L12 14z"/><path d="M21.2 5.4H2.8L12 11.8z"/></symbol>
+        <symbol id="icon-mail-open" viewBox="0 0 24 24"><path d="M2.4 9.8h19.2v9.6A1.6 1.6 0 0 1 20 21H4a1.6 1.6 0 0 1-1.6-1.6z"/><path d="M12 2.6 21.6 9.2h-3.8L12 5.3 6.2 9.2H2.4z"/><path d="m3.9 11.2 8.1 5.4 8.1-5.4 1.5 1.3-9.6 6.4-9.6-6.4z"/></symbol>
+        <symbol id="icon-map-marker" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.4a7 7 0 0 0-7 7c0 5.2 7 12.2 7 12.2s7-7 7-12.2a7 7 0 0 0-7-7zm0 9.6a2.6 2.6 0 1 1 0-5.2 2.6 2.6 0 0 1 0 5.2z"/></symbol>
+        <symbol id="icon-newspaper" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M2.8 4.4h14.8v15.2H2.8zm2 2v11.2h10.8V6.4z"/><path d="M6 7.6h8.4v1.6H6z"/><path d="M6 10.8h8.4v1.6H6z"/><path d="M6 14h5.2v1.6H6z"/><path d="M18.4 8.4h2.8v9.6a1.4 1.4 0 0 1-2.8 0z"/></symbol>
+        <symbol id="icon-pause" viewBox="0 0 24 24"><rect x="7.4" y="4" width="3.6" height="16" rx="0.9"/><rect x="13" y="4" width="3.6" height="16" rx="0.9"/></symbol>
+    <symbol id="icon-play" viewBox="0 0 24 24"><path d="M8 4.5v15l12-7.5z"/></symbol>
+        <symbol id="icon-picture" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M2.4 5.2h19.2v13.6H2.4zm2 2v9.6h15.2V7.2z"/><path d="M5.6 16.4 10 11l2.6 3 2-2.2 4 4.6z"/><circle cx="8" cy="10.4" r="1.5"/></symbol>
+        <symbol id="icon-press-conference" viewBox="0 0 24 24"><circle cx="12" cy="5.2" r="2.6"/><path d="M7.6 12.2a4.4 4.4 0 0 1 8.8 0z"/><circle cx="4.9" cy="9.6" r="2.2"/><path d="M1.8 15.2a3.1 3.1 0 0 1 6.2 0z"/><circle cx="19.1" cy="9.6" r="2.2"/><path d="M16 15.2a3.1 3.1 0 0 1 6.2 0z"/><path d="M6.6 13.6h10.8l2.2 7.8H4.4z"/></symbol>
+        <symbol id="icon-print" viewBox="0 0 24 24"><path d="M6.4 2.8h11.2v4.4H6.4z"/><path d="M4 8.4h16a1.6 1.6 0 0 1 1.6 1.6v5.6a1.6 1.6 0 0 1-1.6 1.6h-1.6v-2.8H6v2.8H4a1.6 1.6 0 0 1-1.6-1.6V10A1.6 1.6 0 0 1 4 8.4z"/><path d="M7.2 15.6h9.6v5.6H7.2z"/></symbol>
+        <symbol id="icon-rss" viewBox="0 0 24 24"><circle cx="4.8" cy="19.2" r="2.4"/><path d="M2.4 11.2v3.2a6.4 6.4 0 0 1 6.4 6.4H12A9.6 9.6 0 0 0 2.4 11.2z"/><path d="M2.4 4.8V8A13.6 13.6 0 0 1 16 21.6h3.2A16.8 16.8 0 0 0 2.4 4.8z"/></symbol>
+        <symbol id="icon-search-plus" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M10 2.8a7.2 7.2 0 1 0 0 14.4 7.2 7.2 0 0 0 0-14.4zm0 2.4a4.8 4.8 0 1 1 0 9.6 4.8 4.8 0 0 1 0-9.6z"/><path d="M15.3 14.6 21.2 20.5l-1.5 1.5-5.9-5.9z"/><path d="M9.2 6.8h1.6v2.4h2.4v1.6h-2.4v2.4H9.2v-2.4H6.8V9.2h2.4z"/></symbol>
+        <symbol id="icon-share" viewBox="0 0 24 24"><circle cx="18" cy="5.6" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="18.4" r="3"/><path d="M8.3 10.9 15.7 7.2l.9 1.8-7.4 3.7z"/><path d="M9.2 13.1 16.6 16.8l-.9 1.8-7.4-3.7z"/></symbol>
+        <symbol id="icon-twitter" viewBox="0 0 24 24"><path d="M4.2 3h4.3l11.3 18h-4.3z"/><path d="M19.3 3h-2.6L4.2 21h2.6z"/></symbol>
+        <symbol id="icon-university" viewBox="0 0 24 24"><path d="M12 2.4 21.6 7.2v1.6H2.4V7.2z"/><path d="M4.8 10.4h2.4v8H4.8z"/><path d="M9.2 10.4h2.4v8H9.2z"/><path d="M13.4 10.4h2.4v8h-2.4z"/><path d="M17.6 10.4H20v8h-2.4z"/><path d="M3.2 19.8h17.6v1.8H3.2z"/></symbol>
+        <symbol id="icon-volume-up" viewBox="0 0 24 24"><path d="M3.2 9.2h3.3l5-4.2v14l-5-4.2H3.2z"/><path d="M14.6 8.4a5 5 0 0 1 0 7.2l1.6 1.6a7.2 7.2 0 0 0 0-10.4z"/><path d="M17.4 5.6a8.8 8.8 0 0 1 0 12.8l1.5 1.5a10.9 10.9 0 0 0 0-15.8z"/></symbol>
+        <symbol id="icon-whatsapp" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.4a9.5 9.5 0 0 0-8.1 14.5L2.4 21.6l4.8-1.4A9.5 9.5 0 1 0 12 2.4zm0 2.2a7.3 7.3 0 1 1-3.8 13.5l-.4-.2-2.6.7.7-2.5-.3-.4A7.3 7.3 0 0 1 12 4.6z"/><path d="M9.4 7.8c-.2-.5-.4-.5-.6-.5h-.5a1 1 0 0 0-.7.3c-.3.3-.9.9-.9 2.1s.9 2.4 1 2.6c.1.2 1.7 2.8 4.3 3.8 2.1.8 2.6.7 3 .6.5 0 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.5-.3-1.6-.8c-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6 6 0 0 1-1.8-1.1 6.6 6.6 0 0 1-1.2-1.6c-.1-.2 0-.4.1-.5l.4-.5.3-.5v-.5z"/></symbol>
+        <symbol id="icon-youtube" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M21.6 7.2a2.8 2.8 0 0 0-2-2C17.9 4.8 12 4.8 12 4.8s-5.9 0-7.6.4a2.8 2.8 0 0 0-2 2A29 29 0 0 0 2 12a29 29 0 0 0 .4 4.8 2.8 2.8 0 0 0 2 2c1.7.4 7.6.4 7.6.4s5.9 0 7.6-.4a2.8 2.8 0 0 0 2-2A29 29 0 0 0 22 12a29 29 0 0 0-.4-4.8zM10.2 15.1V8.9l5.1 3.1z"/></symbol>
+    </defs>
+</svg>
+
+    <form method="post" action="./PressReleasePage.aspx?PRID=2221894&amp;reg=48&amp;lang=2" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="sc_HiddenField" id="sc_HiddenField" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZPQet1wIx1Q48y3xJY2k25Y7qxH5RrQ9qQcN-OiTC9guZtri9w2&amp;t=639246310404186790" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=x6wALODbMJK5e0eRC_p1LdIxBJXt0U_WW5GWfJqHAqo6frgCmGRfEywglicTersO2OKrFhK1gAIp0Wk2al2YrpdR3uWqH6f4nfjBsCyRUfTUUVmb0&amp;t=ffffffffecf8d3f2" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=P5lTttoqSeZXoYRLQMIScH645UK3RD852IErF2548Wz9Ssv0rLjB4fhVKnHcMpqkaMHpNAGOeWY02Lf4aBYN9-dVBme_SNK5KJwmFQNpMixYDZ7M0&amp;t=ffffffffecf8d3f2" type="text/javascript"></script>
+<script src="/PressReleasePage.aspx?_TSM_HiddenField_=sc_HiddenField&amp;_TSM_CombinedScripts_=%3b%3bAjaxControlToolkit%2c+Version%3d3.5.7.123%2c+Culture%3dneutral%2c+PublicKeyToken%3d28f01b0e84b6d53e%3aen-US%3a5a4df314-b4a2-4da2-a207-9284f1b1e96c%3ade1feab2%3af2c8e708%3a8613aea7%3af9cec9bc%3a3202a5a2%3aab09e3fe%3a87104b7c%3a720a52bf%3a589eaa30%3aa67c2700%3abe6fb298" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="59B53027" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="JtCTr+Yif5+AM2+0b161H0fuYww1J3+LZzJPdzmK3Wiva6fziR9kVke0UTuGPa9pCnnVD1pxPDfvu5eQ4AEauTwyKeqRhDnkOX6PDUTUnYd5FUsRUEaqdvs8LEt1ZhA7HHt3t2qPok0EH8W/QRejO5O9AqHeCliFXevxLop0PQqbMgb6RZI9cnz2kN75pQMpQzBBNWi7XeUBfQEB3DdXoBOFY89HeOOoJUv2ow0yKGZBZEdSQ0mu2u8znpwzsZsjnPsNFY4EfKAjHv83zEkAABa6Z8s=" />
+</div>
+        
+        <div id="templateCss"></div>
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('sc', 'form1', ['tupdate12','update12'], [], [], 90, '');
+//]]>
+</script>
+
+        <input type="hidden" name="hfGridHtml" id="hfGridHtml" />
+        <div class="container" style='margin-bottom: 50px;'>
+            <div id="accessories">
+                
+                <div class="pull-right" style="display: flex">
+                    <div id="voll"></div>
+                    <div id="vollDT"></div>
+                    
+
+<span class="print-icons">
+<input type="image" name="Print1$print" id="Print1_print" aria-label="Print" src="images/printer_icon.png" alt="print page button" style="padding: 5px 10px 5px 10px;" />
+</span>
+                </div>
+            </div>
+            <input type="hidden" name="hydpermid" id="hydpermid" value="2221894" />
+            
+
+            <div class="innner-page-main-about-us-content-right-part">
+                <div id="MinistryName" class="MinistryNameSubhead text-center">
+                    Ministry of Electronics & IT
+                </div>
+                <div id="lg_g"><div class='log_oo'>  <img src='https://static.pib.gov.in/WriteReadData/specificdocs/photo/2026/sep/ph_9768_20260902_10000501.png' alt='azadi ka amrit mahotsav' /> </div></div>
+
+                <div class="text-center event-heading-background">
+                    
+                    <h1 id="Titleh2">
+                        Budget 2026-27 lays strong foundation for AI Data Centres and Semiconductor Ecosystem
+                    </h1>
+                    <h3 id="Subtitleh3">
+                        <span id="ltrSubtitle"><br/>Tax Holiday till 2047 to boost Global Cloud and AI Data Centre Investments in India<br/><br/>Electronics Components Manufacturing Scheme response exceeded expectations, momentum strengthened in Budget 2026-27: Shri Ashwini Vaishnaw<br/><br/>Semiconductor Mission 2.0 to deepen domestic manufacturing, design and talent ecosystem</span>
+                    </h3>
+                </div>
+
+                <div id="PrDateTime" class="ReleaseDateSubHeaddateTime text-center pt20">
+                    Posted On:
+                              01 FEB 2026 9:06PM by PIB Delhi
+                </div>
+                
+                <div class='pt20'>
+                </div>
+                <input type="hidden" name="hydphotoUrl" id="hydphotoUrl" />
+                
+
+                <!-- Release content wrapper for client-side zero-reflow word count -->
+                <div id="pibReleaseBody">
+                    <p style="margin-left:0in; margin-right:0in; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Union Finance Minister Smt. Nirmala Sitharaman today presented the Union Budget for the Financial Year (FY) 2026-27. The Budget includes several key measures aimed at accelerating growth in the Electronics, Information Technology and Artificial Intelligence ecosystem, the Union Minister for Electronics and Information Technology, Railways and Information &amp; Broadcasting, Shri Ashwini Vaishnaw, said while addressing the media.</span></span></p>
+
+<p style="margin-left:0in; margin-right:0in; text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img src="https://static.pib.gov.in/WriteReadData/userfiles/image/image0015L0G.jpg" style="height:501px; width:601px" /></span></span></p>
+
+<h3 style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:black">AI Data Centres and Tax Incentives till 2047</span></strong></span></span></h3>
+
+<p style="margin-left:0in; margin-right:0in; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Highlighting the focus on digital infrastructure, Shri Ashwini Vaishnaw said that data centres, particularly <strong>AI data centres</strong>, play a critical role in the infrastructure layer of the AI architecture. He noted that investments of around <strong>USD 70 billion</strong> are already underway in India, with announcements of investments of around <strong>USD 90 billion</strong>.</span></span></p>
+
+<p style="margin-left:0in; margin-right:0in; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">To further encourage long-term investments, Budget 2026-27 has proposed a <strong>tax holiday till 2047</strong> for foreign companies providing cloud services to customers globally using data centre services from India. Such companies will provide services to Indian customers through an Indian reseller entity. A <strong>safe harbour of 15 percent on cost</strong> has also been proposed where the data centre service provider in India is a related entity.</span></span></p>
+
+<p style="margin-left:0in; margin-right:0in; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The long-term policy framework for data centres up to 2047 positions India among the leading global destinations for AI and cloud infrastructure, the Minister said.</span></span></p>
+
+<p style="margin-left:0in; margin-right:0in; text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img src="https://static.pib.gov.in/WriteReadData/userfiles/image/image002BLHM.jpg" style="height:430px; width:601px" /></span></span></p>
+
+<h3 style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:black">India Semiconductor Mission (ISM) 2.0</span></strong></span></span></h3>
+
+<p style="margin-left:0in; margin-right:0in; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Shri Ashwini Vaishnaw said that the Budget has announced the launch of <strong>India Semiconductor Mission (ISM) 2.0</strong>, building upon the strong foundation created under ISM 1.0, which established a completely new and foundational semiconductor industry in India.</span></span></p>
+
+<p style="margin-left:0in; margin-right:0in; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">ISM 2.0 will focus on <strong>designing and manufacturing semiconductor equipment in India</strong>, manufacturing of <strong>materials used in semiconductor production</strong>, creation of a <strong>large design ecosystem</strong>, and further strengthening of talent development initiatives. A provision of <strong>Rs. 1,000 crore</strong> has been made for ISM 2.0 for FY 2026-27.</span></span></p>
+
+<h3 style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:black">Electronics Components Manufacturing Scheme (ECMS)</span></strong></span></span></h3>
+
+<p style="margin-left:0in; margin-right:0in; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The Union Minister said that the <strong>allocation for the Electronics Components Manufacturing Scheme (ECMS)</strong> has been increased from about <strong>Rs. 22,000 crore to Rs. 40,000 crore</strong> in the Budget 2026-27. He highlighted the strong industry response to the scheme, which has received <strong>149 applications</strong>, significantly higher than the expected 50 to 55 applications. The enhanced allocation will help maintain the momentum generated by the scheme.</span></span></p>
+
+<h3 style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:black">IT Services Simplification and Safe Harbour Provisions</span></strong></span></span></h3>
+
+<p style="margin-left:0in; margin-right:0in; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Shri Ashwini Vaishnaw said that IT services remain India&rsquo;s largest exported service sector, with exports exceeding <strong>USD 220 billion</strong>. To provide tax certainty and support industry growth, the Budget proposes new <strong>safe harbour provisions for IT and IT-enabled services</strong> with higher thresholds and competitive margins.</span></span></p>
+
+<p style="margin-left:0in; margin-right:0in; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">All IT services, including software development services, IT-enabled services, knowledge process outsourcing and contract R&amp;D services, have been proposed to be grouped under a single category of <em>Information Technology Services</em>, with a common safe harbour margin of <strong>15.5 percent</strong>. The threshold for availing safe harbour has been proposed to be increased substantially from <strong>Rs. 300 crore to Rs. 2,000 crore</strong>, with approvals through an automated, rule-based process.</span></span></p>
+
+<p style="margin-left:0in; margin-right:0in; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The Budget also proposes fast-tracking the <strong>Unilateral Advance Pricing Agreement (APA)</strong> process for IT services and extending the facility of modified returns to associated entities entering into APA.</span></span></p>
+
+<p style="margin-left:0in; margin-right:0in; text-align:center"><strong><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">****</span></span></strong></p>
+
+<p style="margin-left:0in; margin-right:0in; text-align:justify"><strong><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">MSZ</span></span></strong></p>
+
+                </div>
+
+                <div id="reel_pic">
+                </div>
+
+                <br />
+                <span id="ReleaseId">(Release ID: 2221894)</span>
+                <span id="lblViews">Visitor Counter : 11536</span>
+                <div>
+                    
+                </div>
+                
+
+                <span id="lblRefPhoto"></span>
+
+                <div class="BackgroundRelease">
+                    
+                </div>
+                <div>
+                    
+                </div>
+                <div class="ReleaseLang">Read this release in: 
+                
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2221999' target="_blank">
+                            Urdu </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2222081' target="_blank">
+                            हिन्दी </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2222244' target="_blank">
+                            Punjabi </a>
+                    
+                </div>
+
+                <div class="RelTag">
+                    <ul>
+                        
+                    </ul>
+                </div>
+                <div class="clear">
+                </div>
+
+                <!-- DBIM 3.0 Option 4: Separator Line with Left Share Rail & Right Reading Metrics -->
+                <div class="pr-share pr-share--footer" role="region" aria-label="Share and reading details">
+                    <div class="pr-share__left">
+                        <span class="pr-share__label" aria-hidden="true">Share</span>
+                        <ul class="pr-share__list">
+                            <li><a class="pr-share__btn pr-share__btn--facebook"
+                                href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2221894"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on Facebook">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-facebook" xlink:href="#icon-facebook"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--twitter"
+                                href="https://twitter.com/intent/tweet?url=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2221894"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on X">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-twitter" xlink:href="#icon-twitter"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--whatsapp"
+                                href="https://api.whatsapp.com/send?text=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2221894"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on WhatsApp">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-whatsapp" xlink:href="#icon-whatsapp"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--linkedin"
+                                href="https://www.linkedin.com/sharing/share-offsite/?url=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2221894"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on LinkedIn">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-linkedin" xlink:href="#icon-linkedin"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--mail"
+                                href="mailto:?subject=Press+release+from+PIB&amp;body=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2221894"
+                                aria-label="Share by email">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-mail" xlink:href="#icon-mail"></use>
+                                </svg>
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div class="pr-reading-meta" id="prReadingMeta" aria-label="Reading statistics">
+                        <span class="pr-reading-meta__item">
+                            <!-- Modern Document / Word Count Icon -->
+                            <svg class="pr-reading-meta__icon" width="18" height="18" viewbox="0 0 16 16" fill="currentColor" aria-hidden="true" focusable="false">
+                                <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5" />
+                                <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z" />
+                            </svg>
+                            <span id="prWordCount">-- words</span>
+                        </span>
+
+                        <span class="pr-reading-meta__divider" aria-hidden="true">|</span>
+
+                        <span class="pr-reading-meta__item">
+                            <!-- Modern Precision Clock / Read Time Icon -->
+                            <svg class="pr-reading-meta__icon" width="18" height="18" viewbox="0 0 16 16" fill="currentColor" aria-hidden="true" focusable="false">
+                                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                            </svg>
+                            <span id="prReadTime">-- min read</span>
+                        </span>
+                    </div>
+                </div>
+
+                <div id="RelLink" class="RelLink">
+                    <ul>
+                        
+                    </ul>
+                </div>
+                <center>
+                    
+                </center>
+            </div>
+
+            <div id="update12">
+	
+                    
+                    <input type="hidden" name="Hidden" id="Hidden" />
+                    <div id="P_CategoryManagement" class="ModalWindow" style="border-width:0px;height:60%;width:60%;overflow:auto;display: none">
+		
+                        <div>
+                            <input type="image" name="btnClose" id="btnClose" src="images/close_flat_icon.png" />
+                        </div>
+                        <div id="description">
+                        </div>
+                        <div class="text-center">
+                            <h2>
+                                
+                                <br>
+                                
+                            </h2>
+                        </div>
+                        <br />
+                        <div class="clear">
+                        </div>
+                        
+                    
+	</div>
+                
+</div>
+        </div>
+
+        <div id="PdfDiv" style="display: none;">
+            <table width="100%">
+                <tr>
+                    <td style="font-weight: 200; text-align: center">
+                        Ministry of Electronics & IT
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 200; text-align: center; font-size: 30px;">
+                            Budget 2026-27 lays strong foundation for AI Data Centres and Semiconductor Ecosystem
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 200; text-align: center; font-size: 30px;">
+                            <div style='height:30px;width:100%;'></div>Tax Holiday till 2047 to boost Global Cloud and AI Data Centre Investments in India<div style='height:30px;width:100%;'></div><div style='height:30px;width:100%;'></div>Electronics Components Manufacturing Scheme response exceeded expectations, momentum strengthened in Budget 2026-27: Shri Ashwini Vaishnaw<div style='height:30px;width:100%;'></div><div style='height:30px;width:100%;'></div>Semiconductor Mission 2.0 to deepen domestic manufacturing, design and talent ecosystem
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="text-align: center; font-size: 14px;">
+                            Posted On:
+                                          01 FEB 2026 9:06PM by PIB Delhi
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 200; text-align: left; font-size: 16px;">
+                            <p style="margin-left:0in; margin-right:0in; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Union Finance Minister Smt. Nirmala Sitharaman today presented the Union Budget for the Financial Year (FY) 2026-27. The Budget includes several key measures aimed at accelerating growth in the Electronics, Information Technology and Artificial Intelligence ecosystem, the Union Minister for Electronics and Information Technology, Railways and Information &amp; Broadcasting, Shri Ashwini Vaishnaw, said while addressing the media.</span></span></p>
+
+<p style="margin-left:0in; margin-right:0in; text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img src="https://static.pib.gov.in/WriteReadData/userfiles/image/image0015L0G.jpg" style="height:501px; width:601px" /></span></span></p>
+
+<h3 style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:black">AI Data Centres and Tax Incentives till 2047</span></strong></span></span></h3>
+
+<p style="margin-left:0in; margin-right:0in; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Highlighting the focus on digital infrastructure, Shri Ashwini Vaishnaw said that data centres, particularly <strong>AI data centres</strong>, play a critical role in the infrastructure layer of the AI architecture. He noted that investments of around <strong>USD 70 billion</strong> are already underway in India, with announcements of investments of around <strong>USD 90 billion</strong>.</span></span></p>
+
+<p style="margin-left:0in; margin-right:0in; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">To further encourage long-term investments, Budget 2026-27 has proposed a <strong>tax holiday till 2047</strong> for foreign companies providing cloud services to customers globally using data centre services from India. Such companies will provide services to Indian customers through an Indian reseller entity. A <strong>safe harbour of 15 percent on cost</strong> has also been proposed where the data centre service provider in India is a related entity.</span></span></p>
+
+<p style="margin-left:0in; margin-right:0in; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The long-term policy framework for data centres up to 2047 positions India among the leading global destinations for AI and cloud infrastructure, the Minister said.</span></span></p>
+
+<p style="margin-left:0in; margin-right:0in; text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img src="https://static.pib.gov.in/WriteReadData/userfiles/image/image002BLHM.jpg" style="height:430px; width:601px" /></span></span></p>
+
+<h3 style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:black">India Semiconductor Mission (ISM) 2.0</span></strong></span></span></h3>
+
+<p style="margin-left:0in; margin-right:0in; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Shri Ashwini Vaishnaw said that the Budget has announced the launch of <strong>India Semiconductor Mission (ISM) 2.0</strong>, building upon the strong foundation created under ISM 1.0, which established a completely new and foundational semiconductor industry in India.</span></span></p>
+
+<p style="margin-left:0in; margin-right:0in; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">ISM 2.0 will focus on <strong>designing and manufacturing semiconductor equipment in India</strong>, manufacturing of <strong>materials used in semiconductor production</strong>, creation of a <strong>large design ecosystem</strong>, and further strengthening of talent development initiatives. A provision of <strong>Rs. 1,000 crore</strong> has been made for ISM 2.0 for FY 2026-27.</span></span></p>
+
+<h3 style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:black">Electronics Components Manufacturing Scheme (ECMS)</span></strong></span></span></h3>
+
+<p style="margin-left:0in; margin-right:0in; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The Union Minister said that the <strong>allocation for the Electronics Components Manufacturing Scheme (ECMS)</strong> has been increased from about <strong>Rs. 22,000 crore to Rs. 40,000 crore</strong> in the Budget 2026-27. He highlighted the strong industry response to the scheme, which has received <strong>149 applications</strong>, significantly higher than the expected 50 to 55 applications. The enhanced allocation will help maintain the momentum generated by the scheme.</span></span></p>
+
+<h3 style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:black">IT Services Simplification and Safe Harbour Provisions</span></strong></span></span></h3>
+
+<p style="margin-left:0in; margin-right:0in; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Shri Ashwini Vaishnaw said that IT services remain India&rsquo;s largest exported service sector, with exports exceeding <strong>USD 220 billion</strong>. To provide tax certainty and support industry growth, the Budget proposes new <strong>safe harbour provisions for IT and IT-enabled services</strong> with higher thresholds and competitive margins.</span></span></p>
+
+<p style="margin-left:0in; margin-right:0in; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">All IT services, including software development services, IT-enabled services, knowledge process outsourcing and contract R&amp;D services, have been proposed to be grouped under a single category of <em>Information Technology Services</em>, with a common safe harbour margin of <strong>15.5 percent</strong>. The threshold for availing safe harbour has been proposed to be increased substantially from <strong>Rs. 300 crore to Rs. 2,000 crore</strong>, with approvals through an automated, rule-based process.</span></span></p>
+
+<p style="margin-left:0in; margin-right:0in; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The Budget also proposes fast-tracking the <strong>Unilateral Advance Pricing Agreement (APA)</strong> process for IT services and extending the facility of modified returns to associated entities entering into APA.</span></span></p>
+
+<p style="margin-left:0in; margin-right:0in; text-align:center"><strong><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">****</span></span></strong></p>
+
+<p style="margin-left:0in; margin-right:0in; text-align:justify"><strong><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">MSZ</span></span></strong></p>
+
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 100; text-align: left; font-size: 16px;">
+                            (Release ID: 2221894)
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="font-weight: 200; text-align: center; font-size: 24px;"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="clearfix">
+        </div>
+
+        <div class="section1">
+            <div id="frst_t">
+                <div id="arr_rm"><div class='sticky-social_mb'><ul class='social_mb'><a href='http://www.facebook.com/share.php?u=https://pib.gov.in/PressReleasePage.aspx?PRID=2221894' target='_blank'><li class='fb_b'   ></li></a><a href='https://twitter.com/intent/tweet?url=https://pib.gov.in/PressReleasePage.aspx?PRID=2221894&text=Budget 2026-27 lays strong foundation for AI Data Centres and Semiconductor Ecosystem' target='_blank'><li class='twitter_r'  > </li></a><a href='https://api.whatsapp.com/send?text=https://pib.gov.in/PressReleasePage.aspx?PRID=2221894' target='_blank'><li class='whatsapp_r'  ></li></a><a href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=&su=Budget 2026-27 lays strong foundation for AI Data Centres and Semiconductor Ecosystem&body=https://pib.gov.in/PressReleasePage.aspx?PRID=2221894&ui=2&tf=1&pli=1' title='Share by Email' target='_blank'><li class='fa-envelope_r' ></li></a><a href='https://www.linkedin.com/shareArticle?mini=true&url=https://pib.gov.in/PressReleasePage.aspx?PRID=2221894&title=Budget 2026-27 lays strong foundation for AI Data Centres and Semiconductor Ecosystem&summary=My%20favorite%20developer%20program&source=LinkedIn' target='_blank'><li class='fa-linkedin_r'  ></li></a></ul></div></div>
+            </div>
+            <div id="second_t">
+                <div id="sndr_rm"><div class='sticky-social'><ul class='social'><a href='http://www.facebook.com/share.php?u=https://pib.gov.in/PressReleasePage.aspx?PRID=2221894' target='_blank'><li class='fb_b'   ></li></a><a href='https://twitter.com/intent/tweet?url=https://pib.gov.in/PressReleasePage.aspx?PRID=2221894&text=Budget 2026-27 lays strong foundation for AI Data Centres and Semiconductor Ecosystem' target='_blank'><li class='twitter_r'  > </li></a><a href='https://api.whatsapp.com/send?text=https://pib.gov.in/PressReleasePage.aspx?PRID=2221894' target='_blank'><li class='whatsapp_r'  ></li></a><a href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=&su=Budget 2026-27 lays strong foundation for AI Data Centres and Semiconductor Ecosystem&body=https://pib.gov.in/PressReleasePage.aspx?PRID=2221894&ui=2&tf=1&pli=1' title='Share by Email' target='_blank'><li class='fa-envelope_r' ></li></a><a href='https://www.linkedin.com/shareArticle?mini=true&url=https://pib.gov.in/PressReleasePage.aspx?PRID=2221894&title=Budget 2026-27 lays strong foundation for AI Data Centres and Semiconductor Ecosystem&summary=My%20favorite%20developer%20program&source=LinkedIn' target='_blank'><li class='fa-linkedin_r'  ></li></a></ul></div></div>
+            </div>
+        </div>
+        <input type="hidden" name="ltrTitlee" id="ltrTitlee" value="Budget 2026-27 lays strong foundation for AI Data Centres and Semiconductor Ecosystem" />
+        <input type="hidden" name="ltrSubtitlee" id="ltrSubtitlee" value="&lt;br/>Tax Holiday till 2047 to boost Global Cloud and AI Data Centre Investments in India&lt;br/>&lt;br/>Electronics Components Manufacturing Scheme response exceeded expectations, momentum strengthened in Budget 2026-27: Shri Ashwini Vaishnaw&lt;br/>&lt;br/>Semiconductor Mission 2.0 to deepen domestic manufacturing, design and talent ecosystem" />
+        <input type="hidden" name="ltrDescriptionn" id="ltrDescriptionn" value="&lt;p style=&quot;margin-left:0in; margin-right:0in; text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>Union Finance Minister Smt. Nirmala Sitharaman today presented the Union Budget for the Financial Year (FY) 2026-27. The Budget includes several key measures aimed at accelerating growth in the Electronics, Information Technology and Artificial Intelligence ecosystem, the Union Minister for Electronics and Information Technology, Railways and Information &amp;amp; Broadcasting, Shri Ashwini Vaishnaw, said while addressing the media.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;margin-left:0in; margin-right:0in; text-align:center&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;img src=&quot;https://static.pib.gov.in/WriteReadData/userfiles/image/image0015L0G.jpg&quot; style=&quot;height:501px; width:601px&quot; />&lt;/span>&lt;/span>&lt;/p>
+
+&lt;h3 style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;strong>&lt;span style=&quot;color:black&quot;>AI Data Centres and Tax Incentives till 2047&lt;/span>&lt;/strong>&lt;/span>&lt;/span>&lt;/h3>
+
+&lt;p style=&quot;margin-left:0in; margin-right:0in; text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>Highlighting the focus on digital infrastructure, Shri Ashwini Vaishnaw said that data centres, particularly &lt;strong>AI data centres&lt;/strong>, play a critical role in the infrastructure layer of the AI architecture. He noted that investments of around &lt;strong>USD 70 billion&lt;/strong> are already underway in India, with announcements of investments of around &lt;strong>USD 90 billion&lt;/strong>.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;margin-left:0in; margin-right:0in; text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>To further encourage long-term investments, Budget 2026-27 has proposed a &lt;strong>tax holiday till 2047&lt;/strong> for foreign companies providing cloud services to customers globally using data centre services from India. Such companies will provide services to Indian customers through an Indian reseller entity. A &lt;strong>safe harbour of 15 percent on cost&lt;/strong> has also been proposed where the data centre service provider in India is a related entity.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;margin-left:0in; margin-right:0in; text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>The long-term policy framework for data centres up to 2047 positions India among the leading global destinations for AI and cloud infrastructure, the Minister said.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;margin-left:0in; margin-right:0in; text-align:center&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;img src=&quot;https://static.pib.gov.in/WriteReadData/userfiles/image/image002BLHM.jpg&quot; style=&quot;height:430px; width:601px&quot; />&lt;/span>&lt;/span>&lt;/p>
+
+&lt;h3 style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;strong>&lt;span style=&quot;color:black&quot;>India Semiconductor Mission (ISM) 2.0&lt;/span>&lt;/strong>&lt;/span>&lt;/span>&lt;/h3>
+
+&lt;p style=&quot;margin-left:0in; margin-right:0in; text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>Shri Ashwini Vaishnaw said that the Budget has announced the launch of &lt;strong>India Semiconductor Mission (ISM) 2.0&lt;/strong>, building upon the strong foundation created under ISM 1.0, which established a completely new and foundational semiconductor industry in India.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;margin-left:0in; margin-right:0in; text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>ISM 2.0 will focus on &lt;strong>designing and manufacturing semiconductor equipment in India&lt;/strong>, manufacturing of &lt;strong>materials used in semiconductor production&lt;/strong>, creation of a &lt;strong>large design ecosystem&lt;/strong>, and further strengthening of talent development initiatives. A provision of &lt;strong>Rs. 1,000 crore&lt;/strong> has been made for ISM 2.0 for FY 2026-27.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;h3 style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;strong>&lt;span style=&quot;color:black&quot;>Electronics Components Manufacturing Scheme (ECMS)&lt;/span>&lt;/strong>&lt;/span>&lt;/span>&lt;/h3>
+
+&lt;p style=&quot;margin-left:0in; margin-right:0in; text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>The Union Minister said that the &lt;strong>allocation for the Electronics Components Manufacturing Scheme (ECMS)&lt;/strong> has been increased from about &lt;strong>Rs. 22,000 crore to Rs. 40,000 crore&lt;/strong> in the Budget 2026-27. He highlighted the strong industry response to the scheme, which has received &lt;strong>149 applications&lt;/strong>, significantly higher than the expected 50 to 55 applications. The enhanced allocation will help maintain the momentum generated by the scheme.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;h3 style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;strong>&lt;span style=&quot;color:black&quot;>IT Services Simplification and Safe Harbour Provisions&lt;/span>&lt;/strong>&lt;/span>&lt;/span>&lt;/h3>
+
+&lt;p style=&quot;margin-left:0in; margin-right:0in; text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>Shri Ashwini Vaishnaw said that IT services remain India&amp;rsquo;s largest exported service sector, with exports exceeding &lt;strong>USD 220 billion&lt;/strong>. To provide tax certainty and support industry growth, the Budget proposes new &lt;strong>safe harbour provisions for IT and IT-enabled services&lt;/strong> with higher thresholds and competitive margins.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;margin-left:0in; margin-right:0in; text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>All IT services, including software development services, IT-enabled services, knowledge process outsourcing and contract R&amp;amp;D services, have been proposed to be grouped under a single category of &lt;em>Information Technology Services&lt;/em>, with a common safe harbour margin of &lt;strong>15.5 percent&lt;/strong>. The threshold for availing safe harbour has been proposed to be increased substantially from &lt;strong>Rs. 300 crore to Rs. 2,000 crore&lt;/strong>, with approvals through an automated, rule-based process.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;margin-left:0in; margin-right:0in; text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>The Budget also proposes fast-tracking the &lt;strong>Unilateral Advance Pricing Agreement (APA)&lt;/strong> process for IT services and extending the facility of modified returns to associated entities entering into APA.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;margin-left:0in; margin-right:0in; text-align:center&quot;>&lt;strong>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>****&lt;/span>&lt;/span>&lt;/strong>&lt;/p>
+
+&lt;p style=&quot;margin-left:0in; margin-right:0in; text-align:justify&quot;>&lt;strong>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>MSZ&lt;/span>&lt;/span>&lt;/strong>&lt;/p>
+" />
+        <script type="text/javascript">
+                  var mPlayer = document.getElementById("background_music");
+                  var mPlayAction = document.getElementById("playbutton");
+                  var isPlaying = false;
+
+                  function playAudio() {
+                        mPlayer.play();
+                        isPlaying = true;
+                        document.getElementById('stopA').style.display = "block";
+                        document.getElementById('playA').style.display = "none";
+                  }
+
+                  function pauseAudio() {
+                        mPlayer.pause();
+                        isPlaying = false;
+                        document.getElementById('playA').style.display = "block";
+                        document.getElementById('stopA').style.display = "none";
+                  }
+        </script>
+        <script type="text/javascript">
+                  var synth = window.speechSynthesis;
+
+                  function CleanHtml(html) {
+                        html = html.replace(/<script[\s\S]*?<\/script>/gi, '');
+                        return html;
+                  }
+                  function stripHtml(html) {
+                        let tmp = document.createElement("DIV");
+                        tmp.innerHTML = CleanHtml(html);
+                        return tmp.textContent || tmp.innerText || "";
+                  }
+        </script>
+        <script type="text/javascript">
+                  $(document).ready(function () {
+                        $("table").each(function () {
+                              if (!$(this).closest(".table-responsive").length) {
+                                    $(this).wrap("<div class='table-responsive'></div>");
+                              }
+                        });
+
+                        var width = $(window).width();
+                        if (width < 768) {
+                              document.getElementById('frst_t').style.display = "block";
+                              document.getElementById('second_t').style.display = "none";
+                        } else if (width < 991) {
+                              document.getElementById('frst_t').style.display = "block";
+                              document.getElementById('second_t').style.display = "none";
+                        } else if (width < 1199) {
+                              document.getElementById('frst_t').style.display = "none";
+                              document.getElementById('second_t').style.display = "block";
+                        } else {
+                              document.getElementById('frst_t').style.display = "none";
+                              document.getElementById('second_t').style.display = "block";
+                        }
+                  });
+        </script>
+        <style type="text/css">
+            @media print {
+                .sticky-social, .sticky-social_mb, .pull-right, #printPDF {
+                    display: none !important;
+                }
+            }
+
+            .f_vl {
+                padding-right: 30px;
+                font-size: 17px;
+                cursor: pointer;
+            }
+
+            .log_oo {
+                display: flex;
+                justify-content: space-between;
+            }
+
+                .log_oo img {
+                    width: 150px;
+                }
+
+            .sticky-social_mb {
+                position: fixed;
+                bottom: 0px;
+                padding: 0px;
+                margin: 0px;
+                width: 100%;
+            }
+
+            .social_mb {
+                list-style: none;
+                display: flex;
+                width: 100%;
+                margin-bottom: -8px;
+            }
+
+                .social_mb a {
+                    padding: 8px 0px;
+                    font-size: 30px;
+                    transition: all 0.8s ease-in-out;
+                    width: 20% !important;
+                    text-align: center;
+                }
+        </style>
+        <style type="text/css">
+            .section1 {
+                position: relative;
+                padding: 10px 0px;
+                width: 100%;
+            }
+
+            .sticky-social {
+                position: fixed;
+                top: 20px;
+                left: 0px;
+                padding: 0px;
+                margin: 0px;
+            }
+
+            .social {
+                list-style: none;
+            }
+
+                .social a li {
+                    padding: 8px 12px;
+                    font-size: 25px;
+                    transition: all 0.8s ease-in-out;
+                }
+
+                    .social a li:hover {
+                        margin-right: -30px;
+                        box-shadow: 2px 5px 10px grey;
+                    }
+
+                        .social a li:hover .fa {
+                            margin-left: 20px;
+                        }
+
+            .fb_b {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .twitter_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .whatsapp_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .fa-envelope_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .fa-linkedin_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+        </style>
+        <style type="text/css">
+            @media only screen and (max-device-width: 767px) {
+                p span img {
+                    max-width: 90% !important;
+                    height: auto !important;
+                }
+
+                p img {
+                    max-width: 90% !important;
+                    height: auto !important;
+                }
+
+                h2 {
+                    font-size: var(--dbim-h2, 20px);
+                    font-weight: 600 !important;
+                }
+
+                h3 {
+                    font-size: var(--dbim-h3, 16px);
+                    font-weight: 600 !important;
+                }
+            }
+        </style>
+        <style type="text/css">
+            .film-roll-badge {
+                position: absolute;
+                top: 82%;
+                right: 20px;
+                width: 230px;
+                height: 70px;
+                background: repeating-linear-gradient( to right, var(--dbim-green-key, #0F5757) 0px, var(--dbim-green-key, #0F5757) 18px, var(--dbim-text, #150202) 18px, var(--dbim-text, #150202) 36px );
+                border-top: 8px solid var(--dbim-green-key, #0F5757);
+                border-bottom: 8px solid var(--dbim-green-key, #0F5757);
+                border-radius: 8px;
+                overflow: hidden;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+                animation: moveFilm 8s linear infinite;
+                z-index: 10;
+            }
+
+                .film-roll-badge::before,
+                .film-roll-badge::after {
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 10px;
+                    background: repeating-linear-gradient( to right, var(--dbim-green-key, #0F5757) 0px, var(--dbim-green-key, #0F5757) 10px, #fff 10px, #fff 20px );
+                    left: 0;
+                    z-index: 2;
+                }
+
+                .film-roll-badge::before {
+                    top: -4px;
+                }
+
+                .film-roll-badge::after {
+                    bottom: -4px;
+                }
+
+            .film-roll-inner {
+                position: relative;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                animation: flicker 2s infinite ease-in-out;
+            }
+
+            .countdown-text {
+                font-size: 1.3rem;
+                font-weight: 700;
+                color: #fff;
+                text-shadow: 0 0 6px rgba(255, 255, 255, 0.4), 0 0 10px #000;
+                white-space: nowrap;
+            }
+
+            @keyframes moveFilm {
+                0% {
+                    background-position: 0 0;
+                }
+
+                100% {
+                    background-position: 120px 0;
+                }
+            }
+
+            @keyframes flicker {
+                0%, 100% {
+                    opacity: 1;
+                }
+
+                50% {
+                    opacity: 0.9;
+                }
+
+                25% {
+                    opacity: 0.95;
+                }
+
+                75% {
+                    opacity: 0.85;
+                }
+            }
+
+            @media (max-width: 1500px) {
+                .film-roll-badge {
+                    top: 68%;
+                    right: 18px;
+                    height: 65px;
+                    font-size: 0.85rem;
+                }
+
+                .press-section {
+                    margin-top: 35px;
+                }
+            }
+
+            @media (max-width: 992px) {
+                .film-roll-badge {
+                    top: 52%;
+                    right: 10px;
+                    width: 200px;
+                    height: 60px;
+                }
+            }
+
+            @media (max-width: 768px) {
+                .film-roll-badge {
+                    top: 56%;
+                    right: 10px;
+                    width: 124px;
+                    height: 55px;
+                }
+
+                .countdown-text {
+                    font-size: 0.9rem;
+                }
+            }
+
+            @media (max-width: 576px) {
+                .film-roll-badge {
+                    top: 59%;
+                    right: 5px;
+                    height: 50px;
+                }
+
+                .countdown-text {
+                    font-size: 0.85rem;
+                }
+            }
+        </style>
+        <script type="text/javascript">
+                  const festivalStart = new Date("2025-11-20T00:00:00").getTime();
+                  const festivalEnd = new Date("2025-11-28T23:59:59").getTime();
+                  const countdownElement = document.getElementById("countdown");
+
+                  if (countdownElement) {
+                        const interval = setInterval(() => {
+                              const now = new Date().getTime();
+
+                              if (now < festivalStart) {
+                                    const diff = festivalStart - now;
+                                    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                                    const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+
+                                    countdownElement.innerHTML = `${days} Day${days !== 1 ? 's' : ''} ${hours} Hour${hours !== 1 ? 's' : ''} to go`;
+                              } else if (now >= festivalStart && now <= festivalEnd) {
+                                    const dayNumber = Math.floor((now - festivalStart) / (1000 * 60 * 60 * 24)) + 1;
+                                    countdownElement.innerHTML = `56th IFFI - Day ${dayNumber}`;
+                              } else {
+                                    countdownElement.innerHTML = `✨ IFFI closes but never ends…`;
+                                    const elements = document.querySelectorAll('.film-roll-badge');
+                                    elements.forEach(el => el.style.width = "350px");
+                                    clearInterval(interval);
+                              }
+                        }, 1000);
+                  }
+        </script>
+        <script type="text/javascript">
+                  const miffStart = new Date("2026-06-15T00:00:00").getTime();
+                  const miffEnd = new Date("2026-06-15T23:59:59").getTime();
+                  const miffElement = document.getElementById("miff");
+
+                  if (miffElement) {
+                        const miffInterval = setInterval(() => {
+                              const now = new Date().getTime();
+
+                              if (now < miffStart) {
+                                    const diff = miffStart - now;
+                                    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                                    miffElement.innerHTML = `${days} Day${days === 1 ? '' : 's'} to MIFF ...`;
+                              } else if (now >= miffStart && now <= miffEnd) {
+                                    const dayNumber = Math.floor((now - miffStart) / (1000 * 60 * 60 * 24)) + 1;
+                                    miffElement.innerHTML = `19th MIFF - Day ${dayNumber}`;
+                              } else {
+                                    miffElement.innerHTML = `✨ MIFF concludes, cinema lives on...`;
+                                    document.querySelectorAll('.film-roll-badge').forEach(el => el.style.width = "350px");
+                                    clearInterval(miffInterval);
+                              }
+                        }, 1000);
+                  }
+        </script>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("sc_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.ModalPopupBehavior, {"BackgroundCssClass":"modalBackground","PopupControlID":"P_CategoryManagement","dynamicServicePath":"/PressReleasePage.aspx","id":"mpe"}, null, null, $get("Hidden"));
+});
+//]]>
+</script>
+<input type="hidden" name="__ncforminfo" value="Pa-GyU9kgns2YfPiUBI_ElI2psYZJsAsllnuocfVchjcDFpr6HQZf6V9wHo-GcKldNaDui7SaTm8d3M4fX7O_fe7xMvt8yEydbXhnkXy0fQQeEGkNngaZA=="/></form>
+    
+
+<script type="application/json" id="pibConsentConfig">{"ga4Id":"G-Q414Y0X6EE,G-QJJ6LZ8LHV","policyUrl":"/CookiePolicy.aspx","text":{"bannerLabel":"Cookie consent","title":"Cookies on this website","body":"We use essential cookies to make this website work. We also set analytics cookies when you arrive, so we can see how the site is used and improve it - you can switch these off below or at any time from the Cookie Policy page. Cookies from embedded social media content are set only if you allow them.","policyLink":"Read our Cookie Policy","accept":"Accept all","reject":"Reject optional","customize":"Customise","prefsTitle":"Cookie preferences","prefsIntro":"Choose which cookies this website may set. Essential cookies cannot be switched off because the site does not work without them. Analytics cookies are on unless you turn them off. Social media cookies stay off until you allow them. You can change these choices at any time from the Cookie Policy page.","essentialName":"Essential cookies","essentialDesc":"Needed for the site to function. These remember your session, your language and region, your text size and colour theme, and verify the security check on forms. They are always on.","analyticsName":"Analytics cookies","analyticsDesc":"Help us understand how visitors use the site - which pages are read and how long people stay - so it can be improved. The information is collected in a form that does not directly identify you. These are on when you arrive; switching them off here stops them and deletes the ones already set.","socialName":"Social media cookies","socialDesc":"Set by content embedded from X, Facebook and YouTube, such as timelines and videos. These platforms may use them to track you across websites. They stay off until you allow them.","save":"Save preferences","cancel":"Cancel"}}</script>
+<script type="text/javascript" src='/js/consent.js?v=10'></script>
+
+<script type="text/javascript" src='/js/consent-embeds.js?v=10'></script>
+
+
+    <!-- Minimal O(N) Time and O(1) Auxiliary Space Word Count & Read Time Calculation -->
+    <script type="text/javascript">
+            (function () {
+                  function calculateReadingStats() {
+                        var bodyEl = document.getElementById("pibReleaseBody");
+                        if (!bodyEl) return;
+
+                        // textContent extracts text without triggering expensive layout/reflow computations
+                        var text = bodyEl.textContent || "";
+                        var words = 0;
+                        var inWord = false;
+
+                        // O(N) single pass character code scan: achieves O(1) space with zero array allocations
+                        for (var i = 0, len = text.length; i < len; i++) {
+                              var code = text.charCodeAt(i);
+                              // Delimits on ASCII whitespace, control characters, tabs, newlines, and non-breaking spaces (160)
+                              if (code <= 32 || code === 160) {
+                                    inWord = false;
+                              } else if (!inWord) {
+                                    inWord = true;
+                                    words++;
+                              }
+                        }
+
+                        // Standard 250 WPM reading speed (e.g., 612 words yields 2 min read)
+                        var minutes = Math.max(1, Math.round(words / 250));
+
+                        var elWords = document.getElementById("prWordCount");
+                        var elTime = document.getElementById("prReadTime");
+
+                        if (elWords) elWords.textContent = words + (words === 1 ? " word" : " words");
+                        if (elTime) elTime.textContent = minutes + " min read";
+                  }
+
+                  if (document.readyState === "loading") {
+                        document.addEventListener("DOMContentLoaded", calculateReadingStats);
+                  } else {
+                        calculateReadingStats();
+                  }
+            })();
+    </script>
+
+    <script type="text/javascript">
+            (function () {
+                  try {
+                        if (window.self === window.top) { return; }
+                  } catch (e) { return; }
+                  var s = document.createElement("style");
+                  s.textContent = ".sticky-social, .sticky-social_mb { display: none !important; }";
+                  (document.head || document.documentElement).appendChild(s);
+            }());
+    </script>
+</body>
+</html>

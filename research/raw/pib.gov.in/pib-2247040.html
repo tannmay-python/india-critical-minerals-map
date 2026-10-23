@@ -1,0 +1,1287 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head id="Head1"><title>
+	Press Release Page | Press Information Bureau
+</title><link href="css/style.css?v=1" rel="stylesheet" type="text/css" /><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="alternate stylesheet" href="css/change.css?v=1" media="screen" title="change" /><link rel="alternate stylesheet" href="css/green.css?v=1" media="screen" title="green" /><link rel="alternate stylesheet" href="css/yellow.css" media="screen" title="yellow" /><link rel="stylesheet" type="text/css" href="css/prtint.css" media="print" /><link rel="stylesheet" href="css/style3.1.css" type="text/css" /><link id="pibA11yCss" rel="stylesheet" href="/css/accessibility.css?v=7" type="text/css" />
+    <script type="text/javascript">
+        (function (d) {
+            var t = "";
+            try {
+                t = window.localStorage.getItem("pibStyle") || "";
+            } catch (e) {
+                t = "";
+            }
+            if (t === "orange") {
+                t = "yellow";
+            }
+            var c = t === "change" ? " pib-hc"
+                : t === "green" ? " pib-theme-green"
+                : t === "yellow" ? " pib-theme-yellow" : "";
+            d.documentElement.className += c + " pib-a11y-content";
+        }(document));
+    </script>
+
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/js/accessibility.js?v=7"></script>
+
+    <script type="text/javascript">
+            $(document).ready(function () {
+                  function getParameterByName(name) {
+                        var url = window.location.href;
+                        name = name.replace(/[\[\]]/g, '\\$&');
+                        var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+                              results = regex.exec(url);
+                        if (!results) return null;
+                        if (!results[2]) return '';
+                        return decodeURIComponent(results[2].replace(/\+/g, ' '));
+                  }
+                  let prid = parseInt(getParameterByName('PRID'), 10);
+
+                  if (!isNaN(prid) && prid > 0) {
+                        $.ajax({
+                              type: "POST",
+                              url: "AjaxMethod.aspx/UpdatePRHitCount",
+                              async: false,
+                              data: JSON.stringify({ 'PermId': prid }),
+                              contentType: "application/json; charset=utf-8",
+                              dataType: "json",
+                              success: function (response) {
+                                    console.log(response);
+                              },
+                              error: function (error) {
+                                    console.log("Error in AJAX request", error);
+                              }
+                        });
+                  } else {
+                        console.log("Invalid parameters:", prid);
+                  }
+            });
+    </script>
+    <style type="text/css">
+        .table-responsive {
+            width: 100%;
+            overflow-x: auto;
+        }
+
+        .banner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+        }
+
+        full-width {
+            width: 100%;
+        }
+
+        .logo-left, .logo-center, .countdown {
+            display: flex;
+            align-items: center;
+        }
+
+            .logo-left img, .logo-center img {
+                height: 70px;
+            }
+
+        .countdown {
+            text-align: center;
+            background-color: var(--dbim-text, #150202);
+            border-radius: 10px;
+            padding: 10px;
+            border: 2px solid grey;
+        }
+
+        .firstnumber {
+            color: #000000;
+            position: absolute;
+            top: 50px;
+            right: 90px;
+            font-size: 30px;
+        }
+
+        .secondnumber {
+            position: absolute;
+            color: #000000;
+            right: 45px;
+            top: 50px;
+            font-size: 30px;
+        }
+
+        .countdown .days {
+            font-size: 35px;
+            color: gold;
+        }
+
+        .countdown p {
+            margin: 0;
+        }
+
+        .countdown .text {
+            font-size: 16px;
+        }
+
+        a {
+            word-break: break-all;
+        }
+
+        iframe, img {
+            max-width: 100%;
+        }
+
+        /* === DBIM 3.0 Option 4 Separator Line & Reading Meta Styling === */
+        .pr-share--footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+            border-top: 1px solid var(--dbim-border, #d1d5db);
+            padding-top: 16px;
+            margin-top: 24px;
+        }
+
+        .pr-share__left {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .pr-reading-meta {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 0.95rem;
+            color: var(--dbim-text-secondary, #475569);
+            font-weight: 500;
+            white-space: nowrap;
+            margin-left: auto;
+        }
+
+        .pr-reading-meta__item {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .pr-reading-meta__divider {
+            color: var(--dbim-border, #cbd5e1);
+            font-weight: 300;
+        }
+
+        .pib-hc .pr-reading-meta,
+        .pib-hc .pr-reading-meta svg {
+            color: currentColor !important;
+        }
+
+        @media (max-width: 680px) {
+            .pr-share--footer {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .pr-reading-meta {
+                margin-left: 0;
+                width: 100%;
+                justify-content: flex-start;
+            }
+        }
+
+        @media(max-width:1199px) {
+            .firstnumber {
+                top: 40px;
+                right: 72px;
+                font-size: 30px;
+            }
+
+            .secondnumber {
+                right: 35px;
+                top: 40px;
+                font-size: 30px;
+            }
+        }
+
+        @media(max-width:990px) {
+            .firstnumber {
+                top: 25px;
+                right: 54px;
+                font-size: 30px;
+            }
+
+            .secondnumber {
+                right: 25px;
+                top: 25px;
+                font-size: 30px;
+            }
+        }
+
+        @media(max-width:768px) {
+            .countdown, .days {
+                font-size: 12px !important;
+            }
+
+            .firstnumber {
+                top: 25%;
+                right: 8%;
+                font-size: 30px;
+            }
+
+            .secondnumber {
+                right: 4.5%;
+                top: 25%;
+                font-size: 30px;
+            }
+        }
+
+        @media(max-width:475px) {
+            .countdown, .days {
+                font-size: 10px !important;
+                top: 20%;
+            }
+
+            .bannerimgdiv {
+                padding: 0 !important;
+            }
+
+            .bannerimg {
+                width: 108% !important;
+            }
+        }
+    </style>
+    <script type="text/javascript">
+            $(function () {
+                  $("[id*=printPDF]").click(function () {
+                        $("[id*=hfGridHtml]").val($("#PdfDiv").html());
+                  });
+            });
+            $(function () {
+                  $("[id*=printPDFEvent]").click(function () {
+                        $("[id*=hfGridHtml]").val($("#PdfDiv").html());
+                  });
+            });
+    </script>
+
+    <link id="pibConsentCss" href="/css/consent.css?v=8" rel="stylesheet" type="text/css" /><link id="pibFontsCss" href="/css/fonts-noto.css?v=6" rel="stylesheet" type="text/css" /><link id="pibDbimCss" href="/css/dbim.css?v=1120" rel="stylesheet" type="text/css" /><meta property="og:title" content="Government approves 29 more proposals under the Electronics Component Manufacturing Scheme (ECMS)" /><meta property="og:url" content="www.pib.gov.in/Pressreleaseshare.aspx?PRID=2247040" /><meta property="og:description" content="In continuation to the approvals of 46 applications for Rs 54,567 crore announced earlier, Ministry " /><meta property="og:image" content="https:/pib.gov.in/images/indian-emblem.png" />
+                                <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="C4E7H-KSCMC-422L4-W3EM5-U36MF",function(){function e(){if(!i){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,o.parentNode.appendChild(e),i=!0}}function t(e){i=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(o.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",o.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"C4E7H-KSCMC-422L4-W3EM5-U36MF";var o=document.currentScript||document.getElementsByTagName("script")[0],i=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!i)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),o.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="eqausagjcb5rwjqacqh5aaaaabvnuw7u-f-0a4d57e9b-clienttons-s.akamaihd.net",o="false"=="true"?2:1,i={"ak.v":"41","ak.cp":"1825201","ak.ai":parseInt("1215205",10),"ak.ol":"0","ak.cr":38,"ak.ipv":6,"ak.proto":"h2","ak.rid":"2a8d8069","ak.r":32706,"ak.a2":n,"ak.m":"dscb","ak.n":"ff","ak.cport":58597,"ak.gh":"23.201.55.159","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"","ak.t":"1792695284","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==/C3nN9dFNpTiRY7519oJj0NzFqxf587B0sQBQ/rX8HrXCZm+ThR1HmRIJbacRUJjkmhHzWRxM4REIh/dIFBiiMPWGzDvj/n6xhd4KKWGPvErbr7X57afqHbB9m4EPuy2psDl02Xa8pHSZxxmzrZpFAgaufsHWRHa4F807Ffl+Ds3pI1vrFrE1WzdiEAXfX22Ot2Kt1Hgr3q1aslLbVqwxM2morKXpzKm9DiJ27Doro/zqpVgbqw+SfK7E2cq7hEBi2iMttrBwN89/hMh+qBmqiqhLpNYWHMs6ZooUzxO1Y8fSLQm9PLVTmD4t+fz5/3J7Z6igxtVosUnGGq1SihasUPhExu44q3LYCTgF4RhVZG+eAnQqinF5q4BRmtDyLW8NipJPeb7Pdp4j+ijbD+cyQ1UZtDL8k5NMXzODtuHpgI=","ak.pv":"9","ak.dpoabenc":"","ak.tf":o};if(""!==t)i["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))i["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var e=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+<body>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
+     style="position:absolute;width:0;height:0;overflow:hidden" id="dbim-icon-sprite">
+    <defs>
+        <symbol id="icon-angle-double-left" viewBox="0 0 24 24"><path d="M11.6 4.6 4.2 12l7.4 7.4 2.2-2.2L8.6 12l5.2-5.2z"/><path d="M19 4.6 11.6 12 19 19.4l2.2-2.2L16 12l5.2-5.2z"/></symbol>
+        <symbol id="icon-angle-double-right" viewBox="0 0 24 24"><path d="M12.4 4.6 10.2 6.8 15.4 12l-5.2 5.2 2.2 2.2L19.8 12z"/><path d="M5 4.6 2.8 6.8 8 12l-5.2 5.2L5 19.4 12.4 12z"/></symbol>
+        <symbol id="icon-arrow-left" viewBox="0 0 24 24"><path d="M20.8 10.6H9.6v2.8h11.2z"/><path d="M10.8 5.6 3.2 12l7.6 6.4z"/></symbol>
+        <symbol id="icon-arrow-right" viewBox="0 0 24 24"><path d="M3.2 10.6h11.2v2.8H3.2z"/><path d="M13.2 5.6 20.8 12l-7.6 6.4z"/></symbol>
+        <symbol id="icon-blogger" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M6.4 2.4h11.2a4 4 0 0 1 4 4v11.2a4 4 0 0 1-4 4H6.4a4 4 0 0 1-4-4V6.4a4 4 0 0 1 4-4zm2.8 5.2a2 2 0 0 0 0 4h2.4a2 2 0 0 0 0-4zm0 5.6a2 2 0 0 0 0 4h5.6a2 2 0 0 0 0-4z"/></symbol>
+        <symbol id="icon-calendar" viewBox="0 0 24 24"><path d="M7.6 2.4H10v2.4H7.6z"/><path d="M14 2.4h2.4v2.4H14z"/><path fill-rule="evenodd" d="M4 4.8h16a1.6 1.6 0 0 1 1.6 1.6v13.2a1.6 1.6 0 0 1-1.6 1.6H4a1.6 1.6 0 0 1-1.6-1.6V6.4A1.6 1.6 0 0 1 4 4.8zm.4 5.6v8.4h15.2v-8.4z"/><path d="M6.4 12.4h3.2v3.2H6.4z"/></symbol>
+        <symbol id="icon-chevron-left" viewBox="0 0 24 24"><path d="M15.4 4.6 8 12l7.4 7.4 2.2-2.2L12.4 12l5.2-5.2z"/></symbol>
+        <symbol id="icon-chevron-right" viewBox="0 0 24 24"><path d="M8.6 4.6 6.4 6.8 11.6 12l-5.2 5.2 2.2 2.2L16 12z"/></symbol>
+        <symbol id="icon-circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/></symbol>
+        <symbol id="icon-download" viewBox="0 0 24 24"><path d="M10.8 3h2.4v7.6h3.4L12 16.6l-4.6-6h3.4z"/><path d="M4 17.2h2.4v2.4h11.2v-2.4H20v3.2a1.4 1.4 0 0 1-1.4 1.4H5.4A1.4 1.4 0 0 1 4 20.4z"/></symbol>
+        <symbol id="icon-facebook" viewBox="0 0 24 24"><path d="M13.6 21.6v-8.4h2.8l.42-3.3h-3.22V7.8c0-.95.27-1.6 1.64-1.6h1.74V3.26a23 23 0 0 0-2.54-.13c-2.5 0-4.22 1.53-4.22 4.34v2.43H7.4v3.3h2.82v8.4z"/></symbol>
+        <symbol id="icon-fact-check" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.4 3.6 5.6v6.2c0 4.6 3.4 8.6 8.4 9.8 5-1.2 8.4-5.2 8.4-9.8V5.6zm-1 13.2-3.6-3.6 1.7-1.7 1.9 1.9 4.5-4.5 1.7 1.7z"/></symbol>
+        <symbol id="icon-hashtag" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M8.8 3h2.4l-1 6h3.2l1-6h2.4l-1 6h3.4v2.4h-3.8l-.6 3.2h3.6V17h-4l-1 5h-2.4l1-5h-3.2l-1 5H5.4l1-5H3V14.6h3.8l.6-3.2H3.8V9h4zm.6 8.4-.6 3.2h3.2l.6-3.2z"/></symbol>
+        <symbol id="icon-home" viewBox="0 0 24 24"><path d="M12 3.4 2.8 11.6h2.4v8.4a1 1 0 0 0 1 1h3.3v-5.4h5v5.4h3.3a1 1 0 0 0 1-1v-8.4h2.4z"/></symbol>
+        <symbol id="icon-instagram" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M7.6 2.4h8.8a5.2 5.2 0 0 1 5.2 5.2v8.8a5.2 5.2 0 0 1-5.2 5.2H7.6a5.2 5.2 0 0 1-5.2-5.2V7.6a5.2 5.2 0 0 1 5.2-5.2zm0 2.4a2.8 2.8 0 0 0-2.8 2.8v8.8a2.8 2.8 0 0 0 2.8 2.8h8.8a2.8 2.8 0 0 0 2.8-2.8V7.6a2.8 2.8 0 0 0-2.8-2.8z"/><path fill-rule="evenodd" d="M12 6.8a5.2 5.2 0 1 0 0 10.4 5.2 5.2 0 0 0 0-10.4zm0 2.4a2.8 2.8 0 1 1 0 5.6 2.8 2.8 0 0 1 0-5.6z"/><circle cx="17.3" cy="6.7" r="1.3"/></symbol>
+        <symbol id="icon-linkedin" viewBox="0 0 24 24"><path d="M4.8 8.8h3.6v12H4.8z"/><circle cx="6.6" cy="5.4" r="2.1"/><path d="M10.8 8.8h3.45v1.65h.05c.48-.9 1.65-1.85 3.4-1.85 3.63 0 4.3 2.35 4.3 5.4v6.6h-3.6v-5.85c0-1.4-.03-3.2-1.95-3.2-1.95 0-2.25 1.52-2.25 3.1v5.95h-3.6z"/></symbol>
+        <symbol id="icon-mail" viewBox="0 0 24 24"><path d="M2.4 7.6v9.2a1.6 1.6 0 0 0 1.6 1.6h16a1.6 1.6 0 0 0 1.6-1.6V7.6L12 14z"/><path d="M21.2 5.4H2.8L12 11.8z"/></symbol>
+        <symbol id="icon-mail-open" viewBox="0 0 24 24"><path d="M2.4 9.8h19.2v9.6A1.6 1.6 0 0 1 20 21H4a1.6 1.6 0 0 1-1.6-1.6z"/><path d="M12 2.6 21.6 9.2h-3.8L12 5.3 6.2 9.2H2.4z"/><path d="m3.9 11.2 8.1 5.4 8.1-5.4 1.5 1.3-9.6 6.4-9.6-6.4z"/></symbol>
+        <symbol id="icon-map-marker" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.4a7 7 0 0 0-7 7c0 5.2 7 12.2 7 12.2s7-7 7-12.2a7 7 0 0 0-7-7zm0 9.6a2.6 2.6 0 1 1 0-5.2 2.6 2.6 0 0 1 0 5.2z"/></symbol>
+        <symbol id="icon-newspaper" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M2.8 4.4h14.8v15.2H2.8zm2 2v11.2h10.8V6.4z"/><path d="M6 7.6h8.4v1.6H6z"/><path d="M6 10.8h8.4v1.6H6z"/><path d="M6 14h5.2v1.6H6z"/><path d="M18.4 8.4h2.8v9.6a1.4 1.4 0 0 1-2.8 0z"/></symbol>
+        <symbol id="icon-pause" viewBox="0 0 24 24"><rect x="7.4" y="4" width="3.6" height="16" rx="0.9"/><rect x="13" y="4" width="3.6" height="16" rx="0.9"/></symbol>
+    <symbol id="icon-play" viewBox="0 0 24 24"><path d="M8 4.5v15l12-7.5z"/></symbol>
+        <symbol id="icon-picture" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M2.4 5.2h19.2v13.6H2.4zm2 2v9.6h15.2V7.2z"/><path d="M5.6 16.4 10 11l2.6 3 2-2.2 4 4.6z"/><circle cx="8" cy="10.4" r="1.5"/></symbol>
+        <symbol id="icon-press-conference" viewBox="0 0 24 24"><circle cx="12" cy="5.2" r="2.6"/><path d="M7.6 12.2a4.4 4.4 0 0 1 8.8 0z"/><circle cx="4.9" cy="9.6" r="2.2"/><path d="M1.8 15.2a3.1 3.1 0 0 1 6.2 0z"/><circle cx="19.1" cy="9.6" r="2.2"/><path d="M16 15.2a3.1 3.1 0 0 1 6.2 0z"/><path d="M6.6 13.6h10.8l2.2 7.8H4.4z"/></symbol>
+        <symbol id="icon-print" viewBox="0 0 24 24"><path d="M6.4 2.8h11.2v4.4H6.4z"/><path d="M4 8.4h16a1.6 1.6 0 0 1 1.6 1.6v5.6a1.6 1.6 0 0 1-1.6 1.6h-1.6v-2.8H6v2.8H4a1.6 1.6 0 0 1-1.6-1.6V10A1.6 1.6 0 0 1 4 8.4z"/><path d="M7.2 15.6h9.6v5.6H7.2z"/></symbol>
+        <symbol id="icon-rss" viewBox="0 0 24 24"><circle cx="4.8" cy="19.2" r="2.4"/><path d="M2.4 11.2v3.2a6.4 6.4 0 0 1 6.4 6.4H12A9.6 9.6 0 0 0 2.4 11.2z"/><path d="M2.4 4.8V8A13.6 13.6 0 0 1 16 21.6h3.2A16.8 16.8 0 0 0 2.4 4.8z"/></symbol>
+        <symbol id="icon-search-plus" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M10 2.8a7.2 7.2 0 1 0 0 14.4 7.2 7.2 0 0 0 0-14.4zm0 2.4a4.8 4.8 0 1 1 0 9.6 4.8 4.8 0 0 1 0-9.6z"/><path d="M15.3 14.6 21.2 20.5l-1.5 1.5-5.9-5.9z"/><path d="M9.2 6.8h1.6v2.4h2.4v1.6h-2.4v2.4H9.2v-2.4H6.8V9.2h2.4z"/></symbol>
+        <symbol id="icon-share" viewBox="0 0 24 24"><circle cx="18" cy="5.6" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="18.4" r="3"/><path d="M8.3 10.9 15.7 7.2l.9 1.8-7.4 3.7z"/><path d="M9.2 13.1 16.6 16.8l-.9 1.8-7.4-3.7z"/></symbol>
+        <symbol id="icon-twitter" viewBox="0 0 24 24"><path d="M4.2 3h4.3l11.3 18h-4.3z"/><path d="M19.3 3h-2.6L4.2 21h2.6z"/></symbol>
+        <symbol id="icon-university" viewBox="0 0 24 24"><path d="M12 2.4 21.6 7.2v1.6H2.4V7.2z"/><path d="M4.8 10.4h2.4v8H4.8z"/><path d="M9.2 10.4h2.4v8H9.2z"/><path d="M13.4 10.4h2.4v8h-2.4z"/><path d="M17.6 10.4H20v8h-2.4z"/><path d="M3.2 19.8h17.6v1.8H3.2z"/></symbol>
+        <symbol id="icon-volume-up" viewBox="0 0 24 24"><path d="M3.2 9.2h3.3l5-4.2v14l-5-4.2H3.2z"/><path d="M14.6 8.4a5 5 0 0 1 0 7.2l1.6 1.6a7.2 7.2 0 0 0 0-10.4z"/><path d="M17.4 5.6a8.8 8.8 0 0 1 0 12.8l1.5 1.5a10.9 10.9 0 0 0 0-15.8z"/></symbol>
+        <symbol id="icon-whatsapp" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.4a9.5 9.5 0 0 0-8.1 14.5L2.4 21.6l4.8-1.4A9.5 9.5 0 1 0 12 2.4zm0 2.2a7.3 7.3 0 1 1-3.8 13.5l-.4-.2-2.6.7.7-2.5-.3-.4A7.3 7.3 0 0 1 12 4.6z"/><path d="M9.4 7.8c-.2-.5-.4-.5-.6-.5h-.5a1 1 0 0 0-.7.3c-.3.3-.9.9-.9 2.1s.9 2.4 1 2.6c.1.2 1.7 2.8 4.3 3.8 2.1.8 2.6.7 3 .6.5 0 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.5-.3-1.6-.8c-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6 6 0 0 1-1.8-1.1 6.6 6.6 0 0 1-1.2-1.6c-.1-.2 0-.4.1-.5l.4-.5.3-.5v-.5z"/></symbol>
+        <symbol id="icon-youtube" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M21.6 7.2a2.8 2.8 0 0 0-2-2C17.9 4.8 12 4.8 12 4.8s-5.9 0-7.6.4a2.8 2.8 0 0 0-2 2A29 29 0 0 0 2 12a29 29 0 0 0 .4 4.8 2.8 2.8 0 0 0 2 2c1.7.4 7.6.4 7.6.4s5.9 0 7.6-.4a2.8 2.8 0 0 0 2-2A29 29 0 0 0 22 12a29 29 0 0 0-.4-4.8zM10.2 15.1V8.9l5.1 3.1z"/></symbol>
+    </defs>
+</svg>
+
+    <form method="post" action="./PressReleasePage.aspx?PRID=2247040&amp;reg=48&amp;lang=2" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="sc_HiddenField" id="sc_HiddenField" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZPQet1wIx1Q48y3xJY2k25Y7qxH5RrQ9qQcN-OiTC9guZtri9w2&amp;t=639246310055090729" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=x6wALODbMJK5e0eRC_p1LdIxBJXt0U_WW5GWfJqHAqo6frgCmGRfEywglicTersO2OKrFhK1gAIp0Wk2al2YrpdR3uWqH6f4nfjBsCyRUfTUUVmb0&amp;t=ffffffffecf8d3f2" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=P5lTttoqSeZXoYRLQMIScH645UK3RD852IErF2548Wz9Ssv0rLjB4fhVKnHcMpqkaMHpNAGOeWY02Lf4aBYN9-dVBme_SNK5KJwmFQNpMixYDZ7M0&amp;t=ffffffffecf8d3f2" type="text/javascript"></script>
+<script src="/PressReleasePage.aspx?_TSM_HiddenField_=sc_HiddenField&amp;_TSM_CombinedScripts_=%3b%3bAjaxControlToolkit%2c+Version%3d3.5.7.123%2c+Culture%3dneutral%2c+PublicKeyToken%3d28f01b0e84b6d53e%3aen-US%3a5a4df314-b4a2-4da2-a207-9284f1b1e96c%3ade1feab2%3af2c8e708%3a8613aea7%3af9cec9bc%3a3202a5a2%3aab09e3fe%3a87104b7c%3a720a52bf%3a589eaa30%3aa67c2700%3abe6fb298" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="59B53027" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="aUfNdZJAduOD6aaBvIaVhjrWuo+6vMgE/2ndG26GJtgI1lcXNOmclwjH4dZ+ePANMdy8NVqEFSXp9ZZgYFFlwZJhdsc7HiQ6Lj0MFwVpZ7w3RUSbQf7XRx6CsIKzHy8sAdscXNAIgR8aReg/FAORjzcgD/LxtFprxjSPjf5y+k+cnA7kAuKmKsiufgTWOwPOlQebwEanZDvsXiTYX+z34CW8pnhJZlcuzvSPTrqPB4xTimgijBrB+hO1ch1rz390PBFobY68Xhghl0WrsNRg9VQyF1M=" />
+</div>
+        
+        <div id="templateCss"></div>
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('sc', 'form1', ['tupdate12','update12'], [], [], 90, '');
+//]]>
+</script>
+
+        <input type="hidden" name="hfGridHtml" id="hfGridHtml" />
+        <div class="container" style='margin-bottom: 50px;'>
+            <div id="accessories">
+                
+                <div class="pull-right" style="display: flex">
+                    <div id="voll"></div>
+                    <div id="vollDT"></div>
+                    
+
+<span class="print-icons">
+<input type="image" name="Print1$print" id="Print1_print" aria-label="Print" src="images/printer_icon.png" alt="print page button" style="padding: 5px 10px 5px 10px;" />
+</span>
+                </div>
+            </div>
+            <input type="hidden" name="hydpermid" id="hydpermid" value="2247040" />
+            
+
+            <div class="innner-page-main-about-us-content-right-part">
+                <div id="MinistryName" class="MinistryNameSubhead text-center">
+                    Ministry of Electronics & IT
+                </div>
+                <div id="lg_g"><div class='log_oo'>  <img src='https://static.pib.gov.in/WriteReadData/specificdocs/photo/2026/sep/ph_9768_20260902_10000501.png' alt='azadi ka amrit mahotsav' /> </div></div>
+
+                <div class="text-center event-heading-background">
+                    
+                    <h1 id="Titleh2">
+                        Government approves 29 more proposals under the Electronics Component Manufacturing Scheme (ECMS)
+                    </h1>
+                    <h3 id="Subtitleh3">
+                        <span id="ltrSubtitle"><br/>With projected investment of Rs 7,104 crore, these approvals expected to generate 14,246 direct employment opportunities<br/><br/>Union Minister Shri Ashwini Vaishnaw stresses on the need for strong in-house design capabilities and robust domestic supply chain</span>
+                    </h3>
+                </div>
+
+                <div id="PrDateTime" class="ReleaseDateSubHeaddateTime text-center pt20">
+                    Posted On:
+                              30 MAR 2026 7:17PM by PIB Delhi
+                </div>
+                
+                <div class='pt20'>
+                </div>
+                <input type="hidden" name="hydphotoUrl" id="hydphotoUrl" />
+                
+
+                <!-- Release content wrapper for client-side zero-reflow word count -->
+                <div id="pibReleaseBody">
+                    <p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">In continuation to the approvals of 46 applications for Rs 54,567 crore announced earlier, Ministry of Electronics and Information Technology <strong>(MeitY) has <span style="color:black">further</span></strong><strong> approved 29 proposals</strong> under the Electronics Components Manufacturing Scheme <strong>(ECMS)</strong> with projected <strong>investment of Rs 7,104 </strong><strong>crore</strong>, projected <strong>production of Rs 84,515 crore</strong>. These approvals are expected to generate <strong>14,246 </strong><strong>direct employment</strong> opportunities.</span></span></p>
+
+<p style="text-align:center"><img id="Picture_x0020_1" src="https://static.pib.gov.in/WriteReadData/userfiles/image/WhatsAppImage2026-03-30at7.34.33PMSPTA.jpeg" style="color:black; font-family:&quot;Times New Roman&quot;,Times,serif; font-size:16px; height:500px; width:500px" /></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The <span style="color:black">current</span> approvals include manufacturing <strong>16 products</strong>, which have cross sectoral application such as mobile manufacturing, telecom, consumer electronics, strategic electronics, automotive and IT hardware products. The details of 16 products are as follows:</span></span></p>
+
+<ul>
+	<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>1 sub-assemblies</strong>: Display Modules</span></span></li>
+	<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>11 bare components:</strong> Antennas, Capacitors, Connectors, Heat Sinks, Li-ion Cells, Relays, Resistors, Transducers, SMD Passives, Flexible PCB and Inductors</span></span></li>
+	<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>3 supply chain items: </strong>Laminates, Metallized films for Capacitors and Rare Earth Permanent Magnets</span></span></li>
+	<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>Capital Goods</strong> and their parts</span></span></li>
+</ul>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">These approvals include country&rsquo;s <strong>1<sup>st</sup> SMD passive plant</strong> for Tantlum based capacitors, <strong>1<sup>st</sup> <span style="color:black">Flexible</span></strong><strong> PCB plant</strong> and <strong>1<sup>st</sup> Rare Earth Permanent Magnet facility</strong>.</span></span></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black"><img id="Picture_x0020_2" src="https://static.pib.gov.in/WriteReadData/userfiles/image/WhatsAppImage2026-03-30at7.34.33PM(1)L1EG.jpeg" style="height:300px; width:500px" /> </span></span></span></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Speaking on this occasion, Union Minister for Electronics and Information Technology, Shri. Ashwini Vaishnaw outlined <strong>four core priority areas</strong> for electronics manufacturing. First, he emphasized the need to build <strong>strong in-house design capabilities</strong>, either independently or through collaborations with other companies, universities, or institutions, to ensure deeper value capture within the country. Second, he called for the development of a <strong>robust domestic supply chain</strong>, including through coordinated buyer-seller arrangements, suggesting possible preference for indigenous capital equipment manufacturers, so that domestic manufacturers get more opportunities. Third, he stressed the importance of implementing <strong>Six Sigma quality programmes</strong> through industry-wide collaboration to ensure global competitiveness and high standards. Fourth, he underscored the need for a structured <strong>workforce development</strong> initiative, suggesting the establishment of 4&ndash;5 focused training centres, each with the capacity to train at least 5,000 individuals, to create a steady pipeline of skilled manpower for the sector.</span></span></p>
+
+<p style="text-align:justify"><span style="font-family:&quot;Times New Roman&quot;,Times,serif; font-size:16px">Shri S. Krishnan, Secretary (MeitY) remarked that ECMS has seen one of the most successful launches, invoking great interest from the industry that the government has matched with faster approvals. He said that the government now expects the industry to match the same with speed of implementation. He emphasized that opportunities remain open, particularly in capital equipment and upstream supply chains, and urged stakeholders to leverage the scheme to build resilient, diversified supply chains, given the present geopolitical situation.</span></p>
+
+<p style="text-align:justify"><span style="font-family:&quot;Times New Roman&quot;,Times,serif; font-size:16px">Shri. Pankaj Mahindroo, Chairman, India Cellular &amp; Electronics Association (ICEA) welcomed the enhanced ECMS outlay in the latest Union Budget. He said that the announcement to increase ECMS outlay to ₹40,000 crore, backed by the PLI scheme&rsquo;s strong performance in mobile manufacturing, boosts confidence in ECMS&rsquo;s rapid growth.</span></p>
+
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black"><img id="Picture_x0020_3" src="https://static.pib.gov.in/WriteReadData/userfiles/image/WhatsAppImage2026-03-30at7.34.34PM71Q1.jpeg" style="height:300px; width:500px" /> </span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:&quot;Times New Roman&quot;,Times,serif; font-size:16px">In the sub-assembly category,</span><strong> </strong><span style="font-family:&quot;Times New Roman&quot;,Times,serif; font-size:16px">approvals for manufacturing of Display Modules have been </span><span style="color:black; font-family:&quot;Times New Roman&quot;,Times,serif; font-size:16px">granted</span><span style="font-family:&quot;Times New Roman&quot;,Times,serif; font-size:16px"> to </span><em>Dixon Display Technologies Pvt. Ltd. and Wangda Technologies Pvt. Ltd</em><span style="font-family:&quot;Times New Roman&quot;,Times,serif; font-size:16px">.</span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">In the <span style="color:black">components</span> category, approvals for manufacturing have been granted as below:</span></span></p>
+
+<ul>
+	<li style="list-style-type:none">
+	<ul>
+		<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Antenna and Heat Sink to <em>VVDN Technologies Pvt. Ltd</em>.</span></span></li>
+		<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Connectors to <em>Molex (India) Pvt. Ltd.</em>, a global leader in electronic and fiber optic connectivity systems; <em>Terminal Technologies</em>; <em>SFO Technologies India Pvt. Ltd.</em>; and <em>Amphenol FCI India Pvt. Ltd.,</em> one of the world&#39;s largest designers and manufacturers of high-technology interconnect.</span></span></li>
+		<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Relays to <em>O/E/N India Ltd.; Permanent Magnets Ltd; BG Electrical and Electronics India Ltd.; </em>and <em>SFO Technologies India Pvt. Ltd.</em></span></span></li>
+		<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Non-SMD &amp; SMD Passive capacitors to <em>Vishay Components India Pvt. Ltd.</em>, a premier global manufacturer of discrete semiconductors and passive electronic components.</span></span></li>
+		<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Li-ion cell for digital applications to <em>Munoth Lithium Battery Pvt. Ltd</em>.</span></span></li>
+		<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Resistors and Transducers to<em> Vishay Precision Transducers India Pvt. Ltd.</em></span></span></li>
+		<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Inductors to <em>TDK India Pvt. Ltd.</em>, a major global manufacturer of electronic components and systems.</span></span></li>
+		<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Flexible PCBs to <em>Syrma Strategic Electronics Pvt. Ltd.</em></span></span></li>
+	</ul>
+	</li>
+</ul>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Further, to deepen the electronics manufacturing supply chain, approvals have also been given for manufacturing of various supply chain products as below:</span></span></p>
+
+<ul>
+	<li style="list-style-type:none">
+	<ul>
+		<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Laminate (Copper Clad) to <em><span style="color:black">Syrma Components Pvt. Ltd.</span></em><span style="color:black"> and <em>Ratnaveer Precision Engineering Ltd.</em></span> Laminate is base material for PCB manufacturing and constitutes a significant part (~30%) of the bill of materials of PCB manufacturing<span style="color:black">.</span></span></span></li>
+		<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Metallised<span style="color:black"> film for capacitors to <em>Dhruv Industries Ltd.</em></span></span></span></li>
+		<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Rare </span>Earth<span style="color:black"> Permanent Magnets to <em>Lohum Cleantech Pvt. Ltd.</em> This is the 1<sup>st</sup> project for manufacturing of Rare Earth Permanent Magnets from Rare Earth Oxide, marking a significant step towards developing indigenous capabilities in advanced materials.</span></span></span></li>
+	</ul>
+	</li>
+</ul>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Furthermore, today&rsquo;s approvals witnessed special emphasis on developing manufacturing capability in capital equipment. Approvals were granted to 6 entities as below:</span></span></span></p>
+
+<ul>
+	<li style="list-style-type:none">
+	<ul>
+		<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><em><span style="color:black">Titan Engineering &amp; Automation Ltd.; NeST Advanced Technology Development Centre Pvt. Ltd.; ASM Technologies Ltd.; Indo-MIM Ltd.; Bharat FIH Ltd.; and IFB Industries Ltd</span></em><span style="color:black">.</span></span></span></li>
+	</ul>
+	</li>
+</ul>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">These approvals are expected to enhance domestic value addition by strengthening local supply chains, reducing dependence on imports of critical electronic components, and enabling the development of advanced manufacturing capabilities within India. With these approvals, <strong>overall, 75 applications</strong> have been approved under ECMS amounting to expected <strong>investment of Rs 61,671 crores</strong> and expected <strong>direct employment for 65,040 persons</strong>.</span></span></span></p>
+
+<p style="text-align:justify"><span style="color:black; font-family:&quot;Times New Roman&quot;,Times,serif; font-size:16px">Overall, the approvals under the Electronics Component Manufacturing Scheme represent a significant and forward-looking milestone in India&rsquo;s electronics manufacturing journey, aligned with the Hon&rsquo;ble Prime Minister&rsquo;s vision of positioning India as a global hub for electronics manufacturing.</span></p>
+
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">***</span></span></p>
+
+<p style="text-align:justify"><strong><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">MSZ</span></span></strong></p>
+
+                </div>
+
+                <div id="reel_pic">
+                </div>
+
+                <br />
+                <span id="ReleaseId">(Release ID: 2247040)</span>
+                <span id="lblViews">Visitor Counter : 10365</span>
+                <div>
+                    
+                </div>
+                
+
+                <span id="lblRefPhoto"></span>
+
+                <div class="BackgroundRelease">
+                    
+                </div>
+                <div>
+                    
+                </div>
+                <div class="ReleaseLang">Read this release in: 
+                
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2254176' target="_blank">
+                            Urdu </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2247099' target="_blank">
+                            हिन्दी </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2248504' target="_blank">
+                            Punjabi </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2247114' target="_blank">
+                            Gujarati </a>
+                    
+                </div>
+
+                <div class="RelTag">
+                    <ul>
+                        
+                    </ul>
+                </div>
+                <div class="clear">
+                </div>
+
+                <!-- DBIM 3.0 Option 4: Separator Line with Left Share Rail & Right Reading Metrics -->
+                <div class="pr-share pr-share--footer" role="region" aria-label="Share and reading details">
+                    <div class="pr-share__left">
+                        <span class="pr-share__label" aria-hidden="true">Share</span>
+                        <ul class="pr-share__list">
+                            <li><a class="pr-share__btn pr-share__btn--facebook"
+                                href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2247040"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on Facebook">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-facebook" xlink:href="#icon-facebook"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--twitter"
+                                href="https://twitter.com/intent/tweet?url=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2247040"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on X">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-twitter" xlink:href="#icon-twitter"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--whatsapp"
+                                href="https://api.whatsapp.com/send?text=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2247040"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on WhatsApp">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-whatsapp" xlink:href="#icon-whatsapp"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--linkedin"
+                                href="https://www.linkedin.com/sharing/share-offsite/?url=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2247040"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on LinkedIn">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-linkedin" xlink:href="#icon-linkedin"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--mail"
+                                href="mailto:?subject=Press+release+from+PIB&amp;body=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2247040"
+                                aria-label="Share by email">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-mail" xlink:href="#icon-mail"></use>
+                                </svg>
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div class="pr-reading-meta" id="prReadingMeta" aria-label="Reading statistics">
+                        <span class="pr-reading-meta__item">
+                            <!-- Modern Document / Word Count Icon -->
+                            <svg class="pr-reading-meta__icon" width="18" height="18" viewbox="0 0 16 16" fill="currentColor" aria-hidden="true" focusable="false">
+                                <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5" />
+                                <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z" />
+                            </svg>
+                            <span id="prWordCount">-- words</span>
+                        </span>
+
+                        <span class="pr-reading-meta__divider" aria-hidden="true">|</span>
+
+                        <span class="pr-reading-meta__item">
+                            <!-- Modern Precision Clock / Read Time Icon -->
+                            <svg class="pr-reading-meta__icon" width="18" height="18" viewbox="0 0 16 16" fill="currentColor" aria-hidden="true" focusable="false">
+                                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                            </svg>
+                            <span id="prReadTime">-- min read</span>
+                        </span>
+                    </div>
+                </div>
+
+                <div id="RelLink" class="RelLink">
+                    <ul>
+                        
+                    </ul>
+                </div>
+                <center>
+                    
+                </center>
+            </div>
+
+            <div id="update12">
+	
+                    
+                    <input type="hidden" name="Hidden" id="Hidden" />
+                    <div id="P_CategoryManagement" class="ModalWindow" style="border-width:0px;height:60%;width:60%;overflow:auto;display: none">
+		
+                        <div>
+                            <input type="image" name="btnClose" id="btnClose" src="images/close_flat_icon.png" />
+                        </div>
+                        <div id="description">
+                        </div>
+                        <div class="text-center">
+                            <h2>
+                                
+                                <br>
+                                
+                            </h2>
+                        </div>
+                        <br />
+                        <div class="clear">
+                        </div>
+                        
+                    
+	</div>
+                
+</div>
+        </div>
+
+        <div id="PdfDiv" style="display: none;">
+            <table width="100%">
+                <tr>
+                    <td style="font-weight: 200; text-align: center">
+                        Ministry of Electronics & IT
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 200; text-align: center; font-size: 30px;">
+                            Government approves 29 more proposals under the Electronics Component Manufacturing Scheme (ECMS)
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 200; text-align: center; font-size: 30px;">
+                            <div style='height:30px;width:100%;'></div>With projected investment of Rs 7,104 crore, these approvals expected to generate 14,246 direct employment opportunities<div style='height:30px;width:100%;'></div><div style='height:30px;width:100%;'></div>Union Minister Shri Ashwini Vaishnaw stresses on the need for strong in-house design capabilities and robust domestic supply chain
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="text-align: center; font-size: 14px;">
+                            Posted On:
+                                          30 MAR 2026 7:17PM by PIB Delhi
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 200; text-align: left; font-size: 16px;">
+                            <p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">In continuation to the approvals of 46 applications for Rs 54,567 crore announced earlier, Ministry of Electronics and Information Technology <strong>(MeitY) has <span style="color:black">further</span></strong><strong> approved 29 proposals</strong> under the Electronics Components Manufacturing Scheme <strong>(ECMS)</strong> with projected <strong>investment of Rs 7,104 </strong><strong>crore</strong>, projected <strong>production of Rs 84,515 crore</strong>. These approvals are expected to generate <strong>14,246 </strong><strong>direct employment</strong> opportunities.</span></span></p>
+
+<p style="text-align:center"><img id="Picture_x0020_1" src="https://static.pib.gov.in/WriteReadData/userfiles/image/WhatsAppImage2026-03-30at7.34.33PMSPTA.jpeg" style="color:black; font-family:&quot;Times New Roman&quot;,Times,serif; font-size:16px; height:500px; width:500px" /></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The <span style="color:black">current</span> approvals include manufacturing <strong>16 products</strong>, which have cross sectoral application such as mobile manufacturing, telecom, consumer electronics, strategic electronics, automotive and IT hardware products. The details of 16 products are as follows:</span></span></p>
+
+<ul>
+	<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>1 sub-assemblies</strong>: Display Modules</span></span></li>
+	<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>11 bare components:</strong> Antennas, Capacitors, Connectors, Heat Sinks, Li-ion Cells, Relays, Resistors, Transducers, SMD Passives, Flexible PCB and Inductors</span></span></li>
+	<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>3 supply chain items: </strong>Laminates, Metallized films for Capacitors and Rare Earth Permanent Magnets</span></span></li>
+	<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>Capital Goods</strong> and their parts</span></span></li>
+</ul>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">These approvals include country&rsquo;s <strong>1<sup>st</sup> SMD passive plant</strong> for Tantlum based capacitors, <strong>1<sup>st</sup> <span style="color:black">Flexible</span></strong><strong> PCB plant</strong> and <strong>1<sup>st</sup> Rare Earth Permanent Magnet facility</strong>.</span></span></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black"><img id="Picture_x0020_2" src="https://static.pib.gov.in/WriteReadData/userfiles/image/WhatsAppImage2026-03-30at7.34.33PM(1)L1EG.jpeg" style="height:300px; width:500px" /> </span></span></span></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Speaking on this occasion, Union Minister for Electronics and Information Technology, Shri. Ashwini Vaishnaw outlined <strong>four core priority areas</strong> for electronics manufacturing. First, he emphasized the need to build <strong>strong in-house design capabilities</strong>, either independently or through collaborations with other companies, universities, or institutions, to ensure deeper value capture within the country. Second, he called for the development of a <strong>robust domestic supply chain</strong>, including through coordinated buyer-seller arrangements, suggesting possible preference for indigenous capital equipment manufacturers, so that domestic manufacturers get more opportunities. Third, he stressed the importance of implementing <strong>Six Sigma quality programmes</strong> through industry-wide collaboration to ensure global competitiveness and high standards. Fourth, he underscored the need for a structured <strong>workforce development</strong> initiative, suggesting the establishment of 4&ndash;5 focused training centres, each with the capacity to train at least 5,000 individuals, to create a steady pipeline of skilled manpower for the sector.</span></span></p>
+
+<p style="text-align:justify"><span style="font-family:&quot;Times New Roman&quot;,Times,serif; font-size:16px">Shri S. Krishnan, Secretary (MeitY) remarked that ECMS has seen one of the most successful launches, invoking great interest from the industry that the government has matched with faster approvals. He said that the government now expects the industry to match the same with speed of implementation. He emphasized that opportunities remain open, particularly in capital equipment and upstream supply chains, and urged stakeholders to leverage the scheme to build resilient, diversified supply chains, given the present geopolitical situation.</span></p>
+
+<p style="text-align:justify"><span style="font-family:&quot;Times New Roman&quot;,Times,serif; font-size:16px">Shri. Pankaj Mahindroo, Chairman, India Cellular &amp; Electronics Association (ICEA) welcomed the enhanced ECMS outlay in the latest Union Budget. He said that the announcement to increase ECMS outlay to ₹40,000 crore, backed by the PLI scheme&rsquo;s strong performance in mobile manufacturing, boosts confidence in ECMS&rsquo;s rapid growth.</span></p>
+
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black"><img id="Picture_x0020_3" src="https://static.pib.gov.in/WriteReadData/userfiles/image/WhatsAppImage2026-03-30at7.34.34PM71Q1.jpeg" style="height:300px; width:500px" /> </span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:&quot;Times New Roman&quot;,Times,serif; font-size:16px">In the sub-assembly category,</span><strong> </strong><span style="font-family:&quot;Times New Roman&quot;,Times,serif; font-size:16px">approvals for manufacturing of Display Modules have been </span><span style="color:black; font-family:&quot;Times New Roman&quot;,Times,serif; font-size:16px">granted</span><span style="font-family:&quot;Times New Roman&quot;,Times,serif; font-size:16px"> to </span><em>Dixon Display Technologies Pvt. Ltd. and Wangda Technologies Pvt. Ltd</em><span style="font-family:&quot;Times New Roman&quot;,Times,serif; font-size:16px">.</span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">In the <span style="color:black">components</span> category, approvals for manufacturing have been granted as below:</span></span></p>
+
+<ul>
+	<li style="list-style-type:none">
+	<ul>
+		<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Antenna and Heat Sink to <em>VVDN Technologies Pvt. Ltd</em>.</span></span></li>
+		<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Connectors to <em>Molex (India) Pvt. Ltd.</em>, a global leader in electronic and fiber optic connectivity systems; <em>Terminal Technologies</em>; <em>SFO Technologies India Pvt. Ltd.</em>; and <em>Amphenol FCI India Pvt. Ltd.,</em> one of the world&#39;s largest designers and manufacturers of high-technology interconnect.</span></span></li>
+		<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Relays to <em>O/E/N India Ltd.; Permanent Magnets Ltd; BG Electrical and Electronics India Ltd.; </em>and <em>SFO Technologies India Pvt. Ltd.</em></span></span></li>
+		<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Non-SMD &amp; SMD Passive capacitors to <em>Vishay Components India Pvt. Ltd.</em>, a premier global manufacturer of discrete semiconductors and passive electronic components.</span></span></li>
+		<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Li-ion cell for digital applications to <em>Munoth Lithium Battery Pvt. Ltd</em>.</span></span></li>
+		<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Resistors and Transducers to<em> Vishay Precision Transducers India Pvt. Ltd.</em></span></span></li>
+		<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Inductors to <em>TDK India Pvt. Ltd.</em>, a major global manufacturer of electronic components and systems.</span></span></li>
+		<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Flexible PCBs to <em>Syrma Strategic Electronics Pvt. Ltd.</em></span></span></li>
+	</ul>
+	</li>
+</ul>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Further, to deepen the electronics manufacturing supply chain, approvals have also been given for manufacturing of various supply chain products as below:</span></span></p>
+
+<ul>
+	<li style="list-style-type:none">
+	<ul>
+		<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Laminate (Copper Clad) to <em><span style="color:black">Syrma Components Pvt. Ltd.</span></em><span style="color:black"> and <em>Ratnaveer Precision Engineering Ltd.</em></span> Laminate is base material for PCB manufacturing and constitutes a significant part (~30%) of the bill of materials of PCB manufacturing<span style="color:black">.</span></span></span></li>
+		<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Metallised<span style="color:black"> film for capacitors to <em>Dhruv Industries Ltd.</em></span></span></span></li>
+		<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Rare </span>Earth<span style="color:black"> Permanent Magnets to <em>Lohum Cleantech Pvt. Ltd.</em> This is the 1<sup>st</sup> project for manufacturing of Rare Earth Permanent Magnets from Rare Earth Oxide, marking a significant step towards developing indigenous capabilities in advanced materials.</span></span></span></li>
+	</ul>
+	</li>
+</ul>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Furthermore, today&rsquo;s approvals witnessed special emphasis on developing manufacturing capability in capital equipment. Approvals were granted to 6 entities as below:</span></span></span></p>
+
+<ul>
+	<li style="list-style-type:none">
+	<ul>
+		<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><em><span style="color:black">Titan Engineering &amp; Automation Ltd.; NeST Advanced Technology Development Centre Pvt. Ltd.; ASM Technologies Ltd.; Indo-MIM Ltd.; Bharat FIH Ltd.; and IFB Industries Ltd</span></em><span style="color:black">.</span></span></span></li>
+	</ul>
+	</li>
+</ul>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">These approvals are expected to enhance domestic value addition by strengthening local supply chains, reducing dependence on imports of critical electronic components, and enabling the development of advanced manufacturing capabilities within India. With these approvals, <strong>overall, 75 applications</strong> have been approved under ECMS amounting to expected <strong>investment of Rs 61,671 crores</strong> and expected <strong>direct employment for 65,040 persons</strong>.</span></span></span></p>
+
+<p style="text-align:justify"><span style="color:black; font-family:&quot;Times New Roman&quot;,Times,serif; font-size:16px">Overall, the approvals under the Electronics Component Manufacturing Scheme represent a significant and forward-looking milestone in India&rsquo;s electronics manufacturing journey, aligned with the Hon&rsquo;ble Prime Minister&rsquo;s vision of positioning India as a global hub for electronics manufacturing.</span></p>
+
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">***</span></span></p>
+
+<p style="text-align:justify"><strong><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">MSZ</span></span></strong></p>
+
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 100; text-align: left; font-size: 16px;">
+                            (Release ID: 2247040)
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="font-weight: 200; text-align: center; font-size: 24px;"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="clearfix">
+        </div>
+
+        <div class="section1">
+            <div id="frst_t">
+                <div id="arr_rm"><div class='sticky-social_mb'><ul class='social_mb'><a href='http://www.facebook.com/share.php?u=https://pib.gov.in/PressReleasePage.aspx?PRID=2247040' target='_blank'><li class='fb_b'   ></li></a><a href='https://twitter.com/intent/tweet?url=https://pib.gov.in/PressReleasePage.aspx?PRID=2247040&text=Government approves 29 more proposals under the Electronics Component Manufacturing Scheme (ECMS)' target='_blank'><li class='twitter_r'  > </li></a><a href='https://api.whatsapp.com/send?text=https://pib.gov.in/PressReleasePage.aspx?PRID=2247040' target='_blank'><li class='whatsapp_r'  ></li></a><a href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=&su=Government approves 29 more proposals under the Electronics Component Manufacturing Scheme (ECMS)&body=https://pib.gov.in/PressReleasePage.aspx?PRID=2247040&ui=2&tf=1&pli=1' title='Share by Email' target='_blank'><li class='fa-envelope_r' ></li></a><a href='https://www.linkedin.com/shareArticle?mini=true&url=https://pib.gov.in/PressReleasePage.aspx?PRID=2247040&title=Government approves 29 more proposals under the Electronics Component Manufacturing Scheme (ECMS)&summary=My%20favorite%20developer%20program&source=LinkedIn' target='_blank'><li class='fa-linkedin_r'  ></li></a></ul></div></div>
+            </div>
+            <div id="second_t">
+                <div id="sndr_rm"><div class='sticky-social'><ul class='social'><a href='http://www.facebook.com/share.php?u=https://pib.gov.in/PressReleasePage.aspx?PRID=2247040' target='_blank'><li class='fb_b'   ></li></a><a href='https://twitter.com/intent/tweet?url=https://pib.gov.in/PressReleasePage.aspx?PRID=2247040&text=Government approves 29 more proposals under the Electronics Component Manufacturing Scheme (ECMS)' target='_blank'><li class='twitter_r'  > </li></a><a href='https://api.whatsapp.com/send?text=https://pib.gov.in/PressReleasePage.aspx?PRID=2247040' target='_blank'><li class='whatsapp_r'  ></li></a><a href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=&su=Government approves 29 more proposals under the Electronics Component Manufacturing Scheme (ECMS)&body=https://pib.gov.in/PressReleasePage.aspx?PRID=2247040&ui=2&tf=1&pli=1' title='Share by Email' target='_blank'><li class='fa-envelope_r' ></li></a><a href='https://www.linkedin.com/shareArticle?mini=true&url=https://pib.gov.in/PressReleasePage.aspx?PRID=2247040&title=Government approves 29 more proposals under the Electronics Component Manufacturing Scheme (ECMS)&summary=My%20favorite%20developer%20program&source=LinkedIn' target='_blank'><li class='fa-linkedin_r'  ></li></a></ul></div></div>
+            </div>
+        </div>
+        <input type="hidden" name="ltrTitlee" id="ltrTitlee" value="Government approves 29 more proposals under the Electronics Component Manufacturing Scheme (ECMS)" />
+        <input type="hidden" name="ltrSubtitlee" id="ltrSubtitlee" value="&lt;br/>With projected investment of Rs 7,104 crore, these approvals expected to generate 14,246 direct employment opportunities&lt;br/>&lt;br/>Union Minister Shri Ashwini Vaishnaw stresses on the need for strong in-house design capabilities and robust domestic supply chain" />
+        <input type="hidden" name="ltrDescriptionn" id="ltrDescriptionn" value="&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>In continuation to the approvals of 46 applications for Rs 54,567 crore announced earlier, Ministry of Electronics and Information Technology &lt;strong>(MeitY) has &lt;span style=&quot;color:black&quot;>further&lt;/span>&lt;/strong>&lt;strong> approved 29 proposals&lt;/strong> under the Electronics Components Manufacturing Scheme &lt;strong>(ECMS)&lt;/strong> with projected &lt;strong>investment of Rs 7,104 &lt;/strong>&lt;strong>crore&lt;/strong>, projected &lt;strong>production of Rs 84,515 crore&lt;/strong>. These approvals are expected to generate &lt;strong>14,246 &lt;/strong>&lt;strong>direct employment&lt;/strong> opportunities.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:center&quot;>&lt;img id=&quot;Picture_x0020_1&quot; src=&quot;https://static.pib.gov.in/WriteReadData/userfiles/image/WhatsAppImage2026-03-30at7.34.33PMSPTA.jpeg&quot; style=&quot;color:black; font-family:&amp;quot;Times New Roman&amp;quot;,Times,serif; font-size:16px; height:500px; width:500px&quot; />&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&amp;nbsp;&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>The &lt;span style=&quot;color:black&quot;>current&lt;/span> approvals include manufacturing &lt;strong>16 products&lt;/strong>, which have cross sectoral application such as mobile manufacturing, telecom, consumer electronics, strategic electronics, automotive and IT hardware products. The details of 16 products are as follows:&lt;/span>&lt;/span>&lt;/p>
+
+&lt;ul>
+	&lt;li style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;strong>1 sub-assemblies&lt;/strong>: Display Modules&lt;/span>&lt;/span>&lt;/li>
+	&lt;li style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;strong>11 bare components:&lt;/strong> Antennas, Capacitors, Connectors, Heat Sinks, Li-ion Cells, Relays, Resistors, Transducers, SMD Passives, Flexible PCB and Inductors&lt;/span>&lt;/span>&lt;/li>
+	&lt;li style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;strong>3 supply chain items: &lt;/strong>Laminates, Metallized films for Capacitors and Rare Earth Permanent Magnets&lt;/span>&lt;/span>&lt;/li>
+	&lt;li style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;strong>Capital Goods&lt;/strong> and their parts&lt;/span>&lt;/span>&lt;/li>
+&lt;/ul>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>These approvals include country&amp;rsquo;s &lt;strong>1st SMD passive plant&lt;/strong> for Tantlum based capacitors, &lt;strong>1st &lt;span style=&quot;color:black&quot;>Flexible&lt;/span>&lt;/strong>&lt;strong> PCB plant&lt;/strong> and &lt;strong>1st Rare Earth Permanent Magnet facility&lt;/strong>.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&amp;nbsp;&lt;/p>
+
+&lt;p style=&quot;text-align:center&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>&lt;img id=&quot;Picture_x0020_2&quot; src=&quot;https://static.pib.gov.in/WriteReadData/userfiles/image/WhatsAppImage2026-03-30at7.34.33PM(1)L1EG.jpeg&quot; style=&quot;height:300px; width:500px&quot; /> &lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&amp;nbsp;&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>Speaking on this occasion, Union Minister for Electronics and Information Technology, Shri. Ashwini Vaishnaw outlined &lt;strong>four core priority areas&lt;/strong> for electronics manufacturing. First, he emphasized the need to build &lt;strong>strong in-house design capabilities&lt;/strong>, either independently or through collaborations with other companies, universities, or institutions, to ensure deeper value capture within the country. Second, he called for the development of a &lt;strong>robust domestic supply chain&lt;/strong>, including through coordinated buyer-seller arrangements, suggesting possible preference for indigenous capital equipment manufacturers, so that domestic manufacturers get more opportunities. Third, he stressed the importance of implementing &lt;strong>Six Sigma quality programmes&lt;/strong> through industry-wide collaboration to ensure global competitiveness and high standards. Fourth, he underscored the need for a structured &lt;strong>workforce development&lt;/strong> initiative, suggesting the establishment of 4&amp;ndash;5 focused training centres, each with the capacity to train at least 5,000 individuals, to create a steady pipeline of skilled manpower for the sector.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:&amp;quot;Times New Roman&amp;quot;,Times,serif; font-size:16px&quot;>Shri S. Krishnan, Secretary (MeitY) remarked that ECMS has seen one of the most successful launches, invoking great interest from the industry that the government has matched with faster approvals. He said that the government now expects the industry to match the same with speed of implementation. He emphasized that opportunities remain open, particularly in capital equipment and upstream supply chains, and urged stakeholders to leverage the scheme to build resilient, diversified supply chains, given the present geopolitical situation.&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:&amp;quot;Times New Roman&amp;quot;,Times,serif; font-size:16px&quot;>Shri. Pankaj Mahindroo, Chairman, India Cellular &amp;amp; Electronics Association (ICEA) welcomed the enhanced ECMS outlay in the latest Union Budget. He said that the announcement to increase ECMS outlay to ₹40,000 crore, backed by the PLI scheme&amp;rsquo;s strong performance in mobile manufacturing, boosts confidence in ECMS&amp;rsquo;s rapid growth.&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:center&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>&lt;img id=&quot;Picture_x0020_3&quot; src=&quot;https://static.pib.gov.in/WriteReadData/userfiles/image/WhatsAppImage2026-03-30at7.34.34PM71Q1.jpeg&quot; style=&quot;height:300px; width:500px&quot; /> &lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:&amp;quot;Times New Roman&amp;quot;,Times,serif; font-size:16px&quot;>In the sub-assembly category,&lt;/span>&lt;strong> &lt;/strong>&lt;span style=&quot;font-family:&amp;quot;Times New Roman&amp;quot;,Times,serif; font-size:16px&quot;>approvals for manufacturing of Display Modules have been &lt;/span>&lt;span style=&quot;color:black; font-family:&amp;quot;Times New Roman&amp;quot;,Times,serif; font-size:16px&quot;>granted&lt;/span>&lt;span style=&quot;font-family:&amp;quot;Times New Roman&amp;quot;,Times,serif; font-size:16px&quot;> to &lt;/span>&lt;em>Dixon Display Technologies Pvt. Ltd. and Wangda Technologies Pvt. Ltd&lt;/em>&lt;span style=&quot;font-family:&amp;quot;Times New Roman&amp;quot;,Times,serif; font-size:16px&quot;>.&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>In the &lt;span style=&quot;color:black&quot;>components&lt;/span> category, approvals for manufacturing have been granted as below:&lt;/span>&lt;/span>&lt;/p>
+
+&lt;ul>
+	&lt;li style=&quot;list-style-type:none&quot;>
+	&lt;ul>
+		&lt;li style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>Antenna and Heat Sink to &lt;em>VVDN Technologies Pvt. Ltd&lt;/em>.&lt;/span>&lt;/span>&lt;/li>
+		&lt;li style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>Connectors to &lt;em>Molex (India) Pvt. Ltd.&lt;/em>, a global leader in electronic and fiber optic connectivity systems; &lt;em>Terminal Technologies&lt;/em>; &lt;em>SFO Technologies India Pvt. Ltd.&lt;/em>; and &lt;em>Amphenol FCI India Pvt. Ltd.,&lt;/em> one of the world&amp;#39;s largest designers and manufacturers of high-technology interconnect.&lt;/span>&lt;/span>&lt;/li>
+		&lt;li style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>Relays to &lt;em>O/E/N India Ltd.; Permanent Magnets Ltd; BG Electrical and Electronics India Ltd.; &lt;/em>and &lt;em>SFO Technologies India Pvt. Ltd.&lt;/em>&lt;/span>&lt;/span>&lt;/li>
+		&lt;li style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>Non-SMD &amp;amp; SMD Passive capacitors to &lt;em>Vishay Components India Pvt. Ltd.&lt;/em>, a premier global manufacturer of discrete semiconductors and passive electronic components.&lt;/span>&lt;/span>&lt;/li>
+		&lt;li style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>Li-ion cell for digital applications to &lt;em>Munoth Lithium Battery Pvt. Ltd&lt;/em>.&lt;/span>&lt;/span>&lt;/li>
+		&lt;li style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>Resistors and Transducers to&lt;em> Vishay Precision Transducers India Pvt. Ltd.&lt;/em>&lt;/span>&lt;/span>&lt;/li>
+		&lt;li style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>Inductors to &lt;em>TDK India Pvt. Ltd.&lt;/em>, a major global manufacturer of electronic components and systems.&lt;/span>&lt;/span>&lt;/li>
+		&lt;li style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>Flexible PCBs to &lt;em>Syrma Strategic Electronics Pvt. Ltd.&lt;/em>&lt;/span>&lt;/span>&lt;/li>
+	&lt;/ul>
+	&lt;/li>
+&lt;/ul>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>Further, to deepen the electronics manufacturing supply chain, approvals have also been given for manufacturing of various supply chain products as below:&lt;/span>&lt;/span>&lt;/p>
+
+&lt;ul>
+	&lt;li style=&quot;list-style-type:none&quot;>
+	&lt;ul>
+		&lt;li style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>Laminate (Copper Clad) to &lt;em>&lt;span style=&quot;color:black&quot;>Syrma Components Pvt. Ltd.&lt;/span>&lt;/em>&lt;span style=&quot;color:black&quot;> and &lt;em>Ratnaveer Precision Engineering Ltd.&lt;/em>&lt;/span> Laminate is base material for PCB manufacturing and constitutes a significant part (~30%) of the bill of materials of PCB manufacturing&lt;span style=&quot;color:black&quot;>.&lt;/span>&lt;/span>&lt;/span>&lt;/li>
+		&lt;li style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>Metallised&lt;span style=&quot;color:black&quot;> film for capacitors to &lt;em>Dhruv Industries Ltd.&lt;/em>&lt;/span>&lt;/span>&lt;/span>&lt;/li>
+		&lt;li style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>Rare &lt;/span>Earth&lt;span style=&quot;color:black&quot;> Permanent Magnets to &lt;em>Lohum Cleantech Pvt. Ltd.&lt;/em> This is the 1st project for manufacturing of Rare Earth Permanent Magnets from Rare Earth Oxide, marking a significant step towards developing indigenous capabilities in advanced materials.&lt;/span>&lt;/span>&lt;/span>&lt;/li>
+	&lt;/ul>
+	&lt;/li>
+&lt;/ul>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>Furthermore, today&amp;rsquo;s approvals witnessed special emphasis on developing manufacturing capability in capital equipment. Approvals were granted to 6 entities as below:&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;ul>
+	&lt;li style=&quot;list-style-type:none&quot;>
+	&lt;ul>
+		&lt;li style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;em>&lt;span style=&quot;color:black&quot;>Titan Engineering &amp;amp; Automation Ltd.; NeST Advanced Technology Development Centre Pvt. Ltd.; ASM Technologies Ltd.; Indo-MIM Ltd.; Bharat FIH Ltd.; and IFB Industries Ltd&lt;/span>&lt;/em>&lt;span style=&quot;color:black&quot;>.&lt;/span>&lt;/span>&lt;/span>&lt;/li>
+	&lt;/ul>
+	&lt;/li>
+&lt;/ul>
+
+&lt;p style=&quot;text-align:justify&quot;>&amp;nbsp;&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>These approvals are expected to enhance domestic value addition by strengthening local supply chains, reducing dependence on imports of critical electronic components, and enabling the development of advanced manufacturing capabilities within India. With these approvals, &lt;strong>overall, 75 applications&lt;/strong> have been approved under ECMS amounting to expected &lt;strong>investment of Rs 61,671 crores&lt;/strong> and expected &lt;strong>direct employment for 65,040 persons&lt;/strong>.&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;color:black; font-family:&amp;quot;Times New Roman&amp;quot;,Times,serif; font-size:16px&quot;>Overall, the approvals under the Electronics Component Manufacturing Scheme represent a significant and forward-looking milestone in India&amp;rsquo;s electronics manufacturing journey, aligned with the Hon&amp;rsquo;ble Prime Minister&amp;rsquo;s vision of positioning India as a global hub for electronics manufacturing.&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:center&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>***&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;strong>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>MSZ&lt;/span>&lt;/span>&lt;/strong>&lt;/p>
+" />
+        <script type="text/javascript">
+                  var mPlayer = document.getElementById("background_music");
+                  var mPlayAction = document.getElementById("playbutton");
+                  var isPlaying = false;
+
+                  function playAudio() {
+                        mPlayer.play();
+                        isPlaying = true;
+                        document.getElementById('stopA').style.display = "block";
+                        document.getElementById('playA').style.display = "none";
+                  }
+
+                  function pauseAudio() {
+                        mPlayer.pause();
+                        isPlaying = false;
+                        document.getElementById('playA').style.display = "block";
+                        document.getElementById('stopA').style.display = "none";
+                  }
+        </script>
+        <script type="text/javascript">
+                  var synth = window.speechSynthesis;
+
+                  function CleanHtml(html) {
+                        html = html.replace(/<script[\s\S]*?<\/script>/gi, '');
+                        return html;
+                  }
+                  function stripHtml(html) {
+                        let tmp = document.createElement("DIV");
+                        tmp.innerHTML = CleanHtml(html);
+                        return tmp.textContent || tmp.innerText || "";
+                  }
+        </script>
+        <script type="text/javascript">
+                  $(document).ready(function () {
+                        $("table").each(function () {
+                              if (!$(this).closest(".table-responsive").length) {
+                                    $(this).wrap("<div class='table-responsive'></div>");
+                              }
+                        });
+
+                        var width = $(window).width();
+                        if (width < 768) {
+                              document.getElementById('frst_t').style.display = "block";
+                              document.getElementById('second_t').style.display = "none";
+                        } else if (width < 991) {
+                              document.getElementById('frst_t').style.display = "block";
+                              document.getElementById('second_t').style.display = "none";
+                        } else if (width < 1199) {
+                              document.getElementById('frst_t').style.display = "none";
+                              document.getElementById('second_t').style.display = "block";
+                        } else {
+                              document.getElementById('frst_t').style.display = "none";
+                              document.getElementById('second_t').style.display = "block";
+                        }
+                  });
+        </script>
+        <style type="text/css">
+            @media print {
+                .sticky-social, .sticky-social_mb, .pull-right, #printPDF {
+                    display: none !important;
+                }
+            }
+
+            .f_vl {
+                padding-right: 30px;
+                font-size: 17px;
+                cursor: pointer;
+            }
+
+            .log_oo {
+                display: flex;
+                justify-content: space-between;
+            }
+
+                .log_oo img {
+                    width: 150px;
+                }
+
+            .sticky-social_mb {
+                position: fixed;
+                bottom: 0px;
+                padding: 0px;
+                margin: 0px;
+                width: 100%;
+            }
+
+            .social_mb {
+                list-style: none;
+                display: flex;
+                width: 100%;
+                margin-bottom: -8px;
+            }
+
+                .social_mb a {
+                    padding: 8px 0px;
+                    font-size: 30px;
+                    transition: all 0.8s ease-in-out;
+                    width: 20% !important;
+                    text-align: center;
+                }
+        </style>
+        <style type="text/css">
+            .section1 {
+                position: relative;
+                padding: 10px 0px;
+                width: 100%;
+            }
+
+            .sticky-social {
+                position: fixed;
+                top: 20px;
+                left: 0px;
+                padding: 0px;
+                margin: 0px;
+            }
+
+            .social {
+                list-style: none;
+            }
+
+                .social a li {
+                    padding: 8px 12px;
+                    font-size: 25px;
+                    transition: all 0.8s ease-in-out;
+                }
+
+                    .social a li:hover {
+                        margin-right: -30px;
+                        box-shadow: 2px 5px 10px grey;
+                    }
+
+                        .social a li:hover .fa {
+                            margin-left: 20px;
+                        }
+
+            .fb_b {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .twitter_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .whatsapp_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .fa-envelope_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .fa-linkedin_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+        </style>
+        <style type="text/css">
+            @media only screen and (max-device-width: 767px) {
+                p span img {
+                    max-width: 90% !important;
+                    height: auto !important;
+                }
+
+                p img {
+                    max-width: 90% !important;
+                    height: auto !important;
+                }
+
+                h2 {
+                    font-size: var(--dbim-h2, 20px);
+                    font-weight: 600 !important;
+                }
+
+                h3 {
+                    font-size: var(--dbim-h3, 16px);
+                    font-weight: 600 !important;
+                }
+            }
+        </style>
+        <style type="text/css">
+            .film-roll-badge {
+                position: absolute;
+                top: 82%;
+                right: 20px;
+                width: 230px;
+                height: 70px;
+                background: repeating-linear-gradient( to right, var(--dbim-green-key, #0F5757) 0px, var(--dbim-green-key, #0F5757) 18px, var(--dbim-text, #150202) 18px, var(--dbim-text, #150202) 36px );
+                border-top: 8px solid var(--dbim-green-key, #0F5757);
+                border-bottom: 8px solid var(--dbim-green-key, #0F5757);
+                border-radius: 8px;
+                overflow: hidden;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+                animation: moveFilm 8s linear infinite;
+                z-index: 10;
+            }
+
+                .film-roll-badge::before,
+                .film-roll-badge::after {
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 10px;
+                    background: repeating-linear-gradient( to right, var(--dbim-green-key, #0F5757) 0px, var(--dbim-green-key, #0F5757) 10px, #fff 10px, #fff 20px );
+                    left: 0;
+                    z-index: 2;
+                }
+
+                .film-roll-badge::before {
+                    top: -4px;
+                }
+
+                .film-roll-badge::after {
+                    bottom: -4px;
+                }
+
+            .film-roll-inner {
+                position: relative;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                animation: flicker 2s infinite ease-in-out;
+            }
+
+            .countdown-text {
+                font-size: 1.3rem;
+                font-weight: 700;
+                color: #fff;
+                text-shadow: 0 0 6px rgba(255, 255, 255, 0.4), 0 0 10px #000;
+                white-space: nowrap;
+            }
+
+            @keyframes moveFilm {
+                0% {
+                    background-position: 0 0;
+                }
+
+                100% {
+                    background-position: 120px 0;
+                }
+            }
+
+            @keyframes flicker {
+                0%, 100% {
+                    opacity: 1;
+                }
+
+                50% {
+                    opacity: 0.9;
+                }
+
+                25% {
+                    opacity: 0.95;
+                }
+
+                75% {
+                    opacity: 0.85;
+                }
+            }
+
+            @media (max-width: 1500px) {
+                .film-roll-badge {
+                    top: 68%;
+                    right: 18px;
+                    height: 65px;
+                    font-size: 0.85rem;
+                }
+
+                .press-section {
+                    margin-top: 35px;
+                }
+            }
+
+            @media (max-width: 992px) {
+                .film-roll-badge {
+                    top: 52%;
+                    right: 10px;
+                    width: 200px;
+                    height: 60px;
+                }
+            }
+
+            @media (max-width: 768px) {
+                .film-roll-badge {
+                    top: 56%;
+                    right: 10px;
+                    width: 124px;
+                    height: 55px;
+                }
+
+                .countdown-text {
+                    font-size: 0.9rem;
+                }
+            }
+
+            @media (max-width: 576px) {
+                .film-roll-badge {
+                    top: 59%;
+                    right: 5px;
+                    height: 50px;
+                }
+
+                .countdown-text {
+                    font-size: 0.85rem;
+                }
+            }
+        </style>
+        <script type="text/javascript">
+                  const festivalStart = new Date("2025-11-20T00:00:00").getTime();
+                  const festivalEnd = new Date("2025-11-28T23:59:59").getTime();
+                  const countdownElement = document.getElementById("countdown");
+
+                  if (countdownElement) {
+                        const interval = setInterval(() => {
+                              const now = new Date().getTime();
+
+                              if (now < festivalStart) {
+                                    const diff = festivalStart - now;
+                                    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                                    const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+
+                                    countdownElement.innerHTML = `${days} Day${days !== 1 ? 's' : ''} ${hours} Hour${hours !== 1 ? 's' : ''} to go`;
+                              } else if (now >= festivalStart && now <= festivalEnd) {
+                                    const dayNumber = Math.floor((now - festivalStart) / (1000 * 60 * 60 * 24)) + 1;
+                                    countdownElement.innerHTML = `56th IFFI - Day ${dayNumber}`;
+                              } else {
+                                    countdownElement.innerHTML = `✨ IFFI closes but never ends…`;
+                                    const elements = document.querySelectorAll('.film-roll-badge');
+                                    elements.forEach(el => el.style.width = "350px");
+                                    clearInterval(interval);
+                              }
+                        }, 1000);
+                  }
+        </script>
+        <script type="text/javascript">
+                  const miffStart = new Date("2026-06-15T00:00:00").getTime();
+                  const miffEnd = new Date("2026-06-15T23:59:59").getTime();
+                  const miffElement = document.getElementById("miff");
+
+                  if (miffElement) {
+                        const miffInterval = setInterval(() => {
+                              const now = new Date().getTime();
+
+                              if (now < miffStart) {
+                                    const diff = miffStart - now;
+                                    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                                    miffElement.innerHTML = `${days} Day${days === 1 ? '' : 's'} to MIFF ...`;
+                              } else if (now >= miffStart && now <= miffEnd) {
+                                    const dayNumber = Math.floor((now - miffStart) / (1000 * 60 * 60 * 24)) + 1;
+                                    miffElement.innerHTML = `19th MIFF - Day ${dayNumber}`;
+                              } else {
+                                    miffElement.innerHTML = `✨ MIFF concludes, cinema lives on...`;
+                                    document.querySelectorAll('.film-roll-badge').forEach(el => el.style.width = "350px");
+                                    clearInterval(miffInterval);
+                              }
+                        }, 1000);
+                  }
+        </script>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("sc_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.ModalPopupBehavior, {"BackgroundCssClass":"modalBackground","PopupControlID":"P_CategoryManagement","dynamicServicePath":"/PressReleasePage.aspx","id":"mpe"}, null, null, $get("Hidden"));
+});
+//]]>
+</script>
+<input type="hidden" name="__ncforminfo" value="u1dt56AQgCgGwsXeJBNG6LB6Jw0wOor5vbFREqCOggoNnAOSGEX_HAPo2B6eHqsGujILlz8SqfKTTtTv_42T6pLb9VJsuWFSX_szhaDStMH8_-20JwJIug=="/></form>
+    
+
+<script type="application/json" id="pibConsentConfig">{"ga4Id":"G-Q414Y0X6EE,G-QJJ6LZ8LHV","policyUrl":"/CookiePolicy.aspx","text":{"bannerLabel":"Cookie consent","title":"Cookies on this website","body":"We use essential cookies to make this website work. We also set analytics cookies when you arrive, so we can see how the site is used and improve it - you can switch these off below or at any time from the Cookie Policy page. Cookies from embedded social media content are set only if you allow them.","policyLink":"Read our Cookie Policy","accept":"Accept all","reject":"Reject optional","customize":"Customise","prefsTitle":"Cookie preferences","prefsIntro":"Choose which cookies this website may set. Essential cookies cannot be switched off because the site does not work without them. Analytics cookies are on unless you turn them off. Social media cookies stay off until you allow them. You can change these choices at any time from the Cookie Policy page.","essentialName":"Essential cookies","essentialDesc":"Needed for the site to function. These remember your session, your language and region, your text size and colour theme, and verify the security check on forms. They are always on.","analyticsName":"Analytics cookies","analyticsDesc":"Help us understand how visitors use the site - which pages are read and how long people stay - so it can be improved. The information is collected in a form that does not directly identify you. These are on when you arrive; switching them off here stops them and deletes the ones already set.","socialName":"Social media cookies","socialDesc":"Set by content embedded from X, Facebook and YouTube, such as timelines and videos. These platforms may use them to track you across websites. They stay off until you allow them.","save":"Save preferences","cancel":"Cancel"}}</script>
+<script type="text/javascript" src='/js/consent.js?v=10'></script>
+
+<script type="text/javascript" src='/js/consent-embeds.js?v=10'></script>
+
+
+    <!-- Minimal O(N) Time and O(1) Auxiliary Space Word Count & Read Time Calculation -->
+    <script type="text/javascript">
+            (function () {
+                  function calculateReadingStats() {
+                        var bodyEl = document.getElementById("pibReleaseBody");
+                        if (!bodyEl) return;
+
+                        // textContent extracts text without triggering expensive layout/reflow computations
+                        var text = bodyEl.textContent || "";
+                        var words = 0;
+                        var inWord = false;
+
+                        // O(N) single pass character code scan: achieves O(1) space with zero array allocations
+                        for (var i = 0, len = text.length; i < len; i++) {
+                              var code = text.charCodeAt(i);
+                              // Delimits on ASCII whitespace, control characters, tabs, newlines, and non-breaking spaces (160)
+                              if (code <= 32 || code === 160) {
+                                    inWord = false;
+                              } else if (!inWord) {
+                                    inWord = true;
+                                    words++;
+                              }
+                        }
+
+                        // Standard 250 WPM reading speed (e.g., 612 words yields 2 min read)
+                        var minutes = Math.max(1, Math.round(words / 250));
+
+                        var elWords = document.getElementById("prWordCount");
+                        var elTime = document.getElementById("prReadTime");
+
+                        if (elWords) elWords.textContent = words + (words === 1 ? " word" : " words");
+                        if (elTime) elTime.textContent = minutes + " min read";
+                  }
+
+                  if (document.readyState === "loading") {
+                        document.addEventListener("DOMContentLoaded", calculateReadingStats);
+                  } else {
+                        calculateReadingStats();
+                  }
+            })();
+    </script>
+
+    <script type="text/javascript">
+            (function () {
+                  try {
+                        if (window.self === window.top) { return; }
+                  } catch (e) { return; }
+                  var s = document.createElement("style");
+                  s.textContent = ".sticky-social, .sticky-social_mb { display: none !important; }";
+                  (document.head || document.documentElement).appendChild(s);
+            }());
+    </script>
+</body>
+</html>

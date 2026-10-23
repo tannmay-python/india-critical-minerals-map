@@ -1,0 +1,261 @@
+
+ Press Release Page | Press Information Bureau
+ Ministry of Electronics & IT
+ ECMS Accelerates Electronics Manufacturing: 38 Plants Operational, 16 in Advanced Construction Stages
+106 ECMS Projects Approved, Set to Generate around 75 thousand Direct Jobs with ₹69,548 Crore Investment
+ECMS Drives ‘Swadeshi’ Value Chain with First-Ever Domestic Manufacturing of Critical Components and Raw Materials
+India Moves Towards Electronics Self-Reliance as ECMS Capacities Meet and Exceed Domestic Demand
+ Posted On:
+ 17 AUG 2026 7:41PM by PIB Delhi
+In continuation to the approvals of 75 applications involving investment of Rs 61,671 crore announced earlier, the Ministry of Electronics and Information Technology (MeitY) has further approved 31 proposals under the Electronics Components Manufacturing Scheme (ECMS) with projected investment of Rs 6,844 crore. The event of handing over of approvals was held at New Delhi in collaboration with Electronic Industries Association of India (ELCINA).The event was also attended by Union Minister of Electronics and IT Shri Ashwini Vaishnaw,  Shri Jitin Prasada - Minister of State for Electronics and IT, Shri S. Krishnan - Secretary MeitY, Shri Sushil Pal - Joint Secretary MeitY, Shri Sasikumar Gendham - President ELCINA.
+Speaking at the event Shri Ashwini Vaishnaw, Union Minister for Ministry of Electronics & IT, Railways and Information & Broadcasting said that The Electronics Component Manufacturing Scheme (ECMS) is accelerating the development of a robust and deep-rooted ‘Swadeshi’ electronics value chain, moving beyond assembly to domestic manufacturing of critical components and essential raw materials. Of the 106 projects approved so far, including 31 approved today, 38 plants have already commenced manufacturing, while another 16 projects are at advanced stages of construction or machinery installation. The latest approvals include first-ever domestic manufacturing of diverse critical components such as filters, coils and speakers, along with essential raw materials such as acetylene black and electrolyte additives.
+The scheme is boosting self‑reliance and economic growth, with production capacity now meeting the entire domestic demand. In fact, output already exceeds demand in key areas such as anode material (~110%), Optical Transceiver‑SFP (350%), and relays (200%).
+The 106 approved projects are expected to generate 74,628 direct jobs, and 2.5 lakh indirect employment, with a total approved investment of ₹69,548 crore across 15 States, while the 31 projects approved today alone are expected to create 9,588 direct jobs, strengthening India’s journey towards a self-reliant and globally competitive electronics manufacturing ecosystem.
+Taken together, the current approvals entail investment of Rs 7,877 crore, projected production of Rs 82,243 crore and are expected to generate 9,588 direct employment opportunities. Further, additional investment of Rs 1,033 crore by an already approved applicant, Wipro Global Engineering and Electronic Materials Private Limited, for manufacturing of Laminate (Copper Clad) has also been approved.
+The current approvals cover manufacturing of 20 target segment products, spanning sub-assemblies, bare components, supply chain products and capital goods. These include:
+3 sub-assemblies:
+ Camera Module, Display Module and Optical Transceiver -SFP;
+10 components:
+ Enclosures, Connectors, Transducers, Speakers & Microphones, Relays, Antenna, Coils, Filters, Capacitors and Metal Shielding Covers;
+6 supply chain products:
+ Anode Material, Rare Earth Permanent Magnets, Acetylene Black, Electrolyte Additives, Metallized Films for Capacitors and Hermetic Terminals; and
+Capital Goods
+ and their parts
+The approved projects are spread across 10 States viz. Goa, Gujarat, Haryana, Himachal Pradesh, Karnataka, Maharashtra, Tamil Nadu, Telangana, Uttar Pradesh and Uttarakhand, further expanding the geographical footprint of electronics component manufacturing in the country. Some applicants have proposed investments across multiple locations/States.
+In the sub-assembly category, approvals for manufacturing of Display Module Sub-Assembly have been granted to 
+Minda Instrument Limited
+ and 
+TXB Optics Private Limited
+. Approval for manufacturing of Camera Module Sub-Assembly has been granted to 
+SkyQuad Electronics & Appliances Private Limited
+.
+For manufacturing of Optical Transceiver - SFP, approvals have been granted to 
+SFO Technologies Private Limited
+, 
+GX Quantum Photonics Private Limited
+ and 
+Huber Suhner Electronics Private Limited
+.
+In the components category, approvals for manufacturing have been granted as below:
+Connectors to 
+Amphenol Interconnect India Private Limited
+, 
+Ennovi Mobility Solutions India Private Limited
+ and 
+Rosenberger Interconnect India Private Limited
+;
+Relays to 
+Allied Engineering Works Limited
+ and 
+Gruner India Private Limited
+;
+Transducers to 
+Centum Electronics Ltd
+ and 
+Sensata Technologies India Private Limited
+;
+Filters to 
+Centum Electronics Ltd
+;
+Capacitors to 
+Globe Capacitors Private Limited
+;
+Coils to 
+Syrma SGS Technology Limited
+;
+Metal Shielding Covers to 
+Wangda Technologies Private Limited
+;
+Speakers & Microphones to 
+Brandworks Precision Manufacturing Pvt. Ltd.
+;
+Antenna to 
+Britannia RFID Technologies India Pvt. Ltd.
+; and
+Enclosures to 
+Micromax Precision Moulding Private Limited
+;
+Further, to deepen the electronics manufacturing supply chain, approvals have also been given for manufacturing various supply chain products as below:
+Anode Material, a critical component for Li-ion cells, to 
+Epsilon C2GR Private Limited
+;
+Rare Earth Permanent Magnets to 
+Quantum Magnetics Private Limited
+;
+Acetylene Black, a conductive additive for Li-ion cells, to 
+PCBL Chemical Limited
+;
+Electrolyte Additives to 
+Acutaas Chemicals Limited
+; and
+Metallized Films for Capacitors to 
+Capfilm India Private Limited
+.
+Hermetic Terminals, critical components used to create leak-proof electrical pathways through a sealed barrier, to 
+JJ Glastronics Private Limited
+.
+Further, the proposal of an already approved applicant,
+ Wipro Global Engineering and Electronic Materials Private Limited
+, for additional investment of Rs 1,033 crore, for manufacturing of Laminate (Copper Clad) has also been approved.
+Furthermore, the current approvals continue the emphasis on developing domestic manufacturing capability in capital goods and their parts. Approvals have also been granted to five applicants - 
+Jyoti CNC Automation Limited
+, 
+VVDN Technologies Private Limited
+, 
+Accurate Gauging and Instruments Pvt Ltd
+, 
+Mitsubishi Electric India Private Limited
+ and 
+Ind Sphinx Precision Limited
+.
+With these approvals, overall, 106 applications covering 30 products across 15 States have been approved under ECMS, amounting to expected investment of Rs 69,548 crore, projected production of Rs 5,34,101 crore and expected direct employment for 74,628 persons.
+These approvals will strengthen domestic supply chains, deepen value addition, reduce import dependence, and build advanced manufacturing capabilities, further advancing India’s emergence as a global electronics manufacturing hub.
+Electronics Component Manufacturing Scheme (ECMS)
+The Government launched ECMS to deepen the supply chain ecosystem and develop a robust electronics component ecosystem in the country.
+It aims to attract investments across key components such as Printed Circuit Boards (PCBs), passive components, electro-mechanical components, sub-assemblies, camera modules, optical transceivers, and capital goods required for electronics manufacturing.
+The scheme is accelerating the development of and deep rooted ‘Swadeshi’ electronics value chain, moving beyond assembly to domestic manufacturing of critical components and essential raw materials. Of the 106 projects approved so far, including 31 approved on August 17th,, 38 plants have already commenced manufacturing, while another 16 projects are at advanced stages of construction or machinery installation. The latest approvals include first ever domestic manufacturing of critical components such as filters, coils and speakers, along with essential raw materials such as acetylene black and electrolyte additives.
+The scheme is also driving greater Atmanirbharata and economic growth, with capacity for enclosures meeting around 100% of domestic demand. The approved investment under ECMS has now increased to ₹69,548 crore, up from the ₹59,350 crore investment originally envisaged under the scheme. 
+The Electronic Industries Association of India (ELCINA), established in 1967 as India’s first industry association supporting electronics hardware, has played a longstanding role in promoting electronics manufacturing and representing the industry’s interests before Government and other stakeholders.
+Watch the full event footage 
+here
+.
+Click here for 
+more details.
+****
+Vinod Kumar/ Kanishk Sharma / Vanshita Jaiswal
+(Release ID: 2300625)
+Visitor Counter : 7417
+Read this release in: 
+ Urdu 
+ ,
+ हिन्दी 
+ ,
+ Telugu 
+Share
+-- words
+|
+-- min read
+ Ministry of Electronics & IT
+ ECMS Accelerates Electronics Manufacturing: 38 Plants Operational, 16 in Advanced Construction Stages
+106 ECMS Projects Approved, Set to Generate around 75 thousand Direct Jobs with ₹69,548 Crore Investment
+ECMS Drives ‘Swadeshi’ Value Chain with First-Ever Domestic Manufacturing of Critical Components and Raw Materials
+India Moves Towards Electronics Self-Reliance as ECMS Capacities Meet and Exceed Domestic Demand
+ Posted On:
+ 17 AUG 2026 7:41PM by PIB Delhi
+In continuation to the approvals of 75 applications involving investment of Rs 61,671 crore announced earlier, the Ministry of Electronics and Information Technology (MeitY) has further approved 31 proposals under the Electronics Components Manufacturing Scheme (ECMS) with projected investment of Rs 6,844 crore. The event of handing over of approvals was held at New Delhi in collaboration with Electronic Industries Association of India (ELCINA).The event was also attended by Union Minister of Electronics and IT Shri Ashwini Vaishnaw,  Shri Jitin Prasada - Minister of State for Electronics and IT, Shri S. Krishnan - Secretary MeitY, Shri Sushil Pal - Joint Secretary MeitY, Shri Sasikumar Gendham - President ELCINA.
+Speaking at the event Shri Ashwini Vaishnaw, Union Minister for Ministry of Electronics & IT, Railways and Information & Broadcasting said that The Electronics Component Manufacturing Scheme (ECMS) is accelerating the development of a robust and deep-rooted ‘Swadeshi’ electronics value chain, moving beyond assembly to domestic manufacturing of critical components and essential raw materials. Of the 106 projects approved so far, including 31 approved today, 38 plants have already commenced manufacturing, while another 16 projects are at advanced stages of construction or machinery installation. The latest approvals include first-ever domestic manufacturing of diverse critical components such as filters, coils and speakers, along with essential raw materials such as acetylene black and electrolyte additives.
+The scheme is boosting self‑reliance and economic growth, with production capacity now meeting the entire domestic demand. In fact, output already exceeds demand in key areas such as anode material (~110%), Optical Transceiver‑SFP (350%), and relays (200%).
+The 106 approved projects are expected to generate 74,628 direct jobs, and 2.5 lakh indirect employment, with a total approved investment of ₹69,548 crore across 15 States, while the 31 projects approved today alone are expected to create 9,588 direct jobs, strengthening India’s journey towards a self-reliant and globally competitive electronics manufacturing ecosystem.
+Taken together, the current approvals entail investment of Rs 7,877 crore, projected production of Rs 82,243 crore and are expected to generate 9,588 direct employment opportunities. Further, additional investment of Rs 1,033 crore by an already approved applicant, Wipro Global Engineering and Electronic Materials Private Limited, for manufacturing of Laminate (Copper Clad) has also been approved.
+The current approvals cover manufacturing of 20 target segment products, spanning sub-assemblies, bare components, supply chain products and capital goods. These include:
+3 sub-assemblies:
+ Camera Module, Display Module and Optical Transceiver -SFP;
+10 components:
+ Enclosures, Connectors, Transducers, Speakers & Microphones, Relays, Antenna, Coils, Filters, Capacitors and Metal Shielding Covers;
+6 supply chain products:
+ Anode Material, Rare Earth Permanent Magnets, Acetylene Black, Electrolyte Additives, Metallized Films for Capacitors and Hermetic Terminals; and
+Capital Goods
+ and their parts
+The approved projects are spread across 10 States viz. Goa, Gujarat, Haryana, Himachal Pradesh, Karnataka, Maharashtra, Tamil Nadu, Telangana, Uttar Pradesh and Uttarakhand, further expanding the geographical footprint of electronics component manufacturing in the country. Some applicants have proposed investments across multiple locations/States.
+In the sub-assembly category, approvals for manufacturing of Display Module Sub-Assembly have been granted to 
+Minda Instrument Limited
+ and 
+TXB Optics Private Limited
+. Approval for manufacturing of Camera Module Sub-Assembly has been granted to 
+SkyQuad Electronics & Appliances Private Limited
+.
+For manufacturing of Optical Transceiver - SFP, approvals have been granted to 
+SFO Technologies Private Limited
+, 
+GX Quantum Photonics Private Limited
+ and 
+Huber Suhner Electronics Private Limited
+.
+In the components category, approvals for manufacturing have been granted as below:
+Connectors to 
+Amphenol Interconnect India Private Limited
+, 
+Ennovi Mobility Solutions India Private Limited
+ and 
+Rosenberger Interconnect India Private Limited
+;
+Relays to 
+Allied Engineering Works Limited
+ and 
+Gruner India Private Limited
+;
+Transducers to 
+Centum Electronics Ltd
+ and 
+Sensata Technologies India Private Limited
+;
+Filters to 
+Centum Electronics Ltd
+;
+Capacitors to 
+Globe Capacitors Private Limited
+;
+Coils to 
+Syrma SGS Technology Limited
+;
+Metal Shielding Covers to 
+Wangda Technologies Private Limited
+;
+Speakers & Microphones to 
+Brandworks Precision Manufacturing Pvt. Ltd.
+;
+Antenna to 
+Britannia RFID Technologies India Pvt. Ltd.
+; and
+Enclosures to 
+Micromax Precision Moulding Private Limited
+;
+Further, to deepen the electronics manufacturing supply chain, approvals have also been given for manufacturing various supply chain products as below:
+Anode Material, a critical component for Li-ion cells, to 
+Epsilon C2GR Private Limited
+;
+Rare Earth Permanent Magnets to 
+Quantum Magnetics Private Limited
+;
+Acetylene Black, a conductive additive for Li-ion cells, to 
+PCBL Chemical Limited
+;
+Electrolyte Additives to 
+Acutaas Chemicals Limited
+; and
+Metallized Films for Capacitors to 
+Capfilm India Private Limited
+.
+Hermetic Terminals, critical components used to create leak-proof electrical pathways through a sealed barrier, to 
+JJ Glastronics Private Limited
+.
+Further, the proposal of an already approved applicant,
+ Wipro Global Engineering and Electronic Materials Private Limited
+, for additional investment of Rs 1,033 crore, for manufacturing of Laminate (Copper Clad) has also been approved.
+Furthermore, the current approvals continue the emphasis on developing domestic manufacturing capability in capital goods and their parts. Approvals have also been granted to five applicants - 
+Jyoti CNC Automation Limited
+, 
+VVDN Technologies Private Limited
+, 
+Accurate Gauging and Instruments Pvt Ltd
+, 
+Mitsubishi Electric India Private Limited
+ and 
+Ind Sphinx Precision Limited
+.
+With these approvals, overall, 106 applications covering 30 products across 15 States have been approved under ECMS, amounting to expected investment of Rs 69,548 crore, projected production of Rs 5,34,101 crore and expected direct employment for 74,628 persons.
+These approvals will strengthen domestic supply chains, deepen value addition, reduce import dependence, and build advanced manufacturing capabilities, further advancing India’s emergence as a global electronics manufacturing hub.
+Electronics Component Manufacturing Scheme (ECMS)
+The Government launched ECMS to deepen the supply chain ecosystem and develop a robust electronics component ecosystem in the country.
+It aims to attract investments across key components such as Printed Circuit Boards (PCBs), passive components, electro-mechanical components, sub-assemblies, camera modules, optical transceivers, and capital goods required for electronics manufacturing.
+The scheme is accelerating the development of and deep rooted ‘Swadeshi’ electronics value chain, moving beyond assembly to domestic manufacturing of critical components and essential raw materials. Of the 106 projects approved so far, including 31 approved on August 17th,, 38 plants have already commenced manufacturing, while another 16 projects are at advanced stages of construction or machinery installation. The latest approvals include first ever domestic manufacturing of critical components such as filters, coils and speakers, along with essential raw materials such as acetylene black and electrolyte additives.
+The scheme is also driving greater Atmanirbharata and economic growth, with capacity for enclosures meeting around 100% of domestic demand. The approved investment under ECMS has now increased to ₹69,548 crore, up from the ₹59,350 crore investment originally envisaged under the scheme. 
+The Electronic Industries Association of India (ELCINA), established in 1967 as India’s first industry association supporting electronics hardware, has played a longstanding role in promoting electronics manufacturing and representing the industry’s interests before Government and other stakeholders.
+Watch the full event footage 
+here
+.
+Click here for 
+more details.
+****
+Vinod Kumar/ Kanishk Sharma / Vanshita Jaiswal
+ (Release ID: 2300625)

@@ -1,0 +1,1730 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head id="Head1"><title>
+	Press Release Page | Press Information Bureau
+</title><link href="css/style.css?v=1" rel="stylesheet" type="text/css" /><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="alternate stylesheet" href="css/change.css?v=1" media="screen" title="change" /><link rel="alternate stylesheet" href="css/green.css?v=1" media="screen" title="green" /><link rel="alternate stylesheet" href="css/yellow.css" media="screen" title="yellow" /><link rel="stylesheet" type="text/css" href="css/prtint.css" media="print" /><link rel="stylesheet" href="css/style3.1.css" type="text/css" /><link id="pibA11yCss" rel="stylesheet" href="/css/accessibility.css?v=7" type="text/css" />
+    <script type="text/javascript">
+        (function (d) {
+            var t = "";
+            try {
+                t = window.localStorage.getItem("pibStyle") || "";
+            } catch (e) {
+                t = "";
+            }
+            if (t === "orange") {
+                t = "yellow";
+            }
+            var c = t === "change" ? " pib-hc"
+                : t === "green" ? " pib-theme-green"
+                : t === "yellow" ? " pib-theme-yellow" : "";
+            d.documentElement.className += c + " pib-a11y-content";
+        }(document));
+    </script>
+
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/js/accessibility.js?v=7"></script>
+
+    <script type="text/javascript">
+            $(document).ready(function () {
+                  function getParameterByName(name) {
+                        var url = window.location.href;
+                        name = name.replace(/[\[\]]/g, '\\$&');
+                        var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+                              results = regex.exec(url);
+                        if (!results) return null;
+                        if (!results[2]) return '';
+                        return decodeURIComponent(results[2].replace(/\+/g, ' '));
+                  }
+                  let prid = parseInt(getParameterByName('PRID'), 10);
+
+                  if (!isNaN(prid) && prid > 0) {
+                        $.ajax({
+                              type: "POST",
+                              url: "AjaxMethod.aspx/UpdatePRHitCount",
+                              async: false,
+                              data: JSON.stringify({ 'PermId': prid }),
+                              contentType: "application/json; charset=utf-8",
+                              dataType: "json",
+                              success: function (response) {
+                                    console.log(response);
+                              },
+                              error: function (error) {
+                                    console.log("Error in AJAX request", error);
+                              }
+                        });
+                  } else {
+                        console.log("Invalid parameters:", prid);
+                  }
+            });
+    </script>
+    <style type="text/css">
+        .table-responsive {
+            width: 100%;
+            overflow-x: auto;
+        }
+
+        .banner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+        }
+
+        full-width {
+            width: 100%;
+        }
+
+        .logo-left, .logo-center, .countdown {
+            display: flex;
+            align-items: center;
+        }
+
+            .logo-left img, .logo-center img {
+                height: 70px;
+            }
+
+        .countdown {
+            text-align: center;
+            background-color: var(--dbim-text, #150202);
+            border-radius: 10px;
+            padding: 10px;
+            border: 2px solid grey;
+        }
+
+        .firstnumber {
+            color: #000000;
+            position: absolute;
+            top: 50px;
+            right: 90px;
+            font-size: 30px;
+        }
+
+        .secondnumber {
+            position: absolute;
+            color: #000000;
+            right: 45px;
+            top: 50px;
+            font-size: 30px;
+        }
+
+        .countdown .days {
+            font-size: 35px;
+            color: gold;
+        }
+
+        .countdown p {
+            margin: 0;
+        }
+
+        .countdown .text {
+            font-size: 16px;
+        }
+
+        a {
+            word-break: break-all;
+        }
+
+        iframe, img {
+            max-width: 100%;
+        }
+
+        /* === DBIM 3.0 Option 4 Separator Line & Reading Meta Styling === */
+        .pr-share--footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+            border-top: 1px solid var(--dbim-border, #d1d5db);
+            padding-top: 16px;
+            margin-top: 24px;
+        }
+
+        .pr-share__left {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .pr-reading-meta {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 0.95rem;
+            color: var(--dbim-text-secondary, #475569);
+            font-weight: 500;
+            white-space: nowrap;
+            margin-left: auto;
+        }
+
+        .pr-reading-meta__item {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .pr-reading-meta__divider {
+            color: var(--dbim-border, #cbd5e1);
+            font-weight: 300;
+        }
+
+        .pib-hc .pr-reading-meta,
+        .pib-hc .pr-reading-meta svg {
+            color: currentColor !important;
+        }
+
+        @media (max-width: 680px) {
+            .pr-share--footer {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .pr-reading-meta {
+                margin-left: 0;
+                width: 100%;
+                justify-content: flex-start;
+            }
+        }
+
+        @media(max-width:1199px) {
+            .firstnumber {
+                top: 40px;
+                right: 72px;
+                font-size: 30px;
+            }
+
+            .secondnumber {
+                right: 35px;
+                top: 40px;
+                font-size: 30px;
+            }
+        }
+
+        @media(max-width:990px) {
+            .firstnumber {
+                top: 25px;
+                right: 54px;
+                font-size: 30px;
+            }
+
+            .secondnumber {
+                right: 25px;
+                top: 25px;
+                font-size: 30px;
+            }
+        }
+
+        @media(max-width:768px) {
+            .countdown, .days {
+                font-size: 12px !important;
+            }
+
+            .firstnumber {
+                top: 25%;
+                right: 8%;
+                font-size: 30px;
+            }
+
+            .secondnumber {
+                right: 4.5%;
+                top: 25%;
+                font-size: 30px;
+            }
+        }
+
+        @media(max-width:475px) {
+            .countdown, .days {
+                font-size: 10px !important;
+                top: 20%;
+            }
+
+            .bannerimgdiv {
+                padding: 0 !important;
+            }
+
+            .bannerimg {
+                width: 108% !important;
+            }
+        }
+    </style>
+    <script type="text/javascript">
+            $(function () {
+                  $("[id*=printPDF]").click(function () {
+                        $("[id*=hfGridHtml]").val($("#PdfDiv").html());
+                  });
+            });
+            $(function () {
+                  $("[id*=printPDFEvent]").click(function () {
+                        $("[id*=hfGridHtml]").val($("#PdfDiv").html());
+                  });
+            });
+    </script>
+
+    <link id="pibConsentCss" href="/css/consent.css?v=8" rel="stylesheet" type="text/css" /><link id="pibFontsCss" href="/css/fonts-noto.css?v=6" rel="stylesheet" type="text/css" /><link id="pibDbimCss" href="/css/dbim.css?v=1120" rel="stylesheet" type="text/css" /><meta property="og:title" content="Ministry of Heavy Industries (MHI) receives 20 bids under the Scheme to Promote Manufacturing of Sintered Rare Earth Permanent (REPM)" /><meta property="og:url" content="www.pib.gov.in/Pressreleaseshare.aspx?PRID=2299078" /><meta property="og:description" content="Ministry of Heavy Industries (MHI) receives 20 bids through Global Tender on CPP portal for Selectio" /><meta property="og:image" content="https:/pib.gov.in/images/indian-emblem.png" />
+                                <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="C4E7H-KSCMC-422L4-W3EM5-U36MF",function(){function e(){if(!i){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,o.parentNode.appendChild(e),i=!0}}function t(e){i=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(o.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",o.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"C4E7H-KSCMC-422L4-W3EM5-U36MF";var o=document.currentScript||document.getElementsByTagName("script")[0],i=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!i)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),o.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="eqausagjcb5rwjqacqh5aaaaabvnuxac-f-01cdcc788-clienttons-s.akamaihd.net",o="false"=="true"?2:1,i={"ak.v":"41","ak.cp":"1825201","ak.ai":parseInt("1215205",10),"ak.ol":"0","ak.cr":160,"ak.ipv":6,"ak.proto":"h2","ak.rid":"2a8db16d","ak.r":32706,"ak.a2":n,"ak.m":"dscb","ak.n":"ff","ak.cport":58604,"ak.gh":"23.201.55.159","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"","ak.t":"1792695298","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==k1mcHB0lgeWNH/FQkT79LD0hEfGeoKYhzVjmitdTxPeZPeQtW/iS39w+FBMb2tfODC3tPvUPbM1OLSYIRbNCcsEoZYI0HVT+znf+UW4g8AVL1TdGSSH+b052+KHvLtWf8onUqyGNbIBFRgUXACmZ0MxKOJAT69rVW1iyB3jVCTLfWkvKohT3SLWtL+I17SWfoNs1Tao8HysmKXpcWiVnh3KO0nn8WdOMztOt3iuYCu3aW4CglvBOiWrJ/ReHMhlu0AXVgca1XTN6Q8cpyf725D4mnKo6H3wU/5hntIwfk1eKTsCPzR9eImPfyv+wIbD11100BWrZhcoCaf1LivJJI6dQQAnaw9lBOY6fNgltDBEt7q3NBwnqJ1ZGTPy4MAMVKJczcdohZshPel5g39CXAsk22AaDx2Bi1WsNP9Clmg8=","ak.pv":"9","ak.dpoabenc":"","ak.tf":o};if(""!==t)i["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))i["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var e=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+<body>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
+     style="position:absolute;width:0;height:0;overflow:hidden" id="dbim-icon-sprite">
+    <defs>
+        <symbol id="icon-angle-double-left" viewBox="0 0 24 24"><path d="M11.6 4.6 4.2 12l7.4 7.4 2.2-2.2L8.6 12l5.2-5.2z"/><path d="M19 4.6 11.6 12 19 19.4l2.2-2.2L16 12l5.2-5.2z"/></symbol>
+        <symbol id="icon-angle-double-right" viewBox="0 0 24 24"><path d="M12.4 4.6 10.2 6.8 15.4 12l-5.2 5.2 2.2 2.2L19.8 12z"/><path d="M5 4.6 2.8 6.8 8 12l-5.2 5.2L5 19.4 12.4 12z"/></symbol>
+        <symbol id="icon-arrow-left" viewBox="0 0 24 24"><path d="M20.8 10.6H9.6v2.8h11.2z"/><path d="M10.8 5.6 3.2 12l7.6 6.4z"/></symbol>
+        <symbol id="icon-arrow-right" viewBox="0 0 24 24"><path d="M3.2 10.6h11.2v2.8H3.2z"/><path d="M13.2 5.6 20.8 12l-7.6 6.4z"/></symbol>
+        <symbol id="icon-blogger" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M6.4 2.4h11.2a4 4 0 0 1 4 4v11.2a4 4 0 0 1-4 4H6.4a4 4 0 0 1-4-4V6.4a4 4 0 0 1 4-4zm2.8 5.2a2 2 0 0 0 0 4h2.4a2 2 0 0 0 0-4zm0 5.6a2 2 0 0 0 0 4h5.6a2 2 0 0 0 0-4z"/></symbol>
+        <symbol id="icon-calendar" viewBox="0 0 24 24"><path d="M7.6 2.4H10v2.4H7.6z"/><path d="M14 2.4h2.4v2.4H14z"/><path fill-rule="evenodd" d="M4 4.8h16a1.6 1.6 0 0 1 1.6 1.6v13.2a1.6 1.6 0 0 1-1.6 1.6H4a1.6 1.6 0 0 1-1.6-1.6V6.4A1.6 1.6 0 0 1 4 4.8zm.4 5.6v8.4h15.2v-8.4z"/><path d="M6.4 12.4h3.2v3.2H6.4z"/></symbol>
+        <symbol id="icon-chevron-left" viewBox="0 0 24 24"><path d="M15.4 4.6 8 12l7.4 7.4 2.2-2.2L12.4 12l5.2-5.2z"/></symbol>
+        <symbol id="icon-chevron-right" viewBox="0 0 24 24"><path d="M8.6 4.6 6.4 6.8 11.6 12l-5.2 5.2 2.2 2.2L16 12z"/></symbol>
+        <symbol id="icon-circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/></symbol>
+        <symbol id="icon-download" viewBox="0 0 24 24"><path d="M10.8 3h2.4v7.6h3.4L12 16.6l-4.6-6h3.4z"/><path d="M4 17.2h2.4v2.4h11.2v-2.4H20v3.2a1.4 1.4 0 0 1-1.4 1.4H5.4A1.4 1.4 0 0 1 4 20.4z"/></symbol>
+        <symbol id="icon-facebook" viewBox="0 0 24 24"><path d="M13.6 21.6v-8.4h2.8l.42-3.3h-3.22V7.8c0-.95.27-1.6 1.64-1.6h1.74V3.26a23 23 0 0 0-2.54-.13c-2.5 0-4.22 1.53-4.22 4.34v2.43H7.4v3.3h2.82v8.4z"/></symbol>
+        <symbol id="icon-fact-check" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.4 3.6 5.6v6.2c0 4.6 3.4 8.6 8.4 9.8 5-1.2 8.4-5.2 8.4-9.8V5.6zm-1 13.2-3.6-3.6 1.7-1.7 1.9 1.9 4.5-4.5 1.7 1.7z"/></symbol>
+        <symbol id="icon-hashtag" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M8.8 3h2.4l-1 6h3.2l1-6h2.4l-1 6h3.4v2.4h-3.8l-.6 3.2h3.6V17h-4l-1 5h-2.4l1-5h-3.2l-1 5H5.4l1-5H3V14.6h3.8l.6-3.2H3.8V9h4zm.6 8.4-.6 3.2h3.2l.6-3.2z"/></symbol>
+        <symbol id="icon-home" viewBox="0 0 24 24"><path d="M12 3.4 2.8 11.6h2.4v8.4a1 1 0 0 0 1 1h3.3v-5.4h5v5.4h3.3a1 1 0 0 0 1-1v-8.4h2.4z"/></symbol>
+        <symbol id="icon-instagram" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M7.6 2.4h8.8a5.2 5.2 0 0 1 5.2 5.2v8.8a5.2 5.2 0 0 1-5.2 5.2H7.6a5.2 5.2 0 0 1-5.2-5.2V7.6a5.2 5.2 0 0 1 5.2-5.2zm0 2.4a2.8 2.8 0 0 0-2.8 2.8v8.8a2.8 2.8 0 0 0 2.8 2.8h8.8a2.8 2.8 0 0 0 2.8-2.8V7.6a2.8 2.8 0 0 0-2.8-2.8z"/><path fill-rule="evenodd" d="M12 6.8a5.2 5.2 0 1 0 0 10.4 5.2 5.2 0 0 0 0-10.4zm0 2.4a2.8 2.8 0 1 1 0 5.6 2.8 2.8 0 0 1 0-5.6z"/><circle cx="17.3" cy="6.7" r="1.3"/></symbol>
+        <symbol id="icon-linkedin" viewBox="0 0 24 24"><path d="M4.8 8.8h3.6v12H4.8z"/><circle cx="6.6" cy="5.4" r="2.1"/><path d="M10.8 8.8h3.45v1.65h.05c.48-.9 1.65-1.85 3.4-1.85 3.63 0 4.3 2.35 4.3 5.4v6.6h-3.6v-5.85c0-1.4-.03-3.2-1.95-3.2-1.95 0-2.25 1.52-2.25 3.1v5.95h-3.6z"/></symbol>
+        <symbol id="icon-mail" viewBox="0 0 24 24"><path d="M2.4 7.6v9.2a1.6 1.6 0 0 0 1.6 1.6h16a1.6 1.6 0 0 0 1.6-1.6V7.6L12 14z"/><path d="M21.2 5.4H2.8L12 11.8z"/></symbol>
+        <symbol id="icon-mail-open" viewBox="0 0 24 24"><path d="M2.4 9.8h19.2v9.6A1.6 1.6 0 0 1 20 21H4a1.6 1.6 0 0 1-1.6-1.6z"/><path d="M12 2.6 21.6 9.2h-3.8L12 5.3 6.2 9.2H2.4z"/><path d="m3.9 11.2 8.1 5.4 8.1-5.4 1.5 1.3-9.6 6.4-9.6-6.4z"/></symbol>
+        <symbol id="icon-map-marker" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.4a7 7 0 0 0-7 7c0 5.2 7 12.2 7 12.2s7-7 7-12.2a7 7 0 0 0-7-7zm0 9.6a2.6 2.6 0 1 1 0-5.2 2.6 2.6 0 0 1 0 5.2z"/></symbol>
+        <symbol id="icon-newspaper" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M2.8 4.4h14.8v15.2H2.8zm2 2v11.2h10.8V6.4z"/><path d="M6 7.6h8.4v1.6H6z"/><path d="M6 10.8h8.4v1.6H6z"/><path d="M6 14h5.2v1.6H6z"/><path d="M18.4 8.4h2.8v9.6a1.4 1.4 0 0 1-2.8 0z"/></symbol>
+        <symbol id="icon-pause" viewBox="0 0 24 24"><rect x="7.4" y="4" width="3.6" height="16" rx="0.9"/><rect x="13" y="4" width="3.6" height="16" rx="0.9"/></symbol>
+    <symbol id="icon-play" viewBox="0 0 24 24"><path d="M8 4.5v15l12-7.5z"/></symbol>
+        <symbol id="icon-picture" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M2.4 5.2h19.2v13.6H2.4zm2 2v9.6h15.2V7.2z"/><path d="M5.6 16.4 10 11l2.6 3 2-2.2 4 4.6z"/><circle cx="8" cy="10.4" r="1.5"/></symbol>
+        <symbol id="icon-press-conference" viewBox="0 0 24 24"><circle cx="12" cy="5.2" r="2.6"/><path d="M7.6 12.2a4.4 4.4 0 0 1 8.8 0z"/><circle cx="4.9" cy="9.6" r="2.2"/><path d="M1.8 15.2a3.1 3.1 0 0 1 6.2 0z"/><circle cx="19.1" cy="9.6" r="2.2"/><path d="M16 15.2a3.1 3.1 0 0 1 6.2 0z"/><path d="M6.6 13.6h10.8l2.2 7.8H4.4z"/></symbol>
+        <symbol id="icon-print" viewBox="0 0 24 24"><path d="M6.4 2.8h11.2v4.4H6.4z"/><path d="M4 8.4h16a1.6 1.6 0 0 1 1.6 1.6v5.6a1.6 1.6 0 0 1-1.6 1.6h-1.6v-2.8H6v2.8H4a1.6 1.6 0 0 1-1.6-1.6V10A1.6 1.6 0 0 1 4 8.4z"/><path d="M7.2 15.6h9.6v5.6H7.2z"/></symbol>
+        <symbol id="icon-rss" viewBox="0 0 24 24"><circle cx="4.8" cy="19.2" r="2.4"/><path d="M2.4 11.2v3.2a6.4 6.4 0 0 1 6.4 6.4H12A9.6 9.6 0 0 0 2.4 11.2z"/><path d="M2.4 4.8V8A13.6 13.6 0 0 1 16 21.6h3.2A16.8 16.8 0 0 0 2.4 4.8z"/></symbol>
+        <symbol id="icon-search-plus" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M10 2.8a7.2 7.2 0 1 0 0 14.4 7.2 7.2 0 0 0 0-14.4zm0 2.4a4.8 4.8 0 1 1 0 9.6 4.8 4.8 0 0 1 0-9.6z"/><path d="M15.3 14.6 21.2 20.5l-1.5 1.5-5.9-5.9z"/><path d="M9.2 6.8h1.6v2.4h2.4v1.6h-2.4v2.4H9.2v-2.4H6.8V9.2h2.4z"/></symbol>
+        <symbol id="icon-share" viewBox="0 0 24 24"><circle cx="18" cy="5.6" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="18.4" r="3"/><path d="M8.3 10.9 15.7 7.2l.9 1.8-7.4 3.7z"/><path d="M9.2 13.1 16.6 16.8l-.9 1.8-7.4-3.7z"/></symbol>
+        <symbol id="icon-twitter" viewBox="0 0 24 24"><path d="M4.2 3h4.3l11.3 18h-4.3z"/><path d="M19.3 3h-2.6L4.2 21h2.6z"/></symbol>
+        <symbol id="icon-university" viewBox="0 0 24 24"><path d="M12 2.4 21.6 7.2v1.6H2.4V7.2z"/><path d="M4.8 10.4h2.4v8H4.8z"/><path d="M9.2 10.4h2.4v8H9.2z"/><path d="M13.4 10.4h2.4v8h-2.4z"/><path d="M17.6 10.4H20v8h-2.4z"/><path d="M3.2 19.8h17.6v1.8H3.2z"/></symbol>
+        <symbol id="icon-volume-up" viewBox="0 0 24 24"><path d="M3.2 9.2h3.3l5-4.2v14l-5-4.2H3.2z"/><path d="M14.6 8.4a5 5 0 0 1 0 7.2l1.6 1.6a7.2 7.2 0 0 0 0-10.4z"/><path d="M17.4 5.6a8.8 8.8 0 0 1 0 12.8l1.5 1.5a10.9 10.9 0 0 0 0-15.8z"/></symbol>
+        <symbol id="icon-whatsapp" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.4a9.5 9.5 0 0 0-8.1 14.5L2.4 21.6l4.8-1.4A9.5 9.5 0 1 0 12 2.4zm0 2.2a7.3 7.3 0 1 1-3.8 13.5l-.4-.2-2.6.7.7-2.5-.3-.4A7.3 7.3 0 0 1 12 4.6z"/><path d="M9.4 7.8c-.2-.5-.4-.5-.6-.5h-.5a1 1 0 0 0-.7.3c-.3.3-.9.9-.9 2.1s.9 2.4 1 2.6c.1.2 1.7 2.8 4.3 3.8 2.1.8 2.6.7 3 .6.5 0 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.5-.3-1.6-.8c-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6 6 0 0 1-1.8-1.1 6.6 6.6 0 0 1-1.2-1.6c-.1-.2 0-.4.1-.5l.4-.5.3-.5v-.5z"/></symbol>
+        <symbol id="icon-youtube" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M21.6 7.2a2.8 2.8 0 0 0-2-2C17.9 4.8 12 4.8 12 4.8s-5.9 0-7.6.4a2.8 2.8 0 0 0-2 2A29 29 0 0 0 2 12a29 29 0 0 0 .4 4.8 2.8 2.8 0 0 0 2 2c1.7.4 7.6.4 7.6.4s5.9 0 7.6-.4a2.8 2.8 0 0 0 2-2A29 29 0 0 0 22 12a29 29 0 0 0-.4-4.8zM10.2 15.1V8.9l5.1 3.1z"/></symbol>
+    </defs>
+</svg>
+
+    <form method="post" action="./PressReleasePage.aspx?PRID=2299078&amp;reg=1&amp;lang=1" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="sc_HiddenField" id="sc_HiddenField" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZPQet1wIx1Q48y3xJY2k25Y7qxH5RrQ9qQcN-OiTC9guZtri9w2&amp;t=639246315009809930" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=x6wALODbMJK5e0eRC_p1LdIxBJXt0U_WW5GWfJqHAqo6frgCmGRfEywglicTersO2OKrFhK1gAIp0Wk2al2YrpdR3uWqH6f4nfjBsCyRUfTUUVmb0&amp;t=ffffffffecf8d3f2" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=P5lTttoqSeZXoYRLQMIScH645UK3RD852IErF2548Wz9Ssv0rLjB4fhVKnHcMpqkaMHpNAGOeWY02Lf4aBYN9-dVBme_SNK5KJwmFQNpMixYDZ7M0&amp;t=ffffffffecf8d3f2" type="text/javascript"></script>
+<script src="/PressReleasePage.aspx?_TSM_HiddenField_=sc_HiddenField&amp;_TSM_CombinedScripts_=%3b%3bAjaxControlToolkit%2c+Version%3d3.5.7.123%2c+Culture%3dneutral%2c+PublicKeyToken%3d28f01b0e84b6d53e%3aen-US%3a5a4df314-b4a2-4da2-a207-9284f1b1e96c%3ade1feab2%3af2c8e708%3a8613aea7%3af9cec9bc%3a3202a5a2%3aab09e3fe%3a87104b7c%3a720a52bf%3a589eaa30%3aa67c2700%3abe6fb298" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="59B53027" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="tM+0LTjaw7/mjLg2iMBqCY8c4voVsTOHfhZWVm4cpBHzwPxHXyH62sy7ORL792ChTF/JNqGYebZ8lRQZHg9gvdNYNIDhuTwiuwEy0T9oORYalAFmeb97qf+WIsDnsiZvdeA8fcZ4xaR2PaE/vkpJgm7vmh1TgAUJvlSqczmAu1ynNN5nOWSdsBc6QsxgVsJ1+cDYSciRTJpHHtUKyqtCPGsqttRHL9Lab/ovzigjbLLD3kHJoez4IXu8HYVV80XWv2sEyOun6vU3tAtmqAW3qnouUDU=" />
+</div>
+        
+        <div id="templateCss"></div>
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('sc', 'form1', ['tupdate12','update12'], [], [], 90, '');
+//]]>
+</script>
+
+        <input type="hidden" name="hfGridHtml" id="hfGridHtml" />
+        <div class="container" style='margin-bottom: 50px;'>
+            <div id="accessories">
+                
+                <div class="pull-right" style="display: flex">
+                    <div id="voll"></div>
+                    <div id="vollDT"></div>
+                    
+
+<span class="print-icons">
+<input type="image" name="Print1$print" id="Print1_print" aria-label="Print" src="images/printer_icon.png" alt="print page button" style="padding: 5px 10px 5px 10px;" />
+</span>
+                </div>
+            </div>
+            <input type="hidden" name="hydpermid" id="hydpermid" value="2299078" />
+            
+
+            <div class="innner-page-main-about-us-content-right-part">
+                <div id="MinistryName" class="MinistryNameSubhead text-center">
+                    Ministry of Heavy Industries 
+                </div>
+                <div id="lg_g"><div class='log_oo'>  <img src='https://static.pib.gov.in/WriteReadData/specificdocs/photo/2026/sep/ph_9768_20260902_10000501.png' alt='azadi ka amrit mahotsav' /> </div></div>
+
+                <div class="text-center event-heading-background">
+                    
+                    <h1 id="Titleh2">
+                        Ministry of Heavy Industries (MHI) receives 20 bids under the Scheme to Promote Manufacturing of Sintered Rare Earth Permanent (REPM)
+                    </h1>
+                    <h3 id="Subtitleh3">
+                        <span id="ltrSubtitle"><br/>India’s Indigenous Rare Earth Permanent Magnet Manufacturing Initiative Gains Momentum as the scheme gets overwhelming response<br/><br/>An important step towards strengthening the domestic REPM manufacturing ecosystem and enhancing competitiveness in the global markets</span>
+                    </h3>
+                </div>
+
+                <div id="PrDateTime" class="ReleaseDateSubHeaddateTime text-center pt20">
+                    Posted On:
+                              13 AUG 2026 6:09PM by PIB Delhi
+                </div>
+                
+                <div class='pt20'>
+                </div>
+                <input type="hidden" name="hydphotoUrl" id="hydphotoUrl" />
+                
+
+                <!-- Release content wrapper for client-side zero-reflow word count -->
+                <div id="pibReleaseBody">
+                    <p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Ministry of Heavy Industries (MHI) receives 20 bids through Global Tender on CPP portal for Selection of Manufacturers for establishing integrated Sintered NdFeB Rare Earth Permanent Magnet Manufacturing Facilities under the &ldquo;Scheme to Promote Manufacturing of Sintered Rare Earth Permanent Magnet (REPM)&rdquo;. List of companies who have submitted their bids&nbsp; is as follows:</span></span></p>
+
+<table align="center" border="1" bordercolor="#ccc" cellpadding="5" cellspacing="0" class="MsoTableGrid" style="border-collapse:collapse">
+	<tbody>
+		<tr>
+			<td style="width:47.95pt">
+			<p><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">S.No.</span></span></p>
+			</td>
+			<td style="width:414.15pt">
+			<p><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Name of the company</span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:47.95pt">
+			<ol>
+				<li>&nbsp;</li>
+			</ol>
+			</td>
+			<td style="width:414.15pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">20 Microns Limited</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:47.95pt">
+			<ol start="2">
+				<li>&nbsp;</li>
+			</ol>
+			</td>
+			<td style="width:414.15pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Attero Recycling Private Limited</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:47.95pt">
+			<ol start="3">
+				<li>&nbsp;</li>
+			</ol>
+			</td>
+			<td style="width:414.15pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">&nbsp;BaRupOn &ndash; IRP Consortium</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:47.95pt">
+			<ol start="4">
+				<li>&nbsp;</li>
+			</ol>
+			</td>
+			<td style="width:414.15pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Coal India Limited</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:47.95pt">
+			<ol start="5">
+				<li>&nbsp;</li>
+			</ol>
+			</td>
+			<td style="width:414.15pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Jay Fe Cylinders Limited</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:47.95pt">
+			<ol start="6">
+				<li>&nbsp;</li>
+			</ol>
+			</td>
+			<td style="width:414.15pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">&nbsp;Keystone Infra Pvt. Ltd &ndash; Huebox Interiors Pvt. Ltd. (JV) </span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:47.95pt">
+			<ol start="7">
+				<li>&nbsp;</li>
+			</ol>
+			</td>
+			<td style="width:414.15pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">&nbsp;Larsen &amp; Toubro Limited</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:47.95pt">
+			<ol start="8">
+				<li>&nbsp;</li>
+			</ol>
+			</td>
+			<td style="width:414.15pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Lohum Magnets &amp; Energy Solutions Private Limited</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:47.95pt">
+			<ol start="9">
+				<li>&nbsp;</li>
+			</ol>
+			</td>
+			<td style="width:414.15pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Midwest Energy Limited &ndash; Midwest Advanced Materials (JV) </span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:47.95pt">
+			<ol start="10">
+				<li>&nbsp;</li>
+			</ol>
+			</td>
+			<td style="width:414.15pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">N.A.N. Magnetech Private Limited </span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:47.95pt">
+			<ol start="11">
+				<li>&nbsp;</li>
+			</ol>
+			</td>
+			<td style="width:414.15pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">NEO Performance Materials (Singapore) PTE. LTD.</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:47.95pt">
+			<ol start="12">
+				<li>&nbsp;</li>
+			</ol>
+			</td>
+			<td style="width:414.15pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Nexon Geochem Private Limited</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:47.95pt">
+			<ol start="13">
+				<li>&nbsp;</li>
+			</ol>
+			</td>
+			<td style="width:414.15pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">PrNd Metal and Magnets Pvt. Ltd.</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:47.95pt">
+			<ol start="14">
+				<li>&nbsp;</li>
+			</ol>
+			</td>
+			<td style="width:414.15pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Proterial (India) Limited.&nbsp; </span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:47.95pt">
+			<ol start="15">
+				<li>&nbsp;</li>
+			</ol>
+			</td>
+			<td style="width:414.15pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Prozeal Green Energy Limited</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:47.95pt">
+			<ol start="16">
+				<li>&nbsp;</li>
+			</ol>
+			</td>
+			<td style="width:414.15pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Ramp Metals &amp; Minerals Private Limited&nbsp; </span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:47.95pt">
+			<ol start="17">
+				<li>&nbsp;</li>
+			</ol>
+			</td>
+			<td style="width:414.15pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Renew Private Limited </span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:47.95pt">
+			<ol start="18">
+				<li>&nbsp;</li>
+			</ol>
+			</td>
+			<td style="width:414.15pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Shankaranarayana Constructions Limited&nbsp; </span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:47.95pt">
+			<ol start="19">
+				<li>&nbsp;</li>
+			</ol>
+			</td>
+			<td style="width:414.15pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Solpro Greentech Private Limited</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:47.95pt">
+			<ol start="20">
+				<li>&nbsp;</li>
+			</ol>
+			</td>
+			<td style="width:414.15pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Starteck Finance Limited</span></span></span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p style="text-align:justify"><span style="font-family:&quot;Times New Roman&quot;,Times,serif; font-size:16px">On 26th November 2025, the Union Cabinet chaired by Prime Minister Shri Narendra Modi approved the &ldquo;Scheme to Promote Manufacturing of Sintered Rare Earth Permanent Magnet (REPM)&rdquo; with a financial outlay of Rs. 7,280 Crore. The Scheme Notification was issued by MHI on 15.12.2025.</span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Request For Proposal (RFP) was floated on CPP portal on 20<sup>th</sup> March 2026. The pre-bid conference was held on 7<sup>th</sup> April 2026. The last date for receiving bids was 12<sup>th</sup> August 2026 on CPP portal and the Technical Bids were opened on 13<sup>th</sup> August 2026 in the presence of the bidders at MHI.</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The Scheme, a first-of-its-kind initiative, aims to establish a total capacity of 6,000 Metric Tons Per Annum (MTPA) of integrated Rare Earth Permanent Magnet manufacturing facilities in India, thereby enhancing self-reliance and positioning India as a key player in the global REPM market.</span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The scheme envisions allocating the total capacity to five beneficiaries through a global competitive bidding process. Each beneficiary will be allotted up to 1,200 MTPA of capacity.</span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The total duration of the scheme will be 7 years from the date of award, including a 2-year gestation period for setting up an integrated REPM manufacturing facility, and 5 years for incentive disbursement on the sale of REPM.</span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Rare Earth Permanent Magnets are among the most powerful magnets in the world and are widely used in electric vehicles, wind turbines, high-end electronics, aerospace and defence systems. By building a complete value chain from NdPr oxide to finished magnets in India, the Scheme is expected to significantly reduce import dependence in this sector.</span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">This initiative by the Government of India is a landmark step towards strengthening the domestic REPM manufacturing ecosystem and enhancing competitiveness in global markets. By fostering indigenous capabilities in REPM production, the scheme will not only secure the REPM supply chain for domestic industries but also support the nation&rsquo;s Net Zero 2070 commitment. It embodies the Government&rsquo;s unwavering commitment to build a technologically self-reliant, globally competitive, and sustainable industrial base, in line with the vision of Viksit Bharat @2047.</span></span></p>
+
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">***</span></span></span></p>
+
+<p><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>TPJ</strong></span></span></p>
+
+                </div>
+
+                <div id="reel_pic">
+                </div>
+
+                <br />
+                <span id="ReleaseId">(Release ID: 2299078)</span>
+                <span id="lblViews">Visitor Counter : 3487</span>
+                <div>
+                    
+                </div>
+                
+
+                <span id="lblRefPhoto"></span>
+
+                <div class="BackgroundRelease">
+                    
+                </div>
+                <div>
+                    
+                </div>
+                <div class="ReleaseLang">Read this release in: 
+                
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2299202' target="_blank">
+                            Urdu </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2299131' target="_blank">
+                            हिन्दी </a>
+                    
+                </div>
+
+                <div class="RelTag">
+                    <ul>
+                        
+                    </ul>
+                </div>
+                <div class="clear">
+                </div>
+
+                <!-- DBIM 3.0 Option 4: Separator Line with Left Share Rail & Right Reading Metrics -->
+                <div class="pr-share pr-share--footer" role="region" aria-label="Share and reading details">
+                    <div class="pr-share__left">
+                        <span class="pr-share__label" aria-hidden="true">Share</span>
+                        <ul class="pr-share__list">
+                            <li><a class="pr-share__btn pr-share__btn--facebook"
+                                href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2299078"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on Facebook">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-facebook" xlink:href="#icon-facebook"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--twitter"
+                                href="https://twitter.com/intent/tweet?url=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2299078"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on X">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-twitter" xlink:href="#icon-twitter"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--whatsapp"
+                                href="https://api.whatsapp.com/send?text=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2299078"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on WhatsApp">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-whatsapp" xlink:href="#icon-whatsapp"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--linkedin"
+                                href="https://www.linkedin.com/sharing/share-offsite/?url=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2299078"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on LinkedIn">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-linkedin" xlink:href="#icon-linkedin"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--mail"
+                                href="mailto:?subject=Press+release+from+PIB&amp;body=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2299078"
+                                aria-label="Share by email">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-mail" xlink:href="#icon-mail"></use>
+                                </svg>
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div class="pr-reading-meta" id="prReadingMeta" aria-label="Reading statistics">
+                        <span class="pr-reading-meta__item">
+                            <!-- Modern Document / Word Count Icon -->
+                            <svg class="pr-reading-meta__icon" width="18" height="18" viewbox="0 0 16 16" fill="currentColor" aria-hidden="true" focusable="false">
+                                <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5" />
+                                <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z" />
+                            </svg>
+                            <span id="prWordCount">-- words</span>
+                        </span>
+
+                        <span class="pr-reading-meta__divider" aria-hidden="true">|</span>
+
+                        <span class="pr-reading-meta__item">
+                            <!-- Modern Precision Clock / Read Time Icon -->
+                            <svg class="pr-reading-meta__icon" width="18" height="18" viewbox="0 0 16 16" fill="currentColor" aria-hidden="true" focusable="false">
+                                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                            </svg>
+                            <span id="prReadTime">-- min read</span>
+                        </span>
+                    </div>
+                </div>
+
+                <div id="RelLink" class="RelLink">
+                    <ul>
+                        
+                    </ul>
+                </div>
+                <center>
+                    
+                </center>
+            </div>
+
+            <div id="update12">
+	
+                    
+                    <input type="hidden" name="Hidden" id="Hidden" />
+                    <div id="P_CategoryManagement" class="ModalWindow" style="border-width:0px;height:60%;width:60%;overflow:auto;display: none">
+		
+                        <div>
+                            <input type="image" name="btnClose" id="btnClose" src="images/close_flat_icon.png" />
+                        </div>
+                        <div id="description">
+                        </div>
+                        <div class="text-center">
+                            <h2>
+                                
+                                <br>
+                                
+                            </h2>
+                        </div>
+                        <br />
+                        <div class="clear">
+                        </div>
+                        
+                    
+	</div>
+                
+</div>
+        </div>
+
+        <div id="PdfDiv" style="display: none;">
+            <table width="100%">
+                <tr>
+                    <td style="font-weight: 200; text-align: center">
+                        Ministry of Heavy Industries 
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 200; text-align: center; font-size: 30px;">
+                            Ministry of Heavy Industries (MHI) receives 20 bids under the Scheme to Promote Manufacturing of Sintered Rare Earth Permanent (REPM)
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 200; text-align: center; font-size: 30px;">
+                            <div style='height:30px;width:100%;'></div>India’s Indigenous Rare Earth Permanent Magnet Manufacturing Initiative Gains Momentum as the scheme gets overwhelming response<div style='height:30px;width:100%;'></div><div style='height:30px;width:100%;'></div>An important step towards strengthening the domestic REPM manufacturing ecosystem and enhancing competitiveness in the global markets
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="text-align: center; font-size: 14px;">
+                            Posted On:
+                                          13 AUG 2026 6:09PM by PIB Delhi
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 200; text-align: left; font-size: 16px;">
+                            <p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Ministry of Heavy Industries (MHI) receives 20 bids through Global Tender on CPP portal for Selection of Manufacturers for establishing integrated Sintered NdFeB Rare Earth Permanent Magnet Manufacturing Facilities under the &ldquo;Scheme to Promote Manufacturing of Sintered Rare Earth Permanent Magnet (REPM)&rdquo;. List of companies who have submitted their bids&nbsp; is as follows:</span></span></p>
+
+<table align="center" border="1" bordercolor="#ccc" cellpadding="5" cellspacing="0" class="MsoTableGrid" style="border-collapse:collapse">
+	<tbody>
+		<tr>
+			<td style="width:47.95pt">
+			<p><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">S.No.</span></span></p>
+			</td>
+			<td style="width:414.15pt">
+			<p><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Name of the company</span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:47.95pt">
+			<ol>
+				<li>&nbsp;</li>
+			</ol>
+			</td>
+			<td style="width:414.15pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">20 Microns Limited</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:47.95pt">
+			<ol start="2">
+				<li>&nbsp;</li>
+			</ol>
+			</td>
+			<td style="width:414.15pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Attero Recycling Private Limited</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:47.95pt">
+			<ol start="3">
+				<li>&nbsp;</li>
+			</ol>
+			</td>
+			<td style="width:414.15pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">&nbsp;BaRupOn &ndash; IRP Consortium</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:47.95pt">
+			<ol start="4">
+				<li>&nbsp;</li>
+			</ol>
+			</td>
+			<td style="width:414.15pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Coal India Limited</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:47.95pt">
+			<ol start="5">
+				<li>&nbsp;</li>
+			</ol>
+			</td>
+			<td style="width:414.15pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Jay Fe Cylinders Limited</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:47.95pt">
+			<ol start="6">
+				<li>&nbsp;</li>
+			</ol>
+			</td>
+			<td style="width:414.15pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">&nbsp;Keystone Infra Pvt. Ltd &ndash; Huebox Interiors Pvt. Ltd. (JV) </span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:47.95pt">
+			<ol start="7">
+				<li>&nbsp;</li>
+			</ol>
+			</td>
+			<td style="width:414.15pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">&nbsp;Larsen &amp; Toubro Limited</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:47.95pt">
+			<ol start="8">
+				<li>&nbsp;</li>
+			</ol>
+			</td>
+			<td style="width:414.15pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Lohum Magnets &amp; Energy Solutions Private Limited</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:47.95pt">
+			<ol start="9">
+				<li>&nbsp;</li>
+			</ol>
+			</td>
+			<td style="width:414.15pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Midwest Energy Limited &ndash; Midwest Advanced Materials (JV) </span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:47.95pt">
+			<ol start="10">
+				<li>&nbsp;</li>
+			</ol>
+			</td>
+			<td style="width:414.15pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">N.A.N. Magnetech Private Limited </span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:47.95pt">
+			<ol start="11">
+				<li>&nbsp;</li>
+			</ol>
+			</td>
+			<td style="width:414.15pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">NEO Performance Materials (Singapore) PTE. LTD.</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:47.95pt">
+			<ol start="12">
+				<li>&nbsp;</li>
+			</ol>
+			</td>
+			<td style="width:414.15pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Nexon Geochem Private Limited</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:47.95pt">
+			<ol start="13">
+				<li>&nbsp;</li>
+			</ol>
+			</td>
+			<td style="width:414.15pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">PrNd Metal and Magnets Pvt. Ltd.</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:47.95pt">
+			<ol start="14">
+				<li>&nbsp;</li>
+			</ol>
+			</td>
+			<td style="width:414.15pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Proterial (India) Limited.&nbsp; </span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:47.95pt">
+			<ol start="15">
+				<li>&nbsp;</li>
+			</ol>
+			</td>
+			<td style="width:414.15pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Prozeal Green Energy Limited</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:47.95pt">
+			<ol start="16">
+				<li>&nbsp;</li>
+			</ol>
+			</td>
+			<td style="width:414.15pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Ramp Metals &amp; Minerals Private Limited&nbsp; </span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:47.95pt">
+			<ol start="17">
+				<li>&nbsp;</li>
+			</ol>
+			</td>
+			<td style="width:414.15pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Renew Private Limited </span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:47.95pt">
+			<ol start="18">
+				<li>&nbsp;</li>
+			</ol>
+			</td>
+			<td style="width:414.15pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Shankaranarayana Constructions Limited&nbsp; </span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:47.95pt">
+			<ol start="19">
+				<li>&nbsp;</li>
+			</ol>
+			</td>
+			<td style="width:414.15pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Solpro Greentech Private Limited</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:47.95pt">
+			<ol start="20">
+				<li>&nbsp;</li>
+			</ol>
+			</td>
+			<td style="width:414.15pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Starteck Finance Limited</span></span></span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p style="text-align:justify"><span style="font-family:&quot;Times New Roman&quot;,Times,serif; font-size:16px">On 26th November 2025, the Union Cabinet chaired by Prime Minister Shri Narendra Modi approved the &ldquo;Scheme to Promote Manufacturing of Sintered Rare Earth Permanent Magnet (REPM)&rdquo; with a financial outlay of Rs. 7,280 Crore. The Scheme Notification was issued by MHI on 15.12.2025.</span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Request For Proposal (RFP) was floated on CPP portal on 20<sup>th</sup> March 2026. The pre-bid conference was held on 7<sup>th</sup> April 2026. The last date for receiving bids was 12<sup>th</sup> August 2026 on CPP portal and the Technical Bids were opened on 13<sup>th</sup> August 2026 in the presence of the bidders at MHI.</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The Scheme, a first-of-its-kind initiative, aims to establish a total capacity of 6,000 Metric Tons Per Annum (MTPA) of integrated Rare Earth Permanent Magnet manufacturing facilities in India, thereby enhancing self-reliance and positioning India as a key player in the global REPM market.</span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The scheme envisions allocating the total capacity to five beneficiaries through a global competitive bidding process. Each beneficiary will be allotted up to 1,200 MTPA of capacity.</span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The total duration of the scheme will be 7 years from the date of award, including a 2-year gestation period for setting up an integrated REPM manufacturing facility, and 5 years for incentive disbursement on the sale of REPM.</span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Rare Earth Permanent Magnets are among the most powerful magnets in the world and are widely used in electric vehicles, wind turbines, high-end electronics, aerospace and defence systems. By building a complete value chain from NdPr oxide to finished magnets in India, the Scheme is expected to significantly reduce import dependence in this sector.</span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">This initiative by the Government of India is a landmark step towards strengthening the domestic REPM manufacturing ecosystem and enhancing competitiveness in global markets. By fostering indigenous capabilities in REPM production, the scheme will not only secure the REPM supply chain for domestic industries but also support the nation&rsquo;s Net Zero 2070 commitment. It embodies the Government&rsquo;s unwavering commitment to build a technologically self-reliant, globally competitive, and sustainable industrial base, in line with the vision of Viksit Bharat @2047.</span></span></p>
+
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">***</span></span></span></p>
+
+<p><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>TPJ</strong></span></span></p>
+
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 100; text-align: left; font-size: 16px;">
+                            (Release ID: 2299078)
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="font-weight: 200; text-align: center; font-size: 24px;"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="clearfix">
+        </div>
+
+        <div class="section1">
+            <div id="frst_t">
+                <div id="arr_rm"><div class='sticky-social_mb'><ul class='social_mb'><a href='http://www.facebook.com/share.php?u=https://pib.gov.in/PressReleasePage.aspx?PRID=2299078' target='_blank'><li class='fb_b'   ></li></a><a href='https://twitter.com/intent/tweet?url=https://pib.gov.in/PressReleasePage.aspx?PRID=2299078&text=Ministry of Heavy Industries (MHI) receives 20 bids under the Scheme to Promote Manufacturing of Sintered Rare Earth Permanent (REPM)' target='_blank'><li class='twitter_r'  > </li></a><a href='https://api.whatsapp.com/send?text=https://pib.gov.in/PressReleasePage.aspx?PRID=2299078' target='_blank'><li class='whatsapp_r'  ></li></a><a href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=&su=Ministry of Heavy Industries (MHI) receives 20 bids under the Scheme to Promote Manufacturing of Sintered Rare Earth Permanent (REPM)&body=https://pib.gov.in/PressReleasePage.aspx?PRID=2299078&ui=2&tf=1&pli=1' title='Share by Email' target='_blank'><li class='fa-envelope_r' ></li></a><a href='https://www.linkedin.com/shareArticle?mini=true&url=https://pib.gov.in/PressReleasePage.aspx?PRID=2299078&title=Ministry of Heavy Industries (MHI) receives 20 bids under the Scheme to Promote Manufacturing of Sintered Rare Earth Permanent (REPM)&summary=My%20favorite%20developer%20program&source=LinkedIn' target='_blank'><li class='fa-linkedin_r'  ></li></a></ul></div></div>
+            </div>
+            <div id="second_t">
+                <div id="sndr_rm"><div class='sticky-social'><ul class='social'><a href='http://www.facebook.com/share.php?u=https://pib.gov.in/PressReleasePage.aspx?PRID=2299078' target='_blank'><li class='fb_b'   ></li></a><a href='https://twitter.com/intent/tweet?url=https://pib.gov.in/PressReleasePage.aspx?PRID=2299078&text=Ministry of Heavy Industries (MHI) receives 20 bids under the Scheme to Promote Manufacturing of Sintered Rare Earth Permanent (REPM)' target='_blank'><li class='twitter_r'  > </li></a><a href='https://api.whatsapp.com/send?text=https://pib.gov.in/PressReleasePage.aspx?PRID=2299078' target='_blank'><li class='whatsapp_r'  ></li></a><a href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=&su=Ministry of Heavy Industries (MHI) receives 20 bids under the Scheme to Promote Manufacturing of Sintered Rare Earth Permanent (REPM)&body=https://pib.gov.in/PressReleasePage.aspx?PRID=2299078&ui=2&tf=1&pli=1' title='Share by Email' target='_blank'><li class='fa-envelope_r' ></li></a><a href='https://www.linkedin.com/shareArticle?mini=true&url=https://pib.gov.in/PressReleasePage.aspx?PRID=2299078&title=Ministry of Heavy Industries (MHI) receives 20 bids under the Scheme to Promote Manufacturing of Sintered Rare Earth Permanent (REPM)&summary=My%20favorite%20developer%20program&source=LinkedIn' target='_blank'><li class='fa-linkedin_r'  ></li></a></ul></div></div>
+            </div>
+        </div>
+        <input type="hidden" name="ltrTitlee" id="ltrTitlee" value="Ministry of Heavy Industries (MHI) receives 20 bids under the Scheme to Promote Manufacturing of Sintered Rare Earth Permanent (REPM)" />
+        <input type="hidden" name="ltrSubtitlee" id="ltrSubtitlee" value="&lt;br/>India’s Indigenous Rare Earth Permanent Magnet Manufacturing Initiative Gains Momentum as the scheme gets overwhelming response&lt;br/>&lt;br/>An important step towards strengthening the domestic REPM manufacturing ecosystem and enhancing competitiveness in the global markets" />
+        <input type="hidden" name="ltrDescriptionn" id="ltrDescriptionn" value="&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>Ministry of Heavy Industries (MHI) receives 20 bids through Global Tender on CPP portal for Selection of Manufacturers for establishing integrated Sintered NdFeB Rare Earth Permanent Magnet Manufacturing Facilities under the &amp;ldquo;Scheme to Promote Manufacturing of Sintered Rare Earth Permanent Magnet (REPM)&amp;rdquo;. List of companies who have submitted their bids&amp;nbsp; is as follows:&lt;/span>&lt;/span>&lt;/p>
+
+&lt;table align=&quot;center&quot; border=&quot;1&quot; bordercolor=&quot;#ccc&quot; cellpadding=&quot;5&quot; cellspacing=&quot;0&quot; class=&quot;MsoTableGrid&quot; style=&quot;border-collapse:collapse&quot;>
+	&lt;tbody>
+		&lt;tr>
+			&lt;td style=&quot;width:47.95pt&quot;>
+			&lt;p>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>S.No.&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;width:414.15pt&quot;>
+			&lt;p>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>Name of the company&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+		&lt;tr>
+			&lt;td style=&quot;width:47.95pt&quot;>
+			
+				&lt;li>&amp;nbsp;&lt;/li>
+			
+			&lt;/td>
+			&lt;td style=&quot;width:414.15pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>20 Microns Limited&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+		&lt;tr>
+			&lt;td style=&quot;width:47.95pt&quot;>
+			
+				&lt;li>&amp;nbsp;&lt;/li>
+			
+			&lt;/td>
+			&lt;td style=&quot;width:414.15pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>Attero Recycling Private Limited&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+		&lt;tr>
+			&lt;td style=&quot;width:47.95pt&quot;>
+			
+				&lt;li>&amp;nbsp;&lt;/li>
+			
+			&lt;/td>
+			&lt;td style=&quot;width:414.15pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>&amp;nbsp;BaRupOn &amp;ndash; IRP Consortium&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+		&lt;tr>
+			&lt;td style=&quot;width:47.95pt&quot;>
+			
+				&lt;li>&amp;nbsp;&lt;/li>
+			
+			&lt;/td>
+			&lt;td style=&quot;width:414.15pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>Coal India Limited&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+		&lt;tr>
+			&lt;td style=&quot;width:47.95pt&quot;>
+			
+				&lt;li>&amp;nbsp;&lt;/li>
+			
+			&lt;/td>
+			&lt;td style=&quot;width:414.15pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>Jay Fe Cylinders Limited&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+		&lt;tr>
+			&lt;td style=&quot;width:47.95pt&quot;>
+			
+				&lt;li>&amp;nbsp;&lt;/li>
+			
+			&lt;/td>
+			&lt;td style=&quot;width:414.15pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>&amp;nbsp;Keystone Infra Pvt. Ltd &amp;ndash; Huebox Interiors Pvt. Ltd. (JV) &lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+		&lt;tr>
+			&lt;td style=&quot;width:47.95pt&quot;>
+			
+				&lt;li>&amp;nbsp;&lt;/li>
+			
+			&lt;/td>
+			&lt;td style=&quot;width:414.15pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>&amp;nbsp;Larsen &amp;amp; Toubro Limited&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+		&lt;tr>
+			&lt;td style=&quot;width:47.95pt&quot;>
+			
+				&lt;li>&amp;nbsp;&lt;/li>
+			
+			&lt;/td>
+			&lt;td style=&quot;width:414.15pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>Lohum Magnets &amp;amp; Energy Solutions Private Limited&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+		&lt;tr>
+			&lt;td style=&quot;width:47.95pt&quot;>
+			
+				&lt;li>&amp;nbsp;&lt;/li>
+			
+			&lt;/td>
+			&lt;td style=&quot;width:414.15pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>Midwest Energy Limited &amp;ndash; Midwest Advanced Materials (JV) &lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+		&lt;tr>
+			&lt;td style=&quot;width:47.95pt&quot;>
+			
+				&lt;li>&amp;nbsp;&lt;/li>
+			
+			&lt;/td>
+			&lt;td style=&quot;width:414.15pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>N.A.N. Magnetech Private Limited &lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+		&lt;tr>
+			&lt;td style=&quot;width:47.95pt&quot;>
+			
+				&lt;li>&amp;nbsp;&lt;/li>
+			
+			&lt;/td>
+			&lt;td style=&quot;width:414.15pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>NEO Performance Materials (Singapore) PTE. LTD.&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+		&lt;tr>
+			&lt;td style=&quot;width:47.95pt&quot;>
+			
+				&lt;li>&amp;nbsp;&lt;/li>
+			
+			&lt;/td>
+			&lt;td style=&quot;width:414.15pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>Nexon Geochem Private Limited&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+		&lt;tr>
+			&lt;td style=&quot;width:47.95pt&quot;>
+			
+				&lt;li>&amp;nbsp;&lt;/li>
+			
+			&lt;/td>
+			&lt;td style=&quot;width:414.15pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>PrNd Metal and Magnets Pvt. Ltd.&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+		&lt;tr>
+			&lt;td style=&quot;width:47.95pt&quot;>
+			
+				&lt;li>&amp;nbsp;&lt;/li>
+			
+			&lt;/td>
+			&lt;td style=&quot;width:414.15pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>Proterial (India) Limited.&amp;nbsp; &lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+		&lt;tr>
+			&lt;td style=&quot;width:47.95pt&quot;>
+			
+				&lt;li>&amp;nbsp;&lt;/li>
+			
+			&lt;/td>
+			&lt;td style=&quot;width:414.15pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>Prozeal Green Energy Limited&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+		&lt;tr>
+			&lt;td style=&quot;width:47.95pt&quot;>
+			
+				&lt;li>&amp;nbsp;&lt;/li>
+			
+			&lt;/td>
+			&lt;td style=&quot;width:414.15pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>Ramp Metals &amp;amp; Minerals Private Limited&amp;nbsp; &lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+		&lt;tr>
+			&lt;td style=&quot;width:47.95pt&quot;>
+			
+				&lt;li>&amp;nbsp;&lt;/li>
+			
+			&lt;/td>
+			&lt;td style=&quot;width:414.15pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>Renew Private Limited &lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+		&lt;tr>
+			&lt;td style=&quot;width:47.95pt&quot;>
+			
+				&lt;li>&amp;nbsp;&lt;/li>
+			
+			&lt;/td>
+			&lt;td style=&quot;width:414.15pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>Shankaranarayana Constructions Limited&amp;nbsp; &lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+		&lt;tr>
+			&lt;td style=&quot;width:47.95pt&quot;>
+			
+				&lt;li>&amp;nbsp;&lt;/li>
+			
+			&lt;/td>
+			&lt;td style=&quot;width:414.15pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>Solpro Greentech Private Limited&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+		&lt;tr>
+			&lt;td style=&quot;width:47.95pt&quot;>
+			
+				&lt;li>&amp;nbsp;&lt;/li>
+			
+			&lt;/td>
+			&lt;td style=&quot;width:414.15pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>Starteck Finance Limited&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+	&lt;/tbody>
+&lt;/table>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:&amp;quot;Times New Roman&amp;quot;,Times,serif; font-size:16px&quot;>On 26th November 2025, the Union Cabinet chaired by Prime Minister Shri Narendra Modi approved the &amp;ldquo;Scheme to Promote Manufacturing of Sintered Rare Earth Permanent Magnet (REPM)&amp;rdquo; with a financial outlay of Rs. 7,280 Crore. The Scheme Notification was issued by MHI on 15.12.2025.&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>Request For Proposal (RFP) was floated on CPP portal on 20th March 2026. The pre-bid conference was held on 7th April 2026. The last date for receiving bids was 12th August 2026 on CPP portal and the Technical Bids were opened on 13th August 2026 in the presence of the bidders at MHI.&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>The Scheme, a first-of-its-kind initiative, aims to establish a total capacity of 6,000 Metric Tons Per Annum (MTPA) of integrated Rare Earth Permanent Magnet manufacturing facilities in India, thereby enhancing self-reliance and positioning India as a key player in the global REPM market.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>The scheme envisions allocating the total capacity to five beneficiaries through a global competitive bidding process. Each beneficiary will be allotted up to 1,200 MTPA of capacity.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>The total duration of the scheme will be 7 years from the date of award, including a 2-year gestation period for setting up an integrated REPM manufacturing facility, and 5 years for incentive disbursement on the sale of REPM.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>Rare Earth Permanent Magnets are among the most powerful magnets in the world and are widely used in electric vehicles, wind turbines, high-end electronics, aerospace and defence systems. By building a complete value chain from NdPr oxide to finished magnets in India, the Scheme is expected to significantly reduce import dependence in this sector.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>This initiative by the Government of India is a landmark step towards strengthening the domestic REPM manufacturing ecosystem and enhancing competitiveness in global markets. By fostering indigenous capabilities in REPM production, the scheme will not only secure the REPM supply chain for domestic industries but also support the nation&amp;rsquo;s Net Zero 2070 commitment. It embodies the Government&amp;rsquo;s unwavering commitment to build a technologically self-reliant, globally competitive, and sustainable industrial base, in line with the vision of Viksit Bharat @2047.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:center&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>***&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;strong>TPJ&lt;/strong>&lt;/span>&lt;/span>&lt;/p>
+" />
+        <script type="text/javascript">
+                  var mPlayer = document.getElementById("background_music");
+                  var mPlayAction = document.getElementById("playbutton");
+                  var isPlaying = false;
+
+                  function playAudio() {
+                        mPlayer.play();
+                        isPlaying = true;
+                        document.getElementById('stopA').style.display = "block";
+                        document.getElementById('playA').style.display = "none";
+                  }
+
+                  function pauseAudio() {
+                        mPlayer.pause();
+                        isPlaying = false;
+                        document.getElementById('playA').style.display = "block";
+                        document.getElementById('stopA').style.display = "none";
+                  }
+        </script>
+        <script type="text/javascript">
+                  var synth = window.speechSynthesis;
+
+                  function CleanHtml(html) {
+                        html = html.replace(/<script[\s\S]*?<\/script>/gi, '');
+                        return html;
+                  }
+                  function stripHtml(html) {
+                        let tmp = document.createElement("DIV");
+                        tmp.innerHTML = CleanHtml(html);
+                        return tmp.textContent || tmp.innerText || "";
+                  }
+        </script>
+        <script type="text/javascript">
+                  $(document).ready(function () {
+                        $("table").each(function () {
+                              if (!$(this).closest(".table-responsive").length) {
+                                    $(this).wrap("<div class='table-responsive'></div>");
+                              }
+                        });
+
+                        var width = $(window).width();
+                        if (width < 768) {
+                              document.getElementById('frst_t').style.display = "block";
+                              document.getElementById('second_t').style.display = "none";
+                        } else if (width < 991) {
+                              document.getElementById('frst_t').style.display = "block";
+                              document.getElementById('second_t').style.display = "none";
+                        } else if (width < 1199) {
+                              document.getElementById('frst_t').style.display = "none";
+                              document.getElementById('second_t').style.display = "block";
+                        } else {
+                              document.getElementById('frst_t').style.display = "none";
+                              document.getElementById('second_t').style.display = "block";
+                        }
+                  });
+        </script>
+        <style type="text/css">
+            @media print {
+                .sticky-social, .sticky-social_mb, .pull-right, #printPDF {
+                    display: none !important;
+                }
+            }
+
+            .f_vl {
+                padding-right: 30px;
+                font-size: 17px;
+                cursor: pointer;
+            }
+
+            .log_oo {
+                display: flex;
+                justify-content: space-between;
+            }
+
+                .log_oo img {
+                    width: 150px;
+                }
+
+            .sticky-social_mb {
+                position: fixed;
+                bottom: 0px;
+                padding: 0px;
+                margin: 0px;
+                width: 100%;
+            }
+
+            .social_mb {
+                list-style: none;
+                display: flex;
+                width: 100%;
+                margin-bottom: -8px;
+            }
+
+                .social_mb a {
+                    padding: 8px 0px;
+                    font-size: 30px;
+                    transition: all 0.8s ease-in-out;
+                    width: 20% !important;
+                    text-align: center;
+                }
+        </style>
+        <style type="text/css">
+            .section1 {
+                position: relative;
+                padding: 10px 0px;
+                width: 100%;
+            }
+
+            .sticky-social {
+                position: fixed;
+                top: 20px;
+                left: 0px;
+                padding: 0px;
+                margin: 0px;
+            }
+
+            .social {
+                list-style: none;
+            }
+
+                .social a li {
+                    padding: 8px 12px;
+                    font-size: 25px;
+                    transition: all 0.8s ease-in-out;
+                }
+
+                    .social a li:hover {
+                        margin-right: -30px;
+                        box-shadow: 2px 5px 10px grey;
+                    }
+
+                        .social a li:hover .fa {
+                            margin-left: 20px;
+                        }
+
+            .fb_b {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .twitter_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .whatsapp_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .fa-envelope_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .fa-linkedin_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+        </style>
+        <style type="text/css">
+            @media only screen and (max-device-width: 767px) {
+                p span img {
+                    max-width: 90% !important;
+                    height: auto !important;
+                }
+
+                p img {
+                    max-width: 90% !important;
+                    height: auto !important;
+                }
+
+                h2 {
+                    font-size: var(--dbim-h2, 20px);
+                    font-weight: 600 !important;
+                }
+
+                h3 {
+                    font-size: var(--dbim-h3, 16px);
+                    font-weight: 600 !important;
+                }
+            }
+        </style>
+        <style type="text/css">
+            .film-roll-badge {
+                position: absolute;
+                top: 82%;
+                right: 20px;
+                width: 230px;
+                height: 70px;
+                background: repeating-linear-gradient( to right, var(--dbim-green-key, #0F5757) 0px, var(--dbim-green-key, #0F5757) 18px, var(--dbim-text, #150202) 18px, var(--dbim-text, #150202) 36px );
+                border-top: 8px solid var(--dbim-green-key, #0F5757);
+                border-bottom: 8px solid var(--dbim-green-key, #0F5757);
+                border-radius: 8px;
+                overflow: hidden;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+                animation: moveFilm 8s linear infinite;
+                z-index: 10;
+            }
+
+                .film-roll-badge::before,
+                .film-roll-badge::after {
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 10px;
+                    background: repeating-linear-gradient( to right, var(--dbim-green-key, #0F5757) 0px, var(--dbim-green-key, #0F5757) 10px, #fff 10px, #fff 20px );
+                    left: 0;
+                    z-index: 2;
+                }
+
+                .film-roll-badge::before {
+                    top: -4px;
+                }
+
+                .film-roll-badge::after {
+                    bottom: -4px;
+                }
+
+            .film-roll-inner {
+                position: relative;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                animation: flicker 2s infinite ease-in-out;
+            }
+
+            .countdown-text {
+                font-size: 1.3rem;
+                font-weight: 700;
+                color: #fff;
+                text-shadow: 0 0 6px rgba(255, 255, 255, 0.4), 0 0 10px #000;
+                white-space: nowrap;
+            }
+
+            @keyframes moveFilm {
+                0% {
+                    background-position: 0 0;
+                }
+
+                100% {
+                    background-position: 120px 0;
+                }
+            }
+
+            @keyframes flicker {
+                0%, 100% {
+                    opacity: 1;
+                }
+
+                50% {
+                    opacity: 0.9;
+                }
+
+                25% {
+                    opacity: 0.95;
+                }
+
+                75% {
+                    opacity: 0.85;
+                }
+            }
+
+            @media (max-width: 1500px) {
+                .film-roll-badge {
+                    top: 68%;
+                    right: 18px;
+                    height: 65px;
+                    font-size: 0.85rem;
+                }
+
+                .press-section {
+                    margin-top: 35px;
+                }
+            }
+
+            @media (max-width: 992px) {
+                .film-roll-badge {
+                    top: 52%;
+                    right: 10px;
+                    width: 200px;
+                    height: 60px;
+                }
+            }
+
+            @media (max-width: 768px) {
+                .film-roll-badge {
+                    top: 56%;
+                    right: 10px;
+                    width: 124px;
+                    height: 55px;
+                }
+
+                .countdown-text {
+                    font-size: 0.9rem;
+                }
+            }
+
+            @media (max-width: 576px) {
+                .film-roll-badge {
+                    top: 59%;
+                    right: 5px;
+                    height: 50px;
+                }
+
+                .countdown-text {
+                    font-size: 0.85rem;
+                }
+            }
+        </style>
+        <script type="text/javascript">
+                  const festivalStart = new Date("2025-11-20T00:00:00").getTime();
+                  const festivalEnd = new Date("2025-11-28T23:59:59").getTime();
+                  const countdownElement = document.getElementById("countdown");
+
+                  if (countdownElement) {
+                        const interval = setInterval(() => {
+                              const now = new Date().getTime();
+
+                              if (now < festivalStart) {
+                                    const diff = festivalStart - now;
+                                    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                                    const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+
+                                    countdownElement.innerHTML = `${days} Day${days !== 1 ? 's' : ''} ${hours} Hour${hours !== 1 ? 's' : ''} to go`;
+                              } else if (now >= festivalStart && now <= festivalEnd) {
+                                    const dayNumber = Math.floor((now - festivalStart) / (1000 * 60 * 60 * 24)) + 1;
+                                    countdownElement.innerHTML = `56th IFFI - Day ${dayNumber}`;
+                              } else {
+                                    countdownElement.innerHTML = `✨ IFFI closes but never ends…`;
+                                    const elements = document.querySelectorAll('.film-roll-badge');
+                                    elements.forEach(el => el.style.width = "350px");
+                                    clearInterval(interval);
+                              }
+                        }, 1000);
+                  }
+        </script>
+        <script type="text/javascript">
+                  const miffStart = new Date("2026-06-15T00:00:00").getTime();
+                  const miffEnd = new Date("2026-06-15T23:59:59").getTime();
+                  const miffElement = document.getElementById("miff");
+
+                  if (miffElement) {
+                        const miffInterval = setInterval(() => {
+                              const now = new Date().getTime();
+
+                              if (now < miffStart) {
+                                    const diff = miffStart - now;
+                                    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                                    miffElement.innerHTML = `${days} Day${days === 1 ? '' : 's'} to MIFF ...`;
+                              } else if (now >= miffStart && now <= miffEnd) {
+                                    const dayNumber = Math.floor((now - miffStart) / (1000 * 60 * 60 * 24)) + 1;
+                                    miffElement.innerHTML = `19th MIFF - Day ${dayNumber}`;
+                              } else {
+                                    miffElement.innerHTML = `✨ MIFF concludes, cinema lives on...`;
+                                    document.querySelectorAll('.film-roll-badge').forEach(el => el.style.width = "350px");
+                                    clearInterval(miffInterval);
+                              }
+                        }, 1000);
+                  }
+        </script>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("sc_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.ModalPopupBehavior, {"BackgroundCssClass":"modalBackground","PopupControlID":"P_CategoryManagement","dynamicServicePath":"/PressReleasePage.aspx","id":"mpe"}, null, null, $get("Hidden"));
+});
+//]]>
+</script>
+<input type="hidden" name="__ncforminfo" value="Kz9ZyxLFeQjoOzv5jnhn1W0B8yTQLUs1ITs52V-xmkbRlEAnVf1yEoLBvMAEWrHujfn-oWsYme_at1XsbUyWSaK-6qo_mkip52Syay1k6popbiyn1Vghww=="/></form>
+    
+
+<script type="application/json" id="pibConsentConfig">{"ga4Id":"G-Q414Y0X6EE,G-QJJ6LZ8LHV","policyUrl":"/CookiePolicy.aspx","text":{"bannerLabel":"Cookie consent","title":"Cookies on this website","body":"We use essential cookies to make this website work. We also set analytics cookies when you arrive, so we can see how the site is used and improve it - you can switch these off below or at any time from the Cookie Policy page. Cookies from embedded social media content are set only if you allow them.","policyLink":"Read our Cookie Policy","accept":"Accept all","reject":"Reject optional","customize":"Customise","prefsTitle":"Cookie preferences","prefsIntro":"Choose which cookies this website may set. Essential cookies cannot be switched off because the site does not work without them. Analytics cookies are on unless you turn them off. Social media cookies stay off until you allow them. You can change these choices at any time from the Cookie Policy page.","essentialName":"Essential cookies","essentialDesc":"Needed for the site to function. These remember your session, your language and region, your text size and colour theme, and verify the security check on forms. They are always on.","analyticsName":"Analytics cookies","analyticsDesc":"Help us understand how visitors use the site - which pages are read and how long people stay - so it can be improved. The information is collected in a form that does not directly identify you. These are on when you arrive; switching them off here stops them and deletes the ones already set.","socialName":"Social media cookies","socialDesc":"Set by content embedded from X, Facebook and YouTube, such as timelines and videos. These platforms may use them to track you across websites. They stay off until you allow them.","save":"Save preferences","cancel":"Cancel"}}</script>
+<script type="text/javascript" src='/js/consent.js?v=10'></script>
+
+<script type="text/javascript" src='/js/consent-embeds.js?v=10'></script>
+
+
+    <!-- Minimal O(N) Time and O(1) Auxiliary Space Word Count & Read Time Calculation -->
+    <script type="text/javascript">
+            (function () {
+                  function calculateReadingStats() {
+                        var bodyEl = document.getElementById("pibReleaseBody");
+                        if (!bodyEl) return;
+
+                        // textContent extracts text without triggering expensive layout/reflow computations
+                        var text = bodyEl.textContent || "";
+                        var words = 0;
+                        var inWord = false;
+
+                        // O(N) single pass character code scan: achieves O(1) space with zero array allocations
+                        for (var i = 0, len = text.length; i < len; i++) {
+                              var code = text.charCodeAt(i);
+                              // Delimits on ASCII whitespace, control characters, tabs, newlines, and non-breaking spaces (160)
+                              if (code <= 32 || code === 160) {
+                                    inWord = false;
+                              } else if (!inWord) {
+                                    inWord = true;
+                                    words++;
+                              }
+                        }
+
+                        // Standard 250 WPM reading speed (e.g., 612 words yields 2 min read)
+                        var minutes = Math.max(1, Math.round(words / 250));
+
+                        var elWords = document.getElementById("prWordCount");
+                        var elTime = document.getElementById("prReadTime");
+
+                        if (elWords) elWords.textContent = words + (words === 1 ? " word" : " words");
+                        if (elTime) elTime.textContent = minutes + " min read";
+                  }
+
+                  if (document.readyState === "loading") {
+                        document.addEventListener("DOMContentLoaded", calculateReadingStats);
+                  } else {
+                        calculateReadingStats();
+                  }
+            })();
+    </script>
+
+    <script type="text/javascript">
+            (function () {
+                  try {
+                        if (window.self === window.top) { return; }
+                  } catch (e) { return; }
+                  var s = document.createElement("style");
+                  s.textContent = ".sticky-social, .sticky-social_mb { display: none !important; }";
+                  (document.head || document.documentElement).appendChild(s);
+            }());
+    </script>
+</body>
+</html>

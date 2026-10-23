@@ -1,0 +1,259 @@
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                GOVERNMENT  OF INDIA                              
+                 MINISTRY OF ELECTRONICS AND INFORMATION TECHNOLOGY               
+                                     LOK SABHA                                    
+                             UNSTARRED  QUESTION NO. 2833                         
+                             TO BE ANSWERED ON: 05.08.2026                        
+                                                                                  
+              PROMOTION  OF ELECTRONICS MANUFACTURING   IN RAYALASEEMA            
+                                                                                  
+          2833. SHRI G LAKSHMINARAYANA:                                           
+                                                                                  
+          Will the Minister of ELECTRONICS AND INFORMATION TECHNOLOGY be pleased to
+          state:                                                                  
+                                                                                  
+          (a) the steps taken by the Government to promote electronics manufacturing in the Rayalaseema
+                                                                                  
+          region of Andhra Pradesh including incentives and support provided under various Central
+          Government schemes;                                                     
+          (b) the number of electronics manufacturing units proposed, approved and operational in the
+          Rayalaseema region since the year 2019, district-wise indicating the nature of projects and the
+          employment generated;                                                   
+          (c) the details of investments committed and realised for electronics manufacturing in the
+          Rayalaseema region along with the Central assistance sanctioned and released, since the year
+          2019;                                                                   
+          (d) the steps taken by the Government in collaboration with the State Government of Andhra
+          Pradesh to develop electronics manufacturing clusters, common infrastructure, skilling facilities
+          and supply chain ecosystems in the Rayalaseema region; and              
+          (e) whether the Government proposes to establish new electronics manufacturing clusters or
+          extend additional incentives to accelerate electronics manufacturing in the Rayalaseema region
+          and if so, the details thereof?                                         
+                                      ANSWER                                      
+                                                                                  
+                                                                                  
+             MINISTER OF STATE FOR ELECTRONICS AND INFORMATION TECHNOLOGY         
+                                 (SHRI JITIN PRASADA)                             
+                                                                                  
+          (a) to (e): Driven by Hon’ble Prime Minister’s vision of Make in India and Atmanirbhar Bharat,
+          Government of India has taken several policy initiatives to develop a complete ecosystem of
+          electronics manufacturing.                                              
+                                                                                  
+          Government adopted a well thought out strategy to develop India’s electronic manufacturing
+          ecosystem – beginning with the manufacturing of finished products, followed by sub-
+          assemblies, components, and eventually machinery and tools. At the same time, Government
+          focused on creating the necessary infrastructure to support electronics manufacturing.
+                                                                                  
+          As a result of these initiatives, India has emerged as global electronics manufacturing hub.
+          Electronic manufacture in India has expanded significantly in the last 12 years, which can be
+          seen from the following statistics:                                     
+                                                                                  
+                                                                                  
+           #                           2014-15      2025-26     Remarks           
+                                                                                  
+           Production of electronics goods (₹) ~1.9 Lakh Cr ~13.11 Lakh Cr Increased 7 times
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+           Export of electronics goods (₹) ~38 thousand Cr ~4.24 Lakh Cr Increased 11 times
+                                                                                  
+           Production of mobile phones (₹) ~18 thousand Cr ~6.27 Lakh Cr Increased 33 times
+                                                                                  
+           Export of mobile phones (₹) ~15 hundred Cr ~ 2.59 Lakh Cr Increased 165
+                                                                times             
+                                                                                  
+                                                                                  
+          The growth in electronics manufacturing has been possible due to various measures taken by
+          the Government in the last 12 years for promotion of electronics manufacturing. Some of the
+          major initiatives include:                                              
+                                                                                  
+               ● PLI Scheme for Large Scale Electronics Manufacturing             
+               ● PLI Scheme 2.0 for IT Hardware                                   
+               ● Electronics Component Manufacturing Scheme (ECMS)                
+               ● Semicon India Programme                                          
+               ● Modified Electronics Manufacturing Clusters (EMC 2.0) Scheme     
+               ● Scheme for Promotion of Manufacturing of Electronic Components and
+                 Semiconductors (SPECS)                                           
+                                                                                  
+               ● Modified Programme for Development of Semiconductors and Display 
+                 Manufacturing Ecosystem in India.                                
+               ● Public Procurement (Preference to Make in India) Order to promote using made in
+                 India goods.                                                     
+               ● Allowing 100% FDI in the sector                                  
+                                                                                  
+          These initiatives are Pan-India in nature and are designed to create an enabling ecosystem for
+          industrial growth across the country. The location of manufacturing units, however, is
+          determined by the industry based on commercial and operational considerations along with
+          Ease of Doing Business (EoDB) extended by State Governments. Accordingly, while the
+          Government provides policy support and incentives applicable across India, the final decision
+          regarding the establishment and location of manufacturing facilities rests with the industry.
+                                                                                  
+          Projects approved under various schemes in Andhra Pradesh:              
+          In the state of Andhra Pradesh, 89 manufacturing units have been approved under various
+          schemes of MeitY. The details are as below:                             
+                                                                                  
+                                                                                  
+           #    District                Number of Electronics Manufacturing Units 
+           1    Tirupati                54                                        
+                                                                                  
+           2    Chittoor                20                                        
+           3    YSR Kadapa              12                                        
+           4    Vishakhapatnam          2                                         
+           5    Krishna                 1                                         
+                                                                                  
+          (i) Semicon India Program                                               
+          Recognising the importance of Semiconductors, the Government launched Semicon India
+          Programme in January 2022 for setting up of semiconductor fabs, display fabs semiconductor
+          packaging and for promotion of Indian designed chips.                   
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+          Under Semicon India Programme, Government has approved one (01) unit for setting up a
+          Semiconductor facility in Vishakhapatnam, Andhra Pradesh. The production capacity of the
+          facility would be around 96 million units/annum.                        
+                                                                                  
+          (ii) Electronics Component Manufacturing Scheme (ECMS)                  
+          To further deepen and broaden the electronics manufacturing ecosystem, Government has
+          recently launched Electronics Components Manufacturing Scheme (ECMS). The Scheme aims
+          to develop robust component manufacturing ecosystem by attracting investments
+          (global/domestic) across sub-assemblies such as Display Modules, Camera Modules, Optical
+          Transceivers; key components such as Printed Circuit Boards (PCBs), passive components,
+          electro-mechanical components, Li-ion Cells, Enclosures; capital equipment for electronics
+          manufacturing; and their supply chains. Under this scheme, two (02) applications in Chittoor
+          and six (06) applications in Tirupati have been approved in the state of Andhra Pradesh.
+          (iii) PLI Scheme for Large Scale Electronics Manufacturing              
+                                                                                  
+          Government of India launched the Production Linked Incentive (PLI) Scheme for Large Scale
+          Electronics Manufacturing (LSEM) in 2020 to provide momentum to electronics
+          manufacturing and to boost domestic manufacturing of mobile phones in the country. Under
+          this scheme, two (02) companies have been approved in Chittoor district of Andhra Pradesh.
+                                                                                  
+          (iv) PLI Scheme for IT Hardware                                         
+          Subsequently, Government of India also launched the PLI Scheme 2.0 for IT Hardware in 2023
+          to create a robust domestic manufacturing ecosystem for IT hardware (laptops, tablets, AIO,
+          servers, etc.), attract large investments, reduce import reliance and make India a trusted global
+          supply chain hub. Under this scheme, one (01) application has been approved in Chittoor
+          district of Andhra Pradesh.                                             
+                                                                                  
+          (v) Scheme for Promotion of Manufacturing of Electronic Components and  
+          Semiconductors (SPECS)                                                  
+          SPECS was notified on 1st April 2020 to help offset the disability for domestic manufacturing
+          of electronic components. The scheme provided a financial incentive of 25% on the capital
+                                                                                  
+          expenditure for the identified list of electronic goods that comprises the downstream value
+          chain. The target segments under the scheme are electronic components, ATMP, capital goods,
+          e-waste and solar value chain. In Andhra Pradesh, two (02) applications, one each in Tirupati
+          and Chittoor have been approved under the scheme.                       
+                                                                                  
+          (vi) Modified Special Incentive Package Scheme (M-SIPS)                 
+          The Modified Special Incentive Package Scheme (M-SIPS) provided subsidy for investments
+          in capital expenditure for setting up electronics manufacturing facilities (20% for units set up
+          in SEZs units and 25% for non-SEZ units). For the state of Andhra Pradesh, total nine (09)
+          applications have been approved, with six (06) in Chittoor and one (01) each in Tirupati,
+          Krishna and Vishakhapatnam districts for various electronics products including mobile
+          phones, advanced electronic systems, PCBAs, and products for defense, medical, industrial,
+          energy, and consumer electronics applications.                          
+                                                                                  
+          Electronics Infrastructure, R&D and Skilling initiatives in Andhra Pradesh
+          Electronics Manufacturing Clusters (EMC 2.0)                            
+                                                                                  
+          To provide plug-and-play manufacturing infrastructure with ready land, utilities, and common
+          facilities to reduce setup time and enhance production efficiency, the Government notified the
+          Electronics Manufacturing Clusters (EMC) Scheme. These clusters are implemented by Project
+          Implementing Agency of the respective State Governments through varying Centre-State
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+          financial assistance models, wherein, the State Governments are responsible for developing
+          and implementing the requisite infrastructure. Three (03) EMCs have been approved at
+          Chittoor district with a total project cost of Rs. 380 Cr. covering an area of 708 acres with
+          central finance assistance of Rs. 163 Cr. Similarly, one (01) cluster under EMC 2.0 has been
+          approved at YSR Kadapa district with a project cost of Rs. 749 Cr. covering an area of 540
+          acres with central finance assistance of Rs. 350 Cr.                    
+                                                                                  
+          Chips to Startup (C2S) Programme                                        
+          Government launched Chips to Startup (C2S) programme to provide industry ready manpower
+          in chip design. Under this programme, access to cutting-edge chip design tools has been
+          provided at no cost. So far, access to advanced Electronic Design Automation (EDA) tools has
+          been provided to twenty-three (23) academic institutions in Andhra Pradesh, out of which four
+          (04) are in Tirupati, two (02) in Kurnool and one (01) each in Anantapur and Nanyal district
+          of Rayalaseema region.                                                  
+                                                                                  
+                                                                                  
+          In addition to above, the following institutions have also been provided financial support for
+          implementing R&D projects in the State of Andhra Pradesh:               
+            1. Indian Institute of Technology (IIT) Tirupati                      
+            2. Indian Institute of Information Technology Design and Manufacturing (IIIT-DM),
+               Kurnool                                                            
+            3. National Institute of Technology (NIT), West Godavari              
+            4. Shri Vishnu Engineering College for Women, Bhimavaram, West Godavari
+          Skilling                                                                
+          NIELIT Tirupati Centre in Andhra Pradesh, has been established to strengthen the IECT
+          ecosystem through innovative curriculum development, industry-aligned training, and high-
+          quality learning content in emerging technologies. The Centre is also to contribute to the India
+          Semiconductor Mission by supporting the development of a skilled workforce and
+          strengthening India's electronics manufacturing and design ecosystem.   
+                                                                                  
+          Following is the Training targets under the VLSI/Semiconductor domain for NIELIT Tirupati:
+                                                                                  
+                                                                                  
+                         Type of Program                  Training targets        
+                   Non-formal Education Programmes             60                 
+                                                                                  
+                         Short-term Courses                   270                 
+            Joint Training & Certification Programmes with Industry 60            
+                                                                                  
+                 Faculty Development Programmes (FDPs)         60                 
+             Total Participants in VLSI/Semiconductor Domain  450                 
+                                                                                  
+                                                                                  
+          These initiatives are designed to strengthen the semiconductor talent pipeline by enhancing
+          industry-relevant skills, fostering academia–industry collaboration, and supporting the
+          objectives of the India Semiconductor Mission (ISM).                    
+                                                                                  
+          In the State of Andhra Pradesh, NIELIT has one centre at Tirupati and 20+ partner institutes
+          across the State out of which 7 are in the Rayalaseema Region.          
+                                                                                  
+                                      *******                                     
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
