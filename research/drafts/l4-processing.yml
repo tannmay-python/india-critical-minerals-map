@@ -1,0 +1,3175 @@
+- aliases:
+  - Birla Copper
+  - HIC Copper
+  layer: processing
+  stages:
+  - Refining
+  minerals:
+  - Copper
+  - Tellurium
+  commodity_as_stated: copper smelting and refining from imported concentrates; tellurium recovered as copper telluride
+    from anode slime
+  products:
+  - Copper cathode
+  - Continuous cast copper rod
+  - Copper telluride (CuTe) powder from anode slime
+  operator: Hindalco Industries Ltd
+  operator_type: Listed private
+  owners: []
+  partners: []
+  location:
+    address: Dahej, Lakhigam
+    village_or_town: Dahej
+    district: Bharuch
+    state: Gujarat
+    country: India
+    lat: 21.7093
+    lon: 72.5894
+    precision: town
+    geometry: null
+  status: Operational
+  status_as_of: 2025-01
+  status_detail: 500,000 tpy port-based smelter on imported concentrate; tellurium recovered from refinery slime
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: 500000
+      unit: tpy
+      basis: copper smelting
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: Imported ore
+  feedstock_detail: Imported copper concentrates
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: 2025-01
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Smelts imported copper concentrate into cathode and rod, and recovers tellurium from refinery
+      slime.
+    why_it_matters: It is India's largest copper smelter; since Sterlite closed in 2018 it has carried most of the
+      country's primary copper output.
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-24'
+  notes: first_public is the IMYB edition date; the smelter dates to 1998 (not researched).
+  id: hindalco-birla-copper-dahej
+  name: Hindalco Birla Copper smelter and refinery, Dahej
+  sources:
+  - id: imyb-2023
+    url: https://ibm.gov.in/writereaddata/files/17454767536809dc9139ba8IMYB_BOOK_2023.pdf
+    title: Indian Minerals Yearbook 2023 (62nd edition)
+    publisher: Indian Bureau of Mines, Ministry of Mines
+    tier: T1
+    date: 2025-01
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - capacity.installed
+    - location
+    - minerals
+    - products
+    - feedstock
+    - operator
+    - dates.first_public
+- aliases:
+  - Adani Kutch Copper
+  layer: processing
+  stages:
+  - Refining
+  minerals:
+  - Copper
+  commodity_as_stated: copper smelting and refining; Grade A copper cathode
+  products:
+  - Copper cathode (LME-registered)
+  - Copper wire rod
+  operator: Kutch Copper Ltd
+  operator_type: Listed private
+  owners:
+  - entity: Adani Enterprises Ltd
+    stake_pct: null
+  partners: []
+  location:
+    address: null
+    village_or_town: Mundra
+    district: Kachchh
+    state: Gujarat
+    country: India
+    lat: 22.83931
+    lon: 69.72495
+    precision: town
+    geometry: null
+  status: Expanding
+  status_as_of: '2026-10-12'
+  status_detail: 500,000 tpa smelter running; cathodes LME-registered Jul 2026; doubling to 1 Mtpa by FY29
+  capacity:
+    planned:
+      value: 1000000
+      unit: tpa
+      basis: copper
+      phase: phase 2, by 2028-29
+    installed:
+      value: 500000
+      unit: tpa
+      basis: copper smelter
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: Imported ore
+  feedstock_detail: Imported copper concentrate
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2024-12-06'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: '2024'
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Smelts imported concentrate into copper cathode at a 500,000-tonne plant, with a second phase
+      to double output.
+    why_it_matters: The mines ministry says it will end India's need for refined copper imports once it reaches
+      full capacity.
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-24'
+  notes: null
+  id: kutch-copper-mundra
+  name: Kutch Copper smelter and refinery, Mundra
+  sources:
+  - id: smm-kutch-2026
+    url: https://news.metal.com/newscontent/104152415-kutch-copper-to-integrate-115-mw-renewable-energy-at-mundra-aiming-for-1m-tonne-capacity-and-carbon-reduction
+    title: Kutch Copper to integrate 115 MW renewable energy at Mundra, aiming for 1M tonne capacity
+    publisher: Shanghai Metals Market (SMM)
+    tier: T3
+    date: '2026-10-12'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - capacity.installed
+    - capacity.planned
+    - status_detail
+    - products
+  - id: mining-kutch-2024
+    url: https://www.mining.com/web/adani-smelter-expansion-will-cut-indias-refined-copper-imports-government-says/
+    title: Adani smelter expansion will cut India's refined copper imports, government says
+    publisher: MINING.COM (Reuters)
+    tier: T3
+    date: '2024-12-06'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - operator
+    - owners
+    - dates.commissioned
+    - dates.first_public
+    - capacity.planned
+- aliases:
+  - Vedanta Sterlite Tuticorin
+  layer: processing
+  stages:
+  - Refining
+  minerals:
+  - Copper
+  commodity_as_stated: Cu smelting
+  products:
+  - Copper cathode (until 2018)
+  operator: Vedanta Ltd
+  operator_type: Listed private
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Thoothukudi
+    district: Thoothukudi
+    state: Tamil Nadu
+    country: India
+    lat: 8.8457
+    lon: 77.99382
+    precision: town
+    geometry: null
+  status: Closed
+  status_as_of: 2025-01
+  status_detail: 400,000 tpy smelter shut since May 2018
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: 400000
+      unit: tpy
+      basis: copper smelting (idle)
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: 2025-01
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: 2018-05
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Was India's second-largest copper smelter until Tamil Nadu ordered it shut in May 2018.
+    why_it_matters: Its closure halved domestic copper output and made India a net importer of refined copper.
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-24'
+  notes: null
+  id: sterlite-copper-thoothukudi
+  name: Sterlite Copper smelter, Thoothukudi
+  sources:
+  - id: imyb-2023
+    url: https://ibm.gov.in/writereaddata/files/17454767536809dc9139ba8IMYB_BOOK_2023.pdf
+    title: Indian Minerals Yearbook 2023 (62nd edition)
+    publisher: Indian Bureau of Mines, Ministry of Mines
+    tier: T1
+    date: 2025-01
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - capacity.installed
+    - dates.closed
+    - location
+    - dates.first_public
+    - operator
+  - id: mining-kutch-2024
+    url: https://www.mining.com/web/adani-smelter-expansion-will-cut-indias-refined-copper-imports-government-says/
+    title: Adani smelter expansion will cut India's refined copper imports, government says
+    publisher: MINING.COM (Reuters)
+    tier: T3
+    date: '2024-12-06'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - narrative
+    - status
+- aliases:
+  - Indian Copper Complex
+  - Maubhandar smelter
+  layer: processing
+  stages:
+  - Refining
+  minerals:
+  - Copper
+  - Nickel
+  commodity_as_stated: primary copper smelting and refining; nickel recovered from refinery waste stream
+  products:
+  - Copper cathode
+  - Nickel (from refinery waste stream)
+  operator: Hindustan Copper Ltd
+  operator_type: PSU (Central)
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Ghatsila
+    district: East Singhbhum
+    state: Jharkhand
+    country: India
+    lat: 22.58597
+    lon: 86.47916
+    precision: town
+    geometry: null
+  status: Stalled
+  status_as_of: '2025-11-11'
+  status_detail: Smelting and refining suspended since 2019 for business reasons
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: 19000
+      unit: tpy
+      basis: copper smelting (idle)
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: 2025-01
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: '2019'
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Is Hindustan Copper's primary smelter for ore from its Singhbhum mines, idle since 2019.
+    why_it_matters: null
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-24'
+  notes: HCL's 2025-26 BRSR lists ICC's activities as underground mining and beneficiation only. A secondary scrap-based
+    smelter at Jhagadia (Gujarat Copper Project, 50,000 tpy) and the Taloja rod mill are excluded under D-002; Jhagadia
+    is also suspended. HCL ships concentrate instead of smelting it.
+  id: hcl-icc-ghatsila-smelter
+  name: Hindustan Copper ICC smelter and refinery, Ghatsila
+  sources:
+  - id: imyb-2023
+    url: https://ibm.gov.in/writereaddata/files/17454767536809dc9139ba8IMYB_BOOK_2023.pdf
+    title: Indian Minerals Yearbook 2023 (62nd edition)
+    publisher: Indian Bureau of Mines, Ministry of Mines
+    tier: T1
+    date: 2025-01
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - capacity.installed
+    - location
+    - dates.first_public
+    - products
+    - minerals
+  - id: ob-hcl-2025
+    url: https://www.outlookbusiness.com/markets/hindustan-copper-q2-profit-grows-85-to-186-cr
+    title: Hindustan Copper Q2 profit grows 85% to Rs 186 cr
+    publisher: Outlook Business
+    tier: T3
+    date: '2025-11-11'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - status_detail
+    - dates.closed
+    - operator
+  - id: hcl-brsr-2026
+    url: https://nsearchives.nseindia.com/corporate/HINDCOPPERMKD_27082026180008_BSENSEBRSR27082026.pdf
+    title: Hindustan Copper Business Responsibility and Sustainability Report 2025-26
+    publisher: Hindustan Copper Ltd
+    tier: T2
+    date: '2026-08-27'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+- aliases:
+  - Khetri Copper Complex smelter
+  layer: processing
+  stages:
+  - Refining
+  minerals:
+  - Copper
+  commodity_as_stated: copper smelting and refinery
+  products:
+  - Copper cathode (until 2008)
+  operator: Hindustan Copper Ltd
+  operator_type: PSU (Central)
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Khetri
+    district: Jhunjhunu
+    state: Rajasthan
+    country: India
+    lat: 28.00034
+    lon: 75.78413
+    precision: town
+    geometry: null
+  status: Closed
+  status_as_of: 2025-01
+  status_detail: 31,000 tpy smelter suspended since December 2008; the Khetri concentrator still runs
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: 31000
+      unit: tpy
+      basis: copper smelting (idle)
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: 2025-01
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: 2008-12
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Hindustan Copper's Rajasthan smelter, shut since 2008 for economic reasons.
+    why_it_matters: null
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-24'
+  notes: null
+  id: hcl-kcc-khetri-smelter
+  name: Hindustan Copper KCC smelter and refinery, Khetri
+  sources:
+  - id: imyb-2023
+    url: https://ibm.gov.in/writereaddata/files/17454767536809dc9139ba8IMYB_BOOK_2023.pdf
+    title: Indian Minerals Yearbook 2023 (62nd edition)
+    publisher: Indian Bureau of Mines, Ministry of Mines
+    tier: T1
+    date: 2025-01
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - capacity.installed
+    - dates.closed
+    - location
+    - dates.first_public
+    - operator
+- aliases: []
+  layer: processing
+  stages:
+  - Refining
+  minerals:
+  - Cadmium
+  commodity_as_stated: cadmium recovered as by-product of zinc smelting
+  products:
+  - Cadmium pencils (by-product)
+  - Zinc and lead (not canonical)
+  operator: Hindustan Zinc Ltd
+  operator_type: Listed private
+  owners:
+  - entity: Vedanta Ltd
+    stake_pct: null
+  partners: []
+  location:
+    address: null
+    village_or_town: Chanderiya
+    district: Chittorgarh
+    state: Rajasthan
+    country: India
+    lat: 24.92492
+    lon: 74.61822
+    precision: town
+    geometry: null
+  status: Operational
+  status_as_of: 2025-01
+  status_detail: Zinc smelter operating (585,000 tpy); cadmium capacity 468 tpy, but no cadmium output reported
+    since 2017-18
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: 468
+      unit: tpy
+      basis: cadmium recovery
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: Domestic ore
+  feedstock_detail: Zinc-lead concentrates from HZL's Rajasthan mines
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: 2025-01
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Recovers cadmium as a by-product at the world's largest single-site zinc smelter.
+    why_it_matters: It holds most of India's cadmium recovery capacity, though no cadmium output has been reported
+      since 2017-18.
+  related: []
+  see_also: []
+  confidence: medium
+  last_verified: '2026-10-24'
+  notes: Mapped as a cadmium stream under D-003. HZL's Dariba smelters list no cadmium capacity and are excluded.
+  id: hzl-chanderiya-smelter
+  name: Hindustan Zinc Chanderiya lead-zinc smelter (cadmium recovery)
+  sources:
+  - id: imyb-2023
+    url: https://ibm.gov.in/writereaddata/files/17454767536809dc9139ba8IMYB_BOOK_2023.pdf
+    title: Indian Minerals Yearbook 2023 (62nd edition)
+    publisher: Indian Bureau of Mines, Ministry of Mines
+    tier: T1
+    date: 2025-01
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - capacity.installed
+    - location
+    - status_detail
+    - operator
+    - minerals
+    - dates.first_public
+- aliases: []
+  layer: processing
+  stages:
+  - Refining
+  minerals:
+  - Cadmium
+  commodity_as_stated: cadmium recovered as by-product of zinc smelting
+  products:
+  - Cadmium pencils (by-product)
+  - Zinc (not canonical)
+  operator: Hindustan Zinc Ltd
+  operator_type: Listed private
+  owners:
+  - entity: Vedanta Ltd
+    stake_pct: null
+  partners: []
+  location:
+    address: null
+    village_or_town: Debari
+    district: Udaipur
+    state: Rajasthan
+    country: India
+    lat: 24.59779
+    lon: 73.78893
+    precision: town
+    geometry: null
+  status: Operational
+  status_as_of: 2025-01
+  status_detail: Zinc smelter operating (88,000 tpy); cadmium capacity 250 tpy, no cadmium output reported since
+    2017-18
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: 250
+      unit: tpy
+      basis: cadmium recovery
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: Domestic ore
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: 2025-01
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Hindustan Zinc's oldest smelter, with 250 tonnes a year of cadmium recovery capacity.
+    why_it_matters: null
+  related: []
+  see_also: []
+  confidence: medium
+  last_verified: '2026-10-24'
+  notes: null
+  id: hzl-debari-smelter
+  name: Hindustan Zinc Debari zinc smelter (cadmium recovery)
+  sources:
+  - id: imyb-2023
+    url: https://ibm.gov.in/writereaddata/files/17454767536809dc9139ba8IMYB_BOOK_2023.pdf
+    title: Indian Minerals Yearbook 2023 (62nd edition)
+    publisher: Indian Bureau of Mines, Ministry of Mines
+    tier: T1
+    date: 2025-01
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - capacity.installed
+    - location
+    - status_detail
+    - operator
+    - minerals
+    - dates.first_public
+- aliases: []
+  layer: processing
+  stages:
+  - Refining
+  minerals:
+  - Cadmium
+  commodity_as_stated: cadmium recovered as by-product of zinc smelting
+  products:
+  - Cadmium (by-product, until 2002)
+  operator: Hindustan Zinc Ltd
+  operator_type: Listed private
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Visakhapatnam
+    district: Visakhapatnam
+    state: Andhra Pradesh
+    country: India
+    lat: 17.70191
+    lon: 83.21233
+    precision: town
+    geometry: null
+  status: Closed
+  status_as_of: 2025-01
+  status_detail: Operation suspended since 2002 (cadmium capacity 115 tpy)
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: 115
+      unit: tpy
+      basis: cadmium recovery (idle)
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: 2025-01
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: '2002'
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: A Hindustan Zinc smelter in Visakhapatnam, idle since 2002.
+    why_it_matters: null
+  related: []
+  see_also: []
+  confidence: medium
+  last_verified: '2026-10-24'
+  notes: Point is Mindi, Visakhapatnam, the smelter's locality (geocoder); the source names Visakhapatnam only.
+  id: hzl-vizag-zinc-smelter
+  name: Hindustan Zinc Vizag zinc smelter
+  sources:
+  - id: imyb-2023
+    url: https://ibm.gov.in/writereaddata/files/17454767536809dc9139ba8IMYB_BOOK_2023.pdf
+    title: Indian Minerals Yearbook 2023 (62nd edition)
+    publisher: Indian Bureau of Mines, Ministry of Mines
+    tier: T1
+    date: 2025-01
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - capacity.installed
+    - dates.closed
+    - location
+    - dates.first_public
+    - operator
+- aliases: []
+  layer: processing
+  stages:
+  - Refining
+  minerals:
+  - Cadmium
+  commodity_as_stated: cadmium recovered as by-product of zinc smelting
+  products:
+  - Cadmium (by-product, until 2014)
+  operator: Edayar Zinc Ltd (formerly Binani Zinc)
+  operator_type: Unlisted private
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Binanipuram
+    district: Ernakulam
+    state: Kerala
+    country: India
+    lat: 10.08422
+    lon: 76.30646
+    precision: town
+    geometry: null
+  status: Closed
+  status_as_of: 2025-01
+  status_detail: Operation suspended since April 2014 (cadmium capacity 80 tpy)
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: 80
+      unit: tpy
+      basis: cadmium recovery (idle)
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: 2025-01
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: 2014-04
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: A 38,000-tonne zinc smelter near Kochi, idle since April 2014.
+    why_it_matters: null
+  related: []
+  see_also: []
+  confidence: medium
+  last_verified: '2026-10-24'
+  notes: null
+  id: edayar-zinc-binanipuram
+  name: Edayar Zinc (Binani Zinc) smelter, Binanipuram
+  sources:
+  - id: imyb-2023
+    url: https://ibm.gov.in/writereaddata/files/17454767536809dc9139ba8IMYB_BOOK_2023.pdf
+    title: Indian Minerals Yearbook 2023 (62nd edition)
+    publisher: Indian Bureau of Mines, Ministry of Mines
+    tier: T1
+    date: 2025-01
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - capacity.installed
+    - dates.closed
+    - location
+    - dates.first_public
+    - operator
+- aliases: []
+  layer: processing
+  stages:
+  - Refining
+  minerals:
+  - Antimony
+  commodity_as_stated: antimony concentrate (by-product); potassium antimony tartrate
+  products:
+  - Antimony concentrate (by-product)
+  - Potassium antimony tartrate
+  - Silver (not canonical)
+  operator: Hindustan Zinc Ltd
+  operator_type: Listed private
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Pantnagar
+    district: Udham Singh Nagar
+    state: Uttarakhand
+    country: India
+    lat: 29.0284
+    lon: 79.48321
+    precision: town
+    geometry: null
+  status: Operational
+  status_as_of: 2025-01
+  status_detail: 1,400 TPA antimony concentrate recovered as a by-product; India has no primary antimony production
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: 1400
+      unit: TPA
+      basis: antimony concentrate (by-product)
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: Domestic ore
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: 2025-01
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Recovers antimony from smelter dust at Hindustan Zinc's silver refinery in Uttarakhand.
+    why_it_matters: It is the only antimony stream the Indian Bureau of Mines records; all other antimony is imported.
+  related: []
+  see_also: []
+  confidence: medium
+  last_verified: '2026-10-24'
+  notes: null
+  id: hzl-pantnagar-metal-plant
+  name: Hindustan Zinc Pantnagar metal plant (antimony by-product)
+  sources:
+  - id: imyb-2023
+    url: https://ibm.gov.in/writereaddata/files/17454767536809dc9139ba8IMYB_BOOK_2023.pdf
+    title: Indian Minerals Yearbook 2023 (62nd edition)
+    publisher: Indian Bureau of Mines, Ministry of Mines
+    tier: T1
+    date: 2025-01
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - capacity.installed
+    - location
+    - products
+    - operator
+    - minerals
+    - dates.first_public
+- aliases:
+  - Nicomet Industries
+  layer: processing
+  stages:
+  - Refining
+  minerals:
+  - Nickel
+  - Cobalt
+  commodity_as_stated: Nickel and Cobalt; battery grade nickel sulphate
+  products:
+  - Nickel metal and salts
+  - Battery-grade nickel sulphate
+  - Cobalt metal and salts
+  operator: Vedanta Ltd (Nicomet)
+  operator_type: Listed private
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Cuncolim
+    district: South Goa
+    state: Goa
+    country: India
+    lat: 15.18013
+    lon: 73.99786
+    precision: town
+    geometry: null
+  status: Operational
+  status_as_of: 2025-01
+  status_detail: India's only nickel producer; cobalt metal and salts 1,000 tpy
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: 1000
+      unit: tpy
+      basis: cobalt metal and salts
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: Imported intermediate
+  feedstock_detail: Imported nickel and cobalt intermediates
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: 2021-12
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Refines imported nickel and cobalt intermediates into metal, salts and battery-grade nickel sulphate.
+    why_it_matters: It is India's only nickel producer; the country imports almost all of the roughly 45,000 tonnes
+      it uses.
+  related: []
+  see_also: []
+  confidence: medium
+  last_verified: '2026-10-24'
+  notes: Vedanta cited 7.5 KTPA of nickel and cobalt capacity at acquisition (Dec 2021, press reports); IBM gives
+    1,000 tpy for cobalt metal and salts. Rubamin (Vadodara), the other cobalt refiner IBM lists, processes spent
+    catalysts and is covered in L5.
+  id: nicomet-cuncolim
+  name: Vedanta Nicomet nickel and cobalt refinery, Cuncolim
+  sources:
+  - id: imyb-2023
+    url: https://ibm.gov.in/writereaddata/files/17454767536809dc9139ba8IMYB_BOOK_2023.pdf
+    title: Indian Minerals Yearbook 2023 (62nd edition)
+    publisher: Indian Bureau of Mines, Ministry of Mines
+    tier: T1
+    date: 2025-01
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - capacity.installed
+    - location
+    - products
+  - id: vedanta-nicomet-2021
+    url: https://vedantaresources.com/img/media_mentions/press_release/2021/Press-Release_Vedanta-Acquires-Nicomet-Updated.pdf
+    title: Vedanta acquires Nicomet, becomes the only nickel producer in India
+    publisher: Vedanta Resources
+    tier: T2
+    date: 2021-12
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status_detail
+    - operator
+    - dates.first_public
+    - minerals
+- aliases: []
+  layer: processing
+  stages:
+  - Refining
+  minerals:
+  - Gallium
+  commodity_as_stated: gallium extraction from Bayer liquor
+  products:
+  - Gallium metal (planned, 99.99%)
+  operator: National Aluminium Company Ltd (NALCO)
+  operator_type: PSU (Central)
+  owners: []
+  partners:
+  - name: Bhabha Atomic Research Centre
+    country: India
+    role: technology
+  location:
+    address: null
+    village_or_town: Damanjodi
+    district: Koraput
+    state: Odisha
+    country: India
+    lat: 18.75828
+    lon: 82.91064
+    precision: town
+    geometry: null
+  status: Announced
+  status_as_of: '2026-02-11'
+  status_detail: 10 tpy plant planned since 2014; pilot plant 'being set up' (early 2026)
+  capacity:
+    planned:
+      value: 10
+      unit: tpy
+      basis: gallium
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: Domestic ore
+  feedstock_detail: Bayer liquor from Odisha bauxite
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: 2025-01
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Plans to recover gallium, a chip and LED metal, from the alumina liquor at NALCO's Koraput refinery.
+    why_it_matters: India imports all its gallium while China controls most supply; this plan has been on paper
+      for a decade.
+  related: []
+  see_also: []
+  confidence: medium
+  last_verified: '2026-10-24'
+  notes: IBM records that Damanjodi and Hindalco Renukoot had recovered gallium in the past. NALCO-BARC MoU on recovery
+    technology, 2016.
+  id: nalco-damanjodi-gallium
+  name: NALCO gallium extraction plant, Damanjodi alumina refinery
+  sources:
+  - id: imyb-2023
+    url: https://ibm.gov.in/writereaddata/files/17454767536809dc9139ba8IMYB_BOOK_2023.pdf
+    title: Indian Minerals Yearbook 2023 (62nd edition)
+    publisher: Indian Bureau of Mines, Ministry of Mines
+    tier: T1
+    date: 2025-01
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - capacity.planned
+    - location
+    - dates.first_public
+    - minerals
+    - operator
+  - id: alc-nalco-2026
+    url: https://www.alcircle.com/news/nalcos-gallium-plan-remains-on-paper-a-missed-opportunity-as-critical-minerals-race-heats-up-117237
+    title: NALCO's gallium plan remains on paper
+    publisher: AL Circle
+    tier: T3
+    date: '2026-02-11'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - status_detail
+    - partners
+- aliases: []
+  layer: processing
+  stages:
+  - Refining
+  minerals:
+  - Vanadium
+  - Gallium
+  commodity_as_stated: vanadium sludge (8.2% V2O5) from Bayer process; gallium recovered in the past
+  products:
+  - Vanadium sludge (by-product)
+  operator: Hindalco Industries Ltd
+  operator_type: Listed private
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Renukoot
+    district: Sonbhadra
+    state: Uttar Pradesh
+    country: India
+    lat: 24.20323
+    lon: 83.04004
+    precision: town
+    geometry: null
+  status: Operational
+  status_as_of: 2025-01
+  status_detail: Vanadium sludge separated in the Bayer process; gallium recovery not current
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: Domestic ore
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: 2025-01
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Separates vanadium-rich sludge as a by-product of alumina refining; it also recovered gallium
+      in the past.
+    why_it_matters: null
+  related: []
+  see_also: []
+  confidence: medium
+  last_verified: '2026-10-24'
+  notes: null
+  id: hindalco-renukoot-alumina
+  name: Hindalco Renukoot alumina refinery (vanadium sludge; past gallium)
+  sources:
+  - id: imyb-2023
+    url: https://ibm.gov.in/writereaddata/files/17454767536809dc9139ba8IMYB_BOOK_2023.pdf
+    title: Indian Minerals Yearbook 2023 (62nd edition)
+    publisher: Indian Bureau of Mines, Ministry of Mines
+    tier: T1
+    date: 2025-01
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - products
+    - location
+    - minerals
+    - operator
+    - dates.first_public
+- aliases: []
+  layer: processing
+  stages:
+  - Refining
+  minerals:
+  - Vanadium
+  commodity_as_stated: vanadium sludge (6-20% V2O5) from Bayer process
+  products:
+  - Vanadium sludge (by-product)
+  operator: Hindalco Industries Ltd
+  operator_type: Listed private
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Muri
+    district: Ranchi
+    state: Jharkhand
+    country: India
+    lat: 23.3777
+    lon: 85.86696
+    precision: town
+    geometry: null
+  status: Operational
+  status_as_of: 2025-01
+  status_detail: null
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: Domestic ore
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: 2025-01
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Separates vanadium-rich sludge as a by-product of alumina refining.
+    why_it_matters: null
+  related: []
+  see_also: []
+  confidence: medium
+  last_verified: '2026-10-24'
+  notes: null
+  id: hindalco-muri-alumina
+  name: Hindalco Muri alumina refinery (vanadium sludge)
+  sources:
+  - id: imyb-2023
+    url: https://ibm.gov.in/writereaddata/files/17454767536809dc9139ba8IMYB_BOOK_2023.pdf
+    title: Indian Minerals Yearbook 2023 (62nd edition)
+    publisher: Indian Bureau of Mines, Ministry of Mines
+    tier: T1
+    date: 2025-01
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - products
+    - location
+    - minerals
+    - operator
+    - dates.first_public
+- aliases: []
+  layer: processing
+  stages:
+  - Refining
+  minerals:
+  - Vanadium
+  commodity_as_stated: vanadium sludge (6-20% V2O5) from Bayer process
+  products:
+  - Vanadium sludge (by-product)
+  operator: Hindalco Industries Ltd
+  operator_type: Listed private
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Belagavi
+    district: Belagavi
+    state: Karnataka
+    country: India
+    lat: 16.15879
+    lon: 74.88886
+    precision: town
+    geometry: null
+  status: Operational
+  status_as_of: 2025-01
+  status_detail: null
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: Domestic ore
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: 2025-01
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Separates vanadium-rich sludge as a by-product of alumina refining.
+    why_it_matters: null
+  related: []
+  see_also: []
+  confidence: medium
+  last_verified: '2026-10-24'
+  notes: Point is Belagavi city; the refinery site is outside the city (not geocoded).
+  id: hindalco-belagavi-alumina
+  name: Hindalco Belagavi alumina refinery (vanadium sludge)
+  sources:
+  - id: imyb-2023
+    url: https://ibm.gov.in/writereaddata/files/17454767536809dc9139ba8IMYB_BOOK_2023.pdf
+    title: Indian Minerals Yearbook 2023 (62nd edition)
+    publisher: Indian Bureau of Mines, Ministry of Mines
+    tier: T1
+    date: 2025-01
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - products
+    - location
+    - minerals
+    - operator
+    - dates.first_public
+- aliases: []
+  layer: processing
+  stages:
+  - Refining
+  minerals:
+  - Vanadium
+  commodity_as_stated: vanadium sludge (6-10% V2O5)
+  products:
+  - Vanadium sludge (by-product)
+  operator: Bharat Aluminium Company Ltd (BALCO)
+  operator_type: Listed private
+  owners:
+  - entity: Vedanta Ltd
+    stake_pct: null
+  partners: []
+  location:
+    address: null
+    village_or_town: Korba
+    district: Korba
+    state: Chhattisgarh
+    country: India
+    lat: 22.51982
+    lon: 82.635
+    precision: town
+    geometry: null
+  status: Operational
+  status_as_of: 2025-01
+  status_detail: null
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: Domestic ore
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: 2025-01
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Recovers vanadium-rich sludge at Vedanta's Korba aluminium complex.
+    why_it_matters: null
+  related: []
+  see_also: []
+  confidence: medium
+  last_verified: '2026-10-24'
+  notes: null
+  id: balco-korba-vanadium
+  name: BALCO Korba plant (vanadium sludge)
+  sources:
+  - id: imyb-2023
+    url: https://ibm.gov.in/writereaddata/files/17454767536809dc9139ba8IMYB_BOOK_2023.pdf
+    title: Indian Minerals Yearbook 2023 (62nd edition)
+    publisher: Indian Bureau of Mines, Ministry of Mines
+    tier: T1
+    date: 2025-01
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - products
+    - location
+    - minerals
+    - dates.first_public
+    - operator
+- aliases: []
+  layer: processing
+  stages:
+  - Refining
+  minerals:
+  - Vanadium
+  commodity_as_stated: V2O5 (vanadium pentoxide) extracted from bauxite
+  products:
+  - Vanadium pentoxide
+  operator: Vedanta Ltd
+  operator_type: Listed private
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Lanjigarh
+    district: Kalahandi
+    state: Odisha
+    country: India
+    lat: 19.68734
+    lon: 83.28878
+    precision: town
+    geometry: null
+  status: Operational
+  status_as_of: 2025-01
+  status_detail: In-house process for V2O5 extraction at a 2 Mtpa alumina refinery
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: Domestic ore
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: 2025-01
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Extracts vanadium pentoxide from bauxite with an in-house process at Vedanta's alumina refinery.
+    why_it_matters: IBM notes most vanadium for ferro-vanadium was imported until such recovery projects.
+  related: []
+  see_also: []
+  confidence: medium
+  last_verified: '2026-10-24'
+  notes: IBM describes the process as developed under Vedanta's zero-waste refinery programme; output volumes not
+    published.
+  id: vedanta-lanjigarh-vanadium
+  name: Vedanta Lanjigarh alumina refinery (vanadium pentoxide extraction)
+  sources:
+  - id: imyb-2023
+    url: https://ibm.gov.in/writereaddata/files/17454767536809dc9139ba8IMYB_BOOK_2023.pdf
+    title: Indian Minerals Yearbook 2023 (62nd edition)
+    publisher: Indian Bureau of Mines, Ministry of Mines
+    tier: T1
+    date: 2025-01
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - products
+    - location
+    - minerals
+    - operator
+    - dates.first_public
+- aliases:
+  - Kerala Minerals and Metals Ltd
+  layer: processing
+  stages:
+  - Refining
+  minerals:
+  - Titanium
+  commodity_as_stated: synthetic rutile; titanium dioxide pigment (chloride route); titanium sponge
+  products:
+  - Synthetic rutile
+  - Titanium dioxide pigment (chloride route)
+  - Titanium sponge (500 tpy)
+  operator: The Kerala Minerals and Metals Ltd
+  operator_type: PSU (State)
+  owners:
+  - entity: Government of Kerala
+    stake_pct: 100
+  partners:
+  - name: Defence Metallurgical Research Laboratory
+    country: India
+    role: technology
+  location:
+    address: null
+    village_or_town: Chavara
+    district: Kollam
+    state: Kerala
+    country: India
+    lat: 8.97536
+    lon: 76.53505
+    precision: town
+    geometry: null
+  status: Operational
+  status_as_of: 2025-01
+  status_detail: Synthetic rutile 50,000 tpy; 500 tpy titanium sponge plant (DMRL technology), expansion to 1,000
+    tpy planned
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: 50000
+      unit: tpy
+      basis: synthetic rutile
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: Domestic ore
+  feedstock_detail: Ilmenite from KMML's own Chavara beach-sand mining
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: 2025-01
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: 2011-09
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Turns Kerala beach-sand ilmenite into synthetic rutile, chloride-route titanium pigment and titanium
+      sponge for aerospace.
+    why_it_matters: Its sponge plant is India's only titanium metal source, built for ISRO and defence users.
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-24'
+  notes: null
+  id: kmml-chavara
+  name: KMML titanium complex, Chavara
+  sources:
+  - id: imyb-2023
+    url: https://ibm.gov.in/writereaddata/files/17454767536809dc9139ba8IMYB_BOOK_2023.pdf
+    title: Indian Minerals Yearbook 2023 (62nd edition)
+    publisher: Indian Bureau of Mines, Ministry of Mines
+    tier: T1
+    date: 2025-01
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - capacity.installed
+    - location
+    - products
+    - dates.commissioned
+    - dates.first_public
+    - partners
+  - id: kmml-sponge-page
+    url: https://www.kmml.com/initiatives/1
+    title: Titanium Sponge Plant
+    publisher: The Kerala Minerals and Metals Ltd
+    tier: T2
+    date: null
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - status_detail
+    - operator
+- aliases: []
+  layer: processing
+  stages:
+  - Refining
+  minerals:
+  - Titanium
+  commodity_as_stated: titanium sponge (10,000 TPY proposed)
+  products:
+  - Titanium sponge
+  operator: KMML-SAIL joint venture (proposed)
+  operator_type: JV
+  owners:
+  - entity: The Kerala Minerals and Metals Ltd
+    stake_pct: null
+  - entity: Steel Authority of India Ltd
+    stake_pct: null
+  partners: []
+  location:
+    address: null
+    village_or_town: Chavara
+    district: Kollam
+    state: Kerala
+    country: India
+    lat: 8.97536
+    lon: 76.53505
+    precision: town
+    geometry: null
+  status: MoU signed
+  status_as_of: 2025-01
+  status_detail: Rs 5,000 crore JV MoU for a 10,000 TPY sponge plant near KMML
+  capacity:
+    planned:
+      value: 10000
+      unit: TPY
+      basis: titanium sponge
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: 5000
+    currency: INR_crore
+    basis: JV MoU
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: 2025-01
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Would scale India's titanium sponge output twentyfold with a 10,000-tonne plant next to KMML.
+    why_it_matters: null
+  related:
+  - kmml-chavara
+  see_also: []
+  confidence: medium
+  last_verified: '2026-10-24'
+  notes: KMML's page is undated; first_public set to the IMYB edition that also records the plan. No construction
+    reported.
+  id: kmml-sail-titanium-sponge-jv
+  name: KMML-SAIL titanium sponge joint venture (proposed), Chavara
+  sources:
+  - id: kmml-sponge-page
+    url: https://www.kmml.com/initiatives/1
+    title: Titanium Sponge Plant
+    publisher: The Kerala Minerals and Metals Ltd
+    tier: T2
+    date: null
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - investment
+    - capacity.planned
+    - owners
+    - location
+    - status_detail
+    - operator
+  - id: imyb-2023
+    url: https://ibm.gov.in/writereaddata/files/17454767536809dc9139ba8IMYB_BOOK_2023.pdf
+    title: Indian Minerals Yearbook 2023 (62nd edition)
+    publisher: Indian Bureau of Mines, Ministry of Mines
+    tier: T1
+    date: 2025-01
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - dates.first_public
+- aliases: []
+  layer: processing
+  stages:
+  - Refining
+  minerals:
+  - Titanium
+  commodity_as_stated: titanium dioxide pigment by sulphate process (anatase grade)
+  products:
+  - Anatase titanium dioxide pigment
+  operator: The Travancore Titanium Products Ltd
+  operator_type: PSU (State)
+  owners:
+  - entity: Government of Kerala
+    stake_pct: null
+  partners: []
+  location:
+    address: null
+    village_or_town: Kochuveli
+    district: Thiruvananthapuram
+    state: Kerala
+    country: India
+    lat: 8.51033
+    lon: 76.89705
+    precision: town
+    geometry: null
+  status: Operational
+  status_as_of: 2025-01
+  status_detail: 17,000 tpy sulphate-route TiO2 pigment
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: 17000
+      unit: tpy
+      basis: titanium dioxide pigment
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: Domestic ore
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: 2025-01
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Makes anatase titanium dioxide pigment from Kerala ilmenite by the sulphate route.
+    why_it_matters: null
+  related: []
+  see_also: []
+  confidence: medium
+  last_verified: '2026-10-24'
+  notes: null
+  id: ttpl-kochuveli
+  name: Travancore Titanium Products TiO2 plant, Kochuveli
+  sources:
+  - id: imyb-2023
+    url: https://ibm.gov.in/writereaddata/files/17454767536809dc9139ba8IMYB_BOOK_2023.pdf
+    title: Indian Minerals Yearbook 2023 (62nd edition)
+    publisher: Indian Bureau of Mines, Ministry of Mines
+    tier: T1
+    date: 2025-01
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - capacity.installed
+    - location
+    - products
+    - operator
+    - dates.first_public
+- aliases: []
+  layer: processing
+  stages:
+  - Refining
+  minerals:
+  - Titanium
+  commodity_as_stated: Synthetic Rutile (SR); Utox
+  products:
+  - Synthetic rutile
+  - Utox (recovered TiO2)
+  operator: DCW Ltd
+  operator_type: Listed private
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Sahupuram
+    district: Thoothukudi
+    state: Tamil Nadu
+    country: India
+    lat: 8.59078
+    lon: 78.08237
+    precision: town
+    geometry: null
+  status: Operational
+  status_as_of: '2026-08-13'
+  status_detail: 48,000 tpy synthetic rutile from Manavalakurichi ilmenite, alongside chlor-alkali and PVC
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: 48000
+      unit: tpy
+      basis: synthetic rutile
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: Domestic ore
+  feedstock_detail: Ilmenite from IREL Manavalakurichi
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '1986'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Upgrades ilmenite into synthetic rutile, a high-grade titanium feedstock, at DCW's chemicals complex.
+    why_it_matters: null
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-24'
+  notes: null
+  id: dcw-sahupuram-synthetic-rutile
+  name: DCW synthetic rutile plant, Sahupuram
+  sources:
+  - id: imyb-2023
+    url: https://ibm.gov.in/writereaddata/files/17454767536809dc9139ba8IMYB_BOOK_2023.pdf
+    title: Indian Minerals Yearbook 2023 (62nd edition)
+    publisher: Indian Bureau of Mines, Ministry of Mines
+    tier: T1
+    date: 2025-01
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - capacity.installed
+    - location
+    - feedstock
+  - id: dcw-deck-2026
+    url: https://nsearchives.nseindia.com/corporate/DCW_13082026202839_Intimation_Investor_Presentation_.pdf
+    title: DCW Ltd investor presentation, August 2026
+    publisher: DCW Ltd
+    tier: T2
+    date: '2026-08-13'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - products
+    - operator
+    - dates.first_public
+- aliases:
+  - CMRL
+  layer: processing
+  stages:
+  - Refining
+  minerals:
+  - Titanium
+  commodity_as_stated: Synthetic Rutile
+  products:
+  - Synthetic rutile
+  - Ferric and ferrous chloride
+  operator: Cochin Minerals and Rutile Ltd
+  operator_type: Listed private
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Edayar
+    district: Ernakulam
+    state: Kerala
+    country: India
+    lat: 10.08765
+    lon: 76.30291
+    precision: town
+    geometry: null
+  status: Operational
+  status_as_of: 2026-08
+  status_detail: 50,000 tpy export-oriented synthetic rutile, now mostly on imported ilmenite
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: 50000
+      unit: tpy
+      basis: synthetic rutile
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: Imported ore
+  feedstock_detail: Imported ilmenite (domestic supply declined after 2010)
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '1990'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Exports synthetic rutile made largely from imported ilmenite at a plant near Kochi.
+    why_it_matters: null
+  related: []
+  see_also: []
+  confidence: medium
+  last_verified: '2026-10-24'
+  notes: IBM records production start at 10,000 tpy in 1990 as a 100% EOU.
+  id: cmrl-edayar-synthetic-rutile
+  name: Cochin Minerals and Rutile synthetic rutile plant, Edayar
+  sources:
+  - id: imyb-2023
+    url: https://ibm.gov.in/writereaddata/files/17454767536809dc9139ba8IMYB_BOOK_2023.pdf
+    title: Indian Minerals Yearbook 2023 (62nd edition)
+    publisher: Indian Bureau of Mines, Ministry of Mines
+    tier: T1
+    date: 2025-01
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - capacity.installed
+    - location
+    - dates.first_public
+  - id: iifl-cmrl-2026
+    url: https://www.indiainfoline.com/company/cochin-minerals-&-rutile-ltd-share-price/management-discussions/2422
+    title: 'Cochin Minerals & Rutile Ltd: management discussion and analysis'
+    publisher: India Infoline (company annual report text)
+    tier: T3
+    date: 2026-08
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - feedstock
+    - operator
+- aliases:
+  - Zirconium Complex, Pazhayakayal
+  layer: processing
+  stages:
+  - Refining
+  minerals:
+  - Zirconium
+  - Hafnium
+  commodity_as_stated: zirconium oxide and zirconium sponge (hafnium removed by solvent extraction)
+  products:
+  - Nuclear-grade zirconium oxide
+  - Zirconium sponge
+  operator: Nuclear Fuel Complex, Department of Atomic Energy
+  operator_type: Government / Ministry
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Palayakayal
+    district: Thoothukudi
+    state: Tamil Nadu
+    country: India
+    lat: 8.68041
+    lon: 78.09998
+    precision: town
+    geometry: null
+  status: Operational
+  status_as_of: 2025-01
+  status_detail: Zirconium oxide 500 tpy (535 t made in 2021-22); 250 tpy sponge plant with no output reported in
+    those years
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: 500
+      unit: tpy
+      basis: zirconium oxide (sponge plant 250 tpy)
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: Domestic ore
+  feedstock_detail: Zircon from beach-sand mining
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: 2025-01
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Processes zircon into nuclear-grade zirconium oxide and sponge for reactor fuel cladding.
+    why_it_matters: It underpins India's nuclear fuel supply, separating hafnium so the zirconium can be used inside
+      reactors.
+  related:
+  - nfc-hyderabad-zirconium
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-24'
+  notes: Hafnium tagged because the process removes it by solvent extraction; recovered hafnium output is not reported.
+  id: nfc-zirconium-complex-palayakayal
+  name: NFC Zirconium Complex, Palayakayal
+  sources:
+  - id: imyb-2023
+    url: https://ibm.gov.in/writereaddata/files/17454767536809dc9139ba8IMYB_BOOK_2023.pdf
+    title: Indian Minerals Yearbook 2023 (62nd edition)
+    publisher: Indian Bureau of Mines, Ministry of Mines
+    tier: T1
+    date: 2025-01
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - capacity.installed
+    - status_detail
+    - location
+    - products
+    - minerals
+    - dates.first_public
+    - operator
+- aliases: []
+  layer: processing
+  stages:
+  - Refining
+  minerals:
+  - Zirconium
+  commodity_as_stated: zirconium oxide, zirconium sponge, zircaloy
+  products:
+  - Zirconium oxide
+  - Zirconium sponge
+  - Zircaloy tubes and sheets
+  operator: Nuclear Fuel Complex, Department of Atomic Energy
+  operator_type: Government / Ministry
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Hyderabad
+    district: null
+    state: Telangana
+    country: India
+    lat: 17.36059
+    lon: 78.47406
+    precision: town
+    geometry: null
+  status: Operational
+  status_as_of: 2025-01
+  status_detail: Zirconium oxide output 605 t in 2021-22; zircaloy fabrication on site
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: 2025-01
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Turns zircon into zirconium oxide, sponge and zircaloy tubes for India's reactors.
+    why_it_matters: null
+  related:
+  - nfc-zirconium-complex-palayakayal
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-24'
+  notes: null
+  id: nfc-hyderabad-zirconium
+  name: Nuclear Fuel Complex zirconium plants, Hyderabad
+  sources:
+  - id: imyb-2023
+    url: https://ibm.gov.in/writereaddata/files/17454767536809dc9139ba8IMYB_BOOK_2023.pdf
+    title: Indian Minerals Yearbook 2023 (62nd edition)
+    publisher: Indian Bureau of Mines, Ministry of Mines
+    tier: T1
+    date: 2025-01
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - status_detail
+    - location
+    - products
+    - dates.first_public
+    - operator
+- aliases: []
+  layer: processing
+  stages:
+  - Refining
+  minerals:
+  - Lithium
+  commodity_as_stated: battery-grade lithium carbonate
+  products:
+  - Battery-grade lithium carbonate
+  operator: Altmin Pvt. Ltd. with The Singareni Collieries Company Ltd
+  operator_type: JV
+  owners:
+  - entity: Altmin Pvt. Ltd.
+    stake_pct: null
+  - entity: The Singareni Collieries Company Ltd
+    stake_pct: null
+  partners:
+  - name: Companhia Brasileira de Litio (CBL)
+    country: Brazil
+    role: supply
+  location:
+    address: null
+    village_or_town: null
+    district: null
+    state: Telangana
+    country: India
+    lat: 17.80079
+    lon: 79.00841
+    precision: state
+    geometry: null
+  status: MoU signed
+  status_as_of: '2025-12-18'
+  status_detail: MoU Dec 2025 for 30,000 t/yr; ore from Brazil; target 2027
+  capacity:
+    planned:
+      value: 30000
+      unit: t/yr
+      basis: battery-grade lithium carbonate
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: 2250
+    currency: INR_crore
+    basis: proposed
+  feedstock: Imported ore
+  feedstock_detail: Lithium ore from a Brazilian integrated miner
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2025-12-18'
+    announced: null
+    mou: 2025-12
+    approved: null
+    construction_start: null
+    original_expected_completion: '2027'
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Plans a 30,000-tonne lithium carbonate refinery in Telangana fed with Brazilian ore.
+    why_it_matters: India has no lithium refinery; this would supply cathode makers such as Altmin's own Divitipally
+      plant.
+  related:
+  - altmin-divitipally-lfp
+  see_also: []
+  confidence: medium
+  last_verified: '2026-10-24'
+  notes: Site within Telangana not published; point is the state centroid (OPEN_QUESTIONS 12).
+  id: altmin-sccl-lithium-refinery
+  name: Altmin-Singareni lithium carbonate refinery, Telangana
+  sources:
+  - id: evr-altmin-sccl-2025
+    url: https://evreporter.com/altmin-and-sccl-to-setup-%e2%82%b92250-crore-lithium-refinery-project-in-telangana/
+    title: Altmin and SCCL to set up Rs 2,250 crore lithium refinery project in Telangana
+    publisher: EVreporter
+    tier: T3
+    date: '2025-12-18'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - capacity.planned
+    - investment
+    - dates.mou
+    - dates.first_public
+    - dates.original_expected_completion
+    - owners
+    - location
+    - partners
+    - minerals
+    - products
+    - operator
+- aliases: []
+  layer: processing
+  stages:
+  - Refining
+  minerals:
+  - Lithium
+  commodity_as_stated: lithium hydroxide
+  products:
+  - Lithium hydroxide
+  operator: Manikaran Power Ltd
+  operator_type: Unlisted private
+  owners: []
+  partners:
+  - name: Neometals Ltd
+    country: Australia
+    role: jv
+  location:
+    address: null
+    village_or_town: null
+    district: null
+    state: Gujarat
+    country: India
+    lat: 22.69973
+    lon: 71.57571
+    precision: state
+    geometry: null
+  status: Announced
+  status_as_of: '2020-05-07'
+  status_detail: Feasibility study approved May 2020 for 20,000 t/yr; no later progress found
+  capacity:
+    planned:
+      value: 20000
+      unit: t/yr
+      basis: lithium hydroxide
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2020-05-07'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Was billed as India's first lithium refinery, a 20,000-tonne lithium hydroxide plant with Australia's
+      Neometals.
+    why_it_matters: null
+  related: []
+  see_also: []
+  confidence: medium
+  last_verified: '2026-10-24'
+  notes: No report found after the 2020 feasibility study and a Gujarat site shortlist; held at Announced because
+    a stall is not confirmed by a source. Site not published (OPEN_QUESTIONS 12).
+  id: manikaran-lithium-refinery
+  name: Manikaran lithium hydroxide refinery (proposed), Gujarat
+  sources:
+  - id: mining-manikaran-2020
+    url: https://www.mining.com/web/indian-lithium-plant-plan-advances-as-ev-market-boom-looms/
+    title: Indian lithium plant plan advances as EV market boom looms
+    publisher: MINING.COM (Bloomberg)
+    tier: T3
+    date: '2020-05-07'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - capacity.planned
+    - partners
+    - dates.first_public
+    - operator
+    - minerals
+    - products
+    - location
+- aliases: []
+  layer: processing
+  stages:
+  - Refining
+  minerals:
+  - Silicon
+  commodity_as_stated: monocrystalline silicon ingots and wafers (M10, G12)
+  products:
+  - Monocrystalline silicon ingots
+  - Silicon wafers
+  operator: Adani New Industries Ltd
+  operator_type: Listed private
+  owners:
+  - entity: Adani Enterprises Ltd
+    stake_pct: null
+  partners: []
+  location:
+    address: null
+    village_or_town: Mundra
+    district: Kachchh
+    state: Gujarat
+    country: India
+    lat: 22.83931
+    lon: 69.72495
+    precision: town
+    geometry: null
+  status: Operational
+  status_as_of: 2024-07
+  status_detail: 2 GW ingot-wafer line in production since 2024 on imported polysilicon; polysilicon targeted 2027/28
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: 2
+      unit: GW
+      basis: ingot and wafer
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: Imported intermediate
+  feedstock_detail: Imported polysilicon
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2024-04-07'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: 2024-04
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Grows silicon ingots and slices wafers for solar cells from imported polysilicon, on a 2 GW line.
+    why_it_matters: It is India's only ingot-wafer plant at gigawatt scale, ahead of rules that will require domestic
+      wafers.
+  related:
+  - kutch-copper-mundra
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-24'
+  notes: null
+  id: adani-mundra-ingot-wafer
+  name: Adani Solar ingot and wafer plant, Mundra
+  sources:
+  - id: adani-connect-2024
+    url: https://connect.adani.com/2024/jul2024/solar/
+    title: Adani Solar commissions India's first giga-scale solar ingot and wafer facility
+    publisher: Adani Group (Connect newsletter)
+    tier: T2
+    date: 2024-07
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - capacity.installed
+    - location
+    - products
+  - id: bl-adani-wafer-2024
+    url: https://www.businesslive.co.za/bd/companies/2024-04-07-adani-starts-making-wafer-and-ingots-for-solar-power-cells
+    title: Adani starts making wafer and ingots for solar power cells
+    publisher: BusinessLIVE (Reuters)
+    tier: T3
+    date: '2024-04-07'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - dates.commissioned
+    - dates.first_public
+    - feedstock
+    - status_detail
+    - operator
+- aliases:
+  - Dhirubhai Ambani Green Energy Giga Complex
+  layer: processing
+  stages:
+  - Refining
+  minerals:
+  - Silicon
+  commodity_as_stated: polysilicon, wafers
+  products:
+  - Polysilicon (commissioning)
+  - Silicon wafers (pilot)
+  operator: Reliance Industries Ltd
+  operator_type: Listed private
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Jamnagar
+    district: Jamnagar
+    state: Gujarat
+    country: India
+    lat: 22.47324
+    lon: 70.05521
+    precision: town
+    geometry: null
+  status: Pilot
+  status_as_of: '2026-07-21'
+  status_detail: Wafer pilot plant done; polysilicon construction nearly complete and entering commissioning
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2026-07-20'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Is commissioning polysilicon and wafer lines at Reliance's integrated solar complex in Jamnagar.
+    why_it_matters: Polysilicon would be a first for India, which imports all of it from China today.
+  related: []
+  see_also: []
+  confidence: medium
+  last_verified: '2026-10-24'
+  notes: Reliance's module and cell lines (about 1 GW made) are demand-side and not recorded here.
+  id: reliance-jamnagar-silicon
+  name: Reliance polysilicon and wafer plants, Jamnagar
+  sources:
+  - id: nowsolar-ril-2026
+    url: https://now.solar/2026/07/21/reliance-says-solar-wafer-pilot-plant-ready-40-gwh-battery-capacity-on-track-saur-energy/
+    title: Reliance says solar wafer pilot plant ready, 40 GWh battery capacity on track
+    publisher: Saur Energy / Solar Now
+    tier: T3
+    date: '2026-07-20'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - status_detail
+    - products
+    - dates.first_public
+  - id: taiyang-ril-2026
+    url: https://taiyangnews.info/business/reliance-advances-ingot-wafer-lines-targets-40-gwh-batteries
+    title: Reliance advances ingot, wafer lines, targets 40 GWh batteries
+    publisher: TaiyangNews
+    tier: T3
+    date: '2026-07-21'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - location
+    - operator
+- aliases: []
+  layer: processing
+  stages:
+  - Refining
+  minerals:
+  - Silicon
+  commodity_as_stated: solar ingots and wafers
+  products:
+  - Silicon ingots
+  - Silicon wafers
+  operator: Waaree Energies Ltd
+  operator_type: Listed private
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Butibori
+    district: Nagpur
+    state: Maharashtra
+    country: India
+    lat: 20.92819
+    lon: 79.00708
+    precision: town
+    geometry: null
+  status: Under construction
+  status_as_of: '2026-03-16'
+  status_detail: Ground broken Mar 2026 on 300 acres; no commissioning date given
+  capacity:
+    planned:
+      value: 10
+      unit: GW
+      basis: ingot and wafer
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: 6200
+    currency: INR_crore
+    basis: around INR 62 billion
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2026-03-16'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: 2026-03
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Is building a 10 GW ingot and wafer plant near Nagpur, which Waaree calls India's largest.
+    why_it_matters: null
+  related: []
+  see_also: []
+  confidence: medium
+  last_verified: '2026-10-24'
+  notes: null
+  id: waaree-butibori-ingot-wafer
+  name: Waaree Energies ingot and wafer plant, Butibori
+  sources:
+  - id: pvm-waaree-2026
+    url: https://www.pv-magazine.com/2026/03/16/waaree-energies-begins-construction-of-10-gw-ingot-wafer-plant-in-india/
+    title: Waaree Energies begins construction of 10 GW ingot, wafer plant in India
+    publisher: pv magazine
+    tier: T3
+    date: '2026-03-16'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - location
+    - capacity.planned
+    - investment
+    - dates.construction_start
+    - dates.first_public
+    - operator
+- aliases: []
+  layer: processing
+  stages:
+  - Refining
+  minerals:
+  - Silicon
+  commodity_as_stated: solar ingot-wafer
+  products:
+  - Silicon ingots
+  - Silicon wafers
+  operator: ReNew Photovoltaics Pvt. Ltd.
+  operator_type: Listed private
+  owners:
+  - entity: ReNew Energy Global PLC
+    stake_pct: null
+  partners: []
+  location:
+    address: null
+    village_or_town: Rambilli
+    district: Anakapalli
+    state: Andhra Pradesh
+    country: India
+    lat: 17.46549
+    lon: 82.92858
+    precision: town
+    geometry: null
+  status: MoU signed
+  status_as_of: '2025-12-05'
+  status_detail: MoU and SIPB clearance Dec 2025; commercial operation targeted Jan 2028
+  capacity:
+    planned:
+      value: 6
+      unit: GW
+      basis: ingot and wafer
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: 3990
+    currency: INR_crore
+    basis: investment commitment
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2025-12-05'
+    announced: null
+    mou: 2025-11
+    approved: null
+    construction_start: null
+    original_expected_completion: 2028-01
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Plans a 6 GW ingot and wafer plant at Rambilli, supported under the solar PLI scheme.
+    why_it_matters: null
+  related: []
+  see_also: []
+  confidence: medium
+  last_verified: '2026-10-24'
+  notes: null
+  id: renew-rambilli-ingot-wafer
+  name: ReNew ingot and wafer plant, Rambilli
+  sources:
+  - id: ei-renew-wafer-2025
+    url: https://www.energetica-india.net/news/renew-to-set-up-indias-first-6-gw-ingotwafer-manufacturing-plant-in-andhra-pradesh
+    title: ReNew to set up India's first 6 GW ingot-wafer manufacturing plant in Andhra Pradesh
+    publisher: Energetica India
+    tier: T3
+    date: '2025-12-05'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - location
+    - capacity.planned
+    - investment
+    - dates.mou
+    - dates.first_public
+    - dates.original_expected_completion
+    - status_detail
+    - operator
+    - owners
+- aliases: []
+  layer: processing
+  stages:
+  - Refining
+  minerals:
+  - Silicon
+  commodity_as_stated: ingots and wafers
+  products:
+  - Silicon ingots
+  - Silicon wafers
+  operator: Tata Power Renewable Energy Ltd
+  operator_type: Listed private
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: null
+    district: Nellore
+    state: Andhra Pradesh
+    country: India
+    lat: 14.41874
+    lon: 79.73964
+    precision: district
+    geometry: null
+  status: Announced
+  status_as_of: '2026-01-10'
+  status_detail: null
+  capacity:
+    planned:
+      value: 10
+      unit: GW
+      basis: ingot and wafer
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: 6675
+    currency: INR_crore
+    basis: announced
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2026-01-10'
+    announced: '2026-01-10'
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Plans a 10 GW ingot and wafer plant in Nellore district.
+    why_it_matters: null
+  related: []
+  see_also: []
+  confidence: medium
+  last_verified: '2026-10-24'
+  notes: null
+  id: tata-power-nellore-ingot-wafer
+  name: Tata Power ingot and wafer plant, Nellore
+  sources:
+  - id: ei-tata-wafer-2026
+    url: https://www.energetica-india.net/news/tata-power-plans-10-gw-ingot-and-wafer-manufacturing-facility-in-andhra-pradesh
+    title: Tata Power plans 10 GW ingot and wafer manufacturing facility in Andhra Pradesh
+    publisher: Energetica India
+    tier: T3
+    date: '2026-01-10'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - location
+    - capacity.planned
+    - investment
+    - dates.announced
+    - dates.first_public
+    - operator
+- aliases: []
+  layer: processing
+  stages:
+  - Policy infrastructure
+  minerals:
+  - Nickel
+  commodity_as_stated: nickel processing (Odisha park)
+  products:
+  - Processing park
+  operator: Ministry of Mines (NCMM) with Government of Odisha
+  operator_type: Government / Ministry
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Paradip
+    district: Jagatsinghapur
+    state: Odisha
+    country: India
+    lat: 20.28695
+    lon: 86.674
+    precision: town
+    geometry: null
+  status: Announced
+  status_as_of: '2026-09-12'
+  status_detail: One of four NCMM parks (Rs 500 crore total); site at Paradip
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2026-08-14'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: A planned government park for nickel processing at Paradip port, one of four under the critical
+      minerals mission.
+    why_it_matters: null
+  related:
+  - ncmm-park-gujarat-dahej
+  - ncmm-park-maharashtra-dighi
+  - ncmm-park-andhra-pradesh
+  see_also: []
+  confidence: medium
+  last_verified: '2026-10-24'
+  notes: 'Mineral focus differs by report: SMM ties Odisha to nickel (Mines Secretary); the outlay of Rs 500 crore
+    for the four parks comes from 2026 press reports (not archived here).'
+  id: ncmm-park-odisha-paradip
+  name: Critical mineral processing park, Paradip (proposed)
+  sources:
+  - id: angel-parks-2026
+    url: https://www.angelone.in/news/economy/india-to-develop-four-critical-mineral-processing-parks-in-andhra-pradesh-gujarat-maharashtra-and-odisha
+    title: India to develop four critical mineral processing parks in Andhra Pradesh, Gujarat, Maharashtra and Odisha
+    publisher: Angel One
+    tier: T3
+    date: '2026-09-12'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - location
+    - status_detail
+  - id: smm-parks-2026
+    url: https://news.metal.com/newscontent/104060554-india-to-set-up-4-critical-mineral-parks-for-lithium-nickel-in-gujarat-maharashtra-ap-odisha
+    title: India to set up 4 critical mineral parks for lithium, nickel in Gujarat, Maharashtra, AP, Odisha
+    publisher: Shanghai Metals Market (SMM)
+    tier: T3
+    date: '2026-08-14'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - minerals
+    - dates.first_public
+    - operator
+- aliases: []
+  layer: processing
+  stages:
+  - Policy infrastructure
+  minerals:
+  - Rare earths (unspecified)
+  commodity_as_stated: rare-earth permanent magnets (Gujarat park)
+  products:
+  - Processing park
+  operator: Ministry of Mines (NCMM) with Government of Gujarat
+  operator_type: Government / Ministry
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Dahej
+    district: Bharuch
+    state: Gujarat
+    country: India
+    lat: 21.7093
+    lon: 72.5894
+    precision: town
+    geometry: null
+  status: Announced
+  status_as_of: '2026-09-12'
+  status_detail: null
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2026-08-14'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: A planned government park around Dahej for rare-earth permanent magnet manufacturing.
+    why_it_matters: null
+  related:
+  - ncmm-park-odisha-paradip
+  see_also: []
+  confidence: medium
+  last_verified: '2026-10-24'
+  notes: null
+  id: ncmm-park-gujarat-dahej
+  name: Critical mineral processing park, Dahej (proposed)
+  sources:
+  - id: angel-parks-2026
+    url: https://www.angelone.in/news/economy/india-to-develop-four-critical-mineral-processing-parks-in-andhra-pradesh-gujarat-maharashtra-and-odisha
+    title: India to develop four critical mineral processing parks in Andhra Pradesh, Gujarat, Maharashtra and Odisha
+    publisher: Angel One
+    tier: T3
+    date: '2026-09-12'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - location
+    - minerals
+  - id: smm-parks-2026
+    url: https://news.metal.com/newscontent/104060554-india-to-set-up-4-critical-mineral-parks-for-lithium-nickel-in-gujarat-maharashtra-ap-odisha
+    title: India to set up 4 critical mineral parks for lithium, nickel in Gujarat, Maharashtra, AP, Odisha
+    publisher: Shanghai Metals Market (SMM)
+    tier: T3
+    date: '2026-08-14'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - operator
+- aliases: []
+  layer: processing
+  stages:
+  - Policy infrastructure
+  minerals:
+  - Lithium
+  commodity_as_stated: lithium-focused park
+  products:
+  - Processing park
+  operator: Ministry of Mines (NCMM) with Government of Maharashtra
+  operator_type: Government / Ministry
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Dighi
+    district: Raigad
+    state: Maharashtra
+    country: India
+    lat: 18.26643
+    lon: 72.96967
+    precision: town
+    geometry: null
+  status: Announced
+  status_as_of: '2026-09-12'
+  status_detail: null
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2026-08-14'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: A planned government park near Dighi Port for lithium processing.
+    why_it_matters: null
+  related:
+  - ncmm-park-odisha-paradip
+  see_also: []
+  confidence: medium
+  last_verified: '2026-10-24'
+  notes: null
+  id: ncmm-park-maharashtra-dighi
+  name: Critical mineral processing park, Dighi Port (proposed)
+  sources:
+  - id: angel-parks-2026
+    url: https://www.angelone.in/news/economy/india-to-develop-four-critical-mineral-processing-parks-in-andhra-pradesh-gujarat-maharashtra-and-odisha
+    title: India to develop four critical mineral processing parks in Andhra Pradesh, Gujarat, Maharashtra and Odisha
+    publisher: Angel One
+    tier: T3
+    date: '2026-09-12'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - location
+    - minerals
+  - id: smm-parks-2026
+    url: https://news.metal.com/newscontent/104060554-india-to-set-up-4-critical-mineral-parks-for-lithium-nickel-in-gujarat-maharashtra-ap-odisha
+    title: India to set up 4 critical mineral parks for lithium, nickel in Gujarat, Maharashtra, AP, Odisha
+    publisher: Shanghai Metals Market (SMM)
+    tier: T3
+    date: '2026-08-14'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - operator
+- aliases: []
+  layer: processing
+  stages:
+  - Policy infrastructure
+  minerals:
+  - Rare earths (unspecified)
+  - Titanium
+  - Zirconium
+  commodity_as_stated: rare earth elements, titanium and zirconium
+  products:
+  - Processing park
+  operator: Ministry of Mines (NCMM) with Government of Andhra Pradesh
+  operator_type: Government / Ministry
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: null
+    district: null
+    state: Andhra Pradesh
+    country: India
+    lat: 15.757
+    lon: 79.96686
+    precision: state
+    geometry: null
+  status: Announced
+  status_as_of: '2026-09-12'
+  status_detail: null
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2026-08-14'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: A planned government park for rare earths, titanium and zirconium; the site is not yet chosen.
+    why_it_matters: null
+  related:
+  - ncmm-park-odisha-paradip
+  see_also: []
+  confidence: medium
+  last_verified: '2026-10-24'
+  notes: Location not finalised; point is the state centroid (OPEN_QUESTIONS 12).
+  id: ncmm-park-andhra-pradesh
+  name: Critical mineral processing park, Andhra Pradesh (site not finalised)
+  sources:
+  - id: angel-parks-2026
+    url: https://www.angelone.in/news/economy/india-to-develop-four-critical-mineral-processing-parks-in-andhra-pradesh-gujarat-maharashtra-and-odisha
+    title: India to develop four critical mineral processing parks in Andhra Pradesh, Gujarat, Maharashtra and Odisha
+    publisher: Angel One
+    tier: T3
+    date: '2026-09-12'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - minerals
+    - location
+  - id: smm-parks-2026
+    url: https://news.metal.com/newscontent/104060554-india-to-set-up-4-critical-mineral-parks-for-lithium-nickel-in-gujarat-maharashtra-ap-odisha
+    title: India to set up 4 critical mineral parks for lithium, nickel in Gujarat, Maharashtra, AP, Odisha
+    publisher: Shanghai Metals Market (SMM)
+    tier: T3
+    date: '2026-08-14'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - operator

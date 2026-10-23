@@ -38,3 +38,9 @@ Every candidate considered and rejected, with the rule that rejected it, so the 
 | Byodihar Gold and Basemetal (Lead and Silver) Block (MP) | L1 | No canonical mineral named | MSTC all-seller results FY2025-26 (Anand Mining Corporation, 3.75%) |
 | Karankhol Rachpalpur Gold and Associated Base Metal Block (CG) | L1 | Borderline: base metal not named | MSTC all-seller results FY2026-27 (R K Mineral Development, 50.05%) |
 | "TKB 11 Limestone Nagaur Ree" (Rajasthan) | L1 | Limestone block; "Ree" is part of the place name, not rare earths | MSTC all-seller results FY2024-25 |
+| HCL Gujarat Copper Project, Jhagadia (scrap-based electrolytic smelter, 50,000 tpy; suspended since 2019) | L4 | D-002 secondary copper | IBM IMYB 2023; Outlook Business (Nov 2025) |
+| HCL Taloja Copper Project (continuous cast rod, 60,000 tpa) | L4 | D-002 rod mill | IBM IMYB 2023; LS USQ 3828 (Dec 2024) |
+| HZL Dariba smelting complex (zinc 240,000 tpy, lead 120,000 tpy) | L4 | D-003: no cadmium capacity listed | IBM IMYB 2023 cadmium table |
+| Edayar/Binani, HZL Vizag kept as Closed cadmium streams; all other zinc-lead output excluded | L4 | D-003 | IBM IMYB 2023 |
+| Alumina refineries without gallium or vanadium recovery (e.g. NALCO Damanjodi kept only as a gallium plan; Utkal Alumina not recorded) | L4 | D-003 | IBM IMYB 2023 |
+| Solar module and cell lines (Adani, Reliance, Waaree, Premier, etc.) | L4 | Playbook L4: module/cell only | Only ingot, wafer and polysilicon stages recorded |
