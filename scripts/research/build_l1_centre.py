@@ -68,7 +68,7 @@ def slug(name):
     s = re.sub(r"^\s*\d+\s*[.)]?\s*", "", s)
     s = re.sub(ID_STOP, " ", s)
     s = re.sub(STATE_WORDS, " ", s)
-    s = re.sub(r"[^a-z]+", "-", s).strip("-")
+    s = re.sub(r"[^a-z0-9]+", "-", s).strip("-")
     return re.sub(r"-{2,}", "-", s)
 
 
@@ -124,6 +124,9 @@ STATE_PREFIX = {"MP": "Madhya Pradesh", "CG": "Chhattisgarh", "UP": "Uttar Prade
 
 
 def tranche_label(t):
+    mo = re.match(r"Offshore-T(\d+)$", t)
+    if mo:
+        return f"Offshore Tranche {ROMAN[int(mo.group(1))]}"
     n = tranche_no(t)
     if n > 100:
         return f"EL Tranche {ROMAN[n - 100]}"
@@ -243,7 +246,8 @@ def main():
     for r in csv.DictReader(open(os.path.join(D, "l1-centre-registry.csv"))):
         rows.append(dict(r, attempt=None))
     extra = list(csv.DictReader(open(os.path.join(D, "l1-centre-t6-t8.csv")))) + \
-        list(csv.DictReader(open(os.path.join(D, "l1-centre-el.csv"))))
+        list(csv.DictReader(open(os.path.join(D, "l1-centre-el.csv")))) + \
+        list(csv.DictReader(open(os.path.join(D, "l1-offshore.csv"))))
     for r in extra:
         r = dict(r)
         hits = res_by_key.get((key(r["block_name_as_printed"]), r["state"].lower()), [])
@@ -262,9 +266,13 @@ def main():
     # MBS extracts, latest document per block key
     mbs = {}
     mbs_lines = list(open(os.path.join(D, "l1-mbs-extract.jsonl")))
-    for extra_mbs in ("l1-state-mbs-extract.jsonl", "l1-arch-mbs-extract.jsonl"):
+    for extra_mbs in ("l1-state-mbs-extract.jsonl", "l1-arch-mbs-extract.jsonl", "l1-off-mbs-extract.jsonl"):
         if os.path.exists(os.path.join(D, extra_mbs)):
             mbs_lines += list(open(os.path.join(D, extra_mbs)))
+    mbs_by_fid = {}
+    for line in mbs_lines:
+        mj = json.loads(line)
+        mbs_by_fid[str(mj["file_id"])] = mj
     for line in mbs_lines:
         m = json.loads(line)
         k = key(m["title"])
@@ -327,9 +335,10 @@ def main():
         offers.sort(key=lambda r: (r.get("nit_date") or r.get("outcome_date") or "", tranche_no(r["tranche"])))
         last, first = offers[-1], offers[0]
         name = re.sub(r"\s+", " ", last["block_name_as_printed"]).strip()
-        rid = f"blk-{ST[state]}-{slug(name)}"
-        m = mbs.get(k)
-        if m is None and k:
+        rid = f"blk-off-{slug(name)}" if last["concession_type"].startswith("Offshore") else f"blk-{ST[state]}-{slug(name)}"
+        forced = next((o.get("mbs_file_id") for o in reversed(offers) if o.get("mbs_file_id")), None)
+        m = mbs_by_fid.get(forced) if forced else mbs.get(k)
+        if m is None and k and not forced:
             from rapidfuzz import fuzz, process
             hit = process.extractOne(k, list(mbs), scorer=fuzz.ratio, score_cutoff=90)
             m = mbs[hit[0]] if hit else None  # spelling variants, e.g. Dumrimunda / Dumurimunda
@@ -338,6 +347,9 @@ def main():
             ov = overrides[m["file_id"]]
         commodity = last["commodity_as_stated"]
         minerals = canon(" ".join(o["commodity_as_stated"] for o in offers))
+        if "polymetallic" in commodity.lower():
+            # the block summaries report Co, Cu and Ni (with MnO) in nodule/crust geochemistry
+            minerals = ["Cobalt", "Copper", "Nickel"]
         # sources referenced by the offerings
         sids = []
         for o in offers:
@@ -369,15 +381,15 @@ def main():
         elif status == "Preferred bidder":
             status_detail = f"{last['preferred_bidder']}, final price offer {float(last['final_offer_pct']):g}% ({tranche_label(last['tranche'])})"
         elif lo == "Pending":
-            status_detail = f"{tranche_label(last['tranche'])}: second-round e-auction pending"
+            status_detail = f"{tranche_label(last['tranche'])}: outcome pending. {last.get('notes') or ''}".strip()
         elif lo == "Offered":
             status_detail = f"Offered in {tranche_label(last['tranche'])}; no result published"
         else:
             reason = last.get("annulment_reason") or ("No bids received" if lo == "No bids" else "")
             status_detail = f"Annulled in {tranche_label(last['tranche'])}: {reason}".rstrip(": ")
         status_as_of = last.get("outcome_date") or last["nit_date"]
-        if lo == "Pending":
-            status_as_of = "2026-10-16"  # revised second-round notice for Betjharan
+        if lo == "Pending":  # newest notice among this offering's sources
+            status_as_of = max(str(sources[x]["date"])[:10] for x in last["source_ids"].split(";") if x in sources)
 
         # location
         village = None
@@ -444,6 +456,8 @@ def main():
                                          "publisher": "Ministry of Mines (via MSTC e-auction portal)", "tier": "T1",
                                          "date": last.get("nit_date") or last.get("outcome_date"), "retrieved": TODAY, "raw_path": m.get("raw_path")})
             sup[mbs_sid] |= {"location", "block.area_sq_km", "block.exploration_stage"}
+            if "polymetallic" in commodity.lower():
+                sup[mbs_sid].add("minerals")
         for s, fields in sup.items():
             if s not in sources:
                 continue
@@ -455,7 +469,8 @@ def main():
 
         n_off = len(offers)
         ct = last["concession_type"]
-        kind = {"CL": "composite licence", "ML": "mining lease", "EL": "exploration licence"}[ct]
+        kind = {"CL": "composite licence", "ML": "mining lease", "EL": "exploration licence",
+                "Offshore-CL": "offshore composite licence", "Offshore-PL": "offshore production lease"}[ct]
         art = "an" if kind[0] in "aeiou" else "a"
         dword = "districts" if re.search(r" and |,", last["district"]) else "district"
         what = (f"A {area:.2f} sq km block offered for {art} {kind}, for {commodity.lower()}, in {last['district']} {dword}, {state}"
@@ -469,8 +484,8 @@ def main():
             else:
                 sig = (f"{last['preferred_bidder']} won it in {tr_last} ({human_date(status_as_of)}) with a final price offer of "
                        f"{float(last['final_offer_pct']):g}%." + (f" It took {n_off} attempts to auction." if n_off > 1 else ""))
-        elif status == "Offered":
-            sig = f"Offered in {tr_last}; the second-round e-auction was rescheduled to 26 October 2026."
+        elif lo == "Pending":
+            sig = f"Offered in {tr_last} ({human_date(last['nit_date'])}); the outcome is pending. {last.get('notes') or ''}".strip()
         elif lo == "Offered":
             sig = (f"Offered {n_off} time{'s' if n_off > 1 else ''} by {offered_by}, most recently in {tr_last} "
                    f"({human_date(last['nit_date'])}); no preferred bidder has been published.")

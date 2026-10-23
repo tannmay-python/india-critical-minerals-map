@@ -444,5 +444,47 @@
    "km2": 2.011
   },
   "area_sq_km": 2.0
+ },
+ "17873": {
+  "applies_to_titles": [
+   "West Sewell Ridge PMNC Block-1"
+  ],
+  "geometry": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      94.0483431,
+      7.6065758
+     ],
+     [
+      94.1315992,
+      7.6063667
+     ],
+     [
+      94.1313819,
+      7.5230267
+     ],
+     [
+      94.0481419,
+      7.5232333
+     ],
+     [
+      94.0483431,
+      7.6065758
+     ]
+    ]
+   ]
+  },
+  "method": "Corner C corrected per Offshore Corrigendum 2 (94\u00b007'52.975\"E instead of 94\u00b002'52.975\"E). Polygon area 85.23 sq km vs stated 84.63.",
+  "check": {
+   "km2": 85.23
+  },
+  "source": {
+   "id": "mstc-off-corr2",
+   "file_id": "18605",
+   "title": "GoI MoM - Offshore - Corrigendum 2 to Tender Document (corrected corner point C, West Sewell Ridge PMNC Block-1)",
+   "date": "2025-01-16"
+  }
  }
 }

@@ -61,11 +61,13 @@ layers:
       Shergaon lead-zinc) are excluded as non-canonical and logged in EXCLUDED.md.'
   - anchor: Offshore mineral blocks, Tranche I
     anchor_value: 13
-    source: MSTC Offshore Tranche I NIT; later annulled (MSTC notice)
+    source: MSTC Offshore Tranche I NIT (28 Nov 2024) and annulment notice (12 Dec 2025)
     source_date: '2024-11-28'
-    captured: 0
-    gap: 13
-    explanation: In progress; Offshore Tranche II NIT has also been issued.
+    captured: 7 canonical + 6 excluded
+    gap: 0
+    explanation: All 13 blocks annulled on 12 Dec 2025. The 7 West Sewell Ridge polymetallic nodule-and-crust blocks off Great
+      Nicobar are records (Co, Cu, Ni named in the block summaries); 3 Kollam construction-sand and 3 Porbandar lime-mud blocks
+      are excluded per the playbook.
   - anchor: 'Exploration Licence blocks offered by the Centre (EL Tranche I: 13; EL Tranche II: 11)'
     anchor_value: 13 / 11
     source: MSTC EL Tranche I and II NITs
@@ -83,3 +85,10 @@ layers:
     explanation: 60 state-route blocks (105 offerings). No official count of offered state blocks exists; completeness rests
       on the full MSTC document map (336 sections, 11,427 documents) and the all-seller results pages FY2023-24 to FY2026-27.
       States that run auctions off MSTC need a separate check (gap hunt).
+  - anchor: Offshore Tranche II blocks offered
+    anchor_value: 2
+    source: MSTC Offshore Tranche II NIT (scanned; OCR)
+    source_date: '2026-10-01'
+    captured: 2
+    gap: 0
+    explanation: West Sewell Ridge-01 (1,000 sq km) and Sewell Rise-01 (632 sq km), off Great Nicobar; bids due 28 Dec 2026.

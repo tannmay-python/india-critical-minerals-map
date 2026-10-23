@@ -1,4 +1,1368 @@
 # blocks layer — single source of truth. See docs/SCHEMA.md. Merged by scripts/research/merge.py.
+- id: blk-off-sewell-rise-01
+  name: Sewell Rise-01 Block
+  aliases: []
+  layer: blocks
+  stages:
+  - Exploration
+  minerals:
+  - Cobalt
+  - Copper
+  - Nickel
+  commodity_as_stated: Polymetallic nodules and crusts
+  products: []
+  operator: null
+  operator_type: null
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: (s)
+    state: Andaman and Nicobar Islands
+    district: Nicobar
+    country: India
+    lat: 8.64715
+    lon: 94.59625
+    precision: exact
+    geometry:
+      type: Polygon
+      coordinates:
+      - - - 94.5046
+          - 8.7888
+        - - 94.6879
+          - 8.7888
+        - - 94.6879
+          - 8.5055
+        - - 94.5046
+          - 8.5055
+        - - 94.5046
+          - 8.7888
+  status: Offered
+  status_as_of: '2026-10-01'
+  status_detail: "Offshore Tranche II: outcome pending. Off Great Nicobar Island; bids due 28 Dec 2026 (NIT)."
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2026-10-01'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: '2026-10-01'
+    event: "Offshore Tranche II: pending"
+    source_id: "raw:mstc-28393"
+  narrative:
+    what_it_does: A 632.00 sq km block offered for an offshore composite licence, for polymetallic nodules and crusts,
+      in Nicobar district, Andaman and Nicobar Islands, explored to G3 level.
+    significance: Offered in Offshore Tranche II (October 2026); the outcome is pending. Off Great Nicobar Island;
+      bids due 28 Dec 2026 (NIT).
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-23'
+  notes: Off Great Nicobar Island; bids due 28 Dec 2026 (NIT).
+  sources:
+  - id: "raw:mstc-28393"
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=28393_2161967_NIT_Off%20Great%20Nicobar%20Island_II.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: NIT_Offshore Minerals_ Tranche II
+    publisher: Government of Andaman and Nicobar Islands (via MSTC e-auction portal)
+    tier: T1
+    date: '2026-10-01'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+    - status
+  - id: "raw:mstc-28374"
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=28374_2161489_MINE_BLOCK_SUMMARY_AND26_CLX3.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: SEWELL_RISE_01
+    publisher: Government of Andaman and Nicobar Islands (via MSTC e-auction portal)
+    tier: T1
+    date: '2026-10-01'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+    - status
+  - id: mstc-mbs-28374
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=28374_2161489_MINE_BLOCK_SUMMARY_AND26_CLX3.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: "Mine Block Summary: SEWELL_RISE_01"
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2026-10-01'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - block.area_sq_km
+    - block.exploration_stage
+    - location
+    - minerals
+  block:
+    concession_type: Offshore-CL
+    auction_route: Centre
+    area_sq_km: 632.0
+    exploration_stage: G3
+    resources: []
+    resources_as_stated: null
+  auction:
+    history:
+    - tranche: Offshore-T2
+      nit_date: '2026-10-01'
+      outcome: Pending
+      outcome_date: null
+      annulment_reason: null
+      preferred_bidder: null
+      final_offer_pct: null
+      reserve_price: null
+    loi_date: null
+    licence_or_lease_executed: null
+    production_started: null
+- id: blk-off-west-sewell-ridge-pmnc-1
+  name: West Sewell Ridge PMNC Block-1
+  aliases: []
+  layer: blocks
+  stages:
+  - Exploration
+  minerals:
+  - Cobalt
+  - Copper
+  - Nickel
+  commodity_as_stated: Polymetallic nodules and crusts
+  products: []
+  operator: null
+  operator_type: null
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: (s)
+    state: Andaman and Nicobar Islands
+    district: Nicobar
+    country: India
+    lat: 7.564802
+    lon: 94.089866
+    precision: exact
+    geometry:
+      type: Polygon
+      coordinates:
+      - - - 94.0483431
+          - 7.6065758
+        - - 94.1315992
+          - 7.6063667
+        - - 94.1313819
+          - 7.5230267
+        - - 94.0481419
+          - 7.5232333
+        - - 94.0483431
+          - 7.6065758
+  status: Annulled
+  status_as_of: '2025-12-12'
+  status_detail: "Annulled in Offshore Tranche I: Nil bids received"
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2024-11-28'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: '2025-12-12'
+    event: "Offshore Tranche I: annulled"
+    source_id: "raw:mstc-17906"
+  narrative:
+    what_it_does: A 84.63 sq km block offered for an offshore composite licence, for polymetallic nodules and crusts,
+      in Nicobar district, Andaman and Nicobar Islands, explored to G3 level.
+    significance: Offered 1 time by the Centre, most recently in Offshore Tranche I, and the auction was annulled
+      (December 2025).
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-23'
+  notes: Off Great Nicobar Island (Andaman Sea). Boundary polygon recovered by OCR of the MBS annexure; checked
+    against the stated block area.
+  sources:
+  - id: "raw:mstc-17906"
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=17906_GoI-MoM%20-Offshore-Tranche%20I%20NIT.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: GoI-MoM -Offshore-Tranche I NIT
+    publisher: Government of Andaman and Nicobar Islands (via MSTC e-auction portal)
+    tier: T1
+    date: '2024-11-28'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+    - status
+  - id: "raw:mstc-24336"
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=24336_GOI_Mom_offshore_Tranche_I_Annulment_and_Bid_return_Notice.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: Notice for Annulment of Tranche I of Auction of Offshore Areas Mineral Blocks and Return of Bid Security
+    publisher: Government of Andaman and Nicobar Islands (via MSTC e-auction portal)
+    tier: T1
+    date: '2024-11-28'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+    - status
+  - id: mstc-off-corr2
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=18605_GoI%20MoM%20-%20Offshore%20-%20Corrigendum%202%20for%20NIT%20and%20West%20Sewell%20Ridge%20PMNC%20Block-1.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: GoI MoM - Offshore - Corrigendum 2 to Tender Document (corrected corner point C, West Sewell Ridge PMNC
+      Block-1)
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2025-01-16'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - location
+  - id: mstc-mbs-17873
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=17873_MBS_WSR_PMNC_Block%2B-1.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: "Mine Block Summary: MBS_WSR_PMNC_Block -1"
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2024-11-28'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - block.area_sq_km
+    - block.exploration_stage
+    - location
+    - minerals
+  block:
+    concession_type: Offshore-CL
+    auction_route: Centre
+    area_sq_km: 84.63
+    exploration_stage: G3
+    resources: []
+    resources_as_stated: null
+  auction:
+    history:
+    - tranche: Offshore-T1
+      nit_date: '2024-11-28'
+      outcome: Annulled
+      outcome_date: '2025-12-12'
+      annulment_reason: Nil bids received
+      preferred_bidder: null
+      final_offer_pct: null
+      reserve_price: null
+    loi_date: null
+    licence_or_lease_executed: null
+    production_started: null
+- id: blk-off-west-sewell-ridge-pmnc-2
+  name: West Sewell Ridge PMNC Block-2
+  aliases: []
+  layer: blocks
+  stages:
+  - Exploration
+  minerals:
+  - Cobalt
+  - Copper
+  - Nickel
+  commodity_as_stated: Polymetallic nodules and crusts
+  products: []
+  operator: null
+  operator_type: null
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: (s)
+    state: Andaman and Nicobar Islands
+    district: Nicobar
+    country: India
+    lat: 7.480962
+    lon: 94.098875
+    precision: exact
+    geometry:
+      type: Polygon
+      coordinates:
+      - - - 94.0573594
+          - 7.5227356
+        - - 94.1405992
+          - 7.5225269
+        - - 94.1403825
+          - 7.4391867
+        - - 94.0571586
+          - 7.4393931
+        - - 94.0573594
+          - 7.5227356
+  status: Annulled
+  status_as_of: '2025-12-12'
+  status_detail: "Annulled in Offshore Tranche I: Nil bids received"
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2024-11-28'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: '2025-12-12'
+    event: "Offshore Tranche I: annulled"
+    source_id: "raw:mstc-17906"
+  narrative:
+    what_it_does: A 84.63 sq km block offered for an offshore composite licence, for polymetallic nodules and crusts,
+      in Nicobar district, Andaman and Nicobar Islands, explored to G3 level.
+    significance: Offered 1 time by the Centre, most recently in Offshore Tranche I, and the auction was annulled
+      (December 2025).
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-23'
+  notes: Off Great Nicobar Island (Andaman Sea).
+  sources:
+  - id: "raw:mstc-17906"
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=17906_GoI-MoM%20-Offshore-Tranche%20I%20NIT.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: GoI-MoM -Offshore-Tranche I NIT
+    publisher: Government of Andaman and Nicobar Islands (via MSTC e-auction portal)
+    tier: T1
+    date: '2024-11-28'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+    - status
+  - id: "raw:mstc-24336"
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=24336_GOI_Mom_offshore_Tranche_I_Annulment_and_Bid_return_Notice.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: Notice for Annulment of Tranche I of Auction of Offshore Areas Mineral Blocks and Return of Bid Security
+    publisher: Government of Andaman and Nicobar Islands (via MSTC e-auction portal)
+    tier: T1
+    date: '2024-11-28'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+    - status
+  - id: mstc-mbs-17884
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=17884_MBS_WSR_PMNC_Block%2B-2.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: "Mine Block Summary: MBS_WSR_PMNC_Block -2"
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2024-11-28'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - block.area_sq_km
+    - block.exploration_stage
+    - location
+    - minerals
+  block:
+    concession_type: Offshore-CL
+    auction_route: Centre
+    area_sq_km: 84.63
+    exploration_stage: G3
+    resources: []
+    resources_as_stated: null
+  auction:
+    history:
+    - tranche: Offshore-T1
+      nit_date: '2024-11-28'
+      outcome: Annulled
+      outcome_date: '2025-12-12'
+      annulment_reason: Nil bids received
+      preferred_bidder: null
+      final_offer_pct: null
+      reserve_price: null
+    loi_date: null
+    licence_or_lease_executed: null
+    production_started: null
+- id: blk-off-west-sewell-ridge-pmnc-3
+  name: West Sewell Ridge PMNC Block-3
+  aliases: []
+  layer: blocks
+  stages:
+  - Exploration
+  minerals:
+  - Cobalt
+  - Copper
+  - Nickel
+  commodity_as_stated: Polymetallic nodules and crusts
+  products: []
+  operator: null
+  operator_type: null
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: (s) None
+    state: Andaman and Nicobar Islands
+    district: Nicobar
+    country: India
+    lat: 7.396987
+    lon: 94.099364
+    precision: exact
+    geometry:
+      type: Polygon
+      coordinates:
+      - - - 94.0578553
+          - 7.4387592
+        - - 94.1410789
+          - 7.4385528
+        - - 94.1408647
+          - 7.3552125
+        - - 94.0576567
+          - 7.3554164
+        - - 94.0578553
+          - 7.4387592
+  status: Annulled
+  status_as_of: '2025-12-12'
+  status_detail: "Annulled in Offshore Tranche I: Nil technically qualified bidders (Rule 9(10) Offshore Areas Mineral\
+    \ (Auction) Rules 2024)"
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2024-11-28'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: '2025-12-12'
+    event: "Offshore Tranche I: annulled"
+    source_id: "raw:mstc-17906"
+  narrative:
+    what_it_does: A 84.63 sq km block offered for an offshore composite licence, for polymetallic nodules and crusts,
+      in Nicobar district, Andaman and Nicobar Islands, explored to G3 level.
+    significance: Offered 1 time by the Centre, most recently in Offshore Tranche I, and the auction was annulled
+      (December 2025).
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-23'
+  notes: Off Great Nicobar Island (Andaman Sea).
+  sources:
+  - id: "raw:mstc-17906"
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=17906_GoI-MoM%20-Offshore-Tranche%20I%20NIT.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: GoI-MoM -Offshore-Tranche I NIT
+    publisher: Government of Andaman and Nicobar Islands (via MSTC e-auction portal)
+    tier: T1
+    date: '2024-11-28'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+    - status
+  - id: "raw:mstc-24336"
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=24336_GOI_Mom_offshore_Tranche_I_Annulment_and_Bid_return_Notice.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: Notice for Annulment of Tranche I of Auction of Offshore Areas Mineral Blocks and Return of Bid Security
+    publisher: Government of Andaman and Nicobar Islands (via MSTC e-auction portal)
+    tier: T1
+    date: '2024-11-28'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+    - status
+  - id: mstc-mbs-17871
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=17871_MBS_WSR_PMNC_Block%2B-3.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: "Mine Block Summary: MBS_WSR_PMNC_Block -3"
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2024-11-28'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - block.area_sq_km
+    - block.exploration_stage
+    - location
+    - minerals
+  block:
+    concession_type: Offshore-CL
+    auction_route: Centre
+    area_sq_km: 84.63
+    exploration_stage: G3
+    resources: []
+    resources_as_stated: null
+  auction:
+    history:
+    - tranche: Offshore-T1
+      nit_date: '2024-11-28'
+      outcome: Annulled
+      outcome_date: '2025-12-12'
+      annulment_reason: Nil technically qualified bidders (Rule 9(10) Offshore Areas Mineral (Auction) Rules 2024)
+      preferred_bidder: null
+      final_offer_pct: null
+      reserve_price: null
+    loi_date: null
+    licence_or_lease_executed: null
+    production_started: null
+- id: blk-off-west-sewell-ridge-pmnc-4
+  name: West Sewell Ridge PMNC Block-4
+  aliases: []
+  layer: blocks
+  stages:
+  - Exploration
+  minerals:
+  - Cobalt
+  - Copper
+  - Nickel
+  commodity_as_stated: Polymetallic nodules and crusts
+  products: []
+  operator: null
+  operator_type: null
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: (s)
+    state: Andaman and Nicobar Islands
+    district: Nicobar
+    country: India
+    lat: 7.313321
+    lon: 94.105314
+    precision: exact
+    geometry:
+      type: Polygon
+      coordinates:
+      - - - 94.0638133
+          - 7.3550936
+        - - 94.1470211
+          - 7.3548883
+        - - 94.1468083
+          - 7.2715478
+        - - 94.0636161
+          - 7.2717506
+        - - 94.0638133
+          - 7.3550936
+  status: Annulled
+  status_as_of: '2025-12-12'
+  status_detail: "Annulled in Offshore Tranche I: Nil bids received"
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2024-11-28'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: '2025-12-12'
+    event: "Offshore Tranche I: annulled"
+    source_id: "raw:mstc-17906"
+  narrative:
+    what_it_does: A 84.63 sq km block offered for an offshore composite licence, for polymetallic nodules and crusts,
+      in Nicobar district, Andaman and Nicobar Islands, explored to G3 level.
+    significance: Offered 1 time by the Centre, most recently in Offshore Tranche I, and the auction was annulled
+      (December 2025).
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-23'
+  notes: Off Great Nicobar Island (Andaman Sea).
+  sources:
+  - id: "raw:mstc-17906"
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=17906_GoI-MoM%20-Offshore-Tranche%20I%20NIT.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: GoI-MoM -Offshore-Tranche I NIT
+    publisher: Government of Andaman and Nicobar Islands (via MSTC e-auction portal)
+    tier: T1
+    date: '2024-11-28'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+    - status
+  - id: "raw:mstc-24336"
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=24336_GOI_Mom_offshore_Tranche_I_Annulment_and_Bid_return_Notice.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: Notice for Annulment of Tranche I of Auction of Offshore Areas Mineral Blocks and Return of Bid Security
+    publisher: Government of Andaman and Nicobar Islands (via MSTC e-auction portal)
+    tier: T1
+    date: '2024-11-28'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+    - status
+  - id: mstc-mbs-17870
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=17870_MBS_WSR_PMNC_Block%2B-4.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: "Mine Block Summary: MBS_WSR_PMNC_Block -4"
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2024-11-28'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - block.area_sq_km
+    - block.exploration_stage
+    - location
+    - minerals
+  block:
+    concession_type: Offshore-CL
+    auction_route: Centre
+    area_sq_km: 84.63
+    exploration_stage: G3
+    resources: []
+    resources_as_stated: null
+  auction:
+    history:
+    - tranche: Offshore-T1
+      nit_date: '2024-11-28'
+      outcome: Annulled
+      outcome_date: '2025-12-12'
+      annulment_reason: Nil bids received
+      preferred_bidder: null
+      final_offer_pct: null
+      reserve_price: null
+    loi_date: null
+    licence_or_lease_executed: null
+    production_started: null
+- id: blk-off-west-sewell-ridge-pmnc-5
+  name: West Sewell Ridge PMNC Block-5
+  aliases: []
+  layer: blocks
+  stages:
+  - Exploration
+  minerals:
+  - Cobalt
+  - Copper
+  - Nickel
+  commodity_as_stated: Polymetallic nodules and crusts
+  products: []
+  operator: null
+  operator_type: null
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: (s) None
+    state: Andaman and Nicobar Islands
+    district: Nicobar
+    country: India
+    lat: 7.229916
+    lon: 94.089053
+    precision: exact
+    geometry:
+      type: Polygon
+      coordinates:
+      - - - 94.0475564
+          - 7.2716864
+        - - 94.1307494
+          - 7.2714864
+        - - 94.1305419
+          - 7.188145
+        - - 94.0473644
+          - 7.1883425
+        - - 94.0475564
+          - 7.2716864
+  status: Annulled
+  status_as_of: '2025-12-12'
+  status_detail: "Annulled in Offshore Tranche I: Nil technically qualified bidders (Rule 9(10) Offshore Areas Mineral\
+    \ (Auction) Rules 2024)"
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2024-11-28'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: '2025-12-12'
+    event: "Offshore Tranche I: annulled"
+    source_id: "raw:mstc-17906"
+  narrative:
+    what_it_does: A 84.63 sq km block offered for an offshore composite licence, for polymetallic nodules and crusts,
+      in Nicobar district, Andaman and Nicobar Islands, explored to G3 level.
+    significance: Offered 1 time by the Centre, most recently in Offshore Tranche I, and the auction was annulled
+      (December 2025).
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-23'
+  notes: Off Great Nicobar Island (Andaman Sea).
+  sources:
+  - id: "raw:mstc-17906"
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=17906_GoI-MoM%20-Offshore-Tranche%20I%20NIT.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: GoI-MoM -Offshore-Tranche I NIT
+    publisher: Government of Andaman and Nicobar Islands (via MSTC e-auction portal)
+    tier: T1
+    date: '2024-11-28'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+    - status
+  - id: "raw:mstc-24336"
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=24336_GOI_Mom_offshore_Tranche_I_Annulment_and_Bid_return_Notice.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: Notice for Annulment of Tranche I of Auction of Offshore Areas Mineral Blocks and Return of Bid Security
+    publisher: Government of Andaman and Nicobar Islands (via MSTC e-auction portal)
+    tier: T1
+    date: '2024-11-28'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+    - status
+  - id: mstc-mbs-17869
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=17869_MBS_WSR_PMNC_Block%2B-5.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: "Mine Block Summary: MBS_WSR_PMNC_Block -5"
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2024-11-28'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - block.area_sq_km
+    - block.exploration_stage
+    - location
+    - minerals
+  block:
+    concession_type: Offshore-CL
+    auction_route: Centre
+    area_sq_km: 84.63
+    exploration_stage: G3
+    resources: []
+    resources_as_stated: null
+  auction:
+    history:
+    - tranche: Offshore-T1
+      nit_date: '2024-11-28'
+      outcome: Annulled
+      outcome_date: '2025-12-12'
+      annulment_reason: Nil technically qualified bidders (Rule 9(10) Offshore Areas Mineral (Auction) Rules 2024)
+      preferred_bidder: null
+      final_offer_pct: null
+      reserve_price: null
+    loi_date: null
+    licence_or_lease_executed: null
+    production_started: null
+- id: blk-off-west-sewell-ridge-pmnc-6
+  name: West Sewell Ridge PMNC Block-6
+  aliases: []
+  layer: blocks
+  stages:
+  - Exploration
+  minerals:
+  - Cobalt
+  - Copper
+  - Nickel
+  commodity_as_stated: Polymetallic nodules and crusts
+  products: []
+  operator: null
+  operator_type: null
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: (s) None
+    state: Andaman and Nicobar Islands
+    district: Nicobar
+    country: India
+    lat: 7.179563
+    lon: 94.214902
+    precision: exact
+    geometry:
+      type: Polygon
+      coordinates:
+      - - - 94.1734228
+          - 7.2213425
+        - - 94.2566028
+          - 7.2211208
+        - - 94.2563742
+          - 7.1377833
+        - - 94.1732092
+          - 7.1380022
+        - - 94.1734228
+          - 7.2213425
+  status: Annulled
+  status_as_of: '2025-12-12'
+  status_detail: "Annulled in Offshore Tranche I: Nil technically qualified bidders (Rule 9(10) Offshore Areas Mineral\
+    \ (Auction) Rules 2024)"
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2024-11-28'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: '2025-12-12'
+    event: "Offshore Tranche I: annulled"
+    source_id: "raw:mstc-17906"
+  narrative:
+    what_it_does: A 84.63 sq km block offered for an offshore composite licence, for polymetallic nodules and crusts,
+      in Nicobar district, Andaman and Nicobar Islands, explored to G3 level.
+    significance: Offered 1 time by the Centre, most recently in Offshore Tranche I, and the auction was annulled
+      (December 2025).
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-23'
+  notes: Off Great Nicobar Island (Andaman Sea).
+  sources:
+  - id: "raw:mstc-17906"
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=17906_GoI-MoM%20-Offshore-Tranche%20I%20NIT.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: GoI-MoM -Offshore-Tranche I NIT
+    publisher: Government of Andaman and Nicobar Islands (via MSTC e-auction portal)
+    tier: T1
+    date: '2024-11-28'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+    - status
+  - id: "raw:mstc-24336"
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=24336_GOI_Mom_offshore_Tranche_I_Annulment_and_Bid_return_Notice.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: Notice for Annulment of Tranche I of Auction of Offshore Areas Mineral Blocks and Return of Bid Security
+    publisher: Government of Andaman and Nicobar Islands (via MSTC e-auction portal)
+    tier: T1
+    date: '2024-11-28'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+    - status
+  - id: mstc-mbs-17868
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=17868_MBS_WSR_PMNC_Block%2B-6.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: "Mine Block Summary: MBS_WSR_PMNC_Block -6"
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2024-11-28'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - block.area_sq_km
+    - block.exploration_stage
+    - location
+    - minerals
+  block:
+    concession_type: Offshore-CL
+    auction_route: Centre
+    area_sq_km: 84.63
+    exploration_stage: G3
+    resources: []
+    resources_as_stated: null
+  auction:
+    history:
+    - tranche: Offshore-T1
+      nit_date: '2024-11-28'
+      outcome: Annulled
+      outcome_date: '2025-12-12'
+      annulment_reason: Nil technically qualified bidders (Rule 9(10) Offshore Areas Mineral (Auction) Rules 2024)
+      preferred_bidder: null
+      final_offer_pct: null
+      reserve_price: null
+    loi_date: null
+    licence_or_lease_executed: null
+    production_started: null
+- id: blk-off-west-sewell-ridge-pmnc-7
+  name: West Sewell Ridge PMNC Block-7
+  aliases: []
+  layer: blocks
+  stages:
+  - Exploration
+  minerals:
+  - Cobalt
+  - Copper
+  - Nickel
+  commodity_as_stated: Polymetallic nodules and crusts
+  products: []
+  operator: null
+  operator_type: null
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: (s)
+    state: Andaman and Nicobar Islands
+    district: Nicobar
+    country: India
+    lat: 7.09549
+    lon: 94.223116
+    precision: exact
+    geometry:
+      type: Polygon
+      coordinates:
+      - - - 94.1816442
+          - 7.1372681
+        - - 94.2648086
+          - 7.1370478
+        - - 94.2645811
+          - 7.05371
+        - - 94.1814317
+          - 7.0539278
+        - - 94.1816442
+          - 7.1372681
+  status: Annulled
+  status_as_of: '2025-12-12'
+  status_detail: "Annulled in Offshore Tranche I: Nil bids received"
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2024-11-28'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: '2025-12-12'
+    event: "Offshore Tranche I: annulled"
+    source_id: "raw:mstc-17906"
+  narrative:
+    what_it_does: A 84.63 sq km block offered for an offshore composite licence, for polymetallic nodules and crusts,
+      in Nicobar district, Andaman and Nicobar Islands, explored to G3 level.
+    significance: Offered 1 time by the Centre, most recently in Offshore Tranche I, and the auction was annulled
+      (December 2025).
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-23'
+  notes: Off Great Nicobar Island (Andaman Sea).
+  sources:
+  - id: "raw:mstc-17906"
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=17906_GoI-MoM%20-Offshore-Tranche%20I%20NIT.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: GoI-MoM -Offshore-Tranche I NIT
+    publisher: Government of Andaman and Nicobar Islands (via MSTC e-auction portal)
+    tier: T1
+    date: '2024-11-28'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+    - status
+  - id: "raw:mstc-24336"
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=24336_GOI_Mom_offshore_Tranche_I_Annulment_and_Bid_return_Notice.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: Notice for Annulment of Tranche I of Auction of Offshore Areas Mineral Blocks and Return of Bid Security
+    publisher: Government of Andaman and Nicobar Islands (via MSTC e-auction portal)
+    tier: T1
+    date: '2024-11-28'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+    - status
+  - id: mstc-mbs-17867
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=17867_MBS_WSR_PMNC_Block%2B-7.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: "Mine Block Summary: MBS_WSR_PMNC_Block -7"
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2024-11-28'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - block.area_sq_km
+    - block.exploration_stage
+    - location
+    - minerals
+  block:
+    concession_type: Offshore-CL
+    auction_route: Centre
+    area_sq_km: 84.63
+    exploration_stage: G3
+    resources: []
+    resources_as_stated: null
+  auction:
+    history:
+    - tranche: Offshore-T1
+      nit_date: '2024-11-28'
+      outcome: Annulled
+      outcome_date: '2025-12-12'
+      annulment_reason: Nil bids received
+      preferred_bidder: null
+      final_offer_pct: null
+      reserve_price: null
+    loi_date: null
+    licence_or_lease_executed: null
+    production_started: null
+- id: blk-off-west-sewell-ridge-01
+  name: West Sewell Ridge-01 Block
+  aliases: []
+  layer: blocks
+  stages:
+  - Exploration
+  minerals:
+  - Cobalt
+  - Copper
+  - Nickel
+  commodity_as_stated: Polymetallic nodules and crusts
+  products: []
+  operator: null
+  operator_type: null
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: (s)
+    state: Andaman and Nicobar Islands
+    district: Nicobar
+    country: India
+    lat: 7.33566
+    lon: 94.143355
+    precision: exact
+    geometry:
+      type: Polygon
+      coordinates:
+      - - - 94.182
+          - 6.987
+        - - 94.182
+          - 7.187
+        - - 94.098
+          - 7.187
+        - - 94.098
+          - 7.253
+        - - 94.082
+          - 7.254
+        - - 94.081
+          - 7.287
+        - - 94.066
+          - 7.288
+        - - 94.065
+          - 7.32
+        - - 94.048
+          - 7.32
+        - - 94.048
+          - 7.337
+        - - 94.032
+          - 7.337
+        - - 94.031
+          - 7.637
+        - - 94.048
+          - 7.637
+        - - 94.048
+          - 7.67
+        - - 94.132
+          - 7.67
+        - - 94.132
+          - 7.537
+        - - 94.149
+          - 7.537
+        - - 94.149
+          - 7.454
+        - - 94.165
+          - 7.454
+        - - 94.166
+          - 7.404
+        - - 94.199
+          - 7.404
+        - - 94.199
+          - 7.321
+        - - 94.249
+          - 7.321
+        - - 94.249
+          - 7.238
+        - - 94.266
+          - 7.237
+        - - 94.265
+          - 6.987
+        - - 94.182
+          - 6.987
+  status: Offered
+  status_as_of: '2026-10-01'
+  status_detail: "Offshore Tranche II: outcome pending. Off Great Nicobar Island; bids due 28 Dec 2026 (NIT)."
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2026-10-01'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: '2026-10-01'
+    event: "Offshore Tranche II: pending"
+    source_id: "raw:mstc-28393"
+  narrative:
+    what_it_does: A 1000.00 sq km block offered for an offshore composite licence, for polymetallic nodules and
+      crusts, in Nicobar district, Andaman and Nicobar Islands, explored to G3 level.
+    significance: Offered in Offshore Tranche II (October 2026); the outcome is pending. Off Great Nicobar Island;
+      bids due 28 Dec 2026 (NIT).
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-23'
+  notes: Off Great Nicobar Island; bids due 28 Dec 2026 (NIT).
+  sources:
+  - id: "raw:mstc-28393"
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=28393_2161967_NIT_Off%20Great%20Nicobar%20Island_II.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: NIT_Offshore Minerals_ Tranche II
+    publisher: Government of Andaman and Nicobar Islands (via MSTC e-auction portal)
+    tier: T1
+    date: '2026-10-01'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+    - status
+  - id: "raw:mstc-28375"
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=28375_2161458_MINE_BLOCK_SUMMARY_AND26_CLX4.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: WEST_SEWELL_RIDGE_01
+    publisher: Government of Andaman and Nicobar Islands (via MSTC e-auction portal)
+    tier: T1
+    date: '2026-10-01'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+    - status
+  - id: mstc-mbs-28375
+    url: "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=28375_2161458_MINE_BLOCK_SUMMARY_AND26_CLX4.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-"
+    title: "Mine Block Summary: WEST_SEWELL_RIDGE_01"
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2026-10-01'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - block.area_sq_km
+    - block.exploration_stage
+    - location
+    - minerals
+  block:
+    concession_type: Offshore-CL
+    auction_route: Centre
+    area_sq_km: 1000.0
+    exploration_stage: G3
+    resources: []
+    resources_as_stated: null
+  auction:
+    history:
+    - tranche: Offshore-T2
+      nit_date: '2026-10-01'
+      outcome: Pending
+      outcome_date: null
+      annulment_reason: null
+      preferred_bidder: null
+      final_offer_pct: null
+      reserve_price: null
+    loi_date: null
+    licence_or_lease_executed: null
+    production_started: null
 - id: blk-ap-balepalyam
   name: Balepalyam Tungsten and Associated Mineral Block
   aliases: []
@@ -3896,7 +5260,8 @@
     source_id: "raw:mstc-cg-nit-12"
   narrative:
     what_it_does: A 5.93 sq km block offered for a composite licence, for phosphorite, in Balod district, Chhattisgarh.
-    significance: Offered in a 2023 state auction; the second-round e-auction was rescheduled to 26 October 2026.
+    significance: Offered 1 time by the Government of Chhattisgarh, most recently in a 2023 state auction (July
+      2023); no preferred bidder has been published.
   related: []
   see_also: []
   confidence: medium
@@ -15682,7 +17047,8 @@
   narrative:
     what_it_does: A 5.57 sq km block offered for a composite licence, for phosphorite, in Khargone district, Madhya
       Pradesh, explored to G3 level.
-    significance: Offered in Madhya Pradesh Phase XI; the second-round e-auction was rescheduled to 26 October 2026.
+    significance: Offered 1 time by the Government of Madhya Pradesh, most recently in Madhya Pradesh Phase XI (July
+      2023); no preferred bidder has been published.
   related: []
   see_also: []
   confidence: medium
@@ -19797,7 +21163,8 @@
   narrative:
     what_it_does: A 25.83 sq km block offered for a composite licence, for copper, in Chandrapur district, Maharashtra,
       explored to G3 level.
-    significance: Offered in Maharashtra Phase XII; the second-round e-auction was rescheduled to 26 October 2026.
+    significance: Offered 1 time by the Government of Maharashtra, most recently in Maharashtra Phase XII (January
+      2024); no preferred bidder has been published.
   related: []
   see_also: []
   confidence: medium
@@ -20373,7 +21740,7 @@
           - 22.26194
   status: Offered
   status_as_of: '2026-10-16'
-  status_detail: "Tranche VIII: second-round e-auction pending"
+  status_detail: "Tranche VIII: outcome pending. Second-round e-auction rescheduled to 26 Oct 2026"
   capacity:
     planned:
       value: null
@@ -20409,7 +21776,8 @@
   narrative:
     what_it_does: A 3.92 sq km block offered for a composite licence, for titanium, vanadium and iron ore (magnetite),
       in Mayurbhanj district, Odisha, explored to G3 level.
-    significance: Offered in Tranche VIII; the second-round e-auction was rescheduled to 26 October 2026.
+    significance: Offered in Tranche VIII (July 2026); the outcome is pending. Second-round e-auction rescheduled
+      to 26 Oct 2026
   related: []
   see_also: []
   confidence: high
@@ -28132,7 +29500,8 @@
     source_id: "raw:mstc-up-nit-05"
   narrative:
     what_it_does: A block offered for a composite licence, for glauconite, in Sonbhadra district, Uttar Pradesh.
-    significance: Offered in Uttar Pradesh Phase II; the second-round e-auction was rescheduled to 26 October 2026.
+    significance: Offered 1 time by the Government of Uttar Pradesh, most recently in Uttar Pradesh Phase II (May
+      2022); no preferred bidder has been published.
   related: []
   see_also: []
   confidence: medium
@@ -28587,7 +29956,8 @@
   narrative:
     what_it_does: A block offered for a composite licence, for platinum group of elements (pge), in Lalitpur district,
       Uttar Pradesh.
-    significance: Offered in Uttar Pradesh Phase II; the second-round e-auction was rescheduled to 26 October 2026.
+    significance: Offered 1 time by the Government of Uttar Pradesh, most recently in Uttar Pradesh Phase II (May
+      2022); no preferred bidder has been published.
   related: []
   see_also: []
   confidence: medium

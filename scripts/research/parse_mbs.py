@@ -32,7 +32,7 @@ TOKEN = re.compile(
     rf"""|(?P<dms0>(?<!\d)(?P<d0>\d{{2}})0\s?(?P<m0>[0-5]?\d)\s*{MIN}\s*(?P<s0>\d{{1,2}}(?:\.\d+)?)\s*{SEC})"""
     r"""|(?P<decs>(?<![\d.])\d{1,2}\.\d{2,}(?=\s*[NE]\b))"""
     r"""|(?P<dec>(?<![\d.])\d{1,2}\.\d{2,}(?![\d.]))""")
-HEAD = re.compile(r"(?i)co-?\s*ordinates?\s+of|corner\s+points?|boundary\s+(?:corner|points)|pillar|block\s+corner")
+HEAD = re.compile(r"(?i)co-?\s*ordinates?\s+of|corner\s+points?|boundary\s+(?:corner|points)|pillar|block\s+corner|location\s+(?:block\s+end\s+)?points")
 UTM_ZONE = re.compile(r"(?i)UTM\s*Zone\s*[-:]?\s*(\d{2})")
 UTM_ROW = re.compile(r"(?m)^\s*[A-Z0-9]{1,3}\s+(\d{6}(?:\.\d+)?)\s+(\d{7}(?:\.\d+)?)\b")
 
@@ -138,6 +138,14 @@ def extract(path):
     m = first(r"Total\s+(?:Concession\s+)?Area[\s\S]{0,90}?([\d,]+\.\d+|\d+)\s*(Ha\b|hectares?|sq\.?\s*km|km2|Sq\.\s*Km)", one)
     if not m:
         m = first(r"Area[^\n]{0,80}?([\d,]+\.\d+|\d+)\s*(Ha\b|hectares?|sq\.?\s*km|km2)", one)
+    if not m:
+        m = first(r"Area\s+in\s+(Sq\.?\s*km)\s+([\d,]+(?:\.\d+)?)", one)
+        if m:  # unit printed before the number
+            rec["area_value"] = float(m.group(2).replace(",", ""))
+            rec["area_unit"] = "sq km"
+            rec["area_line"] = one[max(0, m.start() - 10): m.end() + 10].strip()[:160]
+            rec["area_sq_km"] = rec["area_value"]
+            m = None
     if m:
         rec["area_value"] = float(m.group(1).replace(",", ""))
         u = m.group(2).lower()

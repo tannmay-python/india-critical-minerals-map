@@ -31,5 +31,10 @@ Every candidate considered and rejected, with the rule that rejected it, so the 
 | North of Kondagaon Diamond EL Block; Sorgaon-Garenga Diamond EL Block (Chhattisgarh) | L1 | Diamond; not canonical | Centre EL Tranche I |
 | Shergarh Diamond EL Block (MP); Kurkheda Diamond EL Block (Maharashtra) | L1 | Diamond; not canonical | Centre EL Tranche II; annulled, nil bids (19 Jun 2026) |
 | Bauxite blocks auctioned by states (Chhattisgarh, Gujarat, Jharkhand, Karnataka, MP, Maharashtra, Odisha) | L1 | D-003 | Ministry of Mines successful-auction list (27 May 2025) |
-| Rajasthan "Basemetal" CL blocks: Khakhiliya Khera, Pipliyan, Manpura, Ladana-Ladani, Bhabhriya ka Kheda (SMO Ferro Alloys, Aug-Sep 2023) | L1 | Borderline: the list says only "Basemetal"; copper not named. Revisit if MBS names copper | MoM successful-auction list (27 May 2025) |
+| Rajasthan "Basemetal" CL blocks: Khakhiliya Khera, Pipliyan Khurd, Manpura (SMO Ferro Alloys, Aug 2023) | L1 | Borderline: records say only "Basemetal"; copper not named (Ladana and Bhabhriya ka Kheda are included because 2025 NIBs name copper). See OPEN_QUESTIONS 5 | MoM successful-auction list (27 May 2025) |
 | Amlihwah Gold and Basemetal Block (MP, Kundan Gold Mines, Jul 2024) | L1 | Borderline: gold and unspecified base metal | MoM successful-auction list (27 May 2025) |
+| Kollam CS Blocks 1-3 (construction sand, off Kerala) | L1 | Playbook L1: construction sand excluded | Offshore Tranche I NIT 28 Nov 2024; annulled 12 Dec 2025 (nil bids) |
+| Porbandar LM Blocks 1-3 (lime mud, off Gujarat) | L1 | Playbook L1: lime mud excluded | Offshore Tranche I NIT 28 Nov 2024; annulled 12 Dec 2025 (nil bids) |
+| Byodihar Gold and Basemetal (Lead and Silver) Block (MP) | L1 | No canonical mineral named | MSTC all-seller results FY2025-26 (Anand Mining Corporation, 3.75%) |
+| Karankhol Rachpalpur Gold and Associated Base Metal Block (CG) | L1 | Borderline: base metal not named | MSTC all-seller results FY2026-27 (R K Mineral Development, 50.05%) |
+| "TKB 11 Limestone Nagaur Ree" (Rajasthan) | L1 | Limestone block; "Ree" is part of the place name, not rare earths | MSTC all-seller results FY2024-25 |
