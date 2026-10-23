@@ -31746,3 +31746,506 @@
     loi_date: null
     licence_or_lease_executed: null
     production_started: null
+- aliases: []
+  layer: blocks
+  stages:
+  - Exploration
+  products: []
+  operator: Ministry of Earth Sciences, Government of India
+  operator_type: Government / Ministry
+  owners: []
+  partners: []
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  related: []
+  see_also: []
+  last_verified: '2026-10-23'
+  id: isa-afanasy-nikitin-crusts
+  name: Afanasy-Nikitin Seamount cobalt-rich crust area (ISA application)
+  minerals:
+  - Cobalt
+  commodity_as_stated: Cobalt-rich ferromanganese crusts
+  location:
+    address: null
+    village_or_town: null
+    district: null
+    state: null
+    country: International seabed (ISA Area)
+    lat: -3.0339
+    lon: 83.0887
+    precision: state
+    geometry: null
+  status: Identified
+  status_as_of: '2024-07-12'
+  status_detail: "ISA application (18 Jan 2024) on hold: the Legal and Technical Commission cannot consider it while\
+    \ Sri Lanka's continental-shelf submission covering the area is pending"
+  dates:
+    first_public: '2024-01-18'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: '2024-01-18'
+    event: Application for a plan of work submitted to the ISA (150 blocks, 3,000 sq km)
+    source_id: isa-pr-2024-01-18
+  - date: '2024-07-12'
+    event: ISA Legal and Technical Commission reports it is not in a position to consider the application until
+      outer continental shelf limits are resolved
+    source_id: isa-29-c-19
+  narrative:
+    what_it_does: A 3,000 sq km application to explore cobalt-rich ferromanganese crusts on the Afanasy-Nikitin
+      Seamount in the Central Indian Ocean.
+    significance: "It is stalled: the area falls entirely within Sri Lanka's pending extended continental-shelf\
+      \ claim, and the ISA has said it cannot consider the application until that is resolved."
+  confidence: high
+  notes: "Status 'Identified' is used because the area has not been granted; ISA applications have no closer status\
+    \ in the block vocabulary (see research/LOG.md). Location is the seamount's position in the IHO-IOC GEBCO gazetteer\
+    \ ('Afanasij Nikitin Seamount')."
+  sources:
+  - id: isa-pr-2024-01-18
+    url: "https://isa.org.jm/?p=43205"
+    title: The Government of India submits two applications for approval of plans of work for seabed exploration
+      in the Indian Ocean
+    publisher: International Seabed Authority
+    tier: T1
+    date: '2024-01-18'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - block.area_sq_km
+    - minerals
+    - operator
+  - id: isa-29-c-19
+    url: "https://isa.org.jm/wp-content/uploads/2024/07/ISBA_29_C_19.pdf"
+    title: "ISBA/29/C/19: Report of the Legal and Technical Commission on the application by ESSO-MoES, India (cobalt-rich\
+      \ crusts, Afanasy Nikitin Seamount)"
+    publisher: International Seabed Authority
+    tier: T1
+    date: '2024-07-12'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - status
+  - id: gebco-ufn
+    url: "https://services2.arcgis.com/C8EMgrsFcRFL6LrL/arcgis/rest/services/Undersea_Features/FeatureServer"
+    title: IHO-IOC GEBCO Gazetteer of Undersea Feature Names (ArcGIS feature service)
+    publisher: IHO-IOC GEBCO / NOAA NCEI
+    tier: T4
+    date: '2026-10-23'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - location
+  block:
+    concession_type: ISA-application
+    auction_route: ISA
+    area_sq_km: 3000
+    exploration_stage: null
+    resources: []
+    resources_as_stated: null
+  auction:
+    history: []
+    loi_date: null
+    licence_or_lease_executed: null
+    production_started: null
+- aliases: []
+  layer: blocks
+  stages:
+  - Exploration
+  products: []
+  operator: Ministry of Earth Sciences, Government of India
+  operator_type: Government / Ministry
+  owners: []
+  partners: []
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  related: []
+  see_also: []
+  last_verified: '2026-10-23'
+  id: isa-carlsberg-ridge-pms
+  name: Carlsberg Ridge polymetallic sulphide area (ISA exploration contract, 2025)
+  minerals:
+  - Copper
+  - Platinum
+  commodity_as_stated: Polymetallic sulphides
+  location:
+    address: null
+    village_or_town: null
+    district: null
+    state: null
+    country: International seabed (ISA Area)
+    lat: 5.7991
+    lon: 61.8118
+    precision: state
+    geometry: null
+  status: Licence / lease executed
+  status_as_of: '2025-09-20'
+  status_detail: 15-year ISA contract for a 10,000 sq km area; signing announced 20 Sep 2025
+  dates:
+    first_public: '2024-01-18'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: '2024-01-18'
+    event: Application for a plan of work submitted to the ISA (100 blocks, 10,000 sq km)
+    source_id: isa-pr-2024-01-18
+  - date: '2025-09-20'
+    event: Signing of 15-year exploration contract announced by the Ministry of Earth Sciences
+    source_id: pib-2168923
+  narrative:
+    what_it_does: A 10,000 sq km polymetallic sulphide exploration area on the Carlsberg Ridge in the north-west
+      Indian Ocean, held under a 15-year ISA contract.
+    significance: With it India became the first country to hold two ISA contracts for sulphide exploration, applied
+      for in January 2024 and signed in September 2025.
+  confidence: high
+  notes: No contract coordinates published; location is the centroid of the Carlsberg Ridge feature in the IHO-IOC
+    GEBCO gazetteer (the ridge spans roughly 2-10 N, 57.5-66.5 E), so precision is coarse.
+  sources:
+  - id: isa-pr-2024-01-18
+    url: "https://isa.org.jm/?p=43205"
+    title: The Government of India submits two applications for approval of plans of work for seabed exploration
+      in the Indian Ocean
+    publisher: International Seabed Authority
+    tier: T1
+    date: '2024-01-18'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - block.area_sq_km
+    - operator
+  - id: pib-2168923
+    url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2168923"
+    title: India signs new 15-year contract with ISA for polymetallic sulphide exploration in the Carlsberg Ridge
+    publisher: PIB (Ministry of Earth Sciences)
+    tier: T1
+    date: '2025-09-20'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - status
+    - minerals
+    - operator
+    - block.area_sq_km
+  - id: gebco-ufn
+    url: "https://services2.arcgis.com/C8EMgrsFcRFL6LrL/arcgis/rest/services/Undersea_Features/FeatureServer"
+    title: IHO-IOC GEBCO Gazetteer of Undersea Feature Names (ArcGIS feature service)
+    publisher: IHO-IOC GEBCO / NOAA NCEI
+    tier: T4
+    date: '2026-10-23'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - location
+  block:
+    concession_type: ISA-contract
+    auction_route: ISA
+    area_sq_km: 10000
+    exploration_stage: null
+    resources: []
+    resources_as_stated: null
+  auction:
+    history: []
+    loi_date: null
+    licence_or_lease_executed: null
+    production_started: null
+- aliases: []
+  layer: blocks
+  stages:
+  - Exploration
+  products: []
+  operator: Ministry of Earth Sciences, Government of India
+  operator_type: Government / Ministry
+  owners: []
+  partners: []
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  related: []
+  see_also: []
+  last_verified: '2026-10-23'
+  id: isa-ciob-polymetallic-nodules
+  name: Central Indian Ocean Basin polymetallic nodule area (ISA exploration contract)
+  minerals:
+  - Cobalt
+  - Copper
+  - Nickel
+  commodity_as_stated: Polymetallic nodules
+  location:
+    address: null
+    village_or_town: null
+    district: null
+    state: null
+    country: International seabed (ISA Area)
+    lat: -12.625
+    lon: 76.375
+    precision: state
+    geometry:
+      type: Polygon
+      coordinates:
+      - - - 73.5
+          - -10.25
+        - - 79.25
+          - -10.25
+        - - 79.25
+          - -15.0
+        - - 73.5
+          - -15.0
+        - - 73.5
+          - -10.25
+  status: Licence / lease executed
+  status_as_of: '2024-01-18'
+  status_detail: ISA exploration contract signed 25 Mar 2002, extended in 2017 and 2022; expires 24 Mar 2027
+  dates:
+    first_public: '2002-03-25'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: '2002-03-25'
+    event: ISA exploration contract for polymetallic nodules signed
+    source_id: isa-pr-2024-01-18
+  narrative:
+    what_it_does: "India's oldest deep-sea mineral holding: a 75,000 sq km nodule exploration contract with the\
+      \ International Seabed Authority in the Central Indian Ocean Basin."
+    significance: The contract runs to 24 March 2027 after extensions in 2017 and 2022; the plan of work targets
+      recovery of copper, nickel, cobalt and manganese from nodules.
+  confidence: high
+  notes: Location is the centre of the bounding box within which the contract area lies (ISA public information
+    sheet); the 75,000 sq km of blocks is smaller than the box. Expiry date (2027-03-24) kept in status_detail because
+    future milestone dates are not allowed.
+  sources:
+  - id: isa-pr-2024-01-18
+    url: "https://isa.org.jm/?p=43205"
+    title: The Government of India submits two applications for approval of plans of work for seabed exploration
+      in the Indian Ocean
+    publisher: International Seabed Authority
+    tier: T1
+    date: '2024-01-18'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - status
+    - dates.first_public
+    - operator
+  - id: isa-public-info-india-pmn
+    url: "https://www.isa.org.jm/wp-content/uploads/2022/10/Public-information-on-contracts-India_PMN.pdf"
+    title: "ISA Contract for Exploration - Public Information Template: Polymetallic Nodules, Govt. of India/MoES"
+    publisher: International Seabed Authority
+    tier: T1
+    date: '2022-10-01'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - block.area_sq_km
+    - minerals
+    - operator
+    - location
+  block:
+    concession_type: ISA-contract
+    auction_route: ISA
+    area_sq_km: 75000
+    exploration_stage: null
+    resources: []
+    resources_as_stated: null
+  auction:
+    history: []
+    loi_date: null
+    licence_or_lease_executed: '2002-03-25'
+    production_started: null
+- aliases:
+  - Central Indian Ridge and Southwest Indian Ridge PMS area
+  layer: blocks
+  stages:
+  - Exploration
+  products: []
+  operator: Ministry of Earth Sciences, Government of India
+  operator_type: Government / Ministry
+  owners: []
+  partners: []
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  related: []
+  see_also: []
+  last_verified: '2026-10-23'
+  id: isa-indian-ocean-ridge-pms-2016
+  name: Indian Ocean Ridge polymetallic sulphide area (ISA exploration contract, 2016)
+  minerals:
+  - Copper
+  - Platinum
+  commodity_as_stated: Polymetallic sulphides
+  location:
+    address: null
+    village_or_town: null
+    district: null
+    state: null
+    country: International seabed (ISA Area)
+    lat: -26.3652
+    lon: 66.2854
+    precision: state
+    geometry:
+      type: Polygon
+      coordinates:
+      - - - 69.667
+          - -22.974
+        - - 61.673
+          - -27.362
+        - - 62.762
+          - -29.674
+        - - 70.757
+          - -25.615
+        - - 69.667
+          - -22.974
+  status: Licence / lease executed
+  status_as_of: '2025-09-20'
+  status_detail: ISA exploration contract signed 26 Sep 2016; expires 25 Sep 2031
+  dates:
+    first_public: '2016-09-26'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: '2016-09-26'
+    event: ISA exploration contract for polymetallic sulphides signed
+    source_id: isa-pr-2024-01-18
+  narrative:
+    what_it_does: A 10,000 sq km polymetallic sulphide exploration contract with the International Seabed Authority
+      on the Central and Southwest Indian Ridges.
+    significance: Signed in 2016 and valid to 2031; sulphides carry copper, zinc, gold, silver and platinum.
+  confidence: high
+  notes: Location is the centroid of the four corner coordinates in the ISA public information sheet; the 10,000
+    sq km of blocks lies within that area.
+  sources:
+  - id: isa-pr-2024-01-18
+    url: "https://isa.org.jm/?p=43205"
+    title: The Government of India submits two applications for approval of plans of work for seabed exploration
+      in the Indian Ocean
+    publisher: International Seabed Authority
+    tier: T1
+    date: '2024-01-18'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - status
+    - dates.first_public
+    - operator
+  - id: isa-public-info-india-pms
+    url: "https://www.isa.org.jm/wp-content/uploads/2022/10/Public-information-on-contracts-India_PMS.pdf"
+    title: "ISA Contract for Exploration - Public Information Template: Polymetallic Sulphides, Govt. of India/MoES"
+    publisher: International Seabed Authority
+    tier: T1
+    date: '2022-10-01'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - block.area_sq_km
+    - operator
+    - location
+  - id: pib-2168923
+    url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2168923"
+    title: India signs new 15-year contract with ISA for polymetallic sulphide exploration in the Carlsberg Ridge
+    publisher: PIB (Ministry of Earth Sciences)
+    tier: T1
+    date: '2025-09-20'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - minerals
+    - status
+  block:
+    concession_type: ISA-contract
+    auction_route: ISA
+    area_sq_km: 10000
+    exploration_stage: null
+    resources: []
+    resources_as_stated: null
+  auction:
+    history: []
+    loi_date: null
+    licence_or_lease_executed: '2016-09-26'
+    production_started: null

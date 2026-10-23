@@ -1,0 +1,169 @@
+
+Gazetteer of Undersea Feature Names
+ Skip to main content
+Main navigation
+Home
+Data & Products
+Gridded Bathymetry Data
+Regional grid - Arctic Ocean (IBCAO)
+Regional grid - Southern Ocean (IBCSO)
+Errata and known issues
+GEBCO_2026 Grid
+GEBCO_2025 Grid
+GEBCO_2024 Grid
+GEBCO_2023 Grid
+GEBCO_2022 Grid
+GEBCO_2021 Grid
+GEBCO_2020 Grid
+GEBCO_2019 Grid
+Undersea Feature Names
+GEBCO Web Services
+Web Map Service
+Previous GEBCO WMS
+Printable Maps
+IHO-IOC GEBCO Cook Book
+Historical GEBCO Charts
+Historical Data Sets
+Imagery
+History of GEBCO
+GEBCO Digital Atlas
+Seabed 2030
+Training
+News & Media
+About
+Overview
+GEBCO Strategy
+Project History
+Seabed 2030
+Acknowledgements
+Our Data Contributors
+Working With Industry
+Contributing Data
+Presentations and Publications
+Committees and Groups
+Guiding Committee
+Regional Mapping
+Undersea Features Names
+Technical Mapping
+Communication and Outreach
+Meetings and Minutes
+GEBCO Symposium
+Frequently Asked Questions
+Useful links
+Contact
+Search
+Search
+Search
+GEBCO
+General Bathymetric Chart of the Oceans
+Home
+Data and Products
+Undersea Feature Names
+A digital gazetteer of the names of features on the seafloor
+Image:
+The GEBCO Sub-Committee on Undersea Feature Names (SCUFN) maintains and makes available a digital gazetteer of the names, generic feature type and geographic position of features on the seafloor.
+The gazetteer is available to 
+view and download
+ via a web map application, hosted by the International Hydrographic Organization Data Centre for Digital Bathymetry (IHO DCDB) co-located with the US National Centers for Environmental Information (NCEI).
+The data are available in a number of formats including spreadsheet and shapefile.
+Name proposals
+ can be submitted to SCUFN for consideration for inclusion in the gazetteer.
+Find out about
+How to view and download data from the gazetteer at the IHO DCDB.
+Access to the data set through ArcGIS REST Services and as a WFS
+Submitting name proposals
+Data set acknowledgement
+Undersea feature terms and definitions web search
+Access to the data set through ArcGIS REST Services and as a WFS
+The Gazetteer is available from NCEI as:
+Three geospatial web service endpoints are available:
+ArcGIS Feature Layer
+ – 
+REST endpoint
+Open Geospatial Consortium (OGC) Feature Layer
+ – 
+REST endpoint
+OGC Web Feature Service (WFS)
+ – 
+REST endpoint
+Names proposals
+Access the document B-6 on the Standardization of Undersea Feature Names (Guidelines, Proposal Form Terminology) from the 
+IHO's web site
+.
+To submit a name proposal, download and return a name proposal submission form, included in document B-6 from the above link.
+Data set acknowledgement
+Please include the following citation when data from the gazetteer are used or reproduced in reports, presentations and other products:
+IHO-IOC GEBCO Gazetteer of Undersea Feature Names, 
+www.gebco.net
+Undersea feature terms and definitions web search
+Access the undersea feature terms and definitions 
+web search
+. This includes imagery illustrating the feature types.
+Data & Products
+Gridded Bathymetry Data
+Undersea Feature Names
+GEBCO Web Services
+Printable Maps
+IHO-IOC GEBCO Cook Book
+Historical GEBCO Charts
+Historical Data Sets
+Imagery
+History of GEBCO
+GEBCO Digital Atlas
+Jump to
+Copyright © 2020-2026, 
+GEBCO
+Hosted by the British Oceanographic Data Centre (BODC)
+Footer menu
+Privacy Policy
+Disclaimer
+Home
+Data & Products
+Gridded Bathymetry Data
+Regional grid - Arctic Ocean (IBCAO)
+Regional grid - Southern Ocean (IBCSO)
+Errata and known issues
+GEBCO_2026 Grid
+GEBCO_2025 Grid
+GEBCO_2024 Grid
+GEBCO_2023 Grid
+GEBCO_2022 Grid
+GEBCO_2021 Grid
+GEBCO_2020 Grid
+GEBCO_2019 Grid
+Undersea Feature Names
+GEBCO Web Services
+Web Map Service
+Previous GEBCO WMS
+Printable Maps
+IHO-IOC GEBCO Cook Book
+Historical GEBCO Charts
+Historical Data Sets
+Imagery
+History of GEBCO
+GEBCO Digital Atlas
+Seabed 2030
+Training
+News & Media
+About
+Overview
+GEBCO Strategy
+Project History
+Seabed 2030
+Acknowledgements
+Our Data Contributors
+Working With Industry
+Contributing Data
+Presentations and Publications
+Committees and Groups
+Guiding Committee
+Regional Mapping
+Mapping projects
+Undersea Features Names
+Technical Mapping
+Communication and Outreach
+Meetings and Minutes
+GEBCO Symposium
+Frequently Asked Questions
+Useful links
+Contact

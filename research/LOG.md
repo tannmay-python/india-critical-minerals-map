@@ -21,3 +21,11 @@ Queries, registries pulled, decisions, inclusion calls and dead ends. Newest ent
 - Official lists: PIB PRID 1942027 (24 Jul 2023) and 1944963 (2 Aug 2023) print the 30 names; PIB 1936083 (28 Jun 2023) is the unveiling. Part D: Lok Sabha USQ 442, 24 Jul 2024, Annexure-I tabulates 24 entries. Not in Part D: Antimony, Bismuth, Copper, Germanium, Hafnium, Silicon, Strontium.
 - Network: `eparlib.sansad.in` / `eparlib.nic.in` unreachable from this machine; the same PDFs are served by `sansad.in/getFile/...` (see `research/TOOLING.md`). `indiacode.nic.in` returned 504 for the consolidated MMDR Act (3 tries). `web.archive.org` availability API returned 429.
 - Built a local index of Lok Sabha questions (sansad.in API ignores filters, so whole sessions are pulled and searched locally).
+
+## L1 Blocks (2026-10-23)
+
+- Research moved in-house after the owner asked to stop running parallel subagents (2026-10-23). Drafts left by the stopped agents (Centre T1–T5 registry, state registry, geodata) were re-checked rather than re-done: every preferred bidder was cross-checked against the MSTC results pages, and unique-block counts against PIB 2277041 (88 / 56) and the NCMM note (34 Centre / 25 state).
+- Registries extracted: MSTC Centre tranche listings (T1–T8 NITs, block summaries, notices), EL Tranches I–II, Offshore Tranches I–II, all 336 MSTC document sections (11,427 documents), MSTC results pages (Centre, EL, all sellers, FY2023-24..2026-27), Ministry of Mines successful-auction list (to May 2025), state NITs (MP, CG, UP, JH, OD, MH, RJ, KA, AP, TN, BR, GJ).
+- Geometry: polygons parsed from every block summary and accepted only when the polygon area is within 25% of the stated area; 6 recovered by OCR (macOS Vision) or from corrigenda (Biarpalli, Dudhiasol, West Sewell Ridge Block-1).
+- Decision D-008: ISA areas use status "Licence / lease executed" for signed ISA exploration contracts and "Identified" for applications not yet granted (the block vocabulary has no "applied" state). Locations without published contract coordinates use IHO-IOC GEBCO gazetteer feature positions at precision "state".
+- Decision D-009: state offerings with no published result are recorded as outcome "Offered" (status "Offered" / "Re-offered", confidence medium) rather than inferring an annulment.

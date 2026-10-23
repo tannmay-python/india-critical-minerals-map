@@ -1,0 +1,1130 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head id="Head1"><title>
+	Press Release Page | Press Information Bureau
+</title><link href="css/style.css?v=1" rel="stylesheet" type="text/css" /><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="alternate stylesheet" href="css/change.css?v=1" media="screen" title="change" /><link rel="alternate stylesheet" href="css/green.css?v=1" media="screen" title="green" /><link rel="alternate stylesheet" href="css/yellow.css" media="screen" title="yellow" /><link rel="stylesheet" type="text/css" href="css/prtint.css" media="print" /><link rel="stylesheet" href="css/style3.1.css" type="text/css" /><link id="pibA11yCss" rel="stylesheet" href="/css/accessibility.css?v=7" type="text/css" />
+    <script type="text/javascript">
+        (function (d) {
+            var t = "";
+            try {
+                t = window.localStorage.getItem("pibStyle") || "";
+            } catch (e) {
+                t = "";
+            }
+            if (t === "orange") {
+                t = "yellow";
+            }
+            var c = t === "change" ? " pib-hc"
+                : t === "green" ? " pib-theme-green"
+                : t === "yellow" ? " pib-theme-yellow" : "";
+            d.documentElement.className += c + " pib-a11y-content";
+        }(document));
+    </script>
+
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/js/accessibility.js?v=7"></script>
+
+    <script type="text/javascript">
+            $(document).ready(function () {
+                  function getParameterByName(name) {
+                        var url = window.location.href;
+                        name = name.replace(/[\[\]]/g, '\\$&');
+                        var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+                              results = regex.exec(url);
+                        if (!results) return null;
+                        if (!results[2]) return '';
+                        return decodeURIComponent(results[2].replace(/\+/g, ' '));
+                  }
+                  let prid = parseInt(getParameterByName('PRID'), 10);
+
+                  if (!isNaN(prid) && prid > 0) {
+                        $.ajax({
+                              type: "POST",
+                              url: "AjaxMethod.aspx/UpdatePRHitCount",
+                              async: false,
+                              data: JSON.stringify({ 'PermId': prid }),
+                              contentType: "application/json; charset=utf-8",
+                              dataType: "json",
+                              success: function (response) {
+                                    console.log(response);
+                              },
+                              error: function (error) {
+                                    console.log("Error in AJAX request", error);
+                              }
+                        });
+                  } else {
+                        console.log("Invalid parameters:", prid);
+                  }
+            });
+    </script>
+    <style type="text/css">
+        .table-responsive {
+            width: 100%;
+            overflow-x: auto;
+        }
+
+        .banner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+        }
+
+        full-width {
+            width: 100%;
+        }
+
+        .logo-left, .logo-center, .countdown {
+            display: flex;
+            align-items: center;
+        }
+
+            .logo-left img, .logo-center img {
+                height: 70px;
+            }
+
+        .countdown {
+            text-align: center;
+            background-color: var(--dbim-text, #150202);
+            border-radius: 10px;
+            padding: 10px;
+            border: 2px solid grey;
+        }
+
+        .firstnumber {
+            color: #000000;
+            position: absolute;
+            top: 50px;
+            right: 90px;
+            font-size: 30px;
+        }
+
+        .secondnumber {
+            position: absolute;
+            color: #000000;
+            right: 45px;
+            top: 50px;
+            font-size: 30px;
+        }
+
+        .countdown .days {
+            font-size: 35px;
+            color: gold;
+        }
+
+        .countdown p {
+            margin: 0;
+        }
+
+        .countdown .text {
+            font-size: 16px;
+        }
+
+        a {
+            word-break: break-all;
+        }
+
+        iframe, img {
+            max-width: 100%;
+        }
+
+        /* === DBIM 3.0 Option 4 Separator Line & Reading Meta Styling === */
+        .pr-share--footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+            border-top: 1px solid var(--dbim-border, #d1d5db);
+            padding-top: 16px;
+            margin-top: 24px;
+        }
+
+        .pr-share__left {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .pr-reading-meta {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 0.95rem;
+            color: var(--dbim-text-secondary, #475569);
+            font-weight: 500;
+            white-space: nowrap;
+            margin-left: auto;
+        }
+
+        .pr-reading-meta__item {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .pr-reading-meta__divider {
+            color: var(--dbim-border, #cbd5e1);
+            font-weight: 300;
+        }
+
+        .pib-hc .pr-reading-meta,
+        .pib-hc .pr-reading-meta svg {
+            color: currentColor !important;
+        }
+
+        @media (max-width: 680px) {
+            .pr-share--footer {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .pr-reading-meta {
+                margin-left: 0;
+                width: 100%;
+                justify-content: flex-start;
+            }
+        }
+
+        @media(max-width:1199px) {
+            .firstnumber {
+                top: 40px;
+                right: 72px;
+                font-size: 30px;
+            }
+
+            .secondnumber {
+                right: 35px;
+                top: 40px;
+                font-size: 30px;
+            }
+        }
+
+        @media(max-width:990px) {
+            .firstnumber {
+                top: 25px;
+                right: 54px;
+                font-size: 30px;
+            }
+
+            .secondnumber {
+                right: 25px;
+                top: 25px;
+                font-size: 30px;
+            }
+        }
+
+        @media(max-width:768px) {
+            .countdown, .days {
+                font-size: 12px !important;
+            }
+
+            .firstnumber {
+                top: 25%;
+                right: 8%;
+                font-size: 30px;
+            }
+
+            .secondnumber {
+                right: 4.5%;
+                top: 25%;
+                font-size: 30px;
+            }
+        }
+
+        @media(max-width:475px) {
+            .countdown, .days {
+                font-size: 10px !important;
+                top: 20%;
+            }
+
+            .bannerimgdiv {
+                padding: 0 !important;
+            }
+
+            .bannerimg {
+                width: 108% !important;
+            }
+        }
+    </style>
+    <script type="text/javascript">
+            $(function () {
+                  $("[id*=printPDF]").click(function () {
+                        $("[id*=hfGridHtml]").val($("#PdfDiv").html());
+                  });
+            });
+            $(function () {
+                  $("[id*=printPDFEvent]").click(function () {
+                        $("[id*=hfGridHtml]").val($("#PdfDiv").html());
+                  });
+            });
+    </script>
+
+    <link id="pibConsentCss" href="/css/consent.css?v=8" rel="stylesheet" type="text/css" /><link id="pibFontsCss" href="/css/fonts-noto.css?v=6" rel="stylesheet" type="text/css" /><link id="pibDbimCss" href="/css/dbim.css?v=1120" rel="stylesheet" type="text/css" /><meta property="og:title" content="Science Minister Dr. Jitendra Singh Announces Historic Milestone: India Secures Exclusive Rights for Exploration of Polymetallic Sulphides in the Carlsberg Ridge in the Indian Ocean" /><meta property="og:url" content="www.pib.gov.in/Pressreleaseshare.aspx?PRID=2168923" /><meta property="og:description" content=" Union Minister of State (Independent Charge) for Earth Sciences; Science &amp; Technology, MoS PMO, Per" /><meta property="og:image" content="https:/pib.gov.in/images/indian-emblem.png" />
+                                <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="C4E7H-KSCMC-422L4-W3EM5-U36MF",function(){function e(){if(!i){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,o.parentNode.appendChild(e),i=!0}}function t(e){i=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(o.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",o.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"C4E7H-KSCMC-422L4-W3EM5-U36MF";var o=document.currentScript||document.getElementsByTagName("script")[0],i=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!i)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),o.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="eqausaa7faw3qjqacqlqauyaabvnw4sa-f-1da02895a-clienttons-s.akamaihd.net",o="false"=="true"?2:1,i={"ak.v":"41","ak.cp":"1825201","ak.ai":parseInt("1215205",10),"ak.ol":"0","ak.cr":6,"ak.ipv":6,"ak.proto":"h2","ak.rid":"136241b4","ak.r":24958,"ak.a2":n,"ak.m":"dscb","ak.n":"ff","ak.cport":53175,"ak.gh":"23.3.70.132","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"","ak.t":"1792766528","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==g1hQILDbVDbV+fWZ4LBnZY83q36wX3eiGHCLHVsftZspcqixsnR0rDWKkV3V9bCbdWTOAhWKBM/VbozFF6haiLuJBlXhbAxlJy7fnEHWvKqSGSDosmKG55qiiDWij47ZgddxQxxTQXQOdEjKNNd27QdD+nNbKYl9iJMSSns8BcypQDYEhmqeRbxJeCnnwLg/T+561Ey19C2cjaRTh+EP4LQGn8S4fRvRqPHKXgAiIPLcSa6Aya7bRBRjwu6AEXGWGAQ+Zz8afXHXlR21HQ1266bNQdKfwvxmJr1DrZAz1vuZJUlc4tx5jlYlfzNcSOljeqZKIHk4nIpoU2fgrn2Ug9tSXxY0neeNbptZGi5XjL6EIEklhZOJJ1yrceaahi+dA+LgHFn/dVPVtBber3ie8FGiAihXaBhs3unZDKQ/ZUA=","ak.pv":"9","ak.dpoabenc":"","ak.tf":o};if(""!==t)i["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))i["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var e=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+<body>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
+     style="position:absolute;width:0;height:0;overflow:hidden" id="dbim-icon-sprite">
+    <defs>
+        <symbol id="icon-angle-double-left" viewBox="0 0 24 24"><path d="M11.6 4.6 4.2 12l7.4 7.4 2.2-2.2L8.6 12l5.2-5.2z"/><path d="M19 4.6 11.6 12 19 19.4l2.2-2.2L16 12l5.2-5.2z"/></symbol>
+        <symbol id="icon-angle-double-right" viewBox="0 0 24 24"><path d="M12.4 4.6 10.2 6.8 15.4 12l-5.2 5.2 2.2 2.2L19.8 12z"/><path d="M5 4.6 2.8 6.8 8 12l-5.2 5.2L5 19.4 12.4 12z"/></symbol>
+        <symbol id="icon-arrow-left" viewBox="0 0 24 24"><path d="M20.8 10.6H9.6v2.8h11.2z"/><path d="M10.8 5.6 3.2 12l7.6 6.4z"/></symbol>
+        <symbol id="icon-arrow-right" viewBox="0 0 24 24"><path d="M3.2 10.6h11.2v2.8H3.2z"/><path d="M13.2 5.6 20.8 12l-7.6 6.4z"/></symbol>
+        <symbol id="icon-blogger" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M6.4 2.4h11.2a4 4 0 0 1 4 4v11.2a4 4 0 0 1-4 4H6.4a4 4 0 0 1-4-4V6.4a4 4 0 0 1 4-4zm2.8 5.2a2 2 0 0 0 0 4h2.4a2 2 0 0 0 0-4zm0 5.6a2 2 0 0 0 0 4h5.6a2 2 0 0 0 0-4z"/></symbol>
+        <symbol id="icon-calendar" viewBox="0 0 24 24"><path d="M7.6 2.4H10v2.4H7.6z"/><path d="M14 2.4h2.4v2.4H14z"/><path fill-rule="evenodd" d="M4 4.8h16a1.6 1.6 0 0 1 1.6 1.6v13.2a1.6 1.6 0 0 1-1.6 1.6H4a1.6 1.6 0 0 1-1.6-1.6V6.4A1.6 1.6 0 0 1 4 4.8zm.4 5.6v8.4h15.2v-8.4z"/><path d="M6.4 12.4h3.2v3.2H6.4z"/></symbol>
+        <symbol id="icon-chevron-left" viewBox="0 0 24 24"><path d="M15.4 4.6 8 12l7.4 7.4 2.2-2.2L12.4 12l5.2-5.2z"/></symbol>
+        <symbol id="icon-chevron-right" viewBox="0 0 24 24"><path d="M8.6 4.6 6.4 6.8 11.6 12l-5.2 5.2 2.2 2.2L16 12z"/></symbol>
+        <symbol id="icon-circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/></symbol>
+        <symbol id="icon-download" viewBox="0 0 24 24"><path d="M10.8 3h2.4v7.6h3.4L12 16.6l-4.6-6h3.4z"/><path d="M4 17.2h2.4v2.4h11.2v-2.4H20v3.2a1.4 1.4 0 0 1-1.4 1.4H5.4A1.4 1.4 0 0 1 4 20.4z"/></symbol>
+        <symbol id="icon-facebook" viewBox="0 0 24 24"><path d="M13.6 21.6v-8.4h2.8l.42-3.3h-3.22V7.8c0-.95.27-1.6 1.64-1.6h1.74V3.26a23 23 0 0 0-2.54-.13c-2.5 0-4.22 1.53-4.22 4.34v2.43H7.4v3.3h2.82v8.4z"/></symbol>
+        <symbol id="icon-fact-check" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.4 3.6 5.6v6.2c0 4.6 3.4 8.6 8.4 9.8 5-1.2 8.4-5.2 8.4-9.8V5.6zm-1 13.2-3.6-3.6 1.7-1.7 1.9 1.9 4.5-4.5 1.7 1.7z"/></symbol>
+        <symbol id="icon-hashtag" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M8.8 3h2.4l-1 6h3.2l1-6h2.4l-1 6h3.4v2.4h-3.8l-.6 3.2h3.6V17h-4l-1 5h-2.4l1-5h-3.2l-1 5H5.4l1-5H3V14.6h3.8l.6-3.2H3.8V9h4zm.6 8.4-.6 3.2h3.2l.6-3.2z"/></symbol>
+        <symbol id="icon-home" viewBox="0 0 24 24"><path d="M12 3.4 2.8 11.6h2.4v8.4a1 1 0 0 0 1 1h3.3v-5.4h5v5.4h3.3a1 1 0 0 0 1-1v-8.4h2.4z"/></symbol>
+        <symbol id="icon-instagram" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M7.6 2.4h8.8a5.2 5.2 0 0 1 5.2 5.2v8.8a5.2 5.2 0 0 1-5.2 5.2H7.6a5.2 5.2 0 0 1-5.2-5.2V7.6a5.2 5.2 0 0 1 5.2-5.2zm0 2.4a2.8 2.8 0 0 0-2.8 2.8v8.8a2.8 2.8 0 0 0 2.8 2.8h8.8a2.8 2.8 0 0 0 2.8-2.8V7.6a2.8 2.8 0 0 0-2.8-2.8z"/><path fill-rule="evenodd" d="M12 6.8a5.2 5.2 0 1 0 0 10.4 5.2 5.2 0 0 0 0-10.4zm0 2.4a2.8 2.8 0 1 1 0 5.6 2.8 2.8 0 0 1 0-5.6z"/><circle cx="17.3" cy="6.7" r="1.3"/></symbol>
+        <symbol id="icon-linkedin" viewBox="0 0 24 24"><path d="M4.8 8.8h3.6v12H4.8z"/><circle cx="6.6" cy="5.4" r="2.1"/><path d="M10.8 8.8h3.45v1.65h.05c.48-.9 1.65-1.85 3.4-1.85 3.63 0 4.3 2.35 4.3 5.4v6.6h-3.6v-5.85c0-1.4-.03-3.2-1.95-3.2-1.95 0-2.25 1.52-2.25 3.1v5.95h-3.6z"/></symbol>
+        <symbol id="icon-mail" viewBox="0 0 24 24"><path d="M2.4 7.6v9.2a1.6 1.6 0 0 0 1.6 1.6h16a1.6 1.6 0 0 0 1.6-1.6V7.6L12 14z"/><path d="M21.2 5.4H2.8L12 11.8z"/></symbol>
+        <symbol id="icon-mail-open" viewBox="0 0 24 24"><path d="M2.4 9.8h19.2v9.6A1.6 1.6 0 0 1 20 21H4a1.6 1.6 0 0 1-1.6-1.6z"/><path d="M12 2.6 21.6 9.2h-3.8L12 5.3 6.2 9.2H2.4z"/><path d="m3.9 11.2 8.1 5.4 8.1-5.4 1.5 1.3-9.6 6.4-9.6-6.4z"/></symbol>
+        <symbol id="icon-map-marker" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.4a7 7 0 0 0-7 7c0 5.2 7 12.2 7 12.2s7-7 7-12.2a7 7 0 0 0-7-7zm0 9.6a2.6 2.6 0 1 1 0-5.2 2.6 2.6 0 0 1 0 5.2z"/></symbol>
+        <symbol id="icon-newspaper" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M2.8 4.4h14.8v15.2H2.8zm2 2v11.2h10.8V6.4z"/><path d="M6 7.6h8.4v1.6H6z"/><path d="M6 10.8h8.4v1.6H6z"/><path d="M6 14h5.2v1.6H6z"/><path d="M18.4 8.4h2.8v9.6a1.4 1.4 0 0 1-2.8 0z"/></symbol>
+        <symbol id="icon-pause" viewBox="0 0 24 24"><rect x="7.4" y="4" width="3.6" height="16" rx="0.9"/><rect x="13" y="4" width="3.6" height="16" rx="0.9"/></symbol>
+    <symbol id="icon-play" viewBox="0 0 24 24"><path d="M8 4.5v15l12-7.5z"/></symbol>
+        <symbol id="icon-picture" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M2.4 5.2h19.2v13.6H2.4zm2 2v9.6h15.2V7.2z"/><path d="M5.6 16.4 10 11l2.6 3 2-2.2 4 4.6z"/><circle cx="8" cy="10.4" r="1.5"/></symbol>
+        <symbol id="icon-press-conference" viewBox="0 0 24 24"><circle cx="12" cy="5.2" r="2.6"/><path d="M7.6 12.2a4.4 4.4 0 0 1 8.8 0z"/><circle cx="4.9" cy="9.6" r="2.2"/><path d="M1.8 15.2a3.1 3.1 0 0 1 6.2 0z"/><circle cx="19.1" cy="9.6" r="2.2"/><path d="M16 15.2a3.1 3.1 0 0 1 6.2 0z"/><path d="M6.6 13.6h10.8l2.2 7.8H4.4z"/></symbol>
+        <symbol id="icon-print" viewBox="0 0 24 24"><path d="M6.4 2.8h11.2v4.4H6.4z"/><path d="M4 8.4h16a1.6 1.6 0 0 1 1.6 1.6v5.6a1.6 1.6 0 0 1-1.6 1.6h-1.6v-2.8H6v2.8H4a1.6 1.6 0 0 1-1.6-1.6V10A1.6 1.6 0 0 1 4 8.4z"/><path d="M7.2 15.6h9.6v5.6H7.2z"/></symbol>
+        <symbol id="icon-rss" viewBox="0 0 24 24"><circle cx="4.8" cy="19.2" r="2.4"/><path d="M2.4 11.2v3.2a6.4 6.4 0 0 1 6.4 6.4H12A9.6 9.6 0 0 0 2.4 11.2z"/><path d="M2.4 4.8V8A13.6 13.6 0 0 1 16 21.6h3.2A16.8 16.8 0 0 0 2.4 4.8z"/></symbol>
+        <symbol id="icon-search-plus" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M10 2.8a7.2 7.2 0 1 0 0 14.4 7.2 7.2 0 0 0 0-14.4zm0 2.4a4.8 4.8 0 1 1 0 9.6 4.8 4.8 0 0 1 0-9.6z"/><path d="M15.3 14.6 21.2 20.5l-1.5 1.5-5.9-5.9z"/><path d="M9.2 6.8h1.6v2.4h2.4v1.6h-2.4v2.4H9.2v-2.4H6.8V9.2h2.4z"/></symbol>
+        <symbol id="icon-share" viewBox="0 0 24 24"><circle cx="18" cy="5.6" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="18.4" r="3"/><path d="M8.3 10.9 15.7 7.2l.9 1.8-7.4 3.7z"/><path d="M9.2 13.1 16.6 16.8l-.9 1.8-7.4-3.7z"/></symbol>
+        <symbol id="icon-twitter" viewBox="0 0 24 24"><path d="M4.2 3h4.3l11.3 18h-4.3z"/><path d="M19.3 3h-2.6L4.2 21h2.6z"/></symbol>
+        <symbol id="icon-university" viewBox="0 0 24 24"><path d="M12 2.4 21.6 7.2v1.6H2.4V7.2z"/><path d="M4.8 10.4h2.4v8H4.8z"/><path d="M9.2 10.4h2.4v8H9.2z"/><path d="M13.4 10.4h2.4v8h-2.4z"/><path d="M17.6 10.4H20v8h-2.4z"/><path d="M3.2 19.8h17.6v1.8H3.2z"/></symbol>
+        <symbol id="icon-volume-up" viewBox="0 0 24 24"><path d="M3.2 9.2h3.3l5-4.2v14l-5-4.2H3.2z"/><path d="M14.6 8.4a5 5 0 0 1 0 7.2l1.6 1.6a7.2 7.2 0 0 0 0-10.4z"/><path d="M17.4 5.6a8.8 8.8 0 0 1 0 12.8l1.5 1.5a10.9 10.9 0 0 0 0-15.8z"/></symbol>
+        <symbol id="icon-whatsapp" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.4a9.5 9.5 0 0 0-8.1 14.5L2.4 21.6l4.8-1.4A9.5 9.5 0 1 0 12 2.4zm0 2.2a7.3 7.3 0 1 1-3.8 13.5l-.4-.2-2.6.7.7-2.5-.3-.4A7.3 7.3 0 0 1 12 4.6z"/><path d="M9.4 7.8c-.2-.5-.4-.5-.6-.5h-.5a1 1 0 0 0-.7.3c-.3.3-.9.9-.9 2.1s.9 2.4 1 2.6c.1.2 1.7 2.8 4.3 3.8 2.1.8 2.6.7 3 .6.5 0 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.5-.3-1.6-.8c-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6 6 0 0 1-1.8-1.1 6.6 6.6 0 0 1-1.2-1.6c-.1-.2 0-.4.1-.5l.4-.5.3-.5v-.5z"/></symbol>
+        <symbol id="icon-youtube" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M21.6 7.2a2.8 2.8 0 0 0-2-2C17.9 4.8 12 4.8 12 4.8s-5.9 0-7.6.4a2.8 2.8 0 0 0-2 2A29 29 0 0 0 2 12a29 29 0 0 0 .4 4.8 2.8 2.8 0 0 0 2 2c1.7.4 7.6.4 7.6.4s5.9 0 7.6-.4a2.8 2.8 0 0 0 2-2A29 29 0 0 0 22 12a29 29 0 0 0-.4-4.8zM10.2 15.1V8.9l5.1 3.1z"/></symbol>
+    </defs>
+</svg>
+
+    <form method="post" action="./PressReleasePage.aspx?PRID=2168923&amp;reg=48&amp;lang=2" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="sc_HiddenField" id="sc_HiddenField" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZPQet1wIx1Q48y3xJY2k25Y7qxH5RrQ9qQcN-OiTC9guZtri9w2&amp;t=639246310404186790" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=x6wALODbMJK5e0eRC_p1LdIxBJXt0U_WW5GWfJqHAqo6frgCmGRfEywglicTersO2OKrFhK1gAIp0Wk2al2YrpdR3uWqH6f4nfjBsCyRUfTUUVmb0&amp;t=ffffffffecf8d3f2" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=P5lTttoqSeZXoYRLQMIScH645UK3RD852IErF2548Wz9Ssv0rLjB4fhVKnHcMpqkaMHpNAGOeWY02Lf4aBYN9-dVBme_SNK5KJwmFQNpMixYDZ7M0&amp;t=ffffffffecf8d3f2" type="text/javascript"></script>
+<script src="/PressReleasePage.aspx?_TSM_HiddenField_=sc_HiddenField&amp;_TSM_CombinedScripts_=%3b%3bAjaxControlToolkit%2c+Version%3d3.5.7.123%2c+Culture%3dneutral%2c+PublicKeyToken%3d28f01b0e84b6d53e%3aen-US%3a5a4df314-b4a2-4da2-a207-9284f1b1e96c%3ade1feab2%3af2c8e708%3a8613aea7%3af9cec9bc%3a3202a5a2%3aab09e3fe%3a87104b7c%3a720a52bf%3a589eaa30%3aa67c2700%3abe6fb298" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="59B53027" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="5JhFSLPv7c7O0/sKwu/TJ+8jcLV+0JDkoWswW+dcC3qD7XaoD8AxdoCLIiBt++AX7MdId/aPovJ6sysXriSfYudj9pPVE6BI+kmItFJyHUzhW6e+XiuLGgqG6ginpa58xTfuhx7fA67OCOoyhvLH3K5g7RzD5AFVTHC1jCxM/NPEpiTImPCOYodEH5xaElmEWCYXtPWJv1apUKOKtx0NCHwB0qZZVkf1IGrsGsCWdci20hVM9tZPhmhP4ow9E5jtmJ2asS3Ar6u8FWL8q9f60CmEnkU=" />
+</div>
+        
+        <div id="templateCss"></div>
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('sc', 'form1', ['tupdate12','update12'], [], [], 90, '');
+//]]>
+</script>
+
+        <input type="hidden" name="hfGridHtml" id="hfGridHtml" />
+        <div class="container" style='margin-bottom: 50px;'>
+            <div id="accessories">
+                
+                <div class="pull-right" style="display: flex">
+                    <div id="voll"></div>
+                    <div id="vollDT"></div>
+                    
+
+<span class="print-icons">
+<input type="image" name="Print1$print" id="Print1_print" aria-label="Print" src="images/printer_icon.png" alt="print page button" style="padding: 5px 10px 5px 10px;" />
+</span>
+                </div>
+            </div>
+            <input type="hidden" name="hydpermid" id="hydpermid" value="2168923" />
+            
+
+            <div class="innner-page-main-about-us-content-right-part">
+                <div id="MinistryName" class="MinistryNameSubhead text-center">
+                    Ministry of Earth Sciences
+                </div>
+                <div id="lg_g"><div class='log_oo'>  <img src='https://static.pib.gov.in/WriteReadData/specificdocs/photo/2026/sep/ph_9768_20260902_10000501.png' alt='azadi ka amrit mahotsav' /> </div></div>
+
+                <div class="text-center event-heading-background">
+                    
+                    <h1 id="Titleh2">
+                        Science Minister Dr. Jitendra Singh Announces Historic Milestone: India Secures Exclusive Rights for Exploration of Polymetallic Sulphides in the Carlsberg Ridge in the Indian Ocean
+                    </h1>
+                    <h3 id="Subtitleh3">
+                        <span id="ltrSubtitle"><br/>India Becomes First Country to Hold Two PMS Exploration Contracts with the International Seabed Authority; Recognised as Pioneer Investor<br/><br/>Deep Ocean Mission launched by PM Narendra Modi, which focuses on seabed mineral exploration, mining technology development, and strengthening India’s ‘Blue Economy Initiatives’<br/><br/>Reaffirms 30-Year Partnership with ISA; To Host 8th ISA Annual Contractors Meeting in Goa</span>
+                    </h3>
+                </div>
+
+                <div id="PrDateTime" class="ReleaseDateSubHeaddateTime text-center pt20">
+                    Posted On:
+                              20 SEP 2025 4:11PM by PIB Delhi
+                </div>
+                
+                <div class='pt20'>
+                </div>
+                <input type="hidden" name="hydphotoUrl" id="hydphotoUrl" />
+                
+
+                <!-- Release content wrapper for client-side zero-reflow word count -->
+                <div id="pibReleaseBody">
+                    <p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">&nbsp;Union Minister of State (Independent Charge) for Earth Sciences; Science &amp; Technology, MoS PMO, Personnel, Public Grievances, Pensions, Atomic Energy and Space, Dr. Jitendra Singh announced the signing of a new 15-year contract between the Ministry of Earth Sciences (MoES) and the International Seabed Authority (ISA) for exclusive rights to explore Polymetallic Sulphides (PMS) in the allotted 10,000 sq km area of the Carlsberg Ridge in the Indian Ocean.</span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">With this, India has become the first country in the world to hold two contracts with ISA for PMS exploration, reaffirming its pioneering role in deep-sea resource exploration and its strategic presence in the Indian Ocean.</span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Dr. Jitendra Singh said that the new contract is a significant step towards realizing the vision of Deep Ocean Mission launched by PM Narendra Modi, which focuses on seabed mineral exploration, mining technology development, and strengthening India&rsquo;s &lsquo;Blue Economy Initiatives&rsquo;. He added, &ldquo;By formalising exclusive rights for PMS exploration in the Carlsberg Ridge, India has further consolidated its leadership in deep-sea research and exploration. This will enhance our maritime presence and build national capacity for future resource utilisation.&rdquo;</span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Polymetallic Sulphides contain valuable metals such as iron, copper, zinc, silver, gold, and platinum, and are precipitates formed by hot hydrothermal fluids from oceanic crust. Their strategic and commercial potential has attracted global attention, placing India at the forefront of deep-sea resource exploration.</span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Highlighting India&rsquo;s longstanding partnership with ISA, Dr. Jitendra Singh recalled that India was the first country to receive an area for polymetallic nodule exploration in international waters and was designated as a &ldquo;Pioneer Investor.&rdquo; With two PMS contracts now in place&mdash;one in the Central Indian Ridge &amp; Southwest Indian Ridge and another in the Carlsberg Ridge&mdash;India also holds the largest exploration area allocated for PMS in the international seabed.</span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">&ldquo;India&rsquo;s 30-year association with the ISA has been a source of pride, and as ISA celebrates its 30th anniversary, India reaffirms its commitment to working closely with ISA to deliver on its mandate for the common heritage of humankind,&rdquo; Dr. Singh said. He also announced that India will be hosting the 8th ISA Annual Contractors Meeting from 18&ndash;20 September in Goa, marking another milestone in India&rsquo;s leadership role in seabed exploration.</span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Speaking on the occasion, Secretary, Ministry of Earth Sciences, Dr. M. Ravichandran, noted that it was a proud moment for MoES and its autonomous institute, the National Centre for Polar and Ocean Research (NCPOR), Goa, to sign the second PMS exploration contract. &ldquo;This marks India as the first member state and government contractor of ISA to hold two PMS exploration contracts. It is also a matter of pride that India now has the largest area allocated globally in the International Seabed for PMS exploration,&rdquo; he said.</span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Dr. Ravichandran added that India looks forward to strengthening its cooperation with ISA to generate more scientific knowledge of unexplored seabed ecosystems and to ensure effective protection of the marine environment while harnessing mineral resources for the benefit of humankind.</span></span></p>
+
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img src="https://static.pib.gov.in/WriteReadData/userfiles/image/image001J94U.jpg" style="height:350px; width:602px" /></span></span></p>
+
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img alt="A group of people holding papersAI-generated content may be incorrect." src="https://static.pib.gov.in/WriteReadData/userfiles/image/image002T3XX.jpg" style="height:340px; width:602px" /></span></span></p>
+
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img alt="A group of people sitting at a tableAI-generated content may be incorrect." src="https://static.pib.gov.in/WriteReadData/userfiles/image/image003Q82N.jpg" style="height:270px; width:602px" /></span></span></p>
+
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img alt="A group of people sitting at a tableAI-generated content may be incorrect." src="https://static.pib.gov.in/WriteReadData/userfiles/image/image004SVGL.jpg" style="height:317px; width:602px" /></span></span></p>
+
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">*****</span></span></p>
+
+<p><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>NKR/PSM</strong></span></span></p>
+
+                </div>
+
+                <div id="reel_pic">
+                </div>
+
+                <br />
+                <span id="ReleaseId">(Release ID: 2168923)</span>
+                <span id="lblViews">Visitor Counter : 7419</span>
+                <div>
+                    
+                </div>
+                
+
+                <span id="lblRefPhoto"></span>
+
+                <div class="BackgroundRelease">
+                    
+                </div>
+                <div>
+                    
+                </div>
+                <div class="ReleaseLang">Read this release in: 
+                
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2168977' target="_blank">
+                            Urdu </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2169152' target="_blank">
+                            हिन्दी </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2169075' target="_blank">
+                            Marathi </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2169031' target="_blank">
+                            Tamil </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2169155' target="_blank">
+                            Malayalam </a>
+                    
+                </div>
+
+                <div class="RelTag">
+                    <ul>
+                        
+                    </ul>
+                </div>
+                <div class="clear">
+                </div>
+
+                <!-- DBIM 3.0 Option 4: Separator Line with Left Share Rail & Right Reading Metrics -->
+                <div class="pr-share pr-share--footer" role="region" aria-label="Share and reading details">
+                    <div class="pr-share__left">
+                        <span class="pr-share__label" aria-hidden="true">Share</span>
+                        <ul class="pr-share__list">
+                            <li><a class="pr-share__btn pr-share__btn--facebook"
+                                href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2168923"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on Facebook">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-facebook" xlink:href="#icon-facebook"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--twitter"
+                                href="https://twitter.com/intent/tweet?url=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2168923"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on X">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-twitter" xlink:href="#icon-twitter"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--whatsapp"
+                                href="https://api.whatsapp.com/send?text=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2168923"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on WhatsApp">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-whatsapp" xlink:href="#icon-whatsapp"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--linkedin"
+                                href="https://www.linkedin.com/sharing/share-offsite/?url=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2168923"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on LinkedIn">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-linkedin" xlink:href="#icon-linkedin"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--mail"
+                                href="mailto:?subject=Press+release+from+PIB&amp;body=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2168923"
+                                aria-label="Share by email">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-mail" xlink:href="#icon-mail"></use>
+                                </svg>
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div class="pr-reading-meta" id="prReadingMeta" aria-label="Reading statistics">
+                        <span class="pr-reading-meta__item">
+                            <!-- Modern Document / Word Count Icon -->
+                            <svg class="pr-reading-meta__icon" width="18" height="18" viewbox="0 0 16 16" fill="currentColor" aria-hidden="true" focusable="false">
+                                <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5" />
+                                <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z" />
+                            </svg>
+                            <span id="prWordCount">-- words</span>
+                        </span>
+
+                        <span class="pr-reading-meta__divider" aria-hidden="true">|</span>
+
+                        <span class="pr-reading-meta__item">
+                            <!-- Modern Precision Clock / Read Time Icon -->
+                            <svg class="pr-reading-meta__icon" width="18" height="18" viewbox="0 0 16 16" fill="currentColor" aria-hidden="true" focusable="false">
+                                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                            </svg>
+                            <span id="prReadTime">-- min read</span>
+                        </span>
+                    </div>
+                </div>
+
+                <div id="RelLink" class="RelLink">
+                    <ul>
+                        
+                    </ul>
+                </div>
+                <center>
+                    
+                </center>
+            </div>
+
+            <div id="update12">
+	
+                    
+                    <input type="hidden" name="Hidden" id="Hidden" />
+                    <div id="P_CategoryManagement" class="ModalWindow" style="border-width:0px;height:60%;width:60%;overflow:auto;display: none">
+		
+                        <div>
+                            <input type="image" name="btnClose" id="btnClose" src="images/close_flat_icon.png" />
+                        </div>
+                        <div id="description">
+                        </div>
+                        <div class="text-center">
+                            <h2>
+                                
+                                <br>
+                                
+                            </h2>
+                        </div>
+                        <br />
+                        <div class="clear">
+                        </div>
+                        
+                    
+	</div>
+                
+</div>
+        </div>
+
+        <div id="PdfDiv" style="display: none;">
+            <table width="100%">
+                <tr>
+                    <td style="font-weight: 200; text-align: center">
+                        Ministry of Earth Sciences
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 200; text-align: center; font-size: 30px;">
+                            Science Minister Dr. Jitendra Singh Announces Historic Milestone: India Secures Exclusive Rights for Exploration of Polymetallic Sulphides in the Carlsberg Ridge in the Indian Ocean
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 200; text-align: center; font-size: 30px;">
+                            <div style='height:30px;width:100%;'></div>India Becomes First Country to Hold Two PMS Exploration Contracts with the International Seabed Authority; Recognised as Pioneer Investor<div style='height:30px;width:100%;'></div><div style='height:30px;width:100%;'></div>Deep Ocean Mission launched by PM Narendra Modi, which focuses on seabed mineral exploration, mining technology development, and strengthening India’s ‘Blue Economy Initiatives’<div style='height:30px;width:100%;'></div><div style='height:30px;width:100%;'></div>Reaffirms 30-Year Partnership with ISA; To Host 8th ISA Annual Contractors Meeting in Goa
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="text-align: center; font-size: 14px;">
+                            Posted On:
+                                          20 SEP 2025 4:11PM by PIB Delhi
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 200; text-align: left; font-size: 16px;">
+                            <p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">&nbsp;Union Minister of State (Independent Charge) for Earth Sciences; Science &amp; Technology, MoS PMO, Personnel, Public Grievances, Pensions, Atomic Energy and Space, Dr. Jitendra Singh announced the signing of a new 15-year contract between the Ministry of Earth Sciences (MoES) and the International Seabed Authority (ISA) for exclusive rights to explore Polymetallic Sulphides (PMS) in the allotted 10,000 sq km area of the Carlsberg Ridge in the Indian Ocean.</span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">With this, India has become the first country in the world to hold two contracts with ISA for PMS exploration, reaffirming its pioneering role in deep-sea resource exploration and its strategic presence in the Indian Ocean.</span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Dr. Jitendra Singh said that the new contract is a significant step towards realizing the vision of Deep Ocean Mission launched by PM Narendra Modi, which focuses on seabed mineral exploration, mining technology development, and strengthening India&rsquo;s &lsquo;Blue Economy Initiatives&rsquo;. He added, &ldquo;By formalising exclusive rights for PMS exploration in the Carlsberg Ridge, India has further consolidated its leadership in deep-sea research and exploration. This will enhance our maritime presence and build national capacity for future resource utilisation.&rdquo;</span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Polymetallic Sulphides contain valuable metals such as iron, copper, zinc, silver, gold, and platinum, and are precipitates formed by hot hydrothermal fluids from oceanic crust. Their strategic and commercial potential has attracted global attention, placing India at the forefront of deep-sea resource exploration.</span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Highlighting India&rsquo;s longstanding partnership with ISA, Dr. Jitendra Singh recalled that India was the first country to receive an area for polymetallic nodule exploration in international waters and was designated as a &ldquo;Pioneer Investor.&rdquo; With two PMS contracts now in place&mdash;one in the Central Indian Ridge &amp; Southwest Indian Ridge and another in the Carlsberg Ridge&mdash;India also holds the largest exploration area allocated for PMS in the international seabed.</span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">&ldquo;India&rsquo;s 30-year association with the ISA has been a source of pride, and as ISA celebrates its 30th anniversary, India reaffirms its commitment to working closely with ISA to deliver on its mandate for the common heritage of humankind,&rdquo; Dr. Singh said. He also announced that India will be hosting the 8th ISA Annual Contractors Meeting from 18&ndash;20 September in Goa, marking another milestone in India&rsquo;s leadership role in seabed exploration.</span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Speaking on the occasion, Secretary, Ministry of Earth Sciences, Dr. M. Ravichandran, noted that it was a proud moment for MoES and its autonomous institute, the National Centre for Polar and Ocean Research (NCPOR), Goa, to sign the second PMS exploration contract. &ldquo;This marks India as the first member state and government contractor of ISA to hold two PMS exploration contracts. It is also a matter of pride that India now has the largest area allocated globally in the International Seabed for PMS exploration,&rdquo; he said.</span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Dr. Ravichandran added that India looks forward to strengthening its cooperation with ISA to generate more scientific knowledge of unexplored seabed ecosystems and to ensure effective protection of the marine environment while harnessing mineral resources for the benefit of humankind.</span></span></p>
+
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img src="https://static.pib.gov.in/WriteReadData/userfiles/image/image001J94U.jpg" style="height:350px; width:602px" /></span></span></p>
+
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img alt="A group of people holding papersAI-generated content may be incorrect." src="https://static.pib.gov.in/WriteReadData/userfiles/image/image002T3XX.jpg" style="height:340px; width:602px" /></span></span></p>
+
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img alt="A group of people sitting at a tableAI-generated content may be incorrect." src="https://static.pib.gov.in/WriteReadData/userfiles/image/image003Q82N.jpg" style="height:270px; width:602px" /></span></span></p>
+
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img alt="A group of people sitting at a tableAI-generated content may be incorrect." src="https://static.pib.gov.in/WriteReadData/userfiles/image/image004SVGL.jpg" style="height:317px; width:602px" /></span></span></p>
+
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">*****</span></span></p>
+
+<p><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>NKR/PSM</strong></span></span></p>
+
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 100; text-align: left; font-size: 16px;">
+                            (Release ID: 2168923)
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="font-weight: 200; text-align: center; font-size: 24px;"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="clearfix">
+        </div>
+
+        <div class="section1">
+            <div id="frst_t">
+                <div id="arr_rm"><div class='sticky-social_mb'><ul class='social_mb'><a href='http://www.facebook.com/share.php?u=https://pib.gov.in/PressReleasePage.aspx?PRID=2168923' target='_blank'><li class='fb_b'   ></li></a><a href='https://twitter.com/intent/tweet?url=https://pib.gov.in/PressReleasePage.aspx?PRID=2168923&text=Science Minister Dr. Jitendra Singh Announces Historic Milestone: India Secures Exclusive Rights for Exploration of Polymetallic Sulphides in the Carlsberg Ridge in the Indian Ocean' target='_blank'><li class='twitter_r'  > </li></a><a href='https://api.whatsapp.com/send?text=https://pib.gov.in/PressReleasePage.aspx?PRID=2168923' target='_blank'><li class='whatsapp_r'  ></li></a><a href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=&su=Science Minister Dr. Jitendra Singh Announces Historic Milestone: India Secures Exclusive Rights for Exploration of Polymetallic Sulphides in the Carlsberg Ridge in the Indian Ocean&body=https://pib.gov.in/PressReleasePage.aspx?PRID=2168923&ui=2&tf=1&pli=1' title='Share by Email' target='_blank'><li class='fa-envelope_r' ></li></a><a href='https://www.linkedin.com/shareArticle?mini=true&url=https://pib.gov.in/PressReleasePage.aspx?PRID=2168923&title=Science Minister Dr. Jitendra Singh Announces Historic Milestone: India Secures Exclusive Rights for Exploration of Polymetallic Sulphides in the Carlsberg Ridge in the Indian Ocean&summary=My%20favorite%20developer%20program&source=LinkedIn' target='_blank'><li class='fa-linkedin_r'  ></li></a></ul></div></div>
+            </div>
+            <div id="second_t">
+                <div id="sndr_rm"><div class='sticky-social'><ul class='social'><a href='http://www.facebook.com/share.php?u=https://pib.gov.in/PressReleasePage.aspx?PRID=2168923' target='_blank'><li class='fb_b'   ></li></a><a href='https://twitter.com/intent/tweet?url=https://pib.gov.in/PressReleasePage.aspx?PRID=2168923&text=Science Minister Dr. Jitendra Singh Announces Historic Milestone: India Secures Exclusive Rights for Exploration of Polymetallic Sulphides in the Carlsberg Ridge in the Indian Ocean' target='_blank'><li class='twitter_r'  > </li></a><a href='https://api.whatsapp.com/send?text=https://pib.gov.in/PressReleasePage.aspx?PRID=2168923' target='_blank'><li class='whatsapp_r'  ></li></a><a href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=&su=Science Minister Dr. Jitendra Singh Announces Historic Milestone: India Secures Exclusive Rights for Exploration of Polymetallic Sulphides in the Carlsberg Ridge in the Indian Ocean&body=https://pib.gov.in/PressReleasePage.aspx?PRID=2168923&ui=2&tf=1&pli=1' title='Share by Email' target='_blank'><li class='fa-envelope_r' ></li></a><a href='https://www.linkedin.com/shareArticle?mini=true&url=https://pib.gov.in/PressReleasePage.aspx?PRID=2168923&title=Science Minister Dr. Jitendra Singh Announces Historic Milestone: India Secures Exclusive Rights for Exploration of Polymetallic Sulphides in the Carlsberg Ridge in the Indian Ocean&summary=My%20favorite%20developer%20program&source=LinkedIn' target='_blank'><li class='fa-linkedin_r'  ></li></a></ul></div></div>
+            </div>
+        </div>
+        <input type="hidden" name="ltrTitlee" id="ltrTitlee" value="Science Minister Dr. Jitendra Singh Announces Historic Milestone: India Secures Exclusive Rights for Exploration of Polymetallic Sulphides in the Carlsberg Ridge in the Indian Ocean" />
+        <input type="hidden" name="ltrSubtitlee" id="ltrSubtitlee" value="&lt;br/>India Becomes First Country to Hold Two PMS Exploration Contracts with the International Seabed Authority; Recognised as Pioneer Investor&lt;br/>&lt;br/>Deep Ocean Mission launched by PM Narendra Modi, which focuses on seabed mineral exploration, mining technology development, and strengthening India’s ‘Blue Economy Initiatives’&lt;br/>&lt;br/>Reaffirms 30-Year Partnership with ISA; To Host 8th ISA Annual Contractors Meeting in Goa" />
+        <input type="hidden" name="ltrDescriptionn" id="ltrDescriptionn" value="&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&amp;nbsp;Union Minister of State (Independent Charge) for Earth Sciences; Science &amp;amp; Technology, MoS PMO, Personnel, Public Grievances, Pensions, Atomic Energy and Space, Dr. Jitendra Singh announced the signing of a new 15-year contract between the Ministry of Earth Sciences (MoES) and the International Seabed Authority (ISA) for exclusive rights to explore Polymetallic Sulphides (PMS) in the allotted 10,000 sq km area of the Carlsberg Ridge in the Indian Ocean.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>With this, India has become the first country in the world to hold two contracts with ISA for PMS exploration, reaffirming its pioneering role in deep-sea resource exploration and its strategic presence in the Indian Ocean.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>Dr. Jitendra Singh said that the new contract is a significant step towards realizing the vision of Deep Ocean Mission launched by PM Narendra Modi, which focuses on seabed mineral exploration, mining technology development, and strengthening India&amp;rsquo;s &amp;lsquo;Blue Economy Initiatives&amp;rsquo;. He added, &amp;ldquo;By formalising exclusive rights for PMS exploration in the Carlsberg Ridge, India has further consolidated its leadership in deep-sea research and exploration. This will enhance our maritime presence and build national capacity for future resource utilisation.&amp;rdquo;&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>Polymetallic Sulphides contain valuable metals such as iron, copper, zinc, silver, gold, and platinum, and are precipitates formed by hot hydrothermal fluids from oceanic crust. Their strategic and commercial potential has attracted global attention, placing India at the forefront of deep-sea resource exploration.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>Highlighting India&amp;rsquo;s longstanding partnership with ISA, Dr. Jitendra Singh recalled that India was the first country to receive an area for polymetallic nodule exploration in international waters and was designated as a &amp;ldquo;Pioneer Investor.&amp;rdquo; With two PMS contracts now in place&amp;mdash;one in the Central Indian Ridge &amp;amp; Southwest Indian Ridge and another in the Carlsberg Ridge&amp;mdash;India also holds the largest exploration area allocated for PMS in the international seabed.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&amp;ldquo;India&amp;rsquo;s 30-year association with the ISA has been a source of pride, and as ISA celebrates its 30th anniversary, India reaffirms its commitment to working closely with ISA to deliver on its mandate for the common heritage of humankind,&amp;rdquo; Dr. Singh said. He also announced that India will be hosting the 8th ISA Annual Contractors Meeting from 18&amp;ndash;20 September in Goa, marking another milestone in India&amp;rsquo;s leadership role in seabed exploration.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>Speaking on the occasion, Secretary, Ministry of Earth Sciences, Dr. M. Ravichandran, noted that it was a proud moment for MoES and its autonomous institute, the National Centre for Polar and Ocean Research (NCPOR), Goa, to sign the second PMS exploration contract. &amp;ldquo;This marks India as the first member state and government contractor of ISA to hold two PMS exploration contracts. It is also a matter of pride that India now has the largest area allocated globally in the International Seabed for PMS exploration,&amp;rdquo; he said.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>Dr. Ravichandran added that India looks forward to strengthening its cooperation with ISA to generate more scientific knowledge of unexplored seabed ecosystems and to ensure effective protection of the marine environment while harnessing mineral resources for the benefit of humankind.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:center&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;img src=&quot;https://static.pib.gov.in/WriteReadData/userfiles/image/image001J94U.jpg&quot; style=&quot;height:350px; width:602px&quot; />&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:center&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;img alt=&quot;A group of people holding papersAI-generated content may be incorrect.&quot; src=&quot;https://static.pib.gov.in/WriteReadData/userfiles/image/image002T3XX.jpg&quot; style=&quot;height:340px; width:602px&quot; />&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:center&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;img alt=&quot;A group of people sitting at a tableAI-generated content may be incorrect.&quot; src=&quot;https://static.pib.gov.in/WriteReadData/userfiles/image/image003Q82N.jpg&quot; style=&quot;height:270px; width:602px&quot; />&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:center&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;img alt=&quot;A group of people sitting at a tableAI-generated content may be incorrect.&quot; src=&quot;https://static.pib.gov.in/WriteReadData/userfiles/image/image004SVGL.jpg&quot; style=&quot;height:317px; width:602px&quot; />&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:center&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>*****&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;strong>NKR/PSM&lt;/strong>&lt;/span>&lt;/span>&lt;/p>
+" />
+        <script type="text/javascript">
+                  var mPlayer = document.getElementById("background_music");
+                  var mPlayAction = document.getElementById("playbutton");
+                  var isPlaying = false;
+
+                  function playAudio() {
+                        mPlayer.play();
+                        isPlaying = true;
+                        document.getElementById('stopA').style.display = "block";
+                        document.getElementById('playA').style.display = "none";
+                  }
+
+                  function pauseAudio() {
+                        mPlayer.pause();
+                        isPlaying = false;
+                        document.getElementById('playA').style.display = "block";
+                        document.getElementById('stopA').style.display = "none";
+                  }
+        </script>
+        <script type="text/javascript">
+                  var synth = window.speechSynthesis;
+
+                  function CleanHtml(html) {
+                        html = html.replace(/<script[\s\S]*?<\/script>/gi, '');
+                        return html;
+                  }
+                  function stripHtml(html) {
+                        let tmp = document.createElement("DIV");
+                        tmp.innerHTML = CleanHtml(html);
+                        return tmp.textContent || tmp.innerText || "";
+                  }
+        </script>
+        <script type="text/javascript">
+                  $(document).ready(function () {
+                        $("table").each(function () {
+                              if (!$(this).closest(".table-responsive").length) {
+                                    $(this).wrap("<div class='table-responsive'></div>");
+                              }
+                        });
+
+                        var width = $(window).width();
+                        if (width < 768) {
+                              document.getElementById('frst_t').style.display = "block";
+                              document.getElementById('second_t').style.display = "none";
+                        } else if (width < 991) {
+                              document.getElementById('frst_t').style.display = "block";
+                              document.getElementById('second_t').style.display = "none";
+                        } else if (width < 1199) {
+                              document.getElementById('frst_t').style.display = "none";
+                              document.getElementById('second_t').style.display = "block";
+                        } else {
+                              document.getElementById('frst_t').style.display = "none";
+                              document.getElementById('second_t').style.display = "block";
+                        }
+                  });
+        </script>
+        <style type="text/css">
+            @media print {
+                .sticky-social, .sticky-social_mb, .pull-right, #printPDF {
+                    display: none !important;
+                }
+            }
+
+            .f_vl {
+                padding-right: 30px;
+                font-size: 17px;
+                cursor: pointer;
+            }
+
+            .log_oo {
+                display: flex;
+                justify-content: space-between;
+            }
+
+                .log_oo img {
+                    width: 150px;
+                }
+
+            .sticky-social_mb {
+                position: fixed;
+                bottom: 0px;
+                padding: 0px;
+                margin: 0px;
+                width: 100%;
+            }
+
+            .social_mb {
+                list-style: none;
+                display: flex;
+                width: 100%;
+                margin-bottom: -8px;
+            }
+
+                .social_mb a {
+                    padding: 8px 0px;
+                    font-size: 30px;
+                    transition: all 0.8s ease-in-out;
+                    width: 20% !important;
+                    text-align: center;
+                }
+        </style>
+        <style type="text/css">
+            .section1 {
+                position: relative;
+                padding: 10px 0px;
+                width: 100%;
+            }
+
+            .sticky-social {
+                position: fixed;
+                top: 20px;
+                left: 0px;
+                padding: 0px;
+                margin: 0px;
+            }
+
+            .social {
+                list-style: none;
+            }
+
+                .social a li {
+                    padding: 8px 12px;
+                    font-size: 25px;
+                    transition: all 0.8s ease-in-out;
+                }
+
+                    .social a li:hover {
+                        margin-right: -30px;
+                        box-shadow: 2px 5px 10px grey;
+                    }
+
+                        .social a li:hover .fa {
+                            margin-left: 20px;
+                        }
+
+            .fb_b {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .twitter_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .whatsapp_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .fa-envelope_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .fa-linkedin_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+        </style>
+        <style type="text/css">
+            @media only screen and (max-device-width: 767px) {
+                p span img {
+                    max-width: 90% !important;
+                    height: auto !important;
+                }
+
+                p img {
+                    max-width: 90% !important;
+                    height: auto !important;
+                }
+
+                h2 {
+                    font-size: var(--dbim-h2, 20px);
+                    font-weight: 600 !important;
+                }
+
+                h3 {
+                    font-size: var(--dbim-h3, 16px);
+                    font-weight: 600 !important;
+                }
+            }
+        </style>
+        <style type="text/css">
+            .film-roll-badge {
+                position: absolute;
+                top: 82%;
+                right: 20px;
+                width: 230px;
+                height: 70px;
+                background: repeating-linear-gradient( to right, var(--dbim-green-key, #0F5757) 0px, var(--dbim-green-key, #0F5757) 18px, var(--dbim-text, #150202) 18px, var(--dbim-text, #150202) 36px );
+                border-top: 8px solid var(--dbim-green-key, #0F5757);
+                border-bottom: 8px solid var(--dbim-green-key, #0F5757);
+                border-radius: 8px;
+                overflow: hidden;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+                animation: moveFilm 8s linear infinite;
+                z-index: 10;
+            }
+
+                .film-roll-badge::before,
+                .film-roll-badge::after {
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 10px;
+                    background: repeating-linear-gradient( to right, var(--dbim-green-key, #0F5757) 0px, var(--dbim-green-key, #0F5757) 10px, #fff 10px, #fff 20px );
+                    left: 0;
+                    z-index: 2;
+                }
+
+                .film-roll-badge::before {
+                    top: -4px;
+                }
+
+                .film-roll-badge::after {
+                    bottom: -4px;
+                }
+
+            .film-roll-inner {
+                position: relative;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                animation: flicker 2s infinite ease-in-out;
+            }
+
+            .countdown-text {
+                font-size: 1.3rem;
+                font-weight: 700;
+                color: #fff;
+                text-shadow: 0 0 6px rgba(255, 255, 255, 0.4), 0 0 10px #000;
+                white-space: nowrap;
+            }
+
+            @keyframes moveFilm {
+                0% {
+                    background-position: 0 0;
+                }
+
+                100% {
+                    background-position: 120px 0;
+                }
+            }
+
+            @keyframes flicker {
+                0%, 100% {
+                    opacity: 1;
+                }
+
+                50% {
+                    opacity: 0.9;
+                }
+
+                25% {
+                    opacity: 0.95;
+                }
+
+                75% {
+                    opacity: 0.85;
+                }
+            }
+
+            @media (max-width: 1500px) {
+                .film-roll-badge {
+                    top: 68%;
+                    right: 18px;
+                    height: 65px;
+                    font-size: 0.85rem;
+                }
+
+                .press-section {
+                    margin-top: 35px;
+                }
+            }
+
+            @media (max-width: 992px) {
+                .film-roll-badge {
+                    top: 52%;
+                    right: 10px;
+                    width: 200px;
+                    height: 60px;
+                }
+            }
+
+            @media (max-width: 768px) {
+                .film-roll-badge {
+                    top: 56%;
+                    right: 10px;
+                    width: 124px;
+                    height: 55px;
+                }
+
+                .countdown-text {
+                    font-size: 0.9rem;
+                }
+            }
+
+            @media (max-width: 576px) {
+                .film-roll-badge {
+                    top: 59%;
+                    right: 5px;
+                    height: 50px;
+                }
+
+                .countdown-text {
+                    font-size: 0.85rem;
+                }
+            }
+        </style>
+        <script type="text/javascript">
+                  const festivalStart = new Date("2025-11-20T00:00:00").getTime();
+                  const festivalEnd = new Date("2025-11-28T23:59:59").getTime();
+                  const countdownElement = document.getElementById("countdown");
+
+                  if (countdownElement) {
+                        const interval = setInterval(() => {
+                              const now = new Date().getTime();
+
+                              if (now < festivalStart) {
+                                    const diff = festivalStart - now;
+                                    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                                    const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+
+                                    countdownElement.innerHTML = `${days} Day${days !== 1 ? 's' : ''} ${hours} Hour${hours !== 1 ? 's' : ''} to go`;
+                              } else if (now >= festivalStart && now <= festivalEnd) {
+                                    const dayNumber = Math.floor((now - festivalStart) / (1000 * 60 * 60 * 24)) + 1;
+                                    countdownElement.innerHTML = `56th IFFI - Day ${dayNumber}`;
+                              } else {
+                                    countdownElement.innerHTML = `✨ IFFI closes but never ends…`;
+                                    const elements = document.querySelectorAll('.film-roll-badge');
+                                    elements.forEach(el => el.style.width = "350px");
+                                    clearInterval(interval);
+                              }
+                        }, 1000);
+                  }
+        </script>
+        <script type="text/javascript">
+                  const miffStart = new Date("2026-06-15T00:00:00").getTime();
+                  const miffEnd = new Date("2026-06-15T23:59:59").getTime();
+                  const miffElement = document.getElementById("miff");
+
+                  if (miffElement) {
+                        const miffInterval = setInterval(() => {
+                              const now = new Date().getTime();
+
+                              if (now < miffStart) {
+                                    const diff = miffStart - now;
+                                    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                                    miffElement.innerHTML = `${days} Day${days === 1 ? '' : 's'} to MIFF ...`;
+                              } else if (now >= miffStart && now <= miffEnd) {
+                                    const dayNumber = Math.floor((now - miffStart) / (1000 * 60 * 60 * 24)) + 1;
+                                    miffElement.innerHTML = `19th MIFF - Day ${dayNumber}`;
+                              } else {
+                                    miffElement.innerHTML = `✨ MIFF concludes, cinema lives on...`;
+                                    document.querySelectorAll('.film-roll-badge').forEach(el => el.style.width = "350px");
+                                    clearInterval(miffInterval);
+                              }
+                        }, 1000);
+                  }
+        </script>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("sc_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.ModalPopupBehavior, {"BackgroundCssClass":"modalBackground","PopupControlID":"P_CategoryManagement","dynamicServicePath":"/PressReleasePage.aspx","id":"mpe"}, null, null, $get("Hidden"));
+});
+//]]>
+</script>
+<input type="hidden" name="__ncforminfo" value="uVJ0kmXP7eya-x2Pb6sGucGJzW7js5lZD6sl_byc6RR8FU2VHDiU6UAyaQDxd0f81OgZugHK6aT3Pe3wfG7MpzBOZhCitmInNaLkLlwmtjMFXB3pmtOKMQ=="/></form>
+    
+
+<script type="application/json" id="pibConsentConfig">{"ga4Id":"G-Q414Y0X6EE,G-QJJ6LZ8LHV","policyUrl":"/CookiePolicy.aspx","text":{"bannerLabel":"Cookie consent","title":"Cookies on this website","body":"We use essential cookies to make this website work. We also set analytics cookies when you arrive, so we can see how the site is used and improve it - you can switch these off below or at any time from the Cookie Policy page. Cookies from embedded social media content are set only if you allow them.","policyLink":"Read our Cookie Policy","accept":"Accept all","reject":"Reject optional","customize":"Customise","prefsTitle":"Cookie preferences","prefsIntro":"Choose which cookies this website may set. Essential cookies cannot be switched off because the site does not work without them. Analytics cookies are on unless you turn them off. Social media cookies stay off until you allow them. You can change these choices at any time from the Cookie Policy page.","essentialName":"Essential cookies","essentialDesc":"Needed for the site to function. These remember your session, your language and region, your text size and colour theme, and verify the security check on forms. They are always on.","analyticsName":"Analytics cookies","analyticsDesc":"Help us understand how visitors use the site - which pages are read and how long people stay - so it can be improved. The information is collected in a form that does not directly identify you. These are on when you arrive; switching them off here stops them and deletes the ones already set.","socialName":"Social media cookies","socialDesc":"Set by content embedded from X, Facebook and YouTube, such as timelines and videos. These platforms may use them to track you across websites. They stay off until you allow them.","save":"Save preferences","cancel":"Cancel"}}</script>
+<script type="text/javascript" src='/js/consent.js?v=10'></script>
+
+<script type="text/javascript" src='/js/consent-embeds.js?v=10'></script>
+
+
+    <!-- Minimal O(N) Time and O(1) Auxiliary Space Word Count & Read Time Calculation -->
+    <script type="text/javascript">
+            (function () {
+                  function calculateReadingStats() {
+                        var bodyEl = document.getElementById("pibReleaseBody");
+                        if (!bodyEl) return;
+
+                        // textContent extracts text without triggering expensive layout/reflow computations
+                        var text = bodyEl.textContent || "";
+                        var words = 0;
+                        var inWord = false;
+
+                        // O(N) single pass character code scan: achieves O(1) space with zero array allocations
+                        for (var i = 0, len = text.length; i < len; i++) {
+                              var code = text.charCodeAt(i);
+                              // Delimits on ASCII whitespace, control characters, tabs, newlines, and non-breaking spaces (160)
+                              if (code <= 32 || code === 160) {
+                                    inWord = false;
+                              } else if (!inWord) {
+                                    inWord = true;
+                                    words++;
+                              }
+                        }
+
+                        // Standard 250 WPM reading speed (e.g., 612 words yields 2 min read)
+                        var minutes = Math.max(1, Math.round(words / 250));
+
+                        var elWords = document.getElementById("prWordCount");
+                        var elTime = document.getElementById("prReadTime");
+
+                        if (elWords) elWords.textContent = words + (words === 1 ? " word" : " words");
+                        if (elTime) elTime.textContent = minutes + " min read";
+                  }
+
+                  if (document.readyState === "loading") {
+                        document.addEventListener("DOMContentLoaded", calculateReadingStats);
+                  } else {
+                        calculateReadingStats();
+                  }
+            })();
+    </script>
+
+    <script type="text/javascript">
+            (function () {
+                  try {
+                        if (window.self === window.top) { return; }
+                  } catch (e) { return; }
+                  var s = document.createElement("style");
+                  s.textContent = ".sticky-social, .sticky-social_mb { display: none !important; }";
+                  (document.head || document.documentElement).appendChild(s);
+            }());
+    </script>
+</body>
+</html>

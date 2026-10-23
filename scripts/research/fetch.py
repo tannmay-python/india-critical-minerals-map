@@ -48,9 +48,13 @@ def guess_slug(url):
     tail = os.path.basename(p.path.rstrip("/")) or "index"
     tail = os.path.splitext(tail)[0]
     q = urllib.parse.parse_qs(p.query)
+    known = False
     for k in ("PRID", "prid", "NoteId", "id"):
         if k in q:
             tail = f"{tail}-{k}{q[k][0]}"
+            known = True
+    if p.query and not known:  # keep distinct URLs distinct (e.g. ?p=43205)
+        tail = f"{tail}-{hashlib.sha1(p.query.encode()).hexdigest()[:8]}"
     return slugify(tail)
 
 
