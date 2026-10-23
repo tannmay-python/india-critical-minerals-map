@@ -27,3 +27,6 @@ research/raw/geodata/**
 !research/raw/geodata/**/
 !research/raw/geodata/**/*.md
 !research/raw/geodata/**/LICENSE*
+public/data/
+public/downloads/
+public/e/

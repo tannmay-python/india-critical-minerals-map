@@ -1,0 +1,26 @@
+{
+  "name": "india-critical-minerals-map",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Research-grade map of India's critical-minerals projects and Indian-held assets abroad (Takshashila Institution, working draft).",
+  "license": "SEE LICENSE IN README.md",
+  "scripts": {
+    "validate": ".venv/bin/python -I scripts/validate.py",
+    "geocheck": ".venv/bin/python -I scripts/geocheck.py",
+    "data": ".venv/bin/python -I scripts/build-data.py",
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@turf/great-circle": "7.4.0",
+    "fuse.js": "7.5.0",
+    "maplibre-gl": "6.13.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.0",
+    "typescript": "7.0.2",
+    "vite": "8.2.4"
+  }
+}
