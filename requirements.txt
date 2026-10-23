@@ -1,0 +1,3 @@
+PyYAML==6.0.3
+shapely==2.0.7
+RapidFuzz==3.13.0

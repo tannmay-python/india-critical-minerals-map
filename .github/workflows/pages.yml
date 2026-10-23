@@ -19,12 +19,25 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      # Bootstrap: deploys a placeholder until the app exists.
-      # Replaced by validate -> geocheck -> build-data -> vite build in Phase 4.
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      # The data must pass validation and the boundary checks before anything is published.
+      - run: python -I scripts/validate.py -q
+      - run: python -I scripts/geocheck.py
+      - run: python -I scripts/build-data.py
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: npm
+      - run: npm ci
+      - run: npm run build
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: placeholder
+          path: dist
   deploy:
     needs: build
     runs-on: ubuntu-latest

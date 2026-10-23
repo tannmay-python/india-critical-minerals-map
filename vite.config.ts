@@ -4,6 +4,10 @@ import { defineConfig } from "vite";
 export default defineConfig({
   base: "./",
   publicDir: "public",
+  worker: { format: "es" },
+  // Only the app is source; research/ holds thousands of archived pages that must not be scanned or watched.
+  optimizeDeps: { entries: ["index.html"] },
+  server: { watch: { ignored: ["**/research/**", "**/data/**", "**/.venv/**"] } },
   build: {
     outDir: "dist",
     target: "es2022",

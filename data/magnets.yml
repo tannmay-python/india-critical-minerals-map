@@ -23,8 +23,8 @@
     district: Anakapalli
     state: Andhra Pradesh
     country: India
-    lat: 18.57167
-    lon: 83.97396
+    lat: 17.56393
+    lon: 82.97912
     precision: town
     geometry: null
   status: Operational
@@ -408,8 +408,8 @@
     district: Anakapalli
     state: Andhra Pradesh
     country: India
-    lat: 18.57167
-    lon: 83.97396
+    lat: 17.56393
+    lon: 82.97912
     precision: town
     geometry: null
   status: Approved
@@ -535,8 +535,8 @@
     district: Anakapalli
     state: Andhra Pradesh
     country: India
-    lat: 18.57167
-    lon: 83.97396
+    lat: 17.56393
+    lon: 82.97912
     precision: town
     geometry: null
   status: Operational

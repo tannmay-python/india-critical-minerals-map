@@ -34,6 +34,13 @@ export async function loadBaseStyle(theme: Theme): Promise<StyleSpecification> {
   if (!res.ok) throw new Error(`basemap style ${res.status}`);
   const style = (await res.json()) as StyleSpecification;
   style.layers = style.layers.filter((l) => !isForbiddenLayer(l));
+  // English place names everywhere (the default labels mix local scripts).
+  for (const l of style.layers) {
+    const layout = (l as { layout?: Record<string, unknown> }).layout;
+    if (l.type === "symbol" && layout && layout["text-field"]) {
+      layout["text-field"] = ["coalesce", ["get", "name_en"], ["get", "name:en"], ["get", "name:latin"], ["get", "name"]];
+    }
+  }
   styleCache.set(theme, style);
   return structuredClone(style);
 }

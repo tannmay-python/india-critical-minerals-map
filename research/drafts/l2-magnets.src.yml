@@ -301,7 +301,7 @@ records:
     operator_type: "PSU (Central)"
     owners: [{entity: "Department of Atomic Energy, Government of India", stake_pct: 100}]
     location: {address: "BARC campus, Atchutapuram, Visakhapatnam", village_or_town: "Atchutapuram", district: "Anakapalli", state: "Andhra Pradesh"}
-    geo: {q: "Atchutapuram", state: "Andhra Pradesh"}
+    geo: {q: "Atchutapuram, Anakapalli", state: "Andhra Pradesh"}
     status: Operational
     status_as_of: "2026-07-29"
     status_detail: "Completed 31 Dec 2024; Sm2Co17 magnets produced and passed BARC/DMRL testing"
@@ -383,7 +383,7 @@ records:
     operator_type: "Foreign MNC"
     owners: [{entity: "Toyota Tsusho Corporation (Japan)", stake_pct: null}]
     location: {address: "Plot Nos. 2D & 2E, APSEZ, Gurajapalem (Post), Atchutapuram, Rambilli Mandal, Anakapalle District, Andhra Pradesh 531011", village_or_town: "Atchutapuram", district: "Anakapalli", state: "Andhra Pradesh"}
-    geo: {q: "Atchutapuram", state: "Andhra Pradesh"}
+    geo: {q: "Atchutapuram, Anakapalli", state: "Andhra Pradesh"}
     status: Operational
     status_as_of: "2026-10-23"
     status_detail: "Refining mixed rare earth carbonates into La, Ce, Pr, Nd and PrNd oxides since October 2013"
@@ -532,7 +532,7 @@ records:
     operator_type: "Foreign MNC"
     owners: [{entity: "Proterial, Ltd. (Japan)", stake_pct: null}]
     location: {village_or_town: "Atchutapuram", district: "Anakapalli", state: "Andhra Pradesh"}
-    geo: {q: "Atchutapuram", state: "Andhra Pradesh"}
+    geo: {q: "Atchutapuram, Anakapalli", state: "Andhra Pradesh"}
     status: Approved
     status_as_of: "2026-07-02"
     status_detail: "Cleared by the State Investment Promotion Board; incentive G.O.s 25 Jun 2026; commercial operation proposed Oct 2029"
