@@ -106,6 +106,8 @@
 {"entity": "blk-cg-dindo-belkurta-basera", "field": "auction.preferred_bidder", "value": "Shri", "result": "confirmed", "checked_by": "verifier", "retrieved": "2026-10-23"}
 {"entity": "blk-cg-dindo-belkurta-basera", "field": "auction.final_offer_pct", "value": "680.3", "result": "confirmed", "checked_by": "verifier", "retrieved": "2026-10-23"}
 {"entity": "blk-cg-dindo-belkurta-basera", "field": "name", "value": "Dindo-Belkurta-Basera", "result": "confirmed", "checked_by": "verifier", "retrieved": "2026-10-23"}
+{"entity": "blk-cg-ghoragaon-sorgaon-el", "field": "location.district", "value": "Kondagaon", "result": "confirmed", "checked_by": "verifier", "retrieved": "2026-10-23"}
+{"entity": "blk-cg-ghoragaon-sorgaon-el", "field": "name", "value": "Ghoragaon-Sorgaon", "result": "confirmed", "checked_by": "verifier", "retrieved": "2026-10-23"}
 {"entity": "blk-cg-giroud-uprani", "field": "location.district", "value": "Baloda Bazar", "result": "confirmed", "checked_by": "verifier", "retrieved": "2026-10-23"}
 {"entity": "blk-cg-giroud-uprani", "field": "auction.preferred_bidder", "value": "Narayani", "result": "confirmed", "checked_by": "verifier", "retrieved": "2026-10-23"}
 {"entity": "blk-cg-giroud-uprani", "field": "auction.final_offer_pct", "value": "5.15", "result": "confirmed", "checked_by": "verifier", "retrieved": "2026-10-23"}
@@ -132,6 +134,10 @@
 {"entity": "blk-cg-kennapara", "field": "auction.preferred_bidder", "value": "Maa", "result": "confirmed", "checked_by": "verifier", "retrieved": "2026-10-23"}
 {"entity": "blk-cg-kennapara", "field": "auction.final_offer_pct", "value": "111", "result": "confirmed", "checked_by": "verifier", "retrieved": "2026-10-23"}
 {"entity": "blk-cg-kennapara", "field": "name", "value": "Kennapara", "result": "confirmed", "checked_by": "verifier", "retrieved": "2026-10-23"}
+{"entity": "blk-cg-kondagaon-el", "field": "location.district", "value": "Kondagaon", "result": "confirmed", "checked_by": "verifier", "retrieved": "2026-10-23"}
+{"entity": "blk-cg-kondagaon-el", "field": "name", "value": "Kondagaon", "result": "confirmed", "checked_by": "verifier", "retrieved": "2026-10-23"}
+{"entity": "blk-cg-kondagaon-south-el", "field": "location.district", "value": "Kondagaon", "result": "confirmed", "checked_by": "verifier", "retrieved": "2026-10-23"}
+{"entity": "blk-cg-kondagaon-south-el", "field": "name", "value": "Kondagaon", "result": "confirmed", "checked_by": "verifier", "retrieved": "2026-10-23"}
 {"entity": "blk-cg-murka-basera", "field": "location.district", "value": "Balrampur", "result": "confirmed", "checked_by": "verifier", "retrieved": "2026-10-23"}
 {"entity": "blk-cg-murka-basera", "field": "auction.preferred_bidder", "value": "Maa", "result": "confirmed", "checked_by": "verifier", "retrieved": "2026-10-23"}
 {"entity": "blk-cg-murka-basera", "field": "auction.final_offer_pct", "value": "165.05", "result": "confirmed", "checked_by": "verifier", "retrieved": "2026-10-23"}

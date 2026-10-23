@@ -1,0 +1,46 @@
+=== page 1 ===
+Block Summay of Ghoragaon-Sorgaon Diamond and Minerals of Rare Earth
+Group Block
+Sr.  Features
+Details
+No.
+1  Block Name  Ghoragaon-Sorgaon Diamond and Minerals of Rare Earth Group Block
+2  Commodity  Diamond and Rare Metal
+3  Concession Type  Exploration Licence (EL)
+4  District  Kondagaon and Bastar
+5  State  Chhattisgarh
+6  Toposheet No.  Survey of India - Toposheet No. 65E/15
+Point Id  Latitude  Longitude
+A  19°30'00.00" N  81°45'00.00" E
+7  Corner Points (Latitude and  B  19°30'00.00" N
+Longitude)  82°00'00.00" E
+C  19°19'55.00" N  82°00'00.00" E
+D  19°19'55.00" N  81°45'00.00" E
+8  Total Area of the block  488 sq. km.
+(Square Kilometer, sq.km)
+9  Agency  Geological Survey of India (GSI)
+The Bastar craton of the central Indian shield is bounded by the
+Eastern Ghats, the Mahanadi and the Godavari rifts and the Son-
+Narmada lineament. It consists predominantly of gneisses and
+granitoids with supracrustal rocks. As the area contains basement
+crystalline rocks and lots of mafic dyke swarms which are favorable
+zone for kimberlitic intrusion and other rare minerals.
+Major structural trends suggest that the study area may be proximal to
+10  Bastar Craton and Eastern Ghat Mobile Belt (EGMB) weak zone,  Brief Description
+hence, favorable for kimberlite emplacements.
+Several geological investigations by GSl has suspected presence of
+Kimberlite indicator minerals in the area.On the basis of information
+available, further detailed exploration and petrographic studies may be
+carried out in the proposed area for kimberlitic indicators and other
+minerals.
+Rare earth minerals occur in association with rare metals mineral or
+independently that are hosted both in pegmatites and their parent
+granites also reported in Bastar Craton region
+11  Pre - Existing Mineral  Mining leases - Nil
+Concessions  Composite License - Nil
+12  Existing Exploration  Nil
+Projects
+13  Reserved Under 17(1)A  Nil
+14  Lapsed Concessions  Nil
+Recommendations of the
+15  Committee  Block has been recommended for auction of Exploration Licence (EL)

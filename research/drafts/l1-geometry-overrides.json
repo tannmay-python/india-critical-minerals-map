@@ -523,5 +523,116 @@
    "km2": 725.4
   },
   "area_sq_km": 723.25
+ },
+ "14438": {
+  "applies_to_titles": [
+   "Kondagaon Diamond and Minerals of Rare Earth Group Block"
+  ],
+  "geometry": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      81.5002778,
+      19.6736111
+     ],
+     [
+      81.7497222,
+      19.6736111
+     ],
+     [
+      81.7497222,
+      19.5013889
+     ],
+     [
+      81.5002778,
+      19.5013889
+     ],
+     [
+      81.5002778,
+      19.6736111
+     ]
+    ]
+   ]
+  },
+  "method": "OCR (macOS Vision) of the scanned block summary, corners 1-4/A-D. Polygon area 501.6 sq km vs stated 498 sq km.",
+  "check": {
+   "km2": 501.6
+  },
+  "area_sq_km": 498
+ },
+ "14436": {
+  "applies_to_titles": [
+   "Kondagaon South Diamond and Minerals of Rare Earth Group Block"
+  ],
+  "geometry": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      81.5791667,
+      19.5
+     ],
+     [
+      81.7494444,
+      19.5
+     ],
+     [
+      81.7494444,
+      19.2513889
+     ],
+     [
+      81.5791667,
+      19.2513889
+     ],
+     [
+      81.5791667,
+      19.5
+     ]
+    ]
+   ]
+  },
+  "method": "OCR (macOS Vision) of the scanned block summary, corners 1-4/A-D. Polygon area 494.9 sq km vs stated 492 sq km.",
+  "check": {
+   "km2": 494.9
+  },
+  "area_sq_km": 492
+ },
+ "14437": {
+  "applies_to_titles": [
+   "Ghoragaon-Sorgaon Diamond and Minerals of Rare Earth Group Block"
+  ],
+  "geometry": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      81.75,
+      19.5
+     ],
+     [
+      82.0,
+      19.5
+     ],
+     [
+      82.0,
+      19.3319444
+     ],
+     [
+      81.75,
+      19.3319444
+     ],
+     [
+      81.75,
+      19.5
+     ]
+    ]
+   ]
+  },
+  "method": "OCR (macOS Vision) of the scanned block summary, corners 1-4/A-D. Polygon area 491.0 sq km vs stated 488 sq km.",
+  "check": {
+   "km2": 491.0
+  },
+  "area_sq_km": 488
  }
 }

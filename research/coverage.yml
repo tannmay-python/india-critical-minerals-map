@@ -80,11 +80,12 @@ layers:
     anchor_value: no official aggregate
     source: MSTC section listings (all sellers) and state NITs, 2018-2026
     source_date: '2026-10-23'
-    captured: 60
+    captured: 71
     gap: null
-    explanation: 60 state-route blocks (105 offerings). No official count of offered state blocks exists; completeness rests
-      on the full MSTC document map (336 sections, 11,427 documents) and the all-seller results pages FY2023-24 to FY2026-27.
-      States that run auctions off MSTC need a separate check (gap hunt).
+    explanation: 71 state-route blocks, including 7 state exploration-licence blocks (Karnataka, MP, AP, Chhattisgarh). No
+      official count of offered state blocks exists; completeness rests on the full MSTC document map (336 sections, 11,427
+      documents) and the all-seller results pages FY2023-24 to FY2026-27. States that run auctions off MSTC need a separate
+      check (gap hunt).
   - anchor: Offshore Tranche II blocks offered
     anchor_value: 2
     source: MSTC Offshore Tranche II NIT (scanned; OCR)

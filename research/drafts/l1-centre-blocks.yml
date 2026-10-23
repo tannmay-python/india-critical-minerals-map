@@ -5996,6 +5996,149 @@
     loi_date: null
     licence_or_lease_executed: null
     production_started: null
+- id: blk-cg-ghoragaon-sorgaon-el
+  name: Ghoragaon-Sorgaon Diamond and Minerals of Rare Earth Group Block
+  aliases: []
+  layer: blocks
+  stages:
+  - Exploration
+  minerals:
+  - Rare earths (unspecified)
+  commodity_as_stated: Diamond and Minerals of Rare Earth Group (REE)
+  products: []
+  operator: null
+  operator_type: null
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: null
+    state: Chhattisgarh
+    district: Kondagaon and Bastar
+    country: India
+    lat: 19.415972
+    lon: 81.875
+    precision: exact
+    geometry:
+      type: Polygon
+      coordinates:
+      - - - 81.75
+          - 19.5
+        - - 82.0
+          - 19.5
+        - - 82.0
+          - 19.3319444
+        - - 81.75
+          - 19.3319444
+        - - 81.75
+          - 19.5
+  status: Annulled
+  status_as_of: '2024-09-26'
+  status_detail: 'Annulled in Chhattisgarh EL-2024: First attempt annulled under tender clause 8.2(f)'
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2024-03-13'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: '2024-09-26'
+    event: 'Chhattisgarh EL-2024: annulled'
+    source_id: raw:mstc-14435
+  narrative:
+    what_it_does: A 488.00 sq km block offered for an exploration licence, for diamond and minerals of rare earth group (ree),
+      in Kondagaon and Bastar districts, Chhattisgarh.
+    significance: Offered 1 time by the Government of Chhattisgarh, most recently in Chhattisgarh EL-2024, and the auction
+      was annulled (September 2024).
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-23'
+  notes: Chhattisgarh state exploration-licence block; block summary is a scan read by OCR. Boundary polygon recovered by
+    OCR of the MBS annexure; checked against the stated block area.
+  sources:
+  - id: raw:mstc-14435
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14435_NIT%2B-%2BInvitation%2Bof%2Bbids%2Bfor%2Bgrant%2Bof%2BEL.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: NIT - Invitation of bids for grant of EL
+    publisher: Government of Chhattisgarh (via MSTC e-auction portal)
+    tier: T1
+    date: '2024-03-13'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+    - status
+  - id: raw:mstc-17021
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=17021_Notice%2Bfor%2Bannulment%2B%2Bof%2Bauction%2Bprocess%2Bof%2BEL%2Bblocks.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: Notice for annulment of auction process of EL blocks
+    publisher: Government of Chhattisgarh (via MSTC e-auction portal)
+    tier: T1
+    date: '2024-03-13'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+    - status
+  - id: mstc-mbs-14437
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14437_CG%2BEL%2BMine%2BBlock%2BSummary%2BGhoragaon%2BSorgaon%2BBlock%2B488%2BHa.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: 'Mine Block Summary: CG EL Mine Block Summary Ghoragaon Sorgaon Block 488 Ha'
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2024-03-13'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - block.area_sq_km
+    - block.exploration_stage
+    - location
+  block:
+    concession_type: EL
+    auction_route: State
+    area_sq_km: 488
+    exploration_stage: null
+    resources: []
+    resources_as_stated: null
+  auction:
+    history:
+    - tranche: CG-EL-2024
+      nit_date: '2024-03-13'
+      outcome: Annulled
+      outcome_date: '2024-09-26'
+      annulment_reason: First attempt annulled under tender clause 8.2(f)
+      preferred_bidder: null
+      final_offer_pct: null
+      reserve_price: null
+    loi_date: null
+    licence_or_lease_executed: null
+    production_started: null
 - id: blk-cg-giroud-uprani
   name: Giroud Uprani Glauconite Block
   aliases: []
@@ -7251,6 +7394,292 @@
       annulment_reason: null
       preferred_bidder: M/s Maa Kudargarhi Steels Pvt Ltd
       final_offer_pct: 111.0
+      reserve_price: null
+    loi_date: null
+    licence_or_lease_executed: null
+    production_started: null
+- id: blk-cg-kondagaon-el
+  name: Kondagaon Diamond and Minerals of Rare Earth Group Block
+  aliases: []
+  layer: blocks
+  stages:
+  - Exploration
+  minerals:
+  - Rare earths (unspecified)
+  commodity_as_stated: Diamond and Minerals of Rare Earth Group (REE)
+  products: []
+  operator: null
+  operator_type: null
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: null
+    state: Chhattisgarh
+    district: Kondagaon and Narayanpur
+    country: India
+    lat: 19.5875
+    lon: 81.625
+    precision: exact
+    geometry:
+      type: Polygon
+      coordinates:
+      - - - 81.5002778
+          - 19.6736111
+        - - 81.7497222
+          - 19.6736111
+        - - 81.7497222
+          - 19.5013889
+        - - 81.5002778
+          - 19.5013889
+        - - 81.5002778
+          - 19.6736111
+  status: Annulled
+  status_as_of: '2024-09-26'
+  status_detail: 'Annulled in Chhattisgarh EL-2024: First attempt annulled under tender clause 8.2(f)'
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2024-03-13'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: '2024-09-26'
+    event: 'Chhattisgarh EL-2024: annulled'
+    source_id: raw:mstc-14435
+  narrative:
+    what_it_does: A 498.00 sq km block offered for an exploration licence, for diamond and minerals of rare earth group (ree),
+      in Kondagaon and Narayanpur districts, Chhattisgarh.
+    significance: Offered 1 time by the Government of Chhattisgarh, most recently in Chhattisgarh EL-2024, and the auction
+      was annulled (September 2024).
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-23'
+  notes: Chhattisgarh state exploration-licence block; block summary is a scan read by OCR. Boundary polygon recovered by
+    OCR of the MBS annexure; checked against the stated block area.
+  sources:
+  - id: raw:mstc-14435
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14435_NIT%2B-%2BInvitation%2Bof%2Bbids%2Bfor%2Bgrant%2Bof%2BEL.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: NIT - Invitation of bids for grant of EL
+    publisher: Government of Chhattisgarh (via MSTC e-auction portal)
+    tier: T1
+    date: '2024-03-13'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+    - status
+  - id: raw:mstc-17021
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=17021_Notice%2Bfor%2Bannulment%2B%2Bof%2Bauction%2Bprocess%2Bof%2BEL%2Bblocks.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: Notice for annulment of auction process of EL blocks
+    publisher: Government of Chhattisgarh (via MSTC e-auction portal)
+    tier: T1
+    date: '2024-03-13'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+    - status
+  - id: mstc-mbs-14438
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14438_CG%2BEL%2BMine%2BBlock%2BSummary%2BKondagaon%2BBlock%2B498%2BHa.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: 'Mine Block Summary: CG EL Mine Block Summary Kondagaon Block 498 Ha'
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2024-03-13'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - block.area_sq_km
+    - block.exploration_stage
+    - location
+  block:
+    concession_type: EL
+    auction_route: State
+    area_sq_km: 498
+    exploration_stage: null
+    resources: []
+    resources_as_stated: null
+  auction:
+    history:
+    - tranche: CG-EL-2024
+      nit_date: '2024-03-13'
+      outcome: Annulled
+      outcome_date: '2024-09-26'
+      annulment_reason: First attempt annulled under tender clause 8.2(f)
+      preferred_bidder: null
+      final_offer_pct: null
+      reserve_price: null
+    loi_date: null
+    licence_or_lease_executed: null
+    production_started: null
+- id: blk-cg-kondagaon-south-el
+  name: Kondagaon South Diamond and Minerals of Rare Earth Group Block
+  aliases: []
+  layer: blocks
+  stages:
+  - Exploration
+  minerals:
+  - Rare earths (unspecified)
+  commodity_as_stated: Diamond and Minerals of Rare Earth Group (REE)
+  products: []
+  operator: null
+  operator_type: null
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: null
+    state: Chhattisgarh
+    district: Kondagaon and Bastar
+    country: India
+    lat: 19.375694
+    lon: 81.664306
+    precision: exact
+    geometry:
+      type: Polygon
+      coordinates:
+      - - - 81.5791667
+          - 19.5
+        - - 81.7494444
+          - 19.5
+        - - 81.7494444
+          - 19.2513889
+        - - 81.5791667
+          - 19.2513889
+        - - 81.5791667
+          - 19.5
+  status: Annulled
+  status_as_of: '2024-09-26'
+  status_detail: 'Annulled in Chhattisgarh EL-2024: First attempt annulled under tender clause 8.2(f)'
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2024-03-13'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: '2024-09-26'
+    event: 'Chhattisgarh EL-2024: annulled'
+    source_id: raw:mstc-14435
+  narrative:
+    what_it_does: A 492.00 sq km block offered for an exploration licence, for diamond and minerals of rare earth group (ree),
+      in Kondagaon and Bastar districts, Chhattisgarh.
+    significance: Offered 1 time by the Government of Chhattisgarh, most recently in Chhattisgarh EL-2024, and the auction
+      was annulled (September 2024).
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-23'
+  notes: Chhattisgarh state exploration-licence block; block summary is a scan read by OCR. Boundary polygon recovered by
+    OCR of the MBS annexure; checked against the stated block area.
+  sources:
+  - id: raw:mstc-14435
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14435_NIT%2B-%2BInvitation%2Bof%2Bbids%2Bfor%2Bgrant%2Bof%2BEL.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: NIT - Invitation of bids for grant of EL
+    publisher: Government of Chhattisgarh (via MSTC e-auction portal)
+    tier: T1
+    date: '2024-03-13'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+    - status
+  - id: raw:mstc-17021
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=17021_Notice%2Bfor%2Bannulment%2B%2Bof%2Bauction%2Bprocess%2Bof%2BEL%2Bblocks.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: Notice for annulment of auction process of EL blocks
+    publisher: Government of Chhattisgarh (via MSTC e-auction portal)
+    tier: T1
+    date: '2024-03-13'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+    - status
+  - id: mstc-mbs-14436
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14436_CG%2BEL%2BMine%2BBlock%2BSumary%2BKondagaon%2BSouth%2BBlock%2B492%2BHa.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: 'Mine Block Summary: CG EL Mine Block Sumary Kondagaon South Block 492 Ha'
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2024-03-13'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - block.area_sq_km
+    - block.exploration_stage
+    - location
+  block:
+    concession_type: EL
+    auction_route: State
+    area_sq_km: 492
+    exploration_stage: null
+    resources: []
+    resources_as_stated: null
+  auction:
+    history:
+    - tranche: CG-EL-2024
+      nit_date: '2024-03-13'
+      outcome: Annulled
+      outcome_date: '2024-09-26'
+      annulment_reason: First attempt annulled under tender clause 8.2(f)
+      preferred_bidder: null
+      final_offer_pct: null
       reserve_price: null
     loi_date: null
     licence_or_lease_executed: null
