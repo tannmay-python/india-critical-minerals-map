@@ -28,6 +28,24 @@ sources:
     publisher: Swarajya
     tier: T3
     date: "2026-03-30"
+  pib-2222519:
+    raw: pib.gov.in/pib-2222519
+    title: "PIB Backgrounder: Electronics Components Manufacturing Scheme; Union Budget 2026-27 raises scheme outlay to Rs 40,000 crore"
+    publisher: Press Information Bureau, Government of India
+    tier: T1
+    date: "2026-02-03"
+  pib-2300625:
+    raw: pib.gov.in/pib-2300625
+    title: "106 ECMS projects approved, set to generate around 75 thousand direct jobs with Rs 69,548 crore investment"
+    publisher: Press Information Bureau, Government of India
+    tier: T1
+    date: "2026-08-17"
+  pib-2210864:
+    raw: pib.gov.in/pib-2210864
+    title: "MeitY approves 22 more proposals under ECMS (tranche 3)"
+    publisher: Press Information Bureau, Government of India
+    tier: T1
+    date: "2026-01-02"
   acp-ecms-2026:
     raw: autocarpro.in/govt-clears-31-new-projects-under-ecms-taking-total-approved-investment-to-rs-69548-crore-
     title: "ECMS auto electronics push: Govt approves 31 new projects"
@@ -98,22 +116,42 @@ records:
     name: "Electronics Components Manufacturing Scheme (ECMS)"
     ministry: "Ministry of Electronics and Information Technology"
     parent: null
-    outlay: {amount: null, currency: INR_crore, period: null}
-    dates: {approved: null, notified: null, applications_close: null}
+    outlay: {amount: 40000, currency: INR_crore, period: "six years plus optional one-year gestation; raised from Rs 22,919 crore in the 2026-27 Budget"}
+    dates: {approved: null, notified: "2025-04-08", applications_close: null}
     status: Beneficiaries selected
     status_as_of: "2026-08-17"
-    status_detail: "106 projects approved across 15 states (Rs 69,548 crore) by Aug 2026; 38 plants operating"
-    aggregates: {approved_projects: 106, approved_investment_inr_cr: 69548, states: 15, plants_operating: 38}
-    beneficiaries: [lohum-greater-noida-repm]
+    status_detail: "Five approval rounds to Aug 2026: 106 projects across 15 states (Rs 69,548 crore); 38 plants operating"
+    aggregates: {approved_projects: 106, approved_investment_inr_cr: 69548, states: 15, plants_operating: 38, rounds: 5}
+    beneficiaries: [lohum-greater-noida-repm, epsilon-eam-one-vijayanagar, acutaas-jhagadia-additives]
+    beneficiaries_unmapped:
+      - "PCBL Chemical Ltd: acetylene black (round 5, Rs 329 crore); site not published"
+      - "NPSPL Advanced Materials Pvt Ltd: anode material (round 3); site not published"
+      - "Quantum Magnetics: rare earth permanent magnets (round 5); site not published"
     bidders: []
     disbursed: {amount: null, as_of: null}
-    notes: "Only the magnet-relevant approvals are linked here so far; battery-material approvals (anode, conductive additives, electrolyte additives, Quantum Magnetics REPM) are researched in L3. Outlay and notification dates to be filled in L3/L10. Disbursement amounts not found."
+    notes: "Only battery-material and magnet approvals are linked; the other approvals (PCBs, camera modules, laminates, enclosures) are outside this map. PIB says ECMS anode-material capacity already exceeds domestic demand (~110%)."
     sources:
-      - ref: acp-ecms-2026
-        supports: [aggregates, status, status_detail]
+      - ref: pib-2222519
+        supports: [outlay, dates.notified]
         ev:
-          aggregates: "cumulative approvals under the scheme have reached 106 projects across 15 states, representing a total investment of Rs 69,548 crore"
-          status: "Out of these, 38 manufacturing plants have already begun operations"
+          dates.notified: "The Electronics Components Manufacturing Scheme was notified on April 8, 2025 with an original outlay of ₹ 22,919 crore"
+          outlay: "Union Budget 2026–27 Raises Scheme Outlay to ₹40,000 Crore"
+      - ref: pib-2300625
+        supports: [aggregates, status, status_detail, beneficiaries, beneficiaries_unmapped, notes]
+        ev:
+          aggregates: "106 applications covering 30 products across 15 States have been approved under ECMS, amounting to expected investment of Rs 69,548 crore"
+          status: "38 plants have already commenced manufacturing"
+          beneficiaries: ["Anode Material, a critical component for Li-ion cells, to Epsilon C2GR Private Limited", "Electrolyte Additives to Acutaas Chemicals Limited"]
+          beneficiaries_unmapped: "Acetylene Black, a conductive additive for Li-ion cells, to PCBL Chemical Limited"
+          notes: "output already exceeds demand in key areas such as anode material (~110%)"
+      - ref: pib-2210864
+        supports: [beneficiaries_unmapped]
+        ev:
+          beneficiaries_unmapped: "NPSPL Advanced Materials Private Limited"
+      - ref: acp-ecms-2026
+        supports: [beneficiaries_unmapped]
+        ev:
+          beneficiaries_unmapped: "rare earth permanent magnets by Quantum Magnetics"
       - ref: swa-ecms-2026
         supports: [beneficiaries]
         ev:

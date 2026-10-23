@@ -41,3 +41,12 @@ Queries, registries pulled, decisions, inclusion calls and dead ends. Newest ent
 - Not mapped (no published site): 15 REPM bidders, Sona Comstar. Attero's REE recycling is left to L5 with its Roorkee plant to avoid a duplicate. Quantum Magnetics (ECMS REPM, Aug 2026) site not found; to research in L3 with the ECMS list.
 - Geocoding lesson: Nominatim resolved "Atchutapuram" to a same-named village in Srikakulam district; corrected to Atchutapuram, Anakapalli (PIN 531011). Always pass the district when a town name is common.
 - `fetch.py` now sends `--compressed`; one SMM page had been archived gzip-encoded and was re-fetched.
+
+## L3 Battery and advanced materials (2026-10-24)
+
+- 15 site records in `data/materials.yml` (80 excerpts checked against raw text). Built on the L3a/L3b agents' logs and archived ECMS releases (rounds 1-5, PIB 2182986, 2190872, 2210864, 2247040, 2300625).
+- Anchor: ECMS 5 rounds, 106 projects, 15 states, Rs 69,548 crore; outlay Rs 22,919 crore raised to Rs 40,000 crore (PIB 2222519). Battery-material approvals: Epsilon C2GR (anode), NPSPL Advanced Materials (anode), PCBL (acetylene black), Acutaas (electrolyte additives).
+- Operating or expanding: Himadri anode (Mahistikry, 200 MTPA, Apr 2026), GFCL EV complex (Jolva: LiPF6, electrolyte, LFP, PVDF), Neogen Ionics Dahej (electrolyte 2,000 MT; salts), Acutaas Jhagadia (VC, FEC), Hindalco battery foil (Sambalpur, Jan 2026). Under construction: Himadri LFP (Odisha, 40,000 MTPA), Altmin LFP (Divitipally), TACC anode (Dewas, 20,000 MTPA), Neogen Pakhajan (30,000 MT electrolyte). Pilot: Epsilon EAM-ONE, Altmin Balapur, Sudeep pCAM. Approved: NPSPL cathode (Chittoor). MoU: Epsilon LFP (Karnataka). Announced: LOHUM Krishnagiri CAM.
+- Minerals: LFP and LiPF6 tagged Lithium and Phosphorus; graphite anode Graphite. Foil, binders and electrolyte additives carry no canonical mineral and are kept with an empty mineral list, per the playbook's L3 scope.
+- No site published (kept off the map, OPEN_QUESTIONS 10): PCBL acetylene black, NPSPL anode, Himadri CNT, TCPL separator film. No operating separator or copper-foil plant found in India. Rejected leads: Tata Chemicals (no current CAM plant; recycling goes to L5), Reliance (no named materials plant), Ola and Amara Raja (cells, L9), Rain Industries anode (lead only), Hindalco copper foil (market-research page only).
+- Geocoding: Mahistikry, Jolva, Sirsoda and Gudupalle are missing from OpenStreetMap (or match same-named villages elsewhere); those records use district centroids.

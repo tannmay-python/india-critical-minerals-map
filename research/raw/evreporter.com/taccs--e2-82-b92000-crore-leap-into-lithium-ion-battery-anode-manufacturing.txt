@@ -1,0 +1,180 @@
+
+TACC’s ₹2000 crore leap into lithium-ion battery anode manufacturing • EVreporter
+Skip to content
+ October 24, 2026 
+ Latest: 
+ Shakti Pumps Invests ₹12 Crore in Shakti EV Mobility, Taking Total Investment to ₹92 Crore 
+ Ultraviolette Launches X-47 Venom E-Motorcycle at ₹2.65 Lakh, Introduces New VX-100 Platform 
+ The ePlane Company Showcases Full-Scale e200X PT-01 Electric Air Taxi Prototype 
+ Spiro Launches First 100 Electric Motorcycles in Ghana, Introduces Battery-Swapping Solution 
+ Volvo EX90 Electric SUV Launched in India, Priced from ₹1.26 Crore 
+Data Portal
+Articles
+Magazine
+ELECTRICON
+News
+Resources
+Startups
+Learning
+Policies
+Directory
+Services
+Contact
+EV Articles
+Featured
+ TACC’s ₹2000 crore leap into lithium-ion battery anode manufacturing 
+ March 10, 2026
+Lithium-ion batteries
+ 8 min read
+Explore
+The push for self-reliance in critical materials and the development of a domestic battery supply chain is taking centre stage in India. 
+Ankur Khaitan, 
+Managing Director & CEO of 
+TACC Limited
+, details their plans to produce 
+synthetic graphite-based active anode material
+ in Dewas, Madhya Pradesh, with operations scheduled to begin in the first quarter of 2027. With an investment of over ₹2,000 crore, the plant will initially produce 20,000 MTPA of anode material, with plans to expand to 100,000 MTPA by 2035. TACC Limited (The Advanced Carbons Company) is a 
+subsidiary of HEG Limited and part of the LNJ Bhilwara Group.
+Can you help us understand the value chain of manufacturing battery-grade anode powder? What is the end product TACC plans to produce?
+Anode active material accounts for 
+~ 15 percent of the total weight of a lithium-ion cell 
+and plays a critical role in determining performance, cycle life, and charging capability. Anode materials for lithium-ion batteries can range from natural to synthetic graphite, while emerging chemistries such as sodium-ion batteries use hard carbon.
+Catering to evolving market demands, TACC is focused on the synthetic graphite route.
+The value chain 
+begins with petroleum coke
+ sourced from global refineries, which serves as the precursor material.
+At TACC, this 
+precursor is processed
+ to alter its physical morphology and electrochemical properties to produce battery-grade active anode material.
+This material is supplied to cell manufacturers, whose batteries are then deployed across electric vehicles, energy storage systems, drones, consumer electronics, and other advanced applications.
+While TACC’s initial capacities are designed to serve lithium-ion cell manufacturers across EV, ESS, and electronics segments, we are innovating for the next phase of battery innovation. To meet future requirements such as faster charging, higher energy density, and longer cycle life,
+ TACC is working on next-generation materials, including silicon composites, graphene-based solutions, and hard carbon
+. At present, TACC’s primary industrial focus is the mass production of synthetic graphite-based active anode material for lithium-ion batteries, supporting localisation and strengthening India’s battery materials ecosystem.
+What is the scale of investment planned for anode powder production by TACC, and what is the target production capacity?
+TACC’s anode project alone represents an investment of over ₹2000 crore, including recently secured financing of approximately 
+₹1,250 crore from State Bank of India.
+In the first phase, TACC is establishing a commercial manufacturing facility with a 
+capacity of 20,000 metric tonnes per annum
+ of anode active material. This capacity has been aligned with the anticipated growth of lithium-ion cell manufacturing in India and emerging export opportunities, ensuring that capacity ramp-up, customer qualification, and market absorption progress in a balanced and disciplined manner.
+Beyond phase one, the project is designed for incremental 
+expansion up to 100,000 metric tonnes per annum by 2035
+. Following the successful commissioning of the initial facility, TACC plans to scale capacity in stages while also investing in adjacent material innovation, including silicon and hard carbon related opportunities. The broader vision is to build not just a manufacturing plant, but a scalable advanced materials platform that can support India’s evolving electric mobility and energy storage ecosystem over the coming decade.
+Please provide an overview of the plant’s location and the timelines for the start of plant construction and mass production.
+The first commercial-scale anode active material manufacturing facility of TACC is being set up at 
+Dewas, near Indore in the state of Madhya Pradesh, on a plot measuring over 100 acres of industrial land
+. This location has been chosen after careful consideration of factors such as infrastructure connectivity and utility availability, which are critical to creating a globally competitive supply chain.
+In terms of project implementation, all major environmental and government approvals have been secured, and the construction work has already commenced. 
+The anode manufacturing facility is scheduled to be operational in the first quarter of 2027.
+Simultaneously with the development of physical infrastructure, TACC has also focused on early customer engagement and product validation. This is being facilitated through the fully operational 
+demo facility at Mandideep
+, which is already facilitating qualification trials with international lithium-ion cell manufacturers.
+This structured approach, which takes into account pilot-scale validation, on-going construction work, and commissioning schedules, will ensure that TACC is not only on track to initiate commercial production on schedule but also in sync with customer qualification cycles and international quality standards.
+How much of India’s anticipated anode demand do you aim by 2030?
+India’s battery supply chain is expanding rapidly, with over 100 GWh of lithium ion cell manufacturing capacity announced for 2030. At present, most of these projects remain dependent on imported anode materials. TACC’s scale up plans are aligned with the ramp up of domestic gigafactories, with the dual objective of supporting India’s self-reliance in anode materials while also positioning the country as an export hub for advanced carbon products.
+As TACC progresses toward a capacity of around 
+60,000 MTPA
+, this output has the potential to support close to 
+60 GWh of cell manufacturing capacity.
+ The objective is not only to build scale, but to establish a stable and locally anchored supply base aligned with localisation requirements under the PLI framework and the broader battery policy regime. By synchronising capacity development with gigafactory commissioning and customer qualification timelines, TACC aims to make a meaningful contribution to India’s self-sufficiency in premium battery materials.
+Considering the price volatility in Li-ion batteries and anodes, what would be some of the key factors in ensuring healthy margins in this business?
+Battery prices impose strict cost discipline on upstream material suppliers. Maintaining healthy margins depends on structural competitiveness rather than short-term pricing cycles. At the same time, global trade actions including anti-dumping duties, countervailing duties, Section 301 tariffs and localisation-driven policies are reshaping supply chains, creating both risks and opportunities for domestic manufacturers.
+In the anode business, energy efficiency, process optimisation, and yield improvement directly impact margins.
+ In this context, TACC leverages HEG’s over 50 years of graphite technology expertise, including core processes such as graphitization, enabling tighter process control, improved thermal efficiency, and higher yields, all of which enhance cost competitiveness and margin resilience. Technology and product differentiation are equally critical.
+Supplying high-performance battery-grade material that meets stringent automotive standards for fast charging, cycle life and safety enables premium positioning over commoditised products. Scale and integration further strengthen margins through operating leverage, better precursor control, and cost stability. Companies that combine energy efficiency, scale, technology leadership, and policy alignment are best positioned to sustain margins in a competitive global market.
+Any recommendations for policymakers or the industry?
+Synthetic graphite should be included under the critical minerals framework
+, as over 90% of global anode processing capacity is concentrated in China, creating significant supply chain risk. India’s cell manufacturing ambitions are rising, but domestic anode capacity remains limited and import-dependent. Critical mineral status would enable targeted incentives, faster clearances, financing support, and strategic stockpiling. It would also strengthen localisation under PLI schemes and reduce exposure to tariffs and trade disruptions.
+Industry must prioritise the development of the 
+full anode value chain, especially the petroleum coke-based precursor capacity in India.
+ While there are oil companies that have initiated steps, stronger policy support and coordinated investment are needed to scale domestic precursor production and improve cost competitiveness.
+Competitive power tariffs 
+and robust industrial infrastructure are essential for energy-intensive processes like graphitization.
+Finally, sustained investment in innovation and industry-academia collaboration is key to moving from an assembly-driven ecosystem to a materials-led, globally competitive battery industry.
+This interview was first published in 
+EVreporter Mar 2026 magazine
+.
+Also read: 
+TACC Limited secures ₹1,230 crore SBI credit for lithium-ion anode material facility in Madhya Pradesh
+Subscribe & Stay Informed
+Subscribe today for free and stay on top of latest developments in EV domain.
+Email
+Enter your email address
+Name
+Name
+Organisation
+Organisation
+Country
+Country of Residence
+Subscribe
+← Previous
+ New entrants in India’s electric car market I Sales in FY 2025-26 | Apr 2025 – Jan 2026
+Next →
+ Spark Minda and Turntide Technologies form JV to develop EV powertrain solutions for India
+Share This Post:
+You May Also Like
+ PeakAmp Raises ₹12 Crore In Seed Round Led by Caret Capital 
+ September 11, 2025
+ India ICE vs EV sales | For top 2W, 3W, 4W OEMs in March 2025 
+ April 4, 2025
+ Kalyani Powertrain and Harbinger Motors form JV (ElectroForge) to develop e-drivetrains for trucks 
+ September 15, 2022
+Leave a Reply 
+Cancel reply
+You must be 
+logged in
+ to post a comment.
+Subscribe & Stay Informed
+Subscribe today for free and stay on top of latest developments in EV domain.
+Email
+Enter your email address
+Name
+Name
+Organisation
+Organisation
+Country
+Country of Residence
+Subscribe
+Careers
+Terms & Conditions
+Privacy Policy
+Refunds & Cancellation
+Business Opportunities in EV space
+ Copyright © 2026 
+EVreporter
+. All rights reserved. 
+Facebook
+X
+LinkedIn
+WhatsApp
+Manage Cookie Consent
+To provide the best experiences, we use technologies like cookies to store and/or access device information. Consenting to these technologies will allow us to process data such as browsing behavior or unique IDs on this site. Not consenting or withdrawing consent, may adversely affect certain features and functions.
+Functional
+Functional
+ Always active 
+The technical storage or access is strictly necessary for the legitimate purpose of enabling the use of a specific service explicitly requested by the subscriber or user, or for the sole purpose of carrying out the transmission of a communication over an electronic communications network.
+Preferences
+Preferences
+The technical storage or access is necessary for the legitimate purpose of storing preferences that are not requested by the subscriber or user.
+Statistics
+Statistics
+The technical storage or access that is used exclusively for statistical purposes.
+The technical storage or access that is used exclusively for anonymous statistical purposes. Without a subpoena, voluntary compliance on the part of your Internet Service Provider, or additional records from a third party, information stored or retrieved for this purpose alone cannot usually be used to identify you.
+Marketing
+Marketing
+The technical storage or access is required to create user profiles to send advertising, or to track the user on a website or across several websites for similar marketing purposes.
+Manage options
+Manage services
+Manage {vendor_count} vendors
+Read more about these purposes
+Accept
+Deny
+View preferences
+Save preferences
+View preferences
+{title}
+{title}
+{title}
+Manage consent
+Close this module
+Click to know more
+Never see this message again.

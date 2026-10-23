@@ -1,0 +1,1697 @@
+# materials layer — single source of truth. See docs/SCHEMA.md. Merged by scripts/research/merge.py.
+- aliases:
+  - NPSPL Speciality Chemicals cathode project
+  layer: materials
+  stages:
+  - Materials
+  minerals: []
+  commodity_as_stated: cathode material
+  products:
+  - Cathode material
+  operator: NPSPL Speciality Chemicals
+  operator_type: Unlisted private
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Gudupalle Mandal
+    district: Chittoor
+    state: Andhra Pradesh
+    country: India
+    lat: 13.46529
+    lon: 79.00619
+    precision: district
+    geometry: null
+  status: Approved
+  status_as_of: '2026-04-20'
+  status_detail: Approved by Andhra Pradesh under its electronics component policy; 105 acres
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: 2550
+    currency: INR_crore
+    basis: approved investment
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2026-04-20'
+    announced: null
+    mou: null
+    approved: 2026-04
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: "Plans a Rs 2,550 crore cathode material plant on 105 acres near Kuppam, approved under Andhra\
+      \ Pradesh's component policy."
+    why_it_matters: null
+  related: []
+  see_also: []
+  confidence: medium
+  last_verified: '2026-10-24'
+  notes: Group firm NPSPL Advanced Materials Pvt Ltd received ECMS approval for anode material in Jan 2026 (PIB
+    2210864); whether that project shares this site, and which cathode chemistry is planned, is not published. Gudupalle
+    village did not geocode reliably; point is the Chittoor district centroid.
+  id: npspl-gudupalle-cathode
+  name: NPSPL cathode material plant, Gudupalle
+  sources:
+  - id: ei-npspl-2026
+    url: "https://www.energetica-india.net/news/andhra-pradesh-clears-inr-2550-cr-cathode-material-manufacturing-project-by-npspl"
+    title: Andhra Pradesh clears INR 2,550 cr cathode material manufacturing project by NPSPL
+    publisher: Energetica India
+    tier: T3
+    date: '2026-04-20'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - status
+    - investment
+    - location
+    - products
+    - dates.first_public
+    - dates.approved
+  - id: mercom-npspl-2026
+    url: "https://mercomindia.com/npspl-to-invest-%E2%82%B925-billion-for-cathode-material-plant-in-andhra-pradesh"
+    title: NPSPL to invest Rs 25 billion for cathode material plant in Andhra Pradesh
+    publisher: Mercom India
+    tier: T3
+    date: '2026-04-20'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - status
+    - operator
+  - id: pib-2210864
+    url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2210864"
+    title: MeitY approves 22 more proposals under ECMS (tranche 3)
+    publisher: Press Information Bureau, Government of India
+    tier: T1
+    date: '2026-01-02'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - notes
+- aliases:
+  - Ami Organics Electrolytes
+  layer: materials
+  stages:
+  - Materials
+  minerals: []
+  commodity_as_stated: "Electrolyte additives: Vinylene Carbonate (VC) and Fluoro Ethylene Carbonate (FEC)"
+  products:
+  - Vinylene carbonate
+  - Fluoroethylene carbonate
+  - Third additive (phase 2)
+  operator: Acutaas Chemicals Ltd
+  operator_type: Listed private
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Jhagadia
+    district: Bharuch
+    state: Gujarat
+    country: India
+    lat: 21.71572
+    lon: 73.1497
+    precision: town
+    geometry: null
+  status: Expanding
+  status_as_of: '2026-07-24'
+  status_detail: New plant validated and supplying since Jul 2026; phase 2 (third additive) finishing by end Q2
+    FY27
+  capacity:
+    planned:
+      value: 4000
+      unit: MT/year
+      basis: electrolyte additives
+      phase: expansion from 1,000 MT (2024)
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: 256.47
+    currency: INR_crore
+    basis: ECMS-approved project outlay
+  feedstock: null
+  feedstock_detail: null
+  schemes:
+  - ecms
+  scheme_status:
+    ecms: Approved
+  dates:
+    first_public: '2024'
+    announced: null
+    mou: null
+    approved: '2026-08-17'
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: '2024'
+    closed: null
+  milestones:
+  - date: '2024-12-12'
+    event: Rs 177 crore expansion to 4,000 MT/year announced
+    source_id: angel-ami-2024
+  - date: '2026-07-24'
+    event: Trial run of new battery chemicals plant completed; commercial supply started
+    source_id: acutaas-call-2026-07
+  narrative:
+    significance: null
+    what_it_does: Makes vinylene carbonate and fluoroethylene carbonate, the additives that lengthen lithium-ion
+      cell life, under long-term export contracts.
+    why_it_matters: "It is India's main commercial maker of electrolyte additives, a step usually supplied from\
+      \ China."
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-24'
+  notes: "Company renamed from Ami Organics. First 1,000 MT line (500 MT each of VC and FEC) commissioned Q4 FY24\
+    \ (HDFC Securities). PIB lists the ECMS approval under 'first-ever domestic manufacturing' of electrolyte additives\
+    \ despite the earlier line."
+  id: acutaas-jhagadia-additives
+  name: Acutaas Chemicals electrolyte additives plant, Jhagadia
+  sources:
+  - id: acutaas-call-2026-07
+    url: "https://nsearchives.nseindia.com/corporate/AMIORG_28072026182421_TranscriptSWmergedsigned.pdf"
+    title: Acutaas Chemicals Q1 FY27 earnings call transcript
+    publisher: Acutaas Chemicals Ltd
+    tier: T2
+    date: '2026-07-24'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - status_detail
+    - location
+    - operator
+    - milestones
+  - id: hsie-ami-2024
+    url: "https://www.hdfcsec.com/hsl.docs//Ami%20Organics%20-%20Update%20-%20Aug24%20-%20HSIE-202408271511354052008.pdf"
+    title: "Ami Organics: company update (HSIE research)"
+    publisher: HDFC Securities
+    tier: T4
+    date: '2024-08-27'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - dates.commissioned
+    - dates.first_public
+    - products
+  - id: angel-ami-2024
+    url: "https://www.angelone.in/news/share-market/ami-organics-plans-rs-177-crore-expansion-for-electrolyte-additives-production"
+    title: AMI Organics plans Rs 177 crore expansion for electrolyte additives production
+    publisher: Angel One
+    tier: T3
+    date: '2024-12-12'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - capacity.planned
+    - milestones
+  - id: pib-2300625
+    url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2300625"
+    title: 106 ECMS projects approved, set to generate around 75 thousand direct jobs with Rs 69,548 crore investment
+    publisher: Press Information Bureau, Government of India
+    tier: T1
+    date: '2026-08-17'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - dates.approved
+    - scheme_status
+  - id: sahi-acutaas-2026
+    url: "https://www.sahi.com/news/acutaas-chemicals-gets-electronics-components-scheme-approval-for-electrolyte-additives-of-256-47-crores-4817-PE1_COR"
+    title: Acutaas Chemicals gets Electronics Components Scheme approval for electrolyte additives of Rs 256.47
+      crores
+    publisher: SAHI
+    tier: T3
+    date: 2026-08
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - investment
+    - location
+- aliases:
+  - GFCL EV Products
+  - Gujarat Fluorochemicals battery chemicals complex
+  layer: materials
+  stages:
+  - Materials
+  minerals:
+  - Lithium
+  - Phosphorus
+  - Graphite
+  commodity_as_stated: LiPF6 electrolyte salt, electrolytes, LFP cathode active material, PVDF binder, natural graphite
+    anode (NGAAM)
+  products:
+  - LiPF6 electrolyte salt
+  - Formulated electrolyte
+  - LFP cathode active material
+  - PVDF and PTFE binders
+  - Natural graphite anode active material (facility being set up)
+  operator: GFCL EV Products Ltd
+  operator_type: Listed private
+  owners:
+  - entity: Gujarat Fluorochemicals Ltd
+    stake_pct: 100
+  partners:
+  - name: International Finance Corporation
+    country: International
+    role: finance
+  location:
+    address: null
+    village_or_town: Jolva
+    district: Bharuch
+    state: Gujarat
+    country: India
+    lat: 21.79323
+    lon: 72.94117
+    precision: district
+    geometry: null
+  status: Expanding
+  status_as_of: '2026-08-12'
+  status_detail: Phase I commissioned; LiPF6 selling to global electrolyte makers; LFP and PVDF sales due H2 FY27;
+    anode unit being built
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: 6000
+    currency: INR_crore
+    basis: battery-materials programme over three years (May 2026)
+  feedstock: Mixed
+  feedstock_detail: "Fluorine chemistry from GFL's co-located Jolva plant; anhydrous HF trucked from GFL Dahej and\
+    \ Ranjitnagar"
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2024-02-07'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: 2024-02
+    closed: null
+  milestones:
+  - date: '2024-02-07'
+    event: LiPF6 plant achieves commercial production; Rs 6,000 crore investment announced
+    source_id: ei-gfcl-2024
+  - date: '2026-05-26'
+    event: LiPF6 approved by all major global electrolyte makers; PVDF binder qualification complete
+    source_id: gfl-deck-2026-05
+  narrative:
+    significance: null
+    what_it_does: Makes lithium salt, electrolyte, LFP cathode and binder at one site, and is adding a natural graphite
+      anode unit.
+    why_it_matters: "GFL says the range covers about 70% of the cost of an LFP cell, the widest battery-materials\
+      \ line-up of any Indian company."
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-24'
+  notes: "Earlier trade press placed the complex at Dahej; GFL's decks and the IFC disclosure place it at Jolva,\
+    \ about 13 km from GFL's Dahej plant. Jolva did not geocode; point is the Bharuch district centroid. Battery\
+    \ materials revenue in Q1 FY27: Rs 14 crore."
+  id: gfcl-ev-jolva
+  name: GFCL EV battery materials complex, Jolva
+  sources:
+  - id: gfl-deck-2026-08
+    url: "https://nsearchives.nseindia.com/corporate/FLUOROCHEM_12082026150128_GFCL_Investor_Presentation_12August2026.pdf"
+    title: Gujarat Fluorochemicals investor presentation, 12 August 2026
+    publisher: Gujarat Fluorochemicals Ltd
+    tier: T2
+    date: '2026-08-12'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - location
+    - status_detail
+    - products
+    - minerals
+    - operator
+  - id: gfl-deck-2026-05
+    url: "https://nsearchives.nseindia.com/corporate/FLUOROCHEM_26052026164956_GFCL_Investor_Presentation_26May2026.pdf"
+    title: Gujarat Fluorochemicals investor presentation, 26 May 2026
+    publisher: Gujarat Fluorochemicals Ltd
+    tier: T2
+    date: '2026-05-26'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - investment
+    - milestones
+  - id: ifc-gfcl-ev
+    url: "https://ewsdata.rightsindevelopment.org/projects/IFC-50622/"
+    title: "GFCL EV (IFC-50622): project summary"
+    publisher: Early Warning System (from IFC disclosure)
+    tier: T4
+    date: null
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - location
+    - feedstock
+    - partners
+  - id: ei-gfcl-2024
+    url: "https://www.energetica-india.net/news/gfcl-ev-announces-commencement-of-lipf6-project-invests-inr-6000-crores"
+    title: GFCL EV announces commencement of LiPF6 project, invests INR 6000 crores
+    publisher: Energetica India
+    tier: T3
+    date: '2024-02-07'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - dates.commissioned
+    - dates.first_public
+    - milestones
+- aliases:
+  - Neogen Morita New Materials
+  layer: materials
+  stages:
+  - Materials
+  minerals:
+  - Lithium
+  - Phosphorus
+  commodity_as_stated: "Electrolyte (30,000 MT); Lithium Electrolyte Salts & Additives (3,000 MT)"
+  products:
+  - Lithium-ion electrolyte (Mitsubishi Chemical-UBE MUIS technology)
+  - LiPF6 and other lithium electrolyte salts
+  operator: Neogen Ionics Ltd
+  operator_type: Listed private
+  owners:
+  - entity: Neogen Chemicals Ltd
+    stake_pct: 100
+  partners:
+  - name: Morita Investment (Morita Chemical)
+    country: Japan
+    role: jv
+  - name: MU Ionic Solutions (Mitsubishi Chemical and UBE)
+    country: Japan
+    role: technology
+  location:
+    address: null
+    village_or_town: Pakhajan
+    district: Bharuch
+    state: Gujarat
+    country: India
+    lat: 21.79863
+    lon: 72.72855
+    precision: town
+    geometry: null
+  status: Under construction
+  status_as_of: '2026-07-26'
+  status_detail: Electrolyte line mechanically complete, trial runs since mid-2026; salts due H2 FY27
+  capacity:
+    planned:
+      value: 30000
+      unit: MT
+      basis: electrolyte (plus 3,000 MT salts and additives)
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: 1367
+    currency: INR_crore
+    basis: Pakhajan phase 2 budget
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2026-02-18'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: 2026-09
+    revised_expected_completion: 2027-03
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Is commissioning a 30,000-tonne electrolyte plant and a lithium salt unit on Japanese technology
+      in the Dahej chemicals zone.
+    why_it_matters: "Neogen calls the salt joint venture with Morita India's only electrolyte salt plant outside\
+      \ the Chinese supply chain, a selling point for US-bound cells."
+  related:
+  - neogen-ionics-dahej
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-24'
+  notes: "Electrolyte targeted for H1 FY27 and salts for H2 FY27 (Feb 2026 call); whole phase 2 due Mar 2027. Morita\
+    \ holds up to 20% of the salt JV. first_public is the Feb 2026 call; the site was acquired earlier (not researched)."
+  id: neogen-ionics-pakhajan
+  name: Neogen Ionics electrolyte and LiPF6 plant, Pakhajan (Dahej PCPIR)
+  sources:
+  - id: neogen-deck-2026-07
+    url: "https://nsearchives.nseindia.com/corporate/NEOGEN_26072026165930_EP.pdf"
+    title: Neogen Chemicals earnings presentation Q1 FY27
+    publisher: Neogen Chemicals Ltd
+    tier: T2
+    date: '2026-07-26'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - status_detail
+    - capacity.planned
+    - investment
+    - location
+    - dates.revised_expected_completion
+    - products
+    - minerals
+    - operator
+  - id: neogen-call-2026-02
+    url: "https://nsearchives.nseindia.com/corporate/NEOGEN_18022026132854_TranscriptDEC25.pdf"
+    title: Neogen Chemicals Q3 FY26 earnings call transcript
+    publisher: Neogen Chemicals Ltd
+    tier: T2
+    date: '2026-02-18'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - dates.original_expected_completion
+    - dates.first_public
+    - partners
+    - status
+- aliases: []
+  layer: materials
+  stages:
+  - Materials
+  minerals:
+  - Lithium
+  - Phosphorus
+  commodity_as_stated: Electrolytes; Lithium Electrolyte Salts and additives
+  products:
+  - Lithium-ion electrolyte
+  - Lithium electrolyte salts and additives
+  operator: Neogen Ionics Ltd
+  operator_type: Listed private
+  owners:
+  - entity: Neogen Chemicals Ltd
+    stake_pct: 100
+  partners: []
+  location:
+    address: null
+    village_or_town: Dahej
+    district: Bharuch
+    state: Gujarat
+    country: India
+    lat: 21.7093
+    lon: 72.5894
+    precision: town
+    geometry: null
+  status: Expanding
+  status_as_of: '2026-07-26'
+  status_detail: 2,000 MT electrolyte line running since FY25; 200 of 1,500 MTPA salt capacity commissioned, rest
+    in trials; 1,000 MTPA more by H2 FY27
+  capacity:
+    planned:
+      value: 2500
+      unit: MTPA
+      basis: lithium electrolyte salts and additives
+      phase: 1,500 MTPA line + 1,000 MTPA by H2 FY27
+    installed:
+      value: 2000
+      unit: MT
+      basis: electrolyte
+  investment:
+    amount: 428
+    currency: INR_crore
+    basis: Dahej phase 1 project cost
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: 2025-03
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: 2027-02
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: "Makes lithium-ion electrolyte and is commissioning lithium salt lines at Neogen's Dahej site."
+    why_it_matters: It already supplies an Indian giga-scale cell maker, one of the first domestic electrolyte sources.
+  related:
+  - neogen-ionics-pakhajan
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-24'
+  notes: "Neogen's separate Dahej organics plant was rebuilt after a fire; reconstruction complete with trial runs\
+    \ (Jul 2026 deck). first_public is the end of FY25, by which the electrolyte line was commissioned; earlier\
+    \ announcements not researched."
+  id: neogen-ionics-dahej
+  name: Neogen Ionics electrolyte and lithium salt plant, Dahej
+  sources:
+  - id: neogen-deck-2026-07
+    url: "https://nsearchives.nseindia.com/corporate/NEOGEN_26072026165930_EP.pdf"
+    title: Neogen Chemicals earnings presentation Q1 FY27
+    publisher: Neogen Chemicals Ltd
+    tier: T2
+    date: '2026-07-26'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - capacity.planned
+    - investment
+    - dates.first_public
+    - dates.revised_expected_completion
+    - location
+    - minerals
+    - products
+    - operator
+- aliases: []
+  layer: materials
+  stages:
+  - Materials
+  minerals:
+  - Phosphorus
+  commodity_as_stated: precursor cathode active materials (pCAMs), including iron phosphate and manganese derivatives
+  products:
+  - Battery-grade iron phosphate (LFP precursor)
+  operator: Sudeep Advanced Materials Pvt. Ltd.
+  operator_type: Unlisted private
+  owners:
+  - entity: Sudeep Pharma
+    stake_pct: null
+  partners: []
+  location:
+    address: null
+    village_or_town: null
+    district: null
+    state: Gujarat
+    country: India
+    lat: 22.69973
+    lon: 71.57571
+    precision: state
+    geometry: null
+  status: Pilot
+  status_as_of: '2025-11-03'
+  status_detail: 200 kg/day pilot line shipping trial material; 35,000 tpa targeted by 2027
+  capacity:
+    planned:
+      value: 100000
+      unit: tpa
+      basis: pCAM
+      phase: 35,000 tpa by 2027; 100,000 tpa by 2030
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2024-10-01'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: '2026'
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Makes battery-grade iron phosphate, the precursor that LFP cathode makers react with lithium,
+      at pilot scale.
+    why_it_matters: It already ships trial material to Altmin, giving India a domestic precursor for LFP cathode
+      plants.
+  related:
+  - altmin-divitipally-lfp
+  see_also: []
+  confidence: medium
+  last_verified: '2026-10-24'
+  notes: Site within Gujarat not published (a 30-acre commercialisation hub is planned); point is the state centroid.
+    See OPEN_QUESTIONS 10.
+  id: sudeep-pcam-gujarat
+  name: Sudeep Advanced Materials iron phosphate (pCAM) plant, Gujarat
+  sources:
+  - id: bmi-altmin-sam-2025
+    url: "https://source.benchmarkminerals.com/article/site-visit-altmin-and-sudeep-advanced-material-support-indias-midstream-ambitions"
+    title: "Site visit: Altmin and Sudeep Advanced Material support India's midstream ambitions"
+    publisher: Benchmark Mineral Intelligence
+    tier: T4
+    date: '2025-11-03'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - location
+    - status_detail
+    - capacity.planned
+  - id: evr-sudeep-2024
+    url: "https://evreporter.com/sudeep-pharma-launches-sudeep-advanced-materials-to-produce-pcam-for-ev-batteries/"
+    title: Sudeep Pharma launches Sudeep Advanced Materials to produce pCAM for EV batteries
+    publisher: EVreporter
+    tier: T3
+    date: '2024-10-01'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.original_expected_completion
+    - minerals
+    - products
+    - operator
+- aliases:
+  - EAM-ONE
+  - Epsilon C2GR anode project
+  layer: materials
+  stages:
+  - Materials
+  minerals:
+  - Graphite
+  commodity_as_stated: graphite anode material
+  products:
+  - Graphite anode active material
+  operator: Epsilon Advanced Materials Pvt. Ltd.
+  operator_type: Unlisted private
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Vijayanagar
+    district: null
+    state: Karnataka
+    country: India
+    lat: 15.10977
+    lon: 76.53239
+    precision: district
+    geometry: null
+  status: Pilot
+  status_as_of: '2026-08-18'
+  status_detail: Customer qualification plant running; commercial expansion to 30,000 tpa approved under ECMS (Aug
+    2026), due 2028
+  capacity:
+    planned:
+      value: 30000
+      unit: tpa
+      basis: graphite anode material
+      phase: by 2028; 100,000 tpa in phase two
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes:
+  - ecms
+  scheme_status:
+    ecms: Approved
+  dates:
+    first_public: '2022-11-04'
+    announced: null
+    mou: null
+    approved: '2026-08-17'
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: 2025-02
+    event: MoU with Karnataka for Rs 9,000 crore graphite anode investment (part of a Rs 15,350 crore battery-materials
+      package)
+    source_id: tmm-epsilon-2025
+  - date: '2026-08-17'
+    event: "ECMS approval with Rs 145 crore capex support (25% of project capex)"
+    source_id: pib-2300625
+  narrative:
+    significance: null
+    what_it_does: Makes graphite anode material at a qualification plant so that cell makers can test it before
+      Epsilon builds commercial lines.
+    why_it_matters: Epsilon plans 30,000 tonnes a year by 2028 and says it will export most of it to US customers.
+  related:
+  - epsilon-lfp-cam-karnataka
+  see_also: []
+  confidence: medium
+  last_verified: '2026-10-24'
+  notes: "Sources say only 'Vijayanagar, Karnataka'; the point is the centroid of the 2019 Ballari district polygon,\
+    \ which contains present-day Vijayanagara district. The ECMS project is named 'Epsilon C2GR'; its plant site\
+    \ is not published. Epsilon's Karnataka anode MoU dates to Nov 2022 (EVreporter) and was folded into the Feb\
+    \ 2025 package. See OPEN_QUESTIONS 10."
+  id: epsilon-eam-one-vijayanagar
+  name: Epsilon Advanced Materials graphite anode plant (EAM-ONE), Vijayanagar
+  sources:
+  - id: bt-epsilon-2026
+    url: "https://www.businesstoday.in/latest/corporate/story/epsilons-lithium-ion-battery-anode-project-gets-government-nod-549897-2026-08-18"
+    title: "Epsilon's lithium-ion battery anode project gets government nod"
+    publisher: Business Today
+    tier: T3
+    date: '2026-08-18'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - status
+    - location
+    - capacity.planned
+    - status_detail
+    - minerals
+    - products
+  - id: ei-epsilon-2026
+    url: "https://www.energetica-india.net/news/epsilon-advanced-materials-secures-inr-145-crore-ecms-support-for-indigenous-graphite-anode-project"
+    title: Epsilon Advanced Materials secures INR 145 crore ECMS support for indigenous graphite anode project
+    publisher: Energetica India
+    tier: T3
+    date: 2026-08
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - operator
+    - status
+    - location
+  - id: pib-2300625
+    url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2300625"
+    title: 106 ECMS projects approved, set to generate around 75 thousand direct jobs with Rs 69,548 crore investment
+    publisher: Press Information Bureau, Government of India
+    tier: T1
+    date: '2026-08-17'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - dates.approved
+    - scheme_status
+  - id: tmm-epsilon-2025
+    url: "https://themachinemaker.com/news/epsilon-group-to-invest-%e2%82%b915350-crore-in-karnataka-for-ev-battery-materials-and-rd/"
+    title: "Epsilon Group to invest Rs 15,350 crore in Karnataka for EV battery materials and R&D"
+    publisher: The Machine Maker
+    tier: T3
+    date: '2025-02-13'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - milestones
+  - id: evr-epsilon-2022
+    url: "https://evreporter.com/epsilon-advanced-materials-signs-mou-with-karnataka-government/"
+    title: Epsilon Advanced Materials to invest INR 9,000 crore in Karnataka over ten years for anode production
+    publisher: EVreporter
+    tier: T3
+    date: '2022-11-04'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - dates.first_public
+- aliases: []
+  layer: materials
+  stages:
+  - Materials
+  minerals:
+  - Lithium
+  - Phosphorus
+  commodity_as_stated: Lithium Iron Phosphate (LFP) Cathode
+  products:
+  - LFP cathode active material
+  operator: Epsilon CAM Pvt. Ltd.
+  operator_type: Unlisted private
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: null
+    district: null
+    state: Karnataka
+    country: India
+    lat: 14.71036
+    lon: 76.16753
+    precision: state
+    geometry: null
+  status: MoU signed
+  status_as_of: '2026-08-18'
+  status_detail: Rs 6,000 crore MoU (Feb 2025); company says ground-breaking by end-2026 and commissioning early
+    2028
+  capacity:
+    planned:
+      value: 30000
+      unit: t
+      basis: LFP cathode, for about 15 GWh of cells
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: 6000
+    currency: INR_crore
+    basis: MoU commitment
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2025-02-13'
+    announced: null
+    mou: 2025-02
+    approved: null
+    construction_start: null
+    original_expected_completion: '2028'
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Plans a 30,000-tonne LFP cathode plant in Karnataka, enough for about 15 GWh of cells.
+    why_it_matters: "It would pair with Epsilon's anode plant to supply both electrodes from one state, though lithium\
+      \ would still come from abroad."
+  related:
+  - epsilon-eam-one-vijayanagar
+  see_also: []
+  confidence: medium
+  last_verified: '2026-10-24'
+  notes: "Site within Karnataka not published; point is the state centroid (OPEN_QUESTIONS 10). In the Business\
+    \ Today interview the 30,000-tonne 'break ground before the end of the year' plant follows a passage on cathodes;\
+    \ it may refer to the anode expansion. Lithium carbonate needed: about 5,000 t, sourced from China, Australia\
+    \ and South America."
+  id: epsilon-lfp-cam-karnataka
+  name: Epsilon CAM LFP cathode plant, Karnataka
+  sources:
+  - id: tmm-epsilon-2025
+    url: "https://themachinemaker.com/news/epsilon-group-to-invest-%e2%82%b915350-crore-in-karnataka-for-ev-battery-materials-and-rd/"
+    title: "Epsilon Group to invest Rs 15,350 crore in Karnataka for EV battery materials and R&D"
+    publisher: The Machine Maker
+    tier: T3
+    date: '2025-02-13'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - investment
+    - dates.mou
+    - dates.first_public
+    - location
+    - minerals
+    - products
+    - operator
+  - id: bt-epsilon-2026
+    url: "https://www.businesstoday.in/latest/corporate/story/epsilons-lithium-ion-battery-anode-project-gets-government-nod-549897-2026-08-18"
+    title: "Epsilon's lithium-ion battery anode project gets government nod"
+    publisher: Business Today
+    tier: T3
+    date: '2026-08-18'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - capacity.planned
+    - dates.original_expected_completion
+    - status_detail
+- aliases:
+  - The Advanced Carbons Company
+  layer: materials
+  stages:
+  - Materials
+  minerals:
+  - Graphite
+  commodity_as_stated: lithium-ion battery-grade graphite anode material (synthetic)
+  products:
+  - Synthetic graphite anode active material
+  operator: TACC Ltd
+  operator_type: Listed private
+  owners:
+  - entity: HEG Ltd
+    stake_pct: 100
+  partners: []
+  location:
+    address: null
+    village_or_town: null
+    district: Dewas
+    state: Madhya Pradesh
+    country: India
+    lat: 22.74419
+    lon: 76.45727
+    precision: district
+    geometry: null
+  status: Under construction
+  status_as_of: '2026-03-10'
+  status_detail: Construction under way on a 100-acre site; operations due Q1 2027
+  capacity:
+    planned:
+      value: 20000
+      unit: MTPA
+      basis: anode active material
+      phase: phase 1; 100,000 MTPA by 2035
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: 2000
+    currency: INR_crore
+    basis: "phase 1, 'over Rs 2,000 crore'"
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2025-10-16'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: 2027-03
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: '2025-10-16'
+    event: SBI sanctions Rs 1,230 crore credit facility
+    source_id: evr-tacc-sbi-2025
+  - date: '2026-02-24'
+    event: INOX Air Products contracted for an onsite nitrogen plant
+    source_id: heg-inox-2026
+  narrative:
+    significance: null
+    what_it_does: Is building a 20,000-tonne-a-year synthetic graphite anode plant near Indore for EV and storage
+      cells.
+    why_it_matters: "HEG, India's largest graphite electrode maker, is using its graphitisation know-how to enter\
+      \ a market about 90% supplied by China."
+  related: []
+  see_also: []
+  confidence: medium
+  last_verified: '2026-10-24'
+  notes: Site is Sirsoda village per a 2024 Daily Pioneer report of the groundbreaking (page now 404, not archived);
+    point is the Dewas district centroid. Investment was Rs 1,850 crore in 2024 reports, over Rs 2,000 crore in
+    2026.
+  id: tacc-dewas-anode
+  name: TACC synthetic graphite anode plant, Dewas
+  sources:
+  - id: evr-tacc-2026
+    url: "https://evreporter.com/taccs-%e2%82%b92000-crore-leap-into-lithium-ion-battery-anode-manufacturing/"
+    title: "TACC's Rs 2000 crore leap into lithium-ion battery anode manufacturing"
+    publisher: EVreporter
+    tier: T3
+    date: '2026-03-10'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - location
+    - capacity.planned
+    - investment
+    - dates.original_expected_completion
+    - status_detail
+    - minerals
+    - products
+  - id: evr-tacc-sbi-2025
+    url: "https://evreporter.com/tacc-limited-secures-%e2%82%b91230-crore-sbi-credit-for-lithium-ion-anode-material-facility-in-madhya-pradesh/"
+    title: TACC Limited secures Rs 1,230 crore SBI credit for lithium-ion anode material facility in Madhya Pradesh
+    publisher: EVreporter
+    tier: T3
+    date: '2025-10-16'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - milestones
+    - dates.first_public
+  - id: heg-inox-2026
+    url: "https://nsearchives.nseindia.com/corporate/HEG_24022026154050_Stxintimation240226_PR01.pdf"
+    title: "HEG Ltd stock exchange intimation: INOX Air Products and TACC nitrogen supply agreement"
+    publisher: HEG Ltd
+    tier: T2
+    date: '2026-02-24'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - operator
+    - location
+    - status
+- aliases:
+  - Himadri Future Material Technology LFP plant
+  layer: materials
+  stages:
+  - Materials
+  minerals:
+  - Lithium
+  - Phosphorus
+  commodity_as_stated: LFP Cathode Active Material
+  products:
+  - Lithium iron phosphate (LFP) cathode active material
+  operator: Himadri Speciality Chemical Ltd
+  operator_type: Listed private
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: null
+    district: null
+    state: Odisha
+    country: India
+    lat: 20.51277
+    lon: 84.42653
+    precision: state
+    geometry: null
+  status: Under construction
+  status_as_of: '2026-10-17'
+  status_detail: Phase 1 of 40,000 MTPA (Rs 1,125 crore) on schedule for Q3 FY27
+  capacity:
+    planned:
+      value: 40000
+      unit: MTPA
+      basis: LFP cathode active material
+      phase: phase 1; 200,000 MTPA long term
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: 1125
+    currency: INR_crore
+    basis: phase 1 capex
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2023-12-06'
+    announced: '2023-12-06'
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: 2026-12
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Is building a 40,000-tonne-a-year plant to make lithium iron phosphate, the cathode material used
+      in most new EV and storage cells.
+    why_it_matters: Himadri bills it as the first commercial LFP cathode plant outside China, aimed at both Indian
+      and export cell makers.
+  related:
+  - himadri-anode-mahistikry
+  see_also: []
+  confidence: medium
+  last_verified: '2026-10-24'
+  notes: "Site within Odisha not published; point is the state centroid (OPEN_QUESTIONS 10). Original target: operational\
+    \ 27-36 months from Dec 2023 (Mar 2026 to Dec 2028); expected completion recorded as Q3 FY27 per the Oct 2026\
+    \ deck."
+  id: himadri-lfp-cam-odisha
+  name: Himadri LFP cathode active material plant, Odisha
+  sources:
+  - id: hscl-deck-2026
+    url: "https://nsearchives.nseindia.com/corporate/HSCL_17102026190250_InvestorpresentationQ2FY27Stockex17102026.pdf"
+    title: Himadri Speciality Chemical investor presentation Q2 FY27
+    publisher: Himadri Speciality Chemical Ltd
+    tier: T2
+    date: '2026-10-17'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - status
+    - status_detail
+    - capacity.planned
+    - investment
+    - dates.original_expected_completion
+    - operator
+  - id: acp-himadri-lfp-2023
+    url: "https://autocarpro.in/news/himadri-speciality-chemical-announces-indias-first-plant-for-lfp-cathode-active-material--118106"
+    title: "Himadri Speciality Chemical announces India's first plant for LFP cathode active material"
+    publisher: Autocar Professional
+    tier: T3
+    date: '2023-12-06'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - location
+    - dates.announced
+    - dates.first_public
+    - minerals
+    - products
+  - id: tmm-himadri-lfp-2024
+    url: "https://themachinemaker.com/news/himadri-speciality-chemical-aims-to-commission-odisha-plant-by-fy27/"
+    title: Himadri Speciality Chemical aims to commission Odisha plant by FY27
+    publisher: The Machine Maker
+    tier: T3
+    date: '2024-09-19'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+- aliases:
+  - Aditya Aluminium FRP and battery foil facility
+  layer: materials
+  stages:
+  - Materials
+  minerals: []
+  commodity_as_stated: battery-grade aluminium foil
+  products:
+  - Battery-grade aluminium foil (cathode current collector)
+  operator: Hindalco Industries Ltd
+  operator_type: Listed private
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: null
+    district: Sambalpur
+    state: Odisha
+    country: India
+    lat: 21.4512
+    lon: 84.27444
+    precision: district
+    geometry: null
+  status: Operational
+  status_as_of: '2026-01-27'
+  status_detail: Commissioned Jan 2026 with a 1.7 lakh tpa rolling mill; sized for up to 100 GWh of cells
+  capacity:
+    planned:
+      value: 25000
+      unit: t
+      basis: battery foil, initial (2023 plan)
+      phase: null
+    installed:
+      value: 100
+      unit: GWh
+      basis: of lithium-ion cells supported
+      phase: null
+  investment:
+    amount: 4500
+    currency: INR_crore
+    basis: FRP and battery foil facility combined
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2023-12-12'
+    announced: '2023-12-12'
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: 2025-07
+    revised_expected_completion: null
+    commissioned: '2026-01-27'
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: "Rolls aluminium from Hindalco's Sambalpur smelter into the thin foil that carries the cathode\
+      \ in every lithium-ion cell."
+    why_it_matters: "It is India's first battery-foil plant at scale, built next to its own metal supply."
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-24'
+  notes: "Commissioning slipped about six months from the July 2025 target. Hindalco's Mouda (Maharashtra) unit\
+    \ makes battery foil at smaller scale. A reported Hindalco copper-foil project in Gujarat rests on a market-research\
+    \ page only and is not recorded."
+  id: hindalco-sambalpur-battery-foil
+  name: Hindalco battery-grade aluminium foil plant, Sambalpur
+  sources:
+  - id: hindalco-pr-2026
+    url: "https://www.hindalco.com/media/press-releases/hindalco-announces-rs21000-crore-smelter-expansion-commissions-frp-and-battery-foil-facilities-odisha"
+    title: Hindalco announces Rs 21,000-crore smelter expansion; commissions FRP and battery foil facilities in
+      Odisha
+    publisher: Hindalco Industries Ltd
+    tier: T2
+    date: '2026-01-27'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - dates.commissioned
+    - investment
+    - capacity.installed
+    - location
+    - products
+    - operator
+  - id: abg-foil-2023
+    url: "https://www.adityabirla.com/media/press-releases/hindalco-to-set-up-battery-foil-manufacturing-facility-in-odisha-to-tap-ev-market-lines-up-rs800-crore-investment/"
+    title: Hindalco to set up battery foil manufacturing facility in Odisha; lines up Rs 800 crore investment
+    publisher: Aditya Birla Group
+    tier: T2
+    date: '2023-12-12'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - capacity.planned
+    - dates.announced
+    - dates.first_public
+    - dates.original_expected_completion
+    - notes
+  - id: acp-hindalco-2026
+    url: "https://www.autocarpro.in/news/hindalco-announces-major-aluminium-expansion-in-odisha-worth-%E2%82%B921000-crore-130783"
+    title: Hindalco announces major aluminium expansion in Odisha worth Rs 21,000 crore
+    publisher: Autocar Professional
+    tier: T3
+    date: '2026-01-27'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+- aliases: []
+  layer: materials
+  stages:
+  - Materials
+  - Recycling
+  minerals:
+  - Cobalt
+  - Nickel
+  - Lithium
+  commodity_as_stated: Cathode Active Material (CAM); cobalt, nickel, and lithium from recycled batteries
+  products:
+  - Cathode active material
+  - Cobalt, nickel and lithium recovered from 20,000 tpa of used batteries
+  operator: LOHUM Cleantech Pvt. Ltd.
+  operator_type: Startup
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: null
+    district: Krishnagiri
+    state: Tamil Nadu
+    country: India
+    lat: 12.49063
+    lon: 78.03139
+    precision: district
+    geometry: null
+  status: Announced
+  status_as_of: '2024-07-25'
+  status_detail: 65 acres bought; production was targeted within 18 months of Jul 2024; no later progress report
+    found
+  capacity:
+    planned:
+      value: 20
+      unit: GWh
+      basis: CAM-equivalent
+      phase: starting 5-10 GWh
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: 2000
+    currency: INR_crore
+    basis: over six years; Rs 400 crore in the first two years
+  feedstock: Scrap/secondary
+  feedstock_detail: Used lithium-ion batteries (20,000 tpa)
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2024-07-25'
+    announced: '2024-07-25'
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: 2026-01
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Plans a plant that recycles 20,000 tonnes of used batteries a year and turns the recovered metals
+      into cathode active material.
+    why_it_matters: "Closing the loop from scrap to cathode would cut India's need for imported nickel, cobalt and\
+      \ lithium chemicals."
+  related:
+  - lohum-greater-noida-repm
+  see_also: []
+  confidence: low
+  last_verified: '2026-10-24'
+  notes: No construction or commissioning report found after the Jul 2024 announcement, past its 18-month target
+    (OPEN_QUESTIONS 11). Some reports name Shoolagiri taluk; point is the Krishnagiri district centroid.
+  id: lohum-krishnagiri-cam
+  name: LOHUM cathode active material and recycling plant, Krishnagiri
+  sources:
+  - id: tmm-lohum-2024
+    url: "https://themachinemaker.com/news/lohum-to-invest-%e2%82%b92000-crore-in-new-krishnagiri-plant"
+    title: LOHUM to invest Rs 2,000 crore in new Krishnagiri plant
+    publisher: The Machine Maker
+    tier: T3
+    date: '2024-07-25'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - status_detail
+    - investment
+    - location
+    - products
+    - minerals
+    - feedstock
+    - dates.announced
+    - dates.first_public
+    - operator
+    - capacity.planned
+    - dates.original_expected_completion
+  - id: mpi-lohum-2024
+    url: "https://www.manufacturingplantindia.com/lohum-to-invest-2000-cr-in-battery-material-plant-in-krishnagiri/"
+    title: LOHUM to invest 2000 cr in battery material plant in Krishnagiri
+    publisher: Manufacturing Plant India
+    tier: T5
+    date: '2024'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - notes
+- aliases: []
+  layer: materials
+  stages:
+  - Materials
+  - "R&D"
+  minerals:
+  - Lithium
+  - Phosphorus
+  commodity_as_stated: cathode active material (CAM), LFP
+  products:
+  - LFP cathode active material (pilot scale)
+  operator: Altmin Pvt. Ltd.
+  operator_type: Startup
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Balapur, Hyderabad
+    district: Ranga Reddy
+    state: Telangana
+    country: India
+    lat: 17.30505
+    lon: 78.50847
+    precision: site
+    geometry: null
+  status: Pilot
+  status_as_of: '2025-11-03'
+  status_detail: Pilot CAM line with mostly local equipment; samples sent to customers
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2025-11-03'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: "Runs Altmin's pilot LFP cathode line, which supplies test material to cell makers ahead of the\
+      \ Divitipally factory."
+    why_it_matters: null
+  related:
+  - altmin-divitipally-lfp
+  - arci-ndfeb-pilot-hyderabad
+  see_also: []
+  confidence: medium
+  last_verified: '2026-10-24'
+  notes: Benchmark places the CAM facility at Balapur, Hyderabad; the ARCI campus location and the 2023 start date
+    come from secondary reports not archived. Point is the ARCI campus.
+  id: altmin-balapur-pilot
+  name: Altmin LFP cathode pilot plant, Balapur (ARCI campus)
+  sources:
+  - id: bmi-altmin-sam-2025
+    url: "https://source.benchmarkminerals.com/article/site-visit-altmin-and-sudeep-advanced-material-support-indias-midstream-ambitions"
+    title: "Site visit: Altmin and Sudeep Advanced Material support India's midstream ambitions"
+    publisher: Benchmark Mineral Intelligence
+    tier: T4
+    date: '2025-11-03'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - location
+    - status_detail
+    - operator
+    - dates.first_public
+    - minerals
+- aliases: []
+  layer: materials
+  stages:
+  - Materials
+  minerals:
+  - Lithium
+  - Phosphorus
+  commodity_as_stated: Lithium Iron Phosphate (LFP) cathode
+  products:
+  - LFP cathode active material
+  operator: Altmin Pvt. Ltd.
+  operator_type: Startup
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Divitipally
+    district: Mahabubnagar
+    state: Telangana
+    country: India
+    lat: 16.73643
+    lon: 78.08656
+    precision: town
+    geometry: null
+  status: Under construction
+  status_as_of: '2025-11-03'
+  status_detail: "Foundation stone laid Mar 2025 next to Amara Raja's cell plant; due to start in 2026 at 10,000\
+    \ tpa"
+  capacity:
+    planned:
+      value: 10000
+      unit: tpa
+      basis: LFP
+      phase: initial; 100,000 tpa in the 2030s
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: 750
+    currency: INR_crore
+    basis: announced investment
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2025-03-13'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: '2025-03-13'
+    original_expected_completion: '2026'
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: "Is building an LFP cathode factory on 20 acres beside Amara Raja's lithium-ion cell plant in\
+      \ Mahabubnagar."
+    why_it_matters: "A cathode plant next to a cell plant shortens India's most import-dependent link, though Altmin\
+      \ will use Chinese equipment at commercial scale."
+  related:
+  - altmin-balapur-pilot
+  see_also: []
+  confidence: medium
+  last_verified: '2026-10-24'
+  notes: "Initial capacity stated as 8 GWh at the groundbreaking (Autocar Professional) and 10,000 tpa by Benchmark\
+    \ (Nov 2025). Lithium supply partnerships with CBL (Brazil) and YLB (Bolivia). Altmin's Dec 2025 lithium refinery\
+    \ JV with Singareni is researched in L4."
+  id: altmin-divitipally-lfp
+  name: Altmin LFP cathode plant, Divitipally
+  sources:
+  - id: acp-altmin-2025
+    url: "https://autocarpro.in/news/altmin-to-set-up-indias-first-lfp-cathode-giga-factory-with-rs-750-crore-investment-125396"
+    title: "Altmin to set up India's first LFP cathode giga-factory with Rs 750 crore investment"
+    publisher: Autocar Professional
+    tier: T3
+    date: '2025-03-13'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - location
+    - investment
+    - dates.construction_start
+    - dates.first_public
+    - operator
+    - minerals
+    - products
+  - id: bmi-altmin-sam-2025
+    url: "https://source.benchmarkminerals.com/article/site-visit-altmin-and-sudeep-advanced-material-support-indias-midstream-ambitions"
+    title: "Site visit: Altmin and Sudeep Advanced Material support India's midstream ambitions"
+    publisher: Benchmark Mineral Intelligence
+    tier: T4
+    date: '2025-11-03'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - capacity.planned
+    - dates.original_expected_completion
+    - status_detail
+- aliases: []
+  layer: materials
+  stages:
+  - Materials
+  minerals:
+  - Graphite
+  commodity_as_stated: anode material
+  products:
+  - Anode active material
+  operator: Himadri Speciality Chemical Ltd
+  operator_type: Listed private
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Mahistikry
+    district: Hooghly
+    state: West Bengal
+    country: India
+    lat: 22.88343
+    lon: 88.07266
+    precision: district
+    geometry: null
+  status: Operational
+  status_as_of: '2026-10-17'
+  status_detail: 200 MTPA first line in production since Apr 2026
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: 200
+      unit: MTPA
+      basis: anode material
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2026-04-23'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: '2026-04-23'
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: "Produces lithium-ion anode material from Himadri's own coal-tar carbon feedstock, on a first\
+      \ 200-tonne-a-year line."
+    why_it_matters: It is one of the first commercial anode lines in India, built on ten years of in-house process
+      work rather than licensed technology.
+  related:
+  - himadri-lfp-cam-odisha
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-24'
+  notes: Mahistikry is not in OpenStreetMap; point is the Hooghly district centroid. Himadri also plans a 200 MTPA
+    carbon nanotube plant (Rs 70 crore, Q4 FY27); its site is not published.
+  id: himadri-anode-mahistikry
+  name: Himadri anode material plant, Mahistikry
+  sources:
+  - id: hscl-anode-2026
+    url: "https://nsearchives.nseindia.com/corporate/HSCL_23042026155746_Commencementoffirstanodematerialproduction.pdf"
+    title: "Himadri Speciality Chemical: commencement of first anode material production (stock exchange filing)"
+    publisher: Himadri Speciality Chemical Ltd
+    tier: T2
+    date: '2026-04-23'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - status
+    - location
+    - capacity.installed
+    - dates.commissioned
+    - dates.first_public
+    - operator
+    - products
+    - minerals
+  - id: cid-himadri-2026
+    url: "https://chemindigest.com/himadri-accelerates-growth-in-speciality-materials-segment/"
+    title: Himadri accelerates growth in speciality materials segment
+    publisher: Chemical Industry Digest
+    tier: T3
+    date: '2026-07-16'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+  - id: hscl-deck-2026
+    url: "https://nsearchives.nseindia.com/corporate/HSCL_17102026190250_InvestorpresentationQ2FY27Stockex17102026.pdf"
+    title: Himadri Speciality Chemical investor presentation Q2 FY27
+    publisher: Himadri Speciality Chemical Ltd
+    tier: T2
+    date: '2026-10-17'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - status

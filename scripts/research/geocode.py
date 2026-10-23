@@ -8,6 +8,7 @@ and any result whose state does not match is rejected.
 Usage:
   .venv/bin/python -I scripts/research/geocode.py "Chavara" --state Kerala [--district Kollam] [--country India]
   .venv/bin/python -I scripts/research/geocode.py --district-centroid Kollam --state Kerala
+  .venv/bin/python -I scripts/research/geocode.py --state-centroid --state Odisha
 
 Output: one JSON line {query, lat, lon, display_name, osm_type, class, type, state, district, ok, reason}
 For the district-centroid mode the centroid is computed from data/reference/districts.geojson
@@ -98,6 +99,22 @@ def district_centroid(district, state):
             "method": "centroid of districts.geojson polygon"}
 
 
+def state_centroid(state):
+    """Interior point of the state polygon, for records whose sources name only the state."""
+    from shapely.geometry import shape
+    gj = json.load(open(os.path.join(ROOT, "data", "reference", "states.geojson")))
+    hits = [ft for ft in gj["features"] if state_ok(ft["properties"].get("state") or "", state)
+            and norm(ft["properties"].get("state")) == norm(state)]
+    if len(hits) != 1:
+        return {"ok": False, "reason": f"{len(hits)} state matches for {state}"}
+    poly = shape(hits[0]["geometry"])
+    c = poly.centroid
+    if not poly.contains(c):
+        c = poly.representative_point()
+    return {"ok": True, "lat": round(c.y, 5), "lon": round(c.x, 5), "precision": "state",
+            "method": "centroid of states.geojson polygon"}
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("place", nargs="?")
@@ -105,7 +122,12 @@ def main():
     ap.add_argument("--district")
     ap.add_argument("--country", default="India")
     ap.add_argument("--district-centroid", dest="dc")
+    ap.add_argument("--state-centroid", dest="sc", action="store_true")
     a = ap.parse_args()
+
+    if a.sc:
+        print(json.dumps({"query": a.state, **state_centroid(a.state)}))
+        return
 
     if a.dc:
         print(json.dumps({"query": f"{a.dc}, {a.state}", **district_centroid(a.dc, a.state)}))

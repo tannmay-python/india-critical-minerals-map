@@ -1,0 +1,147 @@
+
+Early Warning System
+Toggle navigation
+About
+Work
+People
+Media
+Contribute
+ GFCL EV (IFC-50622)
+ Regions 
+South Asia
+Geographic location where the impacts of the investment may be experienced.
+ Countries 
+India
+Geographic location where the impacts of the investment may be experienced.
+ Specific Location 
+ Jolva, Gujarat
+Whenever identified, the area within countries where the impacts of the investment may be experienced. Exact locations of projects may not be identified fully or at all in project documents. Please review updated project documents and community-led assessments.
+ Financial Institutions 
+International Finance Corporation (IFC)
+International, regional and national development finance institutions. Many of these banks have a public interest mission, such as poverty reduction.
+ Project Status
+ Approved
+Stage of the project cycle. Stages vary by development bank and can include: pending, approval, implementation, and closed or completed.
+ Bank Risk Rating 
+ A
+Environmental and social categorization assessed by the development bank as a measure of the planned project’s environmental and social impacts. A higher risk rating may require more due diligence to limit or avoid harm to people and the environment. For example, "A" or "B" are risk categories where "A" represents the highest amount of risk. Results will include projects that specifically recorded a rating, all other projects are marked ‘U’ for "Undisclosed."
+ Voting Date 
+ Oct 3, 2025
+Date when project documentation and funding is reviewed by the Board for consideration and approval. Some development banks will state a "board date" or "decision date." When funding approval is obtained, the legal documents are accepted and signed, the implementation phase begins.
+ Borrower 
+ GFCL EV Products Limited (Gujarat Fluorochemicals Limited)
+A public entity (government or state-owned) provided with funds or financial support to manage and/or implement a project.
+ Sectors 
+Energy
+Industry and Trade
+Transport
+The service or industry focus of the investment. A project can have several sectors.
+ Investment Type(s) 
+ Equity
+The categories of the bank investment: loan, grant, guarantee, technical assistance, advisory services, equity and fund.
+ Investment Amount (USD) 
+ $ 48.46 million
+ Value listed on project documents at time of disclosure. If necessary, this amount is converted to USD ($) on the date of disclosure. Please review updated project documents for more information.
+ Currency conversion note:
+ Bank reported 4300
+ Converted using 2025-10-03 exchange rate.
+ Project Cost (USD) 
+ $ 709.00 million
+ Value listed on project documents at time of disclosure. If necessary, this amount is converted to USD ($) on the date of disclosure. Please review updated project documents for more information.
+Bank Documents
+ Environmental & Social Review Summary (ESRS)
+ GFCL EV EIA
+ Primary Source
+Original disclosure @ IFC website
+Updated in EWS Feb 17, 2026
+Disclosed by Bank Dec 12, 2025
+Contribute Information
+ Can you contribute information about this project?
+Contact the EWS Team
+Project Description 
+If provided by the financial institution, the Early Warning System Team writes a short summary describing the purported development objective of the project and project components. Review the complete project documentation for a detailed description.
+As stated on the project disclosure page, IFC's proposed transaction involves an equity investment of up to US$50mn in GFCL EV Products Limited. The investment will support the Company's manufacturing facility in Gujarat, India, which is under phased commissioning, to produce electrolytes, salts, binders and Cathode Active Material (CAM). Given the equity nature of the proposed investment in GFCL EV, IFC will also appraise future projects of the Company as and when they are undertaken and update the disclosed ESRS and ESAP as necessary. The current focus of this ESRS is on the Jolva site in Gujarat facility which is collocated with one of the manufacturing plants of GFL on an industrial plot in the Gujarat Industrial Development Corporation (GIDC) Jolva, Gujarat.
+The GFCL EV project site at Jolva is spread over a land area of 103,863 m2 (25.66 Acres) of the total plot area of about 130 acres of GFL. The land parcel has been awarded by GIDC on long term lease to GFL in 2010 and GFL has subleased 20% of the site to GFCL EV. Electricity is sourced from a dedicated express feeder of 66 kV from Gujarat Energy Transmission Corporation (GETCO). Similarly, water is provided by GIDC through a dedicated pipeline within the industrial zone.
+The collocated GFL plant produces Polytetrafluoroethylene (PTFE) micropowder, FKM- Fluoro Elastomer, Benzyl Trichloride (BTC), Potassium Fluoride (KF)/Potassium, VDF (Vinylidene Fluoride)/Potassium Fluoride and PVDF (Poly Vinylidene Difluoride). GFCL EV will be producing Lithium Hexafluoro Phosphate (LiPF6), PVDF (Poly Vinylidene Difluoride, PVDF Membrane, and Lithium Ferro Phosphate, using some of the products manufactured by GFL at Jolva and their other sites.
+Operations of GFL on the Jolva site commenced in 2019. The manufacturing plant of GFCL EV at Jolva site has been constructed and is presently under various stages of commissioning with some units having started production. GFCL EV will require upto 425 MT/month of anhydrous hydrogen fluoride (AHF) as one of its key raw materials. Considering the high risk involved in transporting AHF by road, GFL is considering to manufacture AHF at its co-located Jolva plant by end of 2026.
+At present, GFCL EV transports AHF in liquid phase from GFL’s other plants in Dahej (13 kms) and Ranjitnagar (155 kms in the State of Gujarat).
+IFC has no previous investment in the company.
+Investment Description 
+Here you can find a list of individual development financial institutions that finance the project.
+International Finance Corporation (IFC)
+As stated by the IFC, GFCL EV plans to invest approximately US$709 million in its manufacturing facility in India, with the implementation scheduled in phases through FY29. IFC’s proposed investment of up to INR 4,300 million (approximately US$50 million equivalent) in form of CCPS will support the initial phase, while the remaining funding requirement will be met through a combination of subsequent equity raise and internal accruals.
+Private Actors Description 
+A Private Actor is a non-governmental body or entity that is the borrower or client of a development project, which can include corporations, private equity and banks. This describes the private actors and their roles in relation to the project, when private actor information is disclosed or has been further researched.
+As stated by the IFC, GFCL EV Products Limited is a newly set up Indian manufacturer of battery chemicals for use in Lithium-ion Battery (Li-B) cells used in electric vehicles (EVs) and stationary storage. GFCL EV (https://gfl.co.in/gfclev.php) is a wholly owned subsidiary of Gujarat Fluorochemicals Limited (GFL or the sponsor), an established Indian chemical company with over 30 years of expertise in fluorine chemistry. GFL has business in production of fluoropolymers, specialty chemicals, refrigerants, and chemicals with a footprint represented by three manufacturing sites in Gujarat in India, a captive Fluorspar mine in Morocco and wholly owned subsidiaries in Europe and USA.
+The Sponsor, GFL, is a leading Indian manufacturer specializing in fluoropolymers, specialty chemicals, and refrigerants. Established in 1987, GFL has grown into a key player in the global fluorochemicals market, serving a wide range of industries including automotive, electronics, and pharmaceuticals. The company is publicly listed and maintains active listings on both major Indian stock exchanges. In GFL, the sponsor group holds a 62.57% stake, while the remaining shareholding is distributed among mutual funds (10.05%), foreign institutional investors (4.61%), and the general public (22.77%).
+Currently GFL owns 96.87% shares in GFCL EV. The remaining shares are held by several prominent family offices of major Indian business conglomerates.
+Private Actor 1
+Private Actor 1 Role
+Private Actor 1 Sector
+Relation
+Private Actor 2
+Private Actor 2 Role
+Private Actor 2 Sector
+-
+-
+-
+-
+Gujarat Fluorochemicals Limited
+Client
+Industry and Trade
+Contact Information 
+This section aims to support the local communities and local CSO to get to know which stakeholders are involved in a project with their roles and responsibilities. If available, there may be a complaint office for the respective bank which operates independently to receive and determine violations in policy and practice. Independent Accountability Mechanisms receive and respond to complaints. Most Independent Accountability Mechanisms offer two functions for addressing complaints: dispute resolution and compliance review.
+Client - GFCL EV Products Limited:
+Rajiv Rao - Head, EV Battery Chemicals
+Address: INOX Towers, plot number 17, Sector 16A, Noida – 201301, Uttar Pradesh, India
+Website: 
+https://gfl.co.in/gfclev.php
+General IFC Inquiries - IFC Communications:
+Address: 2121 Pennsylvania Avenue, NW, Washington DC 20433
+Telephone: +1 202-473-3800
+Fax: +1 202-974-4384
+ACCESS TO INFORMATION
+You can submit a request for information disclosure at: https://disclosures.ifc.org/#/inquiries
+If you believe that your request for information from IFC has been unreasonably denied, or that this Policy has been interpreted incorrectly, you can submit a complaint at the link above to IFC's Access to Information Policy Advisor, who reports directly to IFC's Executive Vice President.
+ACCOUNTABILITY MECHANISM OF IFC/MIGA
+The Compliance Advisor Ombudsman (CAO) is the independent complaint mechanism and fact-finding body for people who believe they are likely to be, or have been, adversely affected by an IFC or MIGA- financed project. If you submit a complaint to the CAO, they may assist you in resolving a dispute with the company and/or investigate to assess whether the IFC is following its own policies and procedures for preventing harm to people or the environment. If you want to submit a complaint electronically, you can email the CAO at CAO@worldbankgroup.org You can learn more about the CAO and how to file a complaint at http://www.cao-ombudsman.org
+How it works
+How it works
+Close
+How to Search the Early Warning System Database
+How to Review the Search Results
+How to Review a Project Summary
+How to Support Campaigns
+Want to receive news and updates?
+Subscribe to EWS newsletter
+About
+Methodology
+Data Policy
+FAQ
+Glossary
+People
+Partners
+Community-led
+Response Partners
+Advisors
+Work
+Community Organizing
+Data
+Policy
+Media
+Campaign Updates
+Featured Projects
+Trends
+More
+Contribute
+Contact
+Subscribe
+Creative Commons
+Copyright IAP 2021
+Sign up for updates about the Early Warning System!
+The Early Warning System will use the information you provide on this form to get in touch with you and to share updates. 
+You can change your mind at any time by clicking the unsubscribe link in the footer of any email you receive from us, or by contacting us at ews@rightsindevelopment.org. The Early Warning System is committed to ensuring the ethical use of data that prioritizes the right to privacy and security and minimizes potential harm to individuals and communities.
+Email Address 
+*
+First Name 
+Last Name 

@@ -103,31 +103,74 @@
   ministry: Ministry of Electronics and Information Technology
   parent: null
   outlay:
-    amount: null
+    amount: 40000
     currency: INR_crore
-    period: null
+    period: six years plus optional one-year gestation; raised from Rs 22,919 crore in the 2026-27 Budget
   dates:
     approved: null
-    notified: null
+    notified: '2025-04-08'
     applications_close: null
   status: Beneficiaries selected
   status_as_of: '2026-08-17'
-  status_detail: 106 projects approved across 15 states (Rs 69,548 crore) by Aug 2026; 38 plants operating
+  status_detail: 'Five approval rounds to Aug 2026: 106 projects across 15 states (Rs 69,548 crore); 38 plants operating'
   aggregates:
     approved_projects: 106
     approved_investment_inr_cr: 69548
     states: 15
     plants_operating: 38
+    rounds: 5
   beneficiaries:
   - lohum-greater-noida-repm
+  - epsilon-eam-one-vijayanagar
+  - acutaas-jhagadia-additives
+  beneficiaries_unmapped:
+  - 'PCBL Chemical Ltd: acetylene black (round 5, Rs 329 crore); site not published'
+  - 'NPSPL Advanced Materials Pvt Ltd: anode material (round 3); site not published'
+  - 'Quantum Magnetics: rare earth permanent magnets (round 5); site not published'
   bidders: []
   disbursed:
     amount: null
     as_of: null
-  notes: Only the magnet-relevant approvals are linked here so far; battery-material approvals (anode, conductive
-    additives, electrolyte additives, Quantum Magnetics REPM) are researched in L3. Outlay and notification dates
-    to be filled in L3/L10. Disbursement amounts not found.
+  notes: Only battery-material and magnet approvals are linked; the other approvals (PCBs, camera modules, laminates,
+    enclosures) are outside this map. PIB says ECMS anode-material capacity already exceeds domestic demand (~110%).
   sources:
+  - id: pib-2222519
+    url: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2222519
+    title: 'PIB Backgrounder: Electronics Components Manufacturing Scheme; Union Budget 2026-27 raises scheme outlay
+      to Rs 40,000 crore'
+    publisher: Press Information Bureau, Government of India
+    tier: T1
+    date: '2026-02-03'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - outlay
+    - dates.notified
+  - id: pib-2300625
+    url: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2300625
+    title: 106 ECMS projects approved, set to generate around 75 thousand direct jobs with Rs 69,548 crore investment
+    publisher: Press Information Bureau, Government of India
+    tier: T1
+    date: '2026-08-17'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - aggregates
+    - status
+    - status_detail
+    - beneficiaries
+    - beneficiaries_unmapped
+    - notes
+  - id: pib-2210864
+    url: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2210864
+    title: MeitY approves 22 more proposals under ECMS (tranche 3)
+    publisher: Press Information Bureau, Government of India
+    tier: T1
+    date: '2026-01-02'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - beneficiaries_unmapped
   - id: acp-ecms-2026
     url: https://www.autocarpro.in/news/govt-clears-31-new-projects-under-ecms-taking-total-approved-investment-to-rs-69548-crore-134154
     title: 'ECMS auto electronics push: Govt approves 31 new projects'
@@ -137,9 +180,7 @@
     retrieved: '2026-10-23'
     archive_url: null
     supports:
-    - aggregates
-    - status
-    - status_detail
+    - beneficiaries_unmapped
   - id: swa-ecms-2026
     url: https://swarajyamag.com/amp/story/news-brief/govt-clears-rs-7104-crore-electronics-manufacturing-projects-including-indias-first-rare-earth-magnet-plant
     title: Govt clears Rs 7,104 crore electronics manufacturing projects, including India's first rare earth magnet

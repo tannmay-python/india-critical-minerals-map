@@ -93,7 +93,9 @@ def manifest_index():
 
 def geocode(geo):
     cmd = [sys.executable, "-I", os.path.join(ROOT, "scripts", "research", "geocode.py")]
-    if geo.get("district_centroid"):
+    if geo.get("state_centroid"):
+        cmd += ["--state-centroid", "--state", geo["state"]]
+    elif geo.get("district_centroid"):
         cmd += ["--district-centroid", geo["district_centroid"], "--state", geo["state"]]
     else:
         cmd += [geo["q"], "--state", geo["state"]]
@@ -141,7 +143,8 @@ def main():
                 errors.append(f"{rec['id']}: needs geocoding")
             else:
                 loc["lat"], loc["lon"] = geocode(geo)
-                loc["precision"] = loc.get("precision") or ("district" if geo.get("district_centroid") else "town")
+                loc["precision"] = loc.get("precision") or (
+                    "state" if geo.get("state_centroid") else "district" if geo.get("district_centroid") else "town")
         out_sources = []
         for s in srcs:
             sid = s["ref"]

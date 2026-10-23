@@ -1,0 +1,371 @@
+Site visit: Altmin and Sudeep Advanced Material support India
+Lithium Index
+317.07
+-1.64
+%
+Lithium Carbonate Index
+256.83
+-7.85
+%
+Lithium Hydroxide Index
+292.05
+-6.12
+%
+Cobalt Index
+171.41
+-1.39
+%
+Nickel Index
+107.13
+-6.06
+%
+Natural Graphite Index
+78.45
+-2.16
+%
+Anode Coke Index
+86.15
+5.24
+%
+Anode Index
+80.45
+0.27
+%
+Cathode Index
+73.32
+-5.04
+%
+Lithium ion Batteries Index
+74.53
+4.53
+%
+Black Mass Index
+37.11
+-4.72
+%
+Rare Earths Index
+172.08
+0.21
+%
+NCM Mid-Nickel Index
+152.7
+-6.02
+%
+NCM High-Nickel Index
+144.45
+-3.49
+%
+LFP Index
+229.17
+4.96
+%
+Lithium Index
+317.07
+-1.64
+%
+Lithium Carbonate Index
+256.83
+-7.85
+%
+Lithium Hydroxide Index
+292.05
+-6.12
+%
+Cobalt Index
+171.41
+-1.39
+%
+Nickel Index
+107.13
+-6.06
+%
+Natural Graphite Index
+78.45
+-2.16
+%
+Anode Coke Index
+86.15
+5.24
+%
+Anode Index
+80.45
+0.27
+%
+Cathode Index
+73.32
+-5.04
+%
+Lithium ion Batteries Index
+74.53
+4.53
+%
+Black Mass Index
+37.11
+-4.72
+%
+Rare Earths Index
+172.08
+0.21
+%
+NCM Mid-Nickel Index
+152.7
+-6.02
+%
+NCM High-Nickel Index
+144.45
+-3.49
+%
+LFP Index
+229.17
+4.96
+%
+Lithium Index
+317.07
+-1.64
+%
+Lithium Carbonate Index
+256.83
+-7.85
+%
+Lithium Hydroxide Index
+292.05
+-6.12
+%
+Cobalt Index
+171.41
+-1.39
+%
+Nickel Index
+107.13
+-6.06
+%
+Natural Graphite Index
+78.45
+-2.16
+%
+Anode Coke Index
+86.15
+5.24
+%
+Anode Index
+80.45
+0.27
+%
+Cathode Index
+73.32
+-5.04
+%
+Lithium ion Batteries Index
+74.53
+4.53
+%
+Black Mass Index
+37.11
+-4.72
+%
+Rare Earths Index
+172.08
+0.21
+%
+NCM Mid-Nickel Index
+152.7
+-6.02
+%
+NCM High-Nickel Index
+144.45
+-3.49
+%
+LFP Index
+229.17
+4.96
+%
+Sign In
+Markets 
+Services 
+Tools 
+Plans 
+Events 
+Newsletters 
+Source 
+Contact Us 
+ Sign In 
+Home
+Critical Minerals
+Batteries
+Sustainability
+New Energy
+Geopolitics
+Data Visualisation
+Video
+Publications
+Home
+ Back 
+3rd November 2025
+4 min read 
+ Reported By 
+Aakanksha Raje
+Analyst - Cathode
+ Edited By 
+Matthew Bird
+Senior Editor - Supply Chains & Data Visualisation
+Batteries
+Cathode
+Critical Minerals
+Lithium
+Site visit: Altmin and Sudeep Advanced Material support India’s midstream ambitions
+3rd November 2025
+4 min read 
+ Reported By 
+Aakanksha Raje
+Analyst - Cathode
+ Edited By 
+Matthew Bird
+Senior Editor - Supply Chains & Data Visualisation
+Batteries
+Cathode
+Critical Minerals
+Lithium
+India’s pipeline of 
+cathode active material
+ (CAM) production capacity is set to grow more than 50-fold over the next decade. Altmin, Himadri Speciality Chemical, and Epsilon Advanced Materials have the largest pipeline capacities in the country.
+Almost all CAM capacity 
+under development in India
+ is for 
+LFP
+, both due to the popularity of the cathode chemistry and also as India’s climate makes storing NCM material challenging.
+Benchmark analyst Aakanksha Raje visited the Telangana site where Altmin intends to build a CAM production facility. It is due to begin operations in 2026 with a capacity of 10,000 tpa of LFP, though the company plans to increase this to 100,000 tpa in the 2030s.
+India’s up-and-coming battery market
+Battery demand in India is set to reach 112 GWh by 2030, up from around 30 GWh today. Much of this comes from the 
+2-&3-wheeler and EV markets
+, though around a quarter is from 
+battery energy storage systems
+.
+India, like most markets outside of China, depends on imported battery cells to meet its demand. Benchmark forecasts the country will produce just 7 GWh of cells by 2030, though it has 
+pipeline capacity for over 66 GWh
+.
+Altmin’s CAM production facility in Balapur, Hyderabad, Telangana is in the same state as the planned 16 GWh gigafactory under development by 
+Amara Raja Energy & Mobility
+.
+Chemicals from Altmin’s CAM site in Telangana. Photo by Aakanksha Raje.
+Proximity to cell producers is advantageous given the nascent nature of the industry, but does not guarantee success.
+“In India, the midstream projects struggle to come online due insufficient funding, achieving standardised and consistent batches of products and the existing low demand from downstream,” Raje said.
+To date, Altmin has produced coin cells to test its CAM and has sent material out to customers for verification.
+Developing the supply chain
+In discussions with Raje, Altmin's CEO Anjani Mourya expressed desire to support the government's 
+Make In India initiative
+ by building out a 
+locally-focused supply chain
+. Indeed, for the pilot plant much of the equipment is sourced locally, however Altmin will rely on Chinese equipment for the commercial scale plant.
+Altmin sources 
+precursor (pCAM) iron phosphate material
+ from Sudeep Advanced Materials (SAM) in Gujarat, India. Raje visited SAM's pilot scale pCAM facility where the company has capacity to produce 200kg per day and is shipping material to customers, including Altmin, for trials.
+The company claims its dilute phosphoric acid-based process can reduce the carbon emissions of the process down to 4.17 tonnes of CO2 per tonne of material compared to the 14.34 tonnes from conventional processes. Raje also visited SAM’s pharmaceutical facility which operates in a similar automated fashion to the pCAM facility under development.
+Sudeep Advanced Materials R&D lab for precursor cathode material. Photo by Aakanksha Raje.
+SAM expects the Gujarat pCAM facility to begin commercial production later this year, ramping up to 35,000 tpa per year by 2027 and 100,000 tpa by 2030. SAM’s process uses sulphate-free premix secured from its inhouse factory.
+Partnering for raw materials
+India doesn’t have much in the way of natural lithium resources, so partnerships with other companies and countries is key for securing feedstock.
+Coal India, a state-owned coal producer, has been exploring 
+lithium resources in Chile and Argentina
+ as well as looking to make deals in graphite and rare earths.
+Altmin has partnered with Companhia Brasileira de Lítio (CBL) in Brazil and Yacimientos de Litio Bolivianos (YLB) in Bolivia to secure lithium supplies. Earlier this year, the $250 million greenfield lithium refinery under development by CBL was designated as a project under the 
+Mineral Security Partnership
+ – a global coalition of countries working towards shared mineral resources.
+Benchmark provides independent, actionable 
+cathode market intelligence
+ covering prices, forecasts and pCAM capacity data. To request more information from our team, fill out the form below:
+ For more information about the service this data draws from, get in touch 
+ Want to read more analytical content? 
+ Create a Free Account 
+ Create a free Intelligence account to access 3 content pieces per month. 
+Create Free Account 
+Altmin
+Asia
+Data Visualisation
+India
+Site visit
+Sudeep Advanced Material
+ Related Content 
+ Related Content 
+Raw Materials
+Lithium
+Copper
+Cobalt
+Nickel
+Natural Graphite
+Synthetic Graphite
+Rare Earths
+Manganese
+Fluorspar
+Phosphate
+Zinc
+Uranium
+Boron
+Ferroalloys
+Vanadium
+Molybdenum
+Tungsten
+Minor Metals
+Gallium
+Germanium
+Silicon
+Titanium
+Active Materials
+Anode
+Cathode & pCAM
+Silicon Anode
+Battery Cell
+Battery & Gigafactory
+New Technology
+New Technology
+Demand
+EV & Battery
+BESS
+EV Charging
+Magnets & Motors
+Portables
+Recycling & Black Mass
+Battery Recycling & Black Mass
+Source
+Home
+Critical Minerals
+Batteries
+Sustainability
+New Energy
+Geopolitics
+Video
+Data Visualisation
+Briefings
+Presentations
+Special Issues
+Services
+Prices
+Supply Chain Data
+Intelligence
+Consultancy
+Expert Witness
+Find Your Sector
+Tools
+AI Connector
+Benchmark API
+Excel Add-In
+Mobile App
+Battery Emissions Analyser
+Events
+All Events
+Webinars
+Benchmark Week
+Giga Conferences
+Summits
+Past Events
+Join Benchmark
+About Us
+Newsletters
+Announcements
+Lifetime Achievement Award
+Authors
+Modern Slavery
+Terms & Conditions
+Privacy Policy
+Whistleblowing Policy
+Cookies
+ © Benchmark Mineral Intelligence 
