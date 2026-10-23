@@ -209,3 +209,38 @@
     archive_url: null
     supports:
     - auction.history
+- id: blk-rj-nawatala-devigarh
+  status: Licence / lease executed
+  status_as_of: '2026-07-29'
+  status_detail: Exploration licence executed by the Government of Rajasthan with CMPDI on 29 Jul 2026 (reported as India's
+    first REE exploration licence)
+  auction:
+    licence_or_lease_executed: '2026-07-29'
+  milestones:
+  - date: '2026-07-29'
+    event: Rajasthan executes the exploration licence with CMPDI (207.63 sq km)
+    source_id: newkerala-2026-07-29
+  sources:
+  - id: newkerala-2026-07-29
+    url: https://www.newkerala.com/news/a/rajasthan-executes-indias-first-rare-earth-elements-exploration-144.htm
+    title: Rajasthan secures India's first Rare Earth Elements Exploration Licence
+    publisher: NewKerala
+    tier: T3
+    date: '2026-07-29'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - status
+    - auction.licence_or_lease_executed
+  - id: fpj-2026-rajasthan-ree-el
+    url: https://freepressjournal.in/business/rajasthan-becomes-1st-state-to-execute-rare-earth-exploration-licence-for-critical-minerals
+    title: Rajasthan becomes 1st state to execute rare earth exploration licence for critical minerals
+    publisher: Free Press Journal
+    tier: T3
+    date: 2026-07
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - status
+    - operator
+  confidence: medium

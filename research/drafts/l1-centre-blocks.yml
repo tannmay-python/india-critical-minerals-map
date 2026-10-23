@@ -2060,6 +2060,123 @@
     loi_date: null
     licence_or_lease_executed: null
     production_started: null
+- id: blk-ap-pakala-chandragiri
+  name: Pakala-Chandragiri REE Block
+  aliases: []
+  layer: blocks
+  stages:
+  - Exploration
+  minerals:
+  - Rare earths (unspecified)
+  commodity_as_stated: Rare Earth Elements
+  products: []
+  operator: null
+  operator_type: null
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: null
+    state: Andhra Pradesh
+    district: Chittoor and Tirupati
+    country: India
+    lat: 13.46529
+    lon: 79.00619
+    precision: district
+    geometry: null
+  status: Offered
+  status_as_of: '2024-03-11'
+  status_detail: Offered in Andhra Pradesh EL-2024; no result published
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2024-03-11'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: '2024-03-11'
+    event: 'Andhra Pradesh EL-2024: offered'
+    source_id: raw:mstc-14421
+  narrative:
+    what_it_does: A block offered for an exploration licence, for rare earth elements, in Chittoor and Tirupati districts,
+      Andhra Pradesh.
+    significance: Offered 1 time by the Government of Andhra Pradesh, most recently in Andhra Pradesh EL-2024 (March 2024);
+      no preferred bidder has been published.
+  related: []
+  see_also: []
+  confidence: medium
+  last_verified: '2026-10-23'
+  notes: Andhra Pradesh state exploration-licence block of 843 sq km; no result published. The Centre later auctioned the
+    smaller Ontillu-Chandragiri REE block (EL Tranche I) in the same districts. Needs district centroid.
+  sources:
+  - id: raw:mstc-14421
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14421_NIT_Pakala-Chandragiri%2BEL%2Bblock.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: NIT PAKALA-CHANDRAGIRI EL BLOCK
+    publisher: Government of Andhra Pradesh (via MSTC e-auction portal)
+    tier: T1
+    date: '2024-03-11'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+    - status
+  - id: mstc-mbs-14423
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14423_Pakala_Chandragiri_Summary_v2.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: 'Mine Block Summary: BLOCK SUMMARY OF PAKALA CHANDRAGIRI'
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2024-03-11'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - block.area_sq_km
+    - block.exploration_stage
+    - location
+  block:
+    concession_type: EL
+    auction_route: State
+    area_sq_km: null
+    exploration_stage: G3
+    resources: []
+    resources_as_stated: 'Geological Resources have not been estimated Resources (Reserves) '
+  auction:
+    history:
+    - tranche: AP-EL-2024
+      nit_date: '2024-03-11'
+      outcome: Offered
+      outcome_date: null
+      annulment_reason: null
+      preferred_bidder: null
+      final_offer_pct: null
+      reserve_price: null
+    loi_date: null
+    licence_or_lease_executed: null
+    production_started: null
 - id: blk-ap-pata-ramavaram
   name: Pata Ramavaram Graphite Block
   aliases: []
@@ -2418,7 +2535,7 @@
     address: null
     village_or_town: Important villages in the study area are Isholin-Angolin-Endolin-Anelih
     state: Arunachal Pradesh
-    district: Uppar Dibang Valley
+    district: Upper Dibang Valley
     country: India
     lat: 28.510093
     lon: 95.832679
@@ -2478,7 +2595,7 @@
     event: 'Tranche IV: preferred bidder (Mamco Mining Private Limited, 237.5%)'
     source_id: mstc-t4-nit
   narrative:
-    what_it_does: A 5.03 sq km block offered for a composite licence, for graphite, in Uppar Dibang Valley district, Arunachal
+    what_it_does: A 5.03 sq km block offered for a composite licence, for graphite, in Upper Dibang Valley district, Arunachal
       Pradesh, explored to G3 level.
     significance: Mamco Mining Private Limited won it in Tranche IV (October 2024) with a final price offer of 237.5%.
   related: []
@@ -2486,7 +2603,7 @@
   confidence: high
   last_verified: '2026-10-23'
   notes: 'First attempt. Second-round e-auction 2024-10-23; PB declaration notice dated 2024-11-07. MBS district reads ''Upper
-    Dibang Valley'' (NIT: ''Uppar Dibang Valley''). MBS area 503.15 Ha. Letter of intent / licence execution status not yet
+    Dibang Valley'' (NIT: ''Upper Dibang Valley''). MBS area 503.15 Ha. Letter of intent / licence execution status not yet
     checked (see OPEN_QUESTIONS).'
   sources:
   - id: mstc-t4-nit
@@ -10224,6 +10341,174 @@
     loi_date: null
     licence_or_lease_executed: null
     production_started: null
+- id: blk-ka-devadurga-state-el
+  name: Devadurga Block (Gold, Copper & Lithium)
+  aliases: []
+  layer: blocks
+  stages:
+  - Exploration
+  minerals:
+  - Lithium
+  - Copper
+  commodity_as_stated: Gold, Copper & Lithium
+  products: []
+  operator: null
+  operator_type: null
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: null
+    state: Karnataka
+    district: Raichur and Yadgir
+    country: India
+    lat: 16.423713
+    lon: 76.970797
+    precision: exact
+    geometry:
+      type: Polygon
+      coordinates:
+      - - - 76.7397
+          - 16.3417
+        - - 77.1216
+          - 16.3417
+        - - 77.1216
+          - 16.3425028
+        - - 77.1219972
+          - 16.3425
+        - - 77.122
+          - 16.3919
+        - - 77.2495
+          - 16.3916778
+        - - 77.2493
+          - 16.3918
+        - - 77.2494972
+          - 16.3919
+        - - 77.2493
+          - 16.4361
+        - - 77.2189972
+          - 16.4361
+        - - 77.219
+          - 16.4368
+        - - 77.2180028
+          - 16.4368
+        - - 77.218
+          - 16.4984
+        - - 76.7398
+          - 16.4992
+        - - 76.7398
+          - 16.4984
+        - - 76.7397
+          - 16.3417
+  status: Annulled
+  status_as_of: '2024-10-01'
+  status_detail: 'Annulled in Karnataka EL-2024: Annulled under Rule 19E(11) of the Mineral (Auction) Rules 2015 (fewer than
+    three technically qualified bidders)'
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2024-03-06'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: '2024-10-01'
+    event: 'Karnataka EL-2024: annulled'
+    source_id: raw:mstc-14278
+  narrative:
+    what_it_does: A 850.00 sq km block offered for an exploration licence, for gold, copper & lithium, in Raichur and Yadgir
+      districts, Karnataka.
+    significance: Offered 1 time by the Government of Karnataka, most recently in Karnataka EL-2024, and the auction was annulled
+      (October 2024).
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-23'
+  notes: Karnataka state exploration-licence block of 850 sq km; a different, smaller Devadurga block was later auctioned
+    by the Centre in EL Tranche I.
+  sources:
+  - id: raw:mstc-14278
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14278_NIT%2B-%2B06.03.2024%2B%2528EL%2BAuction%2529.PDF&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: NIT dtd 06.03.2024 Exploration Licence Devadurga Block
+    publisher: Government of Karnataka (via MSTC e-auction portal)
+    tier: T1
+    date: '2024-03-06'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+    - status
+  - id: raw:mstc-17065
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=17065_Annulment%2Bnotification%2Bof%2BEL%2Bblock.PDF&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: Annulment notification of Devadurga EL block
+    publisher: Government of Karnataka (via MSTC e-auction portal)
+    tier: T1
+    date: '2024-03-06'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+    - status
+  - id: mstc-mbs-14324
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14324_Block%2BSummary.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: 'Mine Block Summary: Mine Block Summary of Devadurga Mineral Block'
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2024-03-06'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - block.area_sq_km
+    - block.exploration_stage
+    - location
+  block:
+    concession_type: EL
+    auction_route: State
+    area_sq_km: 850.0
+    exploration_stage: null
+    resources: []
+    resources_as_stated: null
+  auction:
+    history:
+    - tranche: KA-EL-2024
+      nit_date: '2024-03-06'
+      outcome: Annulled
+      outcome_date: '2024-10-01'
+      annulment_reason: Annulled under Rule 19E(11) of the Mineral (Auction) Rules 2015 (fewer than three technically qualified
+        bidders)
+      preferred_bidder: null
+      final_offer_pct: null
+      reserve_price: null
+    loi_date: null
+    licence_or_lease_executed: null
+    production_started: null
 - id: blk-ka-devadurga
   name: Devadurga Gold and Copper Exploration Block
   aliases: []
@@ -15865,6 +16150,149 @@
     loi_date: null
     licence_or_lease_executed: null
     production_started: null
+- id: blk-mp-mohana
+  name: Mohana Block
+  aliases: []
+  layer: blocks
+  stages:
+  - Exploration
+  minerals:
+  - Copper
+  commodity_as_stated: Diamond and Copper, Lead, Zinc and associated minerals (Basemetal)
+  products: []
+  operator: null
+  operator_type: null
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Mohana
+    state: Madhya Pradesh
+    district: Gwalior and Shivpuri
+    country: India
+    lat: 25.77
+    lon: 77.875
+    precision: exact
+    geometry:
+      type: Polygon
+      coordinates:
+      - - - 77.75
+          - 25.9
+        - - 77.75
+          - 25.64
+        - - 78.0
+          - 25.64
+        - - 78.0
+          - 25.9
+        - - 77.75
+          - 25.9
+  status: Annulled
+  status_as_of: '2024-12-10'
+  status_detail: 'Annulled in Madhya Pradesh EL-Phase I: Auction process annulled (reason not stated in the notice)'
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2024-03-11'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: '2024-12-10'
+    event: 'Madhya Pradesh EL-Phase I: annulled'
+    source_id: raw:mstc-14385
+  narrative:
+    what_it_does: A 723.25 sq km block offered for an exploration licence, for diamond and copper, lead, zinc and associated
+      minerals (basemetal), in Gwalior and Shivpuri districts, Madhya Pradesh, explored to G3 level.
+    significance: Offered 1 time by the Government of Madhya Pradesh, most recently in Madhya Pradesh EL-Phase I, and the
+      auction was annulled (December 2024).
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-23'
+  notes: Block summary and annulment notice are scans; read by OCR. Boundary polygon recovered by OCR of the MBS annexure;
+    checked against the stated block area.
+  sources:
+  - id: raw:mstc-14385
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14385_EL%20NIT%20First%20Phase.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: 'GoMP Phase I EL NIT Dtd : 11-03-2024'
+    publisher: Government of Madhya Pradesh (via MSTC e-auction portal)
+    tier: T1
+    date: '2024-03-11'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+    - status
+  - id: raw:mstc-18068
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=18068_13416.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: Auction Annulment Notice dt. 10.12.2024
+    publisher: Government of Madhya Pradesh (via MSTC e-auction portal)
+    tier: T1
+    date: '2024-03-11'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+    - status
+  - id: mstc-mbs-14389
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14389_1.%20Summary_Mohana%20Block%20MP%20EL_11.03.2024.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: 'Mine Block Summary: Block Summary_Mohana Block'
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2024-03-11'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - block.area_sq_km
+    - block.exploration_stage
+    - location
+  block:
+    concession_type: EL
+    auction_route: State
+    area_sq_km: 723.25
+    exploration_stage: G3
+    resources: []
+    resources_as_stated: null
+  auction:
+    history:
+    - tranche: MP-EL-Phase-I
+      nit_date: '2024-03-11'
+      outcome: Annulled
+      outcome_date: '2024-12-10'
+      annulment_reason: Auction process annulled (reason not stated in the notice)
+      preferred_bidder: null
+      final_offer_pct: null
+      reserve_price: null
+    loi_date: null
+    licence_or_lease_executed: null
+    production_started: null
 - id: blk-mp-mordongri-jamtara-platinum-group
   name: Mordongri (Jamtara) Platinum Group Elements (PGE) Block
   aliases: []
@@ -16326,6 +16754,151 @@
       annulment_reason: null
       preferred_bidder: Sunmark Thermal Power Private Limited
       final_offer_pct: 0.05
+      reserve_price: null
+    loi_date: null
+    licence_or_lease_executed: null
+    production_started: null
+- id: blk-mp-padhar-state-el
+  name: Padhar PGE and Associated Mineral Block
+  aliases: []
+  layer: blocks
+  stages:
+  - Exploration
+  minerals:
+  - PGEs (unspecified)
+  commodity_as_stated: Platinum Group Elements (PGE) and associated minerals
+  products: []
+  operator: null
+  operator_type: null
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Chicholi
+    state: Madhya Pradesh
+    district: Betul
+    country: India
+    lat: 22.061377
+    lon: 77.808355
+    precision: exact
+    geometry:
+      type: Polygon
+      coordinates:
+      - - - 77.551715
+          - 21.9601275
+        - - 77.6705358
+          - 22.1121058
+        - - 77.8901894
+          - 22.1764106
+        - - 78.0445706
+          - 22.1355942
+        - - 77.9232081
+          - 21.98176
+        - - 77.551715
+          - 21.9601275
+  status: Annulled
+  status_as_of: '2024-12-10'
+  status_detail: 'Annulled in Madhya Pradesh EL-Phase I: Auction process annulled (reason not stated in the notice)'
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2024-03-11'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: '2024-12-10'
+    event: 'Madhya Pradesh EL-Phase I: annulled'
+    source_id: raw:mstc-14385
+  narrative:
+    what_it_does: A 729.18 sq km block offered for an exploration licence, for platinum group elements (pge) and associated
+      minerals, in Betul district, Madhya Pradesh, explored to G3 level.
+    significance: Offered 1 time by the Government of Madhya Pradesh, most recently in Madhya Pradesh EL-Phase I, and the
+      auction was annulled (December 2024).
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-23'
+  notes: MP state exploration-licence block of about 729 sq km; a smaller Padhar PGE block was later auctioned by the Centre
+    in EL Tranche I.
+  sources:
+  - id: raw:mstc-14385
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14385_EL%20NIT%20First%20Phase.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: 'GoMP Phase I EL NIT Dtd : 11-03-2024'
+    publisher: Government of Madhya Pradesh (via MSTC e-auction portal)
+    tier: T1
+    date: '2024-03-11'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+    - status
+  - id: raw:mstc-18068
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=18068_13416.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: Auction Annulment Notice dt. 10.12.2024
+    publisher: Government of Madhya Pradesh (via MSTC e-auction portal)
+    tier: T1
+    date: '2024-03-11'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+    - status
+  - id: mstc-mbs-14390
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14390_2.%20Summary%20Padhar%20PGE%20and%20Associated%20Mineral%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: 'Mine Block Summary: Block Summary Padhar PGE and Associated Mineral Block'
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2024-03-11'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - block.area_sq_km
+    - block.exploration_stage
+    - location
+  block:
+    concession_type: EL
+    auction_route: State
+    area_sq_km: 729.1755
+    exploration_stage: G3
+    resources: []
+    resources_as_stated: null
+  auction:
+    history:
+    - tranche: MP-EL-Phase-I
+      nit_date: '2024-03-11'
+      outcome: Annulled
+      outcome_date: '2024-12-10'
+      annulment_reason: Auction process annulled (reason not stated in the notice)
+      preferred_bidder: null
+      final_offer_pct: null
       reserve_price: null
     loi_date: null
     licence_or_lease_executed: null
@@ -18330,13 +18903,13 @@
   partners: []
   location:
     address: null
-    village_or_town: null
+    village_or_town: Bav
     state: Maharashtra
     district: Sindhudurg
     country: India
-    lat: 16.13211
-    lon: 73.74001
-    precision: district
+    lat: 16.025022
+    lon: 73.680852
+    precision: town
     geometry: null
   status: Re-offered
   status_as_of: '2023-02-03'
@@ -18377,7 +18950,8 @@
     event: 'Maharashtra Phase X: offered'
     source_id: raw:mstc-mh-nit-11
   narrative:
-    what_it_does: A block offered for a composite licence, for gold, pge, ni, cr, in Sindhudurg district, Maharashtra.
+    what_it_does: A 2.85 sq km block offered for a composite licence, for gold, pge, ni, cr, in Sindhudurg district, Maharashtra,
+      explored to G3 level.
     significance: Offered 2 times by the Government of Maharashtra, most recently in Maharashtra Phase X (February 2023);
       no preferred bidder has been published.
   related: []
@@ -18399,6 +18973,17 @@
     - block.concession_type
     - dates.first_public
     - minerals
+  - id: raw:mstc-8548
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=8548_Summary_of_Bagwadi_block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: Summary of Bagwadi block
+    publisher: Government of Maharashtra (via MSTC e-auction portal)
+    tier: T1
+    date: '2023-02-03'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - status
   - id: raw:mstc-mh-nit-11
     url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=8532_Notice_Inviting_Tender_Phase_X.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
     title: Notice Inviting Tender Phase X
@@ -18410,13 +18995,25 @@
     supports:
     - auction.history
     - status
+  - id: mstc-mbs-8548
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=8548_Summary_of_Bagwadi_block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: 'Mine Block Summary: Summary of Bagwadi block'
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2023-02-03'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - block.area_sq_km
+    - block.exploration_stage
+    - location
   block:
     concession_type: CL
     auction_route: State
-    area_sq_km: null
-    exploration_stage: null
+    area_sq_km: 2.85
+    exploration_stage: G3
     resources: []
-    resources_as_stated: null
+    resources_as_stated: 'Geological Resources Not Applicable 5 Mineral Zones '
   auction:
     history:
     - tranche: MH-Phase-IX
@@ -18616,7 +19213,7 @@
   partners: []
   location:
     address: null
-    village_or_town: null
+    village_or_town: Bidwadi
     state: Maharashtra
     district: Sindhudurg
     country: India
@@ -18663,7 +19260,8 @@
     event: 'Maharashtra Phase VII: preferred bidder (Elegant Hospitality Services, 5.1%)'
     source_id: raw:mstc-mh-nit-14
   narrative:
-    what_it_does: A block offered for a mining lease, for graphite, in Sindhudurg district, Maharashtra.
+    what_it_does: A 1.57 sq km block offered for a mining lease, for graphite, in Sindhudurg district, Maharashtra, explored
+      to G3 level.
     significance: Elegant Hospitality Services won it in Maharashtra Phase VII (March 2022) with a final price offer of 5.1%.
       It took 2 attempts to auction.
   related: []
@@ -18685,6 +19283,18 @@
     - block.concession_type
     - dates.first_public
     - minerals
+  - id: raw:mstc-3418
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=3418_Bidwadi.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: Summery of Bidwadi Graphite Block_ML
+    publisher: Government of Maharashtra (via MSTC e-auction portal)
+    tier: T1
+    date: '2022-01-31'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - operator
+    - status
   - id: raw:mstc-mh-nit-14
     url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=3401_GOM_1.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
     title: Notice Inviting Tender Phase VII
@@ -18720,13 +19330,25 @@
     - auction.history
     - operator
     - status
+  - id: mstc-mbs-3418
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=3418_Bidwadi.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: 'Mine Block Summary: Summery of Bidwadi Graphite Block_ML'
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2022-01-31'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - block.area_sq_km
+    - block.exploration_stage
+    - location
   block:
     concession_type: ML
     auction_route: State
-    area_sq_km: null
-    exploration_stage: null
+    area_sq_km: 1.5702
+    exploration_stage: G3
     resources: []
-    resources_as_stated: null
+    resources_as_stated: 'Geological Resources (Avg Grade 16.91 %of FC) '
   auction:
     history:
     - tranche: MH-2021-10
@@ -19019,7 +19641,7 @@
   partners: []
   location:
     address: null
-    village_or_town: null
+    village_or_town: Ghanpewadi
     state: Maharashtra
     district: Sindhudurg
     country: India
@@ -19066,7 +19688,8 @@
     event: 'Maharashtra Phase X: offered'
     source_id: raw:mstc-mh-nit-11
   narrative:
-    what_it_does: A block offered for a composite licence, for gold, pge, ni, cr, in Sindhudurg district, Maharashtra.
+    what_it_does: A 5.20 sq km block offered for a composite licence, for gold, pge, ni, cr, in Sindhudurg district, Maharashtra,
+      explored to G3 level.
     significance: Offered 2 times by the Government of Maharashtra, most recently in Maharashtra Phase X (February 2023);
       no preferred bidder has been published.
   related: []
@@ -19088,6 +19711,17 @@
     - block.concession_type
     - dates.first_public
     - minerals
+  - id: raw:mstc-8549
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=8549_Summary_of_Ghanpewadi_block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: Summary of Ghanpewadi block
+    publisher: Government of Maharashtra (via MSTC e-auction portal)
+    tier: T1
+    date: '2023-02-03'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - status
   - id: raw:mstc-mh-nit-11
     url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=8532_Notice_Inviting_Tender_Phase_X.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
     title: Notice Inviting Tender Phase X
@@ -19099,13 +19733,25 @@
     supports:
     - auction.history
     - status
+  - id: mstc-mbs-8549
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=8549_Summary_of_Ghanpewadi_block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: 'Mine Block Summary: Summary of Ghanpewadi block'
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2023-02-03'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - block.area_sq_km
+    - block.exploration_stage
+    - location
   block:
     concession_type: CL
     auction_route: State
-    area_sq_km: null
-    exploration_stage: null
+    area_sq_km: 5.2
+    exploration_stage: G3
     resources: []
-    resources_as_stated: null
+    resources_as_stated: 'Geological Resources Not Applicable 5 Mineral Zones '
   auction:
     history:
     - tranche: MH-Phase-IX
@@ -19143,7 +19789,7 @@
   partners: []
   location:
     address: null
-    village_or_town: null
+    village_or_town: Ghanpur Raitwari
     state: Maharashtra
     district: Gadchiroli
     country: India
@@ -19236,13 +19882,37 @@
     - minerals
     - operator
     - status
+  - id: raw:mstc-3428
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=3428_Ghanpur-Mudholi.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: Summery of Ghanpur Mudholi West Copper and Gold Block_CL
+    publisher: Government of Maharashtra (via MSTC e-auction portal)
+    tier: T1
+    date: '2021-10-11'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - operator
+    - status
+  - id: mstc-mbs-3428
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=3428_Ghanpur-Mudholi.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: 'Mine Block Summary: Summery of Ghanpur Mudholi West Copper and Gold Block_CL'
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2021-10-11'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - block.area_sq_km
+    - block.exploration_stage
+    - location
   block:
     concession_type: CL
     auction_route: State
     area_sq_km: null
-    exploration_stage: null
+    exploration_stage: G3
     resources: []
-    resources_as_stated: null
+    resources_as_stated: 'Geological Resource) Avg Grade 0.84 % of Copper '
   auction:
     history:
     - tranche: MH-2021-10
@@ -26333,9 +27003,10 @@
           - 26.1745044
         - - 72.2291264
           - 26.3375331
-  status: Preferred bidder
-  status_as_of: '2025-08-20'
-  status_detail: Central Mine Planning and Design Institute Limited, final price offer 36.45% (EL Tranche I)
+  status: Licence / lease executed
+  status_as_of: '2026-07-29'
+  status_detail: Exploration licence executed by the Government of Rajasthan with CMPDI on 29 Jul 2026 (reported as India's
+    first REE exploration licence)
   capacity:
     planned:
       value: null
@@ -26368,16 +27039,18 @@
   - date: '2025-08-20'
     event: 'EL Tranche I: preferred bidder (Central Mine Planning and Design Institute Limited, 36.45%)'
     source_id: mstc-el1-nit
+  - date: '2026-07-29'
+    event: Rajasthan executes the exploration licence with CMPDI (207.63 sq km)
+    source_id: newkerala-2026-07-29
   narrative:
     what_it_does: A 207.63 sq km block offered for an exploration licence, for ree, in Barmer district, Rajasthan.
     significance: Central Mine Planning and Design Institute Limited won the exploration licence in EL Tranche I (August 2025)
       with the lowest final price offer, 36.45% (exploration-licence auctions are reverse auctions).
   related: []
   see_also: []
-  confidence: high
+  confidence: medium
   last_verified: '2026-10-23'
-  notes: 'EL auctions are reverse auctions: the preferred bidder quotes the lowest share of the auction premium. Letter of
-    intent / licence execution status not yet checked (see OPEN_QUESTIONS).'
+  notes: 'EL auctions are reverse auctions: the preferred bidder quotes the lowest share of the auction premium.'
   sources:
   - id: mstc-el1-nit
     url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=19563_GoI%20MoM%20-%20EL%20-%20Tranche%20I%20-%20Notice%20Inviting%20Tender.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
@@ -26440,6 +27113,28 @@
     - block.area_sq_km
     - block.exploration_stage
     - location
+  - id: newkerala-2026-07-29
+    url: https://www.newkerala.com/news/a/rajasthan-executes-indias-first-rare-earth-elements-exploration-144.htm
+    title: Rajasthan secures India's first Rare Earth Elements Exploration Licence
+    publisher: NewKerala
+    tier: T3
+    date: '2026-07-29'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - status
+    - auction.licence_or_lease_executed
+  - id: fpj-2026-rajasthan-ree-el
+    url: https://freepressjournal.in/business/rajasthan-becomes-1st-state-to-execute-rare-earth-exploration-licence-for-critical-minerals
+    title: Rajasthan becomes 1st state to execute rare earth exploration licence for critical minerals
+    publisher: Free Press Journal
+    tier: T3
+    date: 2026-07
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - status
+    - operator
   block:
     concession_type: EL
     auction_route: Centre
@@ -26458,7 +27153,7 @@
       final_offer_pct: 36.45
       reserve_price: null
     loi_date: null
-    licence_or_lease_executed: null
+    licence_or_lease_executed: '2026-07-29'
     production_started: null
 - id: blk-rj-nimbli
   name: Nimbli Rock Phosphate Block

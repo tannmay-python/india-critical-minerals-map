@@ -486,5 +486,42 @@
    "title": "GoI MoM - Offshore - Corrigendum 2 to Tender Document (corrected corner point C, West Sewell Ridge PMNC Block-1)",
    "date": "2025-01-16"
   }
+ },
+ "14389": {
+  "applies_to_titles": [
+   "Mohana Block"
+  ],
+  "geometry": {
+   "type": "Polygon",
+   "coordinates": [
+    [
+     [
+      77.75,
+      25.9
+     ],
+     [
+      77.75,
+      25.64
+     ],
+     [
+      78.0,
+      25.64
+     ],
+     [
+      78.0,
+      25.9
+     ],
+     [
+      77.75,
+      25.9
+     ]
+    ]
+   ]
+  },
+  "method": "OCR (macOS Vision) of the scanned block summary, corners A-D. Accepted because polygon area (725.4 sq km) matches the stated 72,325.03 ha.",
+  "check": {
+   "km2": 725.4
+  },
+  "area_sq_km": 723.25
  }
 }

@@ -335,7 +335,7 @@ def main():
         offers.sort(key=lambda r: (r.get("nit_date") or r.get("outcome_date") or "", tranche_no(r["tranche"])))
         last, first = offers[-1], offers[0]
         name = re.sub(r"\s+", " ", last["block_name_as_printed"]).strip()
-        rid = f"blk-off-{slug(name)}" if last["concession_type"].startswith("Offshore") else f"blk-{ST[state]}-{slug(name)}"
+        rid = last.get("id_override") or (f"blk-off-{slug(name)}" if last["concession_type"].startswith("Offshore") else f"blk-{ST[state]}-{slug(name)}")
         forced = next((o.get("mbs_file_id") for o in reversed(offers) if o.get("mbs_file_id")), None)
         m = mbs_by_fid.get(forced) if forced else mbs.get(k)
         if m is None and k and not forced:
@@ -576,7 +576,7 @@ def main():
             if not r:
                 print("status update for unknown id", u["id"])
                 continue
-            for k in ("status", "status_as_of", "status_detail"):
+            for k in ("status", "status_as_of", "status_detail", "confidence"):
                 if u.get(k):
                     r[k] = u[k]
             for k, v in (u.get("auction") or {}).items():

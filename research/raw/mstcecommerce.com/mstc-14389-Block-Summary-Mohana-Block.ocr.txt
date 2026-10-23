@@ -1,0 +1,106 @@
+=== page 1 ===
+SUMMARY OF THE MINERAL BLOCK
+PART A - GENERAL INFORMATION ABOUT MINERALBLOCK
+FEATURES  DETAILS
+MINERAL BLOCK NAME  Mohana Block (EL_MP_02_  _Mohana)
+1.  LOCATION
+CORNER POINTS  Block
+(LATITUDE, LONGITUDE)  corner's  Longitude in DMS  Latitude in DMS
+name
+A  77° 45' 00" E  25° 54' 00" N
+B  77° 45'00" E  25° 38'24" N
+C  78° 00'00" E  25° 38'24" N
+D  78° 00'00" E  25° 54' 00" N
+VILLAGES  Mohana, Harsi, Narwar, Bamhari etc.
+TEHSIL/ TALUKA  Bhitarwar, Chinour, Ghatigaon, Shivpuri, Narwar Tehsils
+DISTRICT  Gwalior and Shivpuri districts.
+STATE  Madhya Pradesh
+2  AREA (HECTARES)
+Total Area of the Block  72325.0342Hectares
+Total Area of the Block  NA
+Excluding restricted area
+Mineralized area  NA
+Non-Mineralized area  NA
+3  EXPLORATION
+Status (G2/ G3/ G4 etc.)  NIL
+Ixploration Agency  Geological Survey of India
+liohlichts of Geochemica  Anomaly of Pb (max. 1681 ppm) is observed near Sankua, and
+Survey  Baraipura villages in toposheet no. 54G/13. In toposheet no.
+54G/13, the minimum and maximum value of Cu is 3ppm and
+46ppm, the minimum and maximum value of Zn is 29 ppm and
+205 ppm and the minimum and maximum value of Pb is 11 ppm
+and 1681 ppm. In toposheet no. 54G/14, the minimum and
+maximum value of Cu is 3ppm and 46ppm, the minimum and
+maximum value of Zn is 29 ppm and 205 ppm and the minimum
+and maximum value of Pb is 11 ppm and 1681 ppm.
+NGPM survey in the proposed area brought out numerous
+magnetic anomalies in 54G/13 and part of 54G/14. There are
+several circular magnetic anomalies are present with the same
+set up potential for diamond and the Kaimur Formation which is
+exposed here with the development of laterite in the vicinity of
+the BGC and Vindhyan boundary is also potential geological set
+up in India for Diamond mineralization.
+Pitting/Trenching  NA
+Highlights of Pitting/ Trenching  NA
+Total Number of Boreholes with  NA
+meterage
+Borehole Spacing (Density)  NA
+4  QUANTITY OF MINERALS
+(GRADE WISE)
+MINERAL  Diamond and Basemetal
+TOTAL GEOLOGICAL  NA
+RESOURCES
+=== page 2 ===
+5  MINERALISED ZONES
+NUMBER OF MINERAL  NA
+ZONES
+Length  NA
+TREND (DIP AND STRIKE)  NA
+Highlights of the Petrographical/ NA
+Minerographic Studies
+6  ACCESSIBILLITY
+FEATURES  DETAILS
+NEAREST RAIL HEAD  Gwalior (approximately 60 km north from the block)
+ROAD  The area is well connected by roads. The nearby areas  are
+intersected by the NH-3, NH-25 and NH-75, connecting
+Gwalior to Shivpuri, Gwalior to Jhansi and Jhansi to Shivpuri,
+respectively. NH-3 (also called A-B road/ Agra-Mumbai Road)
+is passing through the western part of the toposheet no. 54G/13
+and 54G/14. Gwalior and Shivpuri are the two big cities located
+60 km north and south of Mohana respectively. The area is
+accessible by metalled and unmetalled roads, cart and foot
+tracks which are either originated from or linked to NH-3 and
+Mohana-Aron-Harsi-Narwar Road.
+AIRPORT  The nearest airport is Gwalior, which is 72 km north from
+Mohana.
+7  HYDROGRAPHY
+LOCAL SURFACE DRAINAGE  Dendriticdrainage.
+PATTERN (CHANNELS)
+RIVERS/ STREAMS  The area forms a part of the Sind River and Parbati River basins
+which are the main rivers of the areaflowing towards the east.
+8  CLIMATE
+MEAN ANNUAL RAINFALL  The normal annual rainfall of Gwalior district is 764.4 mm. The
+normal annual rainfall of Shivpuri district is 816.3 mm.
+TEMPERATURE (DECEMBER)  Minimum 6°C
+TEMPERATURE (JUNE)  Maximum 42°C
+9  TOPOGRAPHY
+TOPOSHEET NUMBER  54G/13 and 54G/14
+MORPHOLOGY OF THE  Geologically the Eastern and southeastern part of the area is
+AREA  underlain by Bundelkhand Granite Complex which forms a
+peneplained terrain with a few isolated hillocks and ridges
+mostly made up of quartz reefs. On the west, Bundelkhand
+Granite is overlain by the rocks of the Vindhyan Supergroup,
+which forms steep escarpments. At places, they form flat and
+slightly undulatory plateaus over the granites. The elevation of
+the area ranges from slightly below 240 m. to above 428 m.
+from mean sea level. Geomorphologically, the topography of the
+study area has been described as structural origin, denudation
+origin (pediment and pediplain complex) and anthropogenic
+origin.
+Structurally area is divided in to three units
+I). Moderately dissected hills and valleys (towards north and
+northeast of the ParbatiRiver.
+II). Low dissected hills and valleys (towards north-west of the
+study area).
+IIl).Moderately dissected lower plateau (towards west-southwest
+of the area)
