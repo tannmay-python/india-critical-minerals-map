@@ -114,10 +114,10 @@ def main():
     q = ", ".join(x for x in [a.place, a.district, a.state, a.country] if x)
     key = norm(q)
     cache = load_cache()
-    if key in cache:
+    if key in cache and cache[key].get("ok"):  # failures are retried, not trusted
         print(json.dumps({k: v for k, v in cache[key].items() if k != "_key"}))
         return
-    params = {"q": q, "format": "jsonv2", "addressdetails": 1, "limit": 5}
+    params = {"q": q, "format": "jsonv2", "addressdetails": 1, "limit": 5, "accept-language": "en"}
     if a.country.lower() == "india":
         params["countrycodes"] = "in"
     res = nominatim(params)

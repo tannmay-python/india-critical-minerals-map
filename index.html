@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="description" content="Research-grade map of India's critical-minerals projects and Indian-held critical-minerals assets abroad. Takshashila Institution working draft.">
+  <title>India Critical Minerals Project Map</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <script>
+    // Apply a saved theme before first paint (no flash). Storage can be unavailable.
+    try { const t = localStorage.getItem("icm-theme"); if (t === "light" || t === "dark") document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+</head>
+<body>
+  <div class="draft-banner" role="note">Working draft, not for circulation</div>
+  <header class="app-header">
+    <a class="brand" href="#/" aria-label="India Critical Minerals Project Map, home">
+      <span class="eyebrow">Takshashila · High-Tech Geopolitics</span>
+      <span class="brand-title">India Critical Minerals Project Map</span>
+    </a>
+    <nav class="views" aria-label="Views">
+      <a href="#/" data-view="map">Map</a>
+      <a href="#/globe" data-view="globe">Overseas</a>
+      <a href="#/chain" data-view="chain">Value chain</a>
+      <a href="#/auctions" data-view="auctions">Auctions</a>
+      <a href="#/timeline" data-view="timeline">Timeline</a>
+      <a href="#/policy" data-view="policy">Policy</a>
+      <a href="#/method" data-view="method">Method</a>
+      <a href="#/data" data-view="data">Data</a>
+    </nav>
+    <div class="header-tools">
+      <div class="search">
+        <label class="sr-only" for="search-input">Search projects, operators, places, minerals</label>
+        <input id="search-input" type="search" placeholder="Search  /" autocomplete="off" spellcheck="false">
+        <ul id="search-results" class="search-results" role="listbox" hidden></ul>
+      </div>
+      <button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle dark mode"></button>
+    </div>
+  </header>
+  <main id="app" class="app-main"></main>
+  <noscript>This map needs JavaScript.</noscript>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
