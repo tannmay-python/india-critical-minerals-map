@@ -1,0 +1,120 @@
+# L10 schemes: compact research draft (aux records, no entity skeleton).
+# Expanded by scripts/research/build_entities.py into l10-schemes.yml + .evidence.jsonl.
+layer: schemes
+aux: true
+
+sources:
+  pib-2299078:
+    raw: pib.gov.in/pib-2299078
+    title: "Ministry of Heavy Industries receives 20 bids under the Scheme to Promote Manufacturing of Sintered Rare Earth Permanent Magnet (REPM)"
+    publisher: Press Information Bureau, Government of India
+    tier: T1
+    date: "2026-08-13"
+  air-repm-rfp-2026:
+    raw: newsonair.gov.in/ministry-of-heavy-industries-invites-global-bids-to-set-up-rare-earth-magnet-manufacturing
+    title: "Ministry of Heavy Industries invites global bids to set up rare earth magnet manufacturing units"
+    publisher: All India Radio News (Prasar Bharati)
+    tier: T1
+    date: "2026-03-20"
+  ls-usq-1474-2025:
+    raw: sansad.in/AU1474_qSzehO
+    title: "Lok Sabha Unstarred Question 1474: rare earth magnet initiative (Ministry of Heavy Industries)"
+    publisher: Lok Sabha Secretariat
+    tier: T1
+    date: "2025-07-29"
+  swa-ecms-2026:
+    raw: swarajyamag.com/govt-clears-rs-7104-crore-electronics-manufacturing-projects-including-indias-first-rare-e
+    title: "Govt clears Rs 7,104 crore electronics manufacturing projects, including India's first rare earth magnet plant"
+    publisher: Swarajya
+    tier: T3
+    date: "2026-03-30"
+  acp-ecms-2026:
+    raw: autocarpro.in/govt-clears-31-new-projects-under-ecms-taking-total-approved-investment-to-rs-69548-crore-
+    title: "ECMS auto electronics push: Govt approves 31 new projects"
+    publisher: Autocar Professional
+    tier: T3
+    date: "2026-08-17"
+
+records:
+  - id: repm
+    name: "Scheme to Promote Manufacturing of Sintered Rare Earth Permanent Magnets (REPM)"
+    ministry: "Ministry of Heavy Industries"
+    parent: null
+    outlay: {amount: 7280, currency: INR_crore, period: "7 years from award (2-year gestation + 5 years of sales-linked incentives)"}
+    dates: {approved: "2025-11-26", notified: "2025-12-15", rfp: "2026-03-20", pre_bid: "2026-04-07", applications_close: "2026-08-12", technical_bids_opened: "2026-08-13"}
+    status: Notified
+    status_as_of: "2026-08-13"
+    status_detail: "20 bids received; technical bids opened 13 Aug 2026; no beneficiaries announced as of 23 Oct 2026"
+    aggregates: {target_capacity_mtpa: 6000, max_beneficiaries: 5, max_allocation_mtpa: 1200, bids_received: 20}
+    beneficiaries: []
+    bidders:
+      - "20 Microns Limited"
+      - "Attero Recycling Private Limited"
+      - "BaRupOn – IRP Consortium"
+      - "Coal India Limited"
+      - "Jay Fe Cylinders Limited"
+      - "Keystone Infra Pvt. Ltd – Huebox Interiors Pvt. Ltd. (JV)"
+      - "Larsen & Toubro Limited"
+      - "Lohum Magnets & Energy Solutions Private Limited"
+      - "Midwest Energy Limited – Midwest Advanced Materials (JV)"
+      - "N.A.N. Magnetech Private Limited"
+      - "NEO Performance Materials (Singapore) PTE. LTD."
+      - "Nexon Geochem Private Limited"
+      - "PrNd Metal and Magnets Pvt. Ltd."
+      - "Proterial (India) Limited"
+      - "Prozeal Green Energy Limited"
+      - "Ramp Metals & Minerals Private Limited"
+      - "Renew Private Limited"
+      - "Shankaranarayana Constructions Limited"
+      - "Solpro Greentech Private Limited"
+      - "Starteck Finance Limited"
+    bidder_records:
+      "Lohum Magnets & Energy Solutions Private Limited": lohum-greater-noida-repm
+      "Midwest Energy Limited – Midwest Advanced Materials (JV)": mam-hyderabad-ndfeb
+      "N.A.N. Magnetech Private Limited": nan-magnetech-naidupeta
+      "Nexon Geochem Private Limited": nexon-geochem-thondangi
+      "Proterial (India) Limited": proterial-atchutapuram-ndfeb
+    disbursed: {amount: null, as_of: null}
+    notes: "Bidder records link to sites announced separately by the same companies; a bid's proposed site is not published, so a linked plant may not be the one bid. Bidders without a published site have no map point (OPEN_QUESTIONS 8). No project had been sanctioned for magnet manufacturing before the scheme (LS USQ 1474, Jul 2025, lists only consultations)."
+    sources:
+      - ref: pib-2299078
+        supports: [outlay, outlay.period, dates.approved, dates.notified, dates.rfp, dates.pre_bid, dates.applications_close, dates.technical_bids_opened, aggregates, bidders, status]
+        ev:
+          outlay: "with a financial outlay of Rs. 7,280 Crore. The Scheme Notification was issued by MHI on 15.12.2025."
+          dates.approved: "On 26th November 2025, the Union Cabinet chaired by Prime Minister Shri Narendra Modi approved the"
+          aggregates: ["aims to establish a total capacity of 6,000 Metric Tons Per Annum (MTPA)", "Each beneficiary will be allotted up to 1,200 MTPA of capacity."]
+          bidders: ["Ministry of Heavy Industries (MHI) receives 20 bids through Global Tender on CPP portal", "Midwest Energy Limited – Midwest Advanced Materials (JV)", "PrNd Metal and Magnets Pvt. Ltd."]
+          outlay.period: "The total duration of the scheme will be 7 years from the date of award, including a 2-year gestation period"
+      - ref: air-repm-rfp-2026
+        supports: [dates.rfp]
+        ev:
+          dates.rfp: "The Ministry of Heavy Industries has invited global bids for setting up integrated Sintered NdFeB Rare Earth Permanent Magnet manufacturing facilities"
+      - ref: ls-usq-1474-2025
+        supports: [notes]
+        ev:
+          notes: "Ministry of Heavy Industries held two consultation meetings on 26.09.2024 and"
+
+  - id: ecms
+    name: "Electronics Components Manufacturing Scheme (ECMS)"
+    ministry: "Ministry of Electronics and Information Technology"
+    parent: null
+    outlay: {amount: null, currency: INR_crore, period: null}
+    dates: {approved: null, notified: null, applications_close: null}
+    status: Beneficiaries selected
+    status_as_of: "2026-08-17"
+    status_detail: "106 projects approved across 15 states (Rs 69,548 crore) by Aug 2026; 38 plants operating"
+    aggregates: {approved_projects: 106, approved_investment_inr_cr: 69548, states: 15, plants_operating: 38}
+    beneficiaries: [lohum-greater-noida-repm]
+    bidders: []
+    disbursed: {amount: null, as_of: null}
+    notes: "Only the magnet-relevant approvals are linked here so far; battery-material approvals (anode, conductive additives, electrolyte additives, Quantum Magnetics REPM) are researched in L3. Outlay and notification dates to be filled in L3/L10. Disbursement amounts not found."
+    sources:
+      - ref: acp-ecms-2026
+        supports: [aggregates, status, status_detail]
+        ev:
+          aggregates: "cumulative approvals under the scheme have reached 106 projects across 15 states, representing a total investment of Rs 69,548 crore"
+          status: "Out of these, 38 manufacturing plants have already begun operations"
+      - ref: swa-ecms-2026
+        supports: [beneficiaries]
+        ev:
+          beneficiaries: "The Union government has approved 29 projects worth Rs 7,104 crore under the Electronics Component Manufacturing Scheme (ECMS)"

@@ -1,0 +1,158 @@
+# schemes layer — single source of truth. See docs/SCHEMA.md. Merged by scripts/research/merge.py.
+- id: ecms
+  name: Electronics Components Manufacturing Scheme (ECMS)
+  ministry: Ministry of Electronics and Information Technology
+  parent: null
+  outlay:
+    amount: null
+    currency: INR_crore
+    period: null
+  dates:
+    approved: null
+    notified: null
+    applications_close: null
+  status: Beneficiaries selected
+  status_as_of: '2026-08-17'
+  status_detail: 106 projects approved across 15 states (Rs 69,548 crore) by Aug 2026; 38 plants operating
+  aggregates:
+    approved_projects: 106
+    approved_investment_inr_cr: 69548
+    states: 15
+    plants_operating: 38
+  beneficiaries:
+  - lohum-greater-noida-repm
+  bidders: []
+  disbursed:
+    amount: null
+    as_of: null
+  notes: Only the magnet-relevant approvals are linked here so far; battery-material approvals (anode, conductive
+    additives, electrolyte additives, Quantum Magnetics REPM) are researched in L3. Outlay and notification dates
+    to be filled in L3/L10. Disbursement amounts not found.
+  sources:
+  - id: acp-ecms-2026
+    url: "https://www.autocarpro.in/news/govt-clears-31-new-projects-under-ecms-taking-total-approved-investment-to-rs-69548-crore-134154"
+    title: "ECMS auto electronics push: Govt approves 31 new projects"
+    publisher: Autocar Professional
+    tier: T3
+    date: '2026-08-17'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - aggregates
+    - status
+    - status_detail
+  - id: swa-ecms-2026
+    url: "https://swarajyamag.com/amp/story/news-brief/govt-clears-rs-7104-crore-electronics-manufacturing-projects-including-indias-first-rare-earth-magnet-plant"
+    title: "Govt clears Rs 7,104 crore electronics manufacturing projects, including India's first rare earth magnet\
+      \ plant"
+    publisher: Swarajya
+    tier: T3
+    date: '2026-03-30'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - beneficiaries
+  minerals: []
+  layer: schemes
+- id: repm
+  name: Scheme to Promote Manufacturing of Sintered Rare Earth Permanent Magnets (REPM)
+  ministry: Ministry of Heavy Industries
+  parent: null
+  outlay:
+    amount: 7280
+    currency: INR_crore
+    period: 7 years from award (2-year gestation + 5 years of sales-linked incentives)
+  dates:
+    approved: '2025-11-26'
+    notified: '2025-12-15'
+    rfp: '2026-03-20'
+    pre_bid: '2026-04-07'
+    applications_close: '2026-08-12'
+    technical_bids_opened: '2026-08-13'
+  status: Notified
+  status_as_of: '2026-08-13'
+  status_detail: 20 bids received; technical bids opened 13 Aug 2026; no beneficiaries announced as of 23 Oct 2026
+  aggregates:
+    target_capacity_mtpa: 6000
+    max_beneficiaries: 5
+    max_allocation_mtpa: 1200
+    bids_received: 20
+  beneficiaries: []
+  bidders:
+  - 20 Microns Limited
+  - Attero Recycling Private Limited
+  - BaRupOn – IRP Consortium
+  - Coal India Limited
+  - Jay Fe Cylinders Limited
+  - Keystone Infra Pvt. Ltd – Huebox Interiors Pvt. Ltd. (JV)
+  - "Larsen & Toubro Limited"
+  - "Lohum Magnets & Energy Solutions Private Limited"
+  - Midwest Energy Limited – Midwest Advanced Materials (JV)
+  - N.A.N. Magnetech Private Limited
+  - NEO Performance Materials (Singapore) PTE. LTD.
+  - Nexon Geochem Private Limited
+  - PrNd Metal and Magnets Pvt. Ltd.
+  - Proterial (India) Limited
+  - Prozeal Green Energy Limited
+  - "Ramp Metals & Minerals Private Limited"
+  - Renew Private Limited
+  - Shankaranarayana Constructions Limited
+  - Solpro Greentech Private Limited
+  - Starteck Finance Limited
+  bidder_records:
+    "Lohum Magnets & Energy Solutions Private Limited": lohum-greater-noida-repm
+    Midwest Energy Limited – Midwest Advanced Materials (JV): mam-hyderabad-ndfeb
+    N.A.N. Magnetech Private Limited: nan-magnetech-naidupeta
+    Nexon Geochem Private Limited: nexon-geochem-thondangi
+    Proterial (India) Limited: proterial-atchutapuram-ndfeb
+  disbursed:
+    amount: null
+    as_of: null
+  notes: "Bidder records link to sites announced separately by the same companies; a bid's proposed site is not\
+    \ published, so a linked plant may not be the one bid. Bidders without a published site have no map point (OPEN_QUESTIONS\
+    \ 8). No project had been sanctioned for magnet manufacturing before the scheme (LS USQ 1474, Jul 2025, lists\
+    \ only consultations)."
+  sources:
+  - id: pib-2299078
+    url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2299078&reg=1&lang=1"
+    title: Ministry of Heavy Industries receives 20 bids under the Scheme to Promote Manufacturing of Sintered Rare
+      Earth Permanent Magnet (REPM)
+    publisher: Press Information Bureau, Government of India
+    tier: T1
+    date: '2026-08-13'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - outlay
+    - outlay.period
+    - dates.approved
+    - dates.notified
+    - dates.rfp
+    - dates.pre_bid
+    - dates.applications_close
+    - dates.technical_bids_opened
+    - aggregates
+    - bidders
+    - status
+  - id: air-repm-rfp-2026
+    url: "https://www.newsonair.gov.in/ministry-of-heavy-industries-invites-global-bids-to-set-up-rare-earth-magnet-manufacturing-units"
+    title: Ministry of Heavy Industries invites global bids to set up rare earth magnet manufacturing units
+    publisher: All India Radio News (Prasar Bharati)
+    tier: T1
+    date: '2026-03-20'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - dates.rfp
+  - id: ls-usq-1474-2025
+    url: "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/185/AU1474_qSzehO.pdf?source=lsapps"
+    title: "Lok Sabha Unstarred Question 1474: rare earth magnet initiative (Ministry of Heavy Industries)"
+    publisher: Lok Sabha Secretariat
+    tier: T1
+    date: '2025-07-29'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - notes
+  minerals: []
+  layer: schemes

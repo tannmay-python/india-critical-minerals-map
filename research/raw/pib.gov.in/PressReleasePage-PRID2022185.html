@@ -1,0 +1,1111 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head id="Head1"><title>
+	Press Release Page | Press Information Bureau
+</title><link href="css/style.css?v=1" rel="stylesheet" type="text/css" /><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="alternate stylesheet" href="css/change.css?v=1" media="screen" title="change" /><link rel="alternate stylesheet" href="css/green.css?v=1" media="screen" title="green" /><link rel="alternate stylesheet" href="css/yellow.css" media="screen" title="yellow" /><link rel="stylesheet" type="text/css" href="css/prtint.css" media="print" /><link rel="stylesheet" href="css/style3.1.css" type="text/css" /><link id="pibA11yCss" rel="stylesheet" href="/css/accessibility.css?v=7" type="text/css" />
+    <script type="text/javascript">
+        (function (d) {
+            var t = "";
+            try {
+                t = window.localStorage.getItem("pibStyle") || "";
+            } catch (e) {
+                t = "";
+            }
+            if (t === "orange") {
+                t = "yellow";
+            }
+            var c = t === "change" ? " pib-hc"
+                : t === "green" ? " pib-theme-green"
+                : t === "yellow" ? " pib-theme-yellow" : "";
+            d.documentElement.className += c + " pib-a11y-content";
+        }(document));
+    </script>
+
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/js/accessibility.js?v=7"></script>
+
+    <script type="text/javascript">
+            $(document).ready(function () {
+                  function getParameterByName(name) {
+                        var url = window.location.href;
+                        name = name.replace(/[\[\]]/g, '\\$&');
+                        var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+                              results = regex.exec(url);
+                        if (!results) return null;
+                        if (!results[2]) return '';
+                        return decodeURIComponent(results[2].replace(/\+/g, ' '));
+                  }
+                  let prid = parseInt(getParameterByName('PRID'), 10);
+
+                  if (!isNaN(prid) && prid > 0) {
+                        $.ajax({
+                              type: "POST",
+                              url: "AjaxMethod.aspx/UpdatePRHitCount",
+                              async: false,
+                              data: JSON.stringify({ 'PermId': prid }),
+                              contentType: "application/json; charset=utf-8",
+                              dataType: "json",
+                              success: function (response) {
+                                    console.log(response);
+                              },
+                              error: function (error) {
+                                    console.log("Error in AJAX request", error);
+                              }
+                        });
+                  } else {
+                        console.log("Invalid parameters:", prid);
+                  }
+            });
+    </script>
+    <style type="text/css">
+        .table-responsive {
+            width: 100%;
+            overflow-x: auto;
+        }
+
+        .banner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+        }
+
+        full-width {
+            width: 100%;
+        }
+
+        .logo-left, .logo-center, .countdown {
+            display: flex;
+            align-items: center;
+        }
+
+            .logo-left img, .logo-center img {
+                height: 70px;
+            }
+
+        .countdown {
+            text-align: center;
+            background-color: var(--dbim-text, #150202);
+            border-radius: 10px;
+            padding: 10px;
+            border: 2px solid grey;
+        }
+
+        .firstnumber {
+            color: #000000;
+            position: absolute;
+            top: 50px;
+            right: 90px;
+            font-size: 30px;
+        }
+
+        .secondnumber {
+            position: absolute;
+            color: #000000;
+            right: 45px;
+            top: 50px;
+            font-size: 30px;
+        }
+
+        .countdown .days {
+            font-size: 35px;
+            color: gold;
+        }
+
+        .countdown p {
+            margin: 0;
+        }
+
+        .countdown .text {
+            font-size: 16px;
+        }
+
+        a {
+            word-break: break-all;
+        }
+
+        iframe, img {
+            max-width: 100%;
+        }
+
+        /* === DBIM 3.0 Option 4 Separator Line & Reading Meta Styling === */
+        .pr-share--footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+            border-top: 1px solid var(--dbim-border, #d1d5db);
+            padding-top: 16px;
+            margin-top: 24px;
+        }
+
+        .pr-share__left {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .pr-reading-meta {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 0.95rem;
+            color: var(--dbim-text-secondary, #475569);
+            font-weight: 500;
+            white-space: nowrap;
+            margin-left: auto;
+        }
+
+        .pr-reading-meta__item {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .pr-reading-meta__divider {
+            color: var(--dbim-border, #cbd5e1);
+            font-weight: 300;
+        }
+
+        .pib-hc .pr-reading-meta,
+        .pib-hc .pr-reading-meta svg {
+            color: currentColor !important;
+        }
+
+        @media (max-width: 680px) {
+            .pr-share--footer {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .pr-reading-meta {
+                margin-left: 0;
+                width: 100%;
+                justify-content: flex-start;
+            }
+        }
+
+        @media(max-width:1199px) {
+            .firstnumber {
+                top: 40px;
+                right: 72px;
+                font-size: 30px;
+            }
+
+            .secondnumber {
+                right: 35px;
+                top: 40px;
+                font-size: 30px;
+            }
+        }
+
+        @media(max-width:990px) {
+            .firstnumber {
+                top: 25px;
+                right: 54px;
+                font-size: 30px;
+            }
+
+            .secondnumber {
+                right: 25px;
+                top: 25px;
+                font-size: 30px;
+            }
+        }
+
+        @media(max-width:768px) {
+            .countdown, .days {
+                font-size: 12px !important;
+            }
+
+            .firstnumber {
+                top: 25%;
+                right: 8%;
+                font-size: 30px;
+            }
+
+            .secondnumber {
+                right: 4.5%;
+                top: 25%;
+                font-size: 30px;
+            }
+        }
+
+        @media(max-width:475px) {
+            .countdown, .days {
+                font-size: 10px !important;
+                top: 20%;
+            }
+
+            .bannerimgdiv {
+                padding: 0 !important;
+            }
+
+            .bannerimg {
+                width: 108% !important;
+            }
+        }
+    </style>
+    <script type="text/javascript">
+            $(function () {
+                  $("[id*=printPDF]").click(function () {
+                        $("[id*=hfGridHtml]").val($("#PdfDiv").html());
+                  });
+            });
+            $(function () {
+                  $("[id*=printPDFEvent]").click(function () {
+                        $("[id*=hfGridHtml]").val($("#PdfDiv").html());
+                  });
+            });
+    </script>
+
+    <link id="pibConsentCss" href="/css/consent.css?v=8" rel="stylesheet" type="text/css" /><link id="pibFontsCss" href="/css/fonts-noto.css?v=6" rel="stylesheet" type="text/css" /><link id="pibDbimCss" href="/css/dbim.css?v=1120" rel="stylesheet" type="text/css" /><meta property="og:title" content="Technology Development Board (TDB) - Department of Science and Technology (DST) approves support for M/s Midwest Advanced Materials Private Limited, Hyderabad for Sustainable Magnet Production" /><meta property="og:url" content="www.pib.gov.in/Pressreleaseshare.aspx?PRID=2022185" /><meta property="og:description" content="The Technology Development Board (TDB) under the Department of Science and Technology (DST) has sanc" /><meta property="og:image" content="https:/pib.gov.in/images/indian-emblem.png" />
+                                <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="C4E7H-KSCMC-422L4-W3EM5-U36MF",function(){function e(){if(!i){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,o.parentNode.appendChild(e),i=!0}}function t(e){i=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(o.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",o.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"C4E7H-KSCMC-422L4-W3EM5-U36MF";var o=document.currentScript||document.getElementsByTagName("script")[0],i=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!i)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),o.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="eqausaa7faw3qjqacqlqauyaabvnw6yb-f-06f51b155-clienttons-s.akamaihd.net",o="false"=="true"?2:1,i={"ak.v":"41","ak.cp":"1825201","ak.ai":parseInt("1215205",10),"ak.ol":"0","ak.cr":6,"ak.ipv":6,"ak.proto":"h2","ak.rid":"137c921d","ak.r":24958,"ak.a2":n,"ak.m":"dscb","ak.n":"ff","ak.cport":53796,"ak.gh":"23.3.70.132","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"","ak.t":"1792768769","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==KmgDpAEREWoBW07qvM8Eta7xGXssoI3qhF53zRA4KvvoSnCY9yzHECJQRj4Q3LM00YxTMYNo+kytu5VX8PmtM+2E1tdJBTv6JL+A877TNzVAcLTz4eAmVMxN8uD3PXrjZEAteeeXhueht1hIAALA3mcZjJPWjGuGF7OfzDfZQdifCfkPGnuDEv6I1Q+cScY4Ynb9/hmqkWo+Zi7n5wWfpqR/PobAbrtE75JtSJYyF3tZwZsE7MqbW6PpcwttEj1HXJ2sZjpkHtlcKJgQHGnlZtniqh7rCQ87kmTNBOPWEZQgGz6eG2WkERCvCPzl/Px19WpEpquVDx5iFH4sbLQYcVUhdw8M96UdD7tt7aeTigDLPid2LyLnldda/sbVOZEf5JU3EuYMvgMaCqN8h8VGe47Jo8sHjY8v+wUxIzqW7v0=","ak.pv":"9","ak.dpoabenc":"","ak.tf":o};if(""!==t)i["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))i["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var e=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+<body>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
+     style="position:absolute;width:0;height:0;overflow:hidden" id="dbim-icon-sprite">
+    <defs>
+        <symbol id="icon-angle-double-left" viewBox="0 0 24 24"><path d="M11.6 4.6 4.2 12l7.4 7.4 2.2-2.2L8.6 12l5.2-5.2z"/><path d="M19 4.6 11.6 12 19 19.4l2.2-2.2L16 12l5.2-5.2z"/></symbol>
+        <symbol id="icon-angle-double-right" viewBox="0 0 24 24"><path d="M12.4 4.6 10.2 6.8 15.4 12l-5.2 5.2 2.2 2.2L19.8 12z"/><path d="M5 4.6 2.8 6.8 8 12l-5.2 5.2L5 19.4 12.4 12z"/></symbol>
+        <symbol id="icon-arrow-left" viewBox="0 0 24 24"><path d="M20.8 10.6H9.6v2.8h11.2z"/><path d="M10.8 5.6 3.2 12l7.6 6.4z"/></symbol>
+        <symbol id="icon-arrow-right" viewBox="0 0 24 24"><path d="M3.2 10.6h11.2v2.8H3.2z"/><path d="M13.2 5.6 20.8 12l-7.6 6.4z"/></symbol>
+        <symbol id="icon-blogger" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M6.4 2.4h11.2a4 4 0 0 1 4 4v11.2a4 4 0 0 1-4 4H6.4a4 4 0 0 1-4-4V6.4a4 4 0 0 1 4-4zm2.8 5.2a2 2 0 0 0 0 4h2.4a2 2 0 0 0 0-4zm0 5.6a2 2 0 0 0 0 4h5.6a2 2 0 0 0 0-4z"/></symbol>
+        <symbol id="icon-calendar" viewBox="0 0 24 24"><path d="M7.6 2.4H10v2.4H7.6z"/><path d="M14 2.4h2.4v2.4H14z"/><path fill-rule="evenodd" d="M4 4.8h16a1.6 1.6 0 0 1 1.6 1.6v13.2a1.6 1.6 0 0 1-1.6 1.6H4a1.6 1.6 0 0 1-1.6-1.6V6.4A1.6 1.6 0 0 1 4 4.8zm.4 5.6v8.4h15.2v-8.4z"/><path d="M6.4 12.4h3.2v3.2H6.4z"/></symbol>
+        <symbol id="icon-chevron-left" viewBox="0 0 24 24"><path d="M15.4 4.6 8 12l7.4 7.4 2.2-2.2L12.4 12l5.2-5.2z"/></symbol>
+        <symbol id="icon-chevron-right" viewBox="0 0 24 24"><path d="M8.6 4.6 6.4 6.8 11.6 12l-5.2 5.2 2.2 2.2L16 12z"/></symbol>
+        <symbol id="icon-circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/></symbol>
+        <symbol id="icon-download" viewBox="0 0 24 24"><path d="M10.8 3h2.4v7.6h3.4L12 16.6l-4.6-6h3.4z"/><path d="M4 17.2h2.4v2.4h11.2v-2.4H20v3.2a1.4 1.4 0 0 1-1.4 1.4H5.4A1.4 1.4 0 0 1 4 20.4z"/></symbol>
+        <symbol id="icon-facebook" viewBox="0 0 24 24"><path d="M13.6 21.6v-8.4h2.8l.42-3.3h-3.22V7.8c0-.95.27-1.6 1.64-1.6h1.74V3.26a23 23 0 0 0-2.54-.13c-2.5 0-4.22 1.53-4.22 4.34v2.43H7.4v3.3h2.82v8.4z"/></symbol>
+        <symbol id="icon-fact-check" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.4 3.6 5.6v6.2c0 4.6 3.4 8.6 8.4 9.8 5-1.2 8.4-5.2 8.4-9.8V5.6zm-1 13.2-3.6-3.6 1.7-1.7 1.9 1.9 4.5-4.5 1.7 1.7z"/></symbol>
+        <symbol id="icon-hashtag" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M8.8 3h2.4l-1 6h3.2l1-6h2.4l-1 6h3.4v2.4h-3.8l-.6 3.2h3.6V17h-4l-1 5h-2.4l1-5h-3.2l-1 5H5.4l1-5H3V14.6h3.8l.6-3.2H3.8V9h4zm.6 8.4-.6 3.2h3.2l.6-3.2z"/></symbol>
+        <symbol id="icon-home" viewBox="0 0 24 24"><path d="M12 3.4 2.8 11.6h2.4v8.4a1 1 0 0 0 1 1h3.3v-5.4h5v5.4h3.3a1 1 0 0 0 1-1v-8.4h2.4z"/></symbol>
+        <symbol id="icon-instagram" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M7.6 2.4h8.8a5.2 5.2 0 0 1 5.2 5.2v8.8a5.2 5.2 0 0 1-5.2 5.2H7.6a5.2 5.2 0 0 1-5.2-5.2V7.6a5.2 5.2 0 0 1 5.2-5.2zm0 2.4a2.8 2.8 0 0 0-2.8 2.8v8.8a2.8 2.8 0 0 0 2.8 2.8h8.8a2.8 2.8 0 0 0 2.8-2.8V7.6a2.8 2.8 0 0 0-2.8-2.8z"/><path fill-rule="evenodd" d="M12 6.8a5.2 5.2 0 1 0 0 10.4 5.2 5.2 0 0 0 0-10.4zm0 2.4a2.8 2.8 0 1 1 0 5.6 2.8 2.8 0 0 1 0-5.6z"/><circle cx="17.3" cy="6.7" r="1.3"/></symbol>
+        <symbol id="icon-linkedin" viewBox="0 0 24 24"><path d="M4.8 8.8h3.6v12H4.8z"/><circle cx="6.6" cy="5.4" r="2.1"/><path d="M10.8 8.8h3.45v1.65h.05c.48-.9 1.65-1.85 3.4-1.85 3.63 0 4.3 2.35 4.3 5.4v6.6h-3.6v-5.85c0-1.4-.03-3.2-1.95-3.2-1.95 0-2.25 1.52-2.25 3.1v5.95h-3.6z"/></symbol>
+        <symbol id="icon-mail" viewBox="0 0 24 24"><path d="M2.4 7.6v9.2a1.6 1.6 0 0 0 1.6 1.6h16a1.6 1.6 0 0 0 1.6-1.6V7.6L12 14z"/><path d="M21.2 5.4H2.8L12 11.8z"/></symbol>
+        <symbol id="icon-mail-open" viewBox="0 0 24 24"><path d="M2.4 9.8h19.2v9.6A1.6 1.6 0 0 1 20 21H4a1.6 1.6 0 0 1-1.6-1.6z"/><path d="M12 2.6 21.6 9.2h-3.8L12 5.3 6.2 9.2H2.4z"/><path d="m3.9 11.2 8.1 5.4 8.1-5.4 1.5 1.3-9.6 6.4-9.6-6.4z"/></symbol>
+        <symbol id="icon-map-marker" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.4a7 7 0 0 0-7 7c0 5.2 7 12.2 7 12.2s7-7 7-12.2a7 7 0 0 0-7-7zm0 9.6a2.6 2.6 0 1 1 0-5.2 2.6 2.6 0 0 1 0 5.2z"/></symbol>
+        <symbol id="icon-newspaper" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M2.8 4.4h14.8v15.2H2.8zm2 2v11.2h10.8V6.4z"/><path d="M6 7.6h8.4v1.6H6z"/><path d="M6 10.8h8.4v1.6H6z"/><path d="M6 14h5.2v1.6H6z"/><path d="M18.4 8.4h2.8v9.6a1.4 1.4 0 0 1-2.8 0z"/></symbol>
+        <symbol id="icon-pause" viewBox="0 0 24 24"><rect x="7.4" y="4" width="3.6" height="16" rx="0.9"/><rect x="13" y="4" width="3.6" height="16" rx="0.9"/></symbol>
+    <symbol id="icon-play" viewBox="0 0 24 24"><path d="M8 4.5v15l12-7.5z"/></symbol>
+        <symbol id="icon-picture" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M2.4 5.2h19.2v13.6H2.4zm2 2v9.6h15.2V7.2z"/><path d="M5.6 16.4 10 11l2.6 3 2-2.2 4 4.6z"/><circle cx="8" cy="10.4" r="1.5"/></symbol>
+        <symbol id="icon-press-conference" viewBox="0 0 24 24"><circle cx="12" cy="5.2" r="2.6"/><path d="M7.6 12.2a4.4 4.4 0 0 1 8.8 0z"/><circle cx="4.9" cy="9.6" r="2.2"/><path d="M1.8 15.2a3.1 3.1 0 0 1 6.2 0z"/><circle cx="19.1" cy="9.6" r="2.2"/><path d="M16 15.2a3.1 3.1 0 0 1 6.2 0z"/><path d="M6.6 13.6h10.8l2.2 7.8H4.4z"/></symbol>
+        <symbol id="icon-print" viewBox="0 0 24 24"><path d="M6.4 2.8h11.2v4.4H6.4z"/><path d="M4 8.4h16a1.6 1.6 0 0 1 1.6 1.6v5.6a1.6 1.6 0 0 1-1.6 1.6h-1.6v-2.8H6v2.8H4a1.6 1.6 0 0 1-1.6-1.6V10A1.6 1.6 0 0 1 4 8.4z"/><path d="M7.2 15.6h9.6v5.6H7.2z"/></symbol>
+        <symbol id="icon-rss" viewBox="0 0 24 24"><circle cx="4.8" cy="19.2" r="2.4"/><path d="M2.4 11.2v3.2a6.4 6.4 0 0 1 6.4 6.4H12A9.6 9.6 0 0 0 2.4 11.2z"/><path d="M2.4 4.8V8A13.6 13.6 0 0 1 16 21.6h3.2A16.8 16.8 0 0 0 2.4 4.8z"/></symbol>
+        <symbol id="icon-search-plus" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M10 2.8a7.2 7.2 0 1 0 0 14.4 7.2 7.2 0 0 0 0-14.4zm0 2.4a4.8 4.8 0 1 1 0 9.6 4.8 4.8 0 0 1 0-9.6z"/><path d="M15.3 14.6 21.2 20.5l-1.5 1.5-5.9-5.9z"/><path d="M9.2 6.8h1.6v2.4h2.4v1.6h-2.4v2.4H9.2v-2.4H6.8V9.2h2.4z"/></symbol>
+        <symbol id="icon-share" viewBox="0 0 24 24"><circle cx="18" cy="5.6" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="18.4" r="3"/><path d="M8.3 10.9 15.7 7.2l.9 1.8-7.4 3.7z"/><path d="M9.2 13.1 16.6 16.8l-.9 1.8-7.4-3.7z"/></symbol>
+        <symbol id="icon-twitter" viewBox="0 0 24 24"><path d="M4.2 3h4.3l11.3 18h-4.3z"/><path d="M19.3 3h-2.6L4.2 21h2.6z"/></symbol>
+        <symbol id="icon-university" viewBox="0 0 24 24"><path d="M12 2.4 21.6 7.2v1.6H2.4V7.2z"/><path d="M4.8 10.4h2.4v8H4.8z"/><path d="M9.2 10.4h2.4v8H9.2z"/><path d="M13.4 10.4h2.4v8h-2.4z"/><path d="M17.6 10.4H20v8h-2.4z"/><path d="M3.2 19.8h17.6v1.8H3.2z"/></symbol>
+        <symbol id="icon-volume-up" viewBox="0 0 24 24"><path d="M3.2 9.2h3.3l5-4.2v14l-5-4.2H3.2z"/><path d="M14.6 8.4a5 5 0 0 1 0 7.2l1.6 1.6a7.2 7.2 0 0 0 0-10.4z"/><path d="M17.4 5.6a8.8 8.8 0 0 1 0 12.8l1.5 1.5a10.9 10.9 0 0 0 0-15.8z"/></symbol>
+        <symbol id="icon-whatsapp" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.4a9.5 9.5 0 0 0-8.1 14.5L2.4 21.6l4.8-1.4A9.5 9.5 0 1 0 12 2.4zm0 2.2a7.3 7.3 0 1 1-3.8 13.5l-.4-.2-2.6.7.7-2.5-.3-.4A7.3 7.3 0 0 1 12 4.6z"/><path d="M9.4 7.8c-.2-.5-.4-.5-.6-.5h-.5a1 1 0 0 0-.7.3c-.3.3-.9.9-.9 2.1s.9 2.4 1 2.6c.1.2 1.7 2.8 4.3 3.8 2.1.8 2.6.7 3 .6.5 0 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.5-.3-1.6-.8c-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6 6 0 0 1-1.8-1.1 6.6 6.6 0 0 1-1.2-1.6c-.1-.2 0-.4.1-.5l.4-.5.3-.5v-.5z"/></symbol>
+        <symbol id="icon-youtube" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M21.6 7.2a2.8 2.8 0 0 0-2-2C17.9 4.8 12 4.8 12 4.8s-5.9 0-7.6.4a2.8 2.8 0 0 0-2 2A29 29 0 0 0 2 12a29 29 0 0 0 .4 4.8 2.8 2.8 0 0 0 2 2c1.7.4 7.6.4 7.6.4s5.9 0 7.6-.4a2.8 2.8 0 0 0 2-2A29 29 0 0 0 22 12a29 29 0 0 0-.4-4.8zM10.2 15.1V8.9l5.1 3.1z"/></symbol>
+    </defs>
+</svg>
+
+    <form method="post" action="./PressReleasePage.aspx?PRID=2022185&amp;reg=48&amp;lang=2" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="sc_HiddenField" id="sc_HiddenField" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZPQet1wIx1Q48y3xJY2k25Y7qxH5RrQ9qQcN-OiTC9guZtri9w2&amp;t=639246315009809930" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=x6wALODbMJK5e0eRC_p1LdIxBJXt0U_WW5GWfJqHAqo6frgCmGRfEywglicTersO2OKrFhK1gAIp0Wk2al2YrpdR3uWqH6f4nfjBsCyRUfTUUVmb0&amp;t=ffffffffecf8d3f2" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=P5lTttoqSeZXoYRLQMIScH645UK3RD852IErF2548Wz9Ssv0rLjB4fhVKnHcMpqkaMHpNAGOeWY02Lf4aBYN9-dVBme_SNK5KJwmFQNpMixYDZ7M0&amp;t=ffffffffecf8d3f2" type="text/javascript"></script>
+<script src="/PressReleasePage.aspx?_TSM_HiddenField_=sc_HiddenField&amp;_TSM_CombinedScripts_=%3b%3bAjaxControlToolkit%2c+Version%3d3.5.7.123%2c+Culture%3dneutral%2c+PublicKeyToken%3d28f01b0e84b6d53e%3aen-US%3a5a4df314-b4a2-4da2-a207-9284f1b1e96c%3ade1feab2%3af2c8e708%3a8613aea7%3af9cec9bc%3a3202a5a2%3aab09e3fe%3a87104b7c%3a720a52bf%3a589eaa30%3aa67c2700%3abe6fb298" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="59B53027" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="cLggYAFpBhkWSCbblHLtjrQ21JWJbhtzDChNdL3VDJDP0X/wffQyx6kdoewxPaKG3n+TBlKAdOkkGayDjlG2+bKpSZX+wyx7boGUaRsbY1Mi/dDeQUKwc8PZloTRiwQd4shgwFKefWcE7MugMv5HT/9BXJFHgprRW9uc5doSgFBEPM6pc0UxdQuiLsALa4aWqcXD5J2a1+NrDatf1TUKHnahlO6YM69RhkVrWAsxRooZDihKgtxfykhG0vdz1+mQTQyHOD83ObTuBWkM0kKvnUhK+xY=" />
+</div>
+        
+        <div id="templateCss"></div>
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('sc', 'form1', ['tupdate12','update12'], [], [], 90, '');
+//]]>
+</script>
+
+        <input type="hidden" name="hfGridHtml" id="hfGridHtml" />
+        <div class="container" style='margin-bottom: 50px;'>
+            <div id="accessories">
+                
+                <div class="pull-right" style="display: flex">
+                    <div id="voll"></div>
+                    <div id="vollDT"></div>
+                    
+
+<span class="print-icons">
+<input type="image" name="Print1$print" id="Print1_print" aria-label="Print" src="images/printer_icon.png" alt="print page button" style="padding: 5px 10px 5px 10px;" />
+</span>
+                </div>
+            </div>
+            <input type="hidden" name="hydpermid" id="hydpermid" value="2022185" />
+            
+
+            <div class="innner-page-main-about-us-content-right-part">
+                <div id="MinistryName" class="MinistryNameSubhead text-center">
+                    Ministry of Science & Technology
+                </div>
+                <div id="lg_g"><div class='log_oo'>  <img src='https://static.pib.gov.in/WriteReadData/specificdocs/photo/2026/sep/ph_9768_20260902_10000501.png' alt='azadi ka amrit mahotsav' /> </div></div>
+
+                <div class="text-center event-heading-background">
+                    
+                    <h1 id="Titleh2">
+                        Technology Development Board (TDB) - Department of Science and Technology (DST) approves support for M/s Midwest Advanced Materials Private Limited, Hyderabad for Sustainable Magnet Production
+                    </h1>
+                    <h3 id="Subtitleh3">
+                        <span id="ltrSubtitle"><br/>The program aimed at increasing the production of Neodymium magnets to enable sustainable future</span>
+                    </h3>
+                </div>
+
+                <div id="PrDateTime" class="ReleaseDateSubHeaddateTime text-center pt20">
+                    Posted On:
+                              30 MAY 2024 3:20PM by PIB Delhi
+                </div>
+                
+                <div class='pt20'>
+                </div>
+                <input type="hidden" name="hydphotoUrl" id="hydphotoUrl" />
+                
+
+                <!-- Release content wrapper for client-side zero-reflow word count -->
+                <div id="pibReleaseBody">
+                    <p style="margin-left:-pt; margin-right:0cm; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:#0d0d0d">The Technology Development Board (TDB) under the Department of Science and Technology (DST) has sanctioned funding for M/s Midwest Advanced Materials Private Limited (MAM), Hyderabad with the aim of boosting the domestic production of essential materials and technologies, today at the TDB Centre in New Delhi.</span></span></span><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:#0d0d0d">&nbsp;</span></span></span></p>
+
+<p style="margin-left:-pt; margin-right:0cm; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:#0d0d0d">The strategic project focuses on advancing the commercial manufacturing of Neodymium materials and Rare Earth Permanent Magnets, integral components for e-mobility applications. Aligned with national priorities, the funded project aims to establish an integrated production module for Rare Earth (RE) magnets, starting with oxides. Utilizing a modified Metal Extraction method employing Molten Salt Electrolysis (MSE) technology, which incorporates an environmentally sustainable electrolysis process with proprietary cell designs, this initiative represents a critical stride towards sustainable technological advancement.</span></span></span></p>
+
+<p style="margin-right:0cm; text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img src="https://static.pib.gov.in/WriteReadData/userfiles/image/image001MS86.jpg" style="height:229px; width:648px" /></span></span></p>
+
+<p style="margin-left:-pt; margin-right:0cm; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:#0d0d0d">Neodymium (NdFeB) permanent magnets are vital for propulsion systems in electric vehicles and generators in renewable energy infrastructure, are forecast to witness substantial market expansion, thereby underlining the significance of indigenous production capabilities. </span>This program aligns with international efforts to mitigate climate change and promote renewable energy sources, including solar and wind power.</span></span></p>
+
+<p style="margin-left:-pt; margin-right:0cm; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:#0d0d0d">The transfer of advanced technology from The Nonferrous Materials Technology Development Centre (NFTDC), an esteemed R&amp;D institution under the aegis of the Ministry of Mines, Government of India, to Midwest Advanced Materials ltd. has paved the way for the commercial production of Neodymium materials and Rare Earth Permanent Magnets. NFTDC&#39;s proficiency in advanced materials, particularly Rare Earths, alongside expertise in process development and equipment design, coupled with MAM&rsquo;s strengths in mining, powder metallurgy, e-mobility, and project financing, constitutes the bedrock of this TRL-9 demonstration plant. With an initial production target of 500 tons per year (TPY) of magnets, with a subsequent scaling up to 5000 TPA by 2030, this initiative underscores a transformative stride towards achieving self-reliance in critical technological domains. </span></span></span></p>
+
+<p style="margin-left:-pt; margin-right:0cm; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">During his speech, Dr. K. Bala Subramanian, the Director of NFDTC, emphasized the project&#39;s importance as a trailblazing initiative in India. He envisaged an annual production of 500 tons of magnets from 150&ndash;170 tons of oxide, which would be a significant milestone for the country. This all-encompassing scientific breakthrough, which spans the entire range from motors and finished magnets to rare earth oxide, is expected to have a significant impact on a number of high-tech industries, including smartphones, wind turbines, medical imaging devices, and electronic mobility. For this project, five specialized pieces of equipment have been carefully built to provide optimal operational effectiveness and efficiency. </span></span></p>
+
+<p style="margin-left:-pt; margin-right:0cm; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The project benefits from much lower capital investment (CapEx) due to local plant and machinery design. As India Rare Earth Engineers Limited (IREL) will supply the raw materials, the project will be more financially feasible in terms of operating expenses. In the future, MAM wants to reach a production target of 5,000 TPA annually by 2030. This is a calculated step that will improve the project&#39;s long-term profitability and value proposition. NFTDC will support MAM&#39;s efforts in rare earths and other vital materials as a knowledge and technological partner.</span></span></p>
+
+<p style="margin-left:-pt; margin-right:0cm; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:#0d0d0d">Sh. Rajesh Kumar Pathak, Secretary, TDB, highlighted the project&#39;s importance. This initiative signifies India&#39;s advancement to domestically manufacture high-performance magnets, addressing national imperatives and contributing to the global transition towards sustainable technologies in critical materials for e-mobility and clean energy.</span></span></span></p>
+
+<p style="margin-right:0cm; text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:#0d0d0d">***</span></span></span></p>
+
+<p style="margin-left:-pt; margin-right:0cm; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:#0d0d0d">PK/PSM</span></strong></span></span></p>
+
+                </div>
+
+                <div id="reel_pic">
+                </div>
+
+                <br />
+                <span id="ReleaseId">(Release ID: 2022185)</span>
+                <span id="lblViews">Visitor Counter : 4351</span>
+                <div>
+                    
+                </div>
+                
+
+                <span id="lblRefPhoto"></span>
+
+                <div class="BackgroundRelease">
+                    
+                </div>
+                <div>
+                    
+                </div>
+                <div class="ReleaseLang">Read this release in: 
+                
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2022230' target="_blank">
+                            Urdu </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2022215' target="_blank">
+                            Marathi </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2022228' target="_blank">
+                            हिन्दी </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2022598' target="_blank">
+                            Punjabi </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2022219' target="_blank">
+                            Tamil </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2022290' target="_blank">
+                            Telugu </a>
+                    
+                </div>
+
+                <div class="RelTag">
+                    <ul>
+                        
+                    </ul>
+                </div>
+                <div class="clear">
+                </div>
+
+                <!-- DBIM 3.0 Option 4: Separator Line with Left Share Rail & Right Reading Metrics -->
+                <div class="pr-share pr-share--footer" role="region" aria-label="Share and reading details">
+                    <div class="pr-share__left">
+                        <span class="pr-share__label" aria-hidden="true">Share</span>
+                        <ul class="pr-share__list">
+                            <li><a class="pr-share__btn pr-share__btn--facebook"
+                                href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2022185"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on Facebook">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-facebook" xlink:href="#icon-facebook"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--twitter"
+                                href="https://twitter.com/intent/tweet?url=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2022185"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on X">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-twitter" xlink:href="#icon-twitter"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--whatsapp"
+                                href="https://api.whatsapp.com/send?text=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2022185"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on WhatsApp">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-whatsapp" xlink:href="#icon-whatsapp"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--linkedin"
+                                href="https://www.linkedin.com/sharing/share-offsite/?url=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2022185"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on LinkedIn">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-linkedin" xlink:href="#icon-linkedin"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--mail"
+                                href="mailto:?subject=Press+release+from+PIB&amp;body=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2022185"
+                                aria-label="Share by email">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-mail" xlink:href="#icon-mail"></use>
+                                </svg>
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div class="pr-reading-meta" id="prReadingMeta" aria-label="Reading statistics">
+                        <span class="pr-reading-meta__item">
+                            <!-- Modern Document / Word Count Icon -->
+                            <svg class="pr-reading-meta__icon" width="18" height="18" viewbox="0 0 16 16" fill="currentColor" aria-hidden="true" focusable="false">
+                                <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5" />
+                                <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z" />
+                            </svg>
+                            <span id="prWordCount">-- words</span>
+                        </span>
+
+                        <span class="pr-reading-meta__divider" aria-hidden="true">|</span>
+
+                        <span class="pr-reading-meta__item">
+                            <!-- Modern Precision Clock / Read Time Icon -->
+                            <svg class="pr-reading-meta__icon" width="18" height="18" viewbox="0 0 16 16" fill="currentColor" aria-hidden="true" focusable="false">
+                                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                            </svg>
+                            <span id="prReadTime">-- min read</span>
+                        </span>
+                    </div>
+                </div>
+
+                <div id="RelLink" class="RelLink">
+                    <ul>
+                        
+                    </ul>
+                </div>
+                <center>
+                    
+                </center>
+            </div>
+
+            <div id="update12">
+	
+                    
+                    <input type="hidden" name="Hidden" id="Hidden" />
+                    <div id="P_CategoryManagement" class="ModalWindow" style="border-width:0px;height:60%;width:60%;overflow:auto;display: none">
+		
+                        <div>
+                            <input type="image" name="btnClose" id="btnClose" src="images/close_flat_icon.png" />
+                        </div>
+                        <div id="description">
+                        </div>
+                        <div class="text-center">
+                            <h2>
+                                
+                                <br>
+                                
+                            </h2>
+                        </div>
+                        <br />
+                        <div class="clear">
+                        </div>
+                        
+                    
+	</div>
+                
+</div>
+        </div>
+
+        <div id="PdfDiv" style="display: none;">
+            <table width="100%">
+                <tr>
+                    <td style="font-weight: 200; text-align: center">
+                        Ministry of Science & Technology
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 200; text-align: center; font-size: 30px;">
+                            Technology Development Board (TDB) - Department of Science and Technology (DST) approves support for M/s Midwest Advanced Materials Private Limited, Hyderabad for Sustainable Magnet Production
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 200; text-align: center; font-size: 30px;">
+                            <div style='height:30px;width:100%;'></div>The program aimed at increasing the production of Neodymium magnets to enable sustainable future
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="text-align: center; font-size: 14px;">
+                            Posted On:
+                                          30 MAY 2024 3:20PM by PIB Delhi
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 200; text-align: left; font-size: 16px;">
+                            <p style="margin-left:-pt; margin-right:0cm; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:#0d0d0d">The Technology Development Board (TDB) under the Department of Science and Technology (DST) has sanctioned funding for M/s Midwest Advanced Materials Private Limited (MAM), Hyderabad with the aim of boosting the domestic production of essential materials and technologies, today at the TDB Centre in New Delhi.</span></span></span><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:#0d0d0d">&nbsp;</span></span></span></p>
+
+<p style="margin-left:-pt; margin-right:0cm; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:#0d0d0d">The strategic project focuses on advancing the commercial manufacturing of Neodymium materials and Rare Earth Permanent Magnets, integral components for e-mobility applications. Aligned with national priorities, the funded project aims to establish an integrated production module for Rare Earth (RE) magnets, starting with oxides. Utilizing a modified Metal Extraction method employing Molten Salt Electrolysis (MSE) technology, which incorporates an environmentally sustainable electrolysis process with proprietary cell designs, this initiative represents a critical stride towards sustainable technological advancement.</span></span></span></p>
+
+<p style="margin-right:0cm; text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img src="https://static.pib.gov.in/WriteReadData/userfiles/image/image001MS86.jpg" style="height:229px; width:648px" /></span></span></p>
+
+<p style="margin-left:-pt; margin-right:0cm; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:#0d0d0d">Neodymium (NdFeB) permanent magnets are vital for propulsion systems in electric vehicles and generators in renewable energy infrastructure, are forecast to witness substantial market expansion, thereby underlining the significance of indigenous production capabilities. </span>This program aligns with international efforts to mitigate climate change and promote renewable energy sources, including solar and wind power.</span></span></p>
+
+<p style="margin-left:-pt; margin-right:0cm; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:#0d0d0d">The transfer of advanced technology from The Nonferrous Materials Technology Development Centre (NFTDC), an esteemed R&amp;D institution under the aegis of the Ministry of Mines, Government of India, to Midwest Advanced Materials ltd. has paved the way for the commercial production of Neodymium materials and Rare Earth Permanent Magnets. NFTDC&#39;s proficiency in advanced materials, particularly Rare Earths, alongside expertise in process development and equipment design, coupled with MAM&rsquo;s strengths in mining, powder metallurgy, e-mobility, and project financing, constitutes the bedrock of this TRL-9 demonstration plant. With an initial production target of 500 tons per year (TPY) of magnets, with a subsequent scaling up to 5000 TPA by 2030, this initiative underscores a transformative stride towards achieving self-reliance in critical technological domains. </span></span></span></p>
+
+<p style="margin-left:-pt; margin-right:0cm; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">During his speech, Dr. K. Bala Subramanian, the Director of NFDTC, emphasized the project&#39;s importance as a trailblazing initiative in India. He envisaged an annual production of 500 tons of magnets from 150&ndash;170 tons of oxide, which would be a significant milestone for the country. This all-encompassing scientific breakthrough, which spans the entire range from motors and finished magnets to rare earth oxide, is expected to have a significant impact on a number of high-tech industries, including smartphones, wind turbines, medical imaging devices, and electronic mobility. For this project, five specialized pieces of equipment have been carefully built to provide optimal operational effectiveness and efficiency. </span></span></p>
+
+<p style="margin-left:-pt; margin-right:0cm; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The project benefits from much lower capital investment (CapEx) due to local plant and machinery design. As India Rare Earth Engineers Limited (IREL) will supply the raw materials, the project will be more financially feasible in terms of operating expenses. In the future, MAM wants to reach a production target of 5,000 TPA annually by 2030. This is a calculated step that will improve the project&#39;s long-term profitability and value proposition. NFTDC will support MAM&#39;s efforts in rare earths and other vital materials as a knowledge and technological partner.</span></span></p>
+
+<p style="margin-left:-pt; margin-right:0cm; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:#0d0d0d">Sh. Rajesh Kumar Pathak, Secretary, TDB, highlighted the project&#39;s importance. This initiative signifies India&#39;s advancement to domestically manufacture high-performance magnets, addressing national imperatives and contributing to the global transition towards sustainable technologies in critical materials for e-mobility and clean energy.</span></span></span></p>
+
+<p style="margin-right:0cm; text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:#0d0d0d">***</span></span></span></p>
+
+<p style="margin-left:-pt; margin-right:0cm; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:#0d0d0d">PK/PSM</span></strong></span></span></p>
+
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 100; text-align: left; font-size: 16px;">
+                            (Release ID: 2022185)
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="font-weight: 200; text-align: center; font-size: 24px;"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="clearfix">
+        </div>
+
+        <div class="section1">
+            <div id="frst_t">
+                <div id="arr_rm"><div class='sticky-social_mb'><ul class='social_mb'><a href='http://www.facebook.com/share.php?u=https://pib.gov.in/PressReleasePage.aspx?PRID=2022185' target='_blank'><li class='fb_b'   ></li></a><a href='https://twitter.com/intent/tweet?url=https://pib.gov.in/PressReleasePage.aspx?PRID=2022185&text=Technology Development Board (TDB) - Department of Science and Technology (DST) approves support for M/s Midwest Advanced Materials Private Limited, Hyderabad for Sustainable Magnet Production' target='_blank'><li class='twitter_r'  > </li></a><a href='https://api.whatsapp.com/send?text=https://pib.gov.in/PressReleasePage.aspx?PRID=2022185' target='_blank'><li class='whatsapp_r'  ></li></a><a href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=&su=Technology Development Board (TDB) - Department of Science and Technology (DST) approves support for M/s Midwest Advanced Materials Private Limited, Hyderabad for Sustainable Magnet Production&body=https://pib.gov.in/PressReleasePage.aspx?PRID=2022185&ui=2&tf=1&pli=1' title='Share by Email' target='_blank'><li class='fa-envelope_r' ></li></a><a href='https://www.linkedin.com/shareArticle?mini=true&url=https://pib.gov.in/PressReleasePage.aspx?PRID=2022185&title=Technology Development Board (TDB) - Department of Science and Technology (DST) approves support for M/s Midwest Advanced Materials Private Limited, Hyderabad for Sustainable Magnet Production&summary=My%20favorite%20developer%20program&source=LinkedIn' target='_blank'><li class='fa-linkedin_r'  ></li></a></ul></div></div>
+            </div>
+            <div id="second_t">
+                <div id="sndr_rm"><div class='sticky-social'><ul class='social'><a href='http://www.facebook.com/share.php?u=https://pib.gov.in/PressReleasePage.aspx?PRID=2022185' target='_blank'><li class='fb_b'   ></li></a><a href='https://twitter.com/intent/tweet?url=https://pib.gov.in/PressReleasePage.aspx?PRID=2022185&text=Technology Development Board (TDB) - Department of Science and Technology (DST) approves support for M/s Midwest Advanced Materials Private Limited, Hyderabad for Sustainable Magnet Production' target='_blank'><li class='twitter_r'  > </li></a><a href='https://api.whatsapp.com/send?text=https://pib.gov.in/PressReleasePage.aspx?PRID=2022185' target='_blank'><li class='whatsapp_r'  ></li></a><a href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=&su=Technology Development Board (TDB) - Department of Science and Technology (DST) approves support for M/s Midwest Advanced Materials Private Limited, Hyderabad for Sustainable Magnet Production&body=https://pib.gov.in/PressReleasePage.aspx?PRID=2022185&ui=2&tf=1&pli=1' title='Share by Email' target='_blank'><li class='fa-envelope_r' ></li></a><a href='https://www.linkedin.com/shareArticle?mini=true&url=https://pib.gov.in/PressReleasePage.aspx?PRID=2022185&title=Technology Development Board (TDB) - Department of Science and Technology (DST) approves support for M/s Midwest Advanced Materials Private Limited, Hyderabad for Sustainable Magnet Production&summary=My%20favorite%20developer%20program&source=LinkedIn' target='_blank'><li class='fa-linkedin_r'  ></li></a></ul></div></div>
+            </div>
+        </div>
+        <input type="hidden" name="ltrTitlee" id="ltrTitlee" value="Technology Development Board (TDB) - Department of Science and Technology (DST) approves support for M/s Midwest Advanced Materials Private Limited, Hyderabad for Sustainable Magnet Production" />
+        <input type="hidden" name="ltrSubtitlee" id="ltrSubtitlee" value="&lt;br/>The program aimed at increasing the production of Neodymium magnets to enable sustainable future" />
+        <input type="hidden" name="ltrDescriptionn" id="ltrDescriptionn" value="&lt;p style=&quot;margin-left:-pt; margin-right:0cm; text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:#0d0d0d&quot;>The Technology Development Board (TDB) under the Department of Science and Technology (DST) has sanctioned funding for M/s Midwest Advanced Materials Private Limited (MAM), Hyderabad with the aim of boosting the domestic production of essential materials and technologies, today at the TDB Centre in New Delhi.&lt;/span>&lt;/span>&lt;/span>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:#0d0d0d&quot;>&amp;nbsp;&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;margin-left:-pt; margin-right:0cm; text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:#0d0d0d&quot;>The strategic project focuses on advancing the commercial manufacturing of Neodymium materials and Rare Earth Permanent Magnets, integral components for e-mobility applications. Aligned with national priorities, the funded project aims to establish an integrated production module for Rare Earth (RE) magnets, starting with oxides. Utilizing a modified Metal Extraction method employing Molten Salt Electrolysis (MSE) technology, which incorporates an environmentally sustainable electrolysis process with proprietary cell designs, this initiative represents a critical stride towards sustainable technological advancement.&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;margin-right:0cm; text-align:center&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;img src=&quot;https://static.pib.gov.in/WriteReadData/userfiles/image/image001MS86.jpg&quot; style=&quot;height:229px; width:648px&quot; />&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;margin-left:-pt; margin-right:0cm; text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:#0d0d0d&quot;>Neodymium (NdFeB) permanent magnets are vital for propulsion systems in electric vehicles and generators in renewable energy infrastructure, are forecast to witness substantial market expansion, thereby underlining the significance of indigenous production capabilities. &lt;/span>This program aligns with international efforts to mitigate climate change and promote renewable energy sources, including solar and wind power.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;margin-left:-pt; margin-right:0cm; text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:#0d0d0d&quot;>The transfer of advanced technology from The Nonferrous Materials Technology Development Centre (NFTDC), an esteemed R&amp;amp;D institution under the aegis of the Ministry of Mines, Government of India, to Midwest Advanced Materials ltd. has paved the way for the commercial production of Neodymium materials and Rare Earth Permanent Magnets. NFTDC&amp;#39;s proficiency in advanced materials, particularly Rare Earths, alongside expertise in process development and equipment design, coupled with MAM&amp;rsquo;s strengths in mining, powder metallurgy, e-mobility, and project financing, constitutes the bedrock of this TRL-9 demonstration plant. With an initial production target of 500 tons per year (TPY) of magnets, with a subsequent scaling up to 5000 TPA by 2030, this initiative underscores a transformative stride towards achieving self-reliance in critical technological domains. &lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;margin-left:-pt; margin-right:0cm; text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>During his speech, Dr. K. Bala Subramanian, the Director of NFDTC, emphasized the project&amp;#39;s importance as a trailblazing initiative in India. He envisaged an annual production of 500 tons of magnets from 150&amp;ndash;170 tons of oxide, which would be a significant milestone for the country. This all-encompassing scientific breakthrough, which spans the entire range from motors and finished magnets to rare earth oxide, is expected to have a significant impact on a number of high-tech industries, including smartphones, wind turbines, medical imaging devices, and electronic mobility. For this project, five specialized pieces of equipment have been carefully built to provide optimal operational effectiveness and efficiency. &lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;margin-left:-pt; margin-right:0cm; text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>The project benefits from much lower capital investment (CapEx) due to local plant and machinery design. As India Rare Earth Engineers Limited (IREL) will supply the raw materials, the project will be more financially feasible in terms of operating expenses. In the future, MAM wants to reach a production target of 5,000 TPA annually by 2030. This is a calculated step that will improve the project&amp;#39;s long-term profitability and value proposition. NFTDC will support MAM&amp;#39;s efforts in rare earths and other vital materials as a knowledge and technological partner.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;margin-left:-pt; margin-right:0cm; text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:#0d0d0d&quot;>Sh. Rajesh Kumar Pathak, Secretary, TDB, highlighted the project&amp;#39;s importance. This initiative signifies India&amp;#39;s advancement to domestically manufacture high-performance magnets, addressing national imperatives and contributing to the global transition towards sustainable technologies in critical materials for e-mobility and clean energy.&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;margin-right:0cm; text-align:center&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:#0d0d0d&quot;>***&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;margin-left:-pt; margin-right:0cm; text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;strong>&lt;span style=&quot;color:#0d0d0d&quot;>PK/PSM&lt;/span>&lt;/strong>&lt;/span>&lt;/span>&lt;/p>
+" />
+        <script type="text/javascript">
+                  var mPlayer = document.getElementById("background_music");
+                  var mPlayAction = document.getElementById("playbutton");
+                  var isPlaying = false;
+
+                  function playAudio() {
+                        mPlayer.play();
+                        isPlaying = true;
+                        document.getElementById('stopA').style.display = "block";
+                        document.getElementById('playA').style.display = "none";
+                  }
+
+                  function pauseAudio() {
+                        mPlayer.pause();
+                        isPlaying = false;
+                        document.getElementById('playA').style.display = "block";
+                        document.getElementById('stopA').style.display = "none";
+                  }
+        </script>
+        <script type="text/javascript">
+                  var synth = window.speechSynthesis;
+
+                  function CleanHtml(html) {
+                        html = html.replace(/<script[\s\S]*?<\/script>/gi, '');
+                        return html;
+                  }
+                  function stripHtml(html) {
+                        let tmp = document.createElement("DIV");
+                        tmp.innerHTML = CleanHtml(html);
+                        return tmp.textContent || tmp.innerText || "";
+                  }
+        </script>
+        <script type="text/javascript">
+                  $(document).ready(function () {
+                        $("table").each(function () {
+                              if (!$(this).closest(".table-responsive").length) {
+                                    $(this).wrap("<div class='table-responsive'></div>");
+                              }
+                        });
+
+                        var width = $(window).width();
+                        if (width < 768) {
+                              document.getElementById('frst_t').style.display = "block";
+                              document.getElementById('second_t').style.display = "none";
+                        } else if (width < 991) {
+                              document.getElementById('frst_t').style.display = "block";
+                              document.getElementById('second_t').style.display = "none";
+                        } else if (width < 1199) {
+                              document.getElementById('frst_t').style.display = "none";
+                              document.getElementById('second_t').style.display = "block";
+                        } else {
+                              document.getElementById('frst_t').style.display = "none";
+                              document.getElementById('second_t').style.display = "block";
+                        }
+                  });
+        </script>
+        <style type="text/css">
+            @media print {
+                .sticky-social, .sticky-social_mb, .pull-right, #printPDF {
+                    display: none !important;
+                }
+            }
+
+            .f_vl {
+                padding-right: 30px;
+                font-size: 17px;
+                cursor: pointer;
+            }
+
+            .log_oo {
+                display: flex;
+                justify-content: space-between;
+            }
+
+                .log_oo img {
+                    width: 150px;
+                }
+
+            .sticky-social_mb {
+                position: fixed;
+                bottom: 0px;
+                padding: 0px;
+                margin: 0px;
+                width: 100%;
+            }
+
+            .social_mb {
+                list-style: none;
+                display: flex;
+                width: 100%;
+                margin-bottom: -8px;
+            }
+
+                .social_mb a {
+                    padding: 8px 0px;
+                    font-size: 30px;
+                    transition: all 0.8s ease-in-out;
+                    width: 20% !important;
+                    text-align: center;
+                }
+        </style>
+        <style type="text/css">
+            .section1 {
+                position: relative;
+                padding: 10px 0px;
+                width: 100%;
+            }
+
+            .sticky-social {
+                position: fixed;
+                top: 20px;
+                left: 0px;
+                padding: 0px;
+                margin: 0px;
+            }
+
+            .social {
+                list-style: none;
+            }
+
+                .social a li {
+                    padding: 8px 12px;
+                    font-size: 25px;
+                    transition: all 0.8s ease-in-out;
+                }
+
+                    .social a li:hover {
+                        margin-right: -30px;
+                        box-shadow: 2px 5px 10px grey;
+                    }
+
+                        .social a li:hover .fa {
+                            margin-left: 20px;
+                        }
+
+            .fb_b {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .twitter_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .whatsapp_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .fa-envelope_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .fa-linkedin_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+        </style>
+        <style type="text/css">
+            @media only screen and (max-device-width: 767px) {
+                p span img {
+                    max-width: 90% !important;
+                    height: auto !important;
+                }
+
+                p img {
+                    max-width: 90% !important;
+                    height: auto !important;
+                }
+
+                h2 {
+                    font-size: var(--dbim-h2, 20px);
+                    font-weight: 600 !important;
+                }
+
+                h3 {
+                    font-size: var(--dbim-h3, 16px);
+                    font-weight: 600 !important;
+                }
+            }
+        </style>
+        <style type="text/css">
+            .film-roll-badge {
+                position: absolute;
+                top: 82%;
+                right: 20px;
+                width: 230px;
+                height: 70px;
+                background: repeating-linear-gradient( to right, var(--dbim-green-key, #0F5757) 0px, var(--dbim-green-key, #0F5757) 18px, var(--dbim-text, #150202) 18px, var(--dbim-text, #150202) 36px );
+                border-top: 8px solid var(--dbim-green-key, #0F5757);
+                border-bottom: 8px solid var(--dbim-green-key, #0F5757);
+                border-radius: 8px;
+                overflow: hidden;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+                animation: moveFilm 8s linear infinite;
+                z-index: 10;
+            }
+
+                .film-roll-badge::before,
+                .film-roll-badge::after {
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 10px;
+                    background: repeating-linear-gradient( to right, var(--dbim-green-key, #0F5757) 0px, var(--dbim-green-key, #0F5757) 10px, #fff 10px, #fff 20px );
+                    left: 0;
+                    z-index: 2;
+                }
+
+                .film-roll-badge::before {
+                    top: -4px;
+                }
+
+                .film-roll-badge::after {
+                    bottom: -4px;
+                }
+
+            .film-roll-inner {
+                position: relative;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                animation: flicker 2s infinite ease-in-out;
+            }
+
+            .countdown-text {
+                font-size: 1.3rem;
+                font-weight: 700;
+                color: #fff;
+                text-shadow: 0 0 6px rgba(255, 255, 255, 0.4), 0 0 10px #000;
+                white-space: nowrap;
+            }
+
+            @keyframes moveFilm {
+                0% {
+                    background-position: 0 0;
+                }
+
+                100% {
+                    background-position: 120px 0;
+                }
+            }
+
+            @keyframes flicker {
+                0%, 100% {
+                    opacity: 1;
+                }
+
+                50% {
+                    opacity: 0.9;
+                }
+
+                25% {
+                    opacity: 0.95;
+                }
+
+                75% {
+                    opacity: 0.85;
+                }
+            }
+
+            @media (max-width: 1500px) {
+                .film-roll-badge {
+                    top: 68%;
+                    right: 18px;
+                    height: 65px;
+                    font-size: 0.85rem;
+                }
+
+                .press-section {
+                    margin-top: 35px;
+                }
+            }
+
+            @media (max-width: 992px) {
+                .film-roll-badge {
+                    top: 52%;
+                    right: 10px;
+                    width: 200px;
+                    height: 60px;
+                }
+            }
+
+            @media (max-width: 768px) {
+                .film-roll-badge {
+                    top: 56%;
+                    right: 10px;
+                    width: 124px;
+                    height: 55px;
+                }
+
+                .countdown-text {
+                    font-size: 0.9rem;
+                }
+            }
+
+            @media (max-width: 576px) {
+                .film-roll-badge {
+                    top: 59%;
+                    right: 5px;
+                    height: 50px;
+                }
+
+                .countdown-text {
+                    font-size: 0.85rem;
+                }
+            }
+        </style>
+        <script type="text/javascript">
+                  const festivalStart = new Date("2025-11-20T00:00:00").getTime();
+                  const festivalEnd = new Date("2025-11-28T23:59:59").getTime();
+                  const countdownElement = document.getElementById("countdown");
+
+                  if (countdownElement) {
+                        const interval = setInterval(() => {
+                              const now = new Date().getTime();
+
+                              if (now < festivalStart) {
+                                    const diff = festivalStart - now;
+                                    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                                    const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+
+                                    countdownElement.innerHTML = `${days} Day${days !== 1 ? 's' : ''} ${hours} Hour${hours !== 1 ? 's' : ''} to go`;
+                              } else if (now >= festivalStart && now <= festivalEnd) {
+                                    const dayNumber = Math.floor((now - festivalStart) / (1000 * 60 * 60 * 24)) + 1;
+                                    countdownElement.innerHTML = `56th IFFI - Day ${dayNumber}`;
+                              } else {
+                                    countdownElement.innerHTML = `✨ IFFI closes but never ends…`;
+                                    const elements = document.querySelectorAll('.film-roll-badge');
+                                    elements.forEach(el => el.style.width = "350px");
+                                    clearInterval(interval);
+                              }
+                        }, 1000);
+                  }
+        </script>
+        <script type="text/javascript">
+                  const miffStart = new Date("2026-06-15T00:00:00").getTime();
+                  const miffEnd = new Date("2026-06-15T23:59:59").getTime();
+                  const miffElement = document.getElementById("miff");
+
+                  if (miffElement) {
+                        const miffInterval = setInterval(() => {
+                              const now = new Date().getTime();
+
+                              if (now < miffStart) {
+                                    const diff = miffStart - now;
+                                    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                                    miffElement.innerHTML = `${days} Day${days === 1 ? '' : 's'} to MIFF ...`;
+                              } else if (now >= miffStart && now <= miffEnd) {
+                                    const dayNumber = Math.floor((now - miffStart) / (1000 * 60 * 60 * 24)) + 1;
+                                    miffElement.innerHTML = `19th MIFF - Day ${dayNumber}`;
+                              } else {
+                                    miffElement.innerHTML = `✨ MIFF concludes, cinema lives on...`;
+                                    document.querySelectorAll('.film-roll-badge').forEach(el => el.style.width = "350px");
+                                    clearInterval(miffInterval);
+                              }
+                        }, 1000);
+                  }
+        </script>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("sc_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.ModalPopupBehavior, {"BackgroundCssClass":"modalBackground","PopupControlID":"P_CategoryManagement","dynamicServicePath":"/PressReleasePage.aspx","id":"mpe"}, null, null, $get("Hidden"));
+});
+//]]>
+</script>
+<input type="hidden" name="__ncforminfo" value="TlEYh1aI6n7iGnNLWeElc8jwC7m9xyflN3bsOPT48b5VhBhuzo4NyrACB0HlfM_cPczSkROpHGAMR555PDkPJyWt7q_RQ1sZKaZvvUl0TZmgp8DSWfR3aw=="/></form>
+    
+
+<script type="application/json" id="pibConsentConfig">{"ga4Id":"G-Q414Y0X6EE,G-QJJ6LZ8LHV","policyUrl":"/CookiePolicy.aspx","text":{"bannerLabel":"Cookie consent","title":"Cookies on this website","body":"We use essential cookies to make this website work. We also set analytics cookies when you arrive, so we can see how the site is used and improve it - you can switch these off below or at any time from the Cookie Policy page. Cookies from embedded social media content are set only if you allow them.","policyLink":"Read our Cookie Policy","accept":"Accept all","reject":"Reject optional","customize":"Customise","prefsTitle":"Cookie preferences","prefsIntro":"Choose which cookies this website may set. Essential cookies cannot be switched off because the site does not work without them. Analytics cookies are on unless you turn them off. Social media cookies stay off until you allow them. You can change these choices at any time from the Cookie Policy page.","essentialName":"Essential cookies","essentialDesc":"Needed for the site to function. These remember your session, your language and region, your text size and colour theme, and verify the security check on forms. They are always on.","analyticsName":"Analytics cookies","analyticsDesc":"Help us understand how visitors use the site - which pages are read and how long people stay - so it can be improved. The information is collected in a form that does not directly identify you. These are on when you arrive; switching them off here stops them and deletes the ones already set.","socialName":"Social media cookies","socialDesc":"Set by content embedded from X, Facebook and YouTube, such as timelines and videos. These platforms may use them to track you across websites. They stay off until you allow them.","save":"Save preferences","cancel":"Cancel"}}</script>
+<script type="text/javascript" src='/js/consent.js?v=10'></script>
+
+<script type="text/javascript" src='/js/consent-embeds.js?v=10'></script>
+
+
+    <!-- Minimal O(N) Time and O(1) Auxiliary Space Word Count & Read Time Calculation -->
+    <script type="text/javascript">
+            (function () {
+                  function calculateReadingStats() {
+                        var bodyEl = document.getElementById("pibReleaseBody");
+                        if (!bodyEl) return;
+
+                        // textContent extracts text without triggering expensive layout/reflow computations
+                        var text = bodyEl.textContent || "";
+                        var words = 0;
+                        var inWord = false;
+
+                        // O(N) single pass character code scan: achieves O(1) space with zero array allocations
+                        for (var i = 0, len = text.length; i < len; i++) {
+                              var code = text.charCodeAt(i);
+                              // Delimits on ASCII whitespace, control characters, tabs, newlines, and non-breaking spaces (160)
+                              if (code <= 32 || code === 160) {
+                                    inWord = false;
+                              } else if (!inWord) {
+                                    inWord = true;
+                                    words++;
+                              }
+                        }
+
+                        // Standard 250 WPM reading speed (e.g., 612 words yields 2 min read)
+                        var minutes = Math.max(1, Math.round(words / 250));
+
+                        var elWords = document.getElementById("prWordCount");
+                        var elTime = document.getElementById("prReadTime");
+
+                        if (elWords) elWords.textContent = words + (words === 1 ? " word" : " words");
+                        if (elTime) elTime.textContent = minutes + " min read";
+                  }
+
+                  if (document.readyState === "loading") {
+                        document.addEventListener("DOMContentLoaded", calculateReadingStats);
+                  } else {
+                        calculateReadingStats();
+                  }
+            })();
+    </script>
+
+    <script type="text/javascript">
+            (function () {
+                  try {
+                        if (window.self === window.top) { return; }
+                  } catch (e) { return; }
+                  var s = document.createElement("style");
+                  s.textContent = ".sticky-social, .sticky-social_mb { display: none !important; }";
+                  (document.head || document.documentElement).appendChild(s);
+            }());
+    </script>
+</body>
+</html>

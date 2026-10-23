@@ -59,7 +59,7 @@ def guess_slug(url):
 
 
 def curl(url, out, timeout):
-    cmd = ["curl", "-sSL", "-m", str(timeout), "-A", UA, "-o", out,
+    cmd = ["curl", "-sSL", "--compressed", "-m", str(timeout), "-A", UA, "-o", out,
            "-w", "%{http_code}\t%{content_type}\t%{url_effective}", url]
     r = subprocess.run(cmd, capture_output=True, text=True)
     parts = (r.stdout or "").split("\t")

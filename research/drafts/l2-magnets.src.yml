@@ -1,0 +1,746 @@
+# L2 rare-earth separation, metals and permanent magnets: compact research draft.
+# Expanded by scripts/research/build_entities.py into l2-magnets.yml + l2-magnets.evidence.jsonl.
+# Every `ev` excerpt is checked against the archived raw text at build time.
+layer: magnets
+
+sources:
+  irel-reep-page:
+    raw: irel.co.in/irel-oscom-rare-earth-extraction-plant
+    title: "OSCOM - Rare Earth Extraction Plant"
+    publisher: IREL (India) Limited
+    tier: T2
+  irel-red-page:
+    raw: irel.co.in/irel-rare-earths-division-aluva
+    title: "Rare Earths Division, Aluva"
+    publisher: IREL (India) Limited
+    tier: T2
+  irel-rettp-page:
+    raw: irel.co.in/irel-rare-earth-theme-park-bhopal
+    title: "Rare Earth & Titanium Theme Park, Bhopal"
+    publisher: IREL (India) Limited
+    tier: T2
+  irel-projects-page:
+    raw: irel.co.in/irel-projects-under-implementation
+    title: "Projects under implementation"
+    publisher: IREL (India) Limited
+    tier: T2
+  irel-ar-2024-25:
+    raw: irel.co.in/irel-ar-2024-25
+    title: "IREL (India) Limited Annual Report 2024-25"
+    publisher: IREL (India) Limited
+    tier: T2
+    date: "2025-09-19"
+  ls-usq-1710-2026:
+    raw: sansad.in/AU1710_XZzH6q
+    title: "Lok Sabha Unstarred Question 1710: Rare Earth Corridors (Department of Atomic Energy)"
+    publisher: Lok Sabha Secretariat
+    tier: T1
+    date: "2026-07-29"
+  ls-usq-303-2025:
+    raw: sansad.in/AU303_LgyV3v
+    title: "Lok Sabha Unstarred Question 303: Boosting domestic production of rare earth metals (Ministry of Heavy Industries)"
+    publisher: Lok Sabha Secretariat
+    tier: T1
+    date: "2025-07-22"
+  ls-usq-2283-2025:
+    raw: sansad.in/AU2283_dGkwtC
+    title: "Lok Sabha Unstarred Question 2283: Rare earth elements for electric vehicles (Department of Atomic Energy)"
+    publisher: Lok Sabha Secretariat
+    tier: T1
+    date: "2025-03-12"
+  pib-re-strategy-2026:
+    raw: static.pib.gov.in/doc202622776601
+    title: "India's Rare Earth Strategy: Manufacturing, Corridors, and Global Integration"
+    publisher: Press Information Bureau, Government of India
+    tier: T1
+    date: "2026-02"
+  trei-home:
+    raw: trei.co.in/index
+    title: "Toyotsu Rare Earths India Pvt Ltd: company profile"
+    publisher: Toyotsu Rare Earths India Pvt Ltd
+    tier: T2
+  trei-about:
+    raw: trei.co.in/about
+    title: "About: Toyotsu Rare Earths India Pvt Ltd"
+    publisher: Toyotsu Rare Earths India Pvt Ltd
+    tier: T2
+  trei-products:
+    raw: trei.co.in/our-products
+    title: "Our products: Toyotsu Rare Earths India Pvt Ltd"
+    publisher: Toyotsu Rare Earths India Pvt Ltd
+    tier: T2
+  pib-2022185:
+    raw: pib.gov.in/PressReleasePage-PRID2022185
+    title: "TDB approves support for M/s Midwest Advanced Materials Private Limited, Hyderabad for Sustainable Magnet Production"
+    publisher: Press Information Bureau, Government of India
+    tier: T1
+    date: "2024-05-30"
+  isti-mam:
+    raw: indiascienceandtechnology.gov.in/commercial-indigenous-production-neodymium-materials-rare-earth-permanent-magnets-e-mobili
+    title: "Commercial Indigenous Production of Neodymium Materials & Rare Earth Permanent Magnets for E-Mobility"
+    publisher: India Science, Technology & Innovation Portal (DST)
+    tier: T1
+  bs-mam-2025:
+    raw: bsppd.business-standard.com/midwest-advanced-materials-bets-1-000-crore-on-rare-earth-magnets-125060900001_1
+    title: "Midwest Advanced Materials bets Rs 1,000 crore on rare earth magnets"
+    publisher: Business Standard
+    tier: T3
+    date: "2025-06-09"
+  dc-nan-2026:
+    raw: deccanchronicle.com/nan-greenmet-to-set-up-rare-earth-magnet-plant-at-naidupeta-industrial-park-in-nellore-197
+    title: "NAN GreenMet to set up rare-earth magnet plant in Naidupeta Industrial Park"
+    publisher: Deccan Chronicle
+    tier: T3
+    date: "2026-07-23"
+  acp-nan-2026:
+    raw: autocarpro.in/nan-magnetech-to-build-rs-1250-crore-magnet-facility-in-andhra-pradesh-133706
+    title: "N.A.N. MagneTech to build Rs 1,250 crore magnet facility in Andhra Pradesh"
+    publisher: Autocar Professional
+    tier: T3
+    date: "2026-07-22"
+  tmm-nan-2026:
+    raw: themachinemaker.com/nan-magnetech-to-set-up-indias-first-integrated-rare-earth-magnet-plant-in-andhra-pradesh
+    title: "NAN MagneTech to set up India's first integrated rare earth magnet plant in Andhra Pradesh"
+    publisher: The Machine Maker
+    tier: T3
+    date: "2026-07-23"
+  tb-ap-magnets-2026:
+    raw: tradebrains.in/andhra-pradesh-approves-2-rare-earth-magnet-projects-worth-3500-crore-which-areas-will-ben
+    title: "Andhra Pradesh approves 2 rare earth magnet projects worth Rs 3,500 crore"
+    publisher: Trade Brains
+    tier: T3
+    date: "2026-06-30"
+  dc-nexon-2026:
+    raw: deccanchronicle.com/hyderabad-nexon-geochem-to-set-up-rare-earth-permanent-magnet-facility-in-andhra-pradesh-1
+    title: "Rs 1,250 cr rare-earth permanent magnet facility to come up in Kakinada"
+    publisher: Deccan Chronicle
+    tier: T3
+    date: "2026-10-14"
+  acp-nexon-2026:
+    raw: autocarpro.in/nexon-geochem-to-invest-rs-1250-crore-in-andhra-rare-earth-magnet-plant-135243
+    title: "Nexon Geochem to invest Rs 1,250 crore in Andhra rare-earth magnet plant"
+    publisher: Autocar Professional
+    tier: T3
+    date: "2026-10-14"
+  tb-nexon-2026:
+    raw: tradebrains.in/nexon-geochem-to-invest-1250-crore-in-rare-earth-magnet-plant-in-andhra-pradesh-886-jobs-e
+    title: "Nexon Geochem to invest Rs 1,250 crore in rare-earth magnet plant in Andhra Pradesh"
+    publisher: Trade Brains
+    tier: T3
+    date: "2026-10-13"
+  cid-nexon-2026:
+    raw: chemindigest.com/nexon-geochem-targets-fully-integrated-1200-mpta-ndfeb-magnet-facility-by-fy2033
+    title: "Nexon Geochem targets fully integrated 1200 MTPA NdFeB magnet facility by FY2033"
+    publisher: Chemical Industry Digest
+    tier: T3
+    date: "2026-07"
+  smm-proterial-2026:
+    raw: news.metal.com/103985139-proterial-to-invest-225m-in-rare-earth-magnet-plant-in-andhra-pradesh-india
+    title: "Proterial to invest $225M in rare earth magnet plant in Andhra Pradesh, India"
+    publisher: Shanghai Metals Market (SMM)
+    tier: T3
+    date: "2026-07-02"
+  cw-sipb-2026:
+    raw: constructionworld.in/93513
+    title: "Rs 305.15 bn proposals cleared by SIPB including Rs 60 bn renewable project"
+    publisher: Construction World
+    tier: T3
+    date: "2026-06-26"
+  knn-lohum-2026:
+    raw: knnindia.co.in/indias-first-rare-earth-magnet-plant-to-be-set-up-in-greater-noida
+    title: "India's first rare earth magnet plant to be set up in Greater Noida"
+    publisher: KNN India
+    tier: T3
+    date: "2026-05-12"
+  agi-lohum-2026:
+    raw: autoguideindia.com/govt-approves-lohum-rare-earth-magnet-electronics-projects
+    title: "Govt approves Lohum's rare earth magnet plan; 29 more electronics projects get nod"
+    publisher: Autoguide India
+    tier: T3
+    date: "2026-03-31"
+  swa-ecms-2026:
+    raw: swarajyamag.com/govt-clears-rs-7104-crore-electronics-manufacturing-projects-including-indias-first-rare-e
+    title: "Govt clears Rs 7,104 crore electronics manufacturing projects, including India's first rare earth magnet plant"
+    publisher: Swarajya
+    tier: T3
+    date: "2026-03-30"
+  dp-lohum-immt-2026:
+    raw: dailypioneer.com/lohum-csir-immt-unite-to-strengthen-rare-earth-magnet-manufacturing-ecosystem
+    title: "LOHUM, CSIR-IMMT unite to strengthen rare-earth magnet manufacturing ecosystem"
+    publisher: The Pioneer
+    tier: T3
+    date: "2026-07-28"
+  tsn-arci-2026:
+    raw: tripurastarnews.com/pilot-plant-for-the-manufacture-of-nd-fe-b-rare-earth-permanent-magnets-established-at-arc
+    title: "Pilot plant for the manufacture of Nd-Fe-B rare earth permanent magnets established at ARCI, Hyderabad (DST release text)"
+    publisher: Tripura Star News
+    tier: T3
+    date: "2026-03-20"
+  mach-arci-2026:
+    raw: machinist.in/index-48f9edd1
+    title: "ARCI establishes pilot plant for Nd-Fe-B rare earth magnet manufacturing in Hyderabad"
+    publisher: Machinist
+    tier: T3
+    date: "2026-03"
+  toi-irel-tamin-2026:
+    raw: timesofindia.indiatimes.com/132646922
+    title: "Tamil Nadu's Rare Earth Corridor can become a magnet for investments: IREL"
+    publisher: The Times of India
+    tier: T3
+    date: "2026-07-27"
+  et-irel-tamin-2026:
+    raw: energy.economictimes.indiatimes.com/132651363
+    title: "IREL's 4k cr rare earth JV in TN to generate 4k jobs"
+    publisher: ETEnergyworld (The Economic Times)
+    tier: T3
+    date: "2026-07-27"
+
+records:
+  # ---------------------------------------------------------------- IREL (DAE)
+  - id: irel-oscom-reep
+    name: "IREL Rare Earth Extraction Plant (REEP), OSCOM Chatrapur"
+    aliases: ["OSCOM REEP", "Odisha Sands Complex Rare Earth Extraction Plant"]
+    stages: [Magnets]
+    minerals: ["Rare earths (unspecified)"]
+    commodity_as_stated: "mixed Rare Earth chloride (MRCL)"
+    products: ["Mixed rare earth chloride (rare earth concentrate)", "Tri-sodium phosphate"]
+    operator: "IREL (India) Limited"
+    operator_type: "PSU (Central)"
+    owners: [{entity: "Department of Atomic Energy, Government of India", stake_pct: 100}]
+    location: {village_or_town: "Chatrapur", district: "Ganjam", state: "Odisha"}
+    geo: {q: "Chatrapur", state: Odisha, district: Ganjam}
+    status: Operational
+    status_as_of: "2026-02"
+    status_detail: "11,200 tpa mixed RE chloride plant, commissioned 2015-16; FY2024-25 output fell about 11% on leaner feed"
+    capacity:
+      installed: {value: 11200, unit: "tpa", basis: "mixed rare earth chloride"}
+    feedstock: Domestic ore
+    feedstock_detail: "Monazite from IREL's own beach-sand mining at OSCOM"
+    dates: {first_public: "2016", commissioned: null}
+    narrative:
+      what_it_does: "Cracks monazite from IREL's Odisha beach-sand mine into a mixed rare earth chloride concentrate, the first chemical step in India's rare earth chain."
+      significance: "It is the country's main source of rare earth concentrate, and it feeds IREL's separation plant at Aluva in Kerala."
+      why_it_matters: "Every Indian magnet project that plans to use domestic oxides depends on feed from this plant or its expansion."
+    related: [irel-red-aluva]
+    confidence: high
+    notes: "first_public is set to the end of the 2015-16 commissioning year; earlier announcement dates were not researched. Output fell about 11% in FY2024-25 on lower RE content in the ore (IREL AR 2024-25)."
+    sources:
+      - ref: irel-reep-page
+        supports: [status, capacity.installed, location, products, minerals, dates.first_public]
+        ev:
+          capacity.installed: "REEP is having installed capacity of 11200 tpa mixed Rare Earth Chlorides was commissioned in the year 2015-16."
+          products: "Rare Earth Extraction plant (REEP) for producing Rare Earth Concentrate in the form of mixed Rare Earth chloride (MRCL)"
+          location: "at its OSCOM unit located in Odisha"
+      - ref: irel-ar-2024-25
+        supports: [status, status_detail]
+        ev:
+          status: "Operations of Rare Earth Extraction Plant (REEP) in"
+          status_detail: "reduced content of RE bearing mineral. Operations in"
+      - ref: pib-re-strategy-2026
+        supports: [status, operator]
+        ev:
+          status: "IREL runs a Rare Earth Extraction Plant in Odisha and a Rare Earth Refining Unit at Aluva in Kerala"
+      - ref: ls-usq-2283-2025
+        supports: [feedstock, products, minerals]
+        ev:
+          feedstock: "set up plants to extract RE from the lean source as RE concentrate in"
+          products: "the form of mixed RE chloride and separated High Pure Rare Earths (HPRE) including Nd"
+
+  - id: irel-red-aluva
+    name: "IREL Rare Earths Division (RED), Aluva"
+    aliases: ["IREL Udyogamandal rare earth refinery", "Rare Earth Refining Unit, Aluva"]
+    stages: [Magnets]
+    minerals: [Lanthanum, Cerium, Neodymium, Praseodymium, Samarium, Europium, Gadolinium, Yttrium]
+    commodity_as_stated: "high pure individual rare earth oxides of Lanthanum, Cerium, Neodymium-Praseodymium, Samarium, Europium, Gadolinium and Yttrium"
+    products: ["Separated rare earth oxides (>99% purity): La, Ce, NdPr, Sm, Eu, Gd, Y"]
+    operator: "IREL (India) Limited"
+    operator_type: "PSU (Central)"
+    owners: [{entity: "Department of Atomic Energy, Government of India", stake_pct: 100}]
+    location: {village_or_town: "Udyogamandal, Aluva", district: "Ernakulam", state: "Kerala"}
+    geo: {q: "Udyogamandal", state: Kerala, district: Ernakulam}
+    status: Operational
+    status_as_of: "2026-02"
+    status_detail: "Separation output curtailed in FY2024-25 to limit inventory, for want of domestic mid-stream buyers"
+    feedstock: Domestic ore
+    feedstock_detail: "Mixed rare earth chloride from IREL's REEP at OSCOM, Odisha"
+    dates: {first_public: "1952", commissioned: "1952"}
+    milestones:
+      - {date: "2012", event: "Plant refurbished to process mixed rare earth chloride", source_id: irel-red-page}
+    narrative:
+      what_it_does: "Separates mixed rare earth chloride into individual high-purity oxides, including the neodymium-praseodymium oxide that NdFeB magnets need."
+      significance: "IREL's first unit, running since 1952, is India's only operating separation plant for a full suite of light rare earth oxides."
+      why_it_matters: "It already makes NdPr oxide but cut output in FY2024-25 because India has almost no metal or magnet makers to buy it."
+    related: [irel-oscom-reep]
+    confidence: high
+    sources:
+      - ref: irel-red-page
+        supports: [status, location, products, dates.first_public, dates.commissioned, feedstock, minerals]
+        ev:
+          dates.commissioned: "This plant, the first unit of IREL, was made operational way back in 1952"
+          feedstock: "In the year 2012, the plant was refurbished to process mixed Rare Earths chloride."
+          products: "It produces high pure individual rare earth oxides of Lanthanum, Cerium, Neodymium-Praseodymium, Samarium, Europium, Gadolinium and Yttrium"
+          location: "Rare Earths Division (RED), Udyogamandal, Aluva is located on the banks of river Periyar in Kerala"
+      - ref: irel-ar-2024-25
+        supports: [status, status_detail]
+        ev:
+          status: "High Pure Rare Earths Plant in Rare Earths (Refining)"
+          status_detail: "Division was curtailed so as to control the increase"
+      - ref: pib-re-strategy-2026
+        supports: [status, operator]
+        ev:
+          status: "IREL runs a Rare Earth Extraction Plant in Odisha and a Rare Earth Refining Unit at Aluva in Kerala"
+
+  - id: irel-repm-vizag
+    name: "IREL Rare Earth Permanent Magnet (REPM) Plant, Visakhapatnam"
+    aliases: ["IREL SmCo magnet plant", "REPM Vizag"]
+    stages: [Magnets]
+    minerals: [Samarium, Cobalt]
+    commodity_as_stated: "Samarium-Cobalt permanent magnet"
+    products: ["Sm2Co17 samarium-cobalt permanent magnets for atomic energy, defence and space use"]
+    operator: "IREL (India) Limited"
+    operator_type: "PSU (Central)"
+    owners: [{entity: "Department of Atomic Energy, Government of India", stake_pct: 100}]
+    location: {address: "BARC campus, Atchutapuram, Visakhapatnam", village_or_town: "Atchutapuram", district: "Anakapalli", state: "Andhra Pradesh"}
+    geo: {q: "Atchutapuram", state: "Andhra Pradesh"}
+    status: Operational
+    status_as_of: "2026-07-29"
+    status_detail: "Completed 31 Dec 2024; Sm2Co17 magnets produced and passed BARC/DMRL testing"
+    investment: {amount: 196.5, currency: INR_crore, basis: "total project cost"}
+    dates: {first_public: "2024", commissioned: "2024-12-31"}
+    milestones:
+      - {date: "2024-12-31", event: "Project completion achieved", source_id: irel-ar-2024-25}
+      - {date: "2026-07-29", event: "Lok Sabha told the plant cost Rs 196.50 crore and employs 65 people", source_id: ls-usq-1710-2026}
+    narrative:
+      what_it_does: "Makes samarium-cobalt magnets from Indian rare earths for the atomic energy, defence and space programmes."
+      significance: "It is the only rare earth magnet plant run by the Indian government, built on the BARC campus for strategic users."
+      why_it_matters: "It proves domestic magnet-making technology at small scale, but it serves strategic buyers only and does not make the NdFeB magnets that EVs use."
+    confidence: high
+    notes: "Located on the BARC campus at Atchutapuram (IREL AR 2024-25). Atchutapuram lies in Anakapalli district (created 2022); 2019 district polygons place it in Visakhapatnam."
+    sources:
+      - ref: ls-usq-1710-2026
+        supports: [status, investment, dates.commissioned, operator, dates.first_public]
+        ev:
+          status: "IREL has completed a project - “Rare Earth Permanent Magnet plant, Visakhapatnam”"
+          investment: "The project cost was Rs. 196.50 crore"
+          dates.commissioned: "for strategic applications during the year 2024"
+      - ref: irel-ar-2024-25
+        supports: [status, location, dates.commissioned, products, minerals]
+        ev:
+          location: "The plant is set up in BARC campus, Atchutapuram,"
+          dates.commissioned: "sectors. Project completion was achieved on 31.12.2024."
+          status: "commenced the production of Samarium-Cobalt permanent"
+      - ref: ls-usq-303-2025
+        supports: [status, products, minerals]
+        ev:
+          products: "Earth Permanent Magnet (REPM) plant in the country for production of Samarian-Cobalt"
+
+  - id: irel-rettp-bhopal
+    name: "IREL Rare Earth & Titanium Theme Park, Bhopal"
+    aliases: ["RETTP Bhopal", "Rare Earth Metal and Titanium Theme Park"]
+    stages: [Magnets, Recycling, R&D]
+    minerals: [Cerium, Lanthanum, Neodymium, Titanium, "Rare earths (unspecified)"]
+    commodity_as_stated: "Rare Earth Metals like Cerium, Lanthanum, Neodymium; Titanium Sponge; recovery of magnetic Rare Earths from end-of-life magnets"
+    products: ["Cerium, lanthanum and neodymium metal (pilot)", "Rare earths recovered from end-of-life magnets (pilot)", "Titanium sponge (pilot)", "LED and lamp phosphors (pilot)"]
+    operator: "IREL (India) Limited"
+    operator_type: "PSU (Central)"
+    partners: [{name: "Bhabha Atomic Research Centre", country: "India", role: technology}]
+    location: {village_or_town: "Acharpura", district: "Bhopal", state: "Madhya Pradesh"}
+    geo: {district_centroid: Bhopal, state: "Madhya Pradesh"}
+    status: Pilot
+    status_as_of: "2025-09-19"
+    status_detail: "Pilot plants for La, Ce, Nd metals and magnet recycling under process validation; project slated to finish Sept 2025"
+    feedstock: Domestic ore
+    feedstock_detail: "Rare earth oxides (IREL); end-of-life magnets for the recycling line"
+    dates: {first_public: "2025"}
+    narrative:
+      what_it_does: "Runs pilot plants built on BARC laboratory processes that turn rare earth oxides into metals and recover rare earths from scrapped magnets."
+      significance: "The oxide-to-metal step is the missing link between IREL's oxides and any Indian magnet factory, and this is where the government is demonstrating it."
+      why_it_matters: "The park is meant to train entrepreneurs and transfer technology so that private firms can build metal plants at industrial scale."
+    confidence: high
+    notes: "first_public set to the AR 2024-25 year; the park's earlier sanction and foundation dates were not researched. The AR's English text says the multi-plant project 'is completed by September 2025'; the Hindi text says it will be."
+    sources:
+      - ref: irel-rettp-page
+        supports: [status, location, partners, operator]
+        ev:
+          location: "IREL has established the futuristic concept of Rare Earth Metal and Titanium Theme Park at Bhopal, Madhya Pradesh."
+          partners: "The Theme Park consists of Pilot Plant based on laboratory scale technologies developed by BARC"
+      - ref: irel-ar-2024-25
+        supports: [status, status_detail, location, products, minerals, dates.first_public]
+        ev:
+          location: ["The Rare Earth & Titanium Theme Park is established", "at Acharpura, Bhopal with the objective to demonstrate"]
+          products: ["for Cerium, Lanthanum and Neodymium Metals along", "from end-of life magnets has been operationalized. Titanium"]
+          status_detail: "pilot plants is completed by September"
+
+  # ---------------------------------------------------------------- operating private separation
+  - id: trei-atchutapuram
+    name: "Toyotsu Rare Earths India rare earth refinery, APSEZ Atchutapuram"
+    aliases: ["TREI", "Toyotsu Rare Earths India Pvt Ltd"]
+    stages: [Magnets]
+    minerals: [Lanthanum, Cerium, Praseodymium, Neodymium]
+    commodity_as_stated: "processing and refining of rare earth elements (REEs) such as lanthanum, cerium, praseodymium, and neodymium"
+    products: ["Lanthanum oxide", "Cerium oxide", "Praseodymium oxide", "Neodymium oxide", "Praseodymium-neodymium oxide", "Cerium carbonate"]
+    operator: "Toyotsu Rare Earths India Pvt. Ltd."
+    operator_type: "Foreign MNC"
+    owners: [{entity: "Toyota Tsusho Corporation (Japan)", stake_pct: null}]
+    location: {address: "Plot Nos. 2D & 2E, APSEZ, Gurajapalem (Post), Atchutapuram, Rambilli Mandal, Anakapalle District, Andhra Pradesh 531011", village_or_town: "Atchutapuram", district: "Anakapalli", state: "Andhra Pradesh"}
+    geo: {q: "Atchutapuram", state: "Andhra Pradesh"}
+    status: Operational
+    status_as_of: "2026-10-23"
+    status_detail: "Refining mixed rare earth carbonates into La, Ce, Pr, Nd and PrNd oxides since October 2013"
+    feedstock: Unknown
+    feedstock_detail: "Mixed rare earth carbonates; the company does not state their origin"
+    dates: {first_public: "2009-10-28", commissioned: "2013-10"}
+    narrative:
+      what_it_does: "Refines mixed rare earth carbonates into separated oxides of lanthanum, cerium, praseodymium and neodymium in the Andhra Pradesh SEZ."
+      significance: "It is the only privately owned rare earth separation plant found operating in India, owned by Toyota group's trading arm."
+      why_it_matters: "It produces NdPr oxide, the key magnet feedstock, so it is a likely supplier to the magnet plants planned nearby in Andhra Pradesh."
+    related: [irel-oscom-reep]
+    confidence: medium
+    notes: "status_as_of is the date the company website was read (no production figures published). Trade directories and older press link TREI's feed to IREL; not confirmed in a primary source."
+    sources:
+      - ref: trei-home
+        supports: [status, operator, owners, dates.commissioned, products, feedstock, minerals]
+        ev:
+          status: "The company commenced commercial operations in 2013 and is strategically located in the Andhra Pradesh Special Economic Zone (APSEZ) in Visakhapatnam, India."
+          dates.commissioned: "have been started operations in October 2013 for manufacturing."
+          owners: "is a subsidiary of Toyota Tsusho Corporation, Japan."
+          products: "TREI is engaged in the processing and refining of rare earth elements (REEs) such as lanthanum, cerium, praseodymium, and neodymium"
+          feedstock: "by processing mixed rare earth carbonates"
+      - ref: trei-about
+        supports: [location, dates.first_public]
+        ev:
+          location: ["Plot Nos.2D & 2E, APSEZ, Gurajapalem(Post), Atchutapuram, Rambilli Mandal,", "Anakapalle District, Andhra Pradesh, India Pin – 531011."]
+          dates.first_public: "Establishment 28 October 2009"
+      - ref: trei-products
+        supports: [products, minerals]
+        ev:
+          products: ["Neodymium oxide (Nd2O3)", "Praseodymium-Neodymium oxide ((PrNd)2O3)", "Lanthanum oxide(La2O3)", "Cerium oxide (CeO2)"]
+
+  # ---------------------------------------------------------------- magnet plants (private, planned)
+  - id: mam-hyderabad-ndfeb
+    name: "Midwest Advanced Materials NdFeB magnet plant, Hyderabad"
+    aliases: ["MAM rare earth magnet plant"]
+    stages: [Magnets]
+    minerals: [Neodymium]
+    commodity_as_stated: "Neodymium materials and Rare Earth Permanent Magnets (NdFeB)"
+    products: ["Neodymium metal (molten salt electrolysis)", "Sintered NdFeB permanent magnets"]
+    operator: "Midwest Advanced Materials Pvt. Ltd."
+    operator_type: "Unlisted private"
+    partners:
+      - {name: "Non-Ferrous Materials Technology Development Centre (NFTDC)", country: "India", role: technology}
+      - {name: "Technology Development Board (DST)", country: "India", role: finance}
+    location: {village_or_town: "Hyderabad", state: "Telangana"}
+    geo: {q: "Hyderabad", state: Telangana}
+    status: Approved
+    status_as_of: "2025-06-09"
+    status_detail: "TDB funding sanctioned May 2024; company targeted first magnets by Dec 2025; no production report found"
+    capacity:
+      planned: {value: 500, unit: "tpa", basis: "finished NdFeB magnets", phase: "initial; 5,000 tpa targeted by 2030"}
+    investment: {amount: 250.86, currency: INR_crore, basis: "TDB-supported project cost (TDB assistance Rs 125 crore)"}
+    feedstock: Domestic ore
+    feedstock_detail: "Rare earth oxides to be supplied by IREL"
+    schemes: [repm]
+    scheme_status: {repm: Bid submitted}
+    dates: {first_public: "2024-05-30", approved: "2024-05-30"}
+    milestones:
+      - {date: "2024-05-30", event: "Technology Development Board sanctions funding; NFTDC molten-salt electrolysis technology transferred", source_id: pib-2022185}
+      - {date: "2025-06-09", event: "Company says first magnets by December from its 500 tpa Hyderabad facility; Rs 1,000 crore expansion to 5,000 tpa considered", source_id: bs-mam-2025}
+    narrative:
+      what_it_does: "Plans to make neodymium metal by molten-salt electrolysis and turn it into sintered NdFeB magnets, starting at 500 tonnes a year."
+      significance: "It is the first private NdFeB project to win central funding, using a process developed by the Ministry of Mines' NFTDC."
+      why_it_matters: "If it reaches production it would be among India's first commercial NdFeB magnet lines; its December 2025 start target has passed without a confirmed launch."
+    confidence: medium
+    notes: "Plant site within the Hyderabad area not published; point at city level. Expansion figures vary: Rs 1,000 crore over three years (Business Standard, Jun 2025) vs Rs 2,000 crore in trade press (not archived). Bid under REPM scheme filed jointly with Midwest Energy Ltd (PIB 2299078). Sister firm Midwest Ltd holds monazite mines in Sri Lanka (Business Standard)."
+    sources:
+      - ref: pib-2022185
+        supports: [status, dates.approved, dates.first_public, capacity.planned, partners, feedstock, operator, minerals]
+        ev:
+          status: "has sanctioned funding for M/s Midwest Advanced Materials Private Limited (MAM), Hyderabad"
+          dates.approved: "30 MAY 2024"
+          capacity.planned: "With an initial production target of 500 tons per year (TPY) of magnets"
+          partners: "The transfer of advanced technology from The Nonferrous Materials Technology Development Centre (NFTDC)"
+          feedstock: "As India Rare Earth Engineers Limited (IREL) will supply the raw materials"
+      - ref: isti-mam
+        supports: [investment, location]
+        ev:
+          investment: "₹250.86 Cr (TDB assistance ₹ 125.00 Cr)"
+          location: "M/s Midwest Advanced Materials Pvt. Ltd., Hyderabad, Telangana"
+      - ref: bs-mam-2025
+        supports: [status_detail]
+        ev:
+          status_detail: "is all set to produce the country’s first rare earth magnets by December from its 500-tonne-per-annum facility in Hyderabad"
+
+  - id: nan-magnetech-naidupeta
+    name: "N.A.N. MagneTech integrated NdFeB magnet plant, Naidupeta"
+    aliases: ["NAN GreenMet rare earth magnet plant"]
+    stages: [Magnets, Recycling]
+    minerals: [Neodymium, "Rare earths (unspecified)"]
+    commodity_as_stated: "high-performance neodymium-iron-boron (NdFeB) magnet and rare earth magnet; rare earth oxide processing"
+    products: ["Rare earth metals and alloys", "Sintered NdFeB permanent magnets", "Recycled magnet material (closed loop)"]
+    operator: "N.A.N. MagneTech Pvt. Ltd."
+    operator_type: "Unlisted private"
+    owners: [{entity: "N.A.N. GreenMet Pvt. Ltd.", stake_pct: null}]
+    location: {address: "Naidupeta Industrial Park", village_or_town: "Naidupeta", district: "Nellore", state: "Andhra Pradesh"}
+    geo: {q: "Naidupeta", state: "Andhra Pradesh"}
+    status: Approved
+    status_as_of: "2026-07-23"
+    status_detail: "State incentives notified (G.O.Ms. 136/137, 25 Jun 2026) and land secured; commercial production targeted Q1 2028"
+    capacity:
+      planned: {value: 1200, unit: "tpa", basis: "saleable NdFeB magnets", phase: "Phase I; 10,000 tpa planned in later phases"}
+    investment: {amount: 1250, currency: INR_crore, basis: "Phase I capex"}
+    feedstock: Imported intermediate
+    feedstock_detail: "Long-term supply of rare earth oxides, including heavy rare earth oxides, from an unnamed Australian producer"
+    schemes: [repm]
+    scheme_status: {repm: Bid submitted}
+    dates: {first_public: "2026-06-25", approved: "2026-06-25", announced: "2026-07-22", original_expected_completion: "2028-03"}
+    narrative:
+      what_it_does: "Plans an oxide-to-magnet plant that processes rare earth oxides, makes metals and alloys, sinters NdFeB magnets and recycles scrap in one place."
+      significance: "Backed by Vedanta vice-chairman Navin Agarwal's NAN GreenMet, it has state incentives, land and named Japanese and NdFeB-inventor technical advisers."
+      why_it_matters: "At 1,200 tonnes a year it would match the largest single allocation under the central magnet scheme, though its first feed would come from Australia rather than India."
+    confidence: medium
+    notes: "Completion: company says Q1 2028 (Deccan Chronicle, Autocar Professional); the state approval lists June 2028 (Trade Brains). Trade Brains names the firm 'NaN MagneTech (India)' and gives 25 acres and 400 jobs. Naidupeta is in Tirupati district after the 2022 reorganisation; sources say Nellore."
+    sources:
+      - ref: tb-ap-magnets-2026
+        supports: [status, dates.approved, dates.first_public, location]
+        ev:
+          status: "The Government of Andhra Pradesh has notified G.O.Ms. No. 136 and G.O.Ms. No. 137 on June 25, 2026"
+          location: "Naidupeta Industrial Park, Nellore District"
+      - ref: tmm-nan-2026
+        supports: [status, feedstock]
+        ev:
+          status: "The company has secured land for the project along with incentives from the Government of Andhra Pradesh."
+          feedstock: "NAN MagneTech has secured long-term raw material supplies, including heavy rare earth oxides, through a leading Australian producer."
+      - ref: dc-nan-2026
+        supports: [status, location, capacity.planned, investment, dates.original_expected_completion]
+        ev:
+          location: "The facility is being set up at the Naidupeta Industrial Park in Nellore District of Andhra Pradesh, where land has been secured, along with state government incentives."
+          capacity.planned: "Phase I involves an investment of approximately Rs 1,250 crore to establish an initial saleable capacity of 1,200 tonnes per annum (TPA)"
+          dates.original_expected_completion: "with commercial production slated for the first quarter of 2028"
+      - ref: acp-nan-2026
+        supports: [operator, owners, dates.announced, minerals]
+        ev:
+          operator: "N.A.N. GreenMet Pvt. Ltd. will establish a fully integrated Neodymium-Iron-Boron (NdFeB) magnet manufacturing facility in Naidupeta, Andhra Pradesh, launching a new subsidiary, N.A.N. MagneTech Pvt. Ltd."
+
+  - id: proterial-atchutapuram-ndfeb
+    name: "Proterial India sintered NdFeB magnet plant, Atchutapuram"
+    aliases: ["Proterial (formerly Hitachi Metals) Andhra Pradesh magnet plant"]
+    stages: [Magnets]
+    minerals: [Neodymium]
+    commodity_as_stated: "sintered NdFeB permanent magnets"
+    products: ["Sintered NdFeB permanent magnets"]
+    operator: "Proterial (India) Pvt. Ltd."
+    operator_type: "Foreign MNC"
+    owners: [{entity: "Proterial, Ltd. (Japan)", stake_pct: null}]
+    location: {village_or_town: "Atchutapuram", district: "Anakapalli", state: "Andhra Pradesh"}
+    geo: {q: "Atchutapuram", state: "Andhra Pradesh"}
+    status: Approved
+    status_as_of: "2026-07-02"
+    status_detail: "Cleared by the State Investment Promotion Board; incentive G.O.s 25 Jun 2026; commercial operation proposed Oct 2029"
+    capacity:
+      planned: {value: 1200, unit: "tpa", basis: "sintered NdFeB magnets", phase: "at completion"}
+    investment: {amount: 2250, currency: INR_crore, basis: "total investment"}
+    schemes: [repm]
+    scheme_status: {repm: Bid submitted}
+    dates: {first_public: "2026-06-25", approved: "2026-06-25", original_expected_completion: "2029-10"}
+    narrative:
+      what_it_does: "Plans to make 1,200 tonnes a year of sintered NdFeB magnets on a 25-acre site in Anakapalli district."
+      significance: "Proterial, formerly Hitachi Metals, is one of the world's established NdFeB makers, so this is the first global incumbent to commit to magnet production in India."
+      why_it_matters: "An experienced producer lowers the technology risk that hangs over first-time Indian entrants, and the Rs 2,250 crore budget is the largest announced for a single Indian magnet plant."
+    confidence: medium
+    notes: "Approval date taken from the state incentive orders (G.O.Ms. 136/137, 25 Jun 2026, per Trade Brains); the SIPB meeting that cleared the project was reported on 26 Jun 2026. Trade Brains gives 25 acres and 530 jobs."
+    sources:
+      - ref: tb-ap-magnets-2026
+        supports: [status, dates.approved, dates.first_public, location, capacity.planned, dates.original_expected_completion]
+        ev:
+          status: "The Government of Andhra Pradesh has notified G.O.Ms. No. 136 and G.O.Ms. No. 137 on June 25, 2026"
+          location: "Atchutapuram, Anakapalli District"
+          capacity.planned: "Greenfield project for manufacturing 1.2 KTPA of Neodymium-Iron-Boron (NdFeB) rare earth permanent magnets."
+          dates.original_expected_completion: "October 2029"
+      - ref: cw-sipb-2026
+        supports: [status, investment]
+        ev:
+          status: ["a Rs22.5 bn advanced materials investment by Proterial India were also approved", "The board held its 18th meeting at the State Secretariat in Amaravati on Thursday"]
+      - ref: smm-proterial-2026
+        supports: [investment, location, capacity.planned, operator, minerals]
+        ev:
+          investment: "Japanese company Proterial will invest 22.5 billion rupees to build a rare earth permanent magnet manufacturing plant in Andhra Pradesh."
+          location: "located in Achyutapuram, Anakapalli district"
+          capacity.planned: "annual production capacity of 1,200 mt of sintered NdFeB permanent magnets"
+
+  - id: nexon-geochem-thondangi
+    name: "Nexon Geochem sintered NdFeB magnet plant, Thondangi (Kakinada SEZ)"
+    aliases: ["Nexon Geochem Kakinada magnet plant"]
+    stages: [Magnets]
+    minerals: [Neodymium]
+    commodity_as_stated: "integrated sintered NdFeB rare-earth permanent magnet"
+    products: ["Sintered NdFeB permanent magnets"]
+    operator: "Nexon Geochem Pvt. Ltd."
+    operator_type: "Unlisted private"
+    location: {address: "Kakinada Special Economic Zone", village_or_town: "Thondangi", district: "Kakinada", state: "Andhra Pradesh"}
+    geo: {q: "Thondangi", state: "Andhra Pradesh"}
+    status: MoU signed
+    status_as_of: "2026-10-14"
+    status_detail: "MoU with APEDB, Oct 2026; planning stage, land allotment pending"
+    capacity:
+      planned: {value: 600, unit: "tpa", basis: "sintered NdFeB magnets", phase: "both phases"}
+    investment: {amount: 1250, currency: INR_crore, basis: "two phases: Rs 750 crore (Phase 1) + Rs 500 crore (Phase 2)"}
+    schemes: [repm]
+    scheme_status: {repm: Bid submitted}
+    dates: {first_public: "2026-10-12", mou: "2026-10-12", original_expected_completion: "2029-04"}
+    milestones:
+      - {date: "2026-07", event: "MoU with Rosatom's Giredmet on rare earth processing; company targets 1,200 MTPA NdFeB by FY2033 and a first facility in Hyderabad", source_id: cid-nexon-2026}
+    narrative:
+      what_it_does: "Plans a 600-tonne-a-year sintered NdFeB magnet plant on 30 acres in the Kakinada SEZ, in two phases to 2035."
+      significance: "The Hyderabad firm also bid under the central magnet scheme and has a technology tie-up with Russia's state-owned Giredmet."
+      why_it_matters: "It adds a third magnet project on the Andhra coast, though it is still at the MoU stage with no land allotted."
+    confidence: medium
+    notes: "MoU date: Trade Brains reports it among 15 MoUs signed at the Kakinada regional conference on 12 Oct 2026; Autocar Professional says it was signed on Wednesday (14 Oct). The July 2026 Giredmet announcement named a Hyderabad site and a 1,200 MTPA FY2033 target; the company has not said how the two plans relate (Autocar Professional). Phase 2 expansion targeted by April 2035."
+    sources:
+      - ref: dc-nexon-2026
+        supports: [status, location, capacity.planned, investment, minerals, operator]
+        ev:
+          location: "to establish the integrated sintered NdFeB rare-earth permanent magnet manufacturing facility in Thondangi, Kakinada district"
+          capacity.planned: "annual production capacity of 600 tonnes"
+          investment: "Rs 750 crore dedicated to the first phase and Rs 500 crore allocated for the second phase"
+      - ref: acp-nexon-2026
+        supports: [status, status_detail, dates.original_expected_completion]
+        ev:
+          dates.original_expected_completion: "The first phase will involve ₹750 crore, with operations targeted to begin by April 2029."
+          status_detail: ["The project remains at the planning stage, with construction and commercial production yet to begin.", "The project is planned across 30 acres"]
+      - ref: tb-nexon-2026
+        supports: [status, dates.mou, dates.first_public]
+        ev:
+          dates.mou: ["regional conference held in Kakinada on October 12, 2026", "The proposal was among 15 MoUs signed at the regional conference"]
+      - ref: cid-nexon-2026
+        supports: [notes]
+        ev:
+          notes: ["achieve a production capacity of 1,200 MTPA by FY2033", "will establish a highly scalable sintered NdFeB permanent magnet manufacturing facility in Hyderabad"]
+
+  - id: lohum-greater-noida-repm
+    name: "LOHUM rare earth permanent magnet facility, Greater Noida"
+    aliases: ["LOHUM Site 5 NdFeB plant"]
+    stages: [Magnets, Recycling]
+    minerals: [Neodymium, Dysprosium, Terbium]
+    commodity_as_stated: "rare earth permanent magnets from rare earth oxide; NdFeB magnets; Dysprosium and Terbium recovery from e-waste"
+    products: ["NdFeB permanent magnets", "Dysprosium and terbium recovered from electronic waste"]
+    operator: "Lohum Cleantech Pvt. Ltd."
+    operator_type: "Startup"
+    location: {address: "Site 5, Greater Noida", village_or_town: "Greater Noida", district: "Gautam Buddha Nagar", state: "Uttar Pradesh"}
+    geo: {q: "Greater Noida", state: "Uttar Pradesh"}
+    status: Approved
+    status_as_of: "2026-05-12"
+    status_detail: "Approved under MeitY's ECMS on 30 Mar 2026 (Rs 700 crore); described as a pilot facility at LOHUM's Site 5 factory"
+    capacity:
+      planned: {value: 5000, unit: "tpa", basis: "NdFeB magnets", phase: null}
+    investment: {amount: 700, currency: INR_crore, basis: "ECMS-approved investment"}
+    feedstock: Mixed
+    feedstock_detail: "Rare earth oxide; dysprosium and terbium to be recovered from discarded phones, laptops and drones"
+    schemes: [ecms, repm]
+    scheme_status: {ecms: Approved, repm: Bid submitted}
+    dates: {first_public: "2026-03-30", approved: "2026-03-30"}
+    milestones:
+      - {date: "2026-07-28", event: "MoU with CSIR-IMMT to develop metallised NdPr production technology", source_id: dp-lohum-immt-2026}
+    narrative:
+      what_it_does: "Plans to make NdFeB magnets from rare earth oxide at LOHUM's Greater Noida factory and to recover dysprosium and terbium from electronic waste."
+      significance: "MeitY approved it in March 2026 as the first rare earth magnet project under the electronics component scheme, citing the company's own technology."
+      why_it_matters: "Pairing magnet-making with heavy rare earth recycling targets dysprosium and terbium, which India does not mine in usable amounts."
+    confidence: medium
+    notes: "Capacity of 5,000 tpa (KNN) sits oddly with 'pilot facility' in the same report; treat as a stated target. A Nov 2025 PTI report of a Rs 500 crore, 2,000 t LOHUM magnet facility in UP could not be retrieved (403) and may describe the same project. The REPM bid was filed by Lohum Magnets & Energy Solutions Pvt Ltd (PIB 2299078). See OPEN_QUESTIONS 7."
+    sources:
+      - ref: knn-lohum-2026
+        supports: [status, location, capacity.planned, investment, products, feedstock, minerals]
+        ev:
+          location: "LOHUM, India’s largest producer of sustainable critical minerals & advanced materials, will establish the pilot facility at its factory in Site 5, Greater Noida."
+          capacity.planned: "The plant will have an annual production capacity of 5,000 tonnes and will manufacture NdFeB magnets"
+          investment: "The project has received approval from the Ministry of Electronics and Information Technology and will involve an investment of Rs 700 crore."
+          products: "LOHUM plans to recover Dysprosium and Terbium from discarded mobile phones, laptops, drones and other electronic waste"
+      - ref: agi-lohum-2026
+        supports: [status, operator, dates.approved]
+        ev:
+          status: ["The Government of India has approved a proposal from Lohum Cleantech Pvt. Ltd. to manufacture rare earth permanent magnets from rare earth oxide", "The approvals were granted by the Ministry of Electronics and Information Technology under the Electronics Components Manufacturing Scheme."]
+      - ref: swa-ecms-2026
+        supports: [dates.approved, dates.first_public, investment]
+        ev:
+          dates.approved: "Announcing the approvals on March 30, Union Minister for Electronics and Information Technology Ashwini Vaishnaw said the rare earth magnet project"
+          investment: "India’s first rare earth permanent magnet manufacturing facility, which involves an investment of around Rs 700 crore"
+      - ref: dp-lohum-immt-2026
+        supports: [milestones]
+        ev:
+          milestones: ["have signed a Memorandum of Understanding to jointly advance indigenous technology capabilities for the production of critical rare-earth materials", "production of metallised neodymium-praseodymium (NdPr)"]
+
+  - id: arci-ndfeb-pilot-hyderabad
+    name: "ARCI Nd-Fe-B rare earth permanent magnet pilot plant, Hyderabad"
+    aliases: ["International Advanced Research Centre for Powder Metallurgy and New Materials magnet pilot plant"]
+    stages: [Magnets, R&D]
+    minerals: [Neodymium]
+    commodity_as_stated: "Nd-Fe-B (Neodymium-Iron-Boron) rare earth permanent magnets"
+    products: ["Strip-cast Nd-Fe-B alloy", "Sintered Nd-Fe-B magnets (pilot scale)"]
+    operator: "International Advanced Research Centre for Powder Metallurgy and New Materials (ARCI), DST"
+    operator_type: "Research lab"
+    location: {village_or_town: "Hyderabad", district: "Ranga Reddy", state: "Telangana", precision: site}
+    geo: {q: "ARCI, Balapur", state: Telangana}
+    status: Pilot
+    status_as_of: "2026-03-20"
+    status_detail: "Pilot plant inaugurated 20 Mar 2026; strip-cast alloy to sintered magnet"
+    dates: {first_public: "2026-03-20", commissioned: "2026-03-20"}
+    narrative:
+      what_it_does: "Runs every step from strip-cast alloy to finished sintered Nd-Fe-B magnets at pilot scale, for process validation and industry trials."
+      significance: "It is the government's open platform for firms preparing NdFeB plants under the central magnet scheme."
+      why_it_matters: "Indian entrants lack proven sintering know-how, and a shared pilot line lets them qualify processes before building full plants."
+    confidence: medium
+    notes: "DST's own page (dst.gov.in, 'Pilot Plant for the Manufacture of Nd-Fe-B Rare Earth Permanent Magnets established at ARCI, Hyderabad') is script-rendered and could not be archived; its text is reproduced by Tripura Star News. Point is the OpenStreetMap node for the ARCI campus at Balapur (Ranga Reddy district)."
+    sources:
+      - ref: tsn-arci-2026
+        supports: [status, location, operator, products, minerals]
+        ev:
+          status: "A Pilot Plant for the manufacture of Nd-Fe-B (Neodymium-Iron-Boron) rare earth permanent magnets established at the International Advanced Research Centre for Powder Metallurgy and New Materials (ARCI), Hyderabad"
+          products: "covering the process from strip-cast alloy to finished sintered magnets"
+      - ref: mach-arci-2026
+        supports: [status, dates.commissioned, dates.first_public]
+        ev:
+          dates.commissioned: "The plant was inaugurated on 20 March 2026 by Abhay Karandikar, Secretary, Department of Science and Technology."
+
+  - id: irel-tamin-thoothukudi
+    name: "IREL TAMIN mineral sands and NdPr oxide project, Thoothukudi"
+    aliases: ["IREL TAMIN Limited", "Tuticorin rare earth project", "Sattankulam and Kudhiraimozhi teri deposits"]
+    stages: [Mining, Beneficiation, Magnets]
+    minerals: [Neodymium, Praseodymium, Titanium]
+    commodity_as_stated: "Ilmenite, Rutile and Monazite; Neodymium-Praseodymium (NdPr) oxide"
+    products: ["Ilmenite", "Rutile", "Monazite", "NdPr oxide"]
+    operator: "IREL TAMIN Limited"
+    operator_type: JV
+    owners:
+      - {entity: "IREL (India) Limited", stake_pct: null}
+      - {entity: "Tamil Nadu Minerals Limited (TAMIN)", stake_pct: null}
+    location: {village_or_town: null, district: "Thoothukudi", state: "Tamil Nadu"}
+    geo: {district_centroid: "Thoothukkudi", state: "Tamil Nadu"}
+    status: MoU signed
+    status_as_of: "2026-07-27"
+    status_detail: "JV incorporated 28 Jun 2024; exploration report with the state, awaiting land demarcation"
+    investment: {amount: 4000, currency: INR_crore, basis: "proposed integrated mining and processing facility"}
+    feedstock: Domestic ore
+    feedstock_detail: "Teri (red sand) mineral sands at Sattankulam and Kudhiraimozhi"
+    dates: {first_public: "2024-06-28"}
+    narrative:
+      what_it_does: "Would mine the teri mineral sands of Thoothukudi district and refine them to ilmenite, rutile and NdPr oxide for Indian magnet makers."
+      significance: "It is IREL's planned anchor for the Tamil Nadu rare earth corridor announced in the 2026-27 Union Budget."
+      why_it_matters: "IREL says its NdPr oxide would go straight to firms building magnets under the central scheme, adding a second domestic oxide source."
+    confidence: medium
+    notes: "JV date conflict: IREL's projects page says incorporated 28 Jun 2024; the IREL CMD told The Times of India the JV was formed in June 2023. Deposits named: Sattankulam and Kudhiraimozhi teri (Thoothukudi district); point is the district centroid."
+    sources:
+      - ref: irel-projects-page
+        supports: [status, operator, dates.first_public, status_detail]
+        ev:
+          status: "IREL TAMIN Limited, a JV Company incorporated with Tamil Nadu Minerals Limited (TAMIN) on 28 June 2024 for harnessing the mineral sand deposits in Tamil Nadu."
+          status_detail: "Field survey has been completed for the earmarked deposits for precise area demarcation."
+      - ref: toi-irel-tamin-2026
+        supports: [status, status_detail, products, location, notes, minerals]
+        ev:
+          products: ["will produce Neodymium-Praseodymium (NdPr) oxide", "end-to-end facility for mining and refining beach sand minerals such as Ilmenite, Rutile and Monazite"]
+          location: "integrated mining and processing facilities for mineral sands deposits at Sattankulam and Kudhiraimozhi teri deposits"
+          status_detail: "we are waiting for the state to demarcate the land"
+          notes: "The proposed joint venture between IREL and TAMIN was formed in June 2023"
+      - ref: et-irel-tamin-2026
+        supports: [investment]
+        ev:
+          investment: "processing facility at Tuticorin will entail an investment of about 4,000 crore"
