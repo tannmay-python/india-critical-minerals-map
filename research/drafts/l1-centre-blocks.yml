@@ -1405,9 +1405,9 @@
           - 14.3874928
         - - 77.5223575
           - 14.4040125
-  status: Preferred bidder
-  status_as_of: '2024-10-22'
-  status_detail: Hindustan Zinc Limited, final price offer 6.55% (Tranche IV)
+  status: LoI issued
+  status_as_of: '2025-12-03'
+  status_detail: LoI issued to Hindustan Zinc on 15 May 2025; declared successful bidder on 14 Nov 2025
   capacity:
     planned:
       value: null
@@ -1443,6 +1443,12 @@
   - date: '2024-10-22'
     event: 'Tranche IV: preferred bidder (Hindustan Zinc Limited, 6.55%)'
     source_id: mstc-t4-nit
+  - date: '2025-05-15'
+    event: Letter of intent issued to Hindustan Zinc
+    source_id: ls-usq623-2025-12-03
+  - date: '2025-11-14'
+    event: Hindustan Zinc declared successful bidder
+    source_id: hzl-nse-2025-11-14
   narrative:
     what_it_does: A 3.08 sq km block offered for a composite licence, for tungsten and associated minerals (mo, au, pb, zn),
       in Anantapur district, Andhra Pradesh, explored to G3 level.
@@ -1453,7 +1459,7 @@
   confidence: high
   last_verified: '2026-10-23'
   notes: Second attempt (first offered in Centre-T2). Second-round e-auction 2024-10-22; PB declaration notice dated 2024-11-07.
-    MBS area 308.3 Ha. Letter of intent / licence execution status not yet checked (see OPEN_QUESTIONS).
+    MBS area 308.3 Ha.
   sources:
   - id: mstc-t2-nit
     url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14475_GoI-MoM%20Tranche%20II-NIT.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
@@ -1550,6 +1556,28 @@
     - auction.history
     - operator
     - status
+  - id: ls-usq623-2025-12-03
+    url: https://sansad.in/getFile/lsapps/loksabhaquestions/annex/186/AU623_96Lb6G.pdf?source=lsapps
+    title: 'Lok Sabha USQ 623 (3 Dec 2025): Rare earth and critical minerals in Andhra Pradesh'
+    publisher: Ministry of Mines (Lok Sabha)
+    tier: T1
+    date: '2025-12-03'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - status
+    - auction.loi_date
+  - id: hzl-nse-2025-11-14
+    url: https://nsearchives.nseindia.com/corporate/HINDZINCNSE_14112025180725_SEIntimation_-_Successful_Bidder.pdf
+    title: 'Hindustan Zinc: Declaration of Successful Bidder, Tungsten and Associated Mineral Block, Balepalyam (stock-exchange
+      intimation)'
+    publisher: Hindustan Zinc Ltd (NSE filing)
+    tier: T2
+    date: '2025-11-14'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - status
   block:
     concession_type: CL
     auction_route: Centre
@@ -1575,7 +1603,7 @@
       preferred_bidder: Hindustan Zinc Limited
       final_offer_pct: 6.55
       reserve_price: 06.00%
-    loi_date: null
+    loi_date: '2025-05-15'
     licence_or_lease_executed: null
     production_started: null
 - id: blk-ap-lanjabanda
@@ -2956,9 +2984,9 @@
           - 27.3356389
         - - 93.7123889
           - 27.3355556
-  status: Preferred bidder
-  status_as_of: '2024-10-18'
-  status_detail: Oil India Ltd, final price offer 76.05% (Tranche IV)
+  status: Licence / lease executed
+  status_as_of: '2026-01-05'
+  status_detail: Composite licence deed executed by Oil India on 2 Jan 2026
   capacity:
     planned:
       value: null
@@ -2994,6 +3022,9 @@
   - date: '2024-10-18'
     event: 'Tranche IV: preferred bidder (Oil India Ltd, 76.05%)'
     source_id: mstc-t4-nit
+  - date: '2026-01-02'
+    event: Composite licence deed executed
+    source_id: oil-nse-2026-01-05
   narrative:
     what_it_does: A 1.09 sq km block offered for a composite licence, for graphite and vanadium, in Lower Subansiri district,
       Arunachal Pradesh, explored to G3 level.
@@ -3004,8 +3035,7 @@
   confidence: high
   last_verified: '2026-10-23'
   notes: 'Second attempt (first offered in Centre-T2). Second-round e-auction 2024-10-18; PB declaration notice dated 2024-11-07.
-    MBS district reads ''Papum pare'' (NIT: ''Lower Subansiri''). MBS area 108.86 Ha. Letter of intent / licence execution
-    status not yet checked (see OPEN_QUESTIONS).'
+    MBS district reads ''Papum pare'' (NIT: ''Lower Subansiri''). MBS area 108.86 Ha.'
   sources:
   - id: mstc-t2-nit
     url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14475_GoI-MoM%20Tranche%20II-NIT.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
@@ -3102,6 +3132,17 @@
     - auction.history
     - operator
     - status
+  - id: oil-nse-2026-01-05
+    url: https://nsearchives.nseindia.com/corporate/OIL_05012026182504_Clarification05012026.pdf
+    title: 'Oil India: clarification to exchanges on execution of the composite licence deed for the Phop graphite block'
+    publisher: Oil India Ltd (NSE filing)
+    tier: T2
+    date: '2026-01-05'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - status
+    - auction.licence_or_lease_executed
   block:
     concession_type: CL
     auction_route: Centre
@@ -3128,7 +3169,7 @@
       final_offer_pct: 76.05
       reserve_price: 19.00%
     loi_date: null
-    licence_or_lease_executed: null
+    licence_or_lease_executed: '2026-01-02'
     production_started: null
 - id: blk-ar-radhpu
   name: Radhpu Graphite and Vanadium Block
@@ -3737,7 +3778,8 @@
           - 24.5153
   status: Preferred bidder
   status_as_of: '2024-07-09'
-  status_detail: Vedanta Limited, final price offer 6.05% (Tranche III)
+  status_detail: Vedanta declared successful bidder by a letter dated 10 Dec 2025 (press report of the company's disclosure;
+    filing not yet retrieved)
   capacity:
     planned:
       value: null
@@ -3773,6 +3815,9 @@
   - date: '2024-07-09'
     event: 'Tranche III: preferred bidder (Vedanta Limited, 6.05%)'
     source_id: mstc-t3-nit
+  - date: '2025-12-10'
+    event: Vedanta declared successful bidder (letter dated 10 Dec 2025, as reported)
+    source_id: bs-2025-12-12-vedanta-genjana
   narrative:
     what_it_does: A 7.89 sq km block offered for a composite licence, for nickel, chromium and pge, in Gaya district, Bihar,
       explored to G3 level.
@@ -3783,7 +3828,7 @@
   confidence: high
   last_verified: '2026-10-23'
   notes: Second attempt (first offered in Centre-T1, annulled 13 Mar 2024). Second-round e-auction 2024-07-09; PB notice dated
-    20 Jul 2024. MBS area 788.85 Ha. Letter of intent / licence execution status not yet checked (see OPEN_QUESTIONS).
+    20 Jul 2024. MBS area 788.85 Ha.
   sources:
   - id: mstc-t1-nit
     url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=12721_Tranche-1-NIT%2020%20Blocks.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
@@ -3889,6 +3934,16 @@
     - block.area_sq_km
     - block.exploration_stage
     - location
+  - id: bs-2025-12-12-vedanta-genjana
+    url: https://www.business-standard.com/amp/markets/capital-market-news/vedanta-rises-after-winning-genjana-nickel-chromium-pge-block-in-critical-minerals-auction-125121200366_1.html
+    title: Vedanta rises after winning Genjana Nickel, Chromium & PGE Block in critical minerals auction
+    publisher: Business Standard
+    tier: T3
+    date: '2025-12-12'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
   block:
     concession_type: CL
     auction_route: Centre
@@ -7551,9 +7606,9 @@
           - 20.8016917
         - - 81.0821889
           - 20.8016917
-  status: Preferred bidder
-  status_as_of: '2025-05-16'
-  status_detail: NLC India Limited, final price offer 8.6% (Tranche V)
+  status: Licence / lease executed
+  status_as_of: '2026-08-05'
+  status_detail: Composite licence issued to NLC India on 24 Apr 2026 (LoI 2 Sep 2025)
   capacity:
     planned:
       value: null
@@ -7592,6 +7647,12 @@
   - date: '2025-05-16'
     event: 'Tranche V: preferred bidder (NLC India Limited, 8.6%)'
     source_id: mstc-t5-nit
+  - date: '2025-09-02'
+    event: Letter of intent issued
+    source_id: ls-usq2814-2026-08-05
+  - date: '2026-04-24'
+    event: Composite licence issued by the Government of Chhattisgarh
+    source_id: psuconnect-2026-04-26-nlcil-cl
   narrative:
     what_it_does: A 10.09 sq km block offered for a composite licence, for phosphorite and limestone, in Balod district, Chhattisgarh,
       explored to G3 level.
@@ -7602,7 +7663,7 @@
   confidence: high
   last_verified: '2026-10-23'
   notes: 'Second attempt per this NIT (third offering overall: Centre-T2, T4, T5). Second-round e-auction 2025-05-16; PB declaration
-    notice dated 2025-05-27. MBS area 1009.36 Ha. Letter of intent / licence execution status not yet checked (see OPEN_QUESTIONS).'
+    notice dated 2025-05-27. MBS area 1009.36 Ha.'
   sources:
   - id: mstc-t2-nit
     url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14475_GoI-MoM%20Tranche%20II-NIT.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
@@ -7729,6 +7790,27 @@
     - auction.history
     - operator
     - status
+  - id: ls-usq2814-2026-08-05
+    url: https://sansad.in/getFile/lsapps/loksabhaquestions/annex/188/AU2814_vUBjng.pdf?source=lsapps
+    title: 'Lok Sabha USQ 2814 (5 Aug 2026): Frameworks to track and monitor mineral blocks (Annexure: Kanker and Balod blocks)'
+    publisher: Ministry of Mines (Lok Sabha)
+    tier: T1
+    date: '2026-08-05'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - status
+    - auction.loi_date
+  - id: psuconnect-2026-04-26-nlcil-cl
+    url: https://www.psuconnect.in/psu-news/nlcil-secures-composite-licence-for-phosphorite-and-limestone-blocks-in-chhattisgarh
+    title: NLCIL secures Composite Licence for Phosphorite & Limestone blocks in Chhattisgarh
+    publisher: PSU Connect
+    tier: T3
+    date: '2026-04-26'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.licence_or_lease_executed
   block:
     concession_type: CL
     auction_route: Centre
@@ -7762,8 +7844,8 @@
       preferred_bidder: NLC India Limited
       final_offer_pct: 8.6
       reserve_price: 08.50%
-    loi_date: null
-    licence_or_lease_executed: null
+    loi_date: '2025-09-02'
+    licence_or_lease_executed: '2026-04-24'
     production_started: null
 - id: blk-cg-sabag-north
   name: Sabag (North) Vanadium, Gallium, Titanium, REE, Bauxite and Aluminous Laterite Block
@@ -8084,9 +8166,9 @@
           - 20.8220556
         - - 81.0431111
           - 20.8220556
-  status: Preferred bidder
-  status_as_of: '2025-05-15'
-  status_detail: NLC India Limited, final price offer 11.05% (Tranche V)
+  status: Licence / lease executed
+  status_as_of: '2026-08-05'
+  status_detail: Composite licence issued to NLC India on 24 Apr 2026 (LoI 2 Sep 2025)
   capacity:
     planned:
       value: null
@@ -8122,6 +8204,12 @@
   - date: '2025-05-15'
     event: 'Tranche V: preferred bidder (NLC India Limited, 11.05%)'
     source_id: mstc-t5-nit
+  - date: '2025-09-02'
+    event: Letter of intent issued
+    source_id: ls-usq2814-2026-08-05
+  - date: '2026-04-24'
+    event: Composite licence issued by the Government of Chhattisgarh
+    source_id: psuconnect-2026-04-26-nlcil-cl
   narrative:
     what_it_does: A 9.60 sq km block offered for a composite licence, for phosphorite and limestone, in Balod district, Chhattisgarh,
       explored to G3 level.
@@ -8132,7 +8220,7 @@
   confidence: high
   last_verified: '2026-10-23'
   notes: Second attempt (first offered in Centre-T4). Second-round e-auction 2025-05-15; PB declaration notice dated 2025-05-27.
-    MBS area 960.35 Ha. Letter of intent / licence execution status not yet checked (see OPEN_QUESTIONS).
+    MBS area 960.35 Ha.
   sources:
   - id: mstc-t4-nit
     url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=15825_1.%20GoI%20MoM%20-%20Tranche%20IV%20-%20NIT.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
@@ -8216,6 +8304,27 @@
     - auction.history
     - operator
     - status
+  - id: ls-usq2814-2026-08-05
+    url: https://sansad.in/getFile/lsapps/loksabhaquestions/annex/188/AU2814_vUBjng.pdf?source=lsapps
+    title: 'Lok Sabha USQ 2814 (5 Aug 2026): Frameworks to track and monitor mineral blocks (Annexure: Kanker and Balod blocks)'
+    publisher: Ministry of Mines (Lok Sabha)
+    tier: T1
+    date: '2026-08-05'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - status
+    - auction.loi_date
+  - id: psuconnect-2026-04-26-nlcil-cl
+    url: https://www.psuconnect.in/psu-news/nlcil-secures-composite-licence-for-phosphorite-and-limestone-blocks-in-chhattisgarh
+    title: NLCIL secures Composite Licence for Phosphorite & Limestone blocks in Chhattisgarh
+    publisher: PSU Connect
+    tier: T3
+    date: '2026-04-26'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.licence_or_lease_executed
   block:
     concession_type: CL
     auction_route: Centre
@@ -8242,8 +8351,8 @@
       preferred_bidder: NLC India Limited
       final_offer_pct: 11.05
       reserve_price: 10.00%
-    loi_date: null
-    licence_or_lease_executed: null
+    loi_date: '2025-09-02'
+    licence_or_lease_executed: '2026-04-24'
     production_started: null
 - id: blk-gj-devkigalol-jetpur
   name: Devkigalol-Jetpur, Vanadium and associated Mineralization Exploration Block
@@ -10842,9 +10951,10 @@
           - 11.7899778
         - - 76.6507778
           - 11.79825
-  status: Preferred bidder
-  status_as_of: '2026-06-11'
-  status_detail: Hindustan Zinc Limited, final price offer 10.05% (Tranche VII)
+  status: LoI issued
+  status_as_of: '2026-09-03'
+  status_detail: Government of Karnataka issued the LoI to Hindustan Zinc for a mining lease over 314.21 ha (company filing,
+    3 Sep 2026)
   capacity:
     planned:
       value: null
@@ -10880,6 +10990,9 @@
   - date: '2026-06-11'
     event: 'Tranche VII: preferred bidder (Hindustan Zinc Limited, 10.05%)'
     source_id: mstc-t7-nit
+  - date: '2026-09-03'
+    event: Hindustan Zinc discloses LoI from the Government of Karnataka for a mining lease
+    source_id: hzl-nse-2026-09-03
   narrative:
     what_it_does: A 3.14 sq km block offered for a mining lease, for ree and yttrium, in Chamrajnagar district, Karnataka,
       explored to G3 level.
@@ -10889,7 +11002,7 @@
   see_also: []
   confidence: high
   last_verified: '2026-10-23'
-  notes: Second attempt after Tranche VI Letter of intent / licence execution status not yet checked (see OPEN_QUESTIONS).
+  notes: Second attempt after Tranche VI
   sources:
   - id: mstc-t6-nit
     url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=22681_GoI%20MoM%20-%20Tranche%20VI%20-%20NIT.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
@@ -10960,6 +11073,16 @@
     - block.area_sq_km
     - block.exploration_stage
     - location
+  - id: hzl-nse-2026-09-03
+    url: https://nsearchives.nseindia.com/corporate/HINDZINCNSE_03092026152340_SEIntimation-LOI.pdf
+    title: 'Hindustan Zinc: Issuance of Letter of Intent in favour of the Preferred Bidder, Gundlupet REE and Yttrium Block'
+    publisher: Hindustan Zinc Ltd (NSE filing)
+    tier: T2
+    date: '2026-09-03'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - status
   block:
     concession_type: ML
     auction_route: Centre
@@ -19504,9 +19627,10 @@
           - 21.3671167
         - - 79.2930111
           - 21.3493306
-  status: Preferred bidder
-  status_as_of: '2026-01-17'
-  status_detail: Coal India Limited, final price offer 40.6% (Tranche VI)
+  status: Licence / lease executed
+  status_as_of: '2026-01-20'
+  status_detail: Composite licence awarded to Coal India (exchange filing, 20 Jan 2026); mining lease to follow within five
+    years
   capacity:
     planned:
       value: null
@@ -19539,6 +19663,9 @@
   - date: '2026-01-17'
     event: 'Tranche VI: preferred bidder (Coal India Limited, 40.6%)'
     source_id: mstc-t6-nit
+  - date: '2026-01-20'
+    event: Coal India discloses award of the composite licence (398 ha)
+    source_id: coalindia-bse-2026-01-20
   narrative:
     what_it_does: A 3.98 sq km block offered for a composite licence, for ree and rm, in Nagpur district, Maharashtra, explored
       to G3 level.
@@ -19547,7 +19674,7 @@
   see_also: []
   confidence: high
   last_verified: '2026-10-23'
-  notes: Letter of intent / licence execution status not yet checked (see OPEN_QUESTIONS).
+  notes: null
   sources:
   - id: mstc-t6-nit
     url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=22681_GoI%20MoM%20-%20Tranche%20VI%20-%20NIT.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
@@ -19587,6 +19714,17 @@
     - block.area_sq_km
     - block.exploration_stage
     - location
+  - id: coalindia-bse-2026-01-20
+    url: https://bsmedia.business-standard.com/_media/bs/data/announcements/bse/20012026/2839aa89-362e-4561-9538-9bba466c1d2a.pdf
+    title: 'Coal India: Regulation 30 disclosure, grant of mineral concession (Composite Licence, Kawalapur REE and RM block)'
+    publisher: Coal India Ltd (BSE/NSE filing)
+    tier: T2
+    date: '2026-01-20'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - status
+    - auction.licence_or_lease_executed
   block:
     concession_type: CL
     auction_route: Centre
@@ -19606,7 +19744,7 @@
       final_offer_pct: 40.6
       reserve_price: 2.00%
     loi_date: null
-    licence_or_lease_executed: null
+    licence_or_lease_executed: '2026-01-20'
     production_started: null
 - id: blk-mh-khobna-agargaon
   name: Khobna and Agargaon Cluster Tungsten Block
@@ -24690,9 +24828,9 @@
           - 29.6185572
         - - 74.2011944
           - 29.6186461
-  status: Preferred bidder
-  status_as_of: '2025-05-16'
-  status_detail: Hindustan Zinc Limited, final price offer 3.05% (Tranche V)
+  status: LoI issued
+  status_as_of: '2026-04-13'
+  status_detail: Hindustan Zinc declared successful bidder (13 Apr 2026); composite licence deed to follow
   capacity:
     planned:
       value: null
@@ -24728,6 +24866,9 @@
   - date: '2025-05-16'
     event: 'Tranche V: preferred bidder (Hindustan Zinc Limited, 3.05%)'
     source_id: mstc-t5-nit
+  - date: '2026-04-13'
+    event: Hindustan Zinc declared successful bidder
+    source_id: hzl-nse-2026-04-13
   narrative:
     what_it_does: A 18.41 sq km block offered for a composite licence, for potash and halite, in Hanumangarh district, Rajasthan,
       explored to G3 level.
@@ -24738,7 +24879,7 @@
   confidence: high
   last_verified: '2026-10-23'
   notes: Second attempt (first offered in Centre-T4). Second-round e-auction 2025-05-16; PB declaration notice dated 2025-05-27.
-    MBS area 1841.22 Ha. Letter of intent / licence execution status not yet checked (see OPEN_QUESTIONS).
+    MBS area 1841.22 Ha.
   sources:
   - id: mstc-t4-nit
     url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=15825_1.%20GoI%20MoM%20-%20Tranche%20IV%20-%20NIT.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
@@ -24821,6 +24962,17 @@
     supports:
     - auction.history
     - operator
+    - status
+  - id: hzl-nse-2026-04-13
+    url: https://nsearchives.nseindia.com/corporate/HINDZINCNSE_13042026161157_SEIntimation_-_Successful_Bidder.pdf
+    title: 'Hindustan Zinc: Declaration of Successful Bidder, Jhandawali-Satipura Amalgamated Potash and Halite Block (stock-exchange
+      intimation)'
+    publisher: Hindustan Zinc Ltd (NSE filing)
+    tier: T2
+    date: '2026-04-13'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
     - status
   block:
     concession_type: CL

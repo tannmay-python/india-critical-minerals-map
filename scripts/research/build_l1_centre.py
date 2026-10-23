@@ -567,7 +567,26 @@ def main():
                                      "source_id": s, "excerpt": " ".join(ex.split()[:30]), "raw_path": src["raw_path"],
                                      "retrieved": TODAY, "checked_by": "researcher"})
 
-    records.sort(key=lambda r: (r["location"]["state"], r["name"]))
+    # post-auction status (LoI, licence/lease execution) from Parliament answers and company filings
+    upd_path = os.path.join(D, "l1-status-updates.yml")
+    if os.path.exists(upd_path):
+        by_id = {r["id"]: r for r in records}
+        for u in yaml.safe_load(open(upd_path)) or []:
+            r = by_id.get(u["id"])
+            if not r:
+                print("status update for unknown id", u["id"])
+                continue
+            for k in ("status", "status_as_of", "status_detail"):
+                if u.get(k):
+                    r[k] = u[k]
+            for k, v in (u.get("auction") or {}).items():
+                r["auction"][k] = v
+            r["milestones"] = sorted(r["milestones"] + (u.get("milestones") or []), key=lambda m: str(m["date"]))
+            have = {x["id"] for x in r["sources"]}
+            r["sources"] += [x for x in u.get("sources") or [] if x["id"] not in have]
+            if r.get("notes"):
+                r["notes"] = r["notes"].replace("Letter of intent / licence execution status not yet checked (see OPEN_QUESTIONS).", "").strip() or None
+    records.sort(key=lambda r: (r["location"]["state"] or "~", r["name"]))
     with open(os.path.join(D, "l1-centre-blocks.yml"), "w", encoding="utf-8") as f:
         yaml.safe_dump(records, f, sort_keys=False, allow_unicode=True, width=120)
     with open(os.path.join(D, "l1-centre-blocks.evidence.jsonl"), "w", encoding="utf-8") as f:
