@@ -18,7 +18,7 @@ Every candidate considered and rejected, with the rule that rejected it, so the 
 | Coking-coal blocks (MMDR Part D since Jan 2026) | D-004 | _to be filled during L1_ | |
 | Solar module-only and cell-only plants | Playbook L4 | | |
 | Downstream steel, generic chemicals | Playbook L4 | | |
-| E-waste dismantlers / collectors without metal recovery | Playbook L5 | 322 CPCB-registered e-waste recyclers and 72 refurbishers (capacity 22.09 lakh tpa, 9 Feb 2025); unit list is behind the EPR portal login, so metal-recovery units are added only from other sources | Rajya Sabha USQ 1006, 13 Feb 2025 |
+| E-waste dismantlers / collectors without metal recovery | Playbook L5 | Count not verified: a Feb 2025 Rajya Sabha answer is reported to give 322 registered e-waste recyclers and 72 refurbishers, but the archived link returned a search page. The unit list is behind the EPR portal login, so metal-recovery units are added only from other sources | Rajya Sabha USQ 1006, 13 Feb 2025 (reported, not archived) |
 | Offshore construction-sand and lime-mud blocks | Playbook L1 | | |
 
 ## Individual exclusions
