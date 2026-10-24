@@ -1,0 +1,1952 @@
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+             Guidance        Document           for  Recyclers                      
+                                                                                    
+                      under  Battery  Waste   Management                            
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                            Central Pollution Control Board, Delhi                  
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+     Contents                                                                       
+                                                                                    
+          1. Background ...................................................................................................................................... 3
+          2. Sign-up on the EPR Portal ............................................................................................................... 3
+                                                                                    
+          3. Dashboard ........................................................................................................................................ 6
+          4. My Profile .......................................................................................................................................... 6
+               4.1 Modify Registration ............................................................................................................ 8
+               4.2 Update Authorized Person Details ....................................................................................... 8
+          5. Procurement Data .......................................................................................................................... 10
+          6. Recycled Battery Data .................................................................................................................... 14
+                                                                                    
+          7. Sales Data ........................................................................................................................................ 18
+          8. EPR Wallet ..................................................................................................................................... 21
+               8.1 View Transactions ............................................................................................................ 22
+               8.2 Generate Certificates Page .................................................................................................. 23
+               8.3 Transfer Certificates Page ................................................................................................... 25
+          9. Quarterly Returns ........................................................................................................................... 26
+                                                                                    
+               9.1 Download Annual Report .................................................................................................. 31
+          10. EC Levied ........................................................................................................................................ 31
+          11. Information Center .......................................................................................................................... 32
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       1. Background                                                                
+       Ministry of Environment Forest and Climate Change notified Battery Waste Management (BWM)
+       Rules on 22nd August, 2022 as per recyclers shall register with the State Pollution Control Board
+                                                                                    
+       through the Online EPR Portal.                                               
+       As per provision under Rules, registered entities involved in recycling of Waste Battery, shall
+       provide certificate for Waste Battery processing and these certificates can be transacted for
+       meeting EPR obligations by the Producers. Recyclers shall furnish the quarterly returns regarding
+       the information on quantity of Waste Battery collected or received from various producers or
+       entity, recycled quantities, and generation and transfer of EPR credits      
+                                                                                    
+       This document outlines the Standard Operating Procedure of the Online EPR Portal for Recyclers
+       for compliance with the Battery Waste Management (BWM) Rules, 2022. This Guidance Manual
+       provides guidance on signing up on EPR Portal, filing of Waste Battery procurement and recycling
+       data, entering sales data for the recovered material, generation and transfer of EPR credits and
+       quarterly returns filing by the Recyclers.                                   
+                                                                                    
+       2. Sign-up on the EPR Portal                                                 
+                                                                                    
+       After accessing the EPR Portal for Battery Waste Management, users can sign-up on the portal
+       using the ‘Create Account’ option. When the user clicks on it, a pop-up box appears asking the
+       user to select the Applicant Type. On this pop-up, please select the ‘Refurbisher’ option. The user
+       is directed to the Consent Verifications step, where users need to enter the Consent ID provided
+       by their respective state and the name of their State. Once done, the user needs to click on the
+       ‘Verify’ button to verify their Consent ID.                                  
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       On successful verification of Consent ID, the user is directed to the sign-up form. The Refurbisher
+       sign-up form has the following fields-                                       
+                                                                                    
+              Field Name                   Input Description / Type                 
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+        Application Type                                                            
+                            Type of user is pre-filled to Refurbisher, based on selection made in
+        User Type                                                                   
+                            the previous step                                       
+                            Enter the Goods and Services Tax Number. (Text field,   
+        GST No.                                                                     
+                            Alphanumeric)                                           
+                                                                                    
+        Company Details                                                             
+                                                                                    
+        Name of Company     Official name of the company fetched from GST No.       
+                                                                                    
+        Legal Name          Legal name of the company fetched from GST No.          
+                            Select the year in which the company was established. (Dropdown
+        Establishment Year                                                          
+                            selection or Date Picker)                               
+                            Select the business type from the provided list. (Dropdown
+        Type of Business                                                            
+                            selection)                                              
+                            Select the state or union territory where the company is registered.
+        State/UT                                                                    
+                            (Dropdown selection)                                    
+        Registered Address  Enter the registered address of the company. (Text field)
+        District            Select the district from the provided list. (Dropdown selection)
+                            Enter the postal code of the registered address. (Text field,
+        Pin Code                                                                    
+                            Numeric)                                                
+        CIN (Company        Enter the Company Identification Number. (Text field,   
+        Identification Number) Alphanumeric)                                        
+        PAN                 Enter the Permanent Account Number. (Text field, Alphanumeric)
+                                                                                    
+                                                                                    
+        Authorized Person Details                                                   
+        Name                Enter the full name of the authorized person. (Text field)
+                                                                                    
+                            Enter the designation or job title of the authorized person. (Text
+        Designation                                                                 
+                            field)                                                  
+                            Enter the mobile number of the authorized person. (Text field,
+        Mobile                                                                      
+                            Numeric)                                                
+        PAN                 Enter the PAN of the authorized person. (Text field, Alphanumeric)
+                            Enter the Aadhaar number of the authorized person. (Text field,
+        Aadhaar No                                                                  
+                            Numeric)                                                
+        Login Details                                                               
+                                                                                    
+        Authorized Email Id Enter the email ID for login purposes. (Text field, Email format)
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+        Password            Create a password for login. (Text field, Password format)
+        Confirm Password    Re-enter the password to confirm. (Text field, Password format)
+                                                                                    
+                                                                                    
+       Once the user has filled the form with the right validations, they can click on the ‘Sign Up’ button
+       to complete the sign-up process and access their account.                    
+       Note: The authorized email ID and password created during sign-up should be used for future
+                                                                                    
+       logins to the portal.                                                        
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       3. Dashboard                                                                 
+                                                                                    
+       The user dashboard is a centralized and visually organized display of relevant information, which
+       offers a quick overview of key information, data, or actions related to the user's account.
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       4. My Profile                                                                
+       Profile can be accessed from the top-right section of the portal dashboard. When a user clicks on
+       the profile icon and name at top-right, a sub-menu is displayed allowing them to - My Profile, and
+                                                                                    
+       Logout. When a user clicks on Logout, they are logged out from their account, and when the user
+       clicks on My Profile, their Profile opens.                                   
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       The My Profile section contains the following information about the user-    
+       ●  Authorized Person Profile: mentioning Name, Email ID and Phone Number (sourced from
+          Applicant Type of Sign-Up Form)                                           
+       ●  Registration Details: User Type, Registration Status, Date of Application, Application Number,
+          Registration Expiry Date, Registration Certificate Download               
+       ●  Company Details                                                           
+       ●  Authorized Person Details                                                 
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       Following Registration Details are mentioned in this page-                   
+       ●  User Type: Recycler                                                       
+       ●  Registration Status: displaying following Current Statuses, as applicable 
+          ○ Pending Approval: when user has successfully submitted the registration application, but
+            no action has been taken by the approving authority yet                 
+          ○ In Process: the concerned approving authority has initiated an action (moved to internal
+            approving levels) on the application submitted by the user              
+          ○ Query Raised: the concerned approving authority has raised a query on the application
+            submitted by the user. On click, users can view this query raised by the approving
+            authority, and can also respond to it. When the Registration Status = Query Raised, users
+            will be allowed to edit the registration application submitted by clicking on the ‘Edit
+            Registration Application Now’ button                                    
+                                                                                    
+          ○ Approved: the concerned approving authority has approved the application submitted by
+            the user                                                                
+       ●  Date of Application: date on which the registration application was submitted by the user
+       ●  Application Number: Application number generated after successful submission of
+          registration application                                                  
+       ●  Registration Expiry Date: as per government guidelines (currently 5 years)
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       ●  Registration Certificate: available for download when the application is approved by the
+          concerned approving authority.                                            
+                                                                                    
+       On this page, user can also make following actions to update/modify their information
+       ●  Modify Registration - placed within the Registration Details card         
+       ●  Update Authorized Person Details - placed near the Authorized Person Details
+                                                                                    
+       4.1 Modify Registration                                                      
+       This allows users to modify their registration details. When a user clicks on this, user will be
+       directed to ‘Consent Application Verification Form’, which has the following fields-
+              Field Name            Type         Mandatory      Validation          
+                                                                                    
+        Consent Application ID Input field      Yes        Integration for          
+        (issued by SPCB)                                   verification, already    
+                                                           exist for Recycler       
+                                                                                    
+        Select State/UT      Single-select dropdown, Yes           –                
+                             for all 36 States and UTs                              
+                             listed in alphabetical                                 
+                             order                                                  
+                                                                                    
+       Once the user has mentioned information in the above fields, ‘Verify’ button will be enabled and
+       when the user clicks on it, verification for Consent Application ID is done. Integration to process
+       verification of Consent Application ID (There is an existing integration done in case of Recycler).
+                                                                                    
+       If verification is successful, a pop-up will be shown mentioning “Verification of Consent Application
+       is successful! Please proceed with registration modification”. In this pop-up, there will be a button
+       to ‘Proceed to Modify Registration’, and when user clicks on it, they will be redirected to Initiate
+       Registration form with all fields pre-filled as during the time of registration, and users can edit
+       them as well.                                                                
+                                                                                    
+       4.2 Update Authorized Person Details                                         
+       On the Profile section, under Authorized Person Details, there is an ‘Update Authorized Person
+       Details’ button to allow the user to update their authorized person details. When user clicks on
+       this, a form appears with following fields (pre-filled information, but editable)-
+                                                                                    
+              Field Name             Type          Mandatory     Validation         
+                                                                                    
+        Name                  Input Field, prefilled and Yes   Alphanumeric,        
+                              editable                         upto 999             
+                                                               characters           
+        Designation           Input Field, prefilled and Yes   Alphanumeric,        
+                              editable                         upto 999             
+                                                               characters           
+                                                                                    
+        Aadhar Number         Input Field, prefilled and No    12 digit numeric     
+                              editable                                              
+                                                                                    
+        PAN                   Input Field, prefilled and Yes   10 digit             
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                              editable                         alphanumeric         
+                                                                                    
+        Mobile                Input Field, prefilled and Yes   10 digit numeric     
+                              editable                                              
+                                                               ‘Enter OTP’ field    
+                              If the user edits the            accepts 4 digit      
+                              mobile number, a 'Verify         number and           
+                              with OTP’ button                 should match with    
+                              appears next to the field.       OTP sent on          
+                              When the user clicks on          mobile               
+                              this a 4 digit OTP is sent                            
+                              to the user’s registered                              
+                              phone number and a                                    
+                              new input field ‘Enter                                
+                              Mobile OTP’ appears.                                  
+                              When a user clicks on                                 
+                              ‘Verify’ the system                                   
+                              verifies the OTP entered                              
+                              by the user and the                                   
+                              mobile number is                                      
+                              updated in records                                    
+        Email                 Input Field, prefilled and Yes   Valid Email          
+                              editable                         Address              
+                              If the user edits the            ‘Enter OTP’ field    
+                              mobile number, a 'Verify         accepts 4 digit      
+                              with OTP’ button                 number and           
+                              appears next to the field.       should match with    
+                              When the user clicks on          OTP sent on email    
+                              this a 4 digit OTP is sent                            
+                              to the user’s registered                              
+                              email and a new input                                 
+                              field ‘Enter Email OTP’                               
+                              appears. When a user                                  
+                              clicks on ‘Verify’ the                                
+                              system verifies the OTP                               
+                              entered by the user and                               
+                              the email is updated in                               
+                              records                                               
+        Update Password: this field appears if the user has updated their Email. User then has to create a
+        new password for their account                                              
+                                                                                    
+        Enter Current Password Input Field       Yes           Should match         
+                                                               with the current     
+                                                               password             
+                                                                                    
+        Create New Password   Input Field        Yes           Minimum length       
+                                                               of 8 characters,     
+        There is also a note below                             and a                
+        this field - “Please add a                             combination of       
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+        password of minimum 8                                  different character  
+        characters with a                                      types, such as       
+        combination of uppercase,                              uppercase letters,   
+        lowercase, numbers and                                 lowercase letters,   
+        special characters"                                    numbers, and         
+                                                               special characters   
+                                                                                    
+        Confirm New Password  Input Field        Yes           Should match         
+                                                               with input in        
+                                                               Create New           
+                                                               Password             
+        Upload Update Request Upload File option, No           Only 1 PDF, upto 2   
+        Document (on company  prefilled and editable           MB                   
+        letterhead or duly signed                                                   
+        and attested by competent                                                   
+        authority)                                                                  
+                                                                                    
+        Action buttons on this page-                                                
+        ●  Close: Users can click on the close button to close the update form and return to the Profile
+           page. An actions confirmation pop-up box appears to validate the back action, if user clicks
+           on Yes they are redirected to the Profile page and if user clicks on No they stay on the same
+           form.                                                                    
+                                                                                    
+        ●  Submit: Users can click on the submit button to proceed with the update request.
+                                                                                    
+        Impact of update request:                                                   
+        ●  Once submitted, this update request is sent to the concerned SPCB        
+        ●  If the SPCB approves the request the user is informed of the approval, and the Authorized
+           Person Details are updated in the records                                
+        ●  If the SPCB approves the request, login credentials of the user’s account are updated
+        ●  If the SPCB rejects the request, the user is informed of the action and the Authorized Person
+           Details are not updated in the records.                                  
+                                                                                    
+       5. Procurement Data                                                          
+                                                                                    
+       This section allows users to add, view and manage their used battery procurement data. This
+       page has the following informational cards-                                  
+       ●  Quantity Procured in Current Quarter (in tonnes)                          
+          **Show current FY and Quarter on cards                                    
+          ○ Lead Acid                                                               
+          ○ Li-ion                                                                  
+          ○ Nickel Cadmium                                                          
+          ○ Zinc based                                                              
+          ○ Other                                                                   
+       ●  Procurement Carryover from Previous Quarter (in tonnes)                   
+          **Show current FY and Quarter on cards                                    
+          ○ Lead Acid                                                               
+          ○ Li-ion                                                                  
+          ○ Nickel Cadmium                                                          
+          ○ Zinc based                                                              
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+          ○ Other                                                                   
+       Any opening balance from the registration form will be added to these two cards. The cards will
+       also list the current FY and Quarter on them, and this data will always be only for the current
+                                                                                    
+       quarter.                                                                     
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       Data provided by the user in the registration form will also be listed here, for the respective
+       quarter and FY, and this data cannot be edited or deleted if the 30 days window after the quarter
+       has passed or quarterly return has been filed, whichever is earlier. Only new data entered in this
+       section will have the edit and delete option. Procurement data is listed here in tabular format with
+       following columns-                                                           
+       ●  SNo                                                                       
+       ●  FY of Procurement                                                         
+       ●  Quarter of Procurement                                                    
+       ●  Procurement Type                                                          
+       ●  Source of Waste Battery                                                   
+       ●  HSN Code                                                                  
+       ●  Quantity Procured (in tonnes)                                             
+                                                                                    
+       ●  Date of Procurement                                                       
+       ●  Invoice Number                                                            
+       ●  Actions - view, edit and delete                                           
+          (Edit button against a listing is disabled once the respective quarter has ended. View option
+          allows user to view the submitted form in PDF format)                     
+                                                                                    
+       Filters available in this section: Financial Year (selected by default), Quarter, Procurement Type
+       Sorting available in this section: Financial Year, Quarter, Type of Battery, Kind of Battery, Date of
+       Procurement, Quantity Procured.                                              
+                                                                                    
+       Users can add new data using the ‘Add Data’ button, which opens a form allowing users to add
+       procurement information. Data added using the form will be saved in the data listings table, as
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       illustrated above. Users can use the ‘Add Data’ button to add multiple entries. The fields of the
+       form are as follows-                                                         
+                                                                                    
+              Field Name             Type          Mandatory      Validation        
+                                                                                    
+         FY of Key Battery Material Single select dropdown Yes, pre-filled –        
+         Sale                options for years, starting                            
+                             2022-23; until current FY                              
+                                                                                    
+         Quarter of Key Battery Single select dropdown Yes, pre-filled –            
+         Material Sale       with following options-                                
+                             ● Apr-Jun                                              
+                             ● Jul-Sep                                              
+                             ● Oct-Dec                                              
+                             ● Jan-Mar                                              
+         Procurement Type    Single select dropdown Yes              –              
+                             with following options-                                
+                             ● Waste Battery                                        
+                             ● Factory Waste                                        
+                                                                                    
+                             If user selects Waste                                  
+                             Battery, two new fields will                           
+                             appear-                                                
+                             ● Type of Battery                                      
+                             ● Kind of Battery                                      
+                             Type of Battery is a single                            
+                             select dropdown, based on                              
+                             options selected in Battery                            
+                             Information form                                       
+                                                                                    
+                             Kind of Battery is a single                            
+                             select dropdown, based on                              
+                             options selected in Battery                            
+                             Information form                                       
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+         Source of Procurement Single select dropdown, Yes     Alphanumerics        
+                             listing-                          for input field      
+                             ● Registered Producers            “Mention Source      
+                             ● Imported                        Name”                
+                             ● Others (Collection                                   
+                               Center, Dealers, etc.)                               
+                                                                                    
+                             If user selects Registered                             
+                             Producers, then a new                                  
+                             mandatory field ‘Select                                
+                             Registered Producer’ will                              
+                             appear with single-select                              
+                             dropdown with search box,                              
+                             showing list of registered                             
+                             Producers (Name & GSTIN);                              
+                             this list of producers is                              
+                             segregated state-wise,                                 
+                             alphabetically                                         
+                             If the user selects                                    
+                             Imported, then a new                                   
+                             mandatory field ‘Upload                                
+                             Invoice’ appears, where                                
+                             user will have to upload a                             
+                             PDF invoice upto 2MB                                   
+                             If user selects ‘Others                                
+                             (Collection Center, Dealers,                           
+                             etc.)’, then two new                                   
+                             mandatory input field                                  
+                             appears                                                
+                             ● ‘Mention Source Name’                                
+                               accepting                                            
+                               alphanumerics                                        
+                             ● ‘GSTIN’ accepting                                    
+                               alphanumerics                                        
+                                                                                    
+         HSN Code            Input Field         Yes           Alphanumeric         
+         Quantity Procured (in Input Field       Yes           Whole Numbers        
+         tonnes)                                                                    
+                                                                                    
+         Date of Procurement Calendar, dates of only Yes       Only accept          
+                             current quarter of FY             current quarter      
+                             selected                          dates                
+                                                                                    
+         Invoice Number      Input Field         Yes                 –              
+                                                                                    
+       The form has a note mentioned at the very bottom - “Note: If Invoice Number is not readily
+       available, it can be added later using the edit option.”                     
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       Users can use the close icon to close the form and return to data listing. An action confirmation
+       pop-up box appears when the user clicks on close. Using the edit and delete action buttons in the
+       listings table, users can edit the data and delete a data entry row, respectively. However, the edit
+                                                                                    
+       button is not available for data listed after Quarterly Return for that data has been filed at the end
+       of quarter or after 30 days of quarter end, whichever is earlier.            
+       6. Recycled Battery Data                                                     
+                                                                                    
+       This section allows users to add, view and manage their used battery refurbishment data. This
+       page has the following informational cards-                                  
+       ●  Quantity Recycled in Current Quarter (in tonnes)                          
+          **Show current FY and Quarter on cards                                    
+          ○ Lead Acid                                                               
+          ○ Li-ion                                                                  
+          ○ Nickel Cadmium                                                          
+          ○ Zinc based                                                              
+          ○ Other                                                                   
+       ●  Recycled Carryover from Previous Quarter (in tonnes)                      
+          **Show current FY and Quarter on cards                                    
+          ○ Lead Acid                                                               
+          ○ Li-ion                                                                  
+          ○ Nickel Cadmium                                                          
+          ○ Zinc based                                                              
+          ○ Other                                                                   
+       ●  Recycling Capacity of the Unit (in tonnes)                                
+          **Show current FY and Quarter on cards                                    
+          ○ Total Capacity [= Recycling Capacity of the Unit as per CTO (in tonnes per annum)/4]
+          ○ Used Capacity [= Recycling data added by user for the current quarter]  
+          ○ Available Capacity [= Total Recycled Battery - Recycling Capacity of Unit]
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       Any opening balance from the registration form will be added to these two cards. The cards will
+       also list the current FY and Quarter on them, and this data will always be only for the current
+       quarter.                                                                     
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       Recycled Data provided by the user in the registration form will also be listed here, for the
+       respective quarter and FY, and this data will be non-editable. Only new data entered in this
+       section will have the edit option. Recycled data is listed here in tabular format with following
+       columns-                                                                     
+       ●  SNo                                                                       
+       ●  FY of Recycling                                                           
+                                                                                    
+       ●  Quarter of Recycling                                                      
+       ●  Procurement Type                                                          
+       ●  Source                                                                    
+       ●  Quantity Recycled (in tonnes)                                             
+       ●  Action - view, edit, delete                                               
+          (Edit and delete button against a listing is disabled after 30 days of respective quarter end or
+          quarterly return for that quarter is filed, whichever is earlier. View option allows user to view
+          the submitted form in PDF format)                                         
+                                                                                    
+       Filters available in this section: Financial Year (selected by default), Quarter, Procurement Type
+       Sorting available in this section: column wise                               
+                                                                                    
+                                                                                    
+       Users can add new data using the ‘Add Data’ button, which opens a form allowing users to add
+       refurbishment information. Data added using the form will be saved in the data listings table.
+       Users can use the ‘Add Data’ button to add multiple entries. The fields of the form are as follows-
+                                                                                    
+              Field Name             Type          Mandatory      Validation        
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+         FY of Key Battery Material Single select dropdown Yes, pre-filled –        
+         Sale                options for years, starting                            
+                             2022-23; until current FY                              
+                                                                                    
+         Quarter of Key Battery Single select dropdown Yes, pre-filled –            
+         Material Sale       with following options-                                
+                             ● Apr-Jun                                              
+                             ● Jul-Sep                                              
+                             ● Oct-Dec                                              
+                             ● Jan-Mar                                              
+         Procurement Type    Single select dropdown Yes              –              
+                             with following options-                                
+                             ● Waste Battery                                        
+                             ● Factory Waste                                        
+                                                                                    
+                             If user selects Waste                                  
+                             Battery, two new fields will                           
+                             appear-                                                
+                             ● Type of Battery                                      
+                             ● Kind of Battery                                      
+                                                                                    
+                             Type of Battery is a single                            
+                             select dropdown, based on                              
+                             options selected in Battery                            
+                             Information form                                       
+                             Kind of Battery is a single                            
+                             select dropdown, based on                              
+                             options selected in Battery                            
+                             Information form                                       
+                                                                                    
+         Source              Single select dropdown, Yes             –              
+                             based on options selected                              
+                             in Procurement Data form                               
+                                                                                    
+         Note for            Based on Type of Battery, Yes, an Based on             
+         1. Available Procured Kind of Battery and Source information text available
+         Quantity (in tonnes) selected, a message              procurement          
+         2. Remaining Recycling mentioning available           quantity of a Type   
+         Capacity            procured quantity as per          of Battery, Kind of  
+                             procurement data                  Battery and          
+                             mentioned in the previous         Source               
+                             section                                                
+                             Based on Remaining                                     
+                             Recycling Capacity, a                                  
+                             message is shown to                                    
+                             highlight the Remaining                                
+                             Recycling Capacity                                     
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+         Quantity Recycled (in Input Field       Yes           Whole Number ≤       
+         tonnes)                                               Remaining            
+                                                               Recycling            
+                                                               Capacity of Unit.    
+                                                                                    
+                                                               Where,               
+                                                               Remaining            
+                                                               Recycling            
+                                                               Capacity of Unit =   
+                                                               Total Recycling      
+                                                               Capacity of Unit -   
+                                                               Used Recycling       
+                                                               Capacity of Unit     
+                                                               Here, Total          
+                                                               Capacity of          
+                                                               Recycling Unit =     
+                                                               [Recycling           
+                                                               Capacity of the      
+                                                               Unit as per CTO      
+                                                               (in tonnes per       
+                                                               annum)]/4            
+                                                                                    
+                                                               And, Used            
+                                                               Recycling            
+                                                               Capacity of Unit =   
+                                                               Recycling data       
+                                                               added by user        
+                                                               Total quantity       
+                                                               recycled in a        
+                                                               quarter cannot       
+                                                               exceed the Total     
+                                                               Recycling            
+                                                               Capacity of Unit     
+                                                                                    
+         Quantity of Key Battery Input Field, against each Yes Whole Number         
+         Materials Recovered compound name                                          
+         (compound form, in                                                         
+         weight)                                                                    
+         Listing all compounds                                                      
+         based on Recycler Type,                                                    
+         metals they can recover                                                    
+         and their respective                                                       
+         compound form                                                              
+         (mentioned in D.3 Recycler                                                 
+         Type <> Metals Recovered and                                               
+         D.4 Compound : Metal : %)                                                  
+                                                                                    
+       Users can use the close icon to close the form and return to data listing. An action confirmation
+       pop-up box appears when the user clicks on close. Using the edit and delete action buttons in
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       the listings table, users can edit the data and delete a data entry row, respectively. However, the
+       edit button is not available for data listed after Quarterly Return for that data has been filed at the
+       end of quarter or after 30 days of quarter end, whichever is earlier.        
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       7. Sales Data                                                                
+                                                                                    
+       This section allows users to add, view and manage their sales data for recycled batteries. Sales
+       Data provided by the user in the registration form will also be listed here, for the respective
+       quarter and FY, and this data will be non-editable. Only new data entered in this section will have
+       the edit option. Sales data is listed here in tabular format with following columns-
+       ●  SNo                                                                       
+       ●  FY of Sales                                                               
+       ●  Quarter of Sales                                                          
+       ●  Procurement Type                                                          
+       ●  Name of Buyer                                                             
+       ●  Quantity of Compound Quantity (in tonnes)                                 
+       ●  Invoice Number                                                            
+       ●  Invoice - view                                                            
+                                                                                    
+       ●  Action - view, edit, delete                                               
+          (Edit and delete button against a listing is disabled after 30 days of respective quarter end or
+          quarterly return for that quarter is filed, whichever is earlier. View option allows user to view
+          the submitted form in PDF format)                                         
+                                                                                    
+       Filters available in this section: Financial Year (selected by default), Quarter, Procurement Type
+       Sorting available in this section: column-wise                               
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       Users can add new data using the ‘Add Data’ button against the listed Refurbishment Data, which
+       opens a form allowing users to add sales information. Data added using the form will be saved in
+       the data listings table, as illustrated above. Users can use the ‘Add Data’ button against each listed
+                                                                                    
+       Refurbishment Data to add their Sales Data against it. The fields of the form are as follows-
+              Field Name             Type          Mandatory      Validation        
+                                                                                    
+         FY of Key Battery Material Single select dropdown Yes, pre-filled –        
+         Sale                options for years, starting                            
+                             2022-23; until current FY                              
+                                                                                    
+         Quarter of Key Battery Single select dropdown Yes, pre-filled –            
+         Material Sale       with following options-                                
+                             ● Apr-Jun                                              
+                             ● Jul-Sep                                              
+                             ● Oct-Dec                                              
+                             ● Jan-Mar                                              
+         Procurement Type    Single select dropdown Yes              –              
+                             with following options-                                
+                             ● Waste Battery                                        
+                             ● Factory Waste                                        
+                                                                                    
+                             If user selects Waste                                  
+                             Battery, two new fields will                           
+                             appear-                                                
+                             ● Type of Battery                                      
+                             ● Kind of Battery                                      
+                             Type of Battery is a single                            
+                             select dropdown, based on                              
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                             options selected in Battery                            
+                             Information form                                       
+                                                                                    
+                             Kind of Battery is a single                            
+                             select dropdown, based on                              
+                             options selected in Battery                            
+                             Information form                                       
+         Name of Buyer       Single select dropdown Yes              –              
+                             with following options-                                
+                             ● Registered Producers                                 
+                             ● Non Registered Entities                              
+                                                                                    
+                             When user selects                                      
+                             Registered Producers, a                                
+                             single-select dropdown                                 
+                             with search box, showing                               
+                             list of registered Producers                           
+                             (Name & GSTIN); this list of                           
+                             producers is segregated                                
+                             state-wise, alphabetically                             
+                             When user selects ‘Non                                 
+                             Registered Entities’, two                              
+                             new fields appear-                                     
+                             ● Name of Buyer, which                                 
+                               is an input field and                                
+                               accepts alphanumeric                                 
+                             ● GSTIN, which is an                                   
+                               input field and accepts                              
+                               alphanumeric                                         
+                                                                                    
+         Date of Sale        Calendar, dates of only Yes       Only accept          
+                             current quarter of FY             current quarter      
+                             selected                          dates                
+         Select Compound     Single select from list of Yes          –              
+                             compounds, based on                                    
+                             Recycler Type                                          
+                                                                                    
+         Note for Available Quantity A note displaying current Yes, a message –     
+         (in tonnes)         available quantity of the                              
+                             selected compound                                      
+                                                                                    
+         Enter Compound Quantity Input Field     Yes           Whole number,        
+         (in tonnes)                                           connote be           
+                                                               greater than         
+                                                               Available Quantity   
+         Key Battery Material Pre-filled, based on Yes, prefilled    –              
+                             compound selected                                      
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+         Quantity of Key Battery Pre-filled, based on rules Yes, prefilled –        
+         Material                                                                   
+                                                                                    
+         Invoice Number      Input Field         Yes           Alphanumeric         
+                                                                                    
+         Upload Invoice      Upload File option  Yes           Only 1 PDF, upto 2   
+                                                               MB                   
+                                                                                    
+       Users can use the close icon to close the form and return to data listing. An action confirmation
+       pop-up box appears when the user clicks on close. Using the view, edit and delete action buttons
+       in the listings table, users can view the data added in the form in non-editable form, edit the
+       data, and delete a data entry row, respectively. However, the edit button is not available for data
+       listed after Quarterly Return for that data has been filed at the end of quarter or after 30 days of
+       quarter end, whichever is earlier.                                           
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       Note: Sales done for Procurement Type as ‘Factory Waste’ will not be added to the EPR Credits
+       Wallet.                                                                      
+                                                                                    
+       8. EPR Wallet                                                                
+                                                                                    
+       The EPR Credits Wallet highlights credits held by the Recycler against each of the Key Battery
+       Material. This is based on the sales data of key battery materials. That means, each quantity of Key
+       Battery Material sold (as added in Sales Data) will add up to the available credits against the Key
+       Battery Material in the wallet.                                              
+                                                                                    
+       On this page, there are 10 cards for each Key Battery Material, and each card has the following
+       information on it-                                                           
+       ●  Cumulative Credits (in tonnes) - a number                                 
+       ●  Used Credits (in Tonnes) - a number                                       
+       ●  Available Credits (in tonnes) - a number                                  
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       ●  Denominated Credits (in tonnes) - a number                                
+       ●  Generate Certificates - a button which opens the generate certificate page (denominate)
+       ●  Transfer Certificates - a button which opens the transfer certificate page
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       8.1 View Transactions                                                        
+       On this page, there is also a button to ‘View Transactions’ which allows users to view list of all
+       credit transactions in tabular format with following columns-                
+       ●  SNo                                                                       
+       ●  Current Owner                                                             
+       ●  Generated By                                                              
+       ●  Key Battery Material                                                      
+       ●  Quantity (in tonnes)                                                      
+       ●  Date of Procurement                                                       
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       8.2 Generate Certificates Page                                               
+       The Generate Certificate form on this page has a form with following fields- 
+                                                                                    
+              Field Name             Type          Mandatory      Validation        
+         Select Denominations Single select dropdown Yes             –              
+                             with 2 options-                                        
+                              ●  Tonnes & Kg                                        
+                              ●  Kg & gms                                           
+                                                                                    
+         Please Enter EPR Credits Input Field    Yes           Number upto 3        
+         (in tonnes)                                           decimal places,      
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                               but cannot be        
+                                                               greater than total   
+                                                               credits available    
+                                                               against the key      
+                                                               battery material     
+                                                                                    
+         Denomination Details                                                       
+         It lists all certificate denomination numbers with their count automatically calculated by the
+         system and their respective total                                          
+         1 kg X              Auto-calculated     -             -                    
+                                                                                    
+         10 kg X             Auto-calculated                                        
+                                                                                    
+         50 kg X             Auto-calculated                                        
+                                                                                    
+         100 kg X            Auto-calculated                                        
+                                                                                    
+         1 Tonne X           Auto-calculated                                        
+         10 Tonne X          Auto-calculated                                        
+                                                                                    
+         50 Tonne X          Auto-calculated                                        
+                                                                                    
+         100 Tonne X         Auto-calculated                                        
+                                                                                    
+         500 Tonne X         Auto-calculated                                        
+                                                                                    
+         1000 Tonne X        Auto-calculated                                        
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       A certificate once generated for a key battery material expires after 7 years from its date of
+       creation. Users can click on the submit button to generate the certificates, after all validations are
+       met. Respective credits are subtracted from the available credits in the wallet, and certificate is
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       generated against the metal for each denomination data entered. Each denomination certificate
+       has a unique Certificate Number. Users can also click on the back button to close the transfer
+       process and go back to the wallet, after confirming the back action.         
+                                                                                    
+       8.3 Transfer Certificates Page                                               
+       The Transfer Certificate form on this page has a form with following fields- 
+              Field Name             Type          Mandatory      Validation        
+                                                                                    
+         Enter Certificates to Input Field       Yes           Whole Number,        
+         Transfer (in tonnes)                                  cannot be greater    
+                                                               than total           
+                                                               certificates         
+                                                               available against    
+                                                               the key battery      
+                                                               material             
+                                                                                    
+         Entity Name         Single select dropdown Yes              –              
+                             with list of all Registered                            
+                             Producers                                              
+         Denomination Details                                                       
+         It lists all certificate denomination numbers with their available certificate count, and against
+         each denomination user can mention the number of certificates they want to transfer. This
+         transfer number cannot be greater than available certificate count for that particular
+         denomination                                                               
+                                                                                    
+         1 g X               Input Field         At least one input Input entered   
+                                                 field is      against a            
+         10 g X              Input Field         mandatory to  particular           
+                                                 proceed with  denomination         
+         50 g X              Input Field         transfer      cannot be greater    
+                                                               than available       
+         100 g X             Input Field                       certificates         
+                                                               against that         
+         1 kg X              Input Field                                            
+                                                               particular           
+                                                               denomination.        
+         10 kg X             Input Field                                            
+                                                               Also, sum of all     
+         50 kg X             Input Field                                            
+                                                               denominations        
+                                                               should be equal      
+         100 kg X            Input Field                                            
+                                                               to Enter             
+                                                               Certificates to      
+         1 Tonne X           Input Field                                            
+                                                               Transfer (in         
+                                                               tonnes)              
+         10 Tonne X          Input Field                                            
+         50 Tonne X          Input Field                                            
+         100 Tonne X         Input Field                                            
+       Users can click on the ‘Generate OTP’ button and after successful verification user can click on
+       the submit button to transfer the certificates, after all validations are met. These certificates will
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       be transferred from the user’s account to the selected entity, and will be added to the sent entity’s
+       wallet. Certificate number remains the same, but the Current Owner is updated. Users can also
+       click on the back button to close the transfer process and go back to the wallet, after confirming
+       the back action.                                                             
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       9. Quarterly Returns                                                         
+                                                                                    
+       This section contains all information and actions related to the quarterly return filings by the
+       recycler. List of all returns filed by the recycler are listed here in tabular format, with following
+       columns-                                                                     
+       ●  SNo                                                                       
+       ●  Financial Year                                                            
+                                                                                    
+       ●  Quarter                                                                   
+       ●  Recycling Capacity (in tonnes per quarter)                                
+       ●  Procured Batteries (in tonnes)                                            
+       ●  Recycled Batteries (in tonnes)                                            
+       ●  Credits Generated (in tonnes)                                             
+       ●  Credits Denominated (in tonnes)                                           
+       ●  Certificates Transferred (in tonnes)                                      
+       ●  Status - Draft, Submitted                                                 
+       ●  Action - edit (when status is Draft), view (when status is Submitted), download (when status is
+          Submitted)                                                                
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       On this page, there is also a ‘File Return’ button which allows users to file quarterly returns. When
+       a user clicks on this a pop-up appears asking users to select the FY and Quarter of return filing.
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       The Quarterly Returns form has the following fields-                         
+              Field Name             Type          Mandatory      Validation        
+                                                                                    
+        Financial Year       Prefilled = Current FY Yes, pre-filled  –              
+                                                                                    
+        Quarter              Prefilled = Current Quarter, Yes, pre-filled –         
+                             in the following format-                               
+                             ● Apr-Jun                                              
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                             ● Jul-Sep                                              
+                             ● Oct-Dec                                              
+                             ● Jan-Mar                                              
+                                                                                    
+        Recycling Capacity (in Pre-filled, based on data Yes, pre-filled –          
+        tonnes per quarter)  (per quarter)                                          
+           A. Procurement Stats                                                     
+                                                                                    
+        Batteries Procured in this Pre-filled, based on data Yes, pre-filled –      
+        Quarter (in tonnes)                                                         
+                                                                                    
+        Carryover Non-Recycled Pre-filled, based on data Yes, pre-filled –          
+        Batteries from previous                                                     
+        Quarter, if any (in tonnes)                                                 
+                                                                                    
+        Total Procured       = Batteries Procured in this Yes, pre-filled –         
+        (Non-Recycled) Batteries Quarter + Carryover                                
+        (in tonnes)          Non-Recycled Batteries                                 
+                             from previous Quarter, if                              
+                             any (in tonnes)                                        
+           B. Recycling Stats                                                       
+                                                                                    
+        Batteries Recycled in this Pre-filled, based on data Yes, pre-filled Cannot be greater
+        Quarter (in tonnes)                                    than Total           
+                                                               Procured             
+                                                               (Non-Recycled        
+                                                               Batteries (in        
+                                                               tonnes)              
+                                                                                    
+                                                               ‘Next’ button is     
+                                                               not activated if     
+                                                               the condition is     
+                                                               not met, and         
+                                                               highlight this to    
+                                                               the user             
+        Total Outcome Compound Pre-filled, based on data Yes, pre-filled –          
+        after Recycling in this                                                     
+        Quarter                                                                     
+                                                                                    
+        Carryover Outcome    Pre-filled, based on data Yes, pre-filled –            
+        Compound after Recycling,                                                   
+        if any (in tonnes)                                                          
+        Total Outcome Compound = Total Outcome   Yes, pre-filled     –              
+        after Recycling (in tonnes) Compound after Recycling                        
+                             in this Quarter + Carryover                            
+                             Outcome Compound after                                 
+                             Recycling, if any (in tonnes)                          
+                                                                                    
+           C. Sales Stats                                                           
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+        Total Key Battery Materials Pre-filled, based on data Yes, pre-filled Total of all Key
+        Sold in this Quarter                                   Battery Materials    
+                                                               cannot be greater    
+                                                               than Total           
+                                                               Outcome              
+                                                               Compound after       
+                                                               Recycling (in        
+                                                               tonnes)              
+           D. EPR Credit Stats (Generated, Transferred, Remaining)                  
+                                                                                    
+        Total EPR Credits    Pre-filled, based on data Yes, pre-filled –            
+        Generated in this Quarter (upto four decimal places)                        
+        (in tonnes)                                                                 
+                                                                                    
+        Carryover EPR Credits from Pre-filled, based on data Yes, pre-filled –      
+        Previous Quarter (in (upto four decimal places)                             
+        tonnes)                                                                     
+                                                                                    
+        Credits Denominated to Pre-filled, based on data Yes, pre-filled Cannot be greater
+        Certificates in this Quarter (upto four decimal places) than Total EPR      
+        (in tonnes)                                            Credits Generated    
+                                                               in this Quarter (in  
+                                                               tonnes) +            
+                                                               Carryover EPR        
+                                                               Credits from         
+                                                               Previous Quarter     
+                                                               (in tonnes)          
+                                                               ‘Next’ button is     
+                                                               not activated if     
+                                                               the condition is     
+                                                               not met, and         
+                                                               highlight this to    
+                                                               the user             
+        Carryover Certificates from Pre-filled, based on data Yes, pre-filled –     
+        Previous Quarter (in (upto four decimal places)                             
+        tonnes)                                                                     
+                                                                                    
+        Certificates Transferred in Pre-filled, based on data Yes, pre-filled Cannot be greater
+        this Quarter (in tonnes) (upto four decimal places)    than Certificates    
+                                                               Denominated in       
+                                                               this Quarter (in     
+                                                               tonnes) +            
+                                                               Carryover            
+                                                               Certificates from    
+                                                               Previous Quarter     
+                                                               (in tonnes)          
+                                                                                    
+                                                               ‘Next’ button is     
+                                                               not activated if     
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                               the condition is     
+                                                               not met, and         
+                                                               highlight this to    
+                                                               the user–            
+                                                                                    
+        Certificates Expired in this Pre-filled, based on data Yes, pre-filled –    
+        Quarter, if any (in tonnes) (upto four decimal places)                      
+           E. Final Declaration and Payment                                         
+             In this section the user gives a self-declaration of the information provided in the quarterly
+             returns and proceeds with quarterly return submission.                 
+                                                                                    
+             At the top, the Return Filing Fee is mentioned (**which is 25% of the Registration Fee paid
+             by the user). Below the Return Filing Fee, there is a declaration check-box with text - “I
+             confirm that all the information provided is accurate and in compliance with regulatory
+             requirements”. When the user selects the check-box and all necessary validations in form
+             are met, the ‘Proceed to Payment’ button is activated. This is followed by a message -
+             “Please note that information once submitted cannot be edited. Kindly carefully review all
+             provided details and ensure their accuracy to the best of your knowledge. This is crucial for
+             transparency and seamless examination of quarterly returns. Any provision of false
+             information or violation may result in potential actions from the relevant regulatory
+             authority. “                                                           
+             When the user clicks on ‘Proceed to Payment’, the user is redirected to the payment
+             gateway page. If payment is successful - return is filed successfully and a successful
+             banner is shown, with a close button. Users cannot edit the filed quarterly return and
+             quarterly return for the same quarter cannot be submitted again. If payment is
+             unsuccessful - user is redirected to the same form again and user can retry payment.
+                                                                                    
+       Action buttons on this form-                                                 
+                                                                                    
+       ●  Proceed to Payment (bottom-right): It is activated when the user has selected the declaration
+          check-box. When a user clicks on it, the user will be redirected to the payment gateway.
+       ●  Save as Draft (left of Proceed to Payment button): Allows users to save the data that they have
+          entered so far as draft. No validations or mandatory fields will be checked in this case.
+       ●  Back icon (top-left): Allows users to cancel the declaration and payment process and go back
+          to the Quarterly Returns page. Users will be asked to confirm the cancellation action - if they
+          confirm they will be directed to the Quarterly Returns page, if they cancel, then will stay on
+          the existing form.                                                        
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       9.1 Download Annual Report                                                   
+       On the Quarterly Returns page, there is a button to ‘Download Annual Report’ which allows users
+       to download the annual report of their quarterly returns. This is a consolidated report based on
+       the four quarterly returns filed by the user in that FY. It is generated on 01-May of every year, after
+       the 30-day change window of last quarter has expired.                        
+                                                                                    
+       10. EC Levied                                                                
+                                                                                    
+       This section details Environmental Compensation levied on the user, if any. There is a table listing
+       all EC’s levied so far. If there are no EC’s levied, ‘No data to display’ text is displayed. The EC listing
+       table has following columns-                                                 
+       ●  SNo                                                                       
+       ●  Date of EC                                                                
+       ●  Type - NC in Audit. NC in Return, return not Filed                        
+       ●  Description                                                               
+                                                                                    
+       ●  Amount                                                                    
+       ●  Due Date                                                                  
+       ●  Status - Paid, Overdue, Pending                                           
+       ●  Action - Pay Now                                                          
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       The EC listing can have the following status-                                
+       ●  Paid: When user has paid the EC amount using the Pay Now button           
+       ●  Overdue: When the due date has passed, but the user has not yet paid the EC
+       ●  Pending: When the user has not paid the EC, but the due date has not passed yet
+       ●  Waived: When the concerned authority has waived off the EC                
+                                                                                    
+       The ‘Pay Now’ button remains active until payment is not made by the user.   
+                                                                                    
+       The Return not Filed type of EC is levied automatically on the user if the user fails to file return
+       before the return filing period expires (30 days after the end of quarter, for Recyclers).
+                                                                                    
+       11. Information Center                                                       
+                                                                                    
+       This section has all useful information, help documentation, or any other informational data issued
+       by the CPCB or respective SPCB. At present, we have the following three documents available-
+       1. Standard Operating Procedure for Registration of Producers through the Online Portal under
+          Battery Waste Management Rules, 2022                                      
+       2. Instruction Sheet                                                         
+       3. Guidance document on Interim Arrangement for Generation & Transfer of EPR credits
+                                                                                    
+       These documents are available in PDF formats, and users can view/download them.
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+

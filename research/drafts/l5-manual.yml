@@ -1,0 +1,406 @@
+- aliases: []
+  layer: recycling
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  - Rare earths (unspecified)
+  commodity_as_stated: lithium, cobalt, nickel, and manganese from lithium-ion batteries; e-waste; rare earth elements
+  products:
+  - Recovered lithium, cobalt, nickel and manganese
+  - E-waste recycling outputs
+  operator: Recyclekaro
+  operator_type: Unlisted private
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Palghar
+    district: Palghar
+    state: Maharashtra
+    country: India
+    lat: 19.75725
+    lon: 73.09312
+    precision: town
+    geometry: null
+  status: Expanding
+  status_as_of: 2026-04
+  status_detail: E-waste 24,000 tpa and battery recycling expanded from 4,200 tpa; eligible under the NCMM recycling
+    scheme with a Rs 300 crore expansion plan
+  capacity:
+    planned:
+      value: 50000
+      unit: t
+      basis: total processing
+      phase: after Rs 300 crore expansion
+    installed:
+      value: 24000
+      unit: tpa
+      basis: e-waste recycling
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: Scrap/secondary
+  feedstock_detail: E-waste and lithium-ion batteries
+  schemes:
+  - ncmm-recycling
+  scheme_status:
+    ncmm-recycling: Eligible
+  dates:
+    first_public: '2025'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Recycles e-waste and lithium-ion batteries near Mumbai, recovering lithium, cobalt, nickel and
+      manganese.
+    why_it_matters: It is among the 58 firms cleared for the government's critical-mineral recycling incentives.
+  related:
+  - cpcb-evergreen-lithium-recycling-605
+  see_also: []
+  confidence: medium
+  last_verified: '2026-10-24'
+  notes: The CPCB-registered unit Evergreen Lithium Recycling Pvt Ltd (Wada, Palghar; 4,200 tpa) matches Recyclekaro's
+    pre-expansion battery capacity, but the link is not confirmed; both are kept.
+  id: recyclekaro-palghar
+  name: Recyclekaro e-waste and lithium-ion recycling plant, Palghar
+  sources:
+  - id: pvm-recyclekaro-2025
+    url: https://www.pv-magazine-india.com/?p=11946
+    title: Recyclekaro expands recycling capacity to 24,000 tonnes
+    publisher: pv magazine India
+    tier: T3
+    date: '2025'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - capacity.installed
+    - location
+    - products
+    - minerals
+    - dates.first_public
+    - operator
+  - id: efy-recyclekaro-2026
+    url: https://www.electronicsforyou.biz/industry-buzz/recyclekaro-gets-govt-push-for-critical-mineral-recycling/
+    title: Recyclekaro gets govt push for critical mineral recycling
+    publisher: Electronics For You
+    tier: T3
+    date: 2026-04
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - scheme_status
+    - capacity.planned
+    - status
+    - status_detail
+- aliases: []
+  layer: recycling
+  stages:
+  - Recycling
+  - R&D
+  minerals:
+  - Rare earths (unspecified)
+  - Titanium
+  commodity_as_stated: rare earth elements, alumina from fly ash; ferro-titanium alloy, iron and rare earths from
+    red mud
+  products:
+  - Rare-earth-enriched residue (fly ash pilot)
+  - Alumina, calcium silicate (fly ash pilot)
+  - Ferro-titanium alloy and rare earths (red mud pilot, planned)
+  operator: National Aluminium Company Ltd (NALCO)
+  operator_type: PSU (Central)
+  owners: []
+  partners:
+  - name: CSIR-Institute of Minerals and Materials Technology
+    country: India
+    role: technology
+  - name: KIIT
+    country: India
+    role: technology
+  location:
+    address: NALCO Research & Technology Centre
+    village_or_town: Bhubaneswar
+    district: Khordha
+    state: Odisha
+    country: India
+    lat: 20.2603
+    lon: 85.83945
+    precision: town
+    geometry: null
+  status: Pilot
+  status_as_of: '2026-08-18'
+  status_detail: 50 kg/day fly ash pilot inaugurated Aug 2026; red mud pilot at groundbreaking
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: 50
+      unit: kg/day
+      basis: coal fly ash processed (pilot)
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: Scrap/secondary
+  feedstock_detail: Bituminous coal fly ash; bauxite residue (red mud)
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2026-08-18'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: '2026-08-18'
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Tests recovery of alumina and a rare-earth concentrate from power-plant fly ash, and will test
+      titanium and rare earth recovery from red mud.
+    why_it_matters: India produces vast amounts of both residues, so a working process would open a large secondary
+      source of rare earths.
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-24'
+  notes: null
+  id: nalco-residue-pilots-bhubaneswar
+  name: NALCO fly ash and red mud recovery pilot plants, Bhubaneswar
+  sources:
+  - id: nalco-pr-2026
+    url: https://nalcoindia.com/?p=57709
+    title: NALCO sets up first indigenous pilot plant for recovery of valuable products and rare earth elements
+      from fly ash
+    publisher: National Aluminium Company Ltd
+    tier: T2
+    date: '2026-08-18'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - capacity.installed
+    - location
+    - partners
+    - dates.commissioned
+    - dates.first_public
+    - products
+    - minerals
+    - operator
+    - status_detail
+  - id: alc-nalco-residue-2026
+    url: https://www.alcircle.com/news/nalco-explores-rare-earth-and-valuable-material-recovery-from-bauxite-residue-and-fly-ash-120858
+    title: NALCO explores rare earth and valuable material recovery from bauxite residue and fly ash
+    publisher: AL Circle
+    tier: T3
+    date: 2026-08
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+- aliases: []
+  layer: recycling
+  stages:
+  - Recycling
+  minerals:
+  - Platinum
+  - Palladium
+  commodity_as_stated: Platinum and Palladium recovered from spent petroleum (reforming) catalysts
+  products:
+  - Platinum and palladium recovered from spent catalysts
+  - Precious metal catalysts
+  operator: Ravindra Heraeus Pvt. Ltd.
+  operator_type: JV
+  owners:
+  - entity: Heraeus (Germany)
+    stake_pct: 50
+  - entity: Ravindra Choksi family
+    stake_pct: 50
+  partners: []
+  location:
+    address: null
+    village_or_town: Udaipur
+    district: Udaipur
+    state: Rajasthan
+    country: India
+    lat: 24.57872
+    lon: 73.68626
+    precision: town
+    geometry: null
+  status: Operational
+  status_as_of: '2024-09-26'
+  status_detail: Main site for precious-metal catalyst production and recycling since 2016
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: Scrap/secondary
+  feedstock_detail: Spent reforming and petrochemical catalysts
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: 2016-07
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: 2016-07
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Recovers platinum and palladium from refineries' spent catalysts, and makes new catalysts from
+      them.
+    why_it_matters: India has no PGM mines, so recycling refinery catalysts is its main domestic platinum and palladium
+      source.
+  related:
+  - ravindra-heraeus-vizag
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-24'
+  notes: null
+  id: ravindra-heraeus-udaipur
+  name: Ravindra Heraeus precious-metal catalyst recycling plant, Udaipur
+  sources:
+  - id: plastemart-heraeus-2016
+    url: https://www.plastemart.com/news-plastics-information/new-recycling-facility-to-recover-precious-metals-from-spent-petroleum-catalysts-in-india/35271
+    title: New recycling facility to recover precious metals from spent petroleum catalysts in India
+    publisher: Plastemart
+    tier: T3
+    date: 2016-07
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - location
+    - dates.commissioned
+    - dates.first_public
+    - minerals
+    - products
+    - feedstock
+  - id: heraeus-vizag-2024
+    url: https://www.heraeus-precious-metals.com/en/company/press-and-news/ravindra-heraeus-acquires-arora-mattheys-catalyst-and-recycling-site-in-vizag-india/
+    title: Ravindra Heraeus acquires Arora Matthey's catalyst and recycling site in Vizag, India
+    publisher: Heraeus Precious Metals
+    tier: T2
+    date: '2024-09-26'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - owners
+    - operator
+    - status_detail
+- aliases: []
+  layer: recycling
+  stages:
+  - Recycling
+  minerals:
+  - PGEs (unspecified)
+  commodity_as_stated: precious metal catalysts containing platinum group metals; recycling of spent catalysts
+  products:
+  - Platinum-group-metal catalysts
+  - Spent catalyst recycling
+  operator: Ravindra Heraeus Pvt. Ltd.
+  operator_type: JV
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Visakhapatnam
+    district: Visakhapatnam
+    state: Andhra Pradesh
+    country: India
+    lat: 17.69355
+    lon: 83.29213
+    precision: town
+    geometry: null
+  status: Operational
+  status_as_of: '2024-09-26'
+  status_detail: Acquired from Arora Matthey in Sept 2024; over 70 employees
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: Scrap/secondary
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2024-09-26'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Makes platinum-group-metal catalysts for chemical and drug makers and recycles their spent catalysts.
+    why_it_matters: null
+  related:
+  - ravindra-heraeus-udaipur
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-24'
+  notes: null
+  id: ravindra-heraeus-vizag
+  name: Ravindra Heraeus catalyst and recycling site, Visakhapatnam (ex-Arora Matthey)
+  sources:
+  - id: heraeus-vizag-2024
+    url: https://www.heraeus-precious-metals.com/en/company/press-and-news/ravindra-heraeus-acquires-arora-mattheys-catalyst-and-recycling-site-in-vizag-india/
+    title: Ravindra Heraeus acquires Arora Matthey's catalyst and recycling site in Vizag, India
+    publisher: Heraeus Precious Metals
+    tier: T2
+    date: '2024-09-26'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - status_detail
+    - location
+    - products
+    - minerals
+    - dates.first_public
+    - operator

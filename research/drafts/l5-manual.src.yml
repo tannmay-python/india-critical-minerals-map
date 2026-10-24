@@ -1,0 +1,179 @@
+# L5 recycling: records outside the CPCB battery registry. Expanded by build_entities.py.
+layer: recycling
+
+sources:
+  pvm-recyclekaro-2025:
+    raw: pv-magazine-india.com/index-5e2118cf
+    title: "Recyclekaro expands recycling capacity to 24,000 tonnes"
+    publisher: pv magazine India
+    tier: T3
+    date: "2025"
+  efy-recyclekaro-2026:
+    raw: electronicsforyou.biz/recyclekaro-gets-govt-push-for-critical-mineral-recycling
+    title: "Recyclekaro gets govt push for critical mineral recycling"
+    publisher: Electronics For You
+    tier: T3
+    date: "2026-04"
+  nalco-pr-2026:
+    raw: nalcoindia.com/index-4ccbb354
+    title: "NALCO sets up first indigenous pilot plant for recovery of valuable products and rare earth elements from fly ash"
+    publisher: National Aluminium Company Ltd
+    tier: T2
+    date: "2026-08-18"
+  alc-nalco-residue-2026:
+    raw: alcircle.com/nalco-explores-rare-earth-and-valuable-material-recovery-from-bauxite-residue-and-fly-ash-
+    title: "NALCO explores rare earth and valuable material recovery from bauxite residue and fly ash"
+    publisher: AL Circle
+    tier: T3
+    date: "2026-08"
+  plastemart-heraeus-2016:
+    raw: plastemart.com/35271
+    title: "New recycling facility to recover precious metals from spent petroleum catalysts in India"
+    publisher: Plastemart
+    tier: T3
+    date: "2016-07"
+  heraeus-vizag-2024:
+    raw: heraeus-precious-metals.com/ravindra-heraeus-acquires-arora-mattheys-catalyst-and-recycling-site-in-vizag-india
+    title: "Ravindra Heraeus acquires Arora Matthey's catalyst and recycling site in Vizag, India"
+    publisher: Heraeus Precious Metals
+    tier: T2
+    date: "2024-09-26"
+
+records:
+  - id: recyclekaro-palghar
+    name: "Recyclekaro e-waste and lithium-ion recycling plant, Palghar"
+    stages: [Recycling]
+    minerals: [Lithium, Cobalt, Nickel, "Rare earths (unspecified)"]
+    commodity_as_stated: "lithium, cobalt, nickel, and manganese from lithium-ion batteries; e-waste; rare earth elements"
+    products: ["Recovered lithium, cobalt, nickel and manganese", "E-waste recycling outputs"]
+    operator: "Recyclekaro"
+    operator_type: "Unlisted private"
+    location: {village_or_town: "Palghar", district: "Palghar", state: "Maharashtra", precision: town}
+    geo: {q: "Palghar", state: Maharashtra}
+    status: Expanding
+    status_as_of: "2026-04"
+    status_detail: "E-waste 24,000 tpa and battery recycling expanded from 4,200 tpa; eligible under the NCMM recycling scheme with a Rs 300 crore expansion plan"
+    capacity:
+      installed: {value: 24000, unit: "tpa", basis: "e-waste recycling"}
+      planned: {value: 50000, unit: "t", basis: "total processing", phase: "after Rs 300 crore expansion"}
+    feedstock: Scrap/secondary
+    feedstock_detail: "E-waste and lithium-ion batteries"
+    schemes: [ncmm-recycling]
+    scheme_status: {ncmm-recycling: Eligible}
+    dates: {first_public: "2025"}
+    narrative:
+      what_it_does: "Recycles e-waste and lithium-ion batteries near Mumbai, recovering lithium, cobalt, nickel and manganese."
+      why_it_matters: "It is among the 58 firms cleared for the government's critical-mineral recycling incentives."
+    related: [cpcb-evergreen-lithium-recycling-605]
+    confidence: medium
+    notes: "The CPCB-registered unit Evergreen Lithium Recycling Pvt Ltd (Wada, Palghar; 4,200 tpa) matches Recyclekaro's pre-expansion battery capacity, but the link is not confirmed; both are kept."
+    sources:
+      - ref: pvm-recyclekaro-2025
+        supports: [status, capacity.installed, location, products, minerals, dates.first_public, operator]
+        ev:
+          capacity.installed: "increasing its total recycling capacity to 24,000 tonnes annually at its state-of-the-art facility in Palghar, near Mumbai."
+          products: "Recyclekaro’s Palghar facility recovers critical metals such as lithium, cobalt, nickel, and manganese"
+      - ref: efy-recyclekaro-2026
+        supports: [scheme_status, capacity.planned, status, status_detail]
+        ev:
+          scheme_status: "The Company has secured eligibility under the government of India’s critical mineral recycling incentive scheme"
+          capacity.planned: "The company plans to invest around ₹3 billion to expand its recycling operations. The Company expects its total processing capacity to reach nearly 50,000 metric tonnes."
+
+  - id: nalco-residue-pilots-bhubaneswar
+    name: "NALCO fly ash and red mud recovery pilot plants, Bhubaneswar"
+    stages: [Recycling, R&D]
+    minerals: ["Rare earths (unspecified)", Titanium]
+    commodity_as_stated: "rare earth elements, alumina from fly ash; ferro-titanium alloy, iron and rare earths from red mud"
+    products: ["Rare-earth-enriched residue (fly ash pilot)", "Alumina, calcium silicate (fly ash pilot)", "Ferro-titanium alloy and rare earths (red mud pilot, planned)"]
+    operator: "National Aluminium Company Ltd (NALCO)"
+    operator_type: "PSU (Central)"
+    partners:
+      - {name: "CSIR-Institute of Minerals and Materials Technology", country: "India", role: technology}
+      - {name: "KIIT", country: "India", role: technology}
+    location: {address: "NALCO Research & Technology Centre", village_or_town: "Bhubaneswar", district: "Khordha", state: "Odisha", precision: town}
+    geo: {q: "Bhubaneswar", state: Odisha}
+    status: Pilot
+    status_as_of: "2026-08-18"
+    status_detail: "50 kg/day fly ash pilot inaugurated Aug 2026; red mud pilot at groundbreaking"
+    capacity:
+      installed: {value: 50, unit: "kg/day", basis: "coal fly ash processed (pilot)"}
+    feedstock: Scrap/secondary
+    feedstock_detail: "Bituminous coal fly ash; bauxite residue (red mud)"
+    dates: {first_public: "2026-08-18", commissioned: "2026-08-18"}
+    narrative:
+      what_it_does: "Tests recovery of alumina and a rare-earth concentrate from power-plant fly ash, and will test titanium and rare earth recovery from red mud."
+      why_it_matters: "India produces vast amounts of both residues, so a working process would open a large secondary source of rare earths."
+    confidence: high
+    sources:
+      - ref: nalco-pr-2026
+        supports: [status, capacity.installed, location, partners, dates.commissioned, dates.first_public, products, minerals, operator, status_detail]
+        ev:
+          capacity.installed: "The 50 kg per day capacity fly ash processing pilot plant has been designed and established by CSIR-IMMT and KIIT, with support from NALCO, CSIR and the Ministry of Mines"
+          status_detail: "On the occasion, a ground-breaking ceremony was also held for setting up a pilot plant for bauxite residue (red mud) valorisation."
+          products: "The proposed facility will focus on the recovery of ferro-titanium alloy, metallic iron and rare earth elements from red mud"
+      - ref: alc-nalco-residue-2026
+        supports: [status]
+        ev:
+          status: "with a new pilot project focused on bauxite residue, or red mud, and another facility already operating for coal fly ash."
+
+  - id: ravindra-heraeus-udaipur
+    name: "Ravindra Heraeus precious-metal catalyst recycling plant, Udaipur"
+    stages: [Recycling]
+    minerals: [Platinum, Palladium]
+    commodity_as_stated: "Platinum and Palladium recovered from spent petroleum (reforming) catalysts"
+    products: ["Platinum and palladium recovered from spent catalysts", "Precious metal catalysts"]
+    operator: "Ravindra Heraeus Pvt. Ltd."
+    operator_type: JV
+    owners:
+      - {entity: "Heraeus (Germany)", stake_pct: 50}
+      - {entity: "Ravindra Choksi family", stake_pct: 50}
+    location: {village_or_town: "Udaipur", district: "Udaipur", state: "Rajasthan", precision: town}
+    geo: {q: "Udaipur", state: Rajasthan}
+    status: Operational
+    status_as_of: "2024-09-26"
+    status_detail: "Main site for precious-metal catalyst production and recycling since 2016"
+    feedstock: Scrap/secondary
+    feedstock_detail: "Spent reforming and petrochemical catalysts"
+    dates: {first_public: "2016-07", commissioned: "2016-07"}
+    narrative:
+      what_it_does: "Recovers platinum and palladium from refineries' spent catalysts, and makes new catalysts from them."
+      why_it_matters: "India has no PGM mines, so recycling refinery catalysts is its main domestic platinum and palladium source."
+    related: [ravindra-heraeus-vizag]
+    confidence: high
+    sources:
+      - ref: plastemart-heraeus-2016
+        supports: [status, location, dates.commissioned, dates.first_public, minerals, products, feedstock]
+        ev:
+          status: "The new site in Udaipur/Rajasthan will be operated by the German-Indian joint venture “Ravindra Heraeus”"
+          minerals: "will offer India's petrochemical industry more capacity and state-of-the-art technology to recycle Platinum and Palladium in the country."
+      - ref: heraeus-vizag-2024
+        supports: [status, owners, operator, status_detail]
+        ev:
+          status: "The company already produces heterogenous precious metal catalysts at its main site in Udaipur."
+          owners: "The Joint Venture is equally owned by the Ravindra Choksi family and Heraeus."
+
+  - id: ravindra-heraeus-vizag
+    name: "Ravindra Heraeus catalyst and recycling site, Visakhapatnam (ex-Arora Matthey)"
+    stages: [Recycling]
+    minerals: ["PGEs (unspecified)"]
+    commodity_as_stated: "precious metal catalysts containing platinum group metals; recycling of spent catalysts"
+    products: ["Platinum-group-metal catalysts", "Spent catalyst recycling"]
+    operator: "Ravindra Heraeus Pvt. Ltd."
+    operator_type: JV
+    location: {village_or_town: "Visakhapatnam", district: "Visakhapatnam", state: "Andhra Pradesh", precision: town}
+    geo: {q: "Visakhapatnam", state: "Andhra Pradesh"}
+    status: Operational
+    status_as_of: "2024-09-26"
+    status_detail: "Acquired from Arora Matthey in Sept 2024; over 70 employees"
+    feedstock: Scrap/secondary
+    dates: {first_public: "2024-09-26"}
+    narrative:
+      what_it_does: "Makes platinum-group-metal catalysts for chemical and drug makers and recycles their spent catalysts."
+    related: [ravindra-heraeus-udaipur]
+    confidence: high
+    sources:
+      - ref: heraeus-vizag-2024
+        supports: [status, status_detail, location, products, minerals, dates.first_public, operator]
+        ev:
+          status: "Ravindra Heraeus Private Limited acquires the business of Arora Matthey in Vizag, India and will continue its operation with over 70 employees."
+          products: "The offering includes heterogenous catalysts containing platinum group metals on a variety of catalyst carriers as well as homogenous catalysts."

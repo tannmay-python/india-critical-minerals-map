@@ -8,9 +8,9 @@ Every candidate considered and rejected, with the rule that rejected it, so the 
 
 | Class | Rule | Registry / count | Count source |
 |---|---|---|---|
-| Secondary copper scrap refiners and rod mills | D-002 | _to be filled during L5_ | |
+| Secondary copper scrap refiners and rod mills | D-002 | Not counted: no national register of copper scrap units found | |
 | Ferro-silicon and silicon-alloy smelters (not silicon metal) | D-002 | _to be filled during L4_ | |
-| Lead-acid battery recyclers producing antimonial lead | D-002 | _to be filled during L5_ | |
+| Lead-acid battery recyclers producing antimonial lead | D-002 | 499 CPCB-registered units whose only registered type is R1 (lead-acid); a further 41 units registered for lead-acid plus Li-ion types are kept as Li-ion recyclers | CPCB Battery EPR portal registry, retrieved 2026-10-24 |
 | Phosphoric-acid, yellow-phosphorus-for-fertiliser and fertilizer plants | D-002 | _to be filled during L4_ | |
 | Ferro-manganese, silico-manganese and ferro-chrome plants | D-003 | _to be filled during L4_ | |
 | Manganese, chromite and bauxite mines (no canonical by-product) | D-003 | _to be filled during L6_ | |
@@ -18,7 +18,7 @@ Every candidate considered and rejected, with the rule that rejected it, so the 
 | Coking-coal blocks (MMDR Part D since Jan 2026) | D-004 | _to be filled during L1_ | |
 | Solar module-only and cell-only plants | Playbook L4 | | |
 | Downstream steel, generic chemicals | Playbook L4 | | |
-| E-waste dismantlers / collectors without metal recovery | Playbook L5 | | |
+| E-waste dismantlers / collectors without metal recovery | Playbook L5 | 322 CPCB-registered e-waste recyclers and 72 refurbishers (capacity 22.09 lakh tpa, 9 Feb 2025); unit list is behind the EPR portal login, so metal-recovery units are added only from other sources | Rajya Sabha USQ 1006, 13 Feb 2025 |
 | Offshore construction-sand and lime-mud blocks | Playbook L1 | | |
 
 ## Individual exclusions

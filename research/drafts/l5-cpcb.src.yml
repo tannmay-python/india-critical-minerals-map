@@ -1,0 +1,4439 @@
+layer: recycling
+sources:
+  cpcb-battery-registry:
+    raw: eprbattery.cpcb.gov.in/cpcb-battery-recyclers-2026-10-24
+    title: 'CPCB Battery Waste Management EPR portal: registered recyclers'
+    publisher: Central Pollution Control Board
+    tier: T1
+    date: '2026-10-24'
+  evr-rocklink-2026:
+    raw: evreporter.com/rocklink-india-sets-up-lithium-ion-battery-and-rare-earth-magnet-recycling-facility-in-sik
+    title: Rocklink India sets up lithium-ion battery and rare earth magnet recycling facility in Sikandrabad, UP
+    publisher: EVreporter
+    tier: T3
+    date: 2026-04
+records:
+- id: cpcb-eco-recycling-77
+  name: 'Eco Recycling Limited: battery recycling unit, Maharashtra'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R3: Refiners – Only Black Mass Processor (Processing till metals are obtained in compound form) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: Eco Recycling Limited
+  operator_type: Unlisted private
+  location:
+    address: '| 422, The Summit Business Bay | Near WEH Metro Station | Andheri Kurla road | Andheri (E) Mumbai – 400093'
+    state: Maharashtra
+    precision: site
+    lat: 19.40452
+    lon: 72.85957
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: refining black mass to metal compounds'
+  capacity:
+    installed:
+      value: 6000
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2024-09-23'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (refining black mass to metal compounds).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 772329. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 6000 | certificate Sep 23, 2024 no 772329
+      status: Eco Recycling Limited
+- id: cpcb-sungeel-recycling-79
+  name: 'Sungeel India Recycling Pvt Ltd: black mass unit, Andhra Pradesh'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  operator: SUNGEEL INDIA RECYCLING PVT LTD
+  operator_type: Unlisted private
+  location:
+    address: PLOT NO 59C 59D GOLLAPURAM IP HINDUPUR
+    state: Andhra Pradesh
+    precision: site
+    lat: 13.694739
+    lon: 77.523463
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation)'
+  capacity:
+    installed:
+      value: 1800
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2023-12-14'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 792337. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 1800 | certificate Dec 14, 2023 no 792337
+      status: SUNGEEL INDIA RECYCLING PVT LTD
+- id: cpcb-prithvi-cleantech-85
+  name: 'Prithvi Cleantech Private Limited: battery recycling unit, Uttar Pradesh'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R3: Refiners – Only Black Mass Processor (Processing till metals are obtained in compound form) of all types of battery except Lead acid battery; R4: Battery Dismantling, Physical
+    Separation and Refining (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: PRITHVI CLEANTECH PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: Kharsra No.45, Plot No.-43, Morta Industrial Area, Village-Rasulpur Pargana Jalalabad,,GHAZIABAD, Uttar Pradesh-201003
+    state: Uttar Pradesh
+    precision: site
+    lat: 28.716789
+    lon: 77.467275
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: refining black mass to metal compounds; dismantling through refining (integrated)'
+  capacity:
+    installed:
+      value: 960
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2023-10-06'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (refining black mass to metal compounds; dismantling through refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 852382. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 960 | certificate Oct 06, 2023 no 852382
+      status: PRITHVI CLEANTECH PRIVATE LIMITED
+- id: cpcb-lico-materials-86
+  name: 'LICO Materials Private Limited: black mass unit, Maharashtra'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  operator: LICO MATERIALS PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: Plot No. D-17, MIDC Taloja
+    state: Maharashtra
+    precision: site
+    lat: 19.066116
+    lon: 73.117532
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation)'
+  capacity:
+    installed:
+      value: 4360
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2024-01-23'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 862373. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 4360 | certificate Jan 23, 2024 no 862373
+      status: LICO MATERIALS PRIVATE LIMITED
+- id: cpcb-batx-energies-88
+  name: 'BATX Energies Private Limited: battery recycling unit, Uttar Pradesh'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R1: Lead Acid Battery Recycler; R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery; R3:
+    Refiners – Only Black Mass Processor (Processing till metals are obtained in compound form) of all types of battery except Lead acid battery; R4: Battery Dismantling, Physical Separation and Refining
+    (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: Batx Energies Private Limited
+  operator_type: Unlisted private
+  location:
+    address: Plot No. E6 and E7, Gopalpur Industrial Area, UPSIDC Industrial Area, Sikandrabad,
+    state: Uttar Pradesh
+    precision: site
+    lat: 28.48694
+    lon: 77.64971
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation); refining black mass to metal compounds; dismantling through refining (integrated); also recycles lead-acid batteries'
+  capacity:
+    installed:
+      value: 15756
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate (all battery types)
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2024-12-13'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation); refining black mass to metal compounds; dismantling through
+      refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 882384. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 15756 | certificate Dec 13, 2024 no 882384
+      status: Batx Energies Private Limited
+- id: cpcb-adity-enterprises-94
+  name: 'Adity Enterprises: black mass unit, Uttar Pradesh'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R1: Lead Acid Battery Recycler; R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  operator: ADITY ENTERPRISES
+  operator_type: Unlisted private
+  location:
+    address: PLOT NO. M-3, M-4, KOSI KOTWAN EXT.-1, UPSIDA INDUSTRIAL AREA, KOSI, MATHURA, MATHURA-281403
+    state: Uttar Pradesh
+    precision: town
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation); also recycles lead-acid batteries'
+  capacity:
+    installed:
+      value: 6000
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate (all battery types)
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2023-10-03'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 942472. Registry coordinates fall in Rajasthan, not the Kosi
+    Kotwan (Mathura) address; point is Kosi Kalan town.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 6000 | certificate Oct 03, 2023 no 942472
+      status: ADITY ENTERPRISES
+  geo:
+    q: Kosi Kalan
+    state: Uttar Pradesh
+- id: cpcb-lohum-cleantech-95
+  name: 'Lohum Cleantech Private Limited: battery recycling unit, Uttar Pradesh'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R4: Battery Dismantling, Physical Separation and Refining (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: LOHUM CLEANTECH PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: Plot No- D7-8, Kasna Industrial Area, Gautam Buddha Nagar, UPSIDC Site 5, Greater Noida, Gautam Buddha Nagar, Uttar Pradesh, 201308
+    state: Uttar Pradesh
+    precision: site
+    lat: 28.424005
+    lon: 77.545903
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: dismantling through refining (integrated)'
+  capacity:
+    installed:
+      value: 20000
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2023-10-09'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (dismantling through refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 952499. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 20000 | certificate Oct 09, 2023 no 952499
+      status: LOHUM CLEANTECH PRIVATE LIMITED
+  related:
+  - lohum-greater-noida-repm
+  - lohum-krishnagiri-cam
+- id: cpcb-e-parisaraa-101
+  name: 'E-Parisaraa Pvt Ltd: black mass unit, Andhra Pradesh'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  operator: E-Parisaraa Pvt ltd
+  operator_type: Unlisted private
+  location:
+    address: Plot No. 42A/4, Sy.No.285 Part and Sy.No.288 (P), APIIC Industrial Park, Gollapuram (V), Hindupuram (M), Sri Sathya Sai District
+    state: Andhra Pradesh
+    precision: site
+    lat: 13.8281
+    lon: 77.4914
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation)'
+  capacity:
+    installed:
+      value: 6240
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2024-04-02'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 1012597. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 6240 | certificate Apr 02, 2024 no 1012597
+      status: E-Parisaraa Pvt ltd
+- id: cpcb-hayat-e-recyclers-105
+  name: 'Hayat E Recyclers Pvt Ltd: battery recycling unit, Uttar Pradesh'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R1: Lead Acid Battery Recycler; R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery; R3:
+    Refiners – Only Black Mass Processor (Processing till metals are obtained in compound form) of all types of battery except Lead acid battery; R4: Battery Dismantling, Physical Separation and Refining
+    (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: Hayat E Recyclers Pvt Ltd
+  operator_type: Unlisted private
+  location:
+    address: F-53 F-54 BLOCK-F INDUSTRIAL AREA MASOORI GULAOTHI ROAD
+    state: Uttar Pradesh
+    precision: site
+    lat: 28.65936
+    lon: 77.570463
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation); refining black mass to metal compounds; dismantling through refining (integrated); also recycles lead-acid batteries'
+  capacity:
+    installed:
+      value: 2880
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate (all battery types)
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2024-05-02'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation); refining black mass to metal compounds; dismantling through
+      refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 1052463. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 2880 | certificate May 02, 2024 no 1052463
+      status: Hayat E Recyclers Pvt Ltd
+- id: cpcb-asnco-110
+  name: 'ASNCO India Pvt Ltd: battery recycling unit, Uttar Pradesh'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R1: Lead Acid Battery Recycler; R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery; R3:
+    Refiners – Only Black Mass Processor (Processing till metals are obtained in compound form) of all types of battery except Lead acid battery; R4: Battery Dismantling, Physical Separation and Refining
+    (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: ASNCO INDIA PVT LTD
+  operator_type: Unlisted private
+  location:
+    address: KHASRA NO 207/206, VILL KHUJNAWAR, TEHSIL BEHAT, Behat, Saharanpur, Uttar Pradesh, 247121
+    state: Uttar Pradesh
+    precision: site
+    lat: 30.098727
+    lon: 77.70529
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation); refining black mass to metal compounds; dismantling through refining (integrated); also recycles lead-acid batteries'
+  capacity:
+    installed:
+      value: 4320
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate (all battery types)
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2024-05-10'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation); refining black mass to metal compounds; dismantling through
+      refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 1102676. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 4320 | certificate May 10, 2024 no 1102676
+      status: ASNCO INDIA PVT LTD
+- id: cpcb-recyclib-113
+  name: 'Recyclib Private Limited: battery recycling unit, Uttarakhand'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery; R3: Refiners – Only Black Mass Processor
+    (Processing till metals are obtained in compound form) of all types of battery except Lead acid battery; R4: Battery Dismantling, Physical Separation and Refining (Black Mass Processing) of all types
+    of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: RECYCLIB PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: lot No. 42B, 43, Nand Nagar Industrial Estate, Phase 1, Mahua Kheraganj, Kashipur
+    state: Uttarakhand
+    precision: site
+    lat: 29.138054
+    lon: 78.931924
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation); refining black mass to metal compounds; dismantling through refining (integrated)'
+  capacity:
+    installed:
+      value: 2880
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2024-07-05'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation); refining black mass to metal compounds; dismantling through
+      refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 1132702. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 2880 | certificate Jul 05, 2024 no 1132702
+      status: RECYCLIB PRIVATE LIMITED
+- id: cpcb-prithvi-cleantech-124
+  name: 'Prithvi Cleantech Private Limited: battery recycling unit, Uttar Pradesh'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery; R3: Refiners – Only Black Mass Processor
+    (Processing till metals are obtained in compound form) of all types of battery except Lead acid battery; R4: Battery Dismantling, Physical Separation and Refining (Black Mass Processing) of all types
+    of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: PRITHVI CLEANTECH PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: Khasra No.695, Block A, Gali No.-2, Duhai Industrial Area, Near HLM Collage, Village-Duhai Pargana Jalalabad,GHAZIABAD
+    state: Uttar Pradesh
+    precision: town
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation); refining black mass to metal compounds; dismantling through refining (integrated)'
+  capacity:
+    installed:
+      value: 3840
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2023-10-06'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation); refining black mass to metal compounds; dismantling through
+      refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 1242756. No registry coordinates; point is Duhai village
+    from the address.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 3840 | certificate Oct 06, 2023 no 1242756
+      status: PRITHVI CLEANTECH PRIVATE LIMITED
+  geo:
+    q: Duhai
+    state: Uttar Pradesh
+- id: cpcb-kay-bee-batteries-133
+  name: 'Kay Bee Batteries Private Limited: black mass unit, Rajasthan'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R1: Lead Acid Battery Recycler; R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  operator: KAY BEE BATTERIES PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: G1/573, PHASE-1, RIICO INDL. AREA, BHIWADI BHIWADI
+    state: Rajasthan
+    precision: site
+    lat: 28.206413
+    lon: 76.860152
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation); also recycles lead-acid batteries'
+  capacity:
+    installed:
+      value: 5000
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate (all battery types)
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2024-01-25'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 1332837. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 5000 | certificate Jan 25, 2024 no 1332837
+      status: KAY BEE BATTERIES PRIVATE LIMITED
+- id: cpcb-shri-bala-ji-industries-152
+  name: 'Shri Bala Ji Industries: black mass unit, Punjab'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R1: Lead Acid Battery Recycler; R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  operator: Shri Bala Ji Industries
+  operator_type: Unlisted private
+  location:
+    address: null
+    state: Punjab
+    precision: site
+    lat: 30.547428
+    lon: 74.281185
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation); also recycles lead-acid batteries'
+  capacity:
+    installed:
+      value: 1875
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate (all battery types)
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2025-05-06'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 1522959. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 1875 | certificate May 06, 2025 no 1522959
+      status: Shri Bala Ji Industries
+- id: cpcb-attero-recycling-166
+  name: 'Attero Recycling Private Limited: battery recycling unit, Uttarakhand'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery; R3: Refiners – Only Black Mass Processor
+    (Processing till metals are obtained in compound form) of all types of battery except Lead acid battery; R4: Battery Dismantling, Physical Separation and Refining (Black Mass Processing) of all types
+    of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: ATTERO RECYCLING PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: KHASRA NO 173 RAIPUR INDUSTRIAL AREA, BHAGWANPUR
+    state: Uttarakhand
+    precision: site
+    lat: 29.95281
+    lon: 77.79853
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation); refining black mass to metal compounds; dismantling through refining (integrated)'
+  capacity:
+    installed:
+      value: 7380
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2023-12-12'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation); refining black mass to metal compounds; dismantling through
+      refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 1663047. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 7380 | certificate Dec 12, 2023 no 1663047
+      status: ATTERO RECYCLING PRIVATE LIMITED
+- id: cpcb-exigo-recycling-169
+  name: 'Exigo Recycling Private Limited: battery recycling unit, Haryana'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R4: Battery Dismantling, Physical Separation and Refining (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: Exigo Recycling Private Limited
+  operator_type: Unlisted private
+  location:
+    address: Barsat Road , Village Barsat, Near Victor School, Karnal-132001
+    state: Haryana
+    precision: site
+    lat: 29.496054
+    lon: 77.04021
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: dismantling through refining (integrated)'
+  capacity:
+    installed:
+      value: 7050
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2024-03-06'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (dismantling through refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 1692895. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 7050 | certificate Mar 06, 2024 no 1692895
+      status: Exigo Recycling Private Limited
+- id: cpcb-verdeen-chemicals-172
+  name: 'Verdeen Chemicals Private Limited: battery recycling unit, Uttar Pradesh'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R1: Lead Acid Battery Recycler; R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery; R3:
+    Refiners – Only Black Mass Processor (Processing till metals are obtained in compound form) of all types of battery except Lead acid battery; R4: Battery Dismantling, Physical Separation and Refining
+    (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: VERDEEN CHEMICALS PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: PLOT NO. D-11, M.G. ROAD INDUSTRIAL AREA, HAPUR
+    state: Uttar Pradesh
+    precision: site
+    lat: 28.659916
+    lon: 77.567607
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation); refining black mass to metal compounds; dismantling through refining (integrated); also recycles lead-acid batteries'
+  capacity:
+    installed:
+      value: 28488
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate (all battery types)
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2023-10-26'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation); refining black mass to metal compounds; dismantling through
+      refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 1723084. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 28488 | certificate Oct 26, 2023 no 1723084
+      status: VERDEEN CHEMICALS PRIVATE LIMITED
+- id: cpcb-mahalaxmi-metalloys-207
+  name: 'Mahalaxmi Metalloys (India) PvtLtd: battery recycling unit, Uttar Pradesh'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery; R4: Battery Dismantling, Physical Separation
+    and Refining (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: MAHALAXMI METALLOYS (INDIA) PVT.LTD
+  operator_type: Unlisted private
+  location:
+    address: PLOT NO 92, SIKEDA INDUSTRIAL AREA, SIKEDA ROAD, MODINAGAR, Ghaziabad, Uttar Pradesh, 201204
+    state: Uttar Pradesh
+    precision: site
+    lat: 28.822498
+    lon: 77.551499
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation); dismantling through refining (integrated)'
+  capacity:
+    installed:
+      value: 15000
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2024-07-01'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation); dismantling through refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 2073242. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 15000 | certificate Jul 01, 2024 no 2073242
+      status: MAHALAXMI METALLOYS (INDIA) PVT.LTD
+- id: cpcb-sanyam-enterprises-280
+  name: 'Sanyam Enterprises: battery recycling unit, Uttar Pradesh'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R1: Lead Acid Battery Recycler; R4: Battery Dismantling, Physical Separation and Refining (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: SANYAM ENTERPRISES
+  operator_type: Unlisted private
+  location:
+    address: NEAR B-9, INDUSTRIAL AREA, PANIPAT ROAD, SHAMLI
+    state: Uttar Pradesh
+    precision: site
+    lat: 29.41999
+    lon: 77.263371
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: dismantling through refining (integrated); also recycles lead-acid batteries'
+  capacity:
+    installed:
+      value: 9000
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate (all battery types)
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2024-05-02'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (dismantling through refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 2803396. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 9000 | certificate May 02, 2024 no 2803396
+      status: SANYAM ENTERPRISES
+- id: cpcb-rocklink-317
+  name: 'Rocklink India Private Limited: battery recycling unit, Uttar Pradesh'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery; R3: Refiners – Only Black Mass Processor
+    (Processing till metals are obtained in compound form) of all types of battery except Lead acid battery; R4: Battery Dismantling, Physical Separation and Refining (Black Mass Processing) of all types
+    of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: Rocklink India Private Limited
+  operator_type: Unlisted private
+  location:
+    address: null
+    state: Uttar Pradesh
+    precision: district
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation); refining black mass to metal compounds; dismantling through refining (integrated)'
+  capacity:
+    installed:
+      value: 10000
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2025-04-04'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation); refining black mass to metal compounds; dismantling through
+      refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 3173479. No registry coordinates and no usable plant address;
+    point is a district centroid (see the company's other registered unit).
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 10000 | certificate Apr 04, 2025 no 3173479
+      status: Rocklink India Private Limited
+  geo:
+    district_centroid: Gautam Buddha Nagar
+    state: Uttar Pradesh
+- id: cpcb-etech-recycling-industries-345
+  name: 'Etech Recycling Industries Private Limited: black mass unit, Telangana'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R1: Lead Acid Battery Recycler; R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  operator: ETECH RECYCLING INDUSTRIES PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: SY.NO. 277/A/1, MAMDA MANDAL, KOTHA SANGVI, Mamda, Nirmal, Telangana,
+    state: Telangana
+    precision: site
+    lat: 19.067799
+    lon: 78.541715
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation); also recycles lead-acid batteries'
+  capacity:
+    installed:
+      value: 19350
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate (all battery types)
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2023-12-18'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 3453565. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 19350 | certificate Dec 18, 2023 no 3453565
+      status: ETECH RECYCLING INDUSTRIES PRIVATE LIMITED
+- id: cpcb-ewri-recyclers-351
+  name: 'EWRI Recyclers India Private Limited: battery recycling unit, Uttar Pradesh'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R1: Lead Acid Battery Recycler; R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery; R3:
+    Refiners – Only Black Mass Processor (Processing till metals are obtained in compound form) of all types of battery except Lead acid battery; R4: Battery Dismantling, Physical Separation and Refining
+    (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: EWRI RECYCLERS INDIA PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: E-48, UPSIDC INDUSTRIAL AREA, KOSI KOTWAN, Mathura, Uttar Pradesh
+    state: Uttar Pradesh
+    precision: site
+    lat: 27.499997
+    lon: 77.690178
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation); refining black mass to metal compounds; dismantling through refining (integrated); also recycles lead-acid batteries'
+  capacity:
+    installed:
+      value: 24000
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate (all battery types)
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2023-12-21'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation); refining black mass to metal compounds; dismantling through
+      refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 3512760. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 24000 | certificate Dec 21, 2023 no 3512760
+      status: EWRI RECYCLERS INDIA PRIVATE LIMITED
+- id: cpcb-j-s-metal-380
+  name: 'M/S J.S Metal Co.: battery recycling unit, Punjab'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R1: Lead Acid Battery Recycler; R4: Battery Dismantling, Physical Separation and Refining (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: M/s J.S Metal Co.
+  operator_type: Unlisted private
+  location:
+    address: Street no - 5, Near Shubh Kanda, VPO- Gadaipur
+    state: Punjab
+    precision: site
+    lat: 31.379183
+    lon: 75.575767
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: dismantling through refining (integrated); also recycles lead-acid batteries'
+  capacity:
+    installed:
+      value: 3000
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate (all battery types)
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2024-01-22'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (dismantling through refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 3803041. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 3000 | certificate Jan 22, 2024 no 3803041
+      status: M/s J.S Metal Co.
+- id: cpcb-trishulavel-eshan-392
+  name: 'Trishulavel Eshan Private Limited: black mass unit, Karnataka'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  operator: TRISHULAVEL ESHAN PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: No. 18, 1st main, 6th cross, sudhamanagar, Bangalore 560027
+    state: Karnataka
+    precision: site
+    lat: 13.339725
+    lon: 77.96068
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation)'
+  capacity:
+    installed:
+      value: 1020
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2024-11-12'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 3923697. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 1020 | certificate Nov 12, 2024 no 3923697
+      status: TRISHULAVEL ESHAN PRIVATE LIMITED
+- id: cpcb-shree-metals-mujbi-414
+  name: 'Shree Metals (Mujbi) Pvt Ltd: battery recycling unit, Maharashtra'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R1: Lead Acid Battery Recycler; R3: Refiners – Only Black Mass Processor (Processing till metals are obtained in compound form) of all types of battery except Lead acid battery;
+    R4: Battery Dismantling, Physical Separation and Refining (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: SHREE METALS (MUJBI) PVT LTD
+  operator_type: Unlisted private
+  location:
+    address: 312/2 AT MUJBI, POST BELA
+    state: Maharashtra
+    precision: site
+    lat: 21.160808
+    lon: 79.59789
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: refining black mass to metal compounds; dismantling through refining (integrated); also recycles lead-acid batteries'
+  capacity:
+    installed:
+      value: 1702
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate (all battery types)
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2024-09-23'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (refining black mass to metal compounds; dismantling through refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 4143157. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 1702 | certificate Sep 23, 2024 no 4143157
+      status: SHREE METALS (MUJBI) PVT LTD
+- id: cpcb-minimines-cleantech-solutions-433
+  name: 'Minimines Cleantech Solutions Private Limited: battery recycling unit, Karnataka'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R4: Battery Dismantling, Physical Separation and Refining (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: MINIMINES CLEANTECH SOLUTIONS PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: No. 41, Veerapura Village,Kasaba Hobli, Doddaballapur Industrial Area, Dodballapur, Bengaluru Rural, Karnataka, 561203
+    state: Karnataka
+    precision: site
+    lat: 13.249223
+    lon: 77.548561
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: dismantling through refining (integrated)'
+  capacity:
+    installed:
+      value: 2880
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2024-07-30'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (dismantling through refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 4333534. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 2880 | certificate Jul 30, 2024 no 4333534
+      status: MINIMINES CLEANTECH SOLUTIONS PRIVATE LIMITED
+- id: cpcb-proprietorship-444
+  name: 'Registered proprietorship (name withheld): battery recycling unit, Uttar Pradesh'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery; R4: Battery Dismantling, Physical Separation
+    and Refining (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: Proprietorship (name withheld)
+  operator_type: Unlisted private
+  location:
+    address: null
+    state: Uttar Pradesh
+    precision: site
+    lat: 26.404107
+    lon: 80.082719
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation); dismantling through refining (integrated)'
+  capacity:
+    installed:
+      value: 620
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2024-05-02'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation); dismantling through refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 4443912. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 620 | certificate May 02, 2024 no 4443912
+      status: KOHIMA DHANDHANIA
+- id: cpcb-sri-chamundi-metal-works-469
+  name: 'Sri Chamundi Metal Works: battery recycling unit, Karnataka'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R4: Battery Dismantling, Physical Separation and Refining (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: Sri Chamundi Metal Works
+  operator_type: Unlisted private
+  location:
+    address: Plot No. 440   K, Sy. No. 144, KIADB Hebbal Industrial area, Hebbal Kasaba Hobli, Mysuru   570016
+    state: Karnataka
+    precision: site
+    lat: 12.352505
+    lon: 76.619059
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: dismantling through refining (integrated)'
+  capacity:
+    installed:
+      value: 360
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2025-09-09'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (dismantling through refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 4693416. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 360 | certificate Sep 09, 2025 no 4693416
+      status: Sri Chamundi Metal Works
+- id: cpcb-quality-plast-industries-483
+  name: 'Quality Plast Industries: battery recycling unit, Maharashtra'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R1: Lead Acid Battery Recycler; R4: Battery Dismantling, Physical Separation and Refining (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: QUALITY PLAST INDUSTRIES
+  operator_type: Unlisted private
+  location:
+    address: GUT NO 125/1, VILLAGE GONSAI, GHODVINDE PADA ROAD,  TALUKA WADA DIST PALGHAR
+    state: Maharashtra
+    precision: site
+    lat: 19.4999
+    lon: 73.08866
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: dismantling through refining (integrated); also recycles lead-acid batteries'
+  capacity:
+    installed:
+      value: 3120
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate (all battery types)
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2024-02-21'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (dismantling through refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 4834155. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 3120 | certificate Feb 21, 2024 no 4834155
+      status: QUALITY PLAST INDUSTRIES
+- id: cpcb-hind-metal-works-484
+  name: 'Hind Metal Works: battery recycling unit, Uttar Pradesh'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R1: Lead Acid Battery Recycler; R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery; R3:
+    Refiners – Only Black Mass Processor (Processing till metals are obtained in compound form) of all types of battery except Lead acid battery; R4: Battery Dismantling, Physical Separation and Refining
+    (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: HIND METAL WORKS
+  operator_type: Unlisted private
+  location:
+    address: INDUSTRIAL AREA, C-26, UDHYOG PURAM, PARTAPUR
+    state: Uttar Pradesh
+    precision: site
+    lat: 28.910674
+    lon: 77.65659
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation); refining black mass to metal compounds; dismantling through refining (integrated); also recycles lead-acid batteries'
+  capacity:
+    installed:
+      value: 3000
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate (all battery types)
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2024-11-05'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation); refining black mass to metal compounds; dismantling through
+      refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 4844159. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 3000 | certificate Nov 05, 2024 no 4844159
+      status: HIND METAL WORKS
+- id: cpcb-proprietorship-487
+  name: 'Registered proprietorship (name withheld): battery recycling unit, Maharashtra'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R1: Lead Acid Battery Recycler; R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery; R4:
+    Battery Dismantling, Physical Separation and Refining (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: Proprietorship (name withheld)
+  operator_type: Unlisted private
+  location:
+    address: null
+    state: Maharashtra
+    precision: site
+    lat: 18.573435
+    lon: 73.95444
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation); dismantling through refining (integrated); also recycles lead-acid batteries'
+  capacity:
+    installed:
+      value: 1440
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate (all battery types)
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2024-09-23'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation); dismantling through refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 4874191. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 1440 | certificate Sep 23, 2024 no 4874191
+      status: Mohammad Nasim Mohammad Habib RAYNI
+- id: cpcb-earthzone-recycling-547
+  name: 'Earthzone Recycling Private Limited: battery recycling unit, Uttar Pradesh'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R1: Lead Acid Battery Recycler; R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery; R3:
+    Refiners – Only Black Mass Processor (Processing till metals are obtained in compound form) of all types of battery except Lead acid battery; R4: Battery Dismantling, Physical Separation and Refining
+    (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: EARTHZONE RECYCLING PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: Khasra No 788-790/B Allipur Jijmana Meerut Uttar Pradesh 245206
+    state: Uttar Pradesh
+    precision: site
+    lat: 28.894075
+    lon: 77.757336
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation); refining black mass to metal compounds; dismantling through refining (integrated); also recycles lead-acid batteries'
+  capacity:
+    installed:
+      value: 2436
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate (all battery types)
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2024-09-05'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation); refining black mass to metal compounds; dismantling through
+      refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 5474449. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 2436 | certificate Sep 05, 2024 no 5474449
+      status: EARTHZONE RECYCLING PRIVATE LIMITED
+- id: cpcb-sakshi-auto-parts-556
+  name: 'Sakshi Auto Parts Private Limited: battery recycling unit, Maharashtra'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R1: Lead Acid Battery Recycler; R4: Battery Dismantling, Physical Separation and Refining (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: SAKSHI AUTO PARTS PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: LG 27, Jai Tower, Kalbhor Nagar, Pune, Maharashtra, 411019
+    state: Maharashtra
+    precision: site
+    lat: 18.686723
+    lon: 74.110298
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: dismantling through refining (integrated); also recycles lead-acid batteries'
+  capacity:
+    installed:
+      value: 10000
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate (all battery types)
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2025-04-28'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (dismantling through refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 5564486. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 10000 | certificate Apr 28, 2025 no 5564486
+      status: SAKSHI AUTO PARTS PRIVATE LIMITED
+- id: cpcb-endeavor-power-solutions-569
+  name: 'Endeavor Power Solutions Limited: black mass unit, Haryana'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R1: Lead Acid Battery Recycler; R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  operator: ENDEAVOR POWER SOLUTIONS LIMITED
+  operator_type: Unlisted private
+  location:
+    address: PLOT NO. H-21, CITY I, KILLA NO. 9/10/2, 9/11, KHEWAT NO. 379, KHATA NO.503, NAHRA NAHRI ROAD, Bahadurgarh, Jhajjar, Haryana, 124507
+    state: Haryana
+    precision: site
+    lat: 28.711821
+    lon: 76.937502
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation); also recycles lead-acid batteries'
+  capacity:
+    installed:
+      value: 25500
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate (all battery types)
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2024-06-21'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 5694511. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 25500 | certificate Jun 21, 2024 no 5694511
+      status: ENDEAVOR POWER SOLUTIONS LIMITED
+- id: cpcb-elgreen-metex-570
+  name: 'Elgreen Metex Private Limited: battery recycling unit, Uttar Pradesh'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery; R4: Battery Dismantling, Physical Separation
+    and Refining (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: ELGREEN METEX PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: C-96, SECTOR-2, NOIDA
+    state: Uttar Pradesh
+    precision: site
+    lat: 28.450369
+    lon: 77.528785
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation); dismantling through refining (integrated)'
+  capacity:
+    installed:
+      value: 7820
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2024-05-02'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation); dismantling through refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 5704596. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 7820 | certificate May 02, 2024 no 5704596
+      status: ELGREEN METEX PRIVATE LIMITED
+- id: cpcb-rennovo-recycling-industries-590
+  name: 'Rennovo Recycling Industries Private Limited: black mass unit, Telangana'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R1: Lead Acid Battery Recycler; R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  operator: RENNOVO RECYCLING INDUSTRIES PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: Syno 12/A2/3/2,12/A3/1/1,12/A4/1, YADADRI DIST
+    state: Telangana
+    precision: site
+    lat: 17.164369
+    lon: 78.867546
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation); also recycles lead-acid batteries'
+  capacity:
+    installed:
+      value: 15000
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate (all battery types)
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2024-07-22'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 5904686. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 15000 | certificate Jul 22, 2024 no 5904686
+      status: RENNOVO RECYCLING INDUSTRIES PRIVATE LIMITED
+- id: cpcb-rubamin-592
+  name: 'Rubamin Private Limited: battery recycling unit, Gujarat'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R3: Refiners – Only Black Mass Processor (Processing till metals are obtained in compound form) of all types of battery except Lead acid battery; R4: Battery Dismantling, Physical
+    Separation and Refining (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: RUBAMIN PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: ARK, Shree Krishana Industrial Estate , Gorwa , BIDC,
+    state: Gujarat
+    precision: site
+    lat: 22.5291
+    lon: 73.4679
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: refining black mass to metal compounds; dismantling through refining (integrated)'
+  capacity:
+    installed:
+      value: 15000
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2025-02-10'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (refining black mass to metal compounds; dismantling through refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 5924690. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 15000 | certificate Feb 10, 2025 no 5924690
+      status: RUBAMIN PRIVATE LIMITED
+- id: cpcb-evergreen-lithium-recycling-605
+  name: 'Evergreen Lithium Recycling Private Limited: battery recycling unit, Maharashtra'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R4: Battery Dismantling, Physical Separation and Refining (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: EVERGREEN LITHIUM RECYCLING PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: GUT NO157/2, WADA MANOR ROAD, WADA PALGHAR POSHERI, Thane, Maharashtra
+    state: Maharashtra
+    precision: site
+    lat: 19.6822
+    lon: 73.0735
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: dismantling through refining (integrated)'
+  capacity:
+    installed:
+      value: 4200
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2024-04-19'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (dismantling through refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 6054717. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 4200 | certificate Apr 19, 2024 no 6054717
+      status: EVERGREEN LITHIUM RECYCLING PRIVATE LIMITED
+  related:
+  - recyclekaro-palghar
+- id: cpcb-glacier-enviro-610
+  name: 'Glacier Enviro India Private Limited: battery recycling unit, Uttar Pradesh'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R1: Lead Acid Battery Recycler; R4: Battery Dismantling, Physical Separation and Refining (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: GLACIER ENVIRO INDIA PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: KHASRA NO 322 VILL TOPRI GHUNNA
+    state: Uttar Pradesh
+    precision: site
+    lat: 30.050151
+    lon: 77.544594
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: dismantling through refining (integrated); also recycles lead-acid batteries'
+  capacity:
+    installed:
+      value: 5110
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate (all battery types)
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2024-05-10'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (dismantling through refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 6104737. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 5110 | certificate May 10, 2024 no 6104737
+      status: GLACIER ENVIRO INDIA PRIVATE LIMITED
+- id: cpcb-hyborn-recycling-611
+  name: 'Hyborn Recycling LLP: black mass unit, Gujarat'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  operator: HYBORN RECYCLING LLP
+  operator_type: Unlisted private
+  location:
+    address: 'Plot no. 43-44, R.S No. 306, R.K. Industrial Land, Rataiya Amerli Road, Village:- amreli - 360110, Taluka:- Paddhari, District:- Rajkot, State : Gujarat'
+    state: Gujarat
+    precision: site
+    lat: 22.275959
+    lon: 70.662477
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation)'
+  capacity:
+    installed:
+      value: 3600
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2024-10-04'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 6114752. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 3600 | certificate Oct 04, 2024 no 6114752
+      status: HYBORN RECYCLING LLP
+- id: cpcb-rocklink-619
+  name: 'Rocklink India Private Limited: battery recycling unit, Uttar Pradesh'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  - Rare earths (unspecified)
+  commodity_as_stated: 'R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery; R3: Refiners – Only Black Mass Processor
+    (Processing till metals are obtained in compound form) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Recycled rare earth magnet material (60 t/month)
+  - Rare earth chloride (1,500 t/yr line, due Q1 2026)
+  operator: ROCKLINK INDIA PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: H NO E-15/3 3RD FLOOR CENTURIAN
+    state: Uttar Pradesh
+    precision: site
+    lat: 28.468626
+    lon: 77.665054
+    village_or_town: Sikandrabad
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation); refining black mass to metal compounds'
+  capacity:
+    installed:
+      value: 10000
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2025-01-07'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation); refining black mass to metal compounds).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 6194827. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 10000 | certificate Jan 07, 2025 no 6194827
+      status: ROCKLINK INDIA PRIVATE LIMITED
+  - ref: evr-rocklink-2026
+    supports:
+    - products
+    - minerals
+    - location
+    ev:
+      products:
+      - It also includes rare earth magnet dismantling and processing operations with a capacity of 60 tonnes per month.
+      - A rare earth chloride processing line, with a capacity of 1,500 tonnes per year, is scheduled for completion in Q1 2026.
+      location: integrated recycling facility at the UPSIDC Industrial Area in Sikandrabad, Uttar Pradesh
+- id: cpcb-nile-li-cycle-621
+  name: 'Nile Li-Cycle Private Limited: battery recycling unit, Telangana'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery; R4: Battery Dismantling, Physical Separation
+    and Refining (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: NILE LI-CYCLE PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: Sy. No. 306, Plot No.70 to 77, Industrial park EMC- Maheshwaram, Rangareddy District
+    state: Telangana
+    precision: site
+    lat: 17.115609
+    lon: 78.416033
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation); dismantling through refining (integrated)'
+  capacity:
+    installed:
+      value: 10800
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2024-07-31'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation); dismantling through refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 6214756. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 10800 | certificate Jul 31, 2024 no 6214756
+      status: NILE LI-CYCLE PRIVATE LIMITED
+- id: cpcb-linico-energy-655
+  name: 'Linico Energy Private Limited: battery recycling unit, Rajasthan'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R4: Battery Dismantling, Physical Separation and Refining (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: Linico Energy Private Limited
+  operator_type: Unlisted private
+  location:
+    address: H1-102, EPIP Neemrana, RIICO Industrial Area, Neemrana, Alwar, Rajasthan
+    state: Rajasthan
+    precision: site
+    lat: 27.964425
+    lon: 76.361022
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: dismantling through refining (integrated)'
+  capacity:
+    installed:
+      value: 1000
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2024-09-12'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (dismantling through refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 6555052. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 1000 | certificate Sep 12, 2024 no 6555052
+      status: Linico Energy Private Limited
+- id: cpcb-hbl-power-systems-674
+  name: 'HBL Power Systems Limited: battery recycling unit, Telangana'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R4: Battery Dismantling, Physical Separation and Refining (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: HBL POWER SYSTEMS LIMITED
+  operator_type: Unlisted private
+  location:
+    address: H. No. 8-2-601, Road No.10, Banjara Hills, Hyderabad
+    state: Telangana
+    precision: site
+    lat: 17.62799
+    lon: 78.57924
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: dismantling through refining (integrated)'
+  capacity:
+    installed:
+      value: 420
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2024-07-05'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (dismantling through refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 6745202. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 420 | certificate Jul 05, 2024 no 6745202
+      status: HBL POWER SYSTEMS LIMITED
+- id: cpcb-proprietorship-700
+  name: 'Registered proprietorship (name withheld): black mass unit, Uttar Pradesh'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R1: Lead Acid Battery Recycler; R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  operator: Proprietorship (name withheld)
+  operator_type: Unlisted private
+  location:
+    address: null
+    state: Uttar Pradesh
+    precision: site
+    lat: 28.964481
+    lon: 77.626111
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation); also recycles lead-acid batteries'
+  capacity:
+    installed:
+      value: 174
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate (all battery types)
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2024-07-29'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 7005332. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 174 | certificate Jul 29, 2024 no 7005332
+      status: MANISH SINGHAL
+- id: cpcb-animesh-recycling-733
+  name: 'Animesh Recycling Private Limited: battery recycling unit, Maharashtra'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R4: Battery Dismantling, Physical Separation and Refining (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: ANIMESH RECYCLING PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: Plot no. A37, Beside Indorama, Umri & Khappa, Butibori MIDC
+    state: Maharashtra
+    precision: site
+    lat: 20.9202
+    lon: 78.9639
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: dismantling through refining (integrated)'
+  capacity:
+    installed:
+      value: 1200
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2024-12-27'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (dismantling through refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 7335556. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 1200 | certificate Dec 27, 2024 no 7335556
+      status: ANIMESH RECYCLING PRIVATE LIMITED
+- id: cpcb-fusion-metal-works-737
+  name: 'Fusion Metal Works: black mass unit, West Bengal'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R1: Lead Acid Battery Recycler; R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  operator: FUSION METAL WORKS
+  operator_type: Unlisted private
+  location:
+    address: JAGATBALLAVPUR,HOWRAH
+    state: West Bengal
+    precision: site
+    lat: 22.558
+    lon: 88.066
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation); also recycles lead-acid batteries'
+  capacity:
+    installed:
+      value: 1000
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate (all battery types)
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2025-04-07'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 7375449. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 1000 | certificate Apr 07, 2025 no 7375449
+      status: FUSION METAL WORKS
+- id: cpcb-green-valley-recycling-740
+  name: 'Green Valley Recycling Private Limited: battery recycling unit, Uttar Pradesh'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R4: Battery Dismantling, Physical Separation and Refining (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: GREEN VALLEY RECYCLING PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: KHASRA NO 371 AND 372, INDUSTRIAL AREA BEGRAJPUR, BEGRAJPUR, Hausainpur Bopara, Muzaffarnagar, Uttar Pradesh, 251203
+    state: Uttar Pradesh
+    precision: site
+    lat: 29.371141
+    lon: 77.696926
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: dismantling through refining (integrated)'
+  capacity:
+    installed:
+      value: 6600
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2025-01-07'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (dismantling through refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 7405590. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 6600 | certificate Jan 07, 2025 no 7405590
+      status: GREEN VALLEY RECYCLING PRIVATE LIMITED
+- id: cpcb-ramco-metals-750
+  name: 'Ramco Metals Private Limited: battery recycling unit, West Bengal'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R1: Lead Acid Battery Recycler; R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery; R3:
+    Refiners – Only Black Mass Processor (Processing till metals are obtained in compound form) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: RAMCO METALS PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: J L NO 2, 227, 358, MOUZA DABGRAM, PS BHAKTINAGAR, JALPAIGURI, Jalpaiguri, West Bengal, 734218
+    state: West Bengal
+    precision: site
+    lat: 26.670026
+    lon: 88.425736
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation); refining black mass to metal compounds; also recycles lead-acid batteries'
+  capacity:
+    installed:
+      value: 420
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate (all battery types)
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2025-10-29'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation); refining black mass to metal compounds).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 7505655. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 420 | certificate Oct 29, 2025 no 7505655
+      status: RAMCO METALS PRIVATE LIMITED
+- id: cpcb-terra-battery-recyclers-751
+  name: 'Terra Battery Recyclers LLP: battery recycling unit, Telangana'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R1: Lead Acid Battery Recycler; R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery; R3:
+    Refiners – Only Black Mass Processor (Processing till metals are obtained in compound form) of all types of battery except Lead acid battery; R4: Battery Dismantling, Physical Separation and Refining
+    (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: TERRA BATTERY RECYCLERS LLP
+  operator_type: Unlisted private
+  location:
+    address: PLOT NO.121 CHOWLAPALLY SHADNAGAR FAROOQNAGAR
+    state: Telangana
+    precision: site
+    lat: 17.066423
+    lon: 78.124451
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation); refining black mass to metal compounds; dismantling through refining (integrated); also recycles lead-acid batteries'
+  capacity:
+    installed:
+      value: 34250
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate (all battery types)
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2024-12-23'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation); refining black mass to metal compounds; dismantling through
+      refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 7515512. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 34250 | certificate Dec 23, 2024 no 7515512
+      status: TERRA BATTERY RECYCLERS LLP
+- id: cpcb-adv-metal-combine-758
+  name: 'ADV Metal Combine Private Limited: battery recycling unit, Chhattisgarh'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R4: Battery Dismantling, Physical Separation and Refining (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: ADV METAL COMBINE PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: BORAI INDUSTRIAL GROWTH CENTRE RASMADA
+    state: Chhattisgarh
+    precision: site
+    lat: 21.19823
+    lon: 81.21566
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: dismantling through refining (integrated)'
+  capacity:
+    installed:
+      value: 2500
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2024-09-24'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (dismantling through refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 7585698. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 2500 | certificate Sep 24, 2024 no 7585698
+      status: ADV METAL COMBINE PRIVATE LIMITED
+- id: cpcb-hindustan-metals-770
+  name: 'Hindustan Metals: battery recycling unit, Maharashtra'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R1: Lead Acid Battery Recycler; R3: Refiners – Only Black Mass Processor (Processing till metals are obtained in compound form) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: HINDUSTAN METALS
+  operator_type: Unlisted private
+  location:
+    address: 03 SURVEY NO 132 3 4 6 PALGHAR, DEWAN AND SON, NEAR ASHAPURA RECYCLING SYSTEM, PALGHAR, MAHARASHTRA   401404
+    state: Maharashtra
+    precision: site
+    lat: 19.718843
+    lon: 72.775087
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: refining black mass to metal compounds; also recycles lead-acid batteries'
+  capacity:
+    installed:
+      value: 2110
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate (all battery types)
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2025-04-28'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (refining black mass to metal compounds).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 7705782. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 2110 | certificate Apr 28, 2025 no 7705782
+      status: HINDUSTAN METALS
+- id: cpcb-ads-recycling-776
+  name: 'ADS Recycling Private Limited: battery recycling unit, Uttar Pradesh'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R1: Lead Acid Battery Recycler; R4: Battery Dismantling, Physical Separation and Refining (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: ADS RECYCLING PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: KHASRA NO. 763, 760, 761, 752 PEEPLI KHERA ROAD, VILL ALLIPUR JIJMANA, Kharkhoda, Meerut, Uttar Pradesh, 245206
+    state: Uttar Pradesh
+    precision: site
+    lat: 28.897997
+    lon: 77.754818
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: dismantling through refining (integrated); also recycles lead-acid batteries'
+  capacity:
+    installed:
+      value: 9600
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate (all battery types)
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2024-12-13'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (dismantling through refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 7765810. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 9600 | certificate Dec 13, 2024 no 7765810
+      status: ADS RECYCLING PRIVATE LIMITED
+- id: cpcb-mobec-innovation-778
+  name: 'Mobec Innovation Private Limited: battery recycling unit, Uttar Pradesh'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R4: Battery Dismantling, Physical Separation and Refining (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: MOBEC INNOVATION PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: TOWER B2 FLAT NO 1104, Panchsheel Greens 1, Sector 16B, Greater Noida, Gautam buddha Nagar, Uttar Pradesh, 201306
+    state: Uttar Pradesh
+    precision: site
+    lat: 28.64667
+    lon: 77.58657
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: dismantling through refining (integrated)'
+  capacity:
+    installed:
+      value: 210.66
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2025-02-14'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (dismantling through refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 7785808. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 210.66 | certificate Feb 14, 2025 no 7785808
+      status: MOBEC INNOVATION PRIVATE LIMITED
+- id: cpcb-brp-infotech-783
+  name: 'BRP Infotech Private Limited: battery recycling unit, Uttar Pradesh'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R1: Lead Acid Battery Recycler; R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery; R3:
+    Refiners – Only Black Mass Processor (Processing till metals are obtained in compound form) of all types of battery except Lead acid battery; R4: Battery Dismantling, Physical Separation and Refining
+    (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: BRP INFOTECH PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: PLOT NO F 213 MASURI GULAWATI ROAD INDUSTRIAL AREA HAPUR 245101
+    state: Uttar Pradesh
+    precision: town
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation); refining black mass to metal compounds; dismantling through refining (integrated); also recycles lead-acid batteries'
+  capacity:
+    installed:
+      value: 8400
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate (all battery types)
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2024-12-12'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation); refining black mass to metal compounds; dismantling through
+      refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 7835897. Registry coordinates fall in Delhi, not the Hapur
+    address; point is Hapur town.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 8400 | certificate Dec 12, 2024 no 7835897
+      status: BRP INFOTECH PRIVATE LIMITED
+  geo:
+    q: Hapur
+    state: Uttar Pradesh
+- id: cpcb-green-info-recycling-industries-784
+  name: 'Green Info Recycling Industries Private Limited: battery recycling unit, Telangana'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R1: Lead Acid Battery Recycler; R4: Battery Dismantling, Physical Separation and Refining (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: GREEN INFO RECYCLING INDUSTRIES PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: SY.N 1050   1052,  NANDIGAMA v   m, Kothur, Rangareddy,  Telangana
+    state: Telangana
+    precision: site
+    lat: 17.099522
+    lon: 78.258358
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: dismantling through refining (integrated); also recycles lead-acid batteries'
+  capacity:
+    installed:
+      value: 10720
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate (all battery types)
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2025-01-02'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (dismantling through refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 7845709. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 10720 | certificate Jan 02, 2025 no 7845709
+      status: GREEN INFO RECYCLING INDUSTRIES PRIVATE LIMITED
+- id: cpcb-proprietorship-805
+  name: 'Registered proprietorship (name withheld): battery recycling unit, West Bengal'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R1: Lead Acid Battery Recycler; R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery; R3:
+    Refiners – Only Black Mass Processor (Processing till metals are obtained in compound form) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: Proprietorship (name withheld)
+  operator_type: Unlisted private
+  location:
+    address: null
+    state: West Bengal
+    precision: district
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation); refining black mass to metal compounds; also recycles lead-acid batteries'
+  capacity:
+    installed:
+      value: 2100
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate (all battery types)
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2025-08-22'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation); refining black mass to metal compounds).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 8056104. Registry coordinates fall in Uttar Pradesh, not
+    the West Bengal address; point is the Howrah district centroid.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 2100 | certificate Aug 22, 2025 no 8056104
+      status: CHANDRA SHEKHAR MONDAL
+  geo:
+    district_centroid: Howrah
+    state: West Bengal
+- id: cpcb-besa-lithium-batteries-827
+  name: 'Besa Lithium Batteries Private Limited: black mass unit, Maharashtra'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  operator: BESA LITHIUM BATTERIES PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: Gat no. 482, urse village , taluka   maval , Pune, Maharashtra. 410506
+    state: Maharashtra
+    precision: site
+    lat: 18.703171
+    lon: 73.643181
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation)'
+  capacity:
+    installed:
+      value: 1500
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2026-03-02'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 8276372. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 1500 | certificate Mar 02, 2026 no 8276372
+      status: BESA LITHIUM BATTERIES PRIVATE LIMITED
+- id: cpcb-lico-materials-838
+  name: 'LICO Materials Private Limited: black mass unit, Karnataka'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  operator: LICO MATERIALS PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: Plot No. 104, Sur. No. 43, 53 and 54, Vemgal Industrial Area
+    state: Karnataka
+    precision: site
+    lat: 13.122
+    lon: 77.592
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation)'
+  capacity:
+    installed:
+      value: 25056
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2025-11-26'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 8386421. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 25056 | certificate Nov 26, 2025 no 8386421
+      status: LICO MATERIALS PRIVATE LIMITED
+- id: cpcb-jalon-metal-industries-841
+  name: 'Jalon Metal Industries Private Limited: battery recycling unit, Uttar Pradesh'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery; R4: Battery Dismantling, Physical Separation
+    and Refining (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: JALON METAL INDUSTRIES PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: KHASRA NO 25 0.564, VILLAGE HARYANA,, JOYA, Amroha, Uttar Pradesh, 244222
+    state: Uttar Pradesh
+    precision: site
+    lat: 28.837516
+    lon: 78.494128
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation); dismantling through refining (integrated)'
+  capacity:
+    installed:
+      value: 5400
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2025-04-21'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation); dismantling through refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 8416471. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 5400 | certificate Apr 21, 2025 no 8416471
+      status: JALON METAL INDUSTRIES PRIVATE LIMITED
+- id: cpcb-ozone-waste-843
+  name: 'Ozone Waste LLP: battery recycling unit, Uttar Pradesh'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R1: Lead Acid Battery Recycler; R4: Battery Dismantling, Physical Separation and Refining (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: OZONE WASTE LLP
+  operator_type: Unlisted private
+  location:
+    address: PLOT NO. A 25, SATHARIYA INDUSTRIAL DEVELOPMENT AUTHORITY, MOGRA BADSHAHPUR
+    state: Uttar Pradesh
+    precision: site
+    lat: 25.648299
+    lon: 82.237612
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: dismantling through refining (integrated); also recycles lead-acid batteries'
+  capacity:
+    installed:
+      value: 73500
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate (all battery types)
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2025-06-04'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (dismantling through refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 8436464. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 73500 | certificate Jun 04, 2025 no 8436464
+      status: OZONE WASTE LLP
+- id: cpcb-resource-e-waste-solutions-844
+  name: 'Resource E Waste Solutions Private Limited: battery recycling unit, Uttar Pradesh'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R1: Lead Acid Battery Recycler; R4: Battery Dismantling, Physical Separation and Refining (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: RESOURCE E WASTE SOLUTIONS PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: H27,INDUSTRIAL AREA,KOSI KATWAN ,TEHSIL CHHATA,MATHURA
+    state: Uttar Pradesh
+    precision: site
+    lat: 27.817618
+    lon: 77.41697
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: dismantling through refining (integrated); also recycles lead-acid batteries'
+  capacity:
+    installed:
+      value: 23400
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate (all battery types)
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2025-04-21'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (dismantling through refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 8446484. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 23400 | certificate Apr 21, 2025 no 8446484
+      status: RESOURCE E WASTE SOLUTIONS PRIVATE LIMITED
+- id: cpcb-callx-ringers-851
+  name: 'Callx Ringers Private Limited: battery recycling unit, Maharashtra'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R4: Battery Dismantling, Physical Separation and Refining (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: CALLX RINGERS PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: Building No. Flat No.  42,Shree Vighn Vinayak, BODAKE NAGAR LANE NO. 02 , Panchavati Nashik
+    state: Maharashtra
+    precision: site
+    lat: 20.148673
+    lon: 73.822279
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: dismantling through refining (integrated)'
+  capacity:
+    installed:
+      value: 3000
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2025-04-28'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (dismantling through refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 8516521. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 3000 | certificate Apr 28, 2025 no 8516521
+      status: CALLX RINGERS PRIVATE LIMITED
+- id: cpcb-krishna-eco-e-waste-recyclers-852
+  name: 'Krishna Eco E Waste Recyclers LLP: battery recycling unit, Uttar Pradesh'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R1: Lead Acid Battery Recycler; R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery; R3:
+    Refiners – Only Black Mass Processor (Processing till metals are obtained in compound form) of all types of battery except Lead acid battery; R4: Battery Dismantling, Physical Separation and Refining
+    (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: KRISHNA ECO E WASTE RECYCLERS LLP
+  operator_type: Unlisted private
+  location:
+    address: 76, Tehsil Sardhana, Rithali
+    state: Uttar Pradesh
+    precision: site
+    lat: 29.164154
+    lon: 77.514995
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation); refining black mass to metal compounds; dismantling through refining (integrated); also recycles lead-acid batteries'
+  capacity:
+    installed:
+      value: 3000
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate (all battery types)
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2025-07-04'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation); refining black mass to metal compounds; dismantling through
+      refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 8526529. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 3000 | certificate Jul 04, 2025 no 8526529
+      status: KRISHNA ECO E WASTE RECYCLERS LLP
+- id: cpcb-proprietorship-853
+  name: 'Registered proprietorship (name withheld): battery recycling unit, Telangana'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R4: Battery Dismantling, Physical Separation and Refining (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: Proprietorship (name withheld)
+  operator_type: Unlisted private
+  location:
+    address: null
+    state: Telangana
+    precision: site
+    lat: 17.277774
+    lon: 78.857864
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: dismantling through refining (integrated)'
+  capacity:
+    installed:
+      value: 1000
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2025-03-29'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (dismantling through refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 8536551. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 1000 | certificate Mar 29, 2025 no 8536551
+      status: KAPIL CHAGANTY
+- id: cpcb-cleanwaste-recycling-867
+  name: 'Cleanwaste Recycling India Private Limited: battery recycling unit, Uttar Pradesh'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R1: Lead Acid Battery Recycler; R4: Battery Dismantling, Physical Separation and Refining (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: CLEANWASTE RECYCLING INDIA PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: R 31, UPSIDC, Industrial Area, Sikandrabad, Bulandshahr,  203205Uttar Pradesh
+    state: Uttar Pradesh
+    precision: site
+    lat: 28.473674
+    lon: 77.657477
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: dismantling through refining (integrated); also recycles lead-acid batteries'
+  capacity:
+    installed:
+      value: 46080
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate (all battery types)
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2025-06-04'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (dismantling through refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 8676631. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 46080 | certificate Jun 04, 2025 no 8676631
+      status: CLEANWASTE RECYCLING INDIA PRIVATE LIMITED
+- id: cpcb-metastable-materials-869
+  name: 'Metastable Materials Private Limited: battery recycling unit, Uttar Pradesh'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery; R4: Battery Dismantling, Physical Separation
+    and Refining (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: METASTABLE MATERIALS PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: PLOT NO. F 597, PHASE 2 UPSIDA INDUSTRIAL AREA, M.G. ROAD, HAPUR
+    state: Uttar Pradesh
+    precision: site
+    lat: 28.659523
+    lon: 77.581163
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation); dismantling through refining (integrated)'
+  capacity:
+    installed:
+      value: 6000
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2025-07-08'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation); dismantling through refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 8696668. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 6000 | certificate Jul 08, 2025 no 8696668
+      status: METASTABLE MATERIALS PRIVATE LIMITED
+- id: cpcb-deshwal-waste-management-871
+  name: 'Deshwal Waste Management Private Limited: battery recycling unit, Haryana'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R4: Battery Dismantling, Physical Separation and Refining (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: DESHWAL WASTE MANAGEMENT PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: Plot No 15, Sector 5, Manesar, Gurugram, Haryana, 122052
+    state: Haryana
+    precision: site
+    lat: 28.366782
+    lon: 76.924321
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: dismantling through refining (integrated)'
+  capacity:
+    installed:
+      value: 4284
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2026-05-14'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (dismantling through refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 8716724. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 4284 | certificate May 14, 2026 no 8716724
+      status: DESHWAL WASTE MANAGEMENT PRIVATE LIMITED
+- id: cpcb-muzashi-recyclers-873
+  name: 'Muzashi Recyclers Private Limited: battery recycling unit, Uttar Pradesh'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R1: Lead Acid Battery Recycler; R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery; R3:
+    Refiners – Only Black Mass Processor (Processing till metals are obtained in compound form) of all types of battery except Lead acid battery; R4: Battery Dismantling, Physical Separation and Refining
+    (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: MUZASHI RECYCLERS PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: Khasra No. 355, Hussainpur, Bhopa Road, Khatauli, Muzaffarnagar
+    state: Uttar Pradesh
+    precision: site
+    lat: 29.370932
+    lon: 77.700348
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation); refining black mass to metal compounds; dismantling through refining (integrated); also recycles lead-acid batteries'
+  capacity:
+    installed:
+      value: 2100
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate (all battery types)
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2025-07-08'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation); refining black mass to metal compounds; dismantling through
+      refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 8736733. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 2100 | certificate Jul 08, 2025 no 8736733
+      status: MUZASHI RECYCLERS PRIVATE LIMITED
+- id: cpcb-proprietorship-874
+  name: 'Registered proprietorship (name withheld): black mass unit, Maharashtra'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  operator: Proprietorship (name withheld)
+  operator_type: Unlisted private
+  location:
+    address: null
+    state: Maharashtra
+    precision: site
+    lat: 18.32409
+    lon: 73.40294
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation)'
+  capacity:
+    installed:
+      value: 500
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2026-03-05'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 8746734. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 500 | certificate Mar 05, 2026 no 8746734
+      status: Pratiksha Jaywant Barve
+- id: cpcb-metastable-materials-892
+  name: 'Metastable Materials Private Limited: battery recycling unit, Karnataka'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R3: Refiners – Only Black Mass Processor (Processing till metals are obtained in compound form) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: METASTABLE MATERIALS PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: Printech Park Cluster, 3RD MAIN, B-61, Phase-1,Kanakapura Taluk,  Harohalli Industrial Area Phase 1 & 2, Harohalli Industrial Area,
+    state: Karnataka
+    precision: site
+    lat: 12.686803
+    lon: 77.44721
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: refining black mass to metal compounds'
+  capacity:
+    installed:
+      value: 1800
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2025-11-26'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (refining black mass to metal compounds).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 8926936. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 1800 | certificate Nov 26, 2025 no 8926936
+      status: METASTABLE MATERIALS PRIVATE LIMITED
+- id: cpcb-world-watcher-recovery-898
+  name: 'World Watcher Recovery Private Limited: black mass unit, Uttar Pradesh'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  operator: WORLD WATCHER RECOVERY PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: RT-616, ROYALE TOWER, SHIPRA SUNCITY, INDIRAPURAM
+    state: Uttar Pradesh
+    precision: site
+    lat: 28.605376
+    lon: 77.500398
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation)'
+  capacity:
+    installed:
+      value: 4800
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2025-09-08'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 8987002. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 4800 | certificate Sep 08, 2025 no 8987002
+      status: WORLD WATCHER RECOVERY PRIVATE LIMITED
+- id: cpcb-rmv-metals-and-alloys-899
+  name: 'RMV Metals And Alloys Private Limited: black mass unit, West Bengal'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R1: Lead Acid Battery Recycler; R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  operator: RMV METALS AND ALLOYS PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: SARAWATI COMPLEX,BHANDARDAHA,HAZRAPARA,DOMJUR,NATIBPUR
+    state: West Bengal
+    precision: site
+    lat: 22.609508
+    lon: 88.232324
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation); also recycles lead-acid batteries'
+  capacity:
+    installed:
+      value: 1800
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate (all battery types)
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2025-08-22'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 8997032. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 1800 | certificate Aug 22, 2025 no 8997032
+      status: RMV METALS AND ALLOYS PRIVATE LIMITED
+- id: cpcb-techeco-waste-management-901
+  name: 'Techeco Waste Management LLP: black mass unit, Maharashtra'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  operator: TECHECO WASTE MANAGEMENT LLP
+  operator_type: Unlisted private
+  location:
+    address: 'Floor No.: 2ND FLOOR Building No. UNIT NO. 2A, BUILDING NO. 11/12 RAGHUVANSHI MILLS, SENAPATI BAPAT MARG, LOWER PAREL, MUMBAI, 400013'
+    state: Maharashtra
+    precision: site
+    lat: 20.093367
+    lon: 73.809284
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation)'
+  capacity:
+    installed:
+      value: 8600
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2025-07-28'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 9017078. Registry lists latitude and longitude swapped; corrected.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 8600 | certificate Jul 28, 2025 no 9017078
+      status: TECHECO WASTE MANAGEMENT LLP
+- id: cpcb-recy-energy-902
+  name: 'Recy Energy Private Limited: battery recycling unit, Maharashtra'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R3: Refiners – Only Black Mass Processor (Processing till metals are obtained in compound form) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: RECY ENERGY PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: H-H/A-65/A-66, MIDC Pimpari, Tal. Haveli
+    state: Maharashtra
+    precision: site
+    lat: 18.64124
+    lon: 73.80684
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: refining black mass to metal compounds'
+  capacity:
+    installed:
+      value: 1076.1
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2026-03-05'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (refining black mass to metal compounds).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 9026722. Registry gives degrees-and-decimal-minutes (1838.47459,
+    7348.4103); converted to decimal degrees.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 1076.1 | certificate Mar 05, 2026 no 9026722
+      status: RECY ENERGY PRIVATE LIMITED
+- id: cpcb-mush-ecotech-909
+  name: 'Mush Ecotech: black mass unit, Uttar Pradesh'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  operator: Mush Ecotech
+  operator_type: Unlisted private
+  location:
+    address: Plot No.D-14, UPSIDA Industrial Area Gopalpur, Sikandrabad, Bulandshahr, Uttar Pradesh 203205
+    state: Uttar Pradesh
+    precision: site
+    lat: 28.49
+    lon: 77.66
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation)'
+  capacity:
+    installed:
+      value: 3500
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2025-11-06'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 9097161. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 3500 | certificate Nov 06, 2025 no 9097161
+      status: Mush Ecotech
+- id: cpcb-lixtron-energies-911
+  name: 'Lixtron Energies: battery recycling unit, Telangana'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery; R3: Refiners – Only Black Mass Processor
+    (Processing till metals are obtained in compound form) of all types of battery except Lead acid battery; R4: Battery Dismantling, Physical Separation and Refining (Black Mass Processing) of all types
+    of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: LIXTRON ENERGIES
+  operator_type: Unlisted private
+  location:
+    address: Plot no 19/B, IDA Pashamailaram, Patancheru, Hyderabad, Sangareddy, Telangana, 502319
+    state: Telangana
+    precision: site
+    lat: 17.520099
+    lon: 78.17056
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation); refining black mass to metal compounds; dismantling through refining (integrated)'
+  capacity:
+    installed:
+      value: 1500
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2025-08-28'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation); refining black mass to metal compounds; dismantling through
+      refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 9117158. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 1500 | certificate Aug 28, 2025 no 9117158
+      status: LIXTRON ENERGIES
+- id: cpcb-regain-energies-solutions-915
+  name: 'Regain Energies Solutions Private Limited: black mass unit, Gujarat'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  operator: REGAIN ENERGIES SOLUTIONS PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: PLOT-765, ICHCHHAPOR, Nr. AURO UNI., BHATPORE GIDC, Hajira, Surat, Gujarat, 394270
+    state: Gujarat
+    precision: site
+    lat: 21.082763
+    lon: 72.907816
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation)'
+  capacity:
+    installed:
+      value: 1500
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2025-12-10'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 9157214. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 1500 | certificate Dec 10, 2025 no 9157214
+      status: REGAIN ENERGIES SOLUTIONS PRIVATE LIMITED
+- id: cpcb-navprakriti-green-energies-930
+  name: 'Navprakriti Green Energies Private Limited: battery recycling unit, West Bengal'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery; R4: Battery Dismantling, Physical Separation
+    and Refining (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: NAVPRAKRITI GREEN ENERGIES PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: Dag No 408 409 546 547 548 74 VILL Srirampur Dist- Hooghly west bengal Pin 712234
+    state: West Bengal
+    precision: site
+    lat: 22.774363
+    lon: 88.294509
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation); dismantling through refining (integrated)'
+  capacity:
+    installed:
+      value: 23880
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2025-11-11'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation); dismantling through refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 9307422. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 23880 | certificate Nov 11, 2025 no 9307422
+      status: NAVPRAKRITI GREEN ENERGIES PRIVATE LIMITED
+- id: cpcb-sage-green-industries-931
+  name: 'Sage Green Industries Private Limited: battery recycling unit, Madhya Pradesh'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R4: Battery Dismantling, Physical Separation and Refining (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: SAGE GREEN INDUSTRIES PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: E17, E18, Plot No. E-17 & 18, Sector -Phase II, Industrial Area Mandideep, Tehsil-Goharganj, District-Raisen
+    state: Madhya Pradesh
+    precision: town
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: dismantling through refining (integrated)'
+  capacity:
+    installed:
+      value: 5400
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2025-11-14'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (dismantling through refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 9316096. Registry coordinates fall in Haryana, not the Madhya
+    Pradesh address; point is Mandideep town.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 5400 | certificate Nov 14, 2025 no 9316096
+      status: SAGE GREEN INDUSTRIES PRIVATE LIMITED
+  geo:
+    q: Mandideep
+    state: Madhya Pradesh
+- id: cpcb-koscove-e-waste-935
+  name: 'Koscove E-Waste Private Limited: battery recycling unit, Uttar Pradesh'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R1: Lead Acid Battery Recycler; R4: Battery Dismantling, Physical Separation and Refining (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: KOSCOVE E-WASTE PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: Plot No. -174, Industrial Area, Extension -1, Kosi Kotwan, Tehsil - Chhata, Mathura,263000
+    state: Uttar Pradesh
+    precision: site
+    lat: 27.814228
+    lon: 77.414209
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: dismantling through refining (integrated); also recycles lead-acid batteries'
+  capacity:
+    installed:
+      value: 6600
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate (all battery types)
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2026-01-13'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (dismantling through refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 9357498. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 6600 | certificate Jan 13, 2026 no 9357498
+      status: KOSCOVE E-WASTE PRIVATE LIMITED
+- id: cpcb-proprietorship-937
+  name: 'Registered proprietorship (name withheld): battery recycling unit, Uttar Pradesh'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R1: Lead Acid Battery Recycler; R3: Refiners – Only Black Mass Processor (Processing till metals are obtained in compound form) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: Proprietorship (name withheld)
+  operator_type: Unlisted private
+  location:
+    address: null
+    state: Uttar Pradesh
+    precision: site
+    lat: 28.661196
+    lon: 77.578805
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: refining black mass to metal compounds; also recycles lead-acid batteries'
+  capacity:
+    installed:
+      value: 3600
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate (all battery types)
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2026-01-13'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (refining black mass to metal compounds).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 9377506. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 3600 | certificate Jan 13, 2026 no 9377506
+      status: RAJENDRA PRASAD SINGH
+- id: cpcb-proprietorship-963
+  name: 'Registered proprietorship (name withheld): battery recycling unit, Uttar Pradesh'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R1: Lead Acid Battery Recycler; R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery; R3:
+    Refiners – Only Black Mass Processor (Processing till metals are obtained in compound form) of all types of battery except Lead acid battery; R4: Battery Dismantling, Physical Separation and Refining
+    (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: Proprietorship (name withheld)
+  operator_type: Unlisted private
+  location:
+    address: null
+    state: Uttar Pradesh
+    precision: site
+    lat: 27.370347
+    lon: 81.317022
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation); refining black mass to metal compounds; dismantling through refining (integrated); also recycles lead-acid batteries'
+  capacity:
+    installed:
+      value: 10800
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate (all battery types)
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2026-02-03'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation); refining black mass to metal compounds; dismantling through
+      refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 9637753. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 10800 | certificate Feb 03, 2026 no 9637753
+      status: Irfan Ahamad
+- id: cpcb-shri-balaji-polypacks-1000
+  name: 'Shri Balaji Polypacks: battery recycling unit, Uttar Pradesh'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R1: Lead Acid Battery Recycler; R4: Battery Dismantling, Physical Separation and Refining (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: SHRI BALAJI POLYPACKS
+  operator_type: Unlisted private
+  location:
+    address: KHASRA NO.- 542, JANSATH ROAD, SHER NAGAR, Muzaffarnagar, Uttar Pradesh, 251001
+    state: Uttar Pradesh
+    precision: site
+    lat: 29.4662
+    lon: 77.8437
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: dismantling through refining (integrated); also recycles lead-acid batteries'
+  capacity:
+    installed:
+      value: 64350
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate (all battery types)
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2026-04-16'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (dismantling through refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 10008448. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 64350 | certificate Apr 16, 2026 no 10008448
+      status: SHRI BALAJI POLYPACKS
+- id: cpcb-ranjeet-metals-and-alloys-1018
+  name: 'Ranjeet Metals And Alloys Private Limited: battery recycling unit, West Bengal'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R1: Lead Acid Battery Recycler; R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery; R4:
+    Battery Dismantling, Physical Separation and Refining (Black Mass Processing) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  - Metals in compound form
+  operator: RANJEET METALS AND ALLOYS PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: SARASWATI COMPLEX,BIPARNNAPARA
+    state: West Bengal
+    precision: site
+    lat: 22.61
+    lon: 88.23
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation); dismantling through refining (integrated); also recycles lead-acid batteries'
+  capacity:
+    installed:
+      value: 1680
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate (all battery types)
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2026-10-14'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation); dismantling through refining (integrated)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 10188808. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 1680 | certificate Oct 14, 2026 no 10188808
+      status: RANJEET METALS AND ALLOYS PRIVATE LIMITED
+- id: cpcb-mbvm-ultra-energy-1033
+  name: 'MBVM Ultra Energy Private Limited: black mass unit, Rajasthan'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  operator: MBVM ULTRA ENERGY PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: Flat No - 469/180 SIROHI KHURD, Shri RAM PURA,TEHSIL-PHULERA, Shri RAM PURA, JAIPUR rural, Rajasthan, 303348
+    state: Rajasthan
+    precision: site
+    lat: 26.84822
+    lon: 75.164379
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation)'
+  capacity:
+    installed:
+      value: 6000
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2026-09-14'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 10339203. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 6000 | certificate Sep 14, 2026 no 10339203
+      status: MBVM ULTRA ENERGY PRIVATE LIMITED
+- id: cpcb-jcp-international-1047
+  name: 'JCP International Private Limited: black mass unit, Gujarat'
+  stages:
+  - Recycling
+  minerals:
+  - Lithium
+  - Cobalt
+  - Nickel
+  commodity_as_stated: 'R2: Only Battery Dismantling and Physical separation (Processing till Black Mass Generation) of all types of battery except Lead acid battery'
+  products:
+  - Black mass
+  operator: JCP INTERNATIONAL PRIVATE LIMITED
+  operator_type: Unlisted private
+  location:
+    address: Royal Enclave, A54, NRI Society, Kalawad Road, Rajkot, Gujarat
+    state: Gujarat
+    precision: site
+    lat: 21.632825
+    lon: 69.983367
+  status: Operational
+  status_as_of: '2026-10-24'
+  status_detail: 'CPCB-registered: black mass (dismantling and separation)'
+  capacity:
+    installed:
+      value: 8520
+      unit: tpa
+      basis: registered recycling capacity as per consent to operate
+  feedstock: Scrap/secondary
+  feedstock_detail: Waste batteries other than lead-acid
+  dates:
+    first_public: '2026-10-05'
+  narrative:
+    what_it_does: Registered with the Central Pollution Control Board to recycle non-lead-acid batteries (black mass (dismantling and separation)).
+  confidence: medium
+  notes: Minerals are those of lithium-ion black mass (the registry says only 'all types of battery except lead acid'). Registry certificate no. 10479387. Coordinates as registered with CPCB.
+  sources:
+  - ref: cpcb-battery-registry
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - dates.first_public
+    - operator
+    - commodity_as_stated
+    - products
+    ev:
+      capacity.installed: capacity 8520 | certificate Oct 05, 2026 no 10479387
+      status: JCP INTERNATIONAL PRIVATE LIMITED

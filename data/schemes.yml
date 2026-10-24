@@ -95,6 +95,61 @@
     - beneficiaries
   minerals: []
   layer: schemes
+- id: ncmm-recycling
+  name: Incentive Scheme for Promotion of Critical Mineral Recycling
+  ministry: Ministry of Mines
+  parent: ncmm
+  outlay:
+    amount: 1500
+    currency: INR_crore
+    period: FY2025-26 to FY2030-31
+  dates:
+    approved: null
+    notified: '2025-10-02'
+    applications_close: '2026-04-01'
+  status: Beneficiaries selected
+  status_as_of: '2026-04-30'
+  status_detail: 58 entities eligible (20 on 30 Mar 2026, 38 on 29 Apr 2026); about 850 KTPA and Rs 5,000 crore
+    pledged; names not published
+  aggregates:
+    eligible_entities: 58
+    pledged_capacity: 850 KTPA
+    pledged_investment_inr_cr: 5000
+  beneficiaries:
+  - recyclekaro-palghar
+  bidders: []
+  disbursed:
+    amount: null
+    as_of: null
+  notes: The ministry has not published the 58 names; beneficiaries are added as companies confirm eligibility.
+    Cabinet approved the scheme in Sept 2025 (press reports, not archived).
+  sources:
+  - id: pib-2256977
+    url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2256977&reg=3&lang=1"
+    title: "India advances critical mineral security: 58 companies eligible for recycling scheme"
+    publisher: Press Information Bureau, Government of India
+    tier: T1
+    date: '2026-04-30'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - status_detail
+    - aggregates
+    - outlay
+    - dates.notified
+  - id: air-recycling-guidelines-2025
+    url: "https://www.newsonair.gov.in/ministry-of-mines-issues-guidelines-for-rs-1500-crore-critical-mineral-recycling-incentive-scheme"
+    title: Ministry of Mines issues guidelines for Rs 1,500 crore critical mineral recycling incentive scheme
+    publisher: All India Radio News (Prasar Bharati)
+    tier: T1
+    date: '2025-10-04'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - dates.applications_close
+  minerals: []
+  layer: schemes
 - id: repm
   name: Scheme to Promote Manufacturing of Sintered Rare Earth Permanent Magnets (REPM)
   ministry: Ministry of Heavy Industries
