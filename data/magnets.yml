@@ -75,7 +75,7 @@
   related: []
   see_also: []
   confidence: high
-  last_verified: '2026-10-23'
+  last_verified: '2026-10-24'
   notes: Located on the BARC campus at Atchutapuram (IREL AR 2024-25). Atchutapuram lies in Anakapalli district
     (created 2022); 2019 district polygons place it in Visakhapatnam.
   id: irel-repm-vizag
@@ -199,7 +199,7 @@
   related: []
   see_also: []
   confidence: medium
-  last_verified: '2026-10-23'
+  last_verified: '2026-10-24'
   notes: "Completion: company says Q1 2028 (Deccan Chronicle, Autocar Professional); the state approval lists June\
     \ 2028 (Trade Brains). Trade Brains names the firm 'NaN MagneTech (India)' and gives 25 acres and 400 jobs.\
     \ Naidupeta is in Tirupati district after the 2022 reorganisation; sources say Nellore."
@@ -329,7 +329,7 @@
   related: []
   see_also: []
   confidence: medium
-  last_verified: '2026-10-23'
+  last_verified: '2026-10-24'
   notes: "MoU date: Trade Brains reports it among 15 MoUs signed at the Kakinada regional conference on 12 Oct 2026;\
     \ Autocar Professional says it was signed on Wednesday (14 Oct). The July 2026 Giredmet announcement named a\
     \ Hyderabad site and a 1,200 MTPA FY2033 target; the company has not said how the two plans relate (Autocar\
@@ -456,7 +456,7 @@
   related: []
   see_also: []
   confidence: medium
-  last_verified: '2026-10-23'
+  last_verified: '2026-10-24'
   notes: Approval date taken from the state incentive orders (G.O.Ms. 136/137, 25 Jun 2026, per Trade Brains); the
     SIPB meeting that cleared the project was reported on 26 Jun 2026. Trade Brains gives 25 acres and 530 jobs.
   id: proterial-atchutapuram-ndfeb
@@ -582,7 +582,7 @@
   - irel-oscom-reep
   see_also: []
   confidence: medium
-  last_verified: '2026-10-23'
+  last_verified: '2026-10-24'
   notes: "status_as_of is the date the company website was read (no production figures published). Trade directories\
     \ and older press link TREI's feed to IREL; not confirmed in a primary source."
   id: trei-atchutapuram
@@ -641,6 +641,7 @@
   - Europium
   - Gadolinium
   - Yttrium
+  - Terbium
   commodity_as_stated: high pure individual rare earth oxides of Lanthanum, Cerium, Neodymium-Praseodymium, Samarium,
     Europium, Gadolinium and Yttrium
   products:
@@ -696,6 +697,9 @@
   - date: '2012'
     event: Plant refurbished to process mixed rare earth chloride
     source_id: irel-red-page
+  - date: '2026-03-31'
+    event: "Pilot plants for 99.9% terbium oxide and europium oxide under development (TRL 5)"
+    source_id: ireltdc-ongoing-2026
   narrative:
     significance: "IREL's first unit, running since 1952, is India's only operating separation plant for a full\
       \ suite of light rare earth oxides."
@@ -707,7 +711,7 @@
   - irel-oscom-reep
   see_also: []
   confidence: high
-  last_verified: '2026-10-23'
+  last_verified: '2026-10-24'
   notes: null
   id: irel-red-aluva
   name: IREL Rare Earths Division (RED), Aluva
@@ -750,6 +754,16 @@
     supports:
     - status
     - operator
+  - id: ireltdc-ongoing-2026
+    url: "https://www.irel.co.in/documents/20126/238650/IRELTDC+ongoing+projects+as+on+31.03.2026.pdf/17ec7c9a-8bbc-183e-09e7-52e7203dec81?t=1785401777927"
+    title: "List of on-going R&D projects through IRELTDC as on 31.03.2026"
+    publisher: IREL (India) Limited
+    tier: T2
+    date: '2026-03-31'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - milestones
 - aliases:
   - RETTP Bhopal
   - Rare Earth Metal and Titanium Theme Park
@@ -831,7 +845,7 @@
   related: []
   see_also: []
   confidence: high
-  last_verified: '2026-10-23'
+  last_verified: '2026-10-24'
   notes: "first_public set to the AR 2024-25 year; the park's earlier sanction and foundation dates were not researched.\
     \ The AR's English text says the multi-plant project 'is completed by September 2025'; the Hindi text says it\
     \ will be."
@@ -938,7 +952,7 @@
   - irel-red-aluva
   see_also: []
   confidence: high
-  last_verified: '2026-10-23'
+  last_verified: '2026-10-24'
   notes: "first_public is set to the end of the 2015-16 commissioning year; earlier announcement dates were not\
     \ researched. Output fell about 11% in FY2024-25 on lower RE content in the ore (IREL AR 2024-25)."
   id: irel-oscom-reep
@@ -1072,7 +1086,7 @@
   related: []
   see_also: []
   confidence: medium
-  last_verified: '2026-10-23'
+  last_verified: '2026-10-24'
   notes: "JV date conflict: IREL's projects page says incorporated 28 Jun 2024; the IREL CMD told The Times of India\
     \ the JV was formed in June 2023. Deposits named: Sattankulam and Kudhiraimozhi teri (Thoothukudi district);\
     \ point is the district centroid."
@@ -1185,7 +1199,7 @@
   related: []
   see_also: []
   confidence: medium
-  last_verified: '2026-10-23'
+  last_verified: '2026-10-24'
   notes: "DST's own page (dst.gov.in, 'Pilot Plant for the Manufacture of Nd-Fe-B Rare Earth Permanent Magnets established\
     \ at ARCI, Hyderabad') is script-rendered and could not be archived; its text is reproduced by Tripura Star\
     \ News. Point is the OpenStreetMap node for the ARCI campus at Balapur (Ranga Reddy district)."
@@ -1302,7 +1316,7 @@
   related: []
   see_also: []
   confidence: medium
-  last_verified: '2026-10-23'
+  last_verified: '2026-10-24'
   notes: "Plant site within the Hyderabad area not published; point at city level. Expansion figures vary: Rs 1,000\
     \ crore over three years (Business Standard, Jun 2025) vs Rs 2,000 crore in trade press (not archived). Bid\
     \ under REPM scheme filed jointly with Midwest Energy Ltd (PIB 2299078). Sister firm Midwest Ltd holds monazite\
@@ -1429,7 +1443,7 @@
   related: []
   see_also: []
   confidence: medium
-  last_verified: '2026-10-23'
+  last_verified: '2026-10-24'
   notes: "Capacity of 5,000 tpa (KNN) sits oddly with 'pilot facility' in the same report; treat as a stated target.\
     \ A Nov 2025 PTI report of a Rs 500 crore, 2,000 t LOHUM magnet facility in UP could not be retrieved (403)\
     \ and may describe the same project. The REPM bid was filed by Lohum Magnets & Energy Solutions Pvt Ltd (PIB\

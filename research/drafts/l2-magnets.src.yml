@@ -54,6 +54,12 @@ sources:
     publisher: Press Information Bureau, Government of India
     tier: T1
     date: "2026-02"
+  ireltdc-ongoing-2026:
+    raw: irel.co.in/ireltdc-ongoing-2026-03-31
+    title: "List of on-going R&D projects through IRELTDC as on 31.03.2026"
+    publisher: IREL (India) Limited
+    tier: T2
+    date: "2026-03-31"
   trei-home:
     raw: trei.co.in/index
     title: "Toyotsu Rare Earths India Pvt Ltd: company profile"
@@ -250,7 +256,7 @@ records:
     name: "IREL Rare Earths Division (RED), Aluva"
     aliases: ["IREL Udyogamandal rare earth refinery", "Rare Earth Refining Unit, Aluva"]
     stages: [Magnets]
-    minerals: [Lanthanum, Cerium, Neodymium, Praseodymium, Samarium, Europium, Gadolinium, Yttrium]
+    minerals: [Lanthanum, Cerium, Neodymium, Praseodymium, Samarium, Europium, Gadolinium, Yttrium, Terbium]
     commodity_as_stated: "high pure individual rare earth oxides of Lanthanum, Cerium, Neodymium-Praseodymium, Samarium, Europium, Gadolinium and Yttrium"
     products: ["Separated rare earth oxides (>99% purity): La, Ce, NdPr, Sm, Eu, Gd, Y"]
     operator: "IREL (India) Limited"
@@ -266,6 +272,7 @@ records:
     dates: {first_public: "1952", commissioned: "1952"}
     milestones:
       - {date: "2012", event: "Plant refurbished to process mixed rare earth chloride", source_id: irel-red-page}
+      - {date: "2026-03-31", event: "Pilot plants for 99.9% terbium oxide and europium oxide under development (TRL 5)", source_id: ireltdc-ongoing-2026}
     narrative:
       what_it_does: "Separates mixed rare earth chloride into individual high-purity oxides, including the neodymium-praseodymium oxide that NdFeB magnets need."
       significance: "IREL's first unit, running since 1952, is India's only operating separation plant for a full suite of light rare earth oxides."
@@ -289,6 +296,10 @@ records:
         supports: [status, operator]
         ev:
           status: "IREL runs a Rare Earth Extraction Plant in Odisha and a Rare Earth Refining Unit at Aluva in Kerala"
+      - ref: ireltdc-ongoing-2026
+        supports: [milestones]
+        ev:
+          milestones: ["Development of Pilot plant facility for production of RED, IREL TRL 5", "99.9% Terbium Oxide from 15-20% Terbium", "99.9% Europium Oxide from Europium Barium"]
 
   - id: irel-repm-vizag
     name: "IREL Rare Earth Permanent Magnet (REPM) Plant, Visakhapatnam"

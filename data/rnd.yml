@@ -1,0 +1,1248 @@
+# rnd layer — single source of truth. See docs/SCHEMA.md. Merged by scripts/research/merge.py.
+- aliases: []
+  layer: rnd
+  stages: &id001
+  - "R&D"
+  minerals: []
+  commodity_as_stated: critical minerals (entire value chain)
+  products: &id002
+  - Hub of an NCMM Centre of Excellence consortium
+  operator: CSIR-National Metallurgical Laboratory
+  operator_type: Research lab
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Jamshedpur
+    district: East Singhbhum
+    state: Jharkhand
+    country: India
+    lat: 22.77738
+    lon: 86.20435
+    precision: site
+    geometry: null
+  status: Active
+  status_as_of: '2025-08-01'
+  status_detail: Recognised 1 Aug 2025; hub-and-spoke consortium with industry and academic partners
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2025-08-01'
+    announced: null
+    mou: null
+    approved: '2025-07-31'
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Leads one of the nine government-recognised research hubs for critical minerals, working with
+      industry spokes toward pilot plants.
+    why_it_matters: null
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-24'
+  notes: null
+  id: coe-csir-nml
+  name: "CSIR-NML Jamshedpur: NCMM Centre of Excellence for critical minerals"
+  rnd:
+    institution_type: CSIR
+    programmes:
+    - ncmm-coe
+    focus:
+    - Extractive metallurgy
+    - Rare-earth additions to steel (IRELTDC project)
+    funding:
+      amount: null
+      currency: null
+      funder: null
+  sources:
+  - id: pib-2151287
+    url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2151287"
+    title: Mines Ministry recognizes seven Centres of Excellence to work under the National Critical Mineral Mission
+    publisher: Press Information Bureau, Government of India
+    tier: T1
+    date: '2025-08-01'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - status_detail
+    - dates.approved
+    - dates.first_public
+    - operator
+    - rnd
+    - location
+  - id: ireltdc-ongoing-2026
+    url: "https://www.irel.co.in/documents/20126/238650/IRELTDC+ongoing+projects+as+on+31.03.2026.pdf/17ec7c9a-8bbc-183e-09e7-52e7203dec81?t=1785401777927"
+    title: "List of on-going R&D projects through IRELTDC as on 31.03.2026"
+    publisher: IREL (India) Limited
+    tier: T2
+    date: '2026-03-31'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - rnd
+- aliases: []
+  layer: rnd
+  stages: *id001
+  minerals: []
+  commodity_as_stated: critical minerals (entire value chain)
+  products: *id002
+  operator: Indian Institute of Technology (Indian School of Mines) Dhanbad
+  operator_type: Academic
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Dhanbad
+    district: Dhanbad
+    state: Jharkhand
+    country: India
+    lat: 23.79528
+    lon: 86.43096
+    precision: town
+    geometry: null
+  status: Active
+  status_as_of: '2025-08-01'
+  status_detail: Recognised 1 Aug 2025; hub-and-spoke consortium with industry and academic partners
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2025-08-01'
+    announced: null
+    mou: null
+    approved: '2025-07-31'
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Leads one of the nine government-recognised research hubs for critical minerals, working with
+      industry spokes toward pilot plants.
+    why_it_matters: null
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-24'
+  notes: null
+  id: coe-iit-ism-dhanbad
+  name: "IIT (ISM) Dhanbad: NCMM Centre of Excellence for critical minerals"
+  rnd: &id003
+    institution_type: Academic
+    programmes:
+    - ncmm-coe
+    focus:
+    - "Critical mineral value chain R&D toward pilot scale (TRL 7/8)"
+    funding:
+      amount: null
+      currency: null
+      funder: "Project-based: government R&D schemes, industry, venture investors"
+  sources:
+  - id: pib-2151287
+    url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2151287"
+    title: Mines Ministry recognizes seven Centres of Excellence to work under the National Critical Mineral Mission
+    publisher: Press Information Bureau, Government of India
+    tier: T1
+    date: '2025-08-01'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - status_detail
+    - dates.approved
+    - dates.first_public
+    - operator
+    - rnd
+    - location
+- aliases: []
+  layer: rnd
+  stages: *id001
+  minerals: []
+  commodity_as_stated: critical minerals (entire value chain)
+  products: *id002
+  operator: Indian Institute of Science
+  operator_type: Academic
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Bengaluru
+    district: Bengaluru
+    state: Karnataka
+    country: India
+    lat: 13.02224
+    lon: 77.56718
+    precision: site
+    geometry: null
+  status: Active
+  status_as_of: '2025-10-25'
+  status_detail: Recognised Oct 2025, bringing the CoE network to nine
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2025-10-25'
+    announced: null
+    mou: null
+    approved: '2025-10-24'
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Leads one of the nine government-recognised research hubs for critical minerals, working with
+      industry spokes toward pilot plants.
+    why_it_matters: null
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-24'
+  notes: null
+  id: coe-iisc-bengaluru
+  name: "IISc Bengaluru: NCMM Centre of Excellence for critical minerals"
+  rnd: *id003
+  sources:
+  - id: tribune-coe-2025
+    url: "https://www.tribuneindia.com/news/business/two-more-centres-of-excellence-recognised-by-mines-ministry-under-critical-mineral-mission"
+    title: Two more Centres of Excellence recognised by Mines Ministry under critical mineral mission
+    publisher: The Tribune (ANI)
+    tier: T3
+    date: '2025-10-25'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - status_detail
+    - dates.approved
+    - dates.first_public
+    - operator
+    - location
+  - id: careers360-coe-2025
+    url: "https://news.careers360.com/government-recognises-iisc-bangalore-cmet-centre-of-excellence-boost-research-development-critical-minerals-clean-energy-hub"
+    title: "Government recognises IISc, CMET as Centre of Excellence to boost R&D in critical minerals"
+    publisher: Careers360
+    tier: T3
+    date: '2025-10-26'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - status_detail
+- aliases: []
+  layer: rnd
+  stages:
+  - "R&D"
+  minerals:
+  - Rare earths (unspecified)
+  commodity_as_stated: Rare-Earth added Aluminium Alloys
+  products:
+  - Rare-earth-added aluminium alloys for aerospace, marine, energy and automotive uses (TRL 3/4)
+  operator: CSIR-National Institute for Interdisciplinary Science and Technology
+  operator_type: Research lab
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Thiruvananthapuram
+    district: Thiruvananthapuram
+    state: Kerala
+    country: India
+    lat: 8.47176
+    lon: 76.99226
+    precision: site
+    geometry: null
+  status: Active
+  status_as_of: '2026-03-31'
+  status_detail: null
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2026-03-31'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Develops aluminium alloys with rare earth additions, funded by IREL to create domestic demand
+      for its oxides.
+    why_it_matters: null
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-24'
+  notes: null
+  id: csir-niist-rare-earth-alloys
+  name: "CSIR-NIIST Thiruvananthapuram: rare earth aluminium alloys programme"
+  rnd:
+    institution_type: CSIR
+    programmes:
+    - ireltdc
+    focus:
+    - Rare-earth aluminium alloys
+    funding:
+      amount: null
+      currency: null
+      funder: IREL Technology Development Council
+  sources:
+  - id: ireltdc-ongoing-2026
+    url: "https://www.irel.co.in/documents/20126/238650/IRELTDC+ongoing+projects+as+on+31.03.2026.pdf/17ec7c9a-8bbc-183e-09e7-52e7203dec81?t=1785401777927"
+    title: "List of on-going R&D projects through IRELTDC as on 31.03.2026"
+    publisher: IREL (India) Limited
+    tier: T2
+    date: '2026-03-31'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - status
+    - products
+    - rnd
+    - dates.first_public
+    - operator
+    - location
+- aliases: []
+  layer: rnd
+  stages:
+  - "R&D"
+  minerals:
+  - Rare earths (unspecified)
+  - Samarium
+  - Cobalt
+  commodity_as_stated: laboratory-scale rare earth metal technologies; samarium-cobalt magnet testing
+  products:
+  - Rare earth metal process technology (licensed to IREL pilots)
+  - "Testing of IREL's Sm2Co17 magnets"
+  operator: Bhabha Atomic Research Centre, Department of Atomic Energy
+  operator_type: Research lab
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Trombay, Mumbai
+    district: Mumbai Suburban
+    state: Maharashtra
+    country: India
+    lat: 19.02063
+    lon: 72.92757
+    precision: site
+    geometry: null
+  status: Active
+  status_as_of: '2025-09-19'
+  status_detail: null
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2025-09-19'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Developed the rare earth metal processes IREL is piloting at Bhopal and tests the samarium-cobalt
+      magnets made at Visakhapatnam.
+    why_it_matters: null
+  related:
+  - irel-rettp-bhopal
+  - irel-repm-vizag
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-24'
+  notes: null
+  id: barc-trombay-rare-earths
+  name: "BARC Trombay: rare earth and magnet technology"
+  rnd:
+    institution_type: DAE
+    programmes: []
+    focus:
+    - Rare earth metal extraction processes
+    - Samarium-cobalt magnets
+    funding:
+      amount: null
+      currency: null
+      funder: Department of Atomic Energy
+  sources:
+  - id: irel-rettp-page
+    url: "https://www.irel.co.in/rare-earth-theme-park-bhopal"
+    title: "Rare Earth & Titanium Theme Park, Bhopal"
+    publisher: IREL (India) Limited
+    tier: T2
+    date: null
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - status
+    - products
+    - rnd
+    - operator
+    - location
+  - id: irel-ar-2024-25
+    url: "https://www.irel.co.in/documents/20126/114997/Annual+Report+2024-25+IREL+%281%29.pdf/cb3382a3-24fa-c697-4a7c-782752762b4c?t=1762855411950"
+    title: IREL (India) Limited Annual Report 2024-25
+    publisher: IREL (India) Limited
+    tier: T2
+    date: '2025-09-19'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - status
+    - products
+    - dates.first_public
+- aliases: []
+  layer: rnd
+  stages: *id001
+  minerals: []
+  commodity_as_stated: critical minerals (entire value chain)
+  products: *id002
+  operator: Indian Institute of Technology Bombay
+  operator_type: Academic
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Powai, Mumbai
+    district: Mumbai Suburban
+    state: Maharashtra
+    country: India
+    lat: 19.13262
+    lon: 72.91497
+    precision: site
+    geometry: null
+  status: Active
+  status_as_of: '2025-08-01'
+  status_detail: Recognised 1 Aug 2025; hub-and-spoke consortium with industry and academic partners
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2025-08-01'
+    announced: null
+    mou: null
+    approved: '2025-07-31'
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Leads one of the nine government-recognised research hubs for critical minerals, working with
+      industry spokes toward pilot plants.
+    why_it_matters: null
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-24'
+  notes: null
+  id: coe-iit-bombay
+  name: "IIT Bombay: NCMM Centre of Excellence for critical minerals"
+  rnd: *id003
+  sources:
+  - id: pib-2151287
+    url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2151287"
+    title: Mines Ministry recognizes seven Centres of Excellence to work under the National Critical Mineral Mission
+    publisher: Press Information Bureau, Government of India
+    tier: T1
+    date: '2025-08-01'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - status_detail
+    - dates.approved
+    - dates.first_public
+    - operator
+    - rnd
+    - location
+- aliases: []
+  layer: rnd
+  stages:
+  - "R&D"
+  - Policy infrastructure
+  minerals: []
+  commodity_as_stated: critical mineral recycling scheme; recovery from overburden, tailings, fly ash, red mud
+  products:
+  - Project Management Agency, critical mineral recycling scheme
+  - Pilot-project scheme for CoEs (secondary resources)
+  operator: Jawaharlal Nehru Aluminium Research Development and Design Centre (Ministry of Mines)
+  operator_type: Research lab
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Nagpur
+    district: Nagpur
+    state: Maharashtra
+    country: India
+    lat: 21.14981
+    lon: 79.08206
+    precision: town
+    geometry: null
+  status: Active
+  status_as_of: '2026-04-30'
+  status_detail: Evaluated the recycling-scheme applications (58 eligible); runs the NCMM pilot-project scheme for
+    CoEs
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes:
+  - ncmm-recycling
+  scheme_status:
+    ncmm-recycling: Not applicable
+  dates:
+    first_public: '2026-04-30'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: "The Ministry of Mines' aluminium research centre, now running the recycling incentive scheme\
+      \ and the residue-recovery pilot programme."
+    why_it_matters: null
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-24'
+  notes: null
+  id: jnarddc-nagpur
+  name: "JNARDDC Nagpur: NCMM project management and residue-recovery pilots"
+  rnd:
+    institution_type: Ministry lab
+    programmes:
+    - ncmm-recycling
+    - ncmm-coe
+    focus:
+    - Recovery of critical minerals from tailings, fly ash and red mud
+    - Scheme project management
+    funding:
+      amount: null
+      currency: null
+      funder: Ministry of Mines
+  sources:
+  - id: jnarddc-coe-pilots
+    url: "https://jnarddc.gov.in/en/Schemes/pilot-projects-for-CoEs.aspx"
+    title: Pilot Projects for Recovery of Critical Minerals for CoEs
+    publisher: JNARDDC, Ministry of Mines
+    tier: T1
+    date: null
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - products
+    - rnd
+    - operator
+    - location
+  - id: ians-recycling-2026
+    url: "https://ianslive.in/india-advances-critical-mineral-security-clears-58-firms-for-recycling-scheme--20260430182613"
+    title: India advances critical mineral security, clears 58 firms for recycling scheme
+    publisher: IANS
+    tier: T3
+    date: '2026-04-30'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - status_detail
+    - dates.first_public
+- aliases: []
+  layer: rnd
+  stages: *id001
+  minerals: []
+  commodity_as_stated: critical minerals (entire value chain)
+  products: *id002
+  operator: CSIR-Institute of Minerals and Materials Technology
+  operator_type: Research lab
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Bhubaneswar
+    district: Khordha
+    state: Odisha
+    country: India
+    lat: 20.30128
+    lon: 85.82807
+    precision: site
+    geometry: null
+  status: Active
+  status_as_of: '2025-08-01'
+  status_detail: Recognised 1 Aug 2025; hub-and-spoke consortium with industry and academic partners
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2025-08-01'
+    announced: null
+    mou: null
+    approved: '2025-07-31'
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Leads one of the nine government-recognised research hubs for critical minerals, working with
+      industry spokes toward pilot plants.
+    why_it_matters: null
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-24'
+  notes: null
+  id: coe-csir-immt
+  name: "CSIR-IMMT Bhubaneswar: NCMM Centre of Excellence for critical minerals"
+  rnd:
+    institution_type: CSIR
+    programmes:
+    - ncmm-coe
+    focus:
+    - Mineral processing
+    - Recovery from fly ash and residues
+    - Monazite flotation (IRELTDC project)
+    funding:
+      amount: null
+      currency: null
+      funder: null
+  sources:
+  - id: pib-2151287
+    url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2151287"
+    title: Mines Ministry recognizes seven Centres of Excellence to work under the National Critical Mineral Mission
+    publisher: Press Information Bureau, Government of India
+    tier: T1
+    date: '2025-08-01'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - status_detail
+    - dates.approved
+    - dates.first_public
+    - operator
+    - rnd
+    - location
+  - id: ireltdc-ongoing-2026
+    url: "https://www.irel.co.in/documents/20126/238650/IRELTDC+ongoing+projects+as+on+31.03.2026.pdf/17ec7c9a-8bbc-183e-09e7-52e7203dec81?t=1785401777927"
+    title: "List of on-going R&D projects through IRELTDC as on 31.03.2026"
+    publisher: IREL (India) Limited
+    tier: T2
+    date: '2026-03-31'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - rnd
+- aliases: []
+  layer: rnd
+  stages:
+  - Exploration
+  - "R&D"
+  minerals:
+  - Rare earths (unspecified)
+  - Titanium
+  - Zirconium
+  commodity_as_stated: exploration of beach sand and rare earth deposits
+  products:
+  - Exploration reports for beach sand and rare earth deposits
+  operator: Atomic Minerals Directorate (AMD), Department of Atomic Energy
+  operator_type: Government / Ministry
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Hyderabad
+    district: Hyderabad
+    state: Telangana
+    country: India
+    lat: 17.36059
+    lon: 78.47406
+    precision: town
+    geometry: null
+  status: Active
+  status_as_of: '2026-07-27'
+  status_detail: null
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2026-07-27'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: "The atomic-energy agency that explores India's beach sand and rare earth deposits before leases\
+      \ go to IREL."
+    why_it_matters: null
+  related:
+  - irel-tamin-thoothukudi
+  see_also: []
+  confidence: medium
+  last_verified: '2026-10-24'
+  notes: AMD headquarters is in Hyderabad (Begumpet); regional centres are not mapped.
+  id: amd-hyderabad
+  name: Atomic Minerals Directorate for Exploration and Research, Hyderabad
+  rnd:
+    institution_type: DAE
+    programmes: []
+    focus:
+    - Exploration of atomic minerals, beach sands and rare earths
+    funding:
+      amount: null
+      currency: null
+      funder: Department of Atomic Energy
+  sources:
+  - id: toi-irel-tamin-2026
+    url: "https://timesofindia.indiatimes.com/city/chennai/tamil-nadus-rare-earth-corridor-can-become-a-magnet-for-investments-irel/articleshow/132646922.cms"
+    title: "Tamil Nadu's Rare Earth Corridor can become a magnet for investments: IREL"
+    publisher: The Times of India
+    tier: T3
+    date: '2026-07-27'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - status
+    - products
+    - operator
+    - dates.first_public
+- aliases: []
+  layer: rnd
+  stages: *id001
+  minerals: []
+  commodity_as_stated: critical minerals (entire value chain)
+  products: *id002
+  operator: Centre for Materials for Electronics Technology (MeitY)
+  operator_type: Research lab
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Hyderabad
+    district: Hyderabad
+    state: Telangana
+    country: India
+    lat: 17.36059
+    lon: 78.47406
+    precision: town
+    geometry: null
+  status: Active
+  status_as_of: '2025-10-25'
+  status_detail: Recognised Oct 2025, bringing the CoE network to nine
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2025-10-25'
+    announced: null
+    mou: null
+    approved: '2025-10-24'
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Leads one of the nine government-recognised research hubs for critical minerals, working with
+      industry spokes toward pilot plants.
+    why_it_matters: null
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-24'
+  notes: null
+  id: coe-cmet-hyderabad
+  name: "C-MET Hyderabad: NCMM Centre of Excellence for critical minerals"
+  rnd:
+    institution_type: Ministry lab
+    programmes:
+    - ncmm-coe
+    focus:
+    - Electronic materials
+    - Critical mineral recovery and processing
+    funding:
+      amount: null
+      currency: null
+      funder: null
+  sources:
+  - id: tribune-coe-2025
+    url: "https://www.tribuneindia.com/news/business/two-more-centres-of-excellence-recognised-by-mines-ministry-under-critical-mineral-mission"
+    title: Two more Centres of Excellence recognised by Mines Ministry under critical mineral mission
+    publisher: The Tribune (ANI)
+    tier: T3
+    date: '2025-10-25'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - status_detail
+    - dates.approved
+    - dates.first_public
+    - operator
+    - location
+  - id: careers360-coe-2025
+    url: "https://news.careers360.com/government-recognises-iisc-bangalore-cmet-centre-of-excellence-boost-research-development-critical-minerals-clean-energy-hub"
+    title: "Government recognises IISc, CMET as Centre of Excellence to boost R&D in critical minerals"
+    publisher: Careers360
+    tier: T3
+    date: '2025-10-26'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - status_detail
+- aliases: []
+  layer: rnd
+  stages: *id001
+  minerals: []
+  commodity_as_stated: critical minerals (entire value chain)
+  products: *id002
+  operator: Indian Institute of Technology Hyderabad
+  operator_type: Academic
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Kandi
+    district: Sangareddy
+    state: Telangana
+    country: India
+    lat: 17.59228
+    lon: 78.12219
+    precision: site
+    geometry: null
+  status: Active
+  status_as_of: '2025-08-01'
+  status_detail: Recognised 1 Aug 2025; hub-and-spoke consortium with industry and academic partners
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2025-08-01'
+    announced: null
+    mou: null
+    approved: '2025-07-31'
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Leads one of the nine government-recognised research hubs for critical minerals, working with
+      industry spokes toward pilot plants.
+    why_it_matters: null
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-24'
+  notes: null
+  id: coe-iit-hyderabad
+  name: "IIT Hyderabad: NCMM Centre of Excellence for critical minerals"
+  rnd: *id003
+  sources:
+  - id: pib-2151287
+    url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2151287"
+    title: Mines Ministry recognizes seven Centres of Excellence to work under the National Critical Mineral Mission
+    publisher: Press Information Bureau, Government of India
+    tier: T1
+    date: '2025-08-01'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - status_detail
+    - dates.approved
+    - dates.first_public
+    - operator
+    - rnd
+    - location
+- aliases: []
+  layer: rnd
+  stages: *id001
+  minerals: []
+  commodity_as_stated: critical minerals (entire value chain)
+  products: *id002
+  operator: Non-Ferrous Materials Technology Development Centre (Ministry of Mines)
+  operator_type: Research lab
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Hyderabad
+    district: Hyderabad
+    state: Telangana
+    country: India
+    lat: 17.36059
+    lon: 78.47406
+    precision: town
+    geometry: null
+  status: Active
+  status_as_of: '2025-08-01'
+  status_detail: Recognised 1 Aug 2025; hub-and-spoke consortium with industry and academic partners
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2025-08-01'
+    announced: null
+    mou: null
+    approved: '2025-07-31'
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Leads one of the nine government-recognised research hubs for critical minerals, working with
+      industry spokes toward pilot plants.
+    why_it_matters: null
+  related:
+  - mam-hyderabad-ndfeb
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-24'
+  notes: null
+  id: coe-nftdc-hyderabad
+  name: "NFTDC Hyderabad: NCMM Centre of Excellence for critical minerals"
+  rnd:
+    institution_type: Ministry lab
+    programmes:
+    - ncmm-coe
+    focus:
+    - Rare earth metal by molten salt electrolysis
+    - Rare earth permanent magnet technology
+    funding:
+      amount: null
+      currency: null
+      funder: null
+  sources:
+  - id: pib-2151287
+    url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2151287"
+    title: Mines Ministry recognizes seven Centres of Excellence to work under the National Critical Mineral Mission
+    publisher: Press Information Bureau, Government of India
+    tier: T1
+    date: '2025-08-01'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - status_detail
+    - dates.approved
+    - dates.first_public
+    - operator
+    - location
+  - id: pib-2022185
+    url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2022185"
+    title: TDB approves support for M/s Midwest Advanced Materials Private Limited, Hyderabad for Sustainable Magnet
+      Production
+    publisher: Press Information Bureau, Government of India
+    tier: T1
+    date: '2024-05-30'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - rnd
+- aliases: []
+  layer: rnd
+  stages: *id001
+  minerals: []
+  commodity_as_stated: critical minerals (entire value chain)
+  products: *id002
+  operator: Indian Institute of Technology Roorkee
+  operator_type: Academic
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Roorkee
+    district: Haridwar
+    state: Uttarakhand
+    country: India
+    lat: 29.86617
+    lon: 77.89574
+    precision: site
+    geometry: null
+  status: Active
+  status_as_of: '2025-08-01'
+  status_detail: Recognised 1 Aug 2025; hub-and-spoke consortium with industry and academic partners
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2025-08-01'
+    announced: null
+    mou: null
+    approved: '2025-07-31'
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: Leads one of the nine government-recognised research hubs for critical minerals, working with
+      industry spokes toward pilot plants.
+    why_it_matters: null
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-24'
+  notes: null
+  id: coe-iit-roorkee
+  name: "IIT Roorkee: NCMM Centre of Excellence for critical minerals"
+  rnd: *id003
+  sources:
+  - id: pib-2151287
+    url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2151287"
+    title: Mines Ministry recognizes seven Centres of Excellence to work under the National Critical Mineral Mission
+    publisher: Press Information Bureau, Government of India
+    tier: T1
+    date: '2025-08-01'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - status_detail
+    - dates.approved
+    - dates.first_public
+    - operator
+    - rnd
+    - location

@@ -71,3 +71,10 @@ Queries, registries pulled, decisions, inclusion calls and dead ends. Newest ent
 - 28 records in `data/mines.yml` (70 excerpts checked). Sources: IBM Indian Minerals Yearbook 2023 producer tables (graphite, rock phosphate, tin, zircon, lead-zinc, copper) and LS USQ 3828 (Hindustan Copper mine status, Dec 2024); HCL BRSR 2025-26; IREL AR 2024-25.
 - Copper: Malanjkhand, Khetri, Kolihan, Surda (operational); Kendadih and Rakha (stalled). Zinc-lead as cadmium streams (D-003): Rampura Agucha, Sindesar Khurd, Rajpura Dariba, Zawar group, Kayad. Graphite: TAMIN Sivaganga plus four IBM-listed producers. Rock phosphate: RSMML Jhamarkotra, MPSMCL Meghnagar and Hirapur, Khajuraho Stones. Tin: two Dantewada producers. Beach sands: IREL Chavara, Manavalakurichi, OSCOM; IREL Brahmagiri (LoI 2023); KMML Chavara. By-product molybdenum: UCIL Jaduguda (district precision, atomic facility).
 - No production found for tungsten, nickel, cobalt, lithium, beryl, potash or primary antimony in India (IBM 2023). Auctioned blocks in production would sit in L1; none reported yet.
+
+## L7 R&D and Centres of Excellence (2026-10-24)
+
+- 13 records in `data/rnd.yml`. Anchor: NCMM CoEs = 9 (seven recognised 1 Aug 2025, PIB 2151287: IIT Bombay, IIT Hyderabad, IIT-ISM Dhanbad, IIT Roorkee, CSIR-IMMT, CSIR-NML, NFTDC; IISc Bengaluru and C-MET Hyderabad added 24-25 Oct 2025). The playbook's guessed seven matched PIB exactly. No further CoE found for 2026.
+- Also mapped: JNARDDC Nagpur (recycling-scheme PMA; NCMM residue pilots), BARC Trombay (rare earth metal processes behind IREL's Bhopal pilots; SmCo testing), AMD Hyderabad, CSIR-NIIST (IRELTDC rare-earth aluminium alloys).
+- ANRF Critical Raw Materials programme (CoE-only call, portal Jan 2026): no awardee list published as of 24 Oct 2026.
+- IRELTDC's 10 ongoing projects (Mar 2026) are mostly small lab projects; only NIIST is mapped as an institution, and IREL RED's terbium and europium oxide pilots are added to the Aluva record in L2. Excluded: single small projects (NIT Warangal ceria coatings, GCECT garnet tiles, AMPRI red clay shielding, IIT Delhi methane reforming).
