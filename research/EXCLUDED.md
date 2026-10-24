@@ -13,7 +13,7 @@ Every candidate considered and rejected, with the rule that rejected it, so the 
 | Lead-acid battery recyclers producing antimonial lead | D-002 | 499 CPCB-registered units whose only registered type is R1 (lead-acid); a further 41 units registered for lead-acid plus Li-ion types are kept as Li-ion recyclers | CPCB Battery EPR portal registry, retrieved 2026-10-24 |
 | Phosphoric-acid, yellow-phosphorus-for-fertiliser and fertilizer plants | D-002 | _to be filled during L4_ | |
 | Ferro-manganese, silico-manganese and ferro-chrome plants | D-003 | _to be filled during L4_ | |
-| Manganese, chromite and bauxite mines (no canonical by-product) | D-003 | _to be filled during L6_ | |
+| Manganese, chromite and bauxite mines (no canonical by-product) | D-003 | Bauxite: 160 reporting mines in 2022-23; manganese ore: 133; chromite: count not extracted | IBM Indian Minerals Yearbook 2023 |
 | Alumina refineries without gallium recovery | D-003 | _to be filled during L4_ | |
 | Coking-coal blocks (MMDR Part D since Jan 2026) | D-004 | _to be filled during L1_ | |
 | Solar module-only and cell-only plants | Playbook L4 | | |

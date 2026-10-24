@@ -65,3 +65,9 @@ Queries, registries pulled, decisions, inclusion calls and dead ends. Newest ent
 - Added from other sources: Recyclekaro Palghar (NCMM scheme eligible), NALCO fly ash and red mud pilots (Bhubaneswar, Aug 2026), Ravindra Heraeus PGM catalyst recycling (Udaipur; Vizag site acquired Sept 2024).
 - Anchors: NCMM recycling scheme, 58 eligible (20 + 38), 850 KTPA, Rs 5,000 crore pledged (PIB 2256977); names unpublished. CPCB e-waste recycler count not verified (reported 322 in Feb 2025; source link did not archive). CPCB battery registry: 587 recyclers, 88 non-lead-acid (Oct 2026).
 - Not found or deferred: base-metal spent-catalyst recyclers (no named plant beyond Rubamin, which is in the registry), e-waste metal-recovery units (list behind login), Attero's rare earth recycling site (claims without a named plant; Attero's Roorkee unit is in the registry).
+
+## L6 Operating mines (2026-10-24)
+
+- 28 records in `data/mines.yml` (70 excerpts checked). Sources: IBM Indian Minerals Yearbook 2023 producer tables (graphite, rock phosphate, tin, zircon, lead-zinc, copper) and LS USQ 3828 (Hindustan Copper mine status, Dec 2024); HCL BRSR 2025-26; IREL AR 2024-25.
+- Copper: Malanjkhand, Khetri, Kolihan, Surda (operational); Kendadih and Rakha (stalled). Zinc-lead as cadmium streams (D-003): Rampura Agucha, Sindesar Khurd, Rajpura Dariba, Zawar group, Kayad. Graphite: TAMIN Sivaganga plus four IBM-listed producers. Rock phosphate: RSMML Jhamarkotra, MPSMCL Meghnagar and Hirapur, Khajuraho Stones. Tin: two Dantewada producers. Beach sands: IREL Chavara, Manavalakurichi, OSCOM; IREL Brahmagiri (LoI 2023); KMML Chavara. By-product molybdenum: UCIL Jaduguda (district precision, atomic facility).
+- No production found for tungsten, nickel, cobalt, lithium, beryl, potash or primary antimony in India (IBM 2023). Auctioned blocks in production would sit in L1; none reported yet.

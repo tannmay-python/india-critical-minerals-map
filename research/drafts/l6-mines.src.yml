@@ -1,0 +1,781 @@
+# L6 operating mines and by-product streams: compact research draft.
+# Main registry: IBM Indian Minerals Yearbook 2023 (62nd edition) and LS USQ 3828 (Hindustan Copper mines, Dec 2024).
+# Zinc-lead mines are recorded only as cadmium streams (D-003).
+layer: mines
+
+sources:
+  imyb-2023:
+    raw: ibm.gov.in/imyb-2023-book
+    title: "Indian Minerals Yearbook 2023 (62nd edition)"
+    publisher: Indian Bureau of Mines, Ministry of Mines
+    tier: T1
+    date: "2025-01"
+  ls-usq-3828-2024:
+    raw: sansad.in/AU3828_PuCmHU-74598729
+    title: "Lok Sabha Unstarred Question 3828: Copper mines under Hindustan Copper Limited"
+    publisher: Lok Sabha Secretariat
+    tier: T1
+    date: "2024-12-18"
+  hcl-brsr-2026:
+    raw: nsearchives.nseindia.com/HINDCOPPERMKD_27082026180008_BSENSEBRSR27082026
+    title: "Hindustan Copper Business Responsibility and Sustainability Report 2025-26"
+    publisher: Hindustan Copper Ltd
+    tier: T2
+    date: "2026-08-27"
+  irel-ar-2024-25:
+    raw: irel.co.in/irel-ar-2024-25
+    title: "IREL (India) Limited Annual Report 2024-25"
+    publisher: IREL (India) Limited
+    tier: T2
+    date: "2025-09-19"
+
+records:
+  # ------------------------------------------------------------ Hindustan Copper
+  - id: hcl-malanjkhand-mine
+    name: "Malanjkhand copper mine and concentrator"
+    aliases: ["Malanjkhand Copper Project"]
+    stages: [Mining, Beneficiation]
+    minerals: [Copper]
+    commodity_as_stated: "copper ore; copper concentrate"
+    products: ["Copper ore", "Copper concentrate"]
+    operator: "Hindustan Copper Ltd"
+    operator_type: "PSU (Central)"
+    location: {village_or_town: "Malanjkhand", district: "Balaghat", state: "Madhya Pradesh"}
+    geo: {q: "Malanjkhand", state: "Madhya Pradesh"}
+    status: Operational
+    status_as_of: "2024-12-18"
+    status_detail: "2.55 million t of ore in FY2023-24; concentrator since 1982"
+    capacity:
+      installed: {value: 2, unit: "million tpy", basis: "concentrator ore throughput"}
+    dates: {first_public: "1982", commissioned: "1982"}
+    narrative:
+      what_it_does: "India's largest copper mine, an open pit moving underground, with its own concentrator in Balaghat district."
+      why_it_matters: "It supplies over half of the country's mined copper concentrate."
+    confidence: high
+    sources:
+      - ref: ls-usq-3828-2024
+        supports: [status, status_detail, dates.commissioned, dates.first_public, operator, location]
+        ev:
+          status: "Malanjkhand Operational Madhya Pradesh 25,45,820"
+          dates.commissioned: "Concentrator 28.73 1982"
+      - ref: imyb-2023
+        supports: [capacity.installed]
+        ev:
+          capacity.installed: "and Malanjkhand, Madhya Pradesh with two million tpy"
+
+  - id: hcl-khetri-mine
+    name: "Khetri copper mine and concentrator"
+    aliases: ["Khetri Copper Complex mine"]
+    stages: [Mining, Beneficiation]
+    minerals: [Copper]
+    commodity_as_stated: "copper ore"
+    products: ["Copper ore", "Copper concentrate"]
+    operator: "Hindustan Copper Ltd"
+    operator_type: "PSU (Central)"
+    location: {village_or_town: "Khetri", district: "Jhunjhunu", state: "Rajasthan"}
+    geo: {q: "Khetri", state: Rajasthan}
+    status: Operational
+    status_as_of: "2024-12-18"
+    status_detail: "Khetri and Kolihan mines produced 1.23 million t of ore in FY2023-24; KCC concentrator 2.02 million tpy"
+    capacity:
+      installed: {value: 2.02, unit: "million tpy", basis: "KCC concentrator"}
+    dates: {first_public: "2024-12-18"}
+    narrative:
+      what_it_does: "An underground copper mine feeding Hindustan Copper's Khetri concentrator in Rajasthan."
+    related: [hcl-kolihan-mine, hcl-kcc-khetri-smelter]
+    confidence: high
+    sources:
+      - ref: ls-usq-3828-2024
+        supports: [status, status_detail, operator, location, dates.first_public]
+        ev:
+          status: "Khetri Operational 1,677.96"
+          status_detail: "Khetri Copper Complex, Rajasthan 12,31,500"
+      - ref: imyb-2023
+        supports: [capacity.installed]
+        ev:
+          capacity.installed: ["has a concentrator plant at Khetri in Jhunjhunu district,", "Rajasthan, having a capacity of 2.02 million tpy."]
+
+  - id: hcl-kolihan-mine
+    name: "Kolihan copper mine"
+    stages: [Mining]
+    minerals: [Copper]
+    commodity_as_stated: "copper ore"
+    products: ["Copper ore"]
+    operator: "Hindustan Copper Ltd"
+    operator_type: "PSU (Central)"
+    location: {village_or_town: "Kolihan", district: "Jhunjhunu", state: "Rajasthan", precision: district}
+    geo: {district_centroid: Jhunjhunu, state: Rajasthan}
+    status: Operational
+    status_as_of: "2024-12-18"
+    dates: {first_public: "2024-12-18"}
+    narrative:
+      what_it_does: "An underground copper mine in the Khetri belt, feeding the Khetri concentrator."
+    related: [hcl-khetri-mine]
+    confidence: high
+    notes: "Kolihan did not geocode; point is the Jhunjhunu district centroid (the mine is next to Khetri)."
+    sources:
+      - ref: ls-usq-3828-2024
+        supports: [status, operator, location, dates.first_public]
+        ev:
+          status: "Kolihan Operational"
+
+  - id: hcl-surda-mine
+    name: "Surda copper mine"
+    aliases: ["Indian Copper Complex mine"]
+    stages: [Mining, Beneficiation]
+    minerals: [Copper]
+    commodity_as_stated: "copper ore"
+    products: ["Copper ore", "Copper concentrate"]
+    operator: "Hindustan Copper Ltd"
+    operator_type: "PSU (Central)"
+    location: {village_or_town: "Surda", district: "East Singhbhum", state: "Jharkhand"}
+    geo: {q: "Surda", state: Jharkhand}
+    status: Operational
+    status_as_of: "2026-08-27"
+    status_detail: "ICC's operating mine; ICC concentrators 1.55 million tpy; smelter idle since 2019"
+    capacity:
+      installed: {value: 1.55, unit: "million tpy", basis: "ICC concentrator"}
+    dates: {first_public: "2024-12-18"}
+    narrative:
+      what_it_does: "Hindustan Copper's working underground mine in the Singhbhum copper belt, near Ghatsila."
+    related: [hcl-icc-ghatsila-smelter, hcl-kendadih-mine, hcl-rakha-mine]
+    confidence: high
+    sources:
+      - ref: ls-usq-3828-2024
+        supports: [status, operator, location, dates.first_public]
+        ev:
+          status: "Surda Operational Indian Copper Complex, Jharkhand 4,936"
+      - ref: imyb-2023
+        supports: [capacity.installed]
+        ev:
+          capacity.installed: "& ICC Ghatsila, Jharkhand with 1.55 million tpy each"
+      - ref: hcl-brsr-2026
+        supports: [status, status_detail]
+        ev:
+          status: "Indian Copper Complex Underground Mining 3. P.O. Ghatsila, Dist. Singhbhum, Yes and beneficiation"
+
+  - id: hcl-kendadih-mine
+    name: "Kendadih copper mine"
+    stages: [Mining]
+    minerals: [Copper]
+    commodity_as_stated: "copper ore"
+    products: ["Copper ore"]
+    operator: "Hindustan Copper Ltd"
+    operator_type: "PSU (Central)"
+    location: {village_or_town: "Kendadih", district: "East Singhbhum", state: "Jharkhand"}
+    geo: {q: "Kendadih", state: Jharkhand}
+    status: Stalled
+    status_as_of: "2025-01"
+    status_detail: "Reopened Dec 2017; production contractor terminated 25 May 2023 for poor performance"
+    dates: {first_public: "2017-12", commissioned: "2017-12"}
+    narrative:
+      what_it_does: "A reopened Singhbhum copper mine whose production contract was terminated in 2023."
+    related: [hcl-surda-mine]
+    confidence: medium
+    sources:
+      - ref: imyb-2023
+        supports: [status, status_detail, dates.commissioned, dates.first_public, operator, location]
+        ev:
+          dates.commissioned: "Kendadih mine was reopened in December, 2017 with"
+          status: ["satisfactory as a result the said contract has been terminated", "on 25.05.2023."]
+
+  - id: hcl-rakha-mine
+    name: "Rakha copper mine"
+    stages: [Mining]
+    minerals: [Copper]
+    commodity_as_stated: "copper ore"
+    products: ["Copper ore"]
+    operator: "Hindustan Copper Ltd"
+    operator_type: "PSU (Central)"
+    location: {village_or_town: "Rakha Mines", district: "East Singhbhum", state: "Jharkhand"}
+    geo: {q: "Rakha Mines", state: Jharkhand}
+    status: Stalled
+    status_as_of: "2025-01"
+    status_detail: "Mining lease expired 28 Aug 2021; extension application pending with Jharkhand"
+    dates: {first_public: "2025-01"}
+    narrative:
+      what_it_does: "A closed Singhbhum copper mine that Hindustan Copper wants to reopen through a mine developer."
+    related: [hcl-surda-mine]
+    confidence: medium
+    sources:
+      - ref: imyb-2023
+        supports: [status, status_detail, operator, location, dates.first_public]
+        ev:
+          status: ["b) Rakha Mine: Rakha Mining Lease has expired on", "28.8.2021 and Application for extension of lease for further"]
+
+  # ------------------------------------------------------------ Hindustan Zinc (cadmium-bearing ore)
+  - id: hzl-rampura-agucha-mine
+    name: "Rampura Agucha zinc-lead mine (cadmium-bearing)"
+    stages: [Mining]
+    minerals: [Cadmium]
+    commodity_as_stated: "lead & zinc ore (cadmium recovered at smelters)"
+    products: ["Zinc and lead concentrate"]
+    operator: "Hindustan Zinc Ltd"
+    operator_type: "Listed private"
+    location: {village_or_town: "Rampura Agucha", district: "Bhilwara", state: "Rajasthan"}
+    geo: {q: "Agucha, Bhilwara", state: Rajasthan}
+    status: Operational
+    status_as_of: "2025-01"
+    status_detail: "Underground; 5 million tpy of lead-zinc ore"
+    capacity:
+      installed: {value: 5, unit: "million tpy", basis: "lead and zinc ore"}
+    feedstock: Not applicable
+    dates: {first_public: "2025-01"}
+    narrative:
+      what_it_does: "The world's largest zinc mine by output; its concentrate carries the cadmium that HZL's smelters recover."
+    related: [hzl-chanderiya-smelter, hzl-debari-smelter]
+    confidence: high
+    notes: "Recorded as a cadmium stream under D-003; zinc, lead and silver are not on the canonical list."
+    sources:
+      - ref: imyb-2023
+        supports: [status, capacity.installed, location, operator, dates.first_public]
+        ev:
+          location: "Rampura Agucha mine (Bhilwara district), Kayad mine"
+          capacity.installed: ["Agucha mine was completely turned to underground mine", "with an annual production capacity of 5 million tonnes of"]
+          status: "and smelting. At present, HZL's eight mines and all mining"
+
+  - id: hzl-sindesar-khurd-mine
+    name: "Sindesar Khurd zinc-lead mine (cadmium-bearing)"
+    stages: [Mining]
+    minerals: [Cadmium]
+    commodity_as_stated: "lead & zinc ore"
+    products: ["Zinc and lead concentrate"]
+    operator: "Hindustan Zinc Ltd"
+    operator_type: "Listed private"
+    location: {village_or_town: "Sindesar Khurd", district: "Rajsamand", state: "Rajasthan"}
+    geo: {q: "Sindesar Khurd", state: Rajasthan}
+    status: Operational
+    status_as_of: "2025-01"
+    status_detail: "Highly mechanised underground mine, 6 million tpy"
+    capacity:
+      installed: {value: 6, unit: "million tpy", basis: "lead and zinc ore"}
+    dates: {first_public: "2025-01"}
+    narrative:
+      what_it_does: "Hindustan Zinc's largest underground ore producer, in Rajsamand district."
+    confidence: medium
+    notes: "IBM's text attributes the 6 million tpy 'largest ore producing underground mine' line to the sentence after Sindesar Khurd; the two-column layout makes the pairing an inference."
+    sources:
+      - ref: imyb-2023
+        supports: [status, capacity.installed, location, operator, dates.first_public]
+        ev:
+          location: ["(Ajmer district), Rajpura Dariba mine, Sindesar Khurd", "mine (both in Rajsamand district) and Zawar group of"]
+          capacity.installed: ["lead & zinc ore. Sindesar Khurd mine is highly mechanised", "and the largest ore producing underground mine with", "annual production capacity of 6 million tonnes. The other"]
+
+  - id: hzl-rajpura-dariba-mine
+    name: "Rajpura Dariba zinc-lead mine (cadmium-bearing)"
+    stages: [Mining]
+    minerals: [Cadmium]
+    commodity_as_stated: "lead & zinc ore"
+    products: ["Zinc and lead concentrate"]
+    operator: "Hindustan Zinc Ltd"
+    operator_type: "Listed private"
+    location: {village_or_town: "Dariba", district: "Rajsamand", state: "Rajasthan"}
+    geo: {q: "Dariba, Rajsamand", state: Rajasthan}
+    status: Operational
+    status_as_of: "2025-01"
+    capacity:
+      installed: {value: 1.25, unit: "million tpy", basis: "lead and zinc ore"}
+    dates: {first_public: "2025-01"}
+    narrative:
+      what_it_does: "An underground zinc-lead mine beside HZL's Dariba smelting complex."
+    confidence: high
+    sources:
+      - ref: imyb-2023
+        supports: [status, capacity.installed, location, operator, dates.first_public]
+        ev:
+          location: "(Ajmer district), Rajpura Dariba mine, Sindesar Khurd"
+          capacity.installed: "of 1.25 million tonnes, 4.41 million tonnes and 0.93 million"
+
+  - id: hzl-zawar-mines
+    name: "Zawar group of zinc-lead mines (cadmium-bearing)"
+    aliases: ["Mochia, Balaria, Zawarmala and Baroi mines"]
+    stages: [Mining]
+    minerals: [Cadmium]
+    commodity_as_stated: "lead & zinc ore"
+    products: ["Zinc and lead concentrate"]
+    operator: "Hindustan Zinc Ltd"
+    operator_type: "Listed private"
+    location: {village_or_town: "Zawar", district: "Udaipur", state: "Rajasthan"}
+    geo: {q: "Zawar", state: Rajasthan}
+    status: Operational
+    status_as_of: "2025-01"
+    status_detail: "Four underground mines (Mochia, Balaria, Zawarmala, Baroi), 4.41 million tpy"
+    capacity:
+      installed: {value: 4.41, unit: "million tpy", basis: "lead and zinc ore"}
+    dates: {first_public: "2025-01"}
+    narrative:
+      what_it_does: "A cluster of four underground zinc-lead mines, among India's oldest, south of Udaipur."
+    confidence: high
+    notes: "Zawar now falls in Salumbar district (created 2023); IBM gives Udaipur."
+    sources:
+      - ref: imyb-2023
+        supports: [status, capacity.installed, location, operator, dates.first_public]
+        ev:
+          location: "mines (4 mines in Udaipur district i.e. Mochia, Balaria,"
+          capacity.installed: "of 1.25 million tonnes, 4.41 million tonnes and 0.93 million"
+
+  - id: hzl-kayad-mine
+    name: "Kayad zinc-lead mine (cadmium-bearing)"
+    stages: [Mining]
+    minerals: [Cadmium]
+    commodity_as_stated: "lead & zinc ore"
+    products: ["Zinc and lead concentrate"]
+    operator: "Hindustan Zinc Ltd"
+    operator_type: "Listed private"
+    location: {village_or_town: "Kayad", district: "Ajmer", state: "Rajasthan"}
+    geo: {q: "Kayad", state: Rajasthan}
+    status: Operational
+    status_as_of: "2025-01"
+    capacity:
+      installed: {value: 0.93, unit: "million tpy", basis: "lead and zinc ore"}
+    dates: {first_public: "2025-01"}
+    narrative:
+      what_it_does: "An underground zinc-lead mine near Ajmer."
+    confidence: high
+    sources:
+      - ref: imyb-2023
+        supports: [status, capacity.installed, location, operator, dates.first_public]
+        ev:
+          location: "Rampura Agucha mine (Bhilwara district), Kayad mine"
+          capacity.installed: "of 1.25 million tonnes, 4.41 million tonnes and 0.93 million"
+
+  # ------------------------------------------------------------ graphite
+  - id: tamin-sivaganga-graphite
+    name: "TAMIN graphite mine and beneficiation, Sivaganga"
+    stages: [Mining, Beneficiation]
+    minerals: [Graphite]
+    commodity_as_stated: "graphite"
+    products: ["Graphite (natural, beneficiated)"]
+    operator: "Tamil Nadu Minerals Ltd (TAMIN)"
+    operator_type: "PSU (State)"
+    location: {district: "Sivaganga", state: "Tamil Nadu", precision: district}
+    geo: {district_centroid: Sivaganga, state: "Tamil Nadu"}
+    status: Operational
+    status_as_of: "2025-01"
+    status_detail: "Principal producer in 2022-23; Tamil Nadu gave 60% of India's 89,645 t graphite output"
+    dates: {first_public: "2025-01"}
+    narrative:
+      what_it_does: "Mines and upgrades natural graphite in Sivaganga, India's largest graphite-producing district."
+    confidence: high
+    sources:
+      - ref: imyb-2023
+        supports: [status, status_detail, location, operator, dates.first_public]
+        ev:
+          status: "Tamil Nadu Minerals Limited. Tamil Nadu Sivaganga"
+          status_detail: "range upto 5000 tonnes per annum. Tamil Nadu was the"
+
+  - id: pradhan-banibasa-graphite
+    name: "Pradhan Industries graphite mine, Banibasa"
+    stages: [Mining]
+    minerals: [Graphite]
+    commodity_as_stated: "graphite"
+    products: ["Graphite"]
+    operator: "Pradhan Industries"
+    operator_type: "Unlisted private"
+    location: {village_or_town: "Banibasa", state: "Odisha", precision: state}
+    geo: {state_centroid: true, state: Odisha}
+    status: Operational
+    status_as_of: "2025-01"
+    dates: {first_public: "2025-01"}
+    narrative:
+      what_it_does: "One of the five principal graphite producers listed by the Indian Bureau of Mines in 2022-23."
+    related: [pradhan-bandhamundi-graphite]
+    confidence: medium
+    notes: "Banibasa did not geocode within Odisha and IBM gives no district; point is the state centroid (OPEN_QUESTIONS 14)."
+    sources:
+      - ref: imyb-2023
+        supports: [status, location, operator, dates.first_public]
+        ev:
+          status: "Pradhan Industries Odisha Banibasa"
+
+  - id: pradhan-bandhamundi-graphite
+    name: "Pradhan Industries graphite mine, Bandhamundi"
+    stages: [Mining]
+    minerals: [Graphite]
+    commodity_as_stated: "graphite"
+    products: ["Graphite"]
+    operator: "Pradhan Industries"
+    operator_type: "Unlisted private"
+    location: {village_or_town: "Bandhamundi", state: "Odisha", precision: state}
+    geo: {state_centroid: true, state: Odisha}
+    status: Operational
+    status_as_of: "2025-01"
+    dates: {first_public: "2025-01"}
+    narrative:
+      what_it_does: "A graphite mine listed among India's principal producers in 2022-23."
+    related: [pradhan-banibasa-graphite]
+    confidence: medium
+    notes: "Bandhamundi did not geocode and IBM gives no district; point is the state centroid (OPEN_QUESTIONS 14)."
+    sources:
+      - ref: imyb-2023
+        supports: [status, location, operator, dates.first_public]
+        ev:
+          status: "Pradhan Industries Odisha Bandhamundi"
+
+  - id: betla-graphite-mine
+    name: "Graphite mine, Betla"
+    stages: [Mining]
+    minerals: [Graphite]
+    commodity_as_stated: "graphite"
+    products: ["Graphite"]
+    operator: null
+    location: {village_or_town: "Betla", state: "Jharkhand"}
+    geo: {q: "Betla", state: Jharkhand}
+    status: Operational
+    status_as_of: "2025-01"
+    status_detail: "Principal producer in 2022-23 (mining lease area 7.21 ha)"
+    dates: {first_public: "2025-01"}
+    narrative:
+      what_it_does: "A graphite mine in the Palamu belt, listed among India's principal producers in 2022-23."
+    confidence: medium
+    notes: "IBM's table gives the location and a Daltonganj address but no producer name (OPEN_QUESTIONS 14)."
+    sources:
+      - ref: imyb-2023
+        supports: [status, status_detail, location, dates.first_public]
+        ev:
+          status: "Jharkhand, Betla (MLA"
+
+  - id: gandabahali-graphite-mines
+    name: "Graphite mines, Gandabahali and Kirkita"
+    stages: [Mining]
+    minerals: [Graphite]
+    commodity_as_stated: "graphite"
+    products: ["Graphite"]
+    operator: null
+    location: {village_or_town: "Gandabahali", state: "Odisha"}
+    geo: {q: "Gandabahali", state: Odisha}
+    status: Operational
+    status_as_of: "2025-01"
+    dates: {first_public: "2025-01"}
+    narrative:
+      what_it_does: "Graphite mines in western Odisha, listed among India's principal producers in 2022-23."
+    confidence: medium
+    notes: "IBM gives a Sambalpur address but no producer name; point is Gandabahali village (OPEN_QUESTIONS 14)."
+    sources:
+      - ref: imyb-2023
+        supports: [status, location, dates.first_public]
+        ev:
+          status: ["Odisha Gandabahali", "& Kirkita35"]
+
+  # ------------------------------------------------------------ rock phosphate
+  - id: rsmml-jhamarkotra
+    name: "RSMML Jhamarkotra rock phosphate mine and beneficiation plant"
+    stages: [Mining, Beneficiation]
+    minerals: [Phosphorus]
+    commodity_as_stated: "rock phosphate"
+    products: ["Rock phosphate", "Beneficiated rock phosphate"]
+    operator: "Rajasthan State Mines and Minerals Ltd"
+    operator_type: "PSU (State)"
+    location: {village_or_town: "Jhamarkotra", district: "Udaipur", state: "Rajasthan", precision: district}
+    geo: {district_centroid: Udaipur, state: Rajasthan}
+    status: Operational
+    status_as_of: "2025-01"
+    status_detail: "India's main rock phosphate mine; beneficiation 9 lakh tpy; Rajasthan produced 1.53 million t in 2022-23"
+    capacity:
+      installed: {value: 900000, unit: "tpy", basis: "beneficiation plant (run-of-mine treated)"}
+    dates: {first_public: "2025-01"}
+    narrative:
+      what_it_does: "Mines and upgrades rock phosphate near Udaipur, supplying most of India's domestic phosphate rock."
+      why_it_matters: "India imports most of the phosphate it needs for fertiliser, so this is its largest home source."
+    confidence: high
+    notes: "Jhamarkotra did not geocode; point is the Udaipur district centroid."
+    sources:
+      - ref: imyb-2023
+        supports: [status, status_detail, capacity.installed, location, operator, dates.first_public]
+        ev:
+          location: "Jhamarkotra mine of Rajasthan State Mines and Minerals"
+          capacity.installed: "has 9 Lacs MT per annum capacity to treat run-of-mine"
+          status: "Rajasthan State Mines & Minerals, Rajasthan Udaipur"
+
+  - id: mpsmcl-meghnagar
+    name: "MPSMCL Meghnagar rock phosphate mine, Jhabua"
+    stages: [Mining, Beneficiation]
+    minerals: [Phosphorus]
+    commodity_as_stated: "rock phosphate"
+    products: ["Rock phosphate", "Beneficiated rock phosphate (600 tpd plant)"]
+    operator: "Madhya Pradesh State Mining Corporation Ltd"
+    operator_type: "PSU (State)"
+    location: {village_or_town: "Meghnagar", district: "Jhabua", state: "Madhya Pradesh"}
+    geo: {q: "Meghnagar", state: "Madhya Pradesh"}
+    status: Operational
+    status_as_of: "2025-01"
+    capacity:
+      installed: {value: 150000, unit: "tpy", basis: "run-of-mine"}
+    dates: {first_public: "2025-01"}
+    narrative:
+      what_it_does: "A state-run rock phosphate mine with a beneficiation plant in Jhabua district."
+    confidence: high
+    sources:
+      - ref: imyb-2023
+        supports: [status, capacity.installed, location, operator, dates.first_public]
+        ev:
+          location: "The Meghnagar mine in Jhabua district and Hirapur"
+          capacity.installed: "is 1,50,000 tonnes per year. The production of Meghnagar"
+          status: "M.P. State Mining Corporation Ltd Madhya Pradesh Jhabua"
+
+  - id: mpsmcl-hirapur
+    name: "MPSMCL Hirapur rock phosphate mine"
+    stages: [Mining]
+    minerals: [Phosphorus]
+    commodity_as_stated: "rock phosphate"
+    products: ["Rock phosphate"]
+    operator: "Madhya Pradesh State Mining Corporation Ltd"
+    operator_type: "PSU (State)"
+    location: {village_or_town: "Hirapur", district: "Sagar", state: "Madhya Pradesh"}
+    geo: {q: "Hirapur, Sagar", state: "Madhya Pradesh"}
+    status: Operational
+    status_as_of: "2025-01"
+    dates: {first_public: "2025-01"}
+    narrative:
+      what_it_does: "A state-run rock phosphate mine straddling Chhatarpur and Sagar districts."
+    confidence: medium
+    notes: "IBM lists MPSMCL producing in both Chhatarpur and Sagar districts; both are taken to be the Hirapur mine."
+    sources:
+      - ref: imyb-2023
+        supports: [status, location, operator, dates.first_public]
+        ev:
+          location: "mine in Chhatarpur and Sagar districts of Madhya Pradesh"
+          status: "M.P. State Mining Corporation Ltd Madhya Pradesh Chhatarpur"
+
+  - id: khajuraho-stones-phosphate
+    name: "Khajuraho Stones rock phosphate mine, Chhatarpur"
+    stages: [Mining]
+    minerals: [Phosphorus]
+    commodity_as_stated: "rock phosphate"
+    products: ["Rock phosphate"]
+    operator: "Khajuraho Stones (India) Pvt. Ltd."
+    operator_type: "Unlisted private"
+    location: {district: "Chhatarpur", state: "Madhya Pradesh", precision: district}
+    geo: {district_centroid: Chhatarpur, state: "Madhya Pradesh"}
+    status: Operational
+    status_as_of: "2025-01"
+    dates: {first_public: "2025-01"}
+    narrative:
+      what_it_does: "A private rock phosphate producer in Chhatarpur district."
+    confidence: medium
+    sources:
+      - ref: imyb-2023
+        supports: [status, location, operator, dates.first_public]
+        ev:
+          status: "Khajuraho Stones (India) Pvt. Ltd., Madhya Pradesh Chhatarpur"
+
+  # ------------------------------------------------------------ tin
+  - id: cmdc-dantewada-tin
+    name: "CMDC tin concentrate operations, Dantewada"
+    stages: [Mining]
+    minerals: [Tin]
+    commodity_as_stated: "tin concentrates (cassiterite)"
+    products: ["Tin concentrate"]
+    operator: "Chhattisgarh Mineral Development Corporation Ltd"
+    operator_type: "PSU (State)"
+    location: {district: "Dantewada", state: "Chhattisgarh", precision: district}
+    geo: {district_centroid: "Dakshin Bastar Dantewada", state: Chhattisgarh}
+    status: Operational
+    status_as_of: "2025-01"
+    status_detail: "One public and three private tin mines reported output in 2022-23, all in Chhattisgarh"
+    dates: {first_public: "2025-01"}
+    narrative:
+      what_it_does: "The state corporation that mines and buys cassiterite in the Bastar region, India's only tin source."
+    related: [pmsl-dantewada-tin]
+    confidence: medium
+    sources:
+      - ref: imyb-2023
+        supports: [status, status_detail, location, operator, dates.first_public]
+        ev:
+          status: "Chhattisgarh Mineral Chhattisgarh Dantewada"
+          status_detail: "Sector and threePrivate Sector mines reported production"
+
+  - id: pmsl-dantewada-tin
+    name: "Precious Minerals and Smelting tin concentrate producer, Dantewada"
+    stages: [Mining]
+    minerals: [Tin]
+    commodity_as_stated: "tin concentrates"
+    products: ["Tin concentrate"]
+    operator: "Precious Minerals and Smelting Ltd"
+    operator_type: "Unlisted private"
+    location: {district: "Dantewada", state: "Chhattisgarh", precision: district}
+    geo: {district_centroid: "Dakshin Bastar Dantewada", state: Chhattisgarh}
+    status: Operational
+    status_as_of: "2025-01"
+    dates: {first_public: "2025-01"}
+    narrative:
+      what_it_does: "A private tin concentrate producer in Dantewada district, based in Jagdalpur."
+    related: [cmdc-dantewada-tin]
+    confidence: medium
+    sources:
+      - ref: imyb-2023
+        supports: [status, location, operator, dates.first_public]
+        ev:
+          status: "Precious Minerals and Chhattisgarh Dantewada"
+
+  # ------------------------------------------------------------ beach sands (Ti, Zr, monazite)
+  - id: irel-chavara-mine
+    name: "IREL Chavara beach-sand mining and mineral separation"
+    stages: [Mining, Beneficiation]
+    minerals: [Titanium, Zirconium, "Rare earths (unspecified)"]
+    commodity_as_stated: "ilmenite, rutile, zircon, sillimanite, monazite from beach sand"
+    products: ["Ilmenite (about 60% TiO2)", "Rutile", "Zircon", "Sillimanite"]
+    operator: "IREL (India) Limited"
+    operator_type: "PSU (Central)"
+    location: {village_or_town: "Chavara", district: "Kollam", state: "Kerala"}
+    geo: {q: "Chavara", state: Kerala}
+    status: Operational
+    status_as_of: "2025-09-19"
+    status_detail: "Dredge-and-wet-concentrator mining inland (two 100 tph units); zircon capacity 17,500 tpy"
+    capacity:
+      installed: {value: 17500, unit: "tpy", basis: "zircon"}
+    dates: {first_public: "2025-01"}
+    narrative:
+      what_it_does: "Mines inland beach sands near Kollam and separates ilmenite, rutile, zircon and monazite."
+      why_it_matters: "Chavara ilmenite is India's richest in titanium and feeds pigment and sponge plants."
+    related: [kmml-chavara-mine]
+    confidence: high
+    sources:
+      - ref: imyb-2023
+        supports: [status, status_detail, capacity.installed, location, products, operator, dates.first_public]
+        ev:
+          status: "At IREL, Chavara, Beach Sand was collected over a"
+          status_detail: "and Wet Concentrator (DWC) of 100 tph capacity each to"
+          capacity.installed: "Chavara, Kollam distt., Kerala 65% ZrO+HfO (min.) 17500 2649 3072 11490"
+
+  - id: irel-manavalakurichi-mine
+    name: "IREL Manavalakurichi beach-sand mining and mineral separation"
+    aliases: ["IREL MK unit"]
+    stages: [Mining, Beneficiation]
+    minerals: [Titanium, Zirconium, "Rare earths (unspecified)"]
+    commodity_as_stated: "ilmenite, rutile, zircon, garnet, monazite from beach sand"
+    products: ["Ilmenite", "Rutile", "Zircon", "Garnet", "Monazite"]
+    operator: "IREL (India) Limited"
+    operator_type: "PSU (Central)"
+    location: {village_or_town: "Manavalakurichi", district: "Kanyakumari", state: "Tamil Nadu"}
+    geo: {q: "Manavalakurichi", state: "Tamil Nadu"}
+    status: Operational
+    status_as_of: "2025-01"
+    status_detail: "300 ha deposit nearly exhausted; LoI for a further 1,144 ha received from Tamil Nadu (Jun 2022)"
+    capacity:
+      installed: {value: 10000, unit: "tpy", basis: "zircon"}
+    dates: {first_public: "2025-01"}
+    milestones:
+      - {date: "2022-06-28", event: "Tamil Nadu issues LoI for a 1,144.06 ha mining lease", source_id: imyb-2023}
+    narrative:
+      what_it_does: "Mines beach sands in Kanyakumari district for ilmenite, rutile, zircon, garnet and monazite."
+      why_it_matters: "Its mineable land is nearly exhausted, which is why IREL is pushing the TAMIN joint venture in Thoothukudi."
+    related: [irel-tamin-thoothukudi]
+    confidence: high
+    sources:
+      - ref: imyb-2023
+        supports: [status, status_detail, capacity.installed, location, milestones, operator, dates.first_public]
+        ev:
+          location: ["At Manavalakurichi, the deposit is spread over 300", "hectares at Thuthoor-Ezudesam villages, Vilavancode"]
+          milestones: ["MK unit has received LOI from Govt. of Tamil Nadu", "on 28.06.2022 towards grant of mining lease for 1144.0618"]
+          status_detail: "leasehold areas are on the verge of exhaustion. Further,"
+
+  - id: irel-oscom-mine
+    name: "IREL OSCOM beach-sand mining and mineral separation, Chatrapur"
+    aliases: ["Odisha Sands Complex"]
+    stages: [Mining, Beneficiation]
+    minerals: [Titanium, Zirconium, "Rare earths (unspecified)"]
+    commodity_as_stated: "ilmenite, rutile, zircon, sillimanite, garnet, monazite"
+    products: ["Ilmenite", "Rutile", "Zircon", "Sillimanite", "Garnet", "Monazite (to REEP)"]
+    operator: "IREL (India) Limited"
+    operator_type: "PSU (Central)"
+    location: {village_or_town: "Chatrapur", district: "Ganjam", state: "Odisha"}
+    geo: {q: "Chatrapur", state: Odisha, district: Ganjam}
+    status: Operational
+    status_as_of: "2025-09-19"
+    status_detail: "500 tph suction-dredge mining; lease extended to 2047; mineral output up 6.6% in FY2024-25"
+    capacity:
+      installed: {value: 5000, unit: "tpy", basis: "zircon"}
+    dates: {first_public: "2025-01"}
+    narrative:
+      what_it_does: "Dredges beach sands at Chatrapur and separates titanium, zirconium and monazite minerals, feeding IREL's rare earth plant on the same site."
+    related: [irel-oscom-reep]
+    confidence: high
+    sources:
+      - ref: imyb-2023
+        supports: [status, status_detail, capacity.installed, location, operator, dates.first_public]
+        ev:
+          location: "The sand deposits of OSCOM at Chatrapur in district"
+          status_detail: ["Execution of Supplimentary Mining Lease deed for", "OSCOM Mines till a period up to the year 2047 has been"]
+          capacity.installed: "Orissa Sand Complex, 64.25% ZrO (min) 5000 6458 6694"
+      - ref: irel-ar-2024-25
+        supports: [status]
+        ev:
+          status: "Production of minerals increased by about 6.6% from the"
+
+  - id: irel-brahmagiri-mine
+    name: "IREL Brahmagiri beach-sand deposit (mining lease LoI), Puri"
+    stages: [Mining]
+    minerals: [Titanium, Zirconium, "Rare earths (unspecified)"]
+    commodity_as_stated: "beach sand minerals"
+    products: ["Heavy mineral sands (planned)"]
+    operator: "IREL (India) Limited"
+    operator_type: "PSU (Central)"
+    location: {village_or_town: "Brahmagiri", district: "Puri", state: "Odisha"}
+    geo: {q: "Brahmagiri, Puri", state: Odisha}
+    status: Approved
+    status_as_of: "2025-01"
+    status_detail: "LoI received 11 Jan 2023 for a 1,487.746 ha mining lease"
+    dates: {first_public: "2023-01-11", approved: "2023-01-11"}
+    narrative:
+      what_it_does: "A new IREL beach-sand mining area in Puri district, approved by Odisha in 2023."
+    related: [irel-oscom-mine]
+    confidence: high
+    notes: "IREL's projects page describes an integrated mining and processing plant in Puri district with Odisha Mining Corporation as JV partner."
+    sources:
+      - ref: imyb-2023
+        supports: [status, status_detail, dates.approved, dates.first_public, location, operator]
+        ev:
+          status: ["received LoI on 11.01.2023 for grant of mining lease for", "1487.746 ha from the State Govt of Odisha for Brahmagiri", "deposit in Puri district of Odisha."]
+
+  - id: kmml-chavara-mine
+    name: "KMML Chavara beach-sand mining and mineral separation"
+    stages: [Mining, Beneficiation]
+    minerals: [Titanium, Zirconium]
+    commodity_as_stated: "ilmenite, rutile, zircon, sillimanite from beach washings"
+    products: ["Ilmenite", "Rutile", "Zircon", "Sillimanite"]
+    operator: "The Kerala Minerals and Metals Ltd"
+    operator_type: "PSU (State)"
+    location: {village_or_town: "Chavara", district: "Kollam", state: "Kerala"}
+    geo: {q: "Chavara", state: Kerala}
+    status: Operational
+    status_as_of: "2025-01"
+    status_detail: "Collects seasonal beach accretions; zircon capacity 6,500 tpy"
+    capacity:
+      installed: {value: 6500, unit: "tpy", basis: "zircon"}
+    dates: {first_public: "2025-01"}
+    narrative:
+      what_it_does: "Collects heavy mineral sand from Kerala's beaches and separates the ilmenite KMML turns into titanium pigment and sponge."
+    related: [kmml-chavara, irel-chavara-mine]
+    confidence: high
+    sources:
+      - ref: imyb-2023
+        supports: [status, status_detail, capacity.installed, location, operator, dates.first_public]
+        ev:
+          status: "The KMML collects seasonal accretions of heavy mineral"
+          capacity.installed: "Kerala Minerals Chavara, Kollam distt., Zircon Gr.I 64.0% (min.) 6500 4844 4762 4110"
+
+  # ------------------------------------------------------------ by-product molybdenum
+  - id: ucil-jaduguda-molybdenum
+    name: "UCIL Jaduguda mine (by-product molybdenum)"
+    stages: [Mining]
+    minerals: [Molybdenum]
+    commodity_as_stated: "by-product concentrates of molybdenum from uranium ore"
+    products: ["Molybdenum concentrate (intermittent by-product)"]
+    operator: "Uranium Corporation of India Ltd"
+    operator_type: "PSU (Central)"
+    location: {district: "East Singhbhum", state: "Jharkhand", precision: district}
+    geo: {district_centroid: "Purbi Singhbhum", state: Jharkhand}
+    status: Operational
+    status_as_of: "2025-01"
+    status_detail: "Molybdenum concentrate produced intermittently from uranium ore"
+    dates: {first_public: "2025-01"}
+    narrative:
+      what_it_does: "India's only reported molybdenum source, recovered now and then from uranium ore at Jaduguda."
+    confidence: medium
+    notes: "Atomic facility: shown at district precision."
+    sources:
+      - ref: imyb-2023
+        supports: [status, status_detail, operator, location, dates.first_public]
+        ev:
+          status: ["In India, by-product concentrates of molybdenum are produced intermitten", "tly from uranium ore of Jaduguda mine belonging to Uranium Corporation of India Ltd (UCIL) in Jharkhand."]
