@@ -110,3 +110,10 @@ Queries, registries pulled, decisions, inclusion calls and dead ends. Newest ent
 - L3: SRF Altech battery aluminium foil, Jetapur (board approval 21 Oct 2026, 12,000 MTPA phase I). No separator or copper-foil plant with a verifiable approval found; Hindalco copper foil left in OQ 10.
 - L2: no new magnet plant since L2; REPM beneficiaries still unannounced.
 - OCR: the KABIL report was read with the existing `scripts/research/ocr.swift`; a duplicate script was removed.
+
+## App and QA (2026-10-25)
+
+- Editorial decisions recorded in `docs/BUILD_SPEC.md` §0: one map with an In India / Abroad switch, an About page, light-only Takshashila style; analysis views left out for now.
+- QA (`scripts/qa.mjs`, dev and production builds): all panel counts, 11 filter links, 11 record links, search, view switch and the About page pass with zero console errors or warnings; screenshots at 1440, 768 and 375 px; boundary close-ups of J&K, Ladakh and Arunachal in both framings show only the official outline.
+- Link check (`scripts/linkcheck.py`): 504 source URLs; 491 resolve, 10 PIB pages refuse scripted bursts (open in a browser), 1 transient error, 1 dead (Manufacturing Plant India on LOHUM Krishnagiri), now carrying a Wayback copy.
+- Size: entities.json 155 KB gzipped; site JS 304 KB gzipped including MapLibre.
