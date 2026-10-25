@@ -11,10 +11,11 @@
     "data": ".venv/bin/python -I scripts/build-data.py",
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "qa": "node scripts/qa.mjs",
+    "linkcheck": ".venv/bin/python -I scripts/linkcheck.py"
   },
   "dependencies": {
-    "@turf/great-circle": "7.4.0",
     "fuse.js": "7.5.0",
     "maplibre-gl": "6.13.0"
   },

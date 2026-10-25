@@ -74,7 +74,7 @@
   - epsilon-lfp-cam-karnataka
   see_also: []
   confidence: medium
-  last_verified: '2026-10-24'
+  last_verified: '2026-10-25'
   notes: Sources say only 'Vijayanagar, Karnataka'; the point is the centroid of the 2019 Ballari district polygon,
     which contains present-day Vijayanagara district. The ECMS project is named 'Epsilon C2GR'; its plant site is
     not published. Epsilon's Karnataka anode MoU dates to Nov 2022 (EVreporter) and was folded into the Feb 2025
@@ -205,7 +205,7 @@
   - himadri-lfp-cam-odisha
   see_also: []
   confidence: high
-  last_verified: '2026-10-24'
+  last_verified: '2026-10-25'
   notes: Mahistikry is not in OpenStreetMap; point is the Hooghly district centroid. Himadri also plans a 200 MTPA
     carbon nanotube plant (Rs 70 crore, Q4 FY27); its site is not published.
   id: himadri-anode-mahistikry
@@ -321,7 +321,7 @@
   related: []
   see_also: []
   confidence: medium
-  last_verified: '2026-10-24'
+  last_verified: '2026-10-25'
   notes: Site is Sirsoda village per a 2024 Daily Pioneer report of the groundbreaking (page now 404, not archived);
     point is the Dewas district centroid. Investment was Rs 1,850 crore in 2024 reports, over Rs 2,000 crore in
     2026.
@@ -435,7 +435,7 @@
   - himadri-anode-mahistikry
   see_also: []
   confidence: medium
-  last_verified: '2026-10-24'
+  last_verified: '2026-10-25'
   notes: 'Site within Odisha not published; point is the state centroid (OPEN_QUESTIONS 10). Original target: operational
     27-36 months from Dec 2023 (Mar 2026 to Dec 2028); expected completion recorded as Q3 FY27 per the Oct 2026
     deck.'
@@ -547,7 +547,7 @@
   - altmin-balapur-pilot
   see_also: []
   confidence: medium
-  last_verified: '2026-10-24'
+  last_verified: '2026-10-25'
   notes: Initial capacity stated as 8 GWh at the groundbreaking (Autocar Professional) and 10,000 tpa by Benchmark
     (Nov 2025). Lithium supply partnerships with CBL (Brazil) and YLB (Bolivia). Altmin's Dec 2025 lithium refinery
     JV with Singareni is researched in L4.
@@ -650,7 +650,7 @@
   - arci-ndfeb-pilot-hyderabad
   see_also: []
   confidence: medium
-  last_verified: '2026-10-24'
+  last_verified: '2026-10-25'
   notes: Benchmark places the CAM facility at Balapur, Hyderabad; the ARCI campus location and the 2023 start date
     come from secondary reports not archived. Point is the ARCI campus.
   id: altmin-balapur-pilot
@@ -738,7 +738,7 @@
   - altmin-divitipally-lfp
   see_also: []
   confidence: medium
-  last_verified: '2026-10-24'
+  last_verified: '2026-10-25'
   notes: Site within Gujarat not published (a 30-acre commercialisation hub is planned); point is the state centroid.
     See OPEN_QUESTIONS 10.
   id: sudeep-pcam-gujarat
@@ -834,7 +834,7 @@
   related: []
   see_also: []
   confidence: medium
-  last_verified: '2026-10-24'
+  last_verified: '2026-10-25'
   notes: Group firm NPSPL Advanced Materials Pvt Ltd received ECMS approval for anode material in Jan 2026 (PIB
     2210864); whether that project shares this site, and which cathode chemistry is planned, is not published. Gudupalle
     village did not geocode reliably; point is the Chittoor district centroid.
@@ -947,7 +947,7 @@
   - lohum-greater-noida-repm
   see_also: []
   confidence: low
-  last_verified: '2026-10-24'
+  last_verified: '2026-10-25'
   notes: No construction or commissioning report found after the Jul 2024 announcement, past its 18-month target
     (OPEN_QUESTIONS 11). Some reports name Shoolagiri taluk; point is the Krishnagiri district centroid.
   id: lohum-krishnagiri-cam
@@ -981,7 +981,7 @@
     tier: T5
     date: '2024'
     retrieved: '2026-10-24'
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260607015412/https://www.manufacturingplantindia.com/lohum-to-invest-2000-cr-in-battery-material-plant-in-krishnagiri/
     supports:
     - notes
 - aliases: []
@@ -1050,7 +1050,7 @@
   - epsilon-eam-one-vijayanagar
   see_also: []
   confidence: medium
-  last_verified: '2026-10-24'
+  last_verified: '2026-10-25'
   notes: 'Site within Karnataka not published; point is the state centroid (OPEN_QUESTIONS 10). In the Business
     Today interview the 30,000-tonne ''break ground before the end of the year'' plant follows a passage on cathodes;
     it may refer to the anode expansion. Lithium carbonate needed: about 5,000 t, sourced from China, Australia
@@ -1173,7 +1173,7 @@
   related: []
   see_also: []
   confidence: high
-  last_verified: '2026-10-24'
+  last_verified: '2026-10-25'
   notes: 'Earlier trade press placed the complex at Dahej; GFL''s decks and the IFC disclosure place it at Jolva,
     about 13 km from GFL''s Dahej plant. Jolva did not geocode; point is the Bharuch district centroid. Battery
     materials revenue in Q1 FY27: Rs 14 crore.'
@@ -1299,7 +1299,7 @@
   - neogen-ionics-pakhajan
   see_also: []
   confidence: high
-  last_verified: '2026-10-24'
+  last_verified: '2026-10-25'
   notes: Neogen's separate Dahej organics plant was rebuilt after a fire; reconstruction complete with trial runs
     (Jul 2026 deck). first_public is the end of FY25, by which the electrolyte line was commissioned; earlier announcements
     not researched.
@@ -1402,7 +1402,7 @@
   - neogen-ionics-dahej
   see_also: []
   confidence: high
-  last_verified: '2026-10-24'
+  last_verified: '2026-10-25'
   notes: Electrolyte targeted for H1 FY27 and salts for H2 FY27 (Feb 2026 call); whole phase 2 due Mar 2027. Morita
     holds up to 20% of the salt JV. first_public is the Feb 2026 call; the site was acquired earlier (not researched).
   id: neogen-ionics-pakhajan
@@ -1513,7 +1513,7 @@
   related: []
   see_also: []
   confidence: high
-  last_verified: '2026-10-24'
+  last_verified: '2026-10-25'
   notes: Company renamed from Ami Organics. First 1,000 MT line (500 MT each of VC and FEC) commissioned Q4 FY24
     (HDFC Securities). PIB lists the ECMS approval under 'first-ever domestic manufacturing' of electrolyte additives
     despite the earlier line.
@@ -1644,7 +1644,7 @@
   related: []
   see_also: []
   confidence: high
-  last_verified: '2026-10-24'
+  last_verified: '2026-10-25'
   notes: Commissioning slipped about six months from the July 2025 target. Hindalco's Mouda (Maharashtra) unit makes
     battery foil at smaller scale. A reported Hindalco copper-foil project in Gujarat rests on a market-research
     page only and is not recorded.

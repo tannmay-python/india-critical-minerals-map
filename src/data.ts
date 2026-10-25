@@ -1,7 +1,7 @@
 // Loads the JSON that scripts/build-data.py writes to public/data and derives what the UI needs.
 import type { Entity, Mineral, Stage, StatusGroup } from "./lib/types";
 
-export interface Meta { built: string; entities: number }
+export interface Meta { built: string; entities: number; open_questions?: number }
 
 export interface Dataset {
   entities: Entity[];

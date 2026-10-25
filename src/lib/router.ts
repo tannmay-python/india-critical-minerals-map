@@ -1,8 +1,7 @@
 // Hash routing: everything is linkable and works on static hosting.
-//   #/                         map (home)       #/globe  #/chain  #/auctions  #/timeline
-//   #/policy  #/method  #/data #/e/<id>         entity page
-// Filter state rides in the query: #/?stage=Refining,Magnets&mineral=Graphite&t=2025-06
-export type View = "map" | "globe" | "chain" | "auctions" | "timeline" | "policy" | "method" | "data" | "entity";
+//   #/  map (home)    #/about  about and data    #/e/<id>  a record (opens on the map)
+// Filter state rides in the query: #/?stage=Refining,Magnets&mineral=Graphite&view=abroad
+export type View = "map" | "about" | "entity";
 
 export interface Route {
   view: View;
@@ -10,10 +9,7 @@ export interface Route {
   params: URLSearchParams;
 }
 
-const VIEWS: Record<string, View> = {
-  "": "map", globe: "globe", chain: "chain", auctions: "auctions", timeline: "timeline",
-  policy: "policy", method: "method", data: "data",
-};
+const VIEWS: Record<string, View> = { "": "map", about: "about" };
 
 export function parseHash(hash = location.hash): Route {
   const raw = hash.replace(/^#\/?/, "");
@@ -36,7 +32,8 @@ export function onRoute(fn: (r: Route) => void): void { listeners.add(fn); }
 /** Update the query of the current view without adding a history entry. */
 export function replaceParams(params: URLSearchParams): void {
   const r = parseHash();
-  const h = buildHash(r.view, params, r.entityId);
+  // a record link (#/e/<id>) settles into the map's own query once the record is open
+  const h = r.view === "entity" ? buildHash("map", params) : buildHash(r.view, params, r.entityId);
   if (h !== location.hash) history.replaceState(null, "", h);
 }
 

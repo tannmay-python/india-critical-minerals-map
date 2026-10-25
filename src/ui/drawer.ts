@@ -35,12 +35,22 @@ function auction(e: Entity): string {
   return `<ol class="auction">${items.join("")}</ol>`;
 }
 
+/** Source tiers in words a reader can weigh (RESEARCH_PROTOCOL §2). */
+const TIER: Record<string, string> = { T1: "Official", T2: "Company", T3: "Press", T4: "Other", T5: "Other" };
+
 function sources(e: Entity): string {
   const items = e.sources.map((s) => {
     const meta = [s.publisher, fmtDate(s.date)].filter(Boolean).map(esc).join(" · ");
-    return `<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a><span class="muted">${meta}</span></li>`;
+    return `<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a><span class="muted"><span class="tier tier-${esc(s.tier)}">${TIER[s.tier] ?? ""}</span>${meta}${s.archive_url ? ` · <a href="${esc(s.archive_url)}" target="_blank" rel="noopener">archived copy</a>` : ""}</span></li>`;
   });
   return `<ol class="sources">${items.join("")}</ol>`;
+}
+
+function milestones(e: Entity): string {
+  const items = e.milestones
+    .filter((m) => m.date && m.event)
+    .map((m) => `<li><span class="muted num">${esc(fmtDate(m.date))}</span><span>${esc(m.event)}</span></li>`);
+  return items.length ? `<ol class="auction">${items.join("")}</ol>` : "";
 }
 
 const PRECISION_NOTE: Record<string, string> = { district: "district-level location", state: "approximate location" };
@@ -83,6 +93,7 @@ export function renderDrawer(el: HTMLElement, e: Entity, stages: Stage[], byId: 
     row("Capacity", esc(cap)),
     row("Investment", esc(fmtInvestment(e))),
     row("Location", `${esc(loc)}${note ? ` <span class="muted">(${note})</span>` : ""}`),
+    row("Delay", e.slippage_months && e.slippage_months > 0 ? `<span class="num">${e.slippage_months}</span> months behind the first target` : ""),
     row("Schemes", schemes),
     row("Related", related),
     row("More", seeAlso),
@@ -94,20 +105,31 @@ export function renderDrawer(el: HTMLElement, e: Entity, stages: Stage[], byId: 
   el.innerHTML = `
     <div class="drawer-head">
       <div class="stages">${stageDots}</div>
+      <button class="icon-btn drawer-copy" type="button" aria-label="Copy link to this record" title="Copy link">
+        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6.5 9.5l3-3M7 4.5l1-1a2.5 2.5 0 0 1 3.5 3.5l-1 1M9 11.5l-1 1A2.5 2.5 0 0 1 4.5 9l1-1" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+      </button>
       <button class="icon-btn drawer-close" type="button" aria-label="Close">
         <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 4l8 8M12 4l-8 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
       </button>
     </div>
     <h2 id="drawer-title" tabindex="-1">${esc(e.name)}</h2>
-    <p class="status status-${e.status_group}"><strong>${esc(e.status)}</strong><span class="muted">${fmtDate(e.status_as_of)}</span></p>
+    <p class="status status-${e.status_group}"><strong>${esc(e.status)}</strong><span class="muted">${fmtDate(e.status_as_of)}</span>${e.confidence === "low" ? `<span class="tag">Unconfirmed</span>` : ""}</p>
     ${e.status_detail ? `<p class="status-detail">${esc(e.status_detail)}</p>` : ""}
     ${narrative ? `<p class="lede">${esc(narrative)}</p>` : ""}
     ${why ? `<p>${esc(why)}</p>` : ""}
     <dl class="facts">${facts}</dl>
     ${isBlock && e.auction?.history?.length ? `<h3>Auction history</h3>${auction(e)}` : ""}
+    ${!isBlock && milestones(e) ? `<h3>Milestones</h3>${milestones(e)}` : ""}
     <h3>Sources</h3>
     ${sources(e)}
   `;
+  const copy = el.querySelector<HTMLButtonElement>(".drawer-copy")!;
+  copy.onclick = () => {
+    navigator.clipboard?.writeText(location.href).then(
+      () => { copy.classList.add("done"); copy.title = "Copied"; setTimeout(() => { copy.classList.remove("done"); copy.title = "Copy link"; }, 1500); },
+      () => { /* clipboard blocked: the address bar still holds the link */ },
+    );
+  };
 }
 
 /** "https://fabs.pranaykotas.com/..." -> "India Semiconductor Tracker"; anything else -> its host name. */

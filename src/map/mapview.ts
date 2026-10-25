@@ -76,6 +76,7 @@ export function createMap(
     maxZoom: 14,
   });
   map.touchZoomRotate.disableRotation();
+  if (import.meta.env.DEV) (window as unknown as { __icmMap: MLMap }).__icmMap = map; // QA screenshots only
   map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "bottom-right");
   map.addControl(new maplibregl.AttributionControl({ compact: true, customAttribution: ATTRIBUTION }), "bottom-right");
   map.once("load", () => {
@@ -98,7 +99,8 @@ export function createMap(
             id: e.id, name: e.name, status: e.status, group: e.status_group,
             color: stageColor(primaryStage(e)),
             rank: e.status_group === "active" ? 2 : e.status_group === "pipeline" ? 1 : 0,
-            muted: e.layer === "demand" ? 1 : 0,
+            muted: e.layer === "demand" || e.confidence === "low" ? 1 : 0,
+            approx: e.location.precision === "district" || e.location.precision === "state" ? 1 : 0,
             where: e.layer === "overseas" ? e.location.country ?? "" : "",
           },
         })),
@@ -182,6 +184,17 @@ export function createMap(
       6, ["match", ["get", "group"], "inactive", off * 1.2, on * 1.2],
       10, ["match", ["get", "group"], "inactive", off * 1.7, on * 1.7],
     ];
+    // A district- or state-level location gets a soft halo, so it never reads as an exact site.
+    map.addLayer({
+      id: "points-approx", type: "circle", source: "points",
+      filter: ["==", ["get", "approx"], 1],
+      paint: {
+        "circle-radius": ["interpolate", ["linear"], ["zoom"], 3, 8, 6, 14, 10, 26],
+        "circle-color": ["match", ["get", "group"], "inactive", p.inactive, ["get", "color"]],
+        "circle-opacity": 0.14,
+        "circle-blur": 0.4,
+      },
+    });
     map.addLayer({
       id: "points-halo", type: "circle", source: "points",
       filter: ["==", ["get", "id"], selected ?? ""],
@@ -217,20 +230,46 @@ export function createMap(
     if (map.getLayer("points-halo")) map.setFilter("points-halo", ["==", ["get", "id"], selected ?? ""]);
   }
 
-  const pick = (f: MapGeoJSONFeature | undefined) => onPick(f ? String(f.properties.id) : null);
+  const escHtml = (v: unknown) => String(v ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
+  /** Distinct markers under the cursor (several records can share a district centroid). */
+  function pointsAt(pt: maplibregl.Point): MapGeoJSONFeature[] {
+    const box: [maplibregl.PointLike, maplibregl.PointLike] = [[pt.x - 4, pt.y - 4], [pt.x + 4, pt.y + 4]];
+    const seen = new Set<string>();
+    return map.queryRenderedFeatures(box, { layers: ["points"] }).filter((f) => {
+      const id = String(f.properties.id);
+      return seen.has(id) ? false : (seen.add(id), true);
+    });
+  }
+  const chooser = new maplibregl.Popup({ closeButton: false, offset: 10, className: "pick-list", maxWidth: "300px" });
 
   map.on("click", (ev) => {
-    const hit = map.queryRenderedFeatures(ev.point, { layers: ["points"] })[0]
-      ?? map.queryRenderedFeatures(ev.point, { layers: ["blocks-fill"] })[0];
-    pick(hit);
+    chooser.remove();
+    const hits = pointsAt(ev.point);
+    if (hits.length > 1) {
+      const items = hits
+        .sort((a, b) => Number(b.properties.rank) - Number(a.properties.rank))
+        .map((f) => `<li><button type="button" data-id="${escHtml(f.properties.id)}">${escHtml(f.properties.name)}<span>${escHtml(f.properties.status)}</span></button></li>`)
+        .join("");
+      chooser.setLngLat(ev.lngLat).setHTML(`<p>${hits.length} sites here</p><ul>${items}</ul>`).addTo(map);
+      chooser.getElement().addEventListener("click", (e) => {
+        const b = (e.target as HTMLElement).closest<HTMLElement>("[data-id]");
+        if (b) { chooser.remove(); onPick(b.dataset.id!); }
+      });
+      return;
+    }
+    const hit = hits[0] ?? map.queryRenderedFeatures(ev.point, { layers: ["blocks-fill"] })[0];
+    onPick(hit ? String(hit.properties.id) : null);
   });
   for (const layer of ["points", "blocks-fill"]) {
     map.on("mousemove", layer, (ev) => {
       map.getCanvas().style.cursor = "pointer";
-      const f = ev.features?.[0];
-      if (!f || layer !== "points") return;
-      const where = f.properties.where ? ` · ${f.properties.where}` : "";
-      hover.setLngLat(ev.lngLat).setHTML(`<strong>${String(f.properties.name).replace(/</g, "&lt;")}</strong><span>${f.properties.status}${where}</span>`).addTo(map);
+      if (layer !== "points") return;
+      const hits = pointsAt(ev.point);
+      const f = hits[0];
+      if (!f) return;
+      const bits = [f.properties.status, f.properties.where, f.properties.approx ? "approximate location" : ""].filter(Boolean).join(" · ");
+      const more = hits.length > 1 ? `<span>+${hits.length - 1} more here</span>` : "";
+      hover.setLngLat(ev.lngLat).setHTML(`<strong>${escHtml(f.properties.name)}</strong><span>${escHtml(bits)}</span>${more}`).addTo(map);
     });
     map.on("mouseleave", layer, () => { map.getCanvas().style.cursor = ""; hover.remove(); });
   }

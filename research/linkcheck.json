@@ -1,0 +1,4319 @@
+{
+ "checked": 504,
+ "counts": {
+  "blocked": 10,
+  "dead": 2,
+  "error": 1,
+  "ok": 491
+ },
+ "results": {
+  "https://autocarpro.in/news/altmin-to-set-up-indias-first-lfp-cathode-giga-factory-with-rs-750-crore-investment-125396": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "altmin-divitipally-lfp"
+   ]
+  },
+  "https://autocarpro.in/news/amara-raja-inaugurates-battery-pack-plant-lays-foundation-stone-for-customer-qualification-plant-at-gigacorridor-121985": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "amara-raja-divitipally-cells"
+   ]
+  },
+  "https://autocarpro.in/news/himadri-speciality-chemical-announces-indias-first-plant-for-lfp-cathode-active-material--118106": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "himadri-lfp-cam-odisha"
+   ]
+  },
+  "https://autocarpro.in/news/jsw-group-to-produce-locally-manufactured-battery-cells-in-odisha-within-18-24-months-119718": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "jsw-odisha-cells"
+   ]
+  },
+  "https://autotechinsight.ihsmarkit.com/news/5274190/epsilon-advanced-materials-completes-acquisition-of-lfp-cathode-technology-center-in-germany": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "epsilon-moosburg-lfp"
+   ]
+  },
+  "https://bsmedia.business-standard.com/_media/bs/data/announcements/bse/11122025/eb9be701-8543-453c-b181-f55f95e7cda1.pdf": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-br-genjana"
+   ]
+  },
+  "https://bsmedia.business-standard.com/_media/bs/data/announcements/bse/20012026/2839aa89-362e-4561-9538-9bba466c1d2a.pdf": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mh-kawalapur"
+   ]
+  },
+  "https://bsppd.business-standard.com/india-news/midwest-advanced-materials-bets-1-000-crore-on-rare-earth-magnets-125060900001_1.html": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "mam-hyderabad-ndfeb"
+   ]
+  },
+  "https://businessnewsthisweek.com/business/deccan-gold-mines-ltd-receives-letter-of-intent-loi-for-critical-minerals-cm-block-in-chhattisgarh/": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-cg-bhalukona-jamnidih"
+   ]
+  },
+  "https://chemindigest.com/himadri-accelerates-growth-in-speciality-materials-segment/": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "himadri-anode-mahistikry"
+   ]
+  },
+  "https://chemindigest.com/nexon-geochem-targets-fully-integrated-1200-mpta-ndfeb-magnet-facility-by-fy2033/": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "nexon-geochem-thondangi"
+   ]
+  },
+  "https://compoundsemiconductor.net/article/120568/Indiaand_s_DRDO_announces_GaN_and_SiC_milestones": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "gaetec-hyderabad"
+   ]
+  },
+  "https://connect.adani.com/2024/jul2024/solar/": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "adani-mundra-ingot-wafer"
+   ]
+  },
+  "https://dailypioneer.com/news/lohum-csir-immt-unite-to-strengthen-rare-earth-magnet-manufacturing-ecosystem": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "lohum-greater-noida-repm"
+   ]
+  },
+  "https://diariodocomercio.com.br/economia/venda-cbl-refinaria-altmin/": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "altmin-cbl-divisa-alegre"
+   ]
+  },
+  "https://energetica-india.net/news/reliance-operationalises-clean-energy-giga-complex-boosts-solar-and-battery-manufacturing": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "reliance-jamnagar-cells"
+   ]
+  },
+  "https://energy.economictimes.indiatimes.com/news/coal/irels-4k-cr-rare-earth-jv-in-tn-to-generate-4k-jobs/132651363": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "irel-tamin-thoothukudi"
+   ]
+  },
+  "https://eprbattery.cpcb.gov.in/user/recyclerview": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "cpcb-adity-enterprises-94",
+    "cpcb-ads-recycling-776",
+    "cpcb-adv-metal-combine-758",
+    "cpcb-animesh-recycling-733",
+    "cpcb-asnco-110",
+    "cpcb-attero-recycling-166",
+    "cpcb-batx-energies-88",
+    "cpcb-besa-lithium-batteries-827",
+    "cpcb-brp-infotech-783",
+    "cpcb-callx-ringers-851",
+    "cpcb-cleanwaste-recycling-867",
+    "cpcb-deshwal-waste-management-871",
+    "cpcb-e-parisaraa-101",
+    "cpcb-earthzone-recycling-547",
+    "cpcb-eco-recycling-77",
+    "cpcb-elgreen-metex-570",
+    "cpcb-endeavor-power-solutions-569",
+    "cpcb-etech-recycling-industries-345",
+    "cpcb-evergreen-lithium-recycling-605",
+    "cpcb-ewri-recyclers-351",
+    "cpcb-exigo-recycling-169",
+    "cpcb-fusion-metal-works-737",
+    "cpcb-glacier-enviro-610",
+    "cpcb-green-info-recycling-industries-784",
+    "cpcb-green-valley-recycling-740",
+    "cpcb-hayat-e-recyclers-105",
+    "cpcb-hbl-power-systems-674",
+    "cpcb-hind-metal-works-484",
+    "cpcb-hindustan-metals-770",
+    "cpcb-hyborn-recycling-611",
+    "cpcb-j-s-metal-380",
+    "cpcb-jalon-metal-industries-841",
+    "cpcb-jcp-international-1047",
+    "cpcb-kay-bee-batteries-133",
+    "cpcb-koscove-e-waste-935",
+    "cpcb-krishna-eco-e-waste-recyclers-852",
+    "cpcb-lico-materials-838",
+    "cpcb-lico-materials-86",
+    "cpcb-linico-energy-655",
+    "cpcb-lixtron-energies-911",
+    "cpcb-lohum-cleantech-95",
+    "cpcb-mahalaxmi-metalloys-207",
+    "cpcb-mbvm-ultra-energy-1033",
+    "cpcb-metastable-materials-869",
+    "cpcb-metastable-materials-892",
+    "cpcb-minimines-cleantech-solutions-433",
+    "cpcb-mobec-innovation-778",
+    "cpcb-mush-ecotech-909",
+    "cpcb-muzashi-recyclers-873",
+    "cpcb-navprakriti-green-energies-930",
+    "cpcb-nile-li-cycle-621",
+    "cpcb-ozone-waste-843",
+    "cpcb-prithvi-cleantech-124",
+    "cpcb-prithvi-cleantech-85",
+    "cpcb-proprietorship-444",
+    "cpcb-proprietorship-487",
+    "cpcb-proprietorship-700",
+    "cpcb-proprietorship-805",
+    "cpcb-proprietorship-853",
+    "cpcb-proprietorship-874",
+    "cpcb-proprietorship-937",
+    "cpcb-proprietorship-963",
+    "cpcb-quality-plast-industries-483",
+    "cpcb-ramco-metals-750",
+    "cpcb-ranjeet-metals-and-alloys-1018",
+    "cpcb-recy-energy-902",
+    "cpcb-recyclib-113",
+    "cpcb-regain-energies-solutions-915",
+    "cpcb-rennovo-recycling-industries-590",
+    "cpcb-resource-e-waste-solutions-844",
+    "cpcb-rmv-metals-and-alloys-899",
+    "cpcb-rocklink-317",
+    "cpcb-rocklink-619",
+    "cpcb-rubamin-592",
+    "cpcb-sage-green-industries-931",
+    "cpcb-sakshi-auto-parts-556",
+    "cpcb-sanyam-enterprises-280",
+    "cpcb-shree-metals-mujbi-414",
+    "cpcb-shri-bala-ji-industries-152",
+    "cpcb-shri-balaji-polypacks-1000",
+    "cpcb-sri-chamundi-metal-works-469",
+    "cpcb-sungeel-recycling-79",
+    "cpcb-techeco-waste-management-901",
+    "cpcb-terra-battery-recyclers-751",
+    "cpcb-trishulavel-eshan-392",
+    "cpcb-verdeen-chemicals-172",
+    "cpcb-world-watcher-recovery-898"
+   ]
+  },
+  "https://evreporter.com/altmin-and-sccl-to-setup-%e2%82%b92250-crore-lithium-refinery-project-in-telangana/": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "altmin-sccl-lithium-refinery"
+   ]
+  },
+  "https://evreporter.com/epsilon-advanced-materials-signs-mou-with-karnataka-government/": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "epsilon-eam-one-vijayanagar"
+   ]
+  },
+  "https://evreporter.com/epsilon-group-acquires-cathode-active-material-tech-center-in-germany/": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "epsilon-moosburg-lfp"
+   ]
+  },
+  "https://evreporter.com/rocklink-india-sets-up-lithium-ion-battery-and-rare-earth-magnet-recycling-facility-in-sikandrabad-up/": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "cpcb-rocklink-619"
+   ]
+  },
+  "https://evreporter.com/sudeep-pharma-launches-sudeep-advanced-materials-to-produce-pcam-for-ev-batteries/": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "sudeep-pcam-gujarat"
+   ]
+  },
+  "https://evreporter.com/tacc-limited-secures-%e2%82%b91230-crore-sbi-credit-for-lithium-ion-anode-material-facility-in-madhya-pradesh/": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "tacc-dewas-anode"
+   ]
+  },
+  "https://evreporter.com/taccs-%e2%82%b92000-crore-leap-into-lithium-ion-battery-anode-manufacturing/": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "tacc-dewas-anode"
+   ]
+  },
+  "https://ewsdata.rightsindevelopment.org/projects/IFC-50622/": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "gfcl-ev-jolva"
+   ]
+  },
+  "https://fabs.pranaykotas.com/": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "ism"
+   ]
+  },
+  "https://fabs.pranaykotas.com/facilities/crystal-matrix-dholera.html": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "crystal-matrix-dholera-gan"
+   ]
+  },
+  "https://fabs.pranaykotas.com/facilities/gaetec-hyderabad.html": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "gaetec-hyderabad"
+   ]
+  },
+  "https://filingreader.com/news-wire/mumbai/2025-04-28/deccan-gold-commences-work-on-chhattisgarh-nickel-licence": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-cg-bhalukona-jamnidih"
+   ]
+  },
+  "https://freepressjournal.in/business/rajasthan-becomes-1st-state-to-execute-rare-earth-exploration-licence-for-critical-minerals": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-rj-nawatala-devigarh"
+   ]
+  },
+  "https://ianslive.in/india-advances-critical-mineral-security-clears-58-firms-for-recycling-scheme--20260430182613": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "jnarddc-nagpur"
+   ]
+  },
+  "https://ibm.gov.in/writereaddata/files/17454767536809dc9139ba8IMYB_BOOK_2023.pdf": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "balco-korba-vanadium",
+    "betla-graphite-mine",
+    "cmdc-dantewada-tin",
+    "cmrl-edayar-synthetic-rutile",
+    "dcw-sahupuram-synthetic-rutile",
+    "edayar-zinc-binanipuram",
+    "gandabahali-graphite-mines",
+    "hcl-icc-ghatsila-smelter",
+    "hcl-kcc-khetri-smelter",
+    "hcl-kendadih-mine",
+    "hcl-khetri-mine",
+    "hcl-malanjkhand-mine",
+    "hcl-rakha-mine",
+    "hcl-surda-mine",
+    "hindalco-belagavi-alumina",
+    "hindalco-birla-copper-dahej",
+    "hindalco-muri-alumina",
+    "hindalco-renukoot-alumina",
+    "hzl-chanderiya-smelter",
+    "hzl-debari-smelter",
+    "hzl-kayad-mine",
+    "hzl-pantnagar-metal-plant",
+    "hzl-rajpura-dariba-mine",
+    "hzl-rampura-agucha-mine",
+    "hzl-sindesar-khurd-mine",
+    "hzl-vizag-zinc-smelter",
+    "hzl-zawar-mines",
+    "irel-brahmagiri-mine",
+    "irel-chavara-mine",
+    "irel-manavalakurichi-mine",
+    "irel-oscom-mine",
+    "khajuraho-stones-phosphate",
+    "kmml-chavara",
+    "kmml-chavara-mine",
+    "kmml-sail-titanium-sponge-jv",
+    "mpsmcl-hirapur",
+    "mpsmcl-meghnagar",
+    "nalco-damanjodi-gallium",
+    "nfc-hyderabad-zirconium",
+    "nfc-zirconium-complex-palayakayal",
+    "nicomet-cuncolim",
+    "pmsl-dantewada-tin",
+    "pradhan-bandhamundi-graphite",
+    "pradhan-banibasa-graphite",
+    "rsmml-jhamarkotra",
+    "sterlite-copper-thoothukudi",
+    "tamin-sivaganga-graphite",
+    "ttpl-kochuveli",
+    "ucil-jaduguda-molybdenum",
+    "vedanta-lanjigarh-vanadium"
+   ]
+  },
+  "https://isa.org.jm/?p=43205": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "isa-afanasy-nikitin-crusts",
+    "isa-carlsberg-ridge-pms",
+    "isa-ciob-polymetallic-nodules",
+    "isa-indian-ocean-ridge-pms-2016"
+   ]
+  },
+  "https://isa.org.jm/wp-content/uploads/2024/07/ISBA_29_C_19.pdf": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "isa-afanasy-nikitin-crusts"
+   ]
+  },
+  "https://jnarddc.gov.in/en/Schemes/pilot-projects-for-CoEs.aspx": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "jnarddc-nagpur"
+   ]
+  },
+  "https://kabilindia.in/updates/kabil-achievement": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "kabil-catamarca-lithium-brine"
+   ]
+  },
+  "https://knnindia.co.in/news/newsdetails/sectors/others/indias-first-rare-earth-magnet-plant-to-be-set-up-in-greater-noida": {
+   "class": "error",
+   "code": 0,
+   "records": [
+    "lohum-greater-noida-repm"
+   ]
+  },
+  "https://lloyds.in/wp-content/uploads/2026/03/20260330_Intimation_of_accquisition_of_Chemaf.pdf": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "lloyds-chemaf-etoile",
+    "lloyds-chemaf-mutoshi"
+   ]
+  },
+  "https://machinist.in/?p=8904": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "arci-ndfeb-pilot-hyderabad"
+   ]
+  },
+  "https://mercomindia.com/npspl-to-invest-%E2%82%B925-billion-for-cathode-material-plant-in-andhra-pradesh": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "npspl-gudupalle-cathode"
+   ]
+  },
+  "https://mines.gov.in/admin/storage/ckeditor/NCMM%27_1768030756.pdf": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "ncmm",
+    "ncmm-recovery-pilots",
+    "ncmm-stockpile"
+   ]
+  },
+  "https://mines.gov.in/webportal/content/successful-auction-since-2015": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-cg-bhalukona-jamnidih",
+    "blk-cg-giroud-uprani",
+    "blk-cg-kelwardabri",
+    "blk-cg-kennapara",
+    "blk-cg-murka-basera",
+    "blk-cg-north-arjunda",
+    "blk-jh-dulsulma",
+    "blk-jh-lesliganj",
+    "blk-mh-bidwadi",
+    "blk-mh-dubarpeth",
+    "blk-mh-ghanpur-mudholi-west",
+    "blk-mh-minzhari",
+    "blk-mh-thanewasna",
+    "blk-mp-gauthana",
+    "blk-mp-gauthana-tikari",
+    "blk-mp-kachaldara",
+    "blk-mp-khatamba",
+    "blk-mp-makra",
+    "blk-mp-mardeora",
+    "blk-mp-modri",
+    "blk-mp-netara",
+    "blk-mp-patehra",
+    "blk-mp-piploda",
+    "blk-mp-rupakheda-piplouda",
+    "blk-mp-shitalpani",
+    "blk-od-jagdalpur",
+    "blk-od-naringapanga",
+    "blk-rj-bhabhriya-ka-kheda",
+    "blk-rj-ladana",
+    "blk-up-sonrai-i",
+    "blk-up-sonrai-ii-iv",
+    "blk-up-sonrai-v"
+   ]
+  },
+  "https://nalcoindia.com/?p=57709": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "nalco-residue-pilots-bhubaneswar"
+   ]
+  },
+  "https://news.careers360.com/government-recognises-iisc-bangalore-cmet-centre-of-excellence-boost-research-development-critical-minerals-clean-energy-hub": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "coe-cmet-hyderabad",
+    "coe-iisc-bengaluru"
+   ]
+  },
+  "https://news.metal.com/newscontent/103405505": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "india-zambia-exploration-area"
+   ]
+  },
+  "https://news.metal.com/newscontent/103985139-proterial-to-invest-225m-in-rare-earth-magnet-plant-in-andhra-pradesh-india": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "proterial-atchutapuram-ndfeb"
+   ]
+  },
+  "https://news.metal.com/newscontent/104060554-india-to-set-up-4-critical-mineral-parks-for-lithium-nickel-in-gujarat-maharashtra-ap-odisha": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "ncmm-park-andhra-pradesh",
+    "ncmm-park-gujarat-dahej",
+    "ncmm-park-maharashtra-dighi",
+    "ncmm-park-odisha-paradip"
+   ]
+  },
+  "https://news.metal.com/newscontent/104152415-kutch-copper-to-integrate-115-mw-renewable-energy-at-mundra-aiming-for-1m-tonne-capacity-and-carbon-reduction": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "kutch-copper-mundra"
+   ]
+  },
+  "https://now.solar/2026/07/21/reliance-says-solar-wafer-pilot-plant-ready-40-gwh-battery-capacity-on-track-saur-energy/": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "reliance-jamnagar-silicon"
+   ]
+  },
+  "https://nsearchives.nseindia.com/corporate/AMIORG_28072026182421_TranscriptSWmergedsigned.pdf": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "acutaas-jhagadia-additives"
+   ]
+  },
+  "https://nsearchives.nseindia.com/corporate/DCW_13082026202839_Intimation_Investor_Presentation_.pdf": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "dcw-sahupuram-synthetic-rutile"
+   ]
+  },
+  "https://nsearchives.nseindia.com/corporate/FLUOROCHEM_12082026150128_GFCL_Investor_Presentation_12August2026.pdf": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "gfcl-ev-jolva"
+   ]
+  },
+  "https://nsearchives.nseindia.com/corporate/FLUOROCHEM_26052026164956_GFCL_Investor_Presentation_26May2026.pdf": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "gfcl-ev-jolva"
+   ]
+  },
+  "https://nsearchives.nseindia.com/corporate/HEG_24022026154050_Stxintimation240226_PR01.pdf": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "tacc-dewas-anode"
+   ]
+  },
+  "https://nsearchives.nseindia.com/corporate/HINDCOPPERMKD_27082026180008_BSENSEBRSR27082026.pdf": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "hcl-icc-ghatsila-smelter",
+    "hcl-surda-mine"
+   ]
+  },
+  "https://nsearchives.nseindia.com/corporate/HINDZINCNSE_03092026152340_SEIntimation-LOI.pdf": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-ka-gundlupet"
+   ]
+  },
+  "https://nsearchives.nseindia.com/corporate/HINDZINCNSE_04072025145012_SEIntimation-LOI.pdf": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-up-nawatola-laband"
+   ]
+  },
+  "https://nsearchives.nseindia.com/corporate/HINDZINCNSE_13042026161157_SEIntimation_-_Successful_Bidder.pdf": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-rj-jhandawali-satipura"
+   ]
+  },
+  "https://nsearchives.nseindia.com/corporate/HINDZINCNSE_14112025180725_SEIntimation_-_Successful_Bidder.pdf": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-ap-balepalyam"
+   ]
+  },
+  "https://nsearchives.nseindia.com/corporate/HSCL_17102026190250_InvestorpresentationQ2FY27Stockex17102026.pdf": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "himadri-anode-mahistikry",
+    "himadri-lfp-cam-odisha"
+   ]
+  },
+  "https://nsearchives.nseindia.com/corporate/HSCL_23042026155746_Commencementoffirstanodematerialproduction.pdf": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "himadri-anode-mahistikry"
+   ]
+  },
+  "https://nsearchives.nseindia.com/corporate/NEOGEN_18022026132854_TranscriptDEC25.pdf": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "neogen-ionics-pakhajan"
+   ]
+  },
+  "https://nsearchives.nseindia.com/corporate/NEOGEN_26072026165930_EP.pdf": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "neogen-ionics-dahej",
+    "neogen-ionics-pakhajan"
+   ]
+  },
+  "https://nsearchives.nseindia.com/corporate/OIL_05012026182504_Clarification05012026.pdf": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-ar-phop"
+   ]
+  },
+  "https://nsearchives.nseindia.com/corporate/ekta_maheshwari_21102026145942_SEIntimationCapexSRFAltech.pdf": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "srf-altech-jetapur-battery-foil"
+   ]
+  },
+  "https://psuwatch.com/newsupdates/nlc-india-receives-loi-for-composite-licence-for-critical-mineral-blocks-in-telangana": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-tg-govindpur",
+    "blk-tg-parvathapur"
+   ]
+  },
+  "https://sansad.in/getFile/app/lsscommittee/Coal,%20Mines%20and%20Steel/18_Coal_Mines_and_Steel_29.pdf?source=app": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "altmin-cbl-divisa-alegre",
+    "greenko-catamarca-lithium",
+    "kabil-catamarca-additional-blocks",
+    "kabil-catamarca-lithium-brine",
+    "kabil-iocl-rio-grande-salta",
+    "kabil-jujuy-lithium",
+    "kabil-lai-chau-ree",
+    "kabil-oil-san-jorge-catamarca",
+    "lloyds-chemaf-etoile",
+    "lohum-matabeleland-lithium",
+    "psu-consortium-andover",
+    "psu-consortium-mt-holland",
+    "psu-consortium-mt-marion-bid",
+    "psu-consortium-salta-lithium-bid",
+    "psu-consortium-wodgina-bid",
+    "ree-corridors"
+   ]
+  },
+  "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/183/AU3828_PuCmHU.pdf?source=lsapps": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "hcl-khetri-mine",
+    "hcl-kolihan-mine",
+    "hcl-malanjkhand-mine",
+    "hcl-surda-mine"
+   ]
+  },
+  "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/184/AU2283_dGkwtC.pdf?source=lsapps": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "irel-oscom-reep"
+   ]
+  },
+  "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/185/AU1474_qSzehO.pdf?source=lsapps": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "repm"
+   ]
+  },
+  "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/185/AU303_LgyV3v.pdf?source=lsapps": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "irel-repm-vizag"
+   ]
+  },
+  "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/185/AU476_uB8Nad.pdf?source=lsapps": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "gsi-india-2025-26",
+    "ncmm"
+   ]
+  },
+  "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/186/AU623_96Lb6G.pdf?source=lsapps": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-ap-balepalyam"
+   ]
+  },
+  "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/187/AU1624_2oSB4G.pdf?source=lsapps": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "acc-energy-storage-dharwad",
+    "ola-krishnagiri-cells",
+    "reliance-jamnagar-cells"
+   ]
+  },
+  "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/187/AU1884_DDUVqA.pdf?source=lsapps": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "gsi-india-2024-25",
+    "gsi-india-2025-26",
+    "gsi-target-2024-31",
+    "mmdr-amendments",
+    "ncmm",
+    "ncmm-coe",
+    "ncmm-processing-parks",
+    "ncmm-recovery-pilots",
+    "ncmm-stockpile"
+   ]
+  },
+  "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/187/AU5077_809q9i.pdf?source=lsapps": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "acc-energy-storage-dharwad",
+    "reliance-jamnagar-cells"
+   ]
+  },
+  "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/187/AU5186_DaAihr.pdf?source=lsapps": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "acc-pli"
+   ]
+  },
+  "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/187/AU728_i0HlcX.pdf?source=lsapps": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "gsi-rajasthan-2024-25",
+    "gsi-rajasthan-2025-26"
+   ]
+  },
+  "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/187/AU827_sDdDFf.pdf?source=lsapps": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "kabil-catamarca-lithium-brine"
+   ]
+  },
+  "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/188/AU1521_o6qWBN.pdf?source=lsapps": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "acc-pli",
+    "customs-duty-exemptions",
+    "ola-krishnagiri-cells"
+   ]
+  },
+  "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/188/AU1710_XZzH6q.pdf?source=lsapps": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "irel-repm-vizag"
+   ]
+  },
+  "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/188/AU2814_vUBjng.pdf?source=lsapps": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-cg-raipura",
+    "blk-cg-semhardih"
+   ]
+  },
+  "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/188/AU2978_4TVdAQ.pdf?source=lsapps": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "gsi-india-2025-26",
+    "gsi-india-2026-27",
+    "mmdr-amendments"
+   ]
+  },
+  "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/188/AU3696_W6SBif.pdf?source=lsapps": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "acc-pli"
+   ]
+  },
+  "https://scanx.trade/stock-market-news/companies/hindustan-zinc-secures-composite-licence-for-up-ree-block/44117011": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-up-nawatola-laband"
+   ]
+  },
+  "https://services2.arcgis.com/C8EMgrsFcRFL6LrL/arcgis/rest/services/Undersea_Features/FeatureServer": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "isa-afanasy-nikitin-crusts",
+    "isa-carlsberg-ridge-pms"
+   ]
+  },
+  "https://source.benchmarkminerals.com/article/site-visit-altmin-and-sudeep-advanced-material-support-indias-midstream-ambitions": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "altmin-balapur-pilot",
+    "altmin-divitipally-lfp",
+    "sudeep-pcam-gujarat"
+   ]
+  },
+  "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc202622776601.pdf": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "irel-oscom-reep",
+    "irel-red-aluva"
+   ]
+  },
+  "https://swarajyamag.com/amp/story/news-brief%2Findian-critical-minerals-firm-lohum-starts-zimbabwe-mining-targets-30000-tonnes-lithium-carbonate": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "lohum-matabeleland-lithium"
+   ]
+  },
+  "https://swarajyamag.com/amp/story/news-brief/govt-clears-rs-7104-crore-electronics-manufacturing-projects-including-indias-first-rare-earth-magnet-plant": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "ecms",
+    "lohum-greater-noida-repm"
+   ]
+  },
+  "https://taiyangnews.info/business/reliance-advances-ingot-wafer-lines-targets-40-gwh-batteries": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "reliance-jamnagar-silicon"
+   ]
+  },
+  "https://telanganatoday.com/centre-to-launch-incentive-scheme-for-lithium-nickel-processing": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "li-ni-processing-incentive",
+    "ncmm-processing-parks"
+   ]
+  },
+  "https://telanganatoday.com/sccl-enters-strategic-minerals-sector-secures-karnataka-licence": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-ka-devadurga"
+   ]
+  },
+  "https://test.uniindia.com/news/business-economy/mining-singareni-gold-exploration/3936030.html": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-ka-devadurga"
+   ]
+  },
+  "https://themachinemaker.com/news/epsilon-group-to-invest-%e2%82%b915350-crore-in-karnataka-for-ev-battery-materials-and-rd/": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "epsilon-eam-one-vijayanagar",
+    "epsilon-lfp-cam-karnataka"
+   ]
+  },
+  "https://themachinemaker.com/news/himadri-speciality-chemical-aims-to-commission-odisha-plant-by-fy27/": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "himadri-lfp-cam-odisha"
+   ]
+  },
+  "https://themachinemaker.com/news/lohum-to-invest-%e2%82%b92000-crore-in-new-krishnagiri-plant": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "lohum-krishnagiri-cam"
+   ]
+  },
+  "https://themachinemaker.com/news/nan-magnetech-to-set-up-indias-first-integrated-rare-earth-magnet-plant-in-andhra-pradesh/": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "nan-magnetech-naidupeta"
+   ]
+  },
+  "https://timesofindia.indiatimes.com/city/chennai/tamil-nadus-rare-earth-corridor-can-become-a-magnet-for-investments-irel/articleshow/132646922.cms": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "amd-hyderabad",
+    "irel-tamin-thoothukudi"
+   ]
+  },
+  "https://tradebrains.in/money/andhra-pradesh-approves-2-rare-earth-magnet-projects-worth-3500-crore-which-areas-will-benefit/": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "nan-magnetech-naidupeta",
+    "proterial-atchutapuram-ndfeb"
+   ]
+  },
+  "https://tradebrains.in/money/nexon-geochem-to-invest-1250-crore-in-rare-earth-magnet-plant-in-andhra-pradesh-886-jobs-expected-where-is-it-coming-up-12670822": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "nexon-geochem-thondangi"
+   ]
+  },
+  "https://trei.co.in/about.html": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "trei-atchutapuram"
+   ]
+  },
+  "https://trei.co.in/index.html": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "trei-atchutapuram"
+   ]
+  },
+  "https://trei.co.in/our-products.html": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "trei-atchutapuram"
+   ]
+  },
+  "https://vedantaresources.com/img/media_mentions/press_release/2021/Press-Release_Vedanta-Acquires-Nicomet-Updated.pdf": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "nicomet-cuncolim"
+   ]
+  },
+  "https://www.adityabirla.com/media/press-releases/hindalco-to-set-up-battery-foil-manufacturing-facility-in-odisha-to-tap-ev-market-lines-up-rs800-crore-investment/": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "hindalco-sambalpur-battery-foil"
+   ]
+  },
+  "https://www.agenciaminas.mg.gov.br/noticia/governo-de-minas-consolida-avanco-na-cadeia-de-valor-do-litio-com-investimento-internacional-de-r-220-milhoes/": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "altmin-cbl-divisa-alegre"
+   ]
+  },
+  "https://www.alcircle.com/news/interview/al-circle-x-sunit-kapur-epsilons-us-facility-secures-sustainable-local-anode-supply-for-ev-growth-115252": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "epsilon-brunswick-anode"
+   ]
+  },
+  "https://www.alcircle.com/news/nalco-explores-rare-earth-and-valuable-material-recovery-from-bauxite-residue-and-fly-ash-120858": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "nalco-residue-pilots-bhubaneswar"
+   ]
+  },
+  "https://www.alcircle.com/news/nalcos-gallium-plan-remains-on-paper-a-missed-opportunity-as-critical-minerals-race-heats-up-117237": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "nalco-damanjodi-gallium"
+   ]
+  },
+  "https://www.angelone.in/news/economy/india-to-develop-four-critical-mineral-processing-parks-in-andhra-pradesh-gujarat-maharashtra-and-odisha": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "ncmm-park-andhra-pradesh",
+    "ncmm-park-gujarat-dahej",
+    "ncmm-park-maharashtra-dighi",
+    "ncmm-park-odisha-paradip"
+   ]
+  },
+  "https://www.angelone.in/news/share-market/ami-organics-plans-rs-177-crore-expansion-for-electrolyte-additives-production": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "acutaas-jhagadia-additives"
+   ]
+  },
+  "https://www.angelone.in/news/stocks/exide-industries-share-price-surges-completes-commissioning-phase-i-of-lithium-ion-cell-facility": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "exide-devanahalli-cells"
+   ]
+  },
+  "https://www.autocarindia.com/car-news/battery-cell-is-going-to-be-the-new-oil-jsw-group-chairman-440830": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "jsw-odisha-cells"
+   ]
+  },
+  "https://www.autocarpro.in/news/govt-clears-31-new-projects-under-ecms-taking-total-approved-investment-to-rs-69548-crore-134154": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "ecms"
+   ]
+  },
+  "https://www.autocarpro.in/news/hindalco-announces-major-aluminium-expansion-in-odisha-worth-%E2%82%B921000-crore-130783": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "hindalco-sambalpur-battery-foil"
+   ]
+  },
+  "https://www.autocarpro.in/news/nan-magnetech-to-build-rs-1250-crore-magnet-facility-in-andhra-pradesh-133706": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "nan-magnetech-naidupeta"
+   ]
+  },
+  "https://www.autocarpro.in/news/nexon-geochem-to-invest-rs-1250-crore-in-andhra-rare-earth-magnet-plant-135243": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "nexon-geochem-thondangi"
+   ]
+  },
+  "https://www.autoguideindia.com/auto-makers/policy/govt-approves-lohum-rare-earth-magnet-electronics-projects/": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "lohum-greater-noida-repm"
+   ]
+  },
+  "https://www.billionaires.africa/2026/09/23/indian-billionaire-anil-agarwal-is-building-what-would-be-africas-largest-copper-smelter/": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "vedanta-kcm-chingola"
+   ]
+  },
+  "https://www.business-standard.com/amp/markets/capital-market-news/vedanta-rises-after-winning-genjana-nickel-chromium-pge-block-in-critical-minerals-auction-125121200366_1.html": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-br-genjana"
+   ]
+  },
+  "https://www.businesslive.co.za/bd/companies/2024-04-07-adani-starts-making-wafer-and-ingots-for-solar-power-cells": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "adani-mundra-ingot-wafer"
+   ]
+  },
+  "https://www.businesstoday.in/auto/story/bt-explainer-why-jsw-group-is-putting-its-plans-to-make-battery-cells-in-india-on-hold-551902-2026-08-27": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "jsw-odisha-cells"
+   ]
+  },
+  "https://www.businesstoday.in/latest/corporate/story/epsilons-lithium-ion-battery-anode-project-gets-government-nod-549897-2026-08-18": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "epsilon-eam-one-vijayanagar",
+    "epsilon-lfp-cam-karnataka"
+   ]
+  },
+  "https://www.businesstoday.in/latest/corporate/story/tatas-battery-unit-prepares-to-manufacture-lithium-ion-cells-report-547073-2026-08-04": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "agratas-sanand-cells"
+   ]
+  },
+  "https://www.businesstoday.in/markets/stocks/story/hind-zinc-shares-in-focus-amid-pact-with-up-govt-to-explore-nawatola-rare-earths-block-539602-2026-06-29": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-up-nawatola-laband"
+   ]
+  },
+  "https://www.commerce.nc.gov/news/press-releases/2023/10/26/governor-cooper-announces-500-jobs-global-battery-component-supplier-selects-brunswick-county-first": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "epsilon-brunswick-anode"
+   ]
+  },
+  "https://www.constructionworld.in/policy-updates-and-economic-news/rs305.15-bn-proposals-cleared-by-sipb-including-rs60-bn-renewable-project/93513": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "proterial-atchutapuram-ndfeb"
+   ]
+  },
+  "https://www.deccanchronicle.com/nation/nan-greenmet-to-set-up-rare-earth-magnet-plant-at-naidupeta-industrial-park-in-nellore-1973285": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "nan-magnetech-naidupeta"
+   ]
+  },
+  "https://www.deccanchronicle.com/southern-states/andhra-pradesh/hyderabad-nexon-geochem-to-set-up-rare-earth-permanent-magnet-facility-in-andhra-pradesh-1995765": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "nexon-geochem-thondangi"
+   ]
+  },
+  "https://www.electronicsforyou.biz/industry-buzz/recyclekaro-gets-govt-push-for-critical-mineral-recycling/": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "recyclekaro-palghar"
+   ]
+  },
+  "https://www.energetica-india.net/news/amara-raja-commissions-inr-500-crore-60-mwh-battery-cqp-in-telangana": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "amara-raja-divitipally-cells"
+   ]
+  },
+  "https://www.energetica-india.net/news/andhra-pradesh-clears-inr-2550-cr-cathode-material-manufacturing-project-by-npspl": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "npspl-gudupalle-cathode"
+   ]
+  },
+  "https://www.energetica-india.net/news/epsilon-advanced-materials-secures-inr-145-crore-ecms-support-for-indigenous-graphite-anode-project": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "epsilon-eam-one-vijayanagar"
+   ]
+  },
+  "https://www.energetica-india.net/news/exide-commissions-6-gwh-phase-i-lithium-ion-cell-manufacturing-facility": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "exide-devanahalli-cells"
+   ]
+  },
+  "https://www.energetica-india.net/news/gfcl-ev-announces-commencement-of-lipf6-project-invests-inr-6000-crores": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "gfcl-ev-jolva"
+   ]
+  },
+  "https://www.energetica-india.net/news/renew-to-set-up-indias-first-6-gw-ingotwafer-manufacturing-plant-in-andhra-pradesh": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "renew-rambilli-ingot-wafer"
+   ]
+  },
+  "https://www.energetica-india.net/news/tata-power-plans-10-gw-ingot-and-wafer-manufacturing-facility-in-andhra-pradesh": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "tata-power-nellore-ingot-wafer"
+   ]
+  },
+  "https://www.energetica-india.net/news/waaree-energies-to-set-up-indias-largest-lithium-ion-battery-gigafactory-in-andhra-pradesh": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "waaree-rambilli-cells"
+   ]
+  },
+  "https://www.hdfcsec.com/hsl.docs//Ami%20Organics%20-%20Update%20-%20Aug24%20-%20HSIE-202408271511354052008.pdf": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "acutaas-jhagadia-additives"
+   ]
+  },
+  "https://www.heraeus-precious-metals.com/en/company/press-and-news/ravindra-heraeus-acquires-arora-mattheys-catalyst-and-recycling-site-in-vizag-india/": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "ravindra-heraeus-udaipur",
+    "ravindra-heraeus-vizag"
+   ]
+  },
+  "https://www.hindalco.com/media/press-releases/hindalco-announces-rs21000-crore-smelter-expansion-commissions-frp-and-battery-foil-facilities-odisha": {
+   "class": "dead",
+   "code": 404,
+   "records": [
+    "hindalco-sambalpur-battery-foil"
+   ]
+  },
+  "https://www.indiainfoline.com/company/cochin-minerals-&-rutile-ltd-share-price/management-discussions/2422": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "cmrl-edayar-synthetic-rutile"
+   ]
+  },
+  "https://www.indiascienceandtechnology.gov.in/technologies/commercial-indigenous-production-neodymium-materials-rare-earth-permanent-magnets-e-mobility": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "mam-hyderabad-ndfeb"
+   ]
+  },
+  "https://www.irel.co.in/documents/20126/114997/Annual+Report+2024-25+IREL+%281%29.pdf/cb3382a3-24fa-c697-4a7c-782752762b4c?t=1762855411950": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "barc-trombay-rare-earths",
+    "irel-oscom-mine",
+    "irel-oscom-reep",
+    "irel-red-aluva",
+    "irel-repm-vizag",
+    "irel-rettp-bhopal",
+    "ireuk-titanium-slag-odisha"
+   ]
+  },
+  "https://www.irel.co.in/documents/20126/238650/IRELTDC+ongoing+projects+as+on+31.03.2026.pdf/17ec7c9a-8bbc-183e-09e7-52e7203dec81?t=1785401777927": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "coe-csir-immt",
+    "coe-csir-nml",
+    "csir-niist-rare-earth-alloys",
+    "irel-red-aluva"
+   ]
+  },
+  "https://www.irel.co.in/oscom-rare-earth-extraction-plant": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "irel-oscom-reep"
+   ]
+  },
+  "https://www.irel.co.in/projects-under-implementation": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "irel-tamin-thoothukudi"
+   ]
+  },
+  "https://www.irel.co.in/rare-earth-theme-park-bhopal": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "barc-trombay-rare-earths",
+    "irel-rettp-bhopal"
+   ]
+  },
+  "https://www.irel.co.in/rare-earths-division-aluva": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "irel-red-aluva"
+   ]
+  },
+  "https://www.isa.org.jm/wp-content/uploads/2022/10/Public-information-on-contracts-India_PMN.pdf": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "isa-ciob-polymetallic-nodules"
+   ]
+  },
+  "https://www.isa.org.jm/wp-content/uploads/2022/10/Public-information-on-contracts-India_PMS.pdf": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "isa-indian-ocean-ridge-pms-2016"
+   ]
+  },
+  "https://www.kitco.com/news/off-the-wire/2026-01-29/india-unveil-incentives-lithium-nickel-processing": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "li-ni-processing-incentive"
+   ]
+  },
+  "https://www.kitco.com/news/off-the-wire/2026-09-09/lohum-ships-first-lithium-ore-zimbabwe-starts-overseas-mining": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "lohum-matabeleland-lithium"
+   ]
+  },
+  "https://www.kmml.com/initiatives/1": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "kmml-chavara",
+    "kmml-sail-titanium-sponge-jv"
+   ]
+  },
+  "https://www.manufacturingplantindia.com/lohum-to-invest-2000-cr-in-battery-material-plant-in-krishnagiri/": {
+   "class": "dead",
+   "code": 404,
+   "records": [
+    "lohum-krishnagiri-cam"
+   ]
+  },
+  "https://www.mercomindia.com/waaree-to-set-up-16-gwh-lithium-ion-battery-gigafactory-in-andhra-pradesh": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "waaree-rambilli-cells"
+   ]
+  },
+  "https://www.mining.com/web/adani-smelter-expansion-will-cut-indias-refined-copper-imports-government-says/": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "kutch-copper-mundra",
+    "sterlite-copper-thoothukudi"
+   ]
+  },
+  "https://www.mining.com/web/indian-lithium-plant-plan-advances-as-ev-market-boom-looms/": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "manikaran-lithium-refinery"
+   ]
+  },
+  "https://www.mining.com/web/vedanta-seeks-partners-to-develop-zambia-mines-its-regaining/": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "vedanta-kcm-chingola"
+   ]
+  },
+  "https://www.miningmx.com/news/battery-minerals/61621-india-sends-geology-team-to-explore-zambian-minerals/": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "india-zambia-exploration-area"
+   ]
+  },
+  "https://www.miningmx.com/news/battery-minerals/65074-india-zambia-critical-minerals-talks-stall-over-rights/": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "india-zambia-exploration-area"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=10782_Notice_for_annulment_of%2B_auction_process_of_Giroud_Uprani_Glauconite_Block_dated_03-07-2023.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-cg-giroud-uprani"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=10824_Notice+Inviting+Tender+for+Mineral+Blocks+dated+06-07-2023.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-cg-giroud-uprani"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=10901_NIT%20Phase%2011%20dated%2014.07.2023.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mp-betwasa",
+    "blk-mp-juwari-chhoti-gura-bara",
+    "blk-mp-khattali-chhoti",
+    "blk-mp-makra",
+    "blk-mp-modri",
+    "blk-mp-mordongri-jamtara-platinum-group",
+    "blk-mp-patra-north",
+    "blk-mp-piploda",
+    "blk-mp-sadkhera-jayantimala",
+    "blk-mp-shitalpani",
+    "blk-mp-ublar-chagdi"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=10913_4.%20Fial%20Summary%20of%20the%20Mineral%20Block%20Sheetalpani%20Block..pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mp-shitalpani"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=10918_9.%20Final%20Summary_Sadkhera_Jayantimala%20Phosphorite.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mp-sadkhera-jayantimala"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=10919_10.%20Fianl%20Summary%20of%20Makra_G3%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mp-makra"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=10920_11.%20Final%20Summary%20of%20Mordongri%20Jamtara%20PGE%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mp-mordongri-jamtara-platinum-group"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=10938_29.%20Modri%20Phosphorite.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mp-modri"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=10939_30.%20Piploda%20Phosphorite%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mp-piploda"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=10946_37.%20Juwari_Chhoti-Gura_Bara.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mp-juwari-chhoti-gura-bara"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=10947_38.%20Betwasa.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mp-betwasa"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=10957_48.%20Summary%20%20-%20Ublar%20-%20Chagdi%20Graphite%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mp-ublar-chagdi"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=10960_51.%20Summary%20of%20Patra%20North-Graphite.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mp-patra-north"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=11110_Notice+Inviting+Tender+For+Mineral+Blocks+dtd+27+July+2023.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-cg-bijora-kumhalori"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=11114_Mineral%2BBlock%2BSummary%2Bof%2BBijora-Kumhalori%2BPhosphorite%2BBlock%2Bdtd%2B27-07-2023.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-cg-bijora-kumhalori"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=11592_Declaration_of_Preferred_bidder_of_Ladana_Block_NIT_07.07.2023.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-rj-ladana"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=11607_Declaration_of_Preferred_bidder_of_Bhabhriya_ka_kheda_NIT_07.07.2023.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-rj-bhabhriya-ka-kheda"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=11628_GoMP%20Phase%20XI_%20Auction_Notice%20Regarding%20e-auction%20of%20Betwasa%20Graphite%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mp-betwasa"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=11632_GoM_Notice_Inviting_Tender_Phase%20XI.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mh-minzhari"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=11640_Summary_of_Minzari_Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mh-minzari",
+    "blk-mh-minzhari"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=12641_GoM_Declaration_of_Preferred_Bidder_Minzari_Copper_Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mh-minzhari"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=12665_Annulment_Rewaratu_Graphite_Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-jh-rewaratu"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=12676_MBS_Vellakkal%20Central%20Segment-A%20Molybdenum%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-tn-vellakkal-central-segment-a"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=12677_MBS_Velampatti%20North%20A%20and%20B%20Molybdenum%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-tn-velampatti-north-a-b"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=12680_MBS_Pahadi%20Kalan-Gora%20Kalan%20Phosphorite%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-up-pahadi-kalan-gora-kalan"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=12681_MBS_Nochchipatti%20Molybdenum%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-tn-nochchipatti"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=12683_MBS_Marudipatti%20Central%20Molybdenum%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-tn-marudipatti-central"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=12684_MBS_Mannadipatti%20Central%20Molybdenum%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-tn-mannadipatti-central"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=12687_MBS_Kundol%20Nickel%20and%20Chromium%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-gj-kundol"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=12688_MBS_Katghora%20Lithium%20and%20REE%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-cg-katghora"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=12699_MBS_Iluppakudi%20Graphite%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-tn-iluppakudi"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=12701_MBS_Dudhiasol%20East%20Nickel%20and%20Copper%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-od-dudhiasol-east"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=12703_MBS_Biarpalli%20Graphite%20and%20Manganese%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-od-biarpalli"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=12704_MBS_Babja%20Graphite%20and%20Manganese%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-od-babja"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=12705_MBS_Akharkata%20Graphite%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-od-akharkata"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=12721_Tranche-1-NIT%2020%20Blocks.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "Centre-T1",
+    "blk-br-chutia-nauhatta",
+    "blk-br-genjana",
+    "blk-br-pipradih-bhurwa",
+    "blk-cg-katghora",
+    "blk-gj-kundol",
+    "blk-jh-muskaniya-gareriatola-barwari",
+    "blk-jk-salal-haimna",
+    "blk-od-akharkata",
+    "blk-od-babja",
+    "blk-od-biarpalli",
+    "blk-od-dudhiasol-east",
+    "blk-tn-iluppakudi",
+    "blk-tn-kurunjakulam",
+    "blk-tn-mannadipatti-central",
+    "blk-tn-marudipatti-central",
+    "blk-tn-nochchipatti",
+    "blk-tn-velampatti-north-a-b",
+    "blk-tn-vellakkal-central-segment-a",
+    "blk-up-kurchha",
+    "blk-up-pahadi-kalan-gora-kalan"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=12887_GoI_MoM_Tranche%201_Corrigendum%201%20for%20%20Biarpalli%20Graphite%20and%20Manganese%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-od-biarpalli"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=13081_Corrigendum%205%20to%20Dudhiasol%20East%20Nickel%20and%20Copper%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-od-dudhiasol-east"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=13181_GoM_Phase%20XII_Notice_Inviting_Tender_03-01-24.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mh-bhimsain-killa",
+    "blk-mh-lal-heti",
+    "blk-mh-wassera-sioni"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=13197_Summary_of_Wassera-Seoni_Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mh-wassera-sioni"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14089_MBS_Lakhasar%20Block%20Final%20CL%20with%20halite.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-rj-lakhasar"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14090_MBS_Gollarahatti-Mallenahalli%20Ni%20and%20PGE%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-ka-gollarahatti-mallenahalli"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14093_MBS_Bharusari%20Potash%20and%20Halite%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-rj-bharusari"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14099_MBS%20Khattali%20Chhoti%20Graphite%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mp-khattali-chhoti"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14100_MBS%20Kankauli%20PGE%2C%20Nickel%2C%20Chromium%20and%20Associated%20Mineral%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mh-kankauli"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14101_MBS%20Golighat%20Graphite%20and%20Vanadium%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mp-golighat"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14103_MBS%20Bahera-%20Goriara%20Graphite%20and%20Basemetal%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mp-bahera-goriara"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14104_GoI-MoM%20Tranche%20II-NIT%20-%20with%20MBS.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "Centre-T2",
+    "blk-ap-balepalyam",
+    "blk-ar-depo",
+    "blk-ar-lodoso-east",
+    "blk-ar-phop",
+    "blk-ar-radhpu",
+    "blk-cg-bhalukona",
+    "blk-cg-chiknipani",
+    "blk-cg-raipura",
+    "blk-ka-gollarahatti-mallenahalli",
+    "blk-ka-sanyasikoppa",
+    "blk-mh-kankauli",
+    "blk-mh-vadakhol-asoli",
+    "blk-mp-bahera-goriara",
+    "blk-mp-golighat",
+    "blk-mp-khattali-chhoti",
+    "blk-rj-bharusari",
+    "blk-rj-lakhasar",
+    "blk-tn-nayakkarpatti"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14278_NIT%2B-%2B06.03.2024%2B%2528EL%2BAuction%2529.PDF&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-ka-devadurga-state-el"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14324_Block%2BSummary.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-ka-devadurga-state-el"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14385_EL%20NIT%20First%20Phase.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mp-mohana",
+    "blk-mp-padhar-state-el"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14389_1.%20Summary_Mohana%20Block%20MP%20EL_11.03.2024.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mp-mohana"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14390_2.%20Summary%20Padhar%20PGE%20and%20Associated%20Mineral%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mp-padhar-state-el"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14421_NIT_Pakala-Chandragiri%2BEL%2Bblock.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-ap-pakala-chandragiri"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14423_Pakala_Chandragiri_Summary_v2.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-ap-pakala-chandragiri"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14435_NIT%2B-%2BInvitation%2Bof%2Bbids%2Bfor%2Bgrant%2Bof%2BEL.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-cg-ghoragaon-sorgaon-el",
+    "blk-cg-kondagaon-el",
+    "blk-cg-kondagaon-south-el"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14436_CG%2BEL%2BMine%2BBlock%2BSumary%2BKondagaon%2BSouth%2BBlock%2B492%2BHa.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-cg-kondagaon-south-el"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14437_CG%2BEL%2BMine%2BBlock%2BSummary%2BGhoragaon%2BSorgaon%2BBlock%2B488%2BHa.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-cg-ghoragaon-sorgaon-el"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14438_CG%2BEL%2BMine%2BBlock%2BSummary%2BKondagaon%2BBlock%2B498%2BHa.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-cg-kondagaon-el"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14440_Important%20Notice%20Regarding%20Intimation%20to%20Technically%20Qualified%20Bidders%2C%20Opening%20of%20IPO%2C%20Intimation%20to%20Qualified%20Bidders%20and%20Second%20Round%20of%20e-Auction.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "Centre-T1",
+    "blk-br-chutia-nauhatta",
+    "blk-br-genjana",
+    "blk-br-pipradih-bhurwa",
+    "blk-cg-katghora",
+    "blk-jh-muskaniya-gareriatola-barwari",
+    "blk-jk-salal-haimna",
+    "blk-od-akharkata",
+    "blk-od-babja",
+    "blk-od-biarpalli",
+    "blk-od-dudhiasol-east",
+    "blk-tn-iluppakudi",
+    "blk-tn-kurunjakulam",
+    "blk-tn-marudipatti-central",
+    "blk-tn-nochchipatti",
+    "blk-tn-velampatti-north-a-b",
+    "blk-up-kurchha",
+    "blk-up-pahadi-kalan-gora-kalan"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14441_Critical%20and%20Strategic%20Mineral%20Block%20Auction-Annulment%20Notice.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "Centre-T1",
+    "blk-br-chutia-nauhatta",
+    "blk-br-genjana",
+    "blk-br-pipradih-bhurwa",
+    "blk-jh-muskaniya-gareriatola-barwari",
+    "blk-jk-salal-haimna",
+    "blk-od-dudhiasol-east",
+    "blk-tn-kurunjakulam",
+    "blk-tn-mannadipatti-central",
+    "blk-tn-marudipatti-central",
+    "blk-tn-nochchipatti",
+    "blk-tn-velampatti-north-a-b",
+    "blk-tn-vellakkal-central-segment-a",
+    "blk-up-kurchha"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14475_GoI-MoM%20Tranche%20II-NIT.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "Centre-T2",
+    "blk-ap-balepalyam",
+    "blk-ar-depo",
+    "blk-ar-lodoso-east",
+    "blk-ar-phop",
+    "blk-ar-radhpu",
+    "blk-cg-bhalukona",
+    "blk-cg-chiknipani",
+    "blk-cg-raipura",
+    "blk-ka-gollarahatti-mallenahalli",
+    "blk-ka-sanyasikoppa",
+    "blk-mh-kankauli",
+    "blk-mh-vadakhol-asoli",
+    "blk-mp-bahera-goriara",
+    "blk-mp-golighat",
+    "blk-mp-khattali-chhoti",
+    "blk-rj-bharusari",
+    "blk-rj-lakhasar",
+    "blk-tn-nayakkarpatti"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14476_NIT%20with%20attached%20mineral%20block%20summary%20-%20Tranche%20III.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "Centre-T3",
+    "blk-br-chutia-nauhatta",
+    "blk-br-genjana",
+    "blk-br-pipradih-bhurwa",
+    "blk-jh-muskaniya-gareriatola-barwari",
+    "blk-jk-salal-haimna",
+    "blk-tn-kurunjakulam",
+    "blk-up-kurchha"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14477_Notice%20Inviting%20Tender%20%28NIT%29%20-%20%20Tranche%20III.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "Centre-T3",
+    "blk-br-chutia-nauhatta",
+    "blk-br-genjana",
+    "blk-br-pipradih-bhurwa",
+    "blk-jh-muskaniya-gareriatola-barwari",
+    "blk-jk-salal-haimna",
+    "blk-tn-kurunjakulam",
+    "blk-up-kurchha"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14480_MBS_Salal-Haimna%20Lithium%2C%20Titanium%20and%20Bauxite%20Aluminous%20Laterite%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-jk-salal-haimna"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14481_MBS_Pipradih-Bhurwa%20Glauconite%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-br-pipradih-bhurwa"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14482_MBS_Muskaniya-Gareriatola-Barwari%20Potash%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-jh-muskaniya-gareriatola-barwari"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14483_MBS_Kurunjakulam%20Graphite%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-tn-kurunjakulam"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14484_MBS_Kurchha%20Glauconite%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-up-kurchha"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14485_MBS_Genjana%20Nickel%20Chromium%20and%20PGE%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-br-genjana"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14486_MBS_Chutia-Nauhatta%20Glauconite%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-br-chutia-nauhatta"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=15497_Corrigendum_%25237_Bijora_Kumhalori_Phosphorite_Block_NIT_dated_27_July_2023.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-cg-bijora-kumhalori"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=15636_GoI%20MoM%20-%20Important%20Notice%20Regarding%20Intimation%20to%20Technically%20Qualified%20Bidders_Tranche%20II.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "Centre-T2",
+    "blk-ap-balepalyam",
+    "blk-ar-phop",
+    "blk-ar-radhpu",
+    "blk-cg-bhalukona",
+    "blk-cg-chiknipani",
+    "blk-cg-raipura",
+    "blk-ka-sanyasikoppa",
+    "blk-mh-vadakhol-asoli",
+    "blk-tn-nayakkarpatti"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=15690_GoI%20MoM%20-%20Auction%20Annulment%20Notice_Tranche%20II.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "Centre-T2",
+    "blk-ap-balepalyam",
+    "blk-ar-depo",
+    "blk-ar-lodoso-east",
+    "blk-ar-phop",
+    "blk-ar-radhpu",
+    "blk-cg-bhalukona",
+    "blk-cg-chiknipani",
+    "blk-cg-raipura",
+    "blk-ka-sanyasikoppa",
+    "blk-mh-kankauli",
+    "blk-mh-vadakhol-asoli",
+    "blk-rj-bharusari",
+    "blk-rj-lakhasar",
+    "blk-tn-nayakkarpatti"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=15825_1.%20GoI%20MoM%20-%20Tranche%20IV%20-%20NIT.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "Centre-T4",
+    "blk-ap-balepalyam",
+    "blk-ar-depo",
+    "blk-ar-endolin-isholin",
+    "blk-ar-lodoso-east",
+    "blk-ar-phop",
+    "blk-ar-radhpu",
+    "blk-cg-bhalukona",
+    "blk-cg-chiknipani",
+    "blk-cg-kelenda",
+    "blk-cg-raipura",
+    "blk-cg-semhardih",
+    "blk-jh-ponchi",
+    "blk-ka-dombarahalli",
+    "blk-ka-holalkere-doddaghatta",
+    "blk-ka-sanyasikoppa",
+    "blk-mh-vadakhol-asoli",
+    "blk-rj-jhandawali-satipura",
+    "blk-rj-jorkian-satipura-khunja",
+    "blk-tn-nayakkarpatti",
+    "blk-up-barwar",
+    "blk-up-nawatola-laband"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=15830_21.%20MBS_Nayakkarpatti%20Tungsten%20Block%20corrected%20on%2023.02.2024.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-tn-nayakkarpatti"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=15831_20.%20MBS%20Vadakhol-Asoli%20Ni%2C%20Cr%2C%20Co%20and%20Associated%20Mineral%20Block%2023.02.2024.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mh-vadakhol-asoli"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=15832_19.%20MBS_Sanyasikoppa%20Cobalt%2C%20Manganese%20and%20Iron%20Block%20-23.02.2024.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-ka-sanyasikoppa"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=15833_18.%20MBS_Chiknipani%20Tungsten%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-cg-chiknipani"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=15834_17.%20MBS_Bhalukona%20Glauconite%20Block%2017.02.2024.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-cg-bhalukona"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=15835_16.%20MBS%20Radhpu%20Graphite%20and%20Vanadium%20Block%2021.02.24.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-ar-radhpu"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=15836_15.%20MBS%20Phop%20Graphite%20and%20Vanadium%20Block%2017.02.2024.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-ar-phop"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=15837_14.%20MBS%20Lodoso%20East%20REE%20and%20Associated%20Minerals%20Block%2021.02.2024.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-ar-lodoso-east"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=15838_13.%20MBS_Depo%20Vanadium%2C%20Graphite%20Block%2023.02.2024.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-ar-depo"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=15839_12.%20MBS%20Balepalyam%20Tungsten%20and%20Associated%20Mineral%20Block%2017.02.2024.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-ap-balepalyam"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=15840_11.%20MBS_Nawatola-Laband%20REE%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-up-nawatola-laband"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=15841_10.%20MBS_Barwar%20Phosphorite%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-up-barwar"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=15842_9.%20MBS_Jorkian-Satipura-Khunja%20Amalgamated%20Potash%20and%20Halite%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-rj-jorkian-satipura-khunja"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=15843_8.%20MBS_Jhandawali-Satipura%20Amalgamated%20Potash%20and%20Halite%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-rj-jhandawali-satipura"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=15844_7.%20MBS_Holalkere%20-Doddaghatta%20Ni-PGE%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-ka-holalkere-doddaghatta"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=15845_6.%20MBS_Dombarahalli%20Phosphate%20and%20REE%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-ka-dombarahalli"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=15846_5.%20MBS_Ponchi%20Graphite%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-jh-ponchi"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=15847_4.%20MBS_Semhardih%20Phosphorite%20and%20Limestone%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-cg-semhardih"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=15848_3.%20MBS_Raipura%20Phosphorite%20and%20Limestone%20Block%2017.02.2024.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-cg-raipura"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=15849_2.%20MBS_Kelenda%20Glauconite%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-cg-kelenda"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=15850_1.%20MBS%20Endolin-Isholin%20Graphite%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-ar-endolin-isholin"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=15863_GoI_MoM_Tranche%201_Declaration%20of%20Preferred%20Bidder%20of%206%20blocks.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "Centre-T1",
+    "blk-cg-katghora",
+    "blk-od-akharkata",
+    "blk-od-babja",
+    "blk-od-biarpalli",
+    "blk-tn-iluppakudi",
+    "blk-up-pahadi-kalan-gora-kalan"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=15928_GoI%20MoM%20-%20Tranche%20III%20-%20Auction%20Notice%20Regarding%20Intimation%20to%20Technically%20Qualified%20Bidders%2C%20Opening%20of%20IPO%2C%20Intimation%20to%20Qualified%20Bidders%20and%20Second%20Round%20of%20e-Auction.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "Centre-T3",
+    "blk-br-chutia-nauhatta",
+    "blk-br-genjana",
+    "blk-br-pipradih-bhurwa",
+    "blk-up-kurchha"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=16047_GoI%20MoM%20-%20Tranche%20I%20-%20Corrigendum%2013%20-%20Timelines%20for%20Kundol%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-gj-kundol"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=16122_GoI%20MoM%20-%20Tranche%20II%20-%20PB%20Declaration%20Notice.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "Centre-T2",
+    "blk-ka-gollarahatti-mallenahalli",
+    "blk-mp-bahera-goriara",
+    "blk-mp-golighat",
+    "blk-mp-khattali-chhoti"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=16123_GoI%20MoM%20-%20Tranche%20III%20-%20PB%20Declaration%20Notice.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "Centre-T3",
+    "blk-br-chutia-nauhatta",
+    "blk-br-genjana",
+    "blk-br-pipradih-bhurwa",
+    "blk-up-kurchha"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=16190_GoI%20MoM%20-%20Auction%20Annulment%20Notice_Tranche%20III.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "Centre-T3",
+    "blk-jh-muskaniya-gareriatola-barwari",
+    "blk-jk-salal-haimna",
+    "blk-tn-kurunjakulam"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=16623_Auction%20Annulment%20Notice%20-%20Kundol%20Nickel%20and%20Chromium%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "Centre-T1",
+    "blk-gj-kundol"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=17021_Notice%2Bfor%2Bannulment%2B%2Bof%2Bauction%2Bprocess%2Bof%2BEL%2Bblocks.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-cg-ghoragaon-sorgaon-el",
+    "blk-cg-kondagaon-el",
+    "blk-cg-kondagaon-south-el"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=17065_Annulment%2Bnotification%2Bof%2BEL%2Bblock.PDF&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-ka-devadurga-state-el"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=17122_nit8oct24.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-ka-hunasihuli"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=17161_Mine%20Block%20Summary-%20Hunasihuli.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-ka-hunasihuli"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=17481_GoI-MoM-Tranche%20IV-%20PB%20Declaration%20Notice.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "Centre-T4",
+    "blk-ap-balepalyam",
+    "blk-ar-depo",
+    "blk-ar-endolin-isholin",
+    "blk-ar-phop",
+    "blk-ar-radhpu",
+    "blk-ka-sanyasikoppa",
+    "blk-tn-nayakkarpatti",
+    "blk-up-barwar"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=17765_14%20Phase%20NIT%2025.11.2013.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mp-bagda-sawasra",
+    "blk-mp-gulhariya",
+    "blk-mp-parihasi"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=17803_Auction%20Annulment%20Notice%20Tranche%20IV.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "Centre-T4",
+    "blk-ar-lodoso-east",
+    "blk-cg-bhalukona",
+    "blk-cg-chiknipani",
+    "blk-cg-kelenda",
+    "blk-cg-raipura",
+    "blk-cg-semhardih",
+    "blk-ka-dombarahalli",
+    "blk-ka-holalkere-doddaghatta",
+    "blk-rj-jhandawali-satipura",
+    "blk-rj-jorkian-satipura-khunja",
+    "blk-up-nawatola-laband"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=17804_Notice%20for%20Return%20of%20Bid%20Security%20for%2007%20annulled%20blocks.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-ar-lodoso-east",
+    "blk-cg-bhalukona",
+    "blk-cg-chiknipani",
+    "blk-cg-kelenda"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=17807_Notice%20for%20Preferred%20Bidder%20Declaration%20of%2002%20Critical%20and%20Strategic%20Mineral%20Blocks%20under%20Tranche%20IV.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "Centre-T4",
+    "blk-jh-ponchi",
+    "blk-mh-vadakhol-asoli"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=17867_MBS_WSR_PMNC_Block%2B-7.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-off-west-sewell-ridge-pmnc-7"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=17868_MBS_WSR_PMNC_Block%2B-6.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-off-west-sewell-ridge-pmnc-6"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=17869_MBS_WSR_PMNC_Block%2B-5.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-off-west-sewell-ridge-pmnc-5"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=17870_MBS_WSR_PMNC_Block%2B-4.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-off-west-sewell-ridge-pmnc-4"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=17871_MBS_WSR_PMNC_Block%2B-3.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-off-west-sewell-ridge-pmnc-3"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=17873_MBS_WSR_PMNC_Block%2B-1.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-off-west-sewell-ridge-pmnc-1"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=17884_MBS_WSR_PMNC_Block%2B-2.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-off-west-sewell-ridge-pmnc-2"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=17906_GoI-MoM%20-Offshore-Tranche%20I%20NIT.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-off-west-sewell-ridge-pmnc-1",
+    "blk-off-west-sewell-ridge-pmnc-2",
+    "blk-off-west-sewell-ridge-pmnc-3",
+    "blk-off-west-sewell-ridge-pmnc-4",
+    "blk-off-west-sewell-ridge-pmnc-5",
+    "blk-off-west-sewell-ridge-pmnc-6",
+    "blk-off-west-sewell-ridge-pmnc-7"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=18068_13416.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mp-mohana",
+    "blk-mp-padhar-state-el"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=18184_Annulment%20Notice_CL_NIT-08.10.2024_Blocks__Phase%20XXVII.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-ka-hunasihuli"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=18605_GoI%20MoM%20-%20Offshore%20-%20Corrigendum%202%20for%20NIT%20and%20West%20Sewell%20Ridge%20PMNC%20Block-1.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-off-west-sewell-ridge-pmnc-1"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=18641_GoI%20MoM%20-%20Tranche%20V%20-%20Notice%20Inviting%20Tender.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "Centre-T5",
+    "blk-cg-kelenda",
+    "blk-cg-oranga-revatipur",
+    "blk-cg-raipura",
+    "blk-cg-semhardih",
+    "blk-gj-katesar-guneri",
+    "blk-ka-dombarahalli",
+    "blk-ka-ganacharpura",
+    "blk-ka-holalkere-doddaghatta",
+    "blk-ka-mincheri",
+    "blk-mh-khobna-agargaon",
+    "blk-mp-surajpura",
+    "blk-od-salepali",
+    "blk-rj-jhandawali-satipura",
+    "blk-rj-jorkian-satipura-khunja",
+    "blk-up-nawatola-laband"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=18650_15.MBS_Nawatola-Laband_REE_Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-up-nawatola-laband"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=18651_14.MBS_Jorkian-Satipura-Khunja_Amalgamated_Potash_and_Halite_Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-rj-jorkian-satipura-khunja"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=18652_13.MBS_Jhandawali-Satipura_Amalgamated_Potash_and_Halite_Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-rj-jhandawali-satipura"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=18653_12.MBS_Holalkere-Doddaghatta_Ni-PGE_Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-ka-holalkere-doddaghatta"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=18654_11.MBS_Dombarahalli_Phosphate_and_REE_Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-ka-dombarahalli"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=18655_10.MBS_Semhardih_Phosphorite_and_Limestone_Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-cg-semhardih"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=18656_9.MBS_Raipura_Phosphorite_and_Limestone_Bloc_17.02.2024.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-cg-raipura"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=18657_8.MBS_Kelenda_Glauconite_Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-cg-kelenda"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=18658_7.MBS_Salepali_Graphite_Block_CL.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-od-salepali"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=18659_6.MBS_Khobna_and_Agargaon_Cluster_Tungsten_Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mh-khobna-agargaon"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=18661_4.MBS_Mincheri_REE_Block_Final_CL.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-ka-mincheri"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=18662_3.MBS_Ganacharpura_Block_Final_CL.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-ka-ganacharpura"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=18663_2.MBS_Katesar-Guneri_Glauconite_Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-gj-katesar-guneri"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=18664_1.MBS_Oranga-Revatipur_Graphite_Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-cg-oranga-revatipur"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=18720_Auction%20Annulment%20Notice%20of%20Nayakkarpatti%20Tungsten%20Block%2C%20Tamil%20Nadu.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "Centre-T4",
+    "blk-tn-nayakkarpatti"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=18725_GoMP_Phase_XV_Notice%20Inviting%20Tender.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mp-bagda-sawasra",
+    "blk-mp-gulhariya",
+    "blk-mp-parihasi",
+    "blk-mp-selarpur-nawaliya"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=18802_5.%20Revised%20MBS%20Surajpura%20Phosphorite%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mp-surajpura"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=18803_GoI%20MoM%20-%20Tranche%20V%20-%20Notification%20for%20Revised%20MBS%20of%20Surajpura%20Phosphorite%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "Centre-T5",
+    "blk-mp-surajpura"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=19563_GoI%20MoM%20-%20EL%20-%20Tranche%20I%20-%20Notice%20Inviting%20Tender.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-ap-ontillu-chandragiri",
+    "blk-gj-devkigalol-jetpur",
+    "blk-jh-taramba-dalbhanga",
+    "blk-ka-devadurga",
+    "blk-mh-kondalwadi-tantalum",
+    "blk-mp-padhar",
+    "blk-rj-nawatala-devigarh",
+    "blk-up-harpalpur-mahobkanth"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=19565_12.%20MBS_Nawatala-Devigarh_REE_Block_Rajasthan.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-rj-nawatala-devigarh"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=19567_10.%20MBS_Kondalwadi_Tantalum_Block_Maharastra.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mh-kondalwadi-tantalum"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=19569_8.%20MBS%20_Devadurga_Gold_Block_Karnataka.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-ka-devadurga"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=19570_7.%20MBS_Taramba-Dalbhanga_Gold-Copper_Block_Jharkhand.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-jh-taramba-dalbhanga"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=19576_1.%20MBS_Block_Ontillu-Chandragiri_REE_Andhra%20Pradesh.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-ap-ontillu-chandragiri"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=19577_9.%E2%81%A0%20%E2%81%A0MBS_Padhar_PGE_Block_Madhya%20Pradesh.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mp-padhar"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=20090_2.%20Details%20of%2013%20Blocks%20of%20EL%20in%20Tranche%20I.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-ap-ontillu-chandragiri",
+    "blk-gj-devkigalol-jetpur",
+    "blk-jh-taramba-dalbhanga",
+    "blk-ka-devadurga",
+    "blk-mh-kondalwadi-tantalum",
+    "blk-mp-padhar",
+    "blk-rj-nawatala-devigarh",
+    "blk-up-harpalpur-mahobkanth"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=20205_Mineral_Block_summary_of_Kuratiyan_Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-rj-kuratiyan"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=20216_Mineral_Block_summary_of_West_of_Samodi_Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-rj-west-samodi"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=20219_NIB_for_22_blocks_16-04-2025_1744730207299.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-rj-kuratiyan",
+    "blk-rj-shahpura",
+    "blk-rj-west-samodi"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=20794_GoI-MoM-Tranche%20V-%20PB%20Declaration%20Notice.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "Centre-T5",
+    "blk-cg-oranga-revatipur",
+    "blk-cg-raipura",
+    "blk-cg-semhardih",
+    "blk-ka-dombarahalli",
+    "blk-ka-ganacharpura",
+    "blk-mp-surajpura",
+    "blk-od-salepali",
+    "blk-rj-jhandawali-satipura",
+    "blk-rj-jorkian-satipura-khunja",
+    "blk-up-nawatola-laband"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=20843_GoI%20MoM%20-%20Tranche%20V%20-%20Auction%20Annulment%20Notice.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "Centre-T5",
+    "blk-cg-kelenda",
+    "blk-gj-katesar-guneri",
+    "blk-ka-holalkere-doddaghatta",
+    "blk-ka-mincheri",
+    "blk-mh-khobna-agargaon"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=21063_Notice_to_bidders_reg_annullment_of_auction_of_kankariya_and_khamor_block_13.06.2025.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-rj-khamor"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=21207_NIB_for_12_blocks_25-06-2025.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-rj-kuratiyan",
+    "blk-rj-shahpura",
+    "blk-rj-west-samodi"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=21219_Mineral_Block_Summary_of_Shahpura.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-rj-shahpura"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=21565_16th%20Phase%20NIT.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mp-bagda-sawasra",
+    "blk-mp-gulhariya",
+    "blk-mp-parihasi",
+    "blk-mp-selarpur-nawaliya"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=21576_3.%20Bagwari-Khirkhori%20Copper%20%28Cu%29%20and%20associated%20minerals%20block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mp-baghwari-khirkhori"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=21587_14.%20Summary%20Bagda-Sawasra%20Basemetal%20%28Lead%2C%20Zinc%2C%20Copper%20and%20Silver%29%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mp-bagda-sawarsa"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=21589_16.%20Summary%20Gulhariya%20Basemetal%20%28Lead%20and%20Copper%29%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mp-gulhariya"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=21591_18.%20Summary%20Parihasi%20Basemetal%20%28Lead%2C%20Copper%2C%20Silver%20and%20Associated%20Mineral%29%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mp-parihasi"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=21597_24.%20Selarpur%20-%20Nawaliya%20Base%20Metal%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mp-selarpur-nawaliya"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=21861_Notice_Inviting_Tender_14th_Phase_English.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mh-bhimsain-killa",
+    "blk-mh-lal-heti",
+    "blk-mh-miregaon"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=21870_Bhimsainkilla_Summary_1.80Sq.Km..pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mh-bhimsain-killa"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=21871_Miregaon_Summary_19.00Sq.Km..pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mh-miregaon"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=22108_EL-GOI%20-%20Tranche%20I%20-%20Auction%20Notice%20Regarding%20Intimation%20to%20TQBs%2C%20Opening%20of%20IPO%2C%20Intimation%20to%20QBs%20and%20Second%20Round%20of%20e-Auction.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-gj-devkigalol-jetpur",
+    "blk-mh-kondalwadi-tantalum",
+    "blk-up-harpalpur-mahobkanth"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=22267_Preferred_Bidder_Declaration_of_Shahpura_Copper__Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-rj-shahpura"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=22274_Preferred_Bidder_Declaration_of_Kuratiyan%2BCopper%2Bblcok.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-rj-kuratiyan"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=22681_GoI%20MoM%20-%20Tranche%20VI%20-%20NIT.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "Centre-T6",
+    "blk-ap-laxmipuram",
+    "blk-ar-pakro",
+    "blk-ar-sito-sikhe",
+    "blk-cg-chittalnar-kumakoleng",
+    "blk-jh-siskari-pat",
+    "blk-ka-gundlupet",
+    "blk-ka-mincheri",
+    "blk-mh-kawalapur",
+    "blk-mh-khobna-agargaon",
+    "blk-od-bharatbahal",
+    "blk-od-kanaital",
+    "blk-od-larambha",
+    "blk-pb-shergarh-sherawala-ramsara-dalmirkhera",
+    "blk-rj-bhatikhera",
+    "blk-rj-nimbli",
+    "blk-rj-ramb-degana",
+    "blk-rj-southeast-gugrot",
+    "blk-tg-govindpur",
+    "blk-tg-parvathapur",
+    "blk-uk-kathyur",
+    "blk-up-surharia-basoha",
+    "blk-wb-beku",
+    "blk-wb-kalapathar-raghudih"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=22686_GOI_Notice%20for%20Preferred%20Bidder%20Declaration%20of%2007%20Exploration%20Blocks%20under%20Tranche%20I.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-ap-ontillu-chandragiri",
+    "blk-gj-devkigalol-jetpur",
+    "blk-jh-taramba-dalbhanga",
+    "blk-ka-devadurga",
+    "blk-mh-kondalwadi-tantalum",
+    "blk-mp-padhar",
+    "blk-rj-nawatala-devigarh",
+    "blk-up-harpalpur-mahobkanth"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=22687_1.%20Laxmipuram%20Cobalt%20and%20Manganese%20Block%20Summary.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-ap-laxmipuram"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=22689_3.%20Sito%20Sikhe%20Vanadium%20%20Graphite%20Block%20Summary.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-ar-sito-sikhe"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=22690_4.%20Chittalnar-Kumakoleng%20Tin%20Ore%20Block%20Summary.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-cg-chittalnar-kumakoleng"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=22691_5.%20Siskaripat%20Block%20Summary.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-jh-siskari-pat"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=22693_7.%20Kawalapur%20Block%20Summary.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mh-kawalapur"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=22695_8.%20Bharatbahal%20Block%20Summary.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-od-bharatbahal"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=22696_9.%20Kanaital%20Block%20Summary.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-od-kanaital"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=22697_10.%20Larambha%20Block%20Summary.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-od-larambha"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=22699_12.%20Bhatikhera%20Block%20Summary.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-rj-bhatikhera"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=22700_13.%20Nimbli%20Block%20Summary.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-rj-nimbli"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=22702_15.%20Southeast%20of%20Gugrot%20Summary%2029.07.2025.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-rj-southeast-gugrot"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=22706_19.%20Surharia-Basoha%20Bauxite%2C%20Aluminous%20Laterite%20and%20Titanium%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-up-surharia-basoha"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=22708_21.%20Kalapathar%20Raghudih%20Block%20Summary.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-wb-kalapathar-raghudih"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=22709_22.%20Mineral%20summary%20Mincheri%20REE%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-ka-mincheri"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=22710_23.%20MBS%20Khobna%20and%20Agargaon%20Cluster%20Tungsten%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mh-khobna-agargaon"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=22901_NIB_for_4_CL_block_dated_29-09-2025_1759147544043.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-rj-bhabhriya-ka-kheda",
+    "blk-rj-khamor",
+    "blk-rj-ladana"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=22944_Declaration%20of%20Preferred%20Bidders%20dt.%2003.10.2025.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mp-parihasi"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=23565_NIT%2017th%20phase.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mp-baghwari-khirkhori"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=24108_NIB_for_10_blocks_28-11-2025.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-rj-bhabhriya-ka-kheda",
+    "blk-rj-khamor",
+    "blk-rj-ladana"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=24330_GoM_Declaration_of_Preferred_Bidder_Bhimsain_Killa_Gold_Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mh-bhimsain-killa"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=24336_GOI_Mom_offshore_Tranche_I_Annulment_and_Bid_return_Notice.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-off-west-sewell-ridge-pmnc-1",
+    "blk-off-west-sewell-ridge-pmnc-2",
+    "blk-off-west-sewell-ridge-pmnc-3",
+    "blk-off-west-sewell-ridge-pmnc-4",
+    "blk-off-west-sewell-ridge-pmnc-5",
+    "blk-off-west-sewell-ridge-pmnc-6",
+    "blk-off-west-sewell-ridge-pmnc-7"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=24341_GoM_Declaration_of_Preferred_Bidder_Miregaon_Copper_Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mh-miregaon"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=24898_NIT%20dt.%2030.01.2026.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mp-bagda-sawarsa"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25112_GoI%20MoM%20-%20Tranche%20VI%20-%20Auction%20Annulment%20Notice.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "Centre-T6",
+    "blk-ar-pakro",
+    "blk-jh-siskari-pat",
+    "blk-ka-gundlupet",
+    "blk-pb-shergarh-sherawala-ramsara-dalmirkhera",
+    "blk-rj-ramb-degana",
+    "blk-tg-govindpur",
+    "blk-tg-parvathapur",
+    "blk-uk-kathyur",
+    "blk-up-surharia-basoha",
+    "blk-wb-beku",
+    "blk-wb-kalapathar-raghudih"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25192_GoI%20MoM%20-%20EL%20-%20Tranche%20II%20-%20Notice%20Inviting%20Tender.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-gj-devkigalol-jetpur",
+    "blk-od-amdabera-rangamatia",
+    "blk-od-mushanal-dumrimunda",
+    "blk-rj-khandap-sewali",
+    "blk-tg-chinna-kodur",
+    "blk-tg-kondagattu",
+    "blk-tg-momanpet",
+    "blk-up-harpalpur-mahobkanth"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25198_MBS_Amdabera_Rangamatia_Odisha_EL%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-od-amdabera-rangamatia"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25199_MBS_Mushanal_Dumurimunda_Odisha_%20EL%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-od-mushanal-dumrimunda"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25200_MBS_Khandap_Sewali_Rajasthan_EL%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-rj-khandap-sewali"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25201_MBS_Chinna%20Kodur_Telangana_EL%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-tg-chinna-kodur"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25202_MBS_Kondagattu_Telangana_EL%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-tg-kondagattu"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25203_MBS_Momanpet_Telangana_EL%20Block_.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-tg-momanpet"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25204_MBS_Devkigalol-Jetpur%20-Gujrat.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-gj-devkigalol-jetpur"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25206_MBS_Harpalpur-%20Mahobkanth_Zirconium_Block_Uttar%20Pradesh.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-up-harpalpur-mahobkanth"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25649_GoI%20MoM%20-%20Tranche%20VII%20-%20NIT_N.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "Centre-T7",
+    "blk-ar-pakro",
+    "blk-br-nawara-nawadih",
+    "blk-br-sapneri",
+    "blk-br-shahpur",
+    "blk-br-tipa",
+    "blk-cg-dindo-belkurta-basera",
+    "blk-cg-gurur",
+    "blk-cg-karahibhadar",
+    "blk-gj-katesar-guneri",
+    "blk-ka-gundlupet",
+    "blk-mp-majhauli",
+    "blk-od-lamer-panga-a",
+    "blk-od-lamer-panga-b",
+    "blk-od-naringpanga-south",
+    "blk-rj-karna",
+    "blk-rj-ramb-degana",
+    "blk-tg-govindpur",
+    "blk-tg-parvathapur",
+    "blk-uk-kathyur"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25652_3%20Shahpur%20Glauconite%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-br-shahpur"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25656_7%20Dindo-Belkurta-Basera%20Graphite%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-cg-dindo-belkurta-basera"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25657_8%20Majhauli%20Titanium%20Vanadium%20and%20Aluminous%20Laterite%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mp-majhauli"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25658_9%20Naringapanga%20Graphite%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-od-naringapanga"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25659_10%20Lamer-Panga%20A%20Graphite%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-od-lamer-panga-a"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25660_11%20Lamer-Panga-B%20Graphite%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-od-lamer-panga-b"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25661_12%20Karna%20REE%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-rj-karna"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25662_13%20Pakro%20Vanadium%20%20Graphite%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-ar-pakro"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25663_14%20MBS_Katesar-Guneri_Glauconite_Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-gj-katesar-guneri"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25664_15%20Gundlupet%20Block%20Summary.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-ka-gundlupet"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25665_16%20RAMB%20Degana%20Tungsten%2C%20Lithium%20and%20Associated%20Mineral%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-rj-ramb-degana"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25666_17%20Govindpur%20Vanadium%20Titanium%20and%20Aluminous%20Laterite%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-tg-govindpur"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25667_18%20Parvathapur%20Vanadium%20Titanium%20and%20Aluminous%20Laterite%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-tg-parvathapur"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25668_19%20Kathyur%20Phosphate%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-uk-kathyur"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25753_NIT%20dt.%2031.03.2026.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mp-bagda-sawarsa"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25756_3.MBS%20Bagda-Sawasra%20Basemetal%20%28Lead%2C%20Zinc%2C%20Copper%20and%20Silver%29%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mp-bagda-sawasra"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=26487_Lal_Heti_Summary.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mh-lal-heti"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=26944_GoI%20MoM%20-%20Tranche%20VII%20-%20Auction%20Annulment%20Notice.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "Centre-T7",
+    "blk-br-nawara-nawadih",
+    "blk-br-sapneri",
+    "blk-br-shahpur",
+    "blk-br-tipa",
+    "blk-cg-gurur",
+    "blk-cg-karahibhadar",
+    "blk-mp-majhauli",
+    "blk-od-naringpanga-south",
+    "blk-rj-ramb-degana"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=26954_GoI%20MoM%20-%20EL%20-%20Tranche%20II%20-%20Auction%20Annulment%20Notice.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-gj-devkigalol-jetpur",
+    "blk-rj-khandap-sewali",
+    "blk-tg-chinna-kodur",
+    "blk-tg-kondagattu",
+    "blk-tg-momanpet"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=27225_GoI%20MoM%20-%20Tranche%20VII%20-%20Auction%20Conclusion%20Notice.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "Centre-T7",
+    "blk-ar-pakro",
+    "blk-cg-dindo-belkurta-basera",
+    "blk-gj-katesar-guneri",
+    "blk-ka-gundlupet",
+    "blk-od-lamer-panga-a",
+    "blk-od-lamer-panga-b",
+    "blk-rj-karna",
+    "blk-tg-govindpur",
+    "blk-tg-parvathapur",
+    "blk-uk-kathyur"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=27316_GoI%20MoM%20-%20Tranche%20VIII%20-%20NIT.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "Centre-T8",
+    "blk-ap-lanjabanda",
+    "blk-ap-pata-ramavaram",
+    "blk-br-nawara-nawadih",
+    "blk-br-sapneri",
+    "blk-br-tipa",
+    "blk-cg-gohirapali",
+    "blk-cg-gurur",
+    "blk-cg-karahibhadar",
+    "blk-cg-sabag-north",
+    "blk-cg-sambalpur",
+    "blk-mh-dongarla",
+    "blk-mh-kavtalwadi",
+    "blk-od-betjharan",
+    "blk-od-naringpanga-south",
+    "blk-od-tamiya",
+    "blk-pb-shergarh-sherawala-ramsara-dalmirkhera",
+    "blk-rj-chistiyan-south",
+    "blk-rj-miyan-ki-dhani-east",
+    "blk-tg-baswapur",
+    "blk-wb-beku"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=27324_Pata%20Ramavaram%20Graphite%20Block_MBS.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-ap-pata-ramavaram"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=27325_Gohirapali%20Glauconite%20Block_MBS.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-cg-gohirapali"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=27326_Sabag%20North%20Vanadium%2C%20Gallium%2C%20Titanium%2C%20REE%2C%20Bauxite%20and%20Aluminous%20Laterite%20Block_MBS.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-cg-sabag-north"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=27327_Sambalpur%20Phosphorite%20and%20Limestone%20Block_MBS.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-cg-sambalpur"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=27328_Dongarla%20REE%20and%20RM%20Block_MBS.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mh-dongarla"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=27329_Kavtalwadi%20Vanadium%2C%20Gallium%2C%20Titanium%2C%20Bauxite%20and%20Aluminous%20Laterite%20Block_MBS.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mh-kavtalwadi"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=27330_Betjharan%20Titanium%2C%20Vanadium%20and%20Iron%20Ore%20Block_MBS.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-od-betjharan"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=27331_Tamiya%20Graphite%20and%20Manganese%20Block_MBS.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-od-tamiya"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=27332_Chistiyan%20South%20Potash%20and%20Halite%20Block_MBS.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-rj-chistiyan-south"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=27333_Miyan%20Ki%20Dhani%20East%20Tungsten%20and%20Associated%20Mineral%20Block_MBS.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-rj-miyan-ki-dhani-east"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=27334_Baswapur%20Titanium%2C%20Vanadium%2C%20Gallium%20and%20Aluminous%20Laterite%20Block_MBS.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-tg-baswapur"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=27335_Beku%20Rare%20Metal%20Block_MBS.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-wb-beku"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=27336_Nawara-Nawadih%20Glauconite%20Block_MBS.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-br-nawara-nawadih"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=27337_Sapneri%20Vanadium%20bearing%20Magnetite-Ilmenite%20Block_MBS.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-br-sapneri"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=27338_Tipa%20Glauconite%20Block_MBS.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-br-tipa"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=27339_Gurur%20Glauconite%20Block_MBS.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-cg-gurur"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=27340_Karahibhadar%20Glauconite%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-cg-karahibhadar"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=27341_Naringpanga%20South%20Graphite%20Block_MBS.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-od-naringpanga-south"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=27342_Shergarh-Sherawala-%20Ramsara-Dalmirkhera%20Potash%20And%20Halite%20Block_MBS.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-pb-shergarh-sherawala-ramsara-dalmirkhera"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=27789_Revised%20Lanjabanda%20Mine%20Block%20Summary.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-ap-lanjabanda"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=28374_2161489_MINE_BLOCK_SUMMARY_AND26_CLX3.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-off-sewell-rise-01"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=28375_2161458_MINE_BLOCK_SUMMARY_AND26_CLX4.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-off-west-sewell-ridge-01"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=28393_2161967_NIT_Off%20Great%20Nicobar%20Island_II.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-off-sewell-rise-01",
+    "blk-off-west-sewell-ridge-01"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=28594_Notice%20Intimation%20to%20TQBs%2C%20Opening%20of%20IPO%2C%20Intimation%20to%20QBs%2C%20Anullment%20and%20Second%20Round%20of%20e-Auction%20%281%29.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "Centre-T8",
+    "blk-ap-lanjabanda",
+    "blk-ap-pata-ramavaram",
+    "blk-br-nawara-nawadih",
+    "blk-br-sapneri",
+    "blk-br-tipa",
+    "blk-cg-gohirapali",
+    "blk-cg-gurur",
+    "blk-cg-karahibhadar",
+    "blk-cg-sabag-north",
+    "blk-cg-sambalpur",
+    "blk-mh-dongarla",
+    "blk-mh-kavtalwadi",
+    "blk-od-betjharan",
+    "blk-od-naringpanga-south",
+    "blk-od-tamiya",
+    "blk-pb-shergarh-sherawala-ramsara-dalmirkhera",
+    "blk-rj-chistiyan-south",
+    "blk-rj-miyan-ki-dhani-east",
+    "blk-tg-baswapur",
+    "blk-wb-beku"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=28621_Revised%20Notice%20Regarding%20Second%20Round%20of%20E-Auction%20of%20Betjharan%20Titanium%2C%20Vanadium%20and%20Iron%20Ore%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-od-betjharan"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=2895_GoO%20Phase%20XIV%20Notice%20Inviting%20Tender.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-od-naringapanga"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=3019_GoUP_Notice+Inviting+Tender+Dated+05.01.2022.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-up-sonrai-i",
+    "blk-up-sonrai-ii-iv",
+    "blk-up-sonrai-v"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=3034_Mineral%2BBlock%2BSummary%2BSonrai%2BPhosphorite%2BBlock%2BI.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-up-sonrai-i"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=3036_Mineral%2BBlock%2BSummary%2BSonrai%2BPhosphorite%2BBlock%2BV.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-up-sonrai-v"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=3083_Important%20Notice_398.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mp-mardeora"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=3105_Rewaratu_Graphite_Notice_Inviting_Tender.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-jh-rewaratu"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=3401_GOM_1.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mh-bidwadi",
+    "blk-mh-minzari"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=3418_Bidwadi.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mh-bidwadi"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=3428_Ghanpur-Mudholi.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mh-ghanpur-mudholi-west"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=4286_15.%20Mineral%20Block%20Summary%20%2850.00%29%20Village%20-%20Rupakheda%20Tehsil%20-%20Meghnagar%20District%20-%20Jhabua.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mp-rupakheda-piplouda"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=4287_14.%20Summary%20of%20Kachaldara%20Rock%20Phosphate%20%28Atlas%20Ferro%20Alloys%20Pvt.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mp-kachaldara"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=4301_Notice%20Inviting%20Tender%20Phase%20VIII.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mp-betwasa",
+    "blk-mp-juwari-chhoti-gura-bara",
+    "blk-mp-kachaldara",
+    "blk-mp-khatamba",
+    "blk-mp-mordongri-jamtara-platinum-group",
+    "blk-mp-netara",
+    "blk-mp-rupakheda-piplouda",
+    "blk-mp-ublar-chagdi"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=4343_GoM_Declaration%20of%20Preferred%20Bidder_Bidwadi%20Graphite%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mh-bidwadi"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=4373_GoM_Declaration%20of%20Preferred%20Bidder_Ghanpur%20Mudholi%20%28West%29%20Copper%20and%20Gold%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mh-ghanpur-mudholi-west"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=4484_Preferred%20Bidder%20Naringapanga%20Graphite%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-od-naringapanga"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=4500_Notice_Inviting_Tender_Phase%20VIII.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mh-minzari"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=4741_Declaration%2BPreferred%2BBidder.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-up-sonrai-v"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=4742_Anullment%2BNotice%2BBlock%2BII-%2BIV.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-up-sonrai-ii-iv"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=4998_Phase_II_NIT_Dated_21.05.2022.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-up-barwadih",
+    "blk-up-ikauna",
+    "blk-up-kurchha",
+    "blk-up-sonrai-i"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=5522_Notice_Inviting_Tender_for_Composite_License_of_Mineral_Blocks_dtd_05-07-2022.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-cg-bhalukona-jamnidih"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=5627_Annulment%2Bof%2BRewaratu%2BGraphite%2BBlock.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-jh-rewaratu"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=6525_Phase_II_Declaration_of_Preferred_Bidder_for_Sonrai_Phosphorite_Block_I.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-up-sonrai-i"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=6544_NoticeInvitingTender_Phase9.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mh-bagwadi",
+    "blk-mh-ghanpewadi",
+    "blk-mh-kankauli",
+    "blk-mh-minzari"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=6621_Phase_III_Notice_Inviting_Tender_for_auction_of_7_(seven)_Major_Mineral_Blocks..pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-up-kurchha",
+    "blk-up-sonrai-ii-iv"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=6799_4%20Summary%20of%20the%20Khatamba%20Rock%20Phosphate%20Block%20%28Ms%20Atlas%20Ferro%20Alloys%20Pvt%20Ltd%29%20%281%29.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mp-khatamba"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=6804_10%20%20Summary%20Netara%20Graphite%20Block_19.03.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mp-netara"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=6842_Notice_Inviting_Tender_for_Composite_License_of_Mineral_Blocks_dtd_11-10-2022.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-cg-kelwardabri"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=7646_Notice_for_annulment_of_auction_process_of_Bhalukona_Jamnidih_Ni_Cr_and_associated_PGE_Blocks.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-cg-bhalukona-jamnidih"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=7724_Notice_Inviting_Tender_for_Composite_License_and_Mining_Lease_of_Mineral_Blocks_dtd_09-12-2022.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-cg-bhalukona-jamnidih"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=7911_Declaration%20of%20Preferred%20Bidder%20for%20Sonrai%20Phosphorite%20Block%20II-IV%20%20ML%20Block%20Lalitpur.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-up-sonrai-ii-iv"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=8012_15.%20Summary%20of%20Mineral%20Block%20Patehra%20REE%20and%20Graphite%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mp-patehra"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=8074_Notice_Inviting_Tender_for_Mineral_Blocks_dtd+05-01-2023.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-cg-giroud-uprani",
+    "blk-cg-kennapara",
+    "blk-cg-murka-basera",
+    "blk-cg-north-arjunda"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=8532_Notice_Inviting_Tender_Phase_X.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mh-bagwadi",
+    "blk-mh-ghanpewadi",
+    "blk-mh-kankauli",
+    "blk-mh-minzhari"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=8548_Summary_of_Bagwadi_block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mh-bagwadi"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=8549_Summary_of_Ghanpewadi_block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mh-ghanpewadi"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=8609_Block_Summary_Rewaratu.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-jh-rewaratu"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=8614_NIT.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-jh-rewaratu"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=9728_Notice%2Bfor%2Bannulment%2Bof%2B%2Bauction%2Bprocess%2Bof%2B%2BNorth%2Bof%2BArjunda%2BGlauconite%2BBlock.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-cg-north-arjunda"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=9823_Notice_Inviting_Tender_For_North_of_Arjunda_Glauconite_Block_dtd_28_04_2023%28Second_Attempt%29.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-cg-north-arjunda"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=Auction%20Annulment%20Notice%20dt.%2030.09.2021%20for%20Mardeora%20Rock%20Phosphate%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mp-mardeora"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=GoO%20Phase%20XIII%20Notice%20Inviting%20Tender%20Dt%2022%20Oct%202021.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-od-naringapanga"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=NIT.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mh-bidwadi",
+    "blk-mh-ghanpur-mudholi-west",
+    "blk-mh-minzari"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/mlcl/RenderFileMLCL.jsp?file=Jharkhand-Dulsulma-Mineral-Block-Summary.pdf": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-jh-dulsulma"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/mlcl/RenderFileMLCL.jsp?file=Jharkhand-Lesliganj-Mineral-Block-Summary.pdf": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-jh-lesliganj"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/mlcl/RenderFileMLCL.jsp?file=Madhya-Pradesh-Gouthana-Graphite-Block_Summary.pdf": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mp-gauthana"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/mlcl/RenderFileMLCL.jsp?file=Madhya-Pradesh-Tikari-Gauthana-Chiklar-Distt-Betul.pdf": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mp-gauthana-tikari"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/mlcl/RenderFileMLCL.jsp?file=Maharashtra-Dubarpeth-Copper-Summary.pdf": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mh-dubarpeth"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/mlcl/RenderFileMLCL.jsp?file=Maharashtra-Thanewasna-Copper-Block-Summery.pdf": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mh-thanewasna"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/mlcl/RenderFileMLCL.jsp?file=Odisha-Jagdalpur-Graphite-Mine-Block-Summary-dtd-31-07-2019.pdf": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-od-jagdalpur"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/mlcln/mineral_auction_result.jsp?typerep=f&finYr=2023-2024&sellerRefId=0": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-cg-giroud-uprani",
+    "blk-cg-north-arjunda",
+    "blk-mh-minzhari",
+    "blk-mp-makra",
+    "blk-mp-modri",
+    "blk-mp-piploda",
+    "blk-mp-shitalpani",
+    "blk-rj-bhabhriya-ka-kheda",
+    "blk-rj-ladana"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/mlcln/mineral_auction_result.jsp?typerep=f&finYr=2023-2024&sellerRefId=31608": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-cg-katghora",
+    "blk-od-akharkata",
+    "blk-od-babja",
+    "blk-od-biarpalli",
+    "blk-tn-iluppakudi",
+    "blk-up-pahadi-kalan-gora-kalan"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/mlcln/mineral_auction_result.jsp?typerep=f&finYr=2024-2025&sellerRefId=0": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-rj-khamor"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/mlcln/mineral_auction_result.jsp?typerep=f&finYr=2024-2025&sellerRefId=31608": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-ap-balepalyam",
+    "blk-ar-depo",
+    "blk-ar-endolin-isholin",
+    "blk-ar-phop",
+    "blk-ar-radhpu",
+    "blk-br-chutia-nauhatta",
+    "blk-br-genjana",
+    "blk-br-pipradih-bhurwa",
+    "blk-jh-ponchi",
+    "blk-ka-gollarahatti-mallenahalli",
+    "blk-ka-sanyasikoppa",
+    "blk-mh-vadakhol-asoli",
+    "blk-mp-bahera-goriara",
+    "blk-mp-golighat",
+    "blk-mp-khattali-chhoti",
+    "blk-tn-nayakkarpatti",
+    "blk-up-barwar",
+    "blk-up-kurchha"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/mlcln/mineral_auction_result.jsp?typerep=f&finYr=2025-2026&sellerRefId=0": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mh-bhimsain-killa",
+    "blk-mh-miregaon",
+    "blk-mp-baghwari-khirkhori",
+    "blk-mp-gulhariya",
+    "blk-mp-parihasi",
+    "blk-mp-selarpur-nawaliya",
+    "blk-rj-kuratiyan",
+    "blk-rj-shahpura"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/mlcln/mineral_auction_result.jsp?typerep=f&finYr=2025-2026&sellerRefId=31608": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-ap-laxmipuram",
+    "blk-ar-sito-sikhe",
+    "blk-cg-chittalnar-kumakoleng",
+    "blk-cg-oranga-revatipur",
+    "blk-cg-raipura",
+    "blk-cg-semhardih",
+    "blk-ka-dombarahalli",
+    "blk-ka-ganacharpura",
+    "blk-ka-mincheri",
+    "blk-mh-kawalapur",
+    "blk-mh-khobna-agargaon",
+    "blk-mp-surajpura",
+    "blk-od-bharatbahal",
+    "blk-od-kanaital",
+    "blk-od-larambha",
+    "blk-od-salepali",
+    "blk-rj-bhatikhera",
+    "blk-rj-jhandawali-satipura",
+    "blk-rj-jorkian-satipura-khunja",
+    "blk-rj-nimbli",
+    "blk-rj-southeast-gugrot",
+    "blk-up-nawatola-laband"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/mlcln/mineral_auction_result.jsp?typerep=f&finYr=2025-2026&sellerRefId=41731": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-ap-ontillu-chandragiri",
+    "blk-jh-taramba-dalbhanga",
+    "blk-ka-devadurga",
+    "blk-mp-padhar",
+    "blk-rj-nawatala-devigarh"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/mlcln/mineral_auction_result.jsp?typerep=f&finYr=2026-2027&sellerRefId=0": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-mp-bagda-sawarsa"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/mlcln/mineral_auction_result.jsp?typerep=f&finYr=2026-2027&sellerRefId=31608": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-ap-lanjabanda",
+    "blk-ar-pakro",
+    "blk-br-nawara-nawadih",
+    "blk-br-sapneri",
+    "blk-br-tipa",
+    "blk-cg-dindo-belkurta-basera",
+    "blk-cg-gurur",
+    "blk-gj-katesar-guneri",
+    "blk-ka-gundlupet",
+    "blk-od-lamer-panga-a",
+    "blk-od-lamer-panga-b",
+    "blk-od-naringpanga-south",
+    "blk-od-tamiya",
+    "blk-rj-karna",
+    "blk-tg-govindpur",
+    "blk-tg-parvathapur",
+    "blk-uk-kathyur"
+   ]
+  },
+  "https://www.mstcecommerce.com/auctionhome/mlcln/mineral_auction_result.jsp?typerep=f&finYr=2026-2027&sellerRefId=41731": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-od-amdabera-rangamatia",
+    "blk-od-mushanal-dumrimunda",
+    "blk-up-harpalpur-mahobkanth"
+   ]
+  },
+  "https://www.newkerala.com/news/a/rajasthan-executes-indias-first-rare-earth-elements-exploration-144.htm": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-rj-nawatala-devigarh"
+   ]
+  },
+  "https://www.newsonair.gov.in/ministry-of-heavy-industries-invites-global-bids-to-set-up-rare-earth-magnet-manufacturing-units": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "repm"
+   ]
+  },
+  "https://www.newsonair.gov.in/ministry-of-mines-issues-guidelines-for-rs-1500-crore-critical-mineral-recycling-incentive-scheme": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "ncmm-recycling"
+   ]
+  },
+  "https://www.northernminer.com/news/vedanta-starts-coppertech-metals-in-us/1003884439/": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "vedanta-kcm-chingola"
+   ]
+  },
+  "https://www.orissapost.com/india-kazakhstan-to-form-jv-firm-to-strengthen-titanium-supply-chain-likely-to-generate-employment-opportunity-in-odisha/amp/": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "ireuk-titanium-slag-odisha"
+   ]
+  },
+  "https://www.outlookbusiness.com/markets/hindustan-copper-q2-profit-grows-85-to-186-cr": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "hcl-icc-ghatsila-smelter"
+   ]
+  },
+  "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2022185": {
+   "class": "blocked",
+   "code": 401,
+   "records": [
+    "coe-nftdc-hyderabad",
+    "mam-hyderabad-ndfeb"
+   ]
+  },
+  "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2097309": {
+   "class": "blocked",
+   "code": 401,
+   "records": [
+    "ncmm"
+   ]
+  },
+  "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2151287": {
+   "class": "blocked",
+   "code": 401,
+   "records": [
+    "coe-csir-immt",
+    "coe-csir-nml",
+    "coe-iit-bombay",
+    "coe-iit-hyderabad",
+    "coe-iit-ism-dhanbad",
+    "coe-iit-roorkee",
+    "coe-nftdc-hyderabad"
+   ]
+  },
+  "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2168923": {
+   "class": "blocked",
+   "code": 401,
+   "records": [
+    "isa-carlsberg-ridge-pms",
+    "isa-indian-ocean-ridge-pms-2016"
+   ]
+  },
+  "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2210864": {
+   "class": "blocked",
+   "code": 401,
+   "records": [
+    "ecms",
+    "npspl-gudupalle-cathode"
+   ]
+  },
+  "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2222519": {
+   "class": "blocked",
+   "code": 401,
+   "records": [
+    "ecms"
+   ]
+  },
+  "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2256977&reg=3&lang=1": {
+   "class": "blocked",
+   "code": 401,
+   "records": [
+    "ncmm-recycling"
+   ]
+  },
+  "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2258119": {
+   "class": "blocked",
+   "code": 401,
+   "records": [
+    "crystal-matrix-dholera-gan",
+    "ism"
+   ]
+  },
+  "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2299078&reg=1&lang=1": {
+   "class": "blocked",
+   "code": 401,
+   "records": [
+    "repm"
+   ]
+  },
+  "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2300625": {
+   "class": "blocked",
+   "code": 401,
+   "records": [
+    "acutaas-jhagadia-additives",
+    "ecms",
+    "epsilon-eam-one-vijayanagar"
+   ]
+  },
+  "https://www.plastemart.com/news-plastics-information/new-recycling-facility-to-recover-precious-metals-from-spent-petroleum-catalysts-in-india/35271": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "ravindra-heraeus-udaipur"
+   ]
+  },
+  "https://www.psuconnect.in/psu-news/nlcil-secures-composite-licence-for-phosphorite-and-limestone-blocks-in-chhattisgarh": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-cg-raipura",
+    "blk-cg-semhardih"
+   ]
+  },
+  "https://www.pv-magazine-india.com/2024/01/18/godi-india-to-build-12-5-gwh-battery-cell-manufacturing-unit-in-telangana": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "godi-telangana-cells"
+   ]
+  },
+  "https://www.pv-magazine-india.com/2026/01/21/chemvolt-global-announces-5-gwh-lithium-ion-cell-manufacturing-project-in-andhra-pradesh/": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "chemvolt-ap-cells"
+   ]
+  },
+  "https://www.pv-magazine-india.com/2026/04/02/agratas-advances-20-gwh-sanand-battery-facility": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "agratas-sanand-cells"
+   ]
+  },
+  "https://www.pv-magazine-india.com/?p=11938": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "greenko-catamarca-lithium"
+   ]
+  },
+  "https://www.pv-magazine-india.com/?p=11946": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "recyclekaro-palghar"
+   ]
+  },
+  "https://www.pv-magazine-india.com/?p=15105": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "amara-raja-divitipally-cells"
+   ]
+  },
+  "https://www.pv-magazine.com/2026/03/16/waaree-energies-begins-construction-of-10-gw-ingot-wafer-plant-in-india/": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "waaree-butibori-ingot-wafer"
+   ]
+  },
+  "https://www.riotimesonline.com/kabil-argentina-lithium-2030/": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "kabil-catamarca-lithium-brine"
+   ]
+  },
+  "https://www.sahi.com/news/acutaas-chemicals-gets-electronics-components-scheme-approval-for-electrolyte-additives-of-256-47-crores-4817-PE1_COR": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "acutaas-jhagadia-additives"
+   ]
+  },
+  "https://www.sahi.com/news/nlc-india-receives-telangana-loi-for-two-critical-mineral-blocks-933-PE1_CORP": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "blk-tg-govindpur",
+    "blk-tg-parvathapur"
+   ]
+  },
+  "https://www.tribuneindia.com/news/business/two-more-centres-of-excellence-recognised-by-mines-ministry-under-critical-mineral-mission": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "coe-cmet-hyderabad",
+    "coe-iisc-bengaluru"
+   ]
+  },
+  "https://www.tripurastarnews.com/pilot-plant-for-the-manufacture-of-nd-fe-b-rare-earth-permanent-magnets-established-at-arci-hyderabad/": {
+   "class": "ok",
+   "code": 200,
+   "records": [
+    "arci-ndfeb-pilot-hyderabad"
+   ]
+  }
+ }
+}

@@ -152,11 +152,10 @@ Plain, specific and non-promotional. Write for an intelligent non-expert.
 
 ## 7. Brand
 
-Takshashila tokens, matching Pranay's tracker:
+Takshashila house style, shared with the owner's published projects (India Critical Minerals Dashboard, Inside the Motor, Tech Laws atlas):
 
-- **Llama maroon** `#620d3c` (primary)
-- **Marigold** `#f1a222` (accent)
-- **Inter** for all text
-- **Roboto Mono** for meta and eyebrow labels
+- **Llama plum** `#620d3c` (primary; header gradient `#6e1545` to `#620d3c`) and **Marigold** `#f1a222` (accent)
+- cream paper `#fffbe2`, white cards with plum-tinted shadows, the Takshashila logo in the header
+- **Newsreader** for headings, **Hanken Grotesk** for text, **Space Mono** for labels
 
-Support a dark mode. `BUILD_SPEC.md` has the full design brief.
+Light only (owner decision, Oct 2026). `BUILD_SPEC.md` §0 records the editorial decisions; the rest of it is the original brief.

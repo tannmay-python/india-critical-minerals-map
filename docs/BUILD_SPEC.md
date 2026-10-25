@@ -4,6 +4,18 @@ The app is a static, client-side map application built from the YAML data. It sh
 
 If a `frontend-design` skill (or similar design guidance) is available in your environment, load it before designing the UI.
 
+## 0. Editorial decisions (owner, 25 Oct 2026)
+
+The owner asked for a map first and minimalism over completeness ("Don't burden it so much with analysis... Minimalism is beauty"). Where this spec and the build differ, the build follows these decisions:
+
+- **One map, two framings.** "In India" and "Abroad" are a switch on the map, not separate routes. Abroad shows the world with a curved line from each Indian holder's home city; solid for assets held, dashed for bids and evaluations. No 3D globe, which cannot show Argentina and Australia at once.
+- **Built on the map:** stage, status, mineral, state/country and scheme filters with live counts; a demand toggle (off by default, drawn fainter); search; a soft halo for district- or state-level locations; a picker when markers share a spot; a mineral strip that shows the chain for a picked mineral, with empty stages as gaps and a link to the dashboard; a detail panel with sources labelled official, company or press, archived copies, milestones, delay and a copy-link button.
+- **One About page** (`#/about`) replaces the method and data views: how to read the map, what is included, sources and confidence, known gaps, downloads and credits.
+- **Left out, for now:** the value-chain matrix, auction tracker, timeline and slippage, and policy views (§3.3–3.6); the time scrubber, the "story so far" panel, cluster donuts, and the operator-type, feedstock and confidence facets. The analysis can live elsewhere later; the data already carries it.
+- **Light only, Takshashila house style** shared with the India Critical Minerals Dashboard, Inside the Motor and the Tech Laws atlas: plum header with the Takshashila logo, cream paper, white cards, Newsreader headings, Hanken Grotesk text, Space Mono labels, marigold accents. This replaces §4's Inter / Roboto Mono and the dark-mode toggle.
+- **Record links:** `#/?id=<id>` and `#/e/<id>` both open the record on the map. No separate static entity pages.
+- **QA** is scripted: `node scripts/qa.mjs` (counts, links, console, screenshots, boundary close-ups) and `scripts/linkcheck.py` (source URLs).
+
 ---
 
 ## 1. Stack

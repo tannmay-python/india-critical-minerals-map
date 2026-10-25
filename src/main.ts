@@ -4,6 +4,7 @@ import { loadData, mineralKeys, GROUP_LABEL, GROUP_ORDER, type Dataset, type Vie
 import { createMap, type MapView } from "./map/mapview";
 import { renderDrawer } from "./ui/drawer";
 import { mountSearch } from "./ui/search";
+import { renderAbout } from "./ui/about";
 import { currentTheme, onThemeChange } from "./lib/theme";
 import { parseHash, replaceParams, onRoute } from "./lib/router";
 import { esc, fmtDate } from "./lib/format";
@@ -22,6 +23,10 @@ function regionOf(e: Entity): string {
 
 const viewOf = (e: Entity): View => (e.layer === "overseas" ? "abroad" : "india");
 
+/** Supply-chain stages shown in the mineral strip, in chain order. */
+const CHAIN_STAGES = ["Exploration", "Mining", "Beneficiation", "Refining", "Materials", "Magnets", "Recycling", "R&D"];
+const CHAIN_LABEL: Record<string, string> = { Beneficiation: "Benefic." };
+
 async function main(): Promise<void> {
   const app = $("#app");
   app.innerHTML = `
@@ -30,7 +35,8 @@ async function main(): Promise<void> {
       <aside id="panel" class="panel" aria-label="Filters"></aside>
       <button id="panel-toggle" class="panel-toggle" type="button" aria-controls="panel" aria-expanded="false"></button>
       <aside id="drawer" class="drawer" aria-labelledby="drawer-title" hidden></aside>
-    </section>`;
+    </section>
+    <section id="about" class="view view-page" hidden></section>`;
 
   let data: Dataset;
   try {
@@ -46,7 +52,8 @@ async function main(): Promise<void> {
   const hasLow = data.entities.some((e) => e.confidence === "low");
 
   // ---- filter state <-> URL
-  const p = parseHash().params;
+  const route = parseHash();
+  const p = route.params;
   const list = (k: string) => (p.get(k) ?? "").split(",").filter(Boolean);
   const f: Filters = {
     view: p.get("view") === "abroad" ? "abroad" : "india",
@@ -59,7 +66,7 @@ async function main(): Promise<void> {
     unconfirmed: p.get("unconfirmed") === "1",
   };
   if (!f.groups.size) GROUP_ORDER.forEach((g) => f.groups.add(g));
-  let selected: string | null = p.get("id");
+  let selected: string | null = route.entityId ?? p.get("id");
   const opening = selected ? data.byId.get(selected) : undefined;
   if (opening) { // a shared link to a record decides the view
     f.view = viewOf(opening);
@@ -190,6 +197,19 @@ async function main(): Promise<void> {
         .map(([id, name]) => opt(id, name, count("scheme", (e) => e.scheme_links.some((s) => s.id === id)), f.scheme))].join("");
     const nDemand = data.entities.filter((e) => e.layer === "demand" && confirmed(e)).length;
 
+    // With one mineral picked, show its chain across the stages; empty stages are the gaps.
+    let chain = "";
+    if (f.mineral) {
+      const touching = base.filter((e) => e.layer !== "demand" && mineralMatch(e, f.mineral));
+      const rareEarth = f.mineral === "family:REE" || family.get(f.mineral) === "REE" || f.mineral === "Rare earths (unspecified)";
+      const cells = CHAIN_STAGES.map((st) => [st, touching.filter((e) => e.stages.includes(st)).length] as const)
+        .filter(([st, n]) => st !== "Magnets" || n > 0 || rareEarth) // a magnet "gap" only means something for rare earths
+        .map(([st, n]) => `<li class="${n ? "" : "gap"}"><span class="num">${n || "–"}</span>${esc(CHAIN_LABEL[st] ?? st)}</li>`)
+        .join("");
+      const dash = data.minerals.find((m) => m.name === f.mineral)?.dashboard_url;
+      chain = `<div class="chain"><ol>${cells}</ol>${dash ? `<a href="${esc(dash)}" target="_blank" rel="noopener">${esc(f.mineral)} on the dashboard ↗</a>` : ""}</div>`;
+    }
+
     panel.innerHTML = `
       <div class="seg" role="group" aria-label="Where">
         ${(["india", "abroad"] as View[]).map((v) => `<button type="button" data-view="${v}" aria-pressed="${f.view === v}">${v === "india" ? "In India" : "Abroad"}<span class="n num">${nView(v)}</span></button>`).join("")}
@@ -202,14 +222,14 @@ async function main(): Promise<void> {
       <fieldset><legend class="eyebrow">Status</legend>${groupRows}</fieldset>
       <fieldset class="selects">
         <label><span class="eyebrow">Mineral</span><select data-select="mineral">${mineralOpts}</select></label>
+        ${chain}
         <label><span class="eyebrow">${abroad ? "Country" : "State"}</span><select data-select="state">${stateOpts}</select></label>
         ${schemes.size ? `<label><span class="eyebrow">Scheme</span><select data-select="scheme">${schemeOpts}</select></label>` : ""}
       </fieldset>
       ${abroad ? "" : `<label class="check"><input type="checkbox" data-demand${f.demand ? " checked" : ""}>Show demand: cell plants, gallium fabs<span class="n num">${nDemand}</span></label>`}
       ${hasLow ? `<label class="check"><input type="checkbox" data-unconfirmed${f.unconfirmed ? " checked" : ""}>Show unconfirmed</label>` : ""}
       <footer class="panel-foot">
-        <span>Updated ${fmtDate(data.meta.built.slice(0, 10))}</span>
-        <span>Data: <a href="downloads/blocks.csv" download>blocks</a> · <a href="downloads/magnets.csv" download>magnets</a> · <a href="downloads/all-entities.geojson" download>GeoJSON</a></span>
+        <span>Updated ${fmtDate(data.meta.built.slice(0, 10))} · <a href="#/about">About and data</a></span>
       </footer>`;
     toggle.innerHTML = `Filters<span class="num">${shown.length}</span>`;
     map.setEntities(shown);
@@ -266,11 +286,23 @@ async function main(): Promise<void> {
   }
   mountSearch($("#search-input"), $("#search-results"), data.entities, choose);
 
+  const about = $("#about");
+  function showPage(r: ReturnType<typeof parseHash>): void {
+    const onAbout = r.view === "about";
+    if (onAbout && !about.innerHTML) renderAbout(about, data);
+    about.hidden = !onAbout;
+    if (onAbout) about.scrollTop = 0;
+    document.querySelector(".header-link")?.setAttribute("aria-current", onAbout ? "page" : "false");
+  }
+
   paint();
-  if (opening) open(opening.id, true);
+  showPage(route);
+  if (opening) choose(opening.id); // also clears any filter that would hide it
   else selected = null;
-  onRoute((r) => { // pasted or edited links
-    const id = r.params.get("id");
+  onRoute((r) => { // pasted or edited links, and the About page
+    showPage(r);
+    if (r.view === "about") return;
+    const id = r.entityId ?? r.params.get("id");
     if (id === selected) return;
     if (id && data.byId.has(id)) choose(id);
     else open(null, false);
