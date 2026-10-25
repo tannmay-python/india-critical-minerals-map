@@ -1,0 +1,999 @@
+
+India's State Miner Pushes Argentine Lithium Back to 2030 | The Rio Times
+IBOV
+205,082.56
+▲ 0.47%
+IPSA
+10,746.36
+▼ 0.31%
+IPC MEX
+69,879.62
+▼ 0.01%
+MERVAL
+3,017,221
+— —
+COLCAP
+2,540.10
+▲ 0.46%
+BVL PERÚ
+57,021.19
+▲ 0.13%
+USD/BRL
+5.00
+▲ 0.62%
+USD/MXN
+18.65
+▼ 0.34%
+USD/CLP
+994.76
+— 0.00%
+USD/COP
+3,145
+▼ 1.32%
+USD/PEN
+3.45
+▲ 0.29%
+USD/ARS
+1,529
+▲ 0.10%
+USD/UYU
+40.08
+▲ 2.99%
+USD/PYG
+5,760
+▲ 3.42%
+USD/BOB
+11.78
+▲ 3.59%
+USD/DOP
+61.09
+▲ 2.49%
+USD/CRC
+452.44
+▲ 2.51%
+USD/GTQ
+7.64
+▲ 3.15%
+USD/HNL
+26.87
+▲ 3.24%
+USD/NIO
+36.62
+— 0.00%
+USD/VES
+884.01
+▼ 0.13%
+USD/PAB
+1.00
+— 0.00%
+USD/BZD
+2.00
+— 0.00%
+USD/JMD
+157.28
+— 0.00%
+USD/TTD
+6.72
+▲ 2.14%
+EUR/BRL
+5.56
+▼ 1.39%
+BRENT
+88.88
+▼ 0.03%
+WTI
+83.11
+▼ 0.11%
+IRON ORE
+161.91
+— —
+COPPER
+6.61
+▲ 0.03%
+GOLD
+4,461
+▲ 1.78%
+SILVER
+65.59
+▲ 1.26%
+SOY
+1,184
+▲ 3.20%
+CORN
+480.50
+▲ 10.02%
+WHEAT
+655.00
+▲ 3.93%
+COFFEE
+317.25
+▼ 5.51%
+SUGAR
+16.43
+▼ 1.79%
+ORANGE JUICE
+138.55
+▼ 0.47%
+COTTON
+85.03
+▲ 2.33%
+COCOA
+5,719
+▲ 3.18%
+BEEF
+223.60
+▼ 3.93%
+CATTLE
+339.10
+▼ 3.16%
+LITHIUM
+75.20
+▲ 1.47%
+PETR4
+41.64
+▼ 0.05%
+VALE3
+72.97
+▲ 0.83%
+ITUB4
+38.60
+▼ 1.03%
+BBDC4
+16.85
+▲ 0.36%
+ABEV3
+14.89
+▼ 0.80%
+BBAS3
+19.37
+▲ 0.47%
+B3SA3
+14.26
+▼ 0.21%
+WEGE3
+47.59
+▲ 0.49%
+PRIO3
+59.14
+▼ 0.19%
+SUZB3
+41.33
+▲ 2.35%
+RENT3
+34.68
+▼ 0.09%
+AZZA3
+15.89
+▼ 2.63%
+CSAN3
+3.22
+▼ 1.83%
+RAIZ4
+0.25
+— 0.00%
+PCAR3
+2.75
+▼ 0.36%
+GMAT3
+3.65
+▼ 1.08%
+PSSA3
+48.13
+▼ 0.54%
+CVCB3
+1.33
+▼ 2.92%
+POSI3
+3.36
+▲ 2.44%
+SLCE3
+13.34
+▲ 0.30%
+NATU3
+8.14
+▼ 0.73%
+IBOV
+205,082.56
+▲ 0.47%
+IPSA
+10,746.36
+▼ 0.31%
+IPC MEX
+69,879.62
+▼ 0.01%
+MERVAL
+3,017,221
+— —
+COLCAP
+2,540.10
+▲ 0.46%
+BVL PERÚ
+57,021.19
+▲ 0.13%
+USD/BRL
+5.16
+▲ 0.01%
+USD/MXN
+17.06
+▼ 0.24%
+USD/CLP
+913.98
+▲ 0.04%
+USD/COP
+3,140
+▲ 0.03%
+USD/PEN
+3.36
+▼ 0.66%
+USD/ARS
+1,493
+▲ 0.10%
+USD/UYU
+40.27
+▲ 1.24%
+USD/PYG
+5,939
+▲ 1.68%
+USD/BOB
+11.64
+▼ 0.76%
+USD/DOP
+58.34
+▲ 1.25%
+USD/CRC
+445.92
+▲ 0.89%
+USD/GTQ
+7.62
+▲ 2.21%
+USD/HNL
+26.79
+▲ 1.57%
+USD/NIO
+36.62
+▲ 0.69%
+USD/VES
+762.44
+▼ 0.13%
+USD/PAB
+1.00
+— 0.00%
+USD/BZD
+2.00
+— 0.00%
+USD/JMD
+157.28
+— 0.00%
+USD/TTD
+6.70
+▲ 0.61%
+EUR/BRL
+5.95
+▲ 1.01%
+BRENT
+88.88
+▼ 0.03%
+WTI
+83.11
+▼ 0.11%
+IRON ORE
+161.91
+— —
+COPPER
+6.61
+▲ 0.03%
+GOLD
+4,461
+▲ 1.78%
+SILVER
+65.59
+▲ 1.26%
+SOY
+1,184
+▲ 3.20%
+CORN
+480.50
+▲ 10.02%
+WHEAT
+655.00
+▲ 3.93%
+COFFEE
+317.25
+▼ 5.51%
+SUGAR
+16.43
+▼ 1.79%
+ORANGE JUICE
+138.55
+▼ 0.47%
+COTTON
+85.03
+▲ 2.33%
+COCOA
+5,719
+▲ 3.18%
+BEEF
+223.60
+▼ 3.93%
+CATTLE
+339.10
+▼ 3.16%
+LITHIUM
+75.20
+▲ 1.47%
+PETR4
+41.64
+▼ 0.05%
+VALE3
+72.97
+▲ 0.83%
+ITUB4
+38.60
+▼ 1.03%
+BBDC4
+16.85
+▲ 0.36%
+ABEV3
+14.89
+▼ 0.80%
+BBAS3
+19.37
+▲ 0.47%
+B3SA3
+14.26
+▼ 0.21%
+WEGE3
+47.59
+▲ 0.49%
+PRIO3
+59.14
+▼ 0.19%
+SUZB3
+41.33
+▲ 2.35%
+RENT3
+34.68
+▼ 0.09%
+AZZA3
+15.89
+▼ 2.63%
+CSAN3
+3.22
+▼ 1.83%
+RAIZ4
+0.25
+— 0.00%
+PCAR3
+2.75
+▼ 0.36%
+GMAT3
+3.65
+▼ 1.08%
+PSSA3
+48.13
+▼ 0.54%
+CVCB3
+1.33
+▼ 2.92%
+POSI3
+3.36
+▲ 2.44%
+SLCE3
+13.34
+▲ 0.30%
+NATU3
+8.14
+▼ 0.73%
+The Rio 
+Times
+since 2009
+Sunday, October 25, 2026
+Subscribe
+Latest News
+Brazil
+Brazil Election 2026
+Brazil Election Polls
+Brazil Election Odds
+Brazil Runoff Date and Results Time
+Brazil Election Results
+All Election Stories
+São Paulo
+Rio de Janeiro
+Politics
+Business
+Real Estate
+Latin America
+Argentina
+Mexico
+Chile
+Colombia
+Peru
+Venezuela
+Uruguay
+Bolivia
+Ecuador
+Paraguay
+Cuba
+Costa Rica
+Panama
+All Countries
+Africa
+Africa Critical Minerals
+Africa Energy
+Africa Markets & Investment
+Africa & the Great Powers
+Africa & Latin America
+Horn of Africa & Red Sea
+Africa Intelligence Dossier
+Africa Intelligence Brief
+Central Africa
+Doing Business & Living in Africa
+Eastern Africa
+Northern Africa
+Southern Africa
+Western Africa
+Markets
+Morning Call
+LatAm Pre-Open
+Global Economy Briefing
+LatAm Pulse
+Markets by Country
+Brazil Markets
+Mexico Markets
+Argentina Markets
+Chile Markets
+Colombia Markets
+Live Market Signals
+Market Reports
+Crypto
+Prediction Markets
+Latin America Prediction Markets
+Africa Prediction Markets
+Expats & Nomads
+Expats in Brazil
+Living in Brazil
+Step by Step Guide
+Expats in Mexico
+Living in Mexico
+Step by Step Guide
+Expats in Colombia
+Living in Colombia
+Step by Step Guide
+Expats in Argentina
+Living in Argentina
+Step by Step Guide
+Expats in Uruguay
+Living in Uruguay
+Step by Step Guide
+Expats in Panama
+Living in Panama
+Step by Step Guide
+Expats in Costa Rica
+Living in Costa Rica
+Step by Step Guide
+LatAm Expat & Nomad Daily Guide
+Expats Across Latin America
+Guides
+Pillars
+Country Comparisons
+Investing Guides
+Visa & Residency
+Cost of Living
+Healthcare
+Moving & Living
+Dossiers
+In the News Now
+Brazil Elections 2026
+France in Turmoil
+Spain Election 2026
+US Midterms 2026
+Cuba Under Pressure
+Sudan War
+Europe in Crisis
+Latin America
+Brazil Power & Money
+Brazil Tax Reform
+Brazil Fintech
+Banco Master Scandal
+Venezuela Transformation
+Mercosur–EU Deal
+USMCA 2026
+BRICS Expansion
+Lithium in Latin America
+Copper in Latin America
+Africa
+Horn of Africa & Red Sea
+Africa: New Scramble
+Critical Minerals in Africa
+Great Powers in Africa
+Nigeria Reforms
+South Africa: GNU Test
+Kenya Economy
+Egypt: IMF & Suez
+Ghana Debt Recovery
+Morocco
+DR Congo
+Angola
+Ethiopia
+Tanzania
+Africa Intelligence Dossier
+In-Depth: The Big Reads
+Expats Across Latin America
+BTS in São Paulo
+F1 Mexico City GP
+Soweto Derby
+Day of the Dead
+South Africa Local Elections
+Grenada Election
+F1 US Grand Prix Austin
+F1 São Paulo Grand Prix
+Serbia parliamentary election (early, Na
+Cabo Verde presidential election
+Venezuela-US Tensions
+Haiti Crisis
+Venezuela-US tensions
+Haiti crisis
+Europe's political crisis
+All Dossiers
+Analysis
+More
+LatAm Pulse
+Power Map
+Sports
+World Cup 2026
+Defense Monitor
+World
+Asia
+Europe
+US & Canada
+Life & Culture
+Art & Culture
+Carnival
+Music
+Travel
+Nightlife Guides
+Company Intelligence
+LatAm Company Intelligence
+Africa Company Intelligence
+×
+The Rio 
+Times
+×
+Latest News
+Brazil
++
+Brazil Election 2026
+Brazil Election Polls
+Brazil Election Odds
+Brazil Runoff Date and Results Time
+Brazil Election Results
+All Election Stories
+São Paulo
+Rio de Janeiro
+Politics
+Business
+Real Estate
+Latin America
++
+Argentina
+Mexico
+Chile
+Colombia
+Peru
+Venezuela
+Uruguay
+Bolivia
+Ecuador
+Paraguay
+Cuba
+Costa Rica
+Panama
+All Countries
+Africa
++
+Africa Critical Minerals
+Africa Energy
+Africa Markets & Investment
+Africa & the Great Powers
+Africa & Latin America
+Horn of Africa & Red Sea
+Africa Intelligence Dossier
+Africa Intelligence Brief
+Central Africa
+Doing Business & Living in Africa
+Eastern Africa
+Northern Africa
+Southern Africa
+Western Africa
+Markets
++
+Morning Call
+LatAm Pre-Open
+Global Economy Briefing
+LatAm Pulse
+Markets by Country
+Brazil Markets
+Mexico Markets
+Argentina Markets
+Chile Markets
+Colombia Markets
+Live Market Signals
+Market Reports
+Crypto
+Prediction Markets
++
+Latin America Prediction Markets
+Africa Prediction Markets
+Expats & Nomads
++
+Expats in Brazil
+Living in Brazil
+Step by Step Guide
+Expats in Mexico
+Living in Mexico
+Step by Step Guide
+Expats in Colombia
+Living in Colombia
+Step by Step Guide
+Expats in Argentina
+Living in Argentina
+Step by Step Guide
+Expats in Uruguay
+Living in Uruguay
+Step by Step Guide
+Expats in Panama
+Living in Panama
+Step by Step Guide
+Expats in Costa Rica
+Living in Costa Rica
+Step by Step Guide
+LatAm Expat & Nomad Daily Guide
+Expats Across Latin America
+Guides
++
+Pillars
+Country Comparisons
+Investing Guides
+Visa & Residency
+Cost of Living
+Healthcare
+Moving & Living
+Dossiers
++
+In the News Now
+Brazil Elections 2026
+France in Turmoil
+Spain Election 2026
+US Midterms 2026
+Cuba Under Pressure
+Sudan War
+Europe in Crisis
+Latin America
+Brazil Power & Money
+Brazil Tax Reform
+Brazil Fintech
+Banco Master Scandal
+Venezuela Transformation
+Mercosur–EU Deal
+USMCA 2026
+BRICS Expansion
+Lithium in Latin America
+Copper in Latin America
+Africa
+Horn of Africa & Red Sea
+Africa: New Scramble
+Critical Minerals in Africa
+Great Powers in Africa
+Nigeria Reforms
+South Africa: GNU Test
+Kenya Economy
+Egypt: IMF & Suez
+Ghana Debt Recovery
+Morocco
+DR Congo
+Angola
+Ethiopia
+Tanzania
+Africa Intelligence Dossier
+In-Depth: The Big Reads
+Expats Across Latin America
+BTS in São Paulo
+F1 Mexico City GP
+Soweto Derby
+Day of the Dead
+South Africa Local Elections
+Grenada Election
+F1 US Grand Prix Austin
+F1 São Paulo Grand Prix
+Serbia parliamentary election (early, Na
+Cabo Verde presidential election
+Venezuela-US Tensions
+Haiti Crisis
+Venezuela-US tensions
+Haiti crisis
+Europe's political crisis
+All Dossiers
+Analysis
+More
++
+LatAm Pulse
+Power Map
+Sports
+World Cup 2026
+Defense Monitor
+World
+Asia
+Europe
+US & Canada
+Life & Culture
+Art & Culture
+Carnival
+Music
+Travel
+Nightlife Guides
+Company Intelligence
+LatAm Company Intelligence
+Africa Company Intelligence
+Ask Rio Times
+Subscribe
+Log In
+Argentina
+Business
+India’s State Miner Pushes Argentine Lithium Back to 2030
+By 
+Florencia Belén Ruiz
+·
+August 17, 2026
+·
+6 min read
+Argentina · Mining
+Key Facts
+—
+What happened
+ KABIL now targets lithium extraction in Argentina by December 2030, a year later than first planned.
+—
+How big a jump
+ The deal: January 2024 CAMYEN lithium exploration pact in Catamarca, ₹2 billion (US$21 million), ~15,703 hectares.
+—
+The real story
+ Catamarca offered KABIL seven new blocks, nearly tripling its land in Latin America’s lithium triangle.
+—
+The catch
+ A parliamentary panel expects four-to-five years, not binding, as KABIL reports no revenue and awaits studies.
+—
+Who it touches
+ Argentina’s lithium-rich Catamarca, Jujuy and Salta provinces could gain a new buyer and royalties if the project advances.
+—
+What comes next
+ KABIL must finish studies, secure approvals for five blocks, decide on seven, and finalize Jujuy and Salta talks.
+India’s state miner expects to start pulling lithium from its five Catamarca blocks within four to five years, but that timeline is an expectation, not a done deal.
+If you’re tracking Latin America’s lithium race, here’s a new player to watch: India’s state-owned miner KABIL expects to start extracting lithium in Argentina within the next four to five years. But before you bank on that date, know this — it’s an expectation from a parliamentary panel chaired by Anurag Thakur report, not a binding project schedule, and there are still feasibility studies and approvals ahead. The clearest confirmed piece of this story is the January 2024 agreement KABIL signed with Argentina’s state-owned CAMYEN for exploration and development of five lithium blocks in Catamarca province — an investment of ₹2 billion, which is about US$21 million.
+Lithium evaporation ponds at Hombre Muerto in Catamarca — the province where KABIL holds its five exploration blocks. The plant pictured is not KABIL’s. 
+RT
+Ask Rio Times
+Latin American markets, currencies and companies.
+Ask
+Ask another
+Open full Ask Rio Times →
+Answers are generated from Rio Times reporting only — every claim links to its source article.
+Open the full Ask Rio Times →
+RT
+Ask Rio Times
+Markets, currencies and the economy
+›
+RT
+Ask Rio Times
+Latin American markets, currencies and companies.
+×
+Markets today
+The currency
+Rates & inflation
+Economy outlook
+Tap a question, or type your own — the answer appears right here.
+Ask
+Open the full Ask Rio Times →
+The Big Read: Today in Argentina
+What to Do in Buenos Aires in November 2026: Museum Night, Primavera Sound and Ed Sheeran
+Argentina Detains Priest and 2 at Protest
+Colombian Star Karol G Plays Buenos Aires on 5 February
+All of today’s Big Read for Argentina →
+What KABIL has actually signed
+In January 2024, KABIL signed a deal with CAMYEN SE. CAMYEN SE is the mining company owned by the Catamarca provincial government. 
+Latin America Power Index · October 2026 edition
+Argentina ranks 4th of 14
+ with 61.2 points. Strongest pillar: future resources (68); weakest: economic relationships (23). Alignment group: Closer to Washington.
+Watch
+Rating below investment grade (B-); inflation of 42%; public debt at 80% of GDP.
+See the full index, the business lens and the data →
+The deal covers exploring and developing five lithium-brine blocks in Catamarca. This province in northwest Argentina is known for its salt flats and lithium production. 
+The investment for this exploration pact is ₹2 billion, about US$21 million. This money covers studying and developing the blocks, not building a full mine. 
+The LatAm Brief
+One email, every weekday morning.
+ What moved in Latin American markets, politics and expat life.
+Yesterday’s subject line: “Brazil runoff: 4 polls split, Polymarket gives Flávio 80%”
+Get the brief
+Free. We send a confirmation link first — nothing arrives until you click it. Unsubscribe with one click in any edition.
+If you stop opening us for 30 days we stop sending by ourselves, as we assume the interest is no longer there.
+ See our 
+privacy policy
+. We never share your email.
+KABIL has reported no operating revenue for the last three years. That is because it is still in the exploration stage. 
+This shows how hard these overseas projects are financially. Catamarca has offered KABIL seven additional lithium brine blocks under the same deal. 
+Greenfield means untouched land, so these are brand-new developments, not expansions. KABIL is now checking these seven blocks, according to the sources. 
+The commercial terms for these blocks are not stated. So no numbers are known yet.
+It was India’s first lithium exploration and development agreement anywhere in the world. It marked India’s entry into Latin America’s lithium triangle. 
+The five blocks include four called Cortadera and one numbered Cateo-2022-01810132. Together, they cover about 15,703 hectares. 
+If KABIL accepts them, its land in Catamarca would almost triple. But checking the offer means the deal is not final.
+Argentina’s lithium triangle includes Catamarca and other provinces. KABIL is also talking about two lithium projects in Jujuy, which is next door.
+In Salta, Reuters says KABIL is working on a first-step agreement with the local mining ministry. That deal is not final yet.
+These talks are active, but they do not show how much KABIL would own or pay. They matter less than the 2024 CAMYEN agreement.
+Reuters says KABIL hopes to start lithium extraction in Argentina in four to five years, after study work. This comes from a government report, not a company promise.
+The same report says first production may start in December 2030. That is one year later than the old goal of September 2029.
+Before that, KABIL must finish studies and get more approvals. It may also need to change the deal terms if the market shifts.
+In mining, timelines often move back, especially when they are plans, not guarantees. The report also noted money limits and skill gaps in India’s overseas mining push, so nothing is sure yet.
+The seven-block expansion in Catamarca
+Beyond Catamarca: Jujuy and Salta
+Why the 4-5 year timeline is soft
+Why this matters for Latin America
+For anyone living in or invested in Latin America, this is a signal of shifting demand. India is the world’s third-largest oil importer and a growing consumer of batteries for electric vehicles and electronics, and it’s looking to Latin America to secure lithium outside China’s supply chain.
+Argentina, Chile, and Bolivia form the so-called ‘lithium triangle’ that holds more than half of the world’s known lithium resources, and Argentina’s Catamarca, Jujuy, and Salta provinces are at the heart of it.
+If KABIL moves from exploration to production, it would add a new buyer of Argentine lithium, potentially boosting provincial royalties and foreign investment in a country that needs both. But the project’s timeline is soft, and the financial stress of KABIL — no revenue for three years — could slow things further.
+For now, the five blocks are signed, the seven more are on the table, and the four-to-five-year date is a hope, not a promise.
+More:
+Argentina news in English
+, every day from The Rio Times.
+Frequently Asked Questions
+What is KABIL’s confirmed lithium deal in Argentina?
+In January 2024, KABIL signed an agreement with Argentina’s state-owned CAMYEN for exploration and development of five lithium blocks in Catamarca province, with an investment of ₹2 billion (about US$21 million).
+When will KABIL start producing lithium in Argentina?
+KABIL expects to start extracting lithium within four to five years, according to a parliamentary panel report cited by Reuters. But this is an expectation, not a binding schedule — feasibility studies and approvals are still pending. The panel says first production has slipped to December 2030.
+Is KABIL expanding beyond its five Catamarca blocks?
+Yes. Catamarca has offered KABIL seven additional greenfield lithium brine blocks, which KABIL is evaluating. Commercial terms for those blocks are not yet public.
+What other Argentine provinces is KABIL involved in?
+KABIL is in discussions for two lithium projects in Jujuy. In Salta, it is in the process of signing a preliminary agreement, but that is not yet a signed deal.
+Connected Coverage
+Chile Opens Its Pacific Ports to Argentina’s Mining Boom
+Argentina’s Glacier Law Reform Unlocks $40 Billion Mining Pipeline — and a Constitutional War
+Argentina’s Mining Exports Surge on Gold Prices, Lithium Output
+Sources: 
+India’s state-owned KABIL expects to start lithium …
+; 
+Empresa estatal india KABIL prevé iniciar producción de liti
+; 
+India’s Overseas Critical Mineral Push Faces Funding and …
+; 
+KABIL weighs 9 more lithium opportunities in Argentina …
+; 
+Why India is struggling to acquire critical mineral assets .
+This article was produced by The Rio Times’ automated newsroom system. 
+How we use AI
+ · 
+Report an error
+ · Editorial responsibility: 
+Matthias Camenzind
+, Editor-in-Chief
+Lithium in Latin America
+Lithium in Latin America 2026: Inside the Lithium Triangle
+Bolivia’s Lithium Explained for 2026
+Chile Lithium 2026: Deals, Policy Shift and Race to Stay No. 2
+Argentina Natural Resources Explained 2026
+All our lithium coverage, explainers and daily reports →
+Read next: guides on Argentina
+Argentina’s State Oil Giant YPF Explained
+Argentina Security and Crime Explained 2026
+Argentina History, From Indigenous Peoples to Milei
+Read next
+Most read in Argentina
+Argentina Poll Shows Milei Keeps 50.5% of His Voters
+5 October 2026 · 6 min read
+Most read in Argentina
+Weatherman Fernando Confessore Dies at 58
+16 October 2026 · 4 min read
+Guide · Argentina
+Argentine League Final 2026 in La Plata
+8 October 2026 · 10 min read
+The Rio Times · Power Map
+See who really holds power in Latin America
+Click to open the Power Map 
+→
+MOST VIEWED - TODAY
+01
+Futura Poll Has Flávio 50.1%, Lula 49.9%
+02
+Mexico Arrests US Homicide Suspect on 23 Oct
+03
+Serbia Votes Sunday, Ruling List Favored
+04
+New Zealand Brazilians Vote 80.5% for Lula
+05
+Datafolha Poll Has Flávio 51%, Lula 49%
+Full Access
+All articles, market reports, intelligence briefs, and the Morning Call.
+$8.99
+/mo
+Cancel anytime. First month US$1.
+Start for US$1
+Editor’s Picks
+★
+Quaest Poll Has Flávio 51%, Lula 49%
+★
+Brazil Asks Court to Ease Indigenous Voting
+★
+Latin America Defense Monitor — October 17–23, 2026
+★
+What to Do in Rio in October 2026
+★
+Brasília Poll Has Flávio 55%, Lula 45%
+The Rio 
+Times
+Brazil
+Latin America
+World
+Markets
+Defense
+City Life
+Sports
+Opinion
+The leading English-language source for Latin American financial news, market analysis, and daily intelligence briefs — for investors, analysts, and expats.
+About Us
+Contact Us
+Editorial Standards
+How We Use AI
+Corrections
+Advertising
+ · 
+Media Kit
+ ·
+Terms of Service
+Premium Membership
+Read Without Subscription
+Member Login
+© 2026 The Rio Times Online. All rights reserved.
+Privacy Policy
+ ·
+Editorial Standards
+ ·
+How We Use AI
+ ·
+Corrections
+ ·
+Terms of Service
+Home
+Search
+Subscribe
+Log in
+Menu
+Brazil runoff date: Sunday, October 25, poll closing times and when results start
+ · 
+Brazil runoff polls: Flávio 51%, Lula 49%
+ · 
+Kalshi and Polymarket odds
+Rotate for Best Experience
+This report is optimized for landscape viewing. Rotate your phone for the full experience.
+Continue in Portrait
+You've reached your free article limit
+Subscribe to The Rio Times for unlimited access to our news, expat and nomad guides and market intelligence on Latin America and Africa.
+Enjoyed your free reads?
+Try your first month for 
+US$1
+Every article, Ticker Intelligence included. Then US$8.99/month — cancel anytime.
+Become a member — first month US$1
+or US$35 for the first year, then US$69.99 a year
+or get one more free
+I'd like to receive The Rio Times Daily Brief and occasional updates. Unsubscribe anytime.
+Read our 
+privacy policy
+Get one more free article
+Already a subscriber?
+Log in
+0
+articles remaining today
+You've used all your free articles for today
+Continue Reading
+Subscribe
+ for unlimited
+Want one more free article? Drop your email:
+Send
+I'd like to receive The Rio Times Daily Brief and occasional updates. Unsubscribe anytime. 
+Privacy policy
+×

@@ -98,9 +98,13 @@ def geocode(geo):
     elif geo.get("district_centroid"):
         cmd += ["--district-centroid", geo["district_centroid"], "--state", geo["state"]]
     else:
-        cmd += [geo["q"], "--state", geo["state"]]
+        cmd += [geo["q"]]
+        if geo.get("state"):
+            cmd += ["--state", geo["state"]]
         if geo.get("district"):
             cmd += ["--district", geo["district"]]
+        if geo.get("country"):   # overseas: Nominatim search restricted to the host country
+            cmd += ["--country", geo["country"]]
     out = subprocess.run(cmd, capture_output=True, text=True).stdout.strip().splitlines()
     r = json.loads(out[-1]) if out else {}
     if not r.get("ok"):

@@ -44,3 +44,8 @@ Every candidate considered and rejected, with the rule that rejected it, so the 
 | Edayar/Binani, HZL Vizag kept as Closed cadmium streams; all other zinc-lead output excluded | L4 | D-003 | IBM IMYB 2023 |
 | Alumina refineries without gallium or vanadium recovery (e.g. NALCO Damanjodi kept only as a gallium plan; Utkal Alumina not recorded) | L4 | D-003 | IBM IMYB 2023 |
 | Solar module and cell lines (Adani, Reliance, Waaree, Premier, etc.) | L4 | Playbook L4: module/cell only | Only ingot, wafer and polysilicon stages recorded |
+| Total Graphite (formerly Tirupati Graphite), Madagascar and Mozambique | L8 | Indian control not shown in 2026 filings (recapitalised; board has no named Indian promoter) | Investegate RNS 9605498; Kalkine FY2026 results (Jul 2026) |
+| KABIL-Uranium One lithium project, Mali | L8 | Project not named, no location; due diligence on hold | LS Committee on Coal, Mines and Steel, 29th Report (Aug 2026) |
+| KABIL-MAMICO talks, Malawi; KABIL evaluations in Brazil, Canada, Russia, Indonesia | L8 | Talks only, no project or asset | Same report |
+| Delta Lithium (fifth Australian priority project) | L8 | Found unsuitable after due diligence; which Delta project is not stated | Same report |
+| Chile: KABIL-ENAMI NDA (May 2023), handed to Coal India; PSU consortium lithium brine bid not submitted (Oct 2025 NDA) | L8 | Project and site not named | Same report; LS USQ 1510 (Jul 2024) |

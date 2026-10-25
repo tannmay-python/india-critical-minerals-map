@@ -1,0 +1,894 @@
+# L8 overseas assets held or pursued by Indian entities: compact research draft.
+# Expanded by scripts/research/build_entities.py into l8-overseas.yml + .evidence.jsonl.
+# Main official source: Lok Sabha Standing Committee on Coal, Mines and Steel, 29th Report (12 Aug 2026),
+# a scanned PDF; its text was extracted with macOS Vision OCR (scripts/research/ocr_pdf.swift), so some
+# excerpts keep OCR spellings ("Jujay", "OlL", "offlake").
+# Not recorded (no named project or no location): see EXCLUDED.md and OPEN_QUESTIONS 15.
+layer: overseas
+
+sources:
+  ls-cms-29:
+    raw: sansad.in/18_Coal_Mines_and_Steel_29
+    title: "Standing Committee on Coal, Mines and Steel, 29th Report: KABIL: India's quest for Global Critical Minerals"
+    publisher: Lok Sabha Secretariat
+    tier: T1
+    date: "2026-08-12"
+  ls-usq-827-2026:
+    raw: sansad.in/AU827_sDdDFf-74598729
+    title: "Lok Sabha Unstarred Question 827: KABIL (Ministry of Mines)"
+    publisher: Lok Sabha Secretariat
+    tier: T1
+    date: "2026-02-04"
+  kabil-site:
+    raw: kabilindia.in/kabil-achievement
+    title: "New achievements/ventures of KABIL"
+    publisher: Khanij Bidesh India Ltd (KABIL)
+    tier: T2
+    date: null
+  riotimes-kabil-2026:
+    raw: riotimesonline.com/kabil-argentina-lithium-2030
+    title: "India's State Miner Pushes Argentine Lithium Back to 2030"
+    publisher: The Rio Times
+    tier: T3
+    date: "2026-08"
+  pvm-catamarca-2025:
+    raw: pv-magazine-india.com/index-d26d2170
+    title: "India and Argentina Strengthen Cooperation in Lithium Exploration and Mining with a MoU"
+    publisher: pv magazine India
+    tier: T3
+    date: "2025-02-20"
+  reuters-lohum-2026:
+    raw: kitco.com/lohum-ships-first-lithium-ore-zimbabwe-starts-overseas-mining
+    title: "Lohum ships first lithium ore from Zimbabwe, starts overseas mining"
+    publisher: Reuters (via Kitco)
+    tier: T3
+    date: "2026-09-09"
+  swarajya-lohum-2026:
+    raw: swarajyamag.com/news-brief-2Findian-critical-minerals-firm-lohum-starts-zimbabwe-mining-targets-30000-tonn
+    title: "Indian Critical Minerals Firm LOHUM Starts Zimbabwe Mining, Targets 30,000 Tonnes Lithium Carbonate"
+    publisher: Swarajya
+    tier: T3
+    date: "2026-09-09"
+  agenciaminas-altmin-2026:
+    raw: agenciaminas.mg.gov.br/governo-de-minas-consolida-avanco-na-cadeia-de-valor-do-litio-com-investimento-internacion
+    title: "Governo de Minas consolida avanço na cadeia de valor do lítio com investimento internacional de R$ 220 milhões"
+    publisher: Agência Minas (Government of Minas Gerais)
+    tier: T1
+    date: "2026-02-12"
+  ddc-cbl-2026:
+    raw: diariodocomercio.com.br/venda-cbl-refinaria-altmin
+    title: "Venda da CBL Refinaria para indiana Altmin pode ser cancelada"
+    publisher: Diário do Comércio (Belo Horizonte)
+    tier: T3
+    date: "2026-07-02"
+  lloyds-chemaf-2026:
+    raw: lloyds.in/20260330_Intimation_of_accquisition_of_Chemaf
+    title: "Lloyds Metals and Energy: completion of acquisition of the CHEMAF Group by Virtus Lloyds Minerals Holding (stock-exchange intimation)"
+    publisher: Lloyds Metals and Energy Ltd
+    tier: T2
+    date: "2026-03-30"
+  billionaires-kcm-2026:
+    raw: billionaires.africa/indian-billionaire-anil-agarwal-is-building-what-would-be-africas-largest-copper-smelter
+    title: "Indian billionaire Anil Agarwal is building what would be Africa's largest copper smelter"
+    publisher: Billionaires.Africa
+    tier: T3
+    date: "2026-09-23"
+  northernminer-coppertech:
+    raw: northernminer.com/1003884439
+    title: "Vedanta starts CopperTech Metals in US"
+    publisher: The Northern Miner
+    tier: T3
+    date: null
+  mining-kcm-2024:
+    raw: mining.com/vedanta-seeks-partners-to-develop-zambia-mines-its-regaining
+    title: "Vedanta seeks partners to develop Zambia mines it's regaining"
+    publisher: MINING.COM (Bloomberg)
+    tier: T3
+    date: "2024-07-24"
+  nc-commerce-epsilon-2023:
+    raw: commerce.nc.gov/governor-cooper-announces-500-jobs-global-battery-component-supplier-selects-brunswick-cou
+    title: "Governor Cooper Announces 500 Jobs as Global Battery Component Supplier Selects Brunswick County for First U.S. Plant"
+    publisher: North Carolina Department of Commerce
+    tier: T1
+    date: "2023-10-26"
+  alcircle-epsilon-2025:
+    raw: alcircle.com/al-circle-x-sunit-kapur-epsilons-us-facility-secures-sustainable-local-anode-supply-for-ev
+    title: "AL Circle x Sunit Kapur: Epsilon's US facility secures sustainable local anode supply for EV"
+    publisher: AlCircle
+    tier: T3
+    date: "2025-08-27"
+  evreporter-moosburg-2023:
+    raw: evreporter.com/epsilon-group-acquires-cathode-active-material-tech-center-in-germany
+    title: "Epsilon Group acquires cathode active material tech center in Germany"
+    publisher: EVreporter
+    tier: T3
+    date: "2023-10-04"
+  spg-moosburg-2024:
+    raw: autotechinsight.ihsmarkit.com/epsilon-advanced-materials-completes-acquisition-of-lfp-cathode-technology-center-in-germa
+    title: "Epsilon Advanced Materials completes acquisition of LFP cathode technology center in Germany"
+    publisher: S&P Global Mobility (AutoTechInsight)
+    tier: T3
+    date: "2024-02-06"
+  miningmx-zambia-2025:
+    raw: miningmx.com/61621-india-sends-geology-team-to-explore-zambian-minerals
+    title: "India sends geology team to explore Zambian minerals"
+    publisher: Miningmx (Reuters)
+    tier: T3
+    date: "2025-07-02"
+  miningmx-zambia-2026:
+    raw: miningmx.com/65074-india-zambia-critical-minerals-talks-stall-over-rights
+    title: "India-Zambia critical minerals talks stall over rights"
+    publisher: Miningmx (Reuters)
+    tier: T3
+    date: "2026-04-16"
+  smm-zambia-2025:
+    raw: news.metal.com/103405505
+    title: "India conducts cobalt and copper exploration in Zambia"
+    publisher: Shanghai Metals Market (SMM)
+    tier: T3
+    date: "2025-07-02"
+
+records:
+  # ---------------- KABIL and the PSU consortia ----------------
+  - id: kabil-catamarca-lithium-brine
+    name: "KABIL lithium brine blocks, Fiambalá, Catamarca"
+    aliases: ["Cortadera I, VI, VII, VIII and Cateo 2022-01810132"]
+    stages: [Exploration]
+    minerals: [Lithium]
+    commodity_as_stated: "brine type lithium"
+    operator: "Khanij Bidesh India Ltd (KABIL)"
+    operator_type: "PSU (Central)"
+    owners: [{entity: "Khanij Bidesh India Ltd (KABIL)", stake_pct: null}]
+    location: {village_or_town: "Fiambalá", district: "Tinogasta", state: "Catamarca", country: "Argentina", precision: town}
+    geo: {q: "Fiambalá", state: Catamarca, country: Argentina}
+    status: Approved
+    status_as_of: "2026-08-12"
+    status_detail: "Exploration rights since Jan 2024; drilling permit Apr 2026; first lithium targeted Dec 2030, slipped from Sept 2029"
+    investment: {amount: 200, currency: INR_crore, basis: "exploration pact, as reported"}
+    feedstock: Not applicable
+    dates: {first_public: "2024-01-15", approved: "2024-01-15", original_expected_completion: "2029-09", revised_expected_completion: "2030-12"}
+    milestones:
+      - {date: "2024-10", event: "Non-invasive exploration began", source_id: ls-cms-29}
+      - {date: "2025-07", event: "Non-invasive exploration completed", source_id: ls-cms-29}
+      - {date: "2026-04-09", event: "Environmental permit for drilling", source_id: ls-cms-29}
+    narrative:
+      what_it_does: "Holds exclusive rights to explore, and if lithium is proven, mine five brine blocks covering about 15,703 hectares near Fiambalá."
+      why_it_matters: "The only overseas lithium asset held by an Indian state company; production is now expected in December 2030."
+    overseas:
+      host_country: Argentina
+      host_region: Catamarca
+      indian_entities: ["Khanij Bidesh India Ltd (KABIL)"]
+      stake_pct: null
+      deal_type: Exploration rights
+      india_link: {city: "New Delhi", lat: 28.6139, lon: 77.209}
+    confidence: high
+    notes: "Rights granted by CAMYEN SE, Catamarca's state mining company. The ministry gives the area as 15,702 ha (LS USQ 827) and 15,703 ha elsewhere."
+    sources:
+      - ref: kabil-site
+        supports: [status, dates.approved, dates.first_public, location, operator, minerals]
+        ev:
+          status: "KABIL has obtained Exploration and Exclusivity Right for 5 adjacent lithium brine blocks"
+          dates.approved: "(CAMYEN SE) on 15th January 2024"
+          location: "visited the Cortadera area, located near the Fiambala town of Fiambala district, of Catamarca Province"
+      - ref: ls-cms-29
+        supports: [status, status_detail, dates.original_expected_completion, dates.revised_expected_completion, milestones]
+        ev:
+          status_detail: "for initiating Drilling or other invasive activities has been obtained on 09.04.2026."
+          dates.revised_expected_completion: "has slipped from September 2029 to December 2030"
+          milestones: "KABIL started non-invasive exploration activities including Geochemical and Geophysical surveys during October 2024. The same was completed by July 2025."
+      - ref: ls-usq-827-2026
+        supports: [status, location]
+        ev:
+          status: "obtained exclusivity rights for exploration, development and mining in 5 brine type lithium blocks"
+      - ref: riotimes-kabil-2026
+        supports: [investment]
+        ev:
+          investment: "The investment for this exploration pact is ₹2 billion, about US$21 million."
+
+  - id: kabil-catamarca-additional-blocks
+    name: "Seven further lithium brine blocks offered to KABIL, Catamarca"
+    stages: [Exploration]
+    minerals: [Lithium]
+    commodity_as_stated: "greenfield brine-type lithium blocks"
+    operator: "Khanij Bidesh India Ltd (KABIL)"
+    operator_type: "PSU (Central)"
+    location: {state: "Catamarca", country: "Argentina", precision: state}
+    geo: {q: "Catamarca", country: Argentina}
+    status: Under evaluation
+    status_as_of: "2026-08-12"
+    status_detail: "Offered under the existing CAMYEN agreement; KABIL is reviewing preliminary data"
+    feedstock: Not applicable
+    dates: {first_public: "2026-08-12"}
+    narrative:
+      what_it_does: "Seven greenfield brine blocks Catamarca has offered KABIL on top of its first five."
+    related: [kabil-catamarca-lithium-brine]
+    overseas:
+      host_country: Argentina
+      host_region: Catamarca
+      indian_entities: ["Khanij Bidesh India Ltd (KABIL)"]
+      stake_pct: null
+      deal_type: Evaluation
+      india_link: {city: "New Delhi", lat: 28.6139, lon: 77.209}
+    confidence: high
+    notes: "Block names and sites not published; point is the province centroid."
+    sources:
+      - ref: ls-cms-29
+        supports: [status, status_detail, operator, minerals, dates.first_public]
+        ev:
+          status: ["The Government of Catamarca has offered seven additional greenfield brine- type lithium blocks in Catamarca Province under the existing agreement", "KABIL is evaluating the preliminary information received from the CAMYEN."]
+
+  - id: kabil-jujuy-lithium
+    name: "KABIL lithium brine talks, Jujuy"
+    stages: [Exploration]
+    minerals: [Lithium]
+    operator: "Khanij Bidesh India Ltd (KABIL)"
+    operator_type: "PSU (Central)"
+    location: {state: "Jujuy", country: "Argentina", precision: state}
+    geo: {q: "Jujuy", country: Argentina}
+    status: Under evaluation
+    status_as_of: "2026-08-12"
+    status_detail: "Talks with JEMSE, Jujuy's state company, for greenfield or brownfield brine projects"
+    feedstock: Not applicable
+    dates: {first_public: "2026-08-12"}
+    narrative:
+      what_it_does: "KABIL is negotiating for lithium brine projects in Jujuy under an MoU with the province's state company."
+    overseas:
+      host_country: Argentina
+      host_region: Jujuy
+      indian_entities: ["Khanij Bidesh India Ltd (KABIL)"]
+      stake_pct: null
+      deal_type: Evaluation
+      india_link: {city: "New Delhi", lat: 28.6139, lon: 77.209}
+    confidence: medium
+    notes: "No project named; point is the province centroid."
+    sources:
+      - ref: ls-cms-29
+        supports: [status, status_detail, operator, minerals, dates.first_public]
+        ev:
+          status: "Discussions are also in progress for obtaining green field or brownfield brine type lithium projects in Jujay Province"
+
+  - id: kabil-oil-san-jorge-catamarca
+    name: "San Jorge lithium brine project (Greenwing), Catamarca: KABIL and Oil India evaluation"
+    stages: [Exploration]
+    minerals: [Lithium]
+    operator: "Khanij Bidesh India Ltd (KABIL) and Oil India Ltd"
+    operator_type: Consortium
+    location: {state: "Catamarca", country: "Argentina", precision: state}
+    geo: {q: "Catamarca", country: Argentina}
+    status: Under evaluation
+    status_as_of: "2026-08-12"
+    status_detail: "Exploration-stage project evaluated jointly by KABIL and Oil India"
+    feedstock: Not applicable
+    dates: {first_public: "2026-08-12"}
+    narrative:
+      what_it_does: "An exploration-stage lithium brine project owned by Greenwing that KABIL and Oil India are assessing for investment."
+    overseas:
+      host_country: Argentina
+      host_region: Catamarca
+      indian_entities: ["Khanij Bidesh India Ltd (KABIL)", "Oil India Ltd"]
+      stake_pct: null
+      deal_type: Evaluation
+      india_link: {city: "New Delhi", lat: 28.6139, lon: 77.209}
+    confidence: medium
+    notes: "Site within Catamarca not given in the source; point is the province centroid."
+    sources:
+      - ref: ls-cms-29
+        supports: [status, status_detail, operator, minerals, location, dates.first_public]
+        ev:
+          status: "San Jorge-Greenwing: An exploration stage Lithium Brine Project in Catamarca, Argentina, is being evaluated by KABIL & OIL jointly."
+
+  - id: kabil-iocl-rio-grande-salta
+    name: "Rio Grande lithium brine project (NOA), Salta: KABIL and IOCL evaluation"
+    stages: [Exploration]
+    minerals: [Lithium]
+    operator: "Khanij Bidesh India Ltd (KABIL) and Indian Oil Corporation Ltd"
+    operator_type: Consortium
+    location: {village_or_town: "Salar de Río Grande", district: "Los Andes", state: "Salta", country: "Argentina", precision: district}
+    geo: {q: "Salar de Río Grande", state: Salta, country: Argentina}
+    status: Under evaluation
+    status_as_of: "2026-08-12"
+    status_detail: "Advanced-exploration project evaluated jointly by KABIL and IOCL"
+    feedstock: Not applicable
+    dates: {first_public: "2026-08-12"}
+    narrative:
+      what_it_does: "An advanced-exploration lithium brine project in Salta that KABIL and Indian Oil are assessing for investment."
+    overseas:
+      host_country: Argentina
+      host_region: Salta
+      indian_entities: ["Khanij Bidesh India Ltd (KABIL)", "Indian Oil Corporation Ltd"]
+      stake_pct: null
+      deal_type: Evaluation
+      india_link: {city: "New Delhi", lat: 28.6139, lon: 77.209}
+    confidence: medium
+    notes: "Point is the Salar de Río Grande, named in the project title; project boundary not published."
+    sources:
+      - ref: ls-cms-29
+        supports: [status, status_detail, operator, minerals, location, dates.first_public]
+        ev:
+          status: "Rio Grande-NOA: An advanced exploration stage Lithium Brine Project in Salta, Argentina, is being evaluated by KABIL & IOCL jointly."
+
+  - id: psu-consortium-salta-lithium-bid
+    name: "Indian PSU consortium bid for a lithium brine project, Salta"
+    stages: [Mining]
+    minerals: [Lithium]
+    operator: "KABIL with Coal India, Oil India, ONGC Videsh, NLC India and BPRL"
+    operator_type: Consortium
+    location: {state: "Salta", country: "Argentina", precision: state}
+    geo: {q: "Salta", country: Argentina}
+    status: Bid lost
+    status_as_of: "2026-08-12"
+    status_detail: "Non-binding offer Jan 2026, revised Feb 2026, for 20% equity and offtake; not taken to the binding phase"
+    feedstock: Not applicable
+    dates: {first_public: "2026-08-12"}
+    narrative:
+      what_it_does: "Six Indian state companies bid together for a 20% stake and offtake in a Salta lithium brine project."
+      why_it_matters: "The seller did not shortlist the consortium for binding offers."
+    overseas:
+      host_country: Argentina
+      host_region: Salta
+      indian_entities: ["Khanij Bidesh India Ltd (KABIL)", "Coal India Ltd", "Oil India Ltd", "ONGC Videsh Ltd", "NLC India Ltd", "Bharat PetroResources Ltd"]
+      stake_pct: 20
+      deal_type: Bid
+      india_link: {city: "New Delhi", lat: 28.6139, lon: 77.209}
+    confidence: high
+    notes: "Project and seller not named in the report; point is the province centroid."
+    sources:
+      - ref: ls-cms-29
+        supports: [status, status_detail, operator, minerals, overseas.stake_pct, dates.first_public]
+        ev:
+          operator: "KABIL along with CIL, OIL, OVL, NLCIL, BPRL decided to jointly evaluate the investment opportunity received by KABIL"
+          overseas.stake_pct: "for obtaining 20% equity stake and offtake in a Lithium Brine project in Salta, Argentina"
+          status_detail: "KABIL and the consortium partners submitted NBO during January 2026."
+          status: "However, the offer of the consortium was not selected by the seller for the Binding Offer Phase."
+
+  - id: psu-consortium-mt-marion-bid
+    name: "Indian PSU consortium bid for Mt Marion lithium mine, Western Australia"
+    stages: [Mining]
+    minerals: [Lithium]
+    commodity_as_stated: "spodumene concentrate"
+    operator: "KABIL with Coal India, Oil India and ONGC Videsh"
+    operator_type: Consortium
+    location: {village_or_town: "Mount Marion", state: "Western Australia", country: "Australia", precision: town}
+    geo: {q: "Mount Marion", state: "Western Australia", country: Australia}
+    status: Bid lost
+    status_as_of: "2026-08-12"
+    status_detail: "Offers Dec 2024 and Sept 2025 lost to POSCO, which took 15% of Mt Marion and Wodgina"
+    feedstock: Not applicable
+    dates: {first_public: "2026-08-12"}
+    narrative:
+      what_it_does: "The consortium offered first USD 184 million, then AUD 325 million, for stakes in Mt Marion and Wodgina through Mineral Resources."
+      why_it_matters: "POSCO won with USD 765 million; the ministry cites overpricing and India's lack of a spodumene value chain."
+    related: [psu-consortium-wodgina-bid]
+    overseas:
+      host_country: Australia
+      host_region: Western Australia
+      indian_entities: ["Khanij Bidesh India Ltd (KABIL)", "Coal India Ltd", "Oil India Ltd", "ONGC Videsh Ltd"]
+      stake_pct: 20
+      deal_type: Bid
+      india_link: {city: "New Delhi", lat: 28.6139, lon: 77.209}
+    confidence: high
+    notes: "One sale process covered Mt Marion and Wodgina; stake_pct is the 20% of each mine sought in the revised offer."
+    sources:
+      - ref: ls-cms-29
+        supports: [status, status_detail, operator, minerals, location, overseas.stake_pct, narrative, dates.first_public]
+        ev:
+          status: "In one of the investment opportunities comprising two projects (Mt. Marion and Wodgina), the Indian consortium was not successful."
+          operator: "a NBO (Non- Binding Offer) was submitted on 17.12.2024 by the consortium of KABIL, Coal India Limited, OlL India Limited and ONGC Videsh Limited"
+          overseas.stake_pct: "a revised NBO was submitted on 27.09.2025, for obtaining 20% stakes in both the mines"
+          status_detail: "POSCO has taken 15% equity stakes in each of the Wodgina and Mt Marion mines for 765 million USD"
+
+  - id: psu-consortium-wodgina-bid
+    name: "Indian PSU consortium bid for Wodgina lithium mine, Western Australia"
+    stages: [Mining]
+    minerals: [Lithium]
+    commodity_as_stated: "spodumene concentrate"
+    operator: "KABIL with Coal India, Oil India and ONGC Videsh"
+    operator_type: Consortium
+    location: {village_or_town: "Wodgina", state: "Western Australia", country: "Australia", precision: site}
+    geo: {q: "Wodgina", state: "Western Australia", country: Australia}
+    status: Bid lost
+    status_as_of: "2026-08-12"
+    status_detail: "Offers Dec 2024 and Sept 2025 lost to POSCO, which took 15% of Mt Marion and Wodgina"
+    feedstock: Not applicable
+    dates: {first_public: "2026-08-12"}
+    narrative:
+      what_it_does: "Sold together with Mt Marion; the Indian consortium sought 20% of each mine."
+    related: [psu-consortium-mt-marion-bid]
+    overseas:
+      host_country: Australia
+      host_region: Western Australia
+      indian_entities: ["Khanij Bidesh India Ltd (KABIL)", "Coal India Ltd", "Oil India Ltd", "ONGC Videsh Ltd"]
+      stake_pct: 20
+      deal_type: Bid
+      india_link: {city: "New Delhi", lat: 28.6139, lon: 77.209}
+    confidence: high
+    notes: "Point is the Wodgina mine (geocoded by name)."
+    sources:
+      - ref: ls-cms-29
+        supports: [status, status_detail, operator, minerals, location, overseas.stake_pct, dates.first_public]
+        ev:
+          status: "In one of the investment opportunities comprising two projects (Mt. Marion and Wodgina), the Indian consortium was not successful."
+          operator: "a NBO (Non- Binding Offer) was submitted on 17.12.2024 by the consortium of KABIL, Coal India Limited, OlL India Limited and ONGC Videsh Limited"
+          overseas.stake_pct: "a revised NBO was submitted on 27.09.2025, for obtaining 20% stakes in both the mines"
+          status_detail: "POSCO has taken 15% equity stakes in each of the Wodgina and Mt Marion mines for 765 million USD"
+
+  - id: psu-consortium-mt-holland
+    name: "Mt Holland lithium project, Western Australia: Indian PSU evaluation"
+    stages: [Mining]
+    minerals: [Lithium]
+    operator: "KABIL with Oil India, Coal India and NLC India"
+    operator_type: Consortium
+    location: {village_or_town: "Mount Holland", state: "Western Australia", country: "Australia", precision: town}
+    geo: {q: "Mount Holland", state: "Western Australia", country: Australia}
+    status: Under evaluation
+    status_as_of: "2026-08-12"
+    status_detail: "Owner paused the sale in June 2025 and reopened it in Feb 2026; joint evaluation under way"
+    feedstock: Not applicable
+    dates: {first_public: "2026-08-12"}
+    narrative:
+      what_it_does: "KABIL and three state companies are evaluating a minority stake with offtake in the Mt Holland lithium mine."
+    related: [psu-consortium-andover]
+    overseas:
+      host_country: Australia
+      host_region: Western Australia
+      indian_entities: ["Khanij Bidesh India Ltd (KABIL)", "Oil India Ltd", "Coal India Ltd", "NLC India Ltd"]
+      stake_pct: null
+      deal_type: Evaluation
+      india_link: {city: "New Delhi", lat: 28.6139, lon: 77.209}
+    confidence: high
+    notes: "Offered together with Andover. Point is Mount Holland (geocoded by name)."
+    sources:
+      - ref: ls-cms-29
+        supports: [status, status_detail, operator, minerals, location, dates.first_public]
+        ev:
+          status_detail: "In another opportunity involving two projects (Mt Holland and Andover), project owner had placed the process on hold in June 2025, and reopened the same in February 2026."
+          status: "KABIL along with other PSUs like Oil India Limited, Coal India Limited and NLC India Limited, is presently undertaking a joint evaluation of the project for investment considerations."
+
+  - id: psu-consortium-andover
+    name: "Andover lithium project, Western Australia: Indian PSU evaluation"
+    stages: [Mining]
+    minerals: [Lithium]
+    operator: "KABIL with Oil India, Coal India and NLC India"
+    operator_type: Consortium
+    location: {village_or_town: "Andover", state: "Western Australia", country: "Australia", precision: site}
+    geo: {q: "Andover", state: "Western Australia", country: Australia}
+    status: Under evaluation
+    status_as_of: "2026-08-12"
+    status_detail: "Owner paused the sale in June 2025 and reopened it in Feb 2026; joint evaluation under way"
+    feedstock: Not applicable
+    dates: {first_public: "2026-08-12"}
+    narrative:
+      what_it_does: "KABIL and three state companies are evaluating a minority stake with offtake in the Andover lithium project."
+    related: [psu-consortium-mt-holland]
+    overseas:
+      host_country: Australia
+      host_region: Western Australia
+      indian_entities: ["Khanij Bidesh India Ltd (KABIL)", "Oil India Ltd", "Coal India Ltd", "NLC India Ltd"]
+      stake_pct: null
+      deal_type: Evaluation
+      india_link: {city: "New Delhi", lat: 28.6139, lon: 77.209}
+    confidence: high
+    notes: "Offered together with Mt Holland. Point is the Andover mine (geocoded by name)."
+    sources:
+      - ref: ls-cms-29
+        supports: [status, status_detail, operator, minerals, location, dates.first_public]
+        ev:
+          status_detail: "In another opportunity involving two projects (Mt Holland and Andover), project owner had placed the process on hold in June 2025, and reopened the same in February 2026."
+          status: "KABIL along with other PSUs like Oil India Limited, Coal India Limited and NLC India Limited, is presently undertaking a joint evaluation of the project for investment considerations."
+
+  - id: kabil-lai-chau-ree
+    name: "Trident Zoetics rare earth projects, Lai Chau: KABIL stake and offtake"
+    stages: [Mining]
+    minerals: ["Rare earths (unspecified)"]
+    operator: "Khanij Bidesh India Ltd (KABIL)"
+    operator_type: "PSU (Central)"
+    location: {state: "Lai Chau", country: "Vietnam", precision: state}
+    geo: {q: "Lai Chau", country: Vietnam}
+    status: Withdrawn
+    status_as_of: "2026-08-12"
+    status_detail: "Seller withdrew a 5% stake and offtake offer before due diligence finished"
+    feedstock: Not applicable
+    dates: {first_public: "2026-08-12"}
+    narrative:
+      what_it_does: "KABIL was negotiating a 5% stake and offtake rights in Trident Zoetics' rare earth projects."
+      why_it_matters: "One of only two rare earth opportunities KABIL has pursued abroad."
+    overseas:
+      host_country: Vietnam
+      host_region: Lai Chau
+      indian_entities: ["Khanij Bidesh India Ltd (KABIL)"]
+      stake_pct: 5
+      deal_type: Offtake+equity
+      india_link: {city: "New Delhi", lat: 28.6139, lon: 77.209}
+    confidence: high
+    notes: "Project sites within Lai Chau not given; point is the province centroid. The other REE opportunity (Brazil) is unnamed."
+    sources:
+      - ref: ls-cms-29
+        supports: [status, status_detail, operator, minerals, location, overseas.stake_pct, narrative, dates.first_public]
+        ev:
+          status: "Vietnam opportunity involving a 5 per cent stake and offtake rights in Trident Zoetics' projects in Lai Chau province was withdrawn by the seller before due diligence could be completed"
+          narrative: "of only two REE projects so far (in Vietnam and Brazil)"
+
+  # ---------------- Government exploration area ----------------
+  - id: india-zambia-exploration-area
+    name: "India's copper-cobalt exploration area, North-Western Province, Zambia"
+    stages: [Exploration]
+    minerals: [Cobalt, Copper]
+    operator: "Government of India (Ministry of Mines)"
+    operator_type: "Government / Ministry"
+    location: {state: "North-Western Province", country: "Zambia", precision: state}
+    geo: {q: "North-Western Province", country: Zambia}
+    status: Under evaluation
+    status_as_of: "2026-04-16"
+    status_detail: "9,000 sq km allotted in 2025; geologists returned with samples; talks on mining rights stalled"
+    feedstock: Not applicable
+    dates: {first_public: "2025-07-02"}
+    narrative:
+      what_it_does: "Zambia allotted India about 9,000 sq km to explore for cobalt and copper over three years."
+      why_it_matters: "India planned to seek a mining lease afterwards, but Zambia has not given assurances on mining rights."
+    overseas:
+      host_country: Zambia
+      host_region: North-Western Province
+      indian_entities: ["Government of India (Ministry of Mines)"]
+      stake_pct: null
+      deal_type: Exploration rights
+      india_link: {city: "New Delhi", lat: 28.6139, lon: 77.209}
+    confidence: medium
+    notes: "Exact area not published; point is the province centroid. Status rests on press reports citing unnamed officials; no official statement found."
+    sources:
+      - ref: miningmx-zambia-2025
+        supports: [status, minerals, dates.first_public, narrative]
+        ev:
+          status: "Zambia has agreed to provide India with access to 9,000 square kilometres (3,475 square miles) this year for cobalt exploration"
+          narrative: "India’s government intends to apply for a mining lease from Zambian authorities and may bring in private sector partners."
+      - ref: smm-zambia-2025
+        supports: [location, operator]
+        ev:
+          location: "The Indian government has acquired an undeveloped plot of land in the north-west provinces of Zambia, with plans to prospect for copper and cobalt there."
+      - ref: miningmx-zambia-2026
+        supports: [status, status_detail]
+        ev:
+          status_detail: ["India received an allocation of 9,000 square kilometres in Zambia last year to explore for cobalt and copper", "efforts to secure critical minerals from Zambia have stalled after Lusaka withheld assurances over mining rights"]
+
+  # ---------------- Private Indian companies ----------------
+  - id: greenko-catamarca-lithium
+    name: "Greenko lithium exploration blocks, Catamarca"
+    stages: [Exploration]
+    minerals: [Lithium]
+    operator: "Greenko"
+    operator_type: "Unlisted private"
+    location: {state: "Catamarca", country: "Argentina", precision: state}
+    geo: {q: "Catamarca", country: Argentina}
+    status: Approved
+    status_as_of: "2026-08-12"
+    status_detail: "Exploring two lithium blocks"
+    feedstock: Not applicable
+    dates: {first_public: "2025-02-20"}
+    narrative:
+      what_it_does: "Greenko, an Indian renewable energy company, is exploring two lithium blocks in Argentina."
+    overseas:
+      host_country: Argentina
+      host_region: Catamarca
+      indian_entities: ["Greenko"]
+      stake_pct: null
+      deal_type: Exploration rights
+      india_link: {city: "Hyderabad", lat: 17.385, lon: 78.4867}
+    confidence: medium
+    notes: "Block names and stake not published. The ministry places Greenko's work in Catamarca; point is the province centroid."
+    sources:
+      - ref: ls-cms-29
+        supports: [status, status_detail, operator, minerals]
+        ev:
+          status: "Greenko- Energy Transition and Decarbonization Solution Company is taking up exploration activities in two lithium blocks in Argentina."
+      - ref: pvm-catamarca-2025
+        supports: [location, dates.first_public]
+        ev:
+          location: "& Greenko in Catamarca and the possibilities of increasing participation of Indian companies in mining projects of Argentina."
+
+  - id: lohum-matabeleland-lithium
+    name: "LOHUM spodumene blocks, Matabeleland South"
+    stages: [Mining]
+    minerals: [Lithium]
+    commodity_as_stated: "spodumene ore"
+    products: ["Spodumene ore"]
+    operator: "LOHUM"
+    operator_type: "Unlisted private"
+    location: {state: "Matabeleland South", country: "Zimbabwe", precision: state}
+    geo: {q: "Matabeleland South", country: Zimbabwe}
+    status: Operational
+    status_as_of: "2026-09-09"
+    status_detail: "Mining began on 10 blocks; first ore dispatched Sept 2026; option on 90 more blocks"
+    capacity:
+      planned: {value: 30000, unit: "t/yr", basis: "lithium carbonate from this ore, refined in India, within 2-3 years", phase: null}
+    feedstock: Not applicable
+    dates: {first_public: "2026-08-12", commissioned: "2026-09"}
+    narrative:
+      what_it_does: "Mines spodumene ore from 10 blocks covering about 1,100 hectares; the ore is to be refined into lithium carbonate at an Indian plant."
+      why_it_matters: "The first Indian company to produce lithium from an overseas asset."
+    overseas:
+      host_country: Zimbabwe
+      host_region: Matabeleland South
+      indian_entities: ["LOHUM"]
+      stake_pct: null
+      deal_type: Equity
+      india_link: {city: "Noida", lat: 28.5355, lon: 77.391}
+    confidence: high
+    notes: "Mine sites within the province not published; point is the province centroid. The Indian refinery site is undisclosed."
+    sources:
+      - ref: reuters-lohum-2026
+        supports: [status, location, minerals, dates.commissioned, narrative]
+        ev:
+          status: "Lohum said on Wednesday it had dispatched its first shipment of lithium ore from Zimbabwe, marking the start of its mining operations"
+          location: "has secured rights to 10 lithium mining blocks in Zimbabwe’s Matabeleland South Province covering about 1,100 hectares"
+          narrative: "making it the first domestic company to produce lithium from overseas assets"
+      - ref: swarajya-lohum-2026
+        supports: [status, capacity.planned, status_detail]
+        ev:
+          status: "Mining has begun on 10 spodumene-bearing blocks covering roughly 1,100 hectares."
+          capacity.planned: "aims to produce about 30,000 tonnes of lithium carbonate annually from its newly acquired Zimbabwe assets within two to three years"
+          status_detail: "The firm holds preferred rights over 90 additional blocks."
+      - ref: ls-cms-29
+        supports: [operator, dates.first_public]
+        ev:
+          operator: "Lohum has secured 10 lithium blocks with area of 1100 hectares in Zimbabwe."
+
+  - id: altmin-cbl-divisa-alegre
+    name: "Altmin stake in CBL lithium refinery, Divisa Alegre"
+    stages: [Refining]
+    minerals: [Lithium]
+    commodity_as_stated: "battery-grade lithium carbonate"
+    products: ["Lithium carbonate", "Lithium hydroxide"]
+    operator: "Companhia Brasileira de Lítio (CBL)"
+    operator_type: "Foreign MNC"
+    owners:
+      - {entity: "Altmin Pvt. Ltd.", stake_pct: 33}
+    location: {village_or_town: "Divisa Alegre", state: "Minas Gerais", country: "Brazil", precision: town}
+    geo: {q: "Divisa Alegre", state: "Minas Gerais", country: Brazil}
+    status: Announced
+    status_as_of: "2026-07-02"
+    status_detail: "33% stake for USD 40 million announced Feb 2026; in Jul 2026 CBL said the sale was close to cancellation and the expansion was suspended"
+    capacity:
+      installed: {value: 2000, unit: "t/yr", basis: "lithium carbonate and hydroxide"}
+      planned: {value: 6000, unit: "t/yr", basis: "after expansion funded by the stake", phase: null}
+    investment: {amount: 40, currency: USD_million, basis: "price for a 33% stake in the refinery"}
+    feedstock: Domestic ore
+    feedstock_detail: "Spodumene from CBL's own mine in the Jequitinhonha valley"
+    dates: {first_public: "2026-02-12", announced: "2026-02-12"}
+    narrative:
+      what_it_does: "Altmin agreed to buy a third of CBL's lithium refinery to fund its expansion from 2,000 to 6,000 tonnes a year."
+      why_it_matters: "The deal included a 15-year offtake for Altmin; it is now in doubt over lithium carbonate pricing."
+    related: [altmin-sccl-lithium-refinery]
+    overseas:
+      host_country: Brazil
+      host_region: Minas Gerais
+      indian_entities: ["Altmin Pvt. Ltd."]
+      stake_pct: 33
+      deal_type: Equity
+      india_link: {city: "Hyderabad", lat: 17.385, lon: 78.4867}
+    confidence: medium
+    notes: "The Ministry of Mines told Parliament (report of Aug 2026) that Altmin has acquired a 30% stake; Minas Gerais and CBL give 33% and, as of Jul 2026, an unfinished sale (OPEN_QUESTIONS 15)."
+    sources:
+      - ref: agenciaminas-altmin-2026
+        supports: [status, dates.first_public, dates.announced, location, owners, overseas.stake_pct, investment, capacity.installed, capacity.planned, operator, minerals]
+        ev:
+          owners: "Este aporte representa a compra de 33% da CBL no que diz respeito à sua planta de refinaria, localizada em Divisa Alegre, no Norte de Minas"
+          investment: "investimento de US$ 40 milhões (cerca de R$ 220 milhões) da empresa indiana Altmin na Companhia Brasileira de Lítio (CBL)"
+          capacity.planned: "expansão da capacidade produtiva da refinaria de 2 mil toneladas anuais para 6 mil t/a"
+      - ref: ddc-cbl-2026
+        supports: [status_detail, feedstock_detail, narrative]
+        ev:
+          status_detail: ["A venda de 33% da CBL Refinaria, braço de refino da Companhia Brasileira de Lítio (CBL), por US$ 40 milhões para a indiana Altmin está próxima de ser cancelada.", "fica suspenso o projeto de expansão da planta química, localizada em Divisa Alegre"]
+          feedstock_detail: "a CBL já deu início ao projeto de ampliação da unidade de mineração, localizada entre Itinga e Araçuaí, no Vale do Jequitinhonha"
+      - ref: ls-cms-29
+        supports: [notes]
+        ev:
+          notes: "Altmin has acquired 30% stake in a lithium refinery unit in Brazil."
+
+  - id: lloyds-chemaf-etoile
+    name: "Chemaf Etoile copper-cobalt plant, Lubumbashi"
+    stages: [Mining, Refining]
+    minerals: [Cobalt, Copper]
+    products: ["Copper cathode", "Cobalt"]
+    operator: "Chemaf SA"
+    operator_type: "Foreign MNC"
+    owners:
+      - {entity: "Virtus Lloyds Minerals Holding (Lloyds Global Resources FZCO 49%, Virtus Minerals Group 51%)", stake_pct: 100}
+    location: {village_or_town: "L'Étoile", district: "Lubumbashi", state: "Haut-Katanga", country: "Democratic Republic of the Congo", precision: town}
+    geo: {q: "Étoile", state: "Haut-Katanga", country: "Democratic Republic of the Congo"}
+    status: Operational
+    status_as_of: "2026-03-30"
+    status_detail: "Acquisition completed Mar 2026; plant operating"
+    capacity:
+      installed: {value: 4000, unit: "t/yr", basis: "cobalt (also 20,000 t/yr copper cathode)"}
+    investment: {amount: 30, currency: USD_million, basis: "price for 100% of the Chemaf group"}
+    feedstock: Domestic ore
+    dates: {first_public: "2026-03-30", announced: "2026-03-30"}
+    narrative:
+      what_it_does: "Processes copper-cobalt ore into 20,000 tonnes of copper cathode and 4,000 tonnes of cobalt a year."
+      why_it_matters: "Lloyds Metals holds 49% of the buyer, making this the largest cobalt producer with Indian ownership."
+    related: [lloyds-chemaf-mutoshi]
+    overseas:
+      host_country: "Democratic Republic of the Congo"
+      host_region: Haut-Katanga
+      indian_entities: ["Lloyds Metals and Energy Ltd (via Lloyds Global Resources FZCO)"]
+      stake_pct: 49
+      deal_type: Equity
+      india_link: {city: "Mumbai", lat: 19.076, lon: 72.8777}
+    confidence: high
+    notes: "Indian stake is indirect: Lloyds holds 49% of Virtus Lloyds Minerals Holding, which owns all of Chemaf. Point is L'Étoile, Lubumbashi (geocoded by plant name)."
+    sources:
+      - ref: lloyds-chemaf-2026
+        supports: [status, capacity.installed, owners, overseas.stake_pct, investment, location, operator, minerals, dates.first_public, dates.announced]
+        ev:
+          status: ["VLMH has completed the acquisition 100% equity stake of the CHEMAF Group Limited", "Key assets: Etoile processing facility (operating),"]
+          capacity.installed: "Current capacity: 20,000 TPA Copper Cathodes and 4,000 TPA Cobalt."
+          overseas.stake_pct: "VLMH is a joint venture between LGRF (holding 49% equity) and Virtus Minerals Group, USA (holding 51% equity)."
+          investment: "Cost of Acquisition shall be up to USD 30 Million"
+      - ref: ls-cms-29
+        supports: [status]
+        ev:
+          status: "Virtus Lloyds Minerals Holding (VLMH), completed the acquisition of the Chemaf Group in the DRC in March 2026, with capacity of 4KTPA for Cobalt."
+
+  - id: lloyds-chemaf-mutoshi
+    name: "Chemaf Mutoshi copper-cobalt project, Lualaba"
+    stages: [Mining, Refining]
+    minerals: [Cobalt, Copper]
+    operator: "Chemaf SA"
+    operator_type: "Foreign MNC"
+    owners:
+      - {entity: "Virtus Lloyds Minerals Holding (Lloyds Global Resources FZCO 49%, Virtus Minerals Group 51%)", stake_pct: 100}
+    location: {village_or_town: "Mutoshi", state: "Lualaba", country: "Democratic Republic of the Congo", precision: town}
+    geo: {q: "Mutoshi", country: "Democratic Republic of the Congo"}
+    status: Under construction
+    status_as_of: "2026-03-30"
+    status_detail: "Mine and plant at an advanced stage of completion"
+    capacity:
+      planned: {value: 16000, unit: "t/yr", basis: "cobalt (also 50,000 t/yr copper)", phase: null}
+    feedstock: Domestic ore
+    dates: {first_public: "2026-03-30"}
+    narrative:
+      what_it_does: "A mine and processing plant being built to produce 50,000 tonnes of copper and 16,000 tonnes of cobalt a year."
+    related: [lloyds-chemaf-etoile]
+    overseas:
+      host_country: "Democratic Republic of the Congo"
+      host_region: Lualaba
+      indian_entities: ["Lloyds Metals and Energy Ltd (via Lloyds Global Resources FZCO)"]
+      stake_pct: 49
+      deal_type: Equity
+      india_link: {city: "Mumbai", lat: 19.076, lon: 72.8777}
+    confidence: high
+    notes: "Indian stake is indirect (49% of the holding company). Point is the Mutoshi locality, geocoded by name."
+    sources:
+      - ref: lloyds-chemaf-2026
+        supports: [status, capacity.planned, owners, overseas.stake_pct, location, operator, minerals, dates.first_public]
+        ev:
+          location: "the Mutoshi mine development project in the Katanga Copper Belt, DRC."
+          status: "Expansion project (advanced stage of completion): 50,000 TPA Copper and 16,000 TPA Cobalt."
+          overseas.stake_pct: "VLMH is a joint venture between LGRF (holding 49% equity) and Virtus Minerals Group, USA (holding 51% equity)."
+
+  - id: vedanta-kcm-chingola
+    name: "Konkola Copper Mines (KCM), Chingola"
+    aliases: ["KCM", "Nchanga"]
+    stages: [Mining, Refining]
+    minerals: [Copper, Cobalt]
+    operator: "Konkola Copper Mines plc"
+    operator_type: "Foreign MNC"
+    owners:
+      - {entity: "Vedanta Resources (via CopperTech Metals)", stake_pct: 79.4}
+      - {entity: "ZCCM Investments Holdings", stake_pct: 20.6}
+    location: {village_or_town: "Chingola", district: "Chingola", state: "Copperbelt", country: "Zambia", precision: town}
+    geo: {q: "Chingola", country: Zambia}
+    status: Operational
+    status_as_of: "2026-09-23"
+    status_detail: "Nchanga smelter restarted Sept 2026 after a 106-day shutdown; a new 70,000 t/yr smelter is planned"
+    capacity:
+      planned: {value: 6000, unit: "t/yr", basis: "cobalt target (also 300,000 t/yr copper)", phase: null}
+    feedstock: Domestic ore
+    dates: {first_public: "2024-07-24"}
+    narrative:
+      what_it_does: "Underground and open-pit copper mines with smelting at Nchanga; cobalt is a by-product."
+      why_it_matters: "Vedanta regained control in 2024 after Zambia's 2019 liquidation and plans to lift cobalt output to 6,000 tonnes a year."
+    overseas:
+      host_country: Zambia
+      host_region: Copperbelt
+      indian_entities: ["Vedanta Resources"]
+      stake_pct: 79.4
+      deal_type: Equity
+      india_link: {city: "Mumbai", lat: 19.076, lon: 72.8777}
+    confidence: high
+    notes: "Vedanta Resources is London-registered and controlled by Anil Agarwal; it is the parent of Vedanta Ltd (Mumbai). Point is Chingola, home of the Nchanga plant; the Konkola mine is at Chililabombwe."
+    sources:
+      - ref: billionaires-kcm-2026
+        supports: [status, status_detail, owners, overseas.stake_pct, location, capacity.planned, operator, minerals, narrative]
+        ev:
+          status: "The Nchanga plant at Chingola, in the Copperbelt province near the border with the Democratic Republic of Congo, cast its first anode after a 106-day shutdown"
+          owners: "His London-registered Vedanta Resources holds 79.4% of Konkola through a subsidiary called CopperTech Metals"
+          capacity.planned: "Vedanta has said it wants Konkola producing 300,000 tonnes of copper and 6,000 tonnes of cobalt a year"
+          narrative: "Vedanta regained control in 2024 after agreeing a court-approved plan and paying about $246 million to creditors."
+      - ref: northernminer-coppertech
+        supports: [status]
+        ev:
+          status: "one of the world's highest-grade producing assets at 2.4% copper"
+      - ref: mining-kcm-2024
+        supports: [dates.first_public, minerals]
+        ev:
+          minerals: "Enhancing cobalt production to increase output to 6,000 tons per year"
+
+  - id: epsilon-brunswick-anode
+    name: "Epsilon Advanced Materials graphite anode plant, Brunswick County"
+    stages: [Materials]
+    minerals: [Graphite]
+    commodity_as_stated: "synthetic graphite anode material"
+    products: ["Graphite anode material"]
+    operator: "Epsilon Advanced Materials Inc."
+    operator_type: "Unlisted private"
+    location: {address: "Mid-Atlantic Rail Industrial Park", district: "Brunswick County", state: "North Carolina", country: "United States", precision: district}
+    geo: {q: "Brunswick County", state: "North Carolina", country: "United States"}
+    status: Approved
+    status_as_of: "2025-08-27"
+    status_detail: "State grant approved 2023; main permits including air permit secured; ground-breaking expected Q1 2026"
+    capacity:
+      planned: {value: 30000, unit: "t/yr", basis: "graphite anode, first phase", phase: "2027"}
+    investment: {amount: 649.9, currency: USD_million, basis: "announced"}
+    feedstock: Unknown
+    dates: {first_public: "2023-10-26", approved: "2023-10-26", original_expected_completion: "2027"}
+    narrative:
+      what_it_does: "A planned synthetic graphite anode plant at the Mid-Atlantic Rail Industrial Park."
+      why_it_matters: "Epsilon's first plant outside India, aimed at US carmakers seeking non-Chinese anode supply."
+    overseas:
+      host_country: United States
+      host_region: North Carolina
+      indian_entities: ["Epsilon Carbon Pvt. Ltd."]
+      stake_pct: 100
+      deal_type: Processing plant abroad
+      india_link: {city: "Mumbai", lat: 19.076, lon: 72.8777}
+    confidence: medium
+    notes: "No report of ground-breaking found after Aug 2025. Point is the Brunswick County centroid; the industrial park is not geocoded."
+    sources:
+      - ref: nc-commerce-epsilon-2023
+        supports: [status, dates.approved, dates.first_public, investment, location, operator, minerals, overseas.stake_pct]
+        ev:
+          status: "facilitated, in part, by a Job Development Investment Grant (JDIG) approved by the state’s Economic Investment Committee earlier today"
+          investment: "The Indian-based company will invest $649.9 million at the Mid-Atlantic Rail Industrial Park."
+          overseas.stake_pct: "a subsidiary of Mumbai-based Epsilon Carbon Private Limited"
+      - ref: alcircle-epsilon-2025
+        supports: [status_detail, capacity.planned, dates.original_expected_completion, narrative]
+        ev:
+          status_detail: ["we’ve secured all major pre-construction permits, including the Air Permit", "We expect to break ground in Q1 2026."]
+          capacity.planned: "Your plant in North Carolina is expected to produce 30,000 TPA of graphite anode by 2027."
+
+  - id: epsilon-moosburg-lfp
+    name: "Epsilon LFP cathode technology centre, Moosburg"
+    stages: [R&D, Materials]
+    minerals: [Lithium, Phosphorus]
+    commodity_as_stated: "lithium iron phosphate (LFP) cathode active material"
+    operator: "Epsilon Advanced Materials"
+    operator_type: "Unlisted private"
+    location: {village_or_town: "Moosburg an der Isar", state: "Bavaria", country: "Germany", precision: town}
+    geo: {q: "Moosburg an der Isar", state: Bavaria, country: Germany}
+    status: Pilot
+    status_as_of: "2024-02-06"
+    status_detail: "Bought from Johnson Matthey, completed Feb 2024; includes a customer qualification plant"
+    feedstock: Not applicable
+    dates: {first_public: "2023-10-04", announced: "2023-10-04"}
+    narrative:
+      what_it_does: "An LFP cathode research centre with a qualification line for testing materials at scale."
+      why_it_matters: "Gives Epsilon proven LFP cathode technology for its plants in India."
+    overseas:
+      host_country: Germany
+      host_region: Bavaria
+      indian_entities: ["Epsilon Carbon Pvt. Ltd."]
+      stake_pct: 100
+      deal_type: Equity
+      india_link: {city: "Mumbai", lat: 19.076, lon: 72.8777}
+    confidence: medium
+    notes: "Purchase price undisclosed."
+    sources:
+      - ref: evreporter-moosburg-2023
+        supports: [status, dates.first_public, dates.announced, location, minerals]
+        ev:
+          status: "It also includes a versatile customer qualification plant designed for testing new materials for large-scale production"
+          location: "lithium-ion phosphate (LFP) cathode active material technology centre in Moosburg, Germany"
+      - ref: spg-moosburg-2024
+        supports: [status_detail, operator, overseas.stake_pct]
+        ev:
+          status_detail: "has finalized the acquisition of Johnson Matthey’s lithium-ion phosphate (LFP) cathode active material technology center in Moosburg, Germany, it announced on February 2."
