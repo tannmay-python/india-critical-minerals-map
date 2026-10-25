@@ -1,0 +1,57 @@
+# L4 addendum: IREL-UKTMP titanium slag JV (found during L8; a domestic plant, so it belongs in L4).
+# Expanded by scripts/research/build_entities.py into l4-addendum.yml + .evidence.jsonl.
+layer: processing
+
+sources:
+  irel-ar-2024-25:
+    raw: irel.co.in/irel-ar-2024-25
+    title: "IREL (India) Limited Annual Report 2024-25"
+    publisher: IREL (India) Limited
+    tier: T2
+    date: "2025"
+  orissapost-ireuk-2024:
+    raw: orissapost.com/amp
+    title: "India, Kazakhstan to form JV firm to strengthen titanium supply chain; expected to create jobs in Odisha"
+    publisher: OrissaPOST
+    tier: T3
+    date: "2024-11-05"
+
+records:
+  - id: ireuk-titanium-slag-odisha
+    name: "IREUK Titanium slag plant (IREL-UKTMP), Odisha"
+    stages: [Refining]
+    minerals: [Titanium]
+    commodity_as_stated: "titanium slag from ilmenite"
+    products: ["Titanium slag"]
+    operator: "IREUK Titanium Ltd (IREL with UKTMP JSC, Kazakhstan)"
+    operator_type: JV
+    owners:
+      - {entity: "IREL (India) Limited", stake_pct: 51}
+      - {entity: "UKTMP JSC (Kazakhstan)", stake_pct: null}
+    partners: [{name: "UKTMP JSC", country: "Kazakhstan", role: technology}, {name: "UKTMP JSC", country: "Kazakhstan", role: offtake}]
+    location: {state: "Odisha", precision: state}
+    geo: {state_centroid: true, state: Odisha}
+    status: MoU signed
+    status_as_of: "2025-08-05"
+    status_detail: "JV agreement Nov 2024; company incorporated Aug 2025; plant site not announced"
+    feedstock: Domestic ore
+    feedstock_detail: "Surplus ilmenite from IREL's Odisha operations"
+    dates: {first_public: "2024-11-05", mou: "2024-11-04"}
+    narrative:
+      what_it_does: "A planned plant to upgrade IREL's surplus Odisha ilmenite into titanium slag, with Kazakhstan's UKTMP supplying the technology."
+      why_it_matters: "UKTMP will take part of the slag for its titanium sponge plant."
+    related: [irel-oscom-mine]
+    confidence: high
+    notes: "Site within Odisha not published; point is the state centroid (OPEN_QUESTIONS 12). The company is registered in Maharashtra; the plant is to use Odisha ilmenite."
+    sources:
+      - ref: irel-ar-2024-25
+        supports: [status, status_detail, dates.mou, owners, operator]
+        ev:
+          dates.mou: "signed on 04th November 2024 for setting up of Titanium"
+          status_detail: ["that a joint venture subsidiary company, IREUK", "Titanium Limited, has been incorporated in the State of", "Maharashtra on 05.08.2025. This joint venture consists"]
+          owners: "IREL subscribing to 51% share in the total shareholding."
+      - ref: orissapost-ireuk-2024
+        supports: [location, feedstock_detail, partners, minerals, dates.first_public, narrative]
+        ev:
+          feedstock_detail: "establishing a plant in the titanium value chain for producing Titanium Slag by utilizing IREL’s Ilmenite from Odisha."
+          partners: "UKTMP JSC will provide the technology of producing Ti Slag and will take the agreed quantities for an input in their Ti sponge plant."

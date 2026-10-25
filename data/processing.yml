@@ -2112,6 +2112,115 @@
   stages:
   - Refining
   minerals:
+  - Titanium
+  commodity_as_stated: titanium slag from ilmenite
+  products:
+  - Titanium slag
+  operator: IREUK Titanium Ltd (IREL with UKTMP JSC, Kazakhstan)
+  operator_type: JV
+  owners:
+  - entity: IREL (India) Limited
+    stake_pct: 51
+  - entity: UKTMP JSC (Kazakhstan)
+    stake_pct: null
+  partners:
+  - name: UKTMP JSC
+    country: Kazakhstan
+    role: technology
+  - name: UKTMP JSC
+    country: Kazakhstan
+    role: offtake
+  location:
+    address: null
+    village_or_town: null
+    district: null
+    state: Odisha
+    country: India
+    lat: 20.51277
+    lon: 84.42653
+    precision: state
+    geometry: null
+  status: MoU signed
+  status_as_of: '2025-08-05'
+  status_detail: JV agreement Nov 2024; company incorporated Aug 2025; plant site not announced
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: Domestic ore
+  feedstock_detail: "Surplus ilmenite from IREL's Odisha operations"
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2024-11-05'
+    announced: null
+    mou: '2024-11-04'
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: "A planned plant to upgrade IREL's surplus Odisha ilmenite into titanium slag, with Kazakhstan's\
+      \ UKTMP supplying the technology."
+    why_it_matters: UKTMP will take part of the slag for its titanium sponge plant.
+  related:
+  - irel-oscom-mine
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-25'
+  notes: Site within Odisha not published; point is the state centroid (OPEN_QUESTIONS 12). The company is registered
+    in Maharashtra; the plant is to use Odisha ilmenite.
+  id: ireuk-titanium-slag-odisha
+  name: IREUK Titanium slag plant (IREL-UKTMP), Odisha
+  sources:
+  - id: irel-ar-2024-25
+    url: "https://www.irel.co.in/documents/20126/114997/Annual+Report+2024-25+IREL+%281%29.pdf/cb3382a3-24fa-c697-4a7c-782752762b4c?t=1762855411950"
+    title: IREL (India) Limited Annual Report 2024-25
+    publisher: IREL (India) Limited
+    tier: T2
+    date: '2025'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - status
+    - status_detail
+    - dates.mou
+    - owners
+    - operator
+  - id: orissapost-ireuk-2024
+    url: "https://www.orissapost.com/india-kazakhstan-to-form-jv-firm-to-strengthen-titanium-supply-chain-likely-to-generate-employment-opportunity-in-odisha/amp/"
+    title: India, Kazakhstan to form JV firm to strengthen titanium supply chain; expected to create jobs in Odisha
+    publisher: OrissaPOST
+    tier: T3
+    date: '2024-11-05'
+    retrieved: '2026-10-25'
+    archive_url: null
+    supports:
+    - location
+    - feedstock_detail
+    - partners
+    - minerals
+    - dates.first_public
+    - narrative
+- aliases: []
+  layer: processing
+  stages:
+  - Refining
+  minerals:
   - Gallium
   commodity_as_stated: gallium extraction from Bayer liquor
   products:
