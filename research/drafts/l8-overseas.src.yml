@@ -1,7 +1,7 @@
 # L8 overseas assets held or pursued by Indian entities: compact research draft.
 # Expanded by scripts/research/build_entities.py into l8-overseas.yml + .evidence.jsonl.
 # Main official source: Lok Sabha Standing Committee on Coal, Mines and Steel, 29th Report (12 Aug 2026),
-# a scanned PDF; its text was extracted with macOS Vision OCR (scripts/research/ocr_pdf.swift), so some
+# a scanned PDF; its text was extracted with macOS Vision OCR (scripts/research/ocr.swift), so some
 # excerpts keep OCR spellings ("Jujay", "OlL", "offlake").
 # Not recorded (no named project or no location): see EXCLUDED.md and OPEN_QUESTIONS 15.
 layer: overseas

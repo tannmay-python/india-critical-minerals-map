@@ -1,0 +1,44 @@
+# L3 addendum from the October 2026 research pass.
+layer: materials
+
+sources:
+  srf-nse-2026-10-21:
+    raw: nsearchives.nseindia.com/ekta_maheshwari_21102026145942_SEIntimationCapexSRFAltech
+    title: "SRF Ltd: Capital expenditure proposal approved by the Board (battery aluminium foil, SRF Altech)"
+    publisher: SRF Ltd (stock-exchange filing)
+    tier: T2
+    date: "2026-10-21"
+
+records:
+  - id: srf-altech-jetapur-battery-foil
+    name: "SRF Altech battery aluminium foil plant, Jetapur"
+    stages: [Materials]
+    minerals: []
+    commodity_as_stated: "aluminium foil for battery applications"
+    products: ["Battery-grade aluminium foil (cathode current collector)"]
+    operator: "SRF Altech Ltd (SRF Ltd)"
+    operator_type: "Listed private"
+    location: {village_or_town: "Jetapur", state: "Madhya Pradesh", precision: state}
+    geo: {state_centroid: true, state: "Madhya Pradesh"}
+    status: Approved
+    status_as_of: "2026-10-21"
+    status_detail: "Board approval 21 Oct 2026; phase I 12,000 MTPA by Sept 2028, phase II by Sept 2030"
+    capacity:
+      planned: {value: 12000, unit: "MTPA", basis: "phase I", phase: "by 30 Sept 2028"}
+    investment: {amount: 600, currency: INR_crore, basis: "two phases of Rs 300 crore"}
+    feedstock: Not applicable
+    dates: {first_public: "2026-10-21", approved: "2026-10-21", original_expected_completion: "2028-09-30"}
+    narrative:
+      what_it_does: "A planned battery-grade aluminium foil line at SRF Altech's existing Jetapur site."
+    related: [hindalco-sambalpur-battery-foil]
+    confidence: high
+    notes: "The filing names Jetapur, Madhya Pradesh but not the district, and several places share the name; point is the state centroid (OPEN_QUESTIONS 10)."
+    sources:
+      - ref: srf-nse-2026-10-21
+        supports: [status, status_detail, capacity.planned, investment, location, operator, dates.first_public, dates.approved, dates.original_expected_completion]
+        ev:
+          status: "has approved a project for setting up of a manufacturing facility for the production of Aluminium foil for battery applications"
+          location: "The proposed facility will be established at the existing site of the WoS at Jetapur in the state of Madhya Pradesh"
+          capacity.planned: "c) proposed capacity addition 12000 MTPA"
+          investment: "with an estimated project cost of approximately Rs. 600 Crores, to be implemented in two phases of Rs. 300 Crores each."
+          dates.original_expected_completion: "By 30th September, 2028 (Phase I)"

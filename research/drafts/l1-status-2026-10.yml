@@ -1,0 +1,1261 @@
+- id: blk-tg-govindpur
+  name: Govindpur Vanadium, Titanium & Aluminous Laterite Block
+  aliases: []
+  layer: blocks
+  stages:
+  - Exploration
+  minerals:
+  - Vanadium
+  - Titanium
+  commodity_as_stated: Vanadium, Titanium & Aluminous Laterite
+  products: []
+  operator: NLC India Limited
+  operator_type: null
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Govindpur
+    state: Telangana
+    district: Sangareddy
+    country: India
+    lat: 17.634352
+    lon: 77.580487
+    precision: exact
+    geometry:
+      type: Polygon
+      coordinates:
+      - - - 77.5709258
+          - 17.6425856
+        - - 77.5897469
+          - 17.6429122
+        - - 77.5900317
+          - 17.6261133
+        - - 77.5712439
+          - 17.6257872
+        - - 77.5709258
+          - 17.6425856
+  status: LoI issued
+  status_as_of: '2026-08-31'
+  status_detail: Telangana issued NLC India the LoI for a composite licence on 31 Aug 2026
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2025-09-16'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: '2026-02-06'
+    event: 'Tranche VI: annulled'
+    source_id: mstc-t6-nit
+  - date: '2026-06-12'
+    event: 'Tranche VII: preferred bidder (NLC India Limited, 7.05%)'
+    source_id: mstc-t7-nit
+  - date: '2026-08-31'
+    event: Letter of intent for composite licence issued by Telangana
+    source_id: psuwatch-nlc-tg-loi
+  narrative:
+    what_it_does: A 3.72 sq km block offered for a composite licence, for vanadium, titanium & aluminous laterite,
+      in Sangareddy district, Telangana, explored to G3 level.
+    significance: NLC India Limited won it in Tranche VII (June 2026) with a final price offer of 7.05%. It took
+      2 attempts to auction.
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-23'
+  notes: Second attempt after Tranche VI Letter of intent / licence execution status not yet checked (see OPEN_QUESTIONS).
+  sources:
+  - id: mstc-t6-nit
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=22681_GoI%20MoM%20-%20Tranche%20VI%20-%20NIT.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: GoI MoM - Tranche VI - Notice Inviting Tender
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2025-09-16'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+  - id: mstc-t6-annulment
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25112_GoI%20MoM%20-%20Tranche%20VI%20-%20Auction%20Annulment%20Notice.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: GoI MoM - Tranche VI - Auction Annulment Notice
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2026-02-06'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+  - id: mstc-t7-nit
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25649_GoI%20MoM%20-%20Tranche%20VII%20-%20NIT_N.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: GoI MoM - Tranche VII - Notice Inviting Tender
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2026-03-23'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - status
+  - id: mstc-t7-conclusion
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=27225_GoI%20MoM%20-%20Tranche%20VII%20-%20Auction%20Conclusion%20Notice.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: GoI MoM - Tranche VII - Auction Conclusion Notice
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2026-07-08'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - status
+  - id: mstc-results-cm-fy2026-27
+    url: https://www.mstcecommerce.com/auctionhome/mlcln/mineral_auction_result.jsp?typerep=f&finYr=2026-2027&sellerRefId=31608
+    title: MSTC - Critical Mineral Block Auction Results, FY 2026-27 (Ministry of Mines)
+    publisher: MSTC Ltd
+    tier: T1
+    date: '2026-10-23'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - operator
+    - status
+  - id: mstc-mbs-25666
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25666_17%20Govindpur%20Vanadium%20Titanium%20and%20Aluminous%20Laterite%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: 'Mine Block Summary: 17 Govindpur Vanadium Titanium and Aluminous Laterite Block'
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2026-03-23'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - block.area_sq_km
+    - block.exploration_stage
+    - location
+  - id: psuwatch-nlc-tg-loi
+    url: https://psuwatch.com/newsupdates/nlc-india-receives-loi-for-composite-licence-for-critical-mineral-blocks-in-telangana
+    title: NLC India receives LoI for composite licence for critical mineral blocks in Telangana
+    publisher: PSU Watch
+    tier: T3
+    date: 2026-09
+    retrieved: '2026-10-25'
+    archive_url: null
+    supports:
+    - status
+    - auction.loi_date
+  - id: sahi-nlc-tg-loi
+    url: https://www.sahi.com/news/nlc-india-receives-telangana-loi-for-two-critical-mineral-blocks-933-PE1_CORP
+    title: NLC India Receives Telangana LoI For Two Critical Mineral Blocks
+    publisher: Sahi
+    tier: T3
+    date: 2026-09
+    retrieved: '2026-10-25'
+    archive_url: null
+    supports:
+    - status
+  block:
+    concession_type: CL
+    auction_route: Centre
+    area_sq_km: 3.7152
+    exploration_stage: G3
+    resources: []
+    resources_as_stated: 'Geological Resources (333): '
+  auction:
+    history:
+    - tranche: Centre-T6
+      nit_date: '2025-09-16'
+      outcome: Annulled
+      outcome_date: '2026-02-06'
+      annulment_reason: Fewer than three technically qualified bidders (Rule 9(10) Mineral (Auction) Rules)
+      preferred_bidder: null
+      final_offer_pct: null
+      reserve_price: 2.00%
+    - tranche: Centre-T7
+      nit_date: '2026-03-23'
+      outcome: Preferred bidder
+      outcome_date: '2026-06-12'
+      annulment_reason: null
+      preferred_bidder: NLC India Limited
+      final_offer_pct: 7.05
+      reserve_price: 7.00%
+    loi_date: '2026-08-31'
+    licence_or_lease_executed: null
+    production_started: null
+- id: blk-tg-parvathapur
+  name: Parvathapur Vanadium, Titanium & Aluminous Laterite Block
+  aliases: []
+  layer: blocks
+  stages:
+  - Exploration
+  minerals:
+  - Vanadium
+  - Titanium
+  commodity_as_stated: Vanadium, Titanium & Aluminous Laterite
+  products: []
+  operator: NLC India Limited
+  operator_type: null
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Parvathapur
+    state: Telangana
+    district: Sangareddy
+    country: India
+    lat: 17.608193
+    lon: 77.550724
+    precision: exact
+    geometry:
+      type: Polygon
+      coordinates:
+      - - - 77.5430169
+          - 17.617535
+        - - 77.5580711
+          - 17.6177983
+        - - 77.5584308
+          - 17.5988508
+        - - 77.5433781
+          - 17.5985878
+        - - 77.5430169
+          - 17.617535
+  status: LoI issued
+  status_as_of: '2026-08-31'
+  status_detail: Telangana issued NLC India the LoI for a composite licence on 31 Aug 2026
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2025-09-16'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: '2026-02-06'
+    event: 'Tranche VI: annulled'
+    source_id: mstc-t6-nit
+  - date: '2026-06-11'
+    event: 'Tranche VII: preferred bidder (NLC India Limited, 6.05%)'
+    source_id: mstc-t7-nit
+  - date: '2026-08-31'
+    event: Letter of intent for composite licence issued by Telangana
+    source_id: psuwatch-nlc-tg-loi
+  narrative:
+    what_it_does: A 3.35 sq km block offered for a composite licence, for vanadium, titanium & aluminous laterite,
+      in Sangareddy district, Telangana, explored to G3 level.
+    significance: NLC India Limited won it in Tranche VII (June 2026) with a final price offer of 6.05%. It took
+      2 attempts to auction.
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-23'
+  notes: Second attempt after Tranche VI Letter of intent / licence execution status not yet checked (see OPEN_QUESTIONS).
+  sources:
+  - id: mstc-t6-nit
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=22681_GoI%20MoM%20-%20Tranche%20VI%20-%20NIT.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: GoI MoM - Tranche VI - Notice Inviting Tender
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2025-09-16'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+  - id: mstc-t6-annulment
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25112_GoI%20MoM%20-%20Tranche%20VI%20-%20Auction%20Annulment%20Notice.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: GoI MoM - Tranche VI - Auction Annulment Notice
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2026-02-06'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+  - id: mstc-t7-nit
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25649_GoI%20MoM%20-%20Tranche%20VII%20-%20NIT_N.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: GoI MoM - Tranche VII - Notice Inviting Tender
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2026-03-23'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - status
+  - id: mstc-t7-conclusion
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=27225_GoI%20MoM%20-%20Tranche%20VII%20-%20Auction%20Conclusion%20Notice.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: GoI MoM - Tranche VII - Auction Conclusion Notice
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2026-07-08'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - status
+  - id: mstc-results-cm-fy2026-27
+    url: https://www.mstcecommerce.com/auctionhome/mlcln/mineral_auction_result.jsp?typerep=f&finYr=2026-2027&sellerRefId=31608
+    title: MSTC - Critical Mineral Block Auction Results, FY 2026-27 (Ministry of Mines)
+    publisher: MSTC Ltd
+    tier: T1
+    date: '2026-10-23'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - operator
+    - status
+  - id: mstc-mbs-25667
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=25667_18%20Parvathapur%20Vanadium%20Titanium%20and%20Aluminous%20Laterite%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: 'Mine Block Summary: 18 Parvathapur Vanadium Titanium and Aluminous Laterite Block'
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2026-03-23'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - block.area_sq_km
+    - block.exploration_stage
+    - location
+  - id: psuwatch-nlc-tg-loi
+    url: https://psuwatch.com/newsupdates/nlc-india-receives-loi-for-composite-licence-for-critical-mineral-blocks-in-telangana
+    title: NLC India receives LoI for composite licence for critical mineral blocks in Telangana
+    publisher: PSU Watch
+    tier: T3
+    date: 2026-09
+    retrieved: '2026-10-25'
+    archive_url: null
+    supports:
+    - status
+    - auction.loi_date
+  - id: sahi-nlc-tg-loi
+    url: https://www.sahi.com/news/nlc-india-receives-telangana-loi-for-two-critical-mineral-blocks-933-PE1_CORP
+    title: NLC India Receives Telangana LoI For Two Critical Mineral Blocks
+    publisher: Sahi
+    tier: T3
+    date: 2026-09
+    retrieved: '2026-10-25'
+    archive_url: null
+    supports:
+    - status
+  block:
+    concession_type: CL
+    auction_route: Centre
+    area_sq_km: 3.355
+    exploration_stage: G3
+    resources: []
+    resources_as_stated: 'Geological Resources (333): Resources of Vanadium: '
+  auction:
+    history:
+    - tranche: Centre-T6
+      nit_date: '2025-09-16'
+      outcome: Annulled
+      outcome_date: '2026-02-06'
+      annulment_reason: Fewer than three technically qualified bidders (Rule 9(10) Mineral (Auction) Rules)
+      preferred_bidder: null
+      final_offer_pct: null
+      reserve_price: 2.00%
+    - tranche: Centre-T7
+      nit_date: '2026-03-23'
+      outcome: Preferred bidder
+      outcome_date: '2026-06-11'
+      annulment_reason: null
+      preferred_bidder: NLC India Limited
+      final_offer_pct: 6.05
+      reserve_price: 6.00%
+    loi_date: '2026-08-31'
+    licence_or_lease_executed: null
+    production_started: null
+- id: blk-up-nawatola-laband
+  name: Nawatola-Laband REE Block
+  aliases: []
+  layer: blocks
+  stages:
+  - Exploration
+  minerals:
+  - Rare earths (unspecified)
+  commodity_as_stated: REE (Rare Earth Element)
+  products: []
+  operator: Hindustan Zinc Limited
+  operator_type: null
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Nawatola
+    state: Uttar Pradesh
+    district: Sonbhadra
+    country: India
+    lat: 24.10175
+    lon: 83.096082
+    precision: exact
+    geometry:
+      type: Polygon
+      coordinates:
+      - - - 83.1064806
+          - 24.1061139
+        - - 83.1063361
+          - 24.0970889
+        - - 83.0856778
+          - 24.0973861
+        - - 83.0858333
+          - 24.1064111
+        - - 83.1064806
+          - 24.1061139
+  status: Licence / lease executed
+  status_as_of: '2026-06-29'
+  status_detail: Composite licence deed executed with Uttar Pradesh on 27 Jun 2026 (LoI notified Jul 2025)
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2024-06-24'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: '2024-11-26'
+    event: 'Tranche IV: annulled'
+    source_id: mstc-t4-nit
+  - date: '2025-05-20'
+    event: 'Tranche V: preferred bidder (Hindustan Zinc Limited, 3.55%)'
+    source_id: mstc-t5-nit
+  - date: '2025-07-04'
+    event: Letter of intent issued by Uttar Pradesh (company filing)
+    source_id: hzl-nse-2025-07-04-loi
+  - date: '2026-06-27'
+    event: Composite licence deed executed
+    source_id: scanx-hzl-nawatola-cl
+  narrative:
+    what_it_does: A 2.10 sq km block offered for a composite licence, for ree (rare earth element), in Sonbhadra
+      district, Uttar Pradesh, explored to G3 level.
+    significance: Hindustan Zinc Limited won it in Tranche V (May 2025) with a final price offer of 3.55%. It took
+      2 attempts to auction.
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-23'
+  notes: Second attempt (first offered in Centre-T4). Second-round e-auction 2025-05-20; PB declaration notice dated
+    2025-05-27. MBS area 210.01 Ha. Letter of intent / licence execution status not yet checked (see OPEN_QUESTIONS).
+  sources:
+  - id: mstc-t4-nit
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=15825_1.%20GoI%20MoM%20-%20Tranche%20IV%20-%20NIT.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: 'Notice Inviting Tender, Tranche IV (21 blocks: 11 first attempt, 10 second attempt)'
+    publisher: Ministry of Mines (Designated Officer) via MSTC e-auction portal
+    tier: T1
+    date: '2024-06-24'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+  - id: mstc-mbs-15840
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=15840_11.%20MBS_Nawatola-Laband%20REE%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: 'Mineral Block Summary: Nawatola-Laband REE Block (MSTC file 15840)'
+    publisher: Ministry of Mines (Designated Officer) via MSTC e-auction portal
+    tier: T1
+    date: '2025-01-20'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+  - id: mstc-t4-annulment
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=17803_Auction%20Annulment%20Notice%20Tranche%20IV.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: 'Tranche IV: Auction Annulment Notice'
+    publisher: Ministry of Mines (Designated Officer) via MSTC e-auction portal
+    tier: T1
+    date: '2024-11-26'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+  - id: mstc-t5-nit
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=18641_GoI%20MoM%20-%20Tranche%20V%20-%20Notice%20Inviting%20Tender.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: 'Notice Inviting Tender, Tranche V (15 blocks: 7 first attempt, 8 second attempt)'
+    publisher: Ministry of Mines (Designated Officer) via MSTC e-auction portal
+    tier: T1
+    date: '2025-01-20'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - status
+  - id: mstc-mbs-18650
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=18650_15.MBS_Nawatola-Laband_REE_Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: 'Mineral Block Summary: Nawatola-Laband REE Block (MSTC file 18650)'
+    publisher: Ministry of Mines (Designated Officer) via MSTC e-auction portal
+    tier: T1
+    date: '2025-01-20'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.area_sq_km
+    - block.exploration_stage
+    - location
+    - status
+  - id: mstc-t5-pb
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=20794_GoI-MoM-Tranche%20V-%20PB%20Declaration%20Notice.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: 'Tranche V: Notice for Preferred Bidder Declaration of 10 Critical & Strategic Mineral Blocks'
+    publisher: Ministry of Mines (Designated Officer) via MSTC e-auction portal
+    tier: T1
+    date: '2025-05-27'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - operator
+    - status
+  - id: mstc-results-cm-fy2025-26
+    url: https://www.mstcecommerce.com/auctionhome/mlcln/mineral_auction_result.jsp?typerep=f&finYr=2025-2026&sellerRefId=31608
+    title: MSTC - Critical Mineral Block Auction Results, FY 2025-26 (Ministry of Mines)
+    publisher: MSTC Ltd
+    tier: T1
+    date: '2026-10-23'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - operator
+    - status
+  - id: hzl-nse-2025-07-04-loi
+    url: https://nsearchives.nseindia.com/corporate/HINDZINCNSE_04072025145012_SEIntimation-LOI.pdf
+    title: 'Hindustan Zinc: Issuance of Letter of Intent in favor of the Preferred Bidder (Nawatola-Laband REE Block)'
+    publisher: Hindustan Zinc Ltd (stock-exchange filing)
+    tier: T2
+    date: '2025-07-04'
+    retrieved: '2026-10-25'
+    archive_url: null
+    supports:
+    - milestones
+  - id: bt-hzl-nawatola-cl
+    url: https://www.businesstoday.in/markets/stocks/story/hind-zinc-shares-in-focus-amid-pact-with-up-govt-to-explore-nawatola-rare-earths-block-539602-2026-06-29
+    title: Hind Zinc shares in focus amid pact with UP govt to explore Nawatola rare earths block
+    publisher: Business Today
+    tier: T3
+    date: '2026-06-29'
+    retrieved: '2026-10-25'
+    archive_url: null
+    supports:
+    - status
+  - id: scanx-hzl-nawatola-cl
+    url: https://scanx.trade/stock-market-news/companies/hindustan-zinc-secures-composite-licence-for-up-ree-block/44117011
+    title: Hindustan Zinc secures composite licence for UP REE block
+    publisher: ScanX
+    tier: T3
+    date: '2026-06-29'
+    retrieved: '2026-10-25'
+    archive_url: null
+    supports:
+    - status
+    - auction.licence_or_lease_executed
+  block:
+    concession_type: CL
+    auction_route: Centre
+    area_sq_km: 2.1001
+    exploration_stage: G3
+    resources: []
+    resources_as_stated: Geological Resources (ReconnaissanceMineral Resource-334) Total REE resource of 0.18263
+      million tonnes (182623.81 tons) with 1145.46 ppm or 0.1145%
+  auction:
+    history:
+    - tranche: Centre-T4
+      nit_date: '2024-06-24'
+      outcome: Annulled
+      outcome_date: '2024-11-26'
+      annulment_reason: Fewer than 3 technically qualified bidders (Clause 8.1(A)(f) TD; Rule 9(10) MAR 2015)
+      preferred_bidder: null
+      final_offer_pct: null
+      reserve_price: 02.00%
+    - tranche: Centre-T5
+      nit_date: '2025-01-20'
+      outcome: Preferred bidder
+      outcome_date: '2025-05-20'
+      annulment_reason: null
+      preferred_bidder: Hindustan Zinc Limited
+      final_offer_pct: 3.55
+      reserve_price: 02.50%
+    loi_date: null
+    licence_or_lease_executed: '2026-06-27'
+    production_started: null
+- id: blk-br-genjana
+  name: Genjana Nickel, Chromium and PGE Block
+  aliases: []
+  layer: blocks
+  stages:
+  - Exploration
+  minerals:
+  - Nickel
+  - PGEs (unspecified)
+  commodity_as_stated: Nickel, Chromium and PGE
+  products: []
+  operator: Vedanta Limited
+  operator_type: null
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Genjana
+    state: Bihar
+    district: Gaya
+    country: India
+    lat: 24.5076
+    lon: 84.598649
+    precision: exact
+    geometry:
+      type: Polygon
+      coordinates:
+      - - - 84.5756
+          - 24.5153
+        - - 84.6218
+          - 24.5151
+        - - 84.6218
+          - 24.5
+        - - 84.5756
+          - 24.5
+        - - 84.5756
+          - 24.5153
+  status: LoI issued
+  status_as_of: '2025-12-11'
+  status_detail: Vedanta declared successful bidder by letter of 10 Dec 2025 after meeting LoI conditions; licence
+    deed pending
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2023-11-29'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: '2024-03-13'
+    event: 'Tranche I: annulled'
+    source_id: mstc-t1-nit
+  - date: '2024-07-09'
+    event: 'Tranche III: preferred bidder (Vedanta Limited, 6.05%)'
+    source_id: mstc-t3-nit
+  - date: '2025-12-10'
+    event: Vedanta declared successful bidder (letter dated 10 Dec 2025, as reported)
+    source_id: bs-2025-12-12-vedanta-genjana
+  - date: '2025-12-10'
+    event: Declared successful bidder
+    source_id: vedl-bse-2025-12-11-genjana
+  narrative:
+    what_it_does: A 7.89 sq km block offered for a composite licence, for nickel, chromium and pge, in Gaya district,
+      Bihar, explored to G3 level.
+    significance: Vedanta Limited won it in Tranche III (July 2024) with a final price offer of 6.05%. It took 2
+      attempts to auction.
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-23'
+  notes: Second attempt (first offered in Centre-T1, annulled 13 Mar 2024). Second-round e-auction 2024-07-09; PB
+    notice dated 20 Jul 2024. MBS area 788.85 Ha.
+  sources:
+  - id: mstc-t1-nit
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=12721_Tranche-1-NIT%2020%20Blocks.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: 'Notice Inviting Tender, Tranche I: Invitation of Bids for Grant of Mineral Concession of Critical and
+      Strategic Minerals (20 blocks, with Mineral Block Summaries)'
+    publisher: Ministry of Mines (Designated Officer) via MSTC e-auction portal
+    tier: T1
+    date: '2023-11-29'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+  - id: mstc-t1-annulment
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14441_Critical%20and%20Strategic%20Mineral%20Block%20Auction-Annulment%20Notice.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: 'Tranche I: Critical and Strategic Mineral Block Auction - Annulment Notice'
+    publisher: Ministry of Mines (Designated Officer) via MSTC e-auction portal
+    tier: T1
+    date: '2024-03-13'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+  - id: mstc-t1-tqb-notice
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14440_Important%20Notice%20Regarding%20Intimation%20to%20Technically%20Qualified%20Bidders%2C%20Opening%20of%20IPO%2C%20Intimation%20to%20Qualified%20Bidders%20and%20Second%20Round%20of%20e-Auction.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: 'Tranche I: Important Notice Regarding Intimation to Technically Qualified Bidders, Opening of IPO and
+      Second Round of e-Auction'
+    publisher: Ministry of Mines (Designated Officer) via MSTC e-auction portal
+    tier: T1
+    date: '2024-03-13'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+  - id: mstc-t3-nit
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14477_Notice%20Inviting%20Tender%20%28NIT%29%20-%20%20Tranche%20III.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: Notice Inviting Tender, Tranche III (7 blocks, second attempt)
+    publisher: Ministry of Mines (Designated Officer) via MSTC e-auction portal
+    tier: T1
+    date: '2024-03-14'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - status
+  - id: mstc-t3-nit-mbs
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14476_NIT%20with%20attached%20mineral%20block%20summary%20-%20Tranche%20III.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: Tranche III NIT with attached Mineral Block Summaries
+    publisher: Ministry of Mines (Designated Officer) via MSTC e-auction portal
+    tier: T1
+    date: '2024-03-14'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - status
+  - id: mstc-t3-pb
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=16123_GoI%20MoM%20-%20Tranche%20III%20-%20PB%20Declaration%20Notice.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: 'Tranche III: Notice for Preferred Bidder Declaration of 4 Critical & Strategic Mineral Blocks'
+    publisher: Ministry of Mines (Designated Officer) via MSTC e-auction portal
+    tier: T1
+    date: '2024-07-20'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - operator
+    - status
+  - id: mstc-results-cm-fy2024-25
+    url: https://www.mstcecommerce.com/auctionhome/mlcln/mineral_auction_result.jsp?typerep=f&finYr=2024-2025&sellerRefId=31608
+    title: MSTC Critical Mineral Block Auction Results, FY 2024-2025 (Ministry of Mines, Govt of India)
+    publisher: MSTC Limited (e-auction platform for Ministry of Mines)
+    tier: T1
+    date: '2026-10-23'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - operator
+    - status
+  - id: mstc-t3-tqb-notice
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=15928_GoI%20MoM%20-%20Tranche%20III%20-%20Auction%20Notice%20Regarding%20Intimation%20to%20Technically%20Qualified%20Bidders%2C%20Opening%20of%20IPO%2C%20Intimation%20to%20Qualified%20Bidders%20and%20Second%20Round%20of%20e-Auction.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: 'Tranche III: Notice Regarding Intimation to TQBs, Opening of IPO and Second Round of e-Auction'
+    publisher: Ministry of Mines (Designated Officer) via MSTC e-auction portal
+    tier: T1
+    date: '2024-07-03'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - status
+  - id: mstc-mbs-14485
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=14485_MBS_Genjana%20Nickel%20Chromium%20and%20PGE%20Block.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: 'Mine Block Summary: MBS_Genjana Nickel Chromium and PGE Block'
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2024-03-14'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - block.area_sq_km
+    - block.exploration_stage
+    - location
+  - id: bs-2025-12-12-vedanta-genjana
+    url: https://www.business-standard.com/amp/markets/capital-market-news/vedanta-rises-after-winning-genjana-nickel-chromium-pge-block-in-critical-minerals-auction-125121200366_1.html
+    title: Vedanta rises after winning Genjana Nickel, Chromium & PGE Block in critical minerals auction
+    publisher: Business Standard
+    tier: T3
+    date: '2025-12-12'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+  - id: vedl-bse-2025-12-11-genjana
+    url: https://bsmedia.business-standard.com/_media/bs/data/announcements/bse/11122025/eb9be701-8543-453c-b181-f55f95e7cda1.pdf
+    title: 'Vedanta: Successful Bidder of Genjana Nickel, Chromium and PGE Block under Critical Mineral Auctions
+      (stock-exchange filing)'
+    publisher: Vedanta Ltd (stock-exchange filing)
+    tier: T2
+    date: '2025-12-11'
+    retrieved: '2026-10-25'
+    archive_url: null
+    supports:
+    - status
+    - status_detail
+  block:
+    concession_type: CL
+    auction_route: Centre
+    area_sq_km: 7.8885
+    exploration_stage: G3
+    resources: []
+    resources_as_stated: null
+  auction:
+    history:
+    - tranche: Centre-T1
+      nit_date: '2023-11-29'
+      outcome: Annulled
+      outcome_date: '2024-03-13'
+      annulment_reason: Fewer than 3 technically qualified bidders (Clause 8.1(A)(f) TD; Rule 9(10) MAR 2015)
+      preferred_bidder: null
+      final_offer_pct: null
+      reserve_price: 2.00%
+    - tranche: Centre-T3
+      nit_date: '2024-03-14'
+      outcome: Preferred bidder
+      outcome_date: '2024-07-09'
+      annulment_reason: null
+      preferred_bidder: Vedanta Limited
+      final_offer_pct: 6.05
+      reserve_price: 04.00%
+    loi_date: null
+    licence_or_lease_executed: null
+    production_started: null
+- id: blk-ka-devadurga
+  name: Devadurga Gold and Copper Exploration Block
+  aliases: []
+  layer: blocks
+  stages:
+  - Exploration
+  minerals:
+  - Copper
+  commodity_as_stated: Gold and Copper
+  products: []
+  operator: The Singareni Collieries Company Limited
+  operator_type: null
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Devadurga
+    state: Karnataka
+    district: Raichur
+    country: India
+    lat: 16.396218
+    lon: 76.817049
+    precision: exact
+    geometry:
+      type: Polygon
+      coordinates:
+      - - - 76.739425
+          - 16.4503972
+        - - 76.8949333
+          - 16.4505056
+        - - 76.8943278
+          - 16.3419278
+        - - 76.7394778
+          - 16.3418889
+        - - 76.739425
+          - 16.4503972
+  status: Licence / lease executed
+  status_as_of: '2026-08-15'
+  status_detail: Exploration agreement with Karnataka signed Aug 2026; SCCL has five years to complete exploration
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2025-03-13'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: '2025-08-19'
+    event: 'EL Tranche I: preferred bidder (The Singareni Collieries Company Limited, 37.75%)'
+    source_id: mstc-el1-nit
+  - date: '2026-08-06'
+    event: Exploration licence agreement signed with the Karnataka Department of Mines and Geology
+    source_id: uni-sccl-devadurga
+  narrative:
+    what_it_does: A 199.13 sq km block offered for an exploration licence, for gold and copper, in Raichur district,
+      Karnataka, explored to G3 level.
+    significance: The Singareni Collieries Company Limited won the exploration licence in EL Tranche I (August 2025)
+      with the lowest final price offer, 37.75% (exploration-licence auctions are reverse auctions).
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-23'
+  notes: 'EL auctions are reverse auctions: the preferred bidder quotes the lowest share of the auction premium.
+    Letter of intent / licence execution status not yet checked (see OPEN_QUESTIONS).'
+  sources:
+  - id: mstc-el1-nit
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=19563_GoI%20MoM%20-%20EL%20-%20Tranche%20I%20-%20Notice%20Inviting%20Tender.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: GoI MoM - EL - Tranche I - Notice Inviting Tender
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2025-03-13'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+    - status
+  - id: mstc-el1-blocks
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=20090_2.%20Details%20of%2013%20Blocks%20of%20EL%20in%20Tranche%20I.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: Details of 13 Blocks of EL in Tranche I (GSI presentation)
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2025-03-13'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - status
+  - id: mstc-el1-pb
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=22686_GOI_Notice%20for%20Preferred%20Bidder%20Declaration%20of%2007%20Exploration%20Blocks%20under%20Tranche%20I.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: Notice for Preferred Bidder Declaration of 07 Exploration Blocks under Tranche I
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2025-09-16'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - operator
+    - status
+  - id: mstc-results-el-fy2025-26
+    url: https://www.mstcecommerce.com/auctionhome/mlcln/mineral_auction_result.jsp?typerep=f&finYr=2025-2026&sellerRefId=41731
+    title: MSTC - Exploration Licence Block Auction Results, FY 2025-26 (Ministry of Mines)
+    publisher: MSTC Ltd
+    tier: T1
+    date: '2026-10-23'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - operator
+    - status
+  - id: mstc-mbs-19569
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=19569_8.%20MBS%20_Devadurga_Gold_Block_Karnataka.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: 'Mine Block Summary: 8. MBS _Devadurga_Gold_Block_Karnataka'
+    publisher: Ministry of Mines (via MSTC e-auction portal)
+    tier: T1
+    date: '2025-03-13'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - block.area_sq_km
+    - block.exploration_stage
+    - location
+  - id: uni-sccl-devadurga
+    url: https://test.uniindia.com/news/business-economy/mining-singareni-gold-exploration/3936030.html
+    title: Telangana's Singareni begins gold, copper exploration in Karnataka's Devadurga block
+    publisher: United News of India
+    tier: T3
+    date: '2026-08-07'
+    retrieved: '2026-10-25'
+    archive_url: null
+    supports:
+    - status
+    - auction.licence_or_lease_executed
+    - status_detail
+  - id: tt-sccl-devadurga
+    url: https://telanganatoday.com/sccl-enters-strategic-minerals-sector-secures-karnataka-licence
+    title: SCCL enters strategic minerals sector, secures Karnataka licence
+    publisher: Telangana Today
+    tier: T3
+    date: '2026-08-15'
+    retrieved: '2026-10-25'
+    archive_url: null
+    supports:
+    - status
+  block:
+    concession_type: EL
+    auction_route: Centre
+    area_sq_km: 199.13
+    exploration_stage: G3
+    resources: []
+    resources_as_stated: null
+  auction:
+    history:
+    - tranche: Centre-EL1
+      nit_date: '2025-03-13'
+      outcome: Preferred bidder
+      outcome_date: '2025-08-19'
+      annulment_reason: null
+      preferred_bidder: The Singareni Collieries Company Limited
+      final_offer_pct: 37.75
+      reserve_price: null
+    loi_date: null
+    licence_or_lease_executed: '2026-08-06'
+    production_started: null
+- id: blk-cg-bhalukona-jamnidih
+  name: Bhalukona-Jamnidih Ni, Cr and associated PGE Block
+  aliases: []
+  layer: blocks
+  stages:
+  - Exploration
+  minerals:
+  - Nickel
+  - PGEs (unspecified)
+  commodity_as_stated: Ni, Cr and associated PGE Minerals
+  products: []
+  operator: M/s Deccan Gold Mines Ltd.
+  operator_type: null
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: null
+    state: Chhattisgarh
+    district: Mahasamund
+    country: India
+    lat: 21.20782
+    lon: 82.60818
+    precision: district
+    geometry: null
+  status: LoI issued
+  status_as_of: '2025-04-28'
+  status_detail: LoI dated 5 Oct 2023; Deccan Gold began exploration work on the composite licence area in Apr 2025
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2022-07-05'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: '2022-12-02'
+    event: 'a 2022 state auction: annulled'
+    source_id: raw:mstc-cg-nit-21
+  - date: '2023-03-07'
+    event: 'Chhattisgarh 2022 (second attempt): preferred bidder (M/s Deccan Gold Mines Ltd., 21%)'
+    source_id: raw:mstc-cg-nit-16
+  - date: '2023-10-05'
+    event: Letter of intent issued by Chhattisgarh
+    source_id: dgml-pr-2023-10-27
+  - date: 2025-04
+    event: Exploration work began on the licence area
+    source_id: filingreader-dgml-2025
+  narrative:
+    what_it_does: A block offered for a composite licence, for ni, cr and associated pge minerals, in Mahasamund
+      district, Chhattisgarh.
+    significance: M/s Deccan Gold Mines Ltd. won it in Chhattisgarh 2022 (second attempt) (March 2023) with a final
+      price offer of 21%. It took 2 attempts to auction.
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-23'
+  notes: Letter of intent / licence execution status not yet checked (see OPEN_QUESTIONS). Needs district centroid.
+  sources:
+  - id: raw:mstc-cg-nit-21
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=5522_Notice_Inviting_Tender_for_Composite_License_of_Mineral_Blocks_dtd_05-07-2022.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: Notice Inviting Tender for Composite License of Mi
+    publisher: Government of Chhattisgarh (via MSTC e-auction portal)
+    tier: T1
+    date: '2022-07-05'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - block.concession_type
+    - dates.first_public
+    - minerals
+  - id: raw:mstc-7646
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=7646_Notice_for_annulment_of_auction_process_of_Bhalukona_Jamnidih_Ni_Cr_and_associated_PGE_Blocks.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: Notice for Annulment of E Auction Process of Bhalukona Jamnidih Ni Cr and Associated PGE Block DTD 02-12-2022
+    publisher: Government of Chhattisgarh (via MSTC e-auction portal)
+    tier: T1
+    date: '2022-07-05'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+  - id: raw:mstc-cg-nit-16
+    url: https://www.mstcecommerce.com/auctionhome/download_docs.jsp?FILE_ID=7724_Notice_Inviting_Tender_for_Composite_License_and_Mining_Lease_of_Mineral_Blocks_dtd_09-12-2022.pdf&path=dynamiclinks&portal=mlcl&mdTyp=-
+    title: Notice Inviting Tender for Composite License and M
+    publisher: Government of Chhattisgarh (via MSTC e-auction portal)
+    tier: T1
+    date: '2023-03-07'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - status
+  - id: mom-sas-2025-05-27
+    url: https://mines.gov.in/webportal/content/successful-auction-since-2015
+    title: Ministry of Mines - Successful Auctions Since 2015 (500 blocks, as on 27.05.2025)
+    publisher: Ministry of Mines
+    tier: T1
+    date: '2025-05-27'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - auction.history
+    - operator
+    - status
+  - id: dgml-pr-2023-10-27
+    url: https://businessnewsthisweek.com/business/deccan-gold-mines-ltd-receives-letter-of-intent-loi-for-critical-minerals-cm-block-in-chhattisgarh/
+    title: Deccan Gold Mines Ltd. Receives 'Letter of Intent' (LoI) for Critical Minerals (CM) Block in Chhattisgarh
+      (company release)
+    publisher: Deccan Gold Mines Ltd (press release)
+    tier: T2
+    date: '2023-10-27'
+    retrieved: '2026-10-25'
+    archive_url: null
+    supports:
+    - status
+    - auction.loi_date
+  - id: filingreader-dgml-2025
+    url: https://filingreader.com/news-wire/mumbai/2025-04-28/deccan-gold-commences-work-on-chhattisgarh-nickel-licence
+    title: Deccan Gold commences work on Chhattisgarh nickel licence
+    publisher: FilingReader
+    tier: T3
+    date: '2025-04-28'
+    retrieved: '2026-10-25'
+    archive_url: null
+    supports:
+    - status_detail
+  block:
+    concession_type: CL
+    auction_route: State
+    area_sq_km: null
+    exploration_stage: null
+    resources: []
+    resources_as_stated: null
+  auction:
+    history:
+    - tranche: CG-2022-07
+      nit_date: '2022-07-05'
+      outcome: Annulled
+      outcome_date: '2022-12-02'
+      annulment_reason: E-auction process annulled (notice dated 2 Dec 2022)
+      preferred_bidder: null
+      final_offer_pct: null
+      reserve_price: null
+    - tranche: CG-2022-2nd
+      nit_date: null
+      outcome: Preferred bidder
+      outcome_date: '2023-03-07'
+      annulment_reason: null
+      preferred_bidder: M/s Deccan Gold Mines Ltd.
+      final_offer_pct: 21.0
+      reserve_price: null
+    loi_date: '2023-10-05'
+    licence_or_lease_executed: null
+    production_started: null

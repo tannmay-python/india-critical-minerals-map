@@ -944,6 +944,92 @@
     - capacity.planned
     - dates.original_expected_completion
     - status_detail
+- aliases: []
+  layer: materials
+  stages:
+  - Materials
+  minerals: []
+  commodity_as_stated: aluminium foil for battery applications
+  products:
+  - Battery-grade aluminium foil (cathode current collector)
+  operator: SRF Altech Ltd (SRF Ltd)
+  operator_type: Listed private
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Jetapur
+    district: null
+    state: Madhya Pradesh
+    country: India
+    lat: 23.53801
+    lon: 78.2889
+    precision: state
+    geometry: null
+  status: Approved
+  status_as_of: '2026-10-21'
+  status_detail: Board approval 21 Oct 2026; phase I 12,000 MTPA by Sept 2028, phase II by Sept 2030
+  capacity:
+    planned:
+      value: 12000
+      unit: MTPA
+      basis: phase I
+      phase: by 30 Sept 2028
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: 600
+    currency: INR_crore
+    basis: two phases of Rs 300 crore
+  feedstock: Not applicable
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2026-10-21'
+    announced: null
+    mou: null
+    approved: '2026-10-21'
+    construction_start: null
+    original_expected_completion: '2028-09-30'
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones: []
+  narrative:
+    significance: null
+    what_it_does: "A planned battery-grade aluminium foil line at SRF Altech's existing Jetapur site."
+    why_it_matters: null
+  related:
+  - hindalco-sambalpur-battery-foil
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-25'
+  notes: The filing names Jetapur, Madhya Pradesh but not the district, and several places share the name; point
+    is the state centroid (OPEN_QUESTIONS 10).
+  id: srf-altech-jetapur-battery-foil
+  name: SRF Altech battery aluminium foil plant, Jetapur
+  sources:
+  - id: srf-nse-2026-10-21
+    url: "https://nsearchives.nseindia.com/corporate/ekta_maheshwari_21102026145942_SEIntimationCapexSRFAltech.pdf"
+    title: "SRF Ltd: Capital expenditure proposal approved by the Board (battery aluminium foil, SRF Altech)"
+    publisher: SRF Ltd (stock-exchange filing)
+    tier: T2
+    date: '2026-10-21'
+    retrieved: '2026-10-25'
+    archive_url: null
+    supports:
+    - status
+    - status_detail
+    - capacity.planned
+    - investment
+    - location
+    - operator
+    - dates.first_public
+    - dates.approved
+    - dates.original_expected_completion
 - aliases:
   - The Advanced Carbons Company
   layer: materials

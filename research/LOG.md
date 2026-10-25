@@ -81,7 +81,7 @@ Queries, registries pulled, decisions, inclusion calls and dead ends. Newest ent
 
 ## L8 Overseas assets (2026-10-25)
 
-- 20 records in `data/overseas.yml` (76 excerpts checked). Main source: Lok Sabha Standing Committee on Coal, Mines and Steel, 29th Report, "KABIL: India's quest for Global Critical Minerals" (presented 12 Aug 2026). Found through the sansad.in committee API (`api_ls/committee/lsRSAllReports`, committeeCode 46); the PDF is a scan, so its text was extracted with macOS Vision OCR (`scripts/research/ocr_pdf.swift`). Also LS USQ 827 (Feb 2026) and USQ 1510 (Jul 2024).
+- 20 records in `data/overseas.yml` (76 excerpts checked). Main source: Lok Sabha Standing Committee on Coal, Mines and Steel, 29th Report, "KABIL: India's quest for Global Critical Minerals" (presented 12 Aug 2026). Found through the sansad.in committee API (`api_ls/committee/lsRSAllReports`, committeeCode 46); the PDF is a scan, so its text was extracted with macOS Vision OCR (`scripts/research/ocr.swift`). Also LS USQ 827 (Feb 2026) and USQ 1510 (Jul 2024).
 - KABIL and PSU consortia: Catamarca five blocks (exploration rights Jan 2024, drilling permit Apr 2026, first lithium Dec 2030 from Sept 2029); seven more Catamarca blocks, Jujuy talks, San Jorge (with Oil India) and Rio Grande-NOA (with IOCL) under evaluation; Salta 20% stake bid not selected (Jan-Feb 2026); Mt Marion and Wodgina lost to POSCO; Mt Holland and Andover sale reopened Feb 2026 and under evaluation; Vietnam REE (Trident Zoetics, Lai Chau) withdrawn by the seller.
 - Private: LOHUM Zimbabwe (10 blocks, first ore Sept 2026); Lloyds Metals 49% of the Chemaf buyer (Etoile operating, Mutoshi under construction; DRC); Vedanta KCM (79.4%, Zambia); Epsilon Brunswick County anode plant (approved, no ground-breaking report after Aug 2025) and Moosburg LFP centre; Altmin 33% CBL refinery stake (announced Feb 2026, reported near cancellation Jul 2026); Greenko two lithium blocks (Catamarca).
 - Government: Zambia 9,000 sq km copper-cobalt exploration allocation (2025), mining-rights talks stalled (Apr 2026).
@@ -102,3 +102,11 @@ Queries, registries pulled, decisions, inclusion calls and dead ends. Newest ent
 - `data/gsi_exploration.yml`: 6 rows. GSI critical-mineral projects 195 (2024-25), 230 (2025-26), 300 planned (2026-27); NMEDT 62 and 84; target 1,200 by 2030-31. State-wise counts only for Rajasthan (35, 40). See OPEN_QUESTIONS 17.
 
 - L4 addendum (2026-10-25): IREUK Titanium slag JV (IREL 51%, UKTMP JSC), Odisha; JV agreement 4 Nov 2024, company incorporated 5 Aug 2025; site not announced.
+
+## Research pass, October 2026 (2026-10-25)
+
+- L1: post-auction status from company filings and trade press for listed and PSU winners. Upgraded: Govindpur and Parvathapur (NLC, LoI 31 Aug 2026), Nawatola-Laband (HZL, composite licence deed 27 Jun 2026), Genjana (Vedanta, successful bidder 10 Dec 2025; BSE filing retrieved, OQ 6 closed), Devadurga (SCCL, exploration licence agreement 6 Aug 2026), Bhalukona-Jamnidih (Deccan Gold, LoI 5 Oct 2023). No filings found for Vedanta's other preferred-bidder blocks, Coal India's three, Hindalco Minzhari, Oil India Jorkian or Sunflag Surajpura. Lok Sabha answers give no block-level status. New tool: `scripts/research/apply_updates.py` (sourced field updates to existing records, excerpts checked).
+- Privacy: four blocks won by individuals now show "Individual bidder (name withheld)", matching the rule applied to CPCB proprietorships.
+- L3: SRF Altech battery aluminium foil, Jetapur (board approval 21 Oct 2026, 12,000 MTPA phase I). No separator or copper-foil plant with a verifiable approval found; Hindalco copper foil left in OQ 10.
+- L2: no new magnet plant since L2; REPM beneficiaries still unannounced.
+- OCR: the KABIL report was read with the existing `scripts/research/ocr.swift`; a duplicate script was removed.

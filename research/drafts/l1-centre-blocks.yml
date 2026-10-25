@@ -14351,7 +14351,7 @@
   - Graphite
   commodity_as_stated: Graphite
   products: []
-  operator: Urmila Dilip Chandan
+  operator: Individual bidder (name withheld)
   operator_type: null
   owners: []
   partners: []
@@ -14389,7 +14389,7 @@
           - 21.9313208
   status: Preferred bidder
   status_as_of: '2018-05-17'
-  status_detail: Urmila Dilip Chandan, final price offer 200.1% (a 2018 state auction)
+  status_detail: an individual bidder, final price offer 200.1% (a 2018 state auction)
   capacity:
     planned:
       value: null
@@ -14420,12 +14420,12 @@
     closed: null
   milestones:
   - date: '2018-05-17'
-    event: 'a 2018 state auction: preferred bidder (Urmila Dilip Chandan, 200.1%)'
+    event: 'a 2018 state auction: preferred bidder (individual bidder, 200.1%)'
     source_id: mom-sas-2025-05-27
   narrative:
     what_it_does: A 0.33 sq km block offered for a mining lease, for graphite, in Betul district, Madhya Pradesh, explored
       to G3 level.
-    significance: Urmila Dilip Chandan won it in a 2018 state auction (May 2018) with a final price offer of 200.1%.
+    significance: an individual bidder won it in a 2018 state auction (May 2018) with a final price offer of 200.1%.
   related: []
   see_also: []
   confidence: high
@@ -14473,7 +14473,7 @@
       outcome: Preferred bidder
       outcome_date: '2018-05-17'
       annulment_reason: null
-      preferred_bidder: Urmila Dilip Chandan
+      preferred_bidder: Individual bidder (name withheld)
       final_offer_pct: 200.1
       reserve_price: null
     loi_date: null
@@ -22591,7 +22591,7 @@
   - Titanium
   commodity_as_stated: Titanium and Vanadium
   products: []
-  operator: Govind Kumar Agrawal
+  operator: Individual bidder (name withheld)
   operator_type: null
   owners: []
   partners: []
@@ -22619,7 +22619,7 @@
           - 22.1128081
   status: Preferred bidder
   status_as_of: '2026-06-16'
-  status_detail: Govind Kumar Agrawal, final price offer 6.15% (EL Tranche II)
+  status_detail: an individual bidder, final price offer 6.15% (EL Tranche II)
   capacity:
     planned:
       value: null
@@ -22650,12 +22650,12 @@
     closed: null
   milestones:
   - date: '2026-06-16'
-    event: 'EL Tranche II: preferred bidder (Govind Kumar Agrawal, 6.15%)'
+    event: 'EL Tranche II: preferred bidder (individual bidder, 6.15%)'
     source_id: mstc-el2-nit
   narrative:
     what_it_does: A 181.51 sq km block offered for an exploration licence, for titanium and vanadium, in Mayurbhanj district,
       Odisha.
-    significance: Govind Kumar Agrawal won the exploration licence in EL Tranche II (June 2026) with the lowest final price
+    significance: an individual bidder won the exploration licence in EL Tranche II (June 2026) with the lowest final price
       offer, 6.15% (exploration-licence auctions are reverse auctions).
   related: []
   see_also: []
@@ -22716,7 +22716,7 @@
       outcome: Preferred bidder
       outcome_date: '2026-06-16'
       annulment_reason: null
-      preferred_bidder: Govind Kumar Agrawal
+      preferred_bidder: Individual bidder (name withheld)
       final_offer_pct: 6.15
       reserve_price: 40.00%
     loi_date: null
@@ -23678,7 +23678,7 @@
   - Cobalt
   commodity_as_stated: Graphite, Manganese and Associated Minerals (V, Co)
   products: []
-  operator: Shrinibash Sahoo
+  operator: Individual bidder (name withheld)
   operator_type: null
   owners: []
   partners: []
@@ -23706,7 +23706,7 @@
           - 20.8819385
   status: Preferred bidder
   status_as_of: '2026-01-23'
-  status_detail: Shrinibash Sahoo, final price offer 835% (Tranche VI)
+  status_detail: an individual bidder, final price offer 835% (Tranche VI)
   capacity:
     planned:
       value: null
@@ -23737,12 +23737,12 @@
     closed: null
   milestones:
   - date: '2026-01-23'
-    event: 'Tranche VI: preferred bidder (Shrinibash Sahoo, 835%)'
+    event: 'Tranche VI: preferred bidder (individual bidder, 835%)'
     source_id: mstc-t6-nit
   narrative:
     what_it_does: A 4.26 sq km block offered for a composite licence, for graphite, manganese and associated minerals (v,
       co), in Balangir district, Odisha, explored to G3 level.
-    significance: Shrinibash Sahoo won it in Tranche VI (January 2026) with a final price offer of 835%.
+    significance: an individual bidder won it in Tranche VI (January 2026) with a final price offer of 835%.
   related: []
   see_also: []
   confidence: high
@@ -23802,7 +23802,7 @@
       outcome: Preferred bidder
       outcome_date: '2026-01-23'
       annulment_reason: null
-      preferred_bidder: Shrinibash Sahoo
+      preferred_bidder: Individual bidder (name withheld)
       final_offer_pct: 835.0
       reserve_price: 2.00%
     loi_date: null
@@ -24593,7 +24593,7 @@
   - Graphite
   commodity_as_stated: Graphite
   products: []
-  operator: Subburajan
+  operator: Individual bidder (name withheld)
   operator_type: null
   owners: []
   partners: []
@@ -24629,7 +24629,7 @@
           - 19.7246656
   status: Preferred bidder
   status_as_of: '2026-10-16'
-  status_detail: Subburajan, final price offer 30.44% (Tranche VIII)
+  status_detail: an individual bidder, final price offer 30.44% (Tranche VIII)
   capacity:
     planned:
       value: null
@@ -24663,12 +24663,12 @@
     event: 'Tranche VII: annulled'
     source_id: mstc-t7-nit
   - date: '2026-10-16'
-    event: 'Tranche VIII: preferred bidder (Subburajan, 30.44%)'
+    event: 'Tranche VIII: preferred bidder (individual bidder, 30.44%)'
     source_id: mstc-t8-nit
   narrative:
     what_it_does: A 0.14 sq km block offered for a composite licence, for graphite, in Rayagada district, Odisha, explored
       to G3 level.
-    significance: Subburajan won it in Tranche VIII (October 2026) with a final price offer of 30.44%. It took 2 attempts
+    significance: an individual bidder won it in Tranche VIII (October 2026) with a final price offer of 30.44%. It took 2 attempts
       to auction.
   related: []
   see_also: []
@@ -24767,7 +24767,7 @@
       outcome: Preferred bidder
       outcome_date: '2026-10-16'
       annulment_reason: null
-      preferred_bidder: Subburajan
+      preferred_bidder: Individual bidder (name withheld)
       final_offer_pct: 30.44
       reserve_price: 18.00%
     loi_date: null

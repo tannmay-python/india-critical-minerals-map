@@ -3900,10 +3900,10 @@
           - 24.5
         - - 84.5756
           - 24.5153
-  status: Preferred bidder
-  status_as_of: '2024-07-09'
-  status_detail: "Vedanta declared successful bidder by a letter dated 10 Dec 2025 (press report of the company's\
-    \ disclosure; filing not yet retrieved)"
+  status: LoI issued
+  status_as_of: '2025-12-11'
+  status_detail: Vedanta declared successful bidder by letter of 10 Dec 2025 after meeting LoI conditions; licence
+    deed pending
   capacity:
     planned:
       value: null
@@ -3942,6 +3942,9 @@
   - date: '2025-12-10'
     event: Vedanta declared successful bidder (letter dated 10 Dec 2025, as reported)
     source_id: bs-2025-12-12-vedanta-genjana
+  - date: '2025-12-10'
+    event: Declared successful bidder
+    source_id: vedl-bse-2025-12-11-genjana
   narrative:
     what_it_does: A 7.89 sq km block offered for a composite licence, for nickel, chromium and pge, in Gaya district,
       Bihar, explored to G3 level.
@@ -4068,6 +4071,18 @@
     archive_url: null
     supports:
     - auction.history
+  - id: vedl-bse-2025-12-11-genjana
+    url: "https://bsmedia.business-standard.com/_media/bs/data/announcements/bse/11122025/eb9be701-8543-453c-b181-f55f95e7cda1.pdf"
+    title: "Vedanta: Successful Bidder of Genjana Nickel, Chromium and PGE Block under Critical Mineral Auctions\
+      \ (stock-exchange filing)"
+    publisher: Vedanta Ltd (stock-exchange filing)
+    tier: T2
+    date: '2025-12-11'
+    retrieved: '2026-10-25'
+    archive_url: null
+    supports:
+    - status
+    - status_detail
   block:
     concession_type: CL
     auction_route: Centre
@@ -5236,9 +5251,9 @@
     lon: 82.60818
     precision: district
     geometry: null
-  status: Preferred bidder
-  status_as_of: '2023-03-07'
-  status_detail: "M/s Deccan Gold Mines Ltd., final price offer 21% (Chhattisgarh 2022 (second attempt))"
+  status: LoI issued
+  status_as_of: '2025-04-28'
+  status_detail: LoI dated 5 Oct 2023; Deccan Gold began exploration work on the composite licence area in Apr 2025
   capacity:
     planned:
       value: null
@@ -5274,6 +5289,12 @@
   - date: '2023-03-07'
     event: "Chhattisgarh 2022 (second attempt): preferred bidder (M/s Deccan Gold Mines Ltd., 21%)"
     source_id: "raw:mstc-cg-nit-16"
+  - date: '2023-10-05'
+    event: Letter of intent issued by Chhattisgarh
+    source_id: dgml-pr-2023-10-27
+  - date: 2025-04
+    event: Exploration work began on the licence area
+    source_id: filingreader-dgml-2025
   narrative:
     what_it_does: A block offered for a composite licence, for ni, cr and associated pge minerals, in Mahasamund
       district, Chhattisgarh.
@@ -5331,6 +5352,28 @@
     - auction.history
     - operator
     - status
+  - id: dgml-pr-2023-10-27
+    url: "https://businessnewsthisweek.com/business/deccan-gold-mines-ltd-receives-letter-of-intent-loi-for-critical-minerals-cm-block-in-chhattisgarh/"
+    title: "Deccan Gold Mines Ltd. Receives 'Letter of Intent' (LoI) for Critical Minerals (CM) Block in Chhattisgarh\
+      \ (company release)"
+    publisher: Deccan Gold Mines Ltd (press release)
+    tier: T2
+    date: '2023-10-27'
+    retrieved: '2026-10-25'
+    archive_url: null
+    supports:
+    - status
+    - auction.loi_date
+  - id: filingreader-dgml-2025
+    url: "https://filingreader.com/news-wire/mumbai/2025-04-28/deccan-gold-commences-work-on-chhattisgarh-nickel-licence"
+    title: Deccan Gold commences work on Chhattisgarh nickel licence
+    publisher: FilingReader
+    tier: T3
+    date: '2025-04-28'
+    retrieved: '2026-10-25'
+    archive_url: null
+    supports:
+    - status_detail
   block:
     concession_type: CL
     auction_route: State
@@ -5356,7 +5399,7 @@
       preferred_bidder: M/s Deccan Gold Mines Ltd.
       final_offer_pct: 21.0
       reserve_price: null
-    loi_date: null
+    loi_date: '2023-10-05'
     licence_or_lease_executed: null
     production_started: null
 - id: blk-cg-bijora-kumhalori
@@ -11003,9 +11046,9 @@
           - 16.3418889
         - - 76.739425
           - 16.4503972
-  status: Preferred bidder
-  status_as_of: '2025-08-19'
-  status_detail: "The Singareni Collieries Company Limited, final price offer 37.75% (EL Tranche I)"
+  status: Licence / lease executed
+  status_as_of: '2026-08-15'
+  status_detail: Exploration agreement with Karnataka signed Aug 2026; SCCL has five years to complete exploration
   capacity:
     planned:
       value: null
@@ -11038,6 +11081,9 @@
   - date: '2025-08-19'
     event: "EL Tranche I: preferred bidder (The Singareni Collieries Company Limited, 37.75%)"
     source_id: mstc-el1-nit
+  - date: '2026-08-06'
+    event: Exploration licence agreement signed with the Karnataka Department of Mines and Geology
+    source_id: uni-sccl-devadurga
   narrative:
     what_it_does: A 199.13 sq km block offered for an exploration licence, for gold and copper, in Raichur district,
       Karnataka, explored to G3 level.
@@ -11111,6 +11157,28 @@
     - block.area_sq_km
     - block.exploration_stage
     - location
+  - id: uni-sccl-devadurga
+    url: "https://test.uniindia.com/news/business-economy/mining-singareni-gold-exploration/3936030.html"
+    title: "Telangana's Singareni begins gold, copper exploration in Karnataka's Devadurga block"
+    publisher: United News of India
+    tier: T3
+    date: '2026-08-07'
+    retrieved: '2026-10-25'
+    archive_url: null
+    supports:
+    - status
+    - auction.licence_or_lease_executed
+    - status_detail
+  - id: tt-sccl-devadurga
+    url: "https://telanganatoday.com/sccl-enters-strategic-minerals-sector-secures-karnataka-licence"
+    title: SCCL enters strategic minerals sector, secures Karnataka licence
+    publisher: Telangana Today
+    tier: T3
+    date: '2026-08-15'
+    retrieved: '2026-10-25'
+    archive_url: null
+    supports:
+    - status
   block:
     concession_type: EL
     auction_route: Centre
@@ -11129,7 +11197,7 @@
       final_offer_pct: 37.75
       reserve_price: null
     loi_date: null
-    licence_or_lease_executed: null
+    licence_or_lease_executed: '2026-08-06'
     production_started: null
 - id: blk-ka-dombarahalli
   name: Dombarahalli Phosphate and REE Block
@@ -14387,7 +14455,7 @@
   - Graphite
   commodity_as_stated: Graphite
   products: []
-  operator: Urmila Dilip Chandan
+  operator: Individual bidder (name withheld)
   operator_type: null
   owners: []
   partners: []
@@ -14425,7 +14493,7 @@
           - 21.9313208
   status: Preferred bidder
   status_as_of: '2018-05-17'
-  status_detail: "Urmila Dilip Chandan, final price offer 200.1% (a 2018 state auction)"
+  status_detail: "Individual bidder (name withheld), final price offer 200.1% (a 2018 state auction)"
   capacity:
     planned:
       value: null
@@ -14456,12 +14524,12 @@
     closed: null
   milestones:
   - date: '2018-05-17'
-    event: "a 2018 state auction: preferred bidder (Urmila Dilip Chandan, 200.1%)"
+    event: "a 2018 state auction: preferred bidder (individual bidder, 200.1%)"
     source_id: mom-sas-2025-05-27
   narrative:
     what_it_does: A 0.33 sq km block offered for a mining lease, for graphite, in Betul district, Madhya Pradesh,
       explored to G3 level.
-    significance: "Urmila Dilip Chandan won it in a 2018 state auction (May 2018) with a final price offer of 200.1%."
+    significance: "An individual bidder won it in a 2018 state auction (May 2018) with a final price offer of 200.1%."
   related: []
   see_also: []
   confidence: high
@@ -14509,7 +14577,7 @@
       outcome: Preferred bidder
       outcome_date: '2018-05-17'
       annulment_reason: null
-      preferred_bidder: Urmila Dilip Chandan
+      preferred_bidder: Individual bidder (name withheld)
       final_offer_pct: 200.1
       reserve_price: null
     loi_date: null
@@ -22645,7 +22713,7 @@
   - Titanium
   commodity_as_stated: Titanium and Vanadium
   products: []
-  operator: Govind Kumar Agrawal
+  operator: Individual bidder (name withheld)
   operator_type: null
   owners: []
   partners: []
@@ -22673,7 +22741,7 @@
           - 22.1128081
   status: Preferred bidder
   status_as_of: '2026-06-16'
-  status_detail: "Govind Kumar Agrawal, final price offer 6.15% (EL Tranche II)"
+  status_detail: "Individual bidder (name withheld), final price offer 6.15% (EL Tranche II)"
   capacity:
     planned:
       value: null
@@ -22704,12 +22772,12 @@
     closed: null
   milestones:
   - date: '2026-06-16'
-    event: "EL Tranche II: preferred bidder (Govind Kumar Agrawal, 6.15%)"
+    event: "EL Tranche II: preferred bidder (individual bidder, 6.15%)"
     source_id: mstc-el2-nit
   narrative:
     what_it_does: A 181.51 sq km block offered for an exploration licence, for titanium and vanadium, in Mayurbhanj
       district, Odisha.
-    significance: "Govind Kumar Agrawal won the exploration licence in EL Tranche II (June 2026) with the lowest\
+    significance: "An individual bidder won the exploration licence in EL Tranche II (June 2026) with the lowest\
       \ final price offer, 6.15% (exploration-licence auctions are reverse auctions)."
   related: []
   see_also: []
@@ -22770,7 +22838,7 @@
       outcome: Preferred bidder
       outcome_date: '2026-06-16'
       annulment_reason: null
-      preferred_bidder: Govind Kumar Agrawal
+      preferred_bidder: Individual bidder (name withheld)
       final_offer_pct: 6.15
       reserve_price: "40.00%"
     loi_date: null
@@ -23736,7 +23804,7 @@
   - Cobalt
   commodity_as_stated: Graphite, Manganese and Associated Minerals (V, Co)
   products: []
-  operator: Shrinibash Sahoo
+  operator: Individual bidder (name withheld)
   operator_type: null
   owners: []
   partners: []
@@ -23764,7 +23832,7 @@
           - 20.8819385
   status: Preferred bidder
   status_as_of: '2026-01-23'
-  status_detail: "Shrinibash Sahoo, final price offer 835% (Tranche VI)"
+  status_detail: "Individual bidder (name withheld), final price offer 835% (Tranche VI)"
   capacity:
     planned:
       value: null
@@ -23795,12 +23863,12 @@
     closed: null
   milestones:
   - date: '2026-01-23'
-    event: "Tranche VI: preferred bidder (Shrinibash Sahoo, 835%)"
+    event: "Tranche VI: preferred bidder (individual bidder, 835%)"
     source_id: mstc-t6-nit
   narrative:
     what_it_does: A 4.26 sq km block offered for a composite licence, for graphite, manganese and associated minerals
       (v, co), in Balangir district, Odisha, explored to G3 level.
-    significance: "Shrinibash Sahoo won it in Tranche VI (January 2026) with a final price offer of 835%."
+    significance: "An individual bidder won it in Tranche VI (January 2026) with a final price offer of 835%."
   related: []
   see_also: []
   confidence: high
@@ -23860,7 +23928,7 @@
       outcome: Preferred bidder
       outcome_date: '2026-01-23'
       annulment_reason: null
-      preferred_bidder: Shrinibash Sahoo
+      preferred_bidder: Individual bidder (name withheld)
       final_offer_pct: 835.0
       reserve_price: "2.00%"
     loi_date: null
@@ -24651,7 +24719,7 @@
   - Graphite
   commodity_as_stated: Graphite
   products: []
-  operator: Subburajan
+  operator: Individual bidder (name withheld)
   operator_type: null
   owners: []
   partners: []
@@ -24687,7 +24755,7 @@
           - 19.7246656
   status: Preferred bidder
   status_as_of: '2026-10-16'
-  status_detail: "Subburajan, final price offer 30.44% (Tranche VIII)"
+  status_detail: "Individual bidder (name withheld), final price offer 30.44% (Tranche VIII)"
   capacity:
     planned:
       value: null
@@ -24721,13 +24789,13 @@
     event: "Tranche VII: annulled"
     source_id: mstc-t7-nit
   - date: '2026-10-16'
-    event: "Tranche VIII: preferred bidder (Subburajan, 30.44%)"
+    event: "Tranche VIII: preferred bidder (individual bidder, 30.44%)"
     source_id: mstc-t8-nit
   narrative:
     what_it_does: A 0.14 sq km block offered for a composite licence, for graphite, in Rayagada district, Odisha,
       explored to G3 level.
-    significance: "Subburajan won it in Tranche VIII (October 2026) with a final price offer of 30.44%. It took\
-      \ 2 attempts to auction."
+    significance: "An individual bidder won it in Tranche VIII (October 2026) with a final price offer of 30.44%.\
+      \ It took 2 attempts to auction."
   related: []
   see_also: []
   confidence: high
@@ -24825,7 +24893,7 @@
       outcome: Preferred bidder
       outcome_date: '2026-10-16'
       annulment_reason: null
-      preferred_bidder: Subburajan
+      preferred_bidder: Individual bidder (name withheld)
       final_offer_pct: 30.44
       reserve_price: "18.00%"
     loi_date: null
@@ -30108,9 +30176,9 @@
           - 17.6257872
         - - 77.5709258
           - 17.6425856
-  status: Preferred bidder
-  status_as_of: '2026-06-12'
-  status_detail: "NLC India Limited, final price offer 7.05% (Tranche VII)"
+  status: LoI issued
+  status_as_of: '2026-08-31'
+  status_detail: Telangana issued NLC India the LoI for a composite licence on 31 Aug 2026
   capacity:
     planned:
       value: null
@@ -30146,6 +30214,9 @@
   - date: '2026-06-12'
     event: "Tranche VII: preferred bidder (NLC India Limited, 7.05%)"
     source_id: mstc-t7-nit
+  - date: '2026-08-31'
+    event: Letter of intent for composite licence issued by Telangana
+    source_id: psuwatch-nlc-tg-loi
   narrative:
     what_it_does: "A 3.72 sq km block offered for a composite licence, for vanadium, titanium & aluminous laterite,\
       \ in Sangareddy district, Telangana, explored to G3 level."
@@ -30226,6 +30297,27 @@
     - block.area_sq_km
     - block.exploration_stage
     - location
+  - id: psuwatch-nlc-tg-loi
+    url: "https://psuwatch.com/newsupdates/nlc-india-receives-loi-for-composite-licence-for-critical-mineral-blocks-in-telangana"
+    title: NLC India receives LoI for composite licence for critical mineral blocks in Telangana
+    publisher: PSU Watch
+    tier: T3
+    date: 2026-09
+    retrieved: '2026-10-25'
+    archive_url: null
+    supports:
+    - status
+    - auction.loi_date
+  - id: sahi-nlc-tg-loi
+    url: "https://www.sahi.com/news/nlc-india-receives-telangana-loi-for-two-critical-mineral-blocks-933-PE1_CORP"
+    title: NLC India Receives Telangana LoI For Two Critical Mineral Blocks
+    publisher: Sahi
+    tier: T3
+    date: 2026-09
+    retrieved: '2026-10-25'
+    archive_url: null
+    supports:
+    - status
   block:
     concession_type: CL
     auction_route: Centre
@@ -30251,7 +30343,7 @@
       preferred_bidder: NLC India Limited
       final_offer_pct: 7.05
       reserve_price: "7.00%"
-    loi_date: null
+    loi_date: '2026-08-31'
     licence_or_lease_executed: null
     production_started: null
 - id: blk-tg-kondagattu
@@ -30572,9 +30664,9 @@
           - 17.5985878
         - - 77.5430169
           - 17.617535
-  status: Preferred bidder
-  status_as_of: '2026-06-11'
-  status_detail: "NLC India Limited, final price offer 6.05% (Tranche VII)"
+  status: LoI issued
+  status_as_of: '2026-08-31'
+  status_detail: Telangana issued NLC India the LoI for a composite licence on 31 Aug 2026
   capacity:
     planned:
       value: null
@@ -30610,6 +30702,9 @@
   - date: '2026-06-11'
     event: "Tranche VII: preferred bidder (NLC India Limited, 6.05%)"
     source_id: mstc-t7-nit
+  - date: '2026-08-31'
+    event: Letter of intent for composite licence issued by Telangana
+    source_id: psuwatch-nlc-tg-loi
   narrative:
     what_it_does: "A 3.35 sq km block offered for a composite licence, for vanadium, titanium & aluminous laterite,\
       \ in Sangareddy district, Telangana, explored to G3 level."
@@ -30690,6 +30785,27 @@
     - block.area_sq_km
     - block.exploration_stage
     - location
+  - id: psuwatch-nlc-tg-loi
+    url: "https://psuwatch.com/newsupdates/nlc-india-receives-loi-for-composite-licence-for-critical-mineral-blocks-in-telangana"
+    title: NLC India receives LoI for composite licence for critical mineral blocks in Telangana
+    publisher: PSU Watch
+    tier: T3
+    date: 2026-09
+    retrieved: '2026-10-25'
+    archive_url: null
+    supports:
+    - status
+    - auction.loi_date
+  - id: sahi-nlc-tg-loi
+    url: "https://www.sahi.com/news/nlc-india-receives-telangana-loi-for-two-critical-mineral-blocks-933-PE1_CORP"
+    title: NLC India Receives Telangana LoI For Two Critical Mineral Blocks
+    publisher: Sahi
+    tier: T3
+    date: 2026-09
+    retrieved: '2026-10-25'
+    archive_url: null
+    supports:
+    - status
   block:
     concession_type: CL
     auction_route: Centre
@@ -30715,7 +30831,7 @@
       preferred_bidder: NLC India Limited
       final_offer_pct: 6.05
       reserve_price: "6.00%"
-    loi_date: null
+    loi_date: '2026-08-31'
     licence_or_lease_executed: null
     production_started: null
 - id: blk-up-barwadih
@@ -31575,9 +31691,9 @@
           - 24.1064111
         - - 83.1064806
           - 24.1061139
-  status: Preferred bidder
-  status_as_of: '2025-05-20'
-  status_detail: "Hindustan Zinc Limited, final price offer 3.55% (Tranche V)"
+  status: Licence / lease executed
+  status_as_of: '2026-06-29'
+  status_detail: Composite licence deed executed with Uttar Pradesh on 27 Jun 2026 (LoI notified Jul 2025)
   capacity:
     planned:
       value: null
@@ -31613,6 +31729,12 @@
   - date: '2025-05-20'
     event: "Tranche V: preferred bidder (Hindustan Zinc Limited, 3.55%)"
     source_id: mstc-t5-nit
+  - date: '2025-07-04'
+    event: Letter of intent issued by Uttar Pradesh (company filing)
+    source_id: hzl-nse-2025-07-04-loi
+  - date: '2026-06-27'
+    event: Composite licence deed executed
+    source_id: scanx-hzl-nawatola-cl
   narrative:
     what_it_does: A 2.10 sq km block offered for a composite licence, for ree (rare earth element), in Sonbhadra
       district, Uttar Pradesh, explored to G3 level.
@@ -31707,6 +31829,37 @@
     - auction.history
     - operator
     - status
+  - id: hzl-nse-2025-07-04-loi
+    url: "https://nsearchives.nseindia.com/corporate/HINDZINCNSE_04072025145012_SEIntimation-LOI.pdf"
+    title: "Hindustan Zinc: Issuance of Letter of Intent in favor of the Preferred Bidder (Nawatola-Laband REE Block)"
+    publisher: Hindustan Zinc Ltd (stock-exchange filing)
+    tier: T2
+    date: '2025-07-04'
+    retrieved: '2026-10-25'
+    archive_url: null
+    supports:
+    - milestones
+  - id: bt-hzl-nawatola-cl
+    url: "https://www.businesstoday.in/markets/stocks/story/hind-zinc-shares-in-focus-amid-pact-with-up-govt-to-explore-nawatola-rare-earths-block-539602-2026-06-29"
+    title: Hind Zinc shares in focus amid pact with UP govt to explore Nawatola rare earths block
+    publisher: Business Today
+    tier: T3
+    date: '2026-06-29'
+    retrieved: '2026-10-25'
+    archive_url: null
+    supports:
+    - status
+  - id: scanx-hzl-nawatola-cl
+    url: "https://scanx.trade/stock-market-news/companies/hindustan-zinc-secures-composite-licence-for-up-ree-block/44117011"
+    title: Hindustan Zinc secures composite licence for UP REE block
+    publisher: ScanX
+    tier: T3
+    date: '2026-06-29'
+    retrieved: '2026-10-25'
+    archive_url: null
+    supports:
+    - status
+    - auction.licence_or_lease_executed
   block:
     concession_type: CL
     auction_route: Centre
@@ -31734,7 +31887,7 @@
       final_offer_pct: 3.55
       reserve_price: "02.50%"
     loi_date: null
-    licence_or_lease_executed: null
+    licence_or_lease_executed: '2026-06-27'
     production_started: null
 - id: blk-up-pahadi-kalan-gora-kalan
   name: Pahadi Kalan-Gora Kalan Phosphorite Block

@@ -1,4 +1,4 @@
-[text extracted by OCR: macOS Vision, scripts/research/ocr_pdf.swift; source PDF is a scan]
+[text extracted by OCR: macOS Vision, scripts/research/ocr.swift; source PDF is a scan]
 29
 STANDING COMMITTEE ON
 COAL, MINES AND STEEL (2025-2026)

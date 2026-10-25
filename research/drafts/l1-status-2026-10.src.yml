@@ -1,0 +1,170 @@
+# L1 post-auction status updates found in the October 2026 research pass (company filings and trade press).
+# Applied with scripts/research/apply_updates.py, then merged with merge.py.
+layer: blocks
+
+sources:
+  psuwatch-nlc-tg-loi:
+    raw: psuwatch.com/nlc-india-receives-loi-for-composite-licence-for-critical-mineral-blocks-in-telangana
+    title: "NLC India receives LoI for composite licence for critical mineral blocks in Telangana"
+    publisher: PSU Watch
+    tier: T3
+    date: "2026-09"
+  sahi-nlc-tg-loi:
+    raw: sahi.com/nlc-india-receives-telangana-loi-for-two-critical-mineral-blocks-933-PE1_CORP
+    title: "NLC India Receives Telangana LoI For Two Critical Mineral Blocks"
+    publisher: Sahi
+    tier: T3
+    date: "2026-09"
+  hzl-nse-2025-07-04-loi:
+    raw: nsearchives.nseindia.com/HINDZINCNSE_04072025145012_SEIntimation-LOI
+    title: "Hindustan Zinc: Issuance of Letter of Intent in favor of the Preferred Bidder (Nawatola-Laband REE Block)"
+    publisher: Hindustan Zinc Ltd (stock-exchange filing)
+    tier: T2
+    date: "2025-07-04"
+  bt-hzl-nawatola-cl:
+    raw: businesstoday.in/hind-zinc-shares-in-focus-amid-pact-with-up-govt-to-explore-nawatola-rare-earths-block-539
+    title: "Hind Zinc shares in focus amid pact with UP govt to explore Nawatola rare earths block"
+    publisher: Business Today
+    tier: T3
+    date: "2026-06-29"
+  scanx-hzl-nawatola-cl:
+    raw: scanx.trade/44117011
+    title: "Hindustan Zinc secures composite licence for UP REE block"
+    publisher: ScanX
+    tier: T3
+    date: "2026-06-29"
+  vedl-bse-2025-12-11-genjana:
+    raw: bsmedia.business-standard.com/eb9be701-8543-453c-b181-f55f95e7cda1
+    title: "Vedanta: Successful Bidder of Genjana Nickel, Chromium and PGE Block under Critical Mineral Auctions (stock-exchange filing)"
+    publisher: Vedanta Ltd (stock-exchange filing)
+    tier: T2
+    date: "2025-12-11"
+  uni-sccl-devadurga:
+    raw: test.uniindia.com/3936030
+    title: "Telangana's Singareni begins gold, copper exploration in Karnataka's Devadurga block"
+    publisher: United News of India
+    tier: T3
+    date: "2026-08-07"
+  tt-sccl-devadurga:
+    raw: telanganatoday.com/sccl-enters-strategic-minerals-sector-secures-karnataka-licence
+    title: "SCCL enters strategic minerals sector, secures Karnataka licence"
+    publisher: Telangana Today
+    tier: T3
+    date: "2026-08-15"
+  dgml-pr-2023-10-27:
+    raw: businessnewsthisweek.com/deccan-gold-mines-ltd-receives-letter-of-intent-loi-for-critical-minerals-cm-block-in-chha
+    title: "Deccan Gold Mines Ltd. Receives 'Letter of Intent' (LoI) for Critical Minerals (CM) Block in Chhattisgarh (company release)"
+    publisher: Deccan Gold Mines Ltd (press release)
+    tier: T2
+    date: "2023-10-27"
+  filingreader-dgml-2025:
+    raw: filingreader.com/deccan-gold-commences-work-on-chhattisgarh-nickel-licence
+    title: "Deccan Gold commences work on Chhattisgarh nickel licence"
+    publisher: FilingReader
+    tier: T3
+    date: "2025-04-28"
+
+updates:
+  - id: blk-tg-govindpur
+    set:
+      status: LoI issued
+      status_as_of: "2026-08-31"
+      status_detail: "Telangana issued NLC India the LoI for a composite licence on 31 Aug 2026"
+      auction: {loi_date: "2026-08-31"}
+    milestones:
+      - {date: "2026-08-31", event: "Letter of intent for composite licence issued by Telangana", source_id: psuwatch-nlc-tg-loi}
+    sources: &nlc_tg
+      - ref: psuwatch-nlc-tg-loi
+        supports: [status, auction.loi_date]
+        ev:
+          status: "The company emerged as the Preferred Bidder for the Govindpur Vanadium, Titanium & Aluminous Laterite Block and the Parvathapur Vanadium, Titanium & Aluminous Laterite Block"
+          auction.loi_date: "NLCIL received the LoI for grant of the Composite Licence from the Government of Telangana on August 31, covering both the Govindpur and Parvathapur blocks."
+      - ref: sahi-nlc-tg-loi
+        supports: [status]
+        ev:
+          status: "NLC India has secured a Letter of Intent from the Telangana Government for composite licences covering the Govindpur and Parvathapur blocks."
+
+  - id: blk-tg-parvathapur
+    set:
+      status: LoI issued
+      status_as_of: "2026-08-31"
+      status_detail: "Telangana issued NLC India the LoI for a composite licence on 31 Aug 2026"
+      auction: {loi_date: "2026-08-31"}
+    milestones:
+      - {date: "2026-08-31", event: "Letter of intent for composite licence issued by Telangana", source_id: psuwatch-nlc-tg-loi}
+    sources: *nlc_tg
+
+  - id: blk-up-nawatola-laband
+    set:
+      status: Licence / lease executed
+      status_as_of: "2026-06-29"
+      status_detail: "Composite licence deed executed with Uttar Pradesh on 27 Jun 2026 (LoI notified Jul 2025)"
+      auction: {licence_or_lease_executed: "2026-06-27"}
+    milestones:
+      - {date: "2025-07-04", event: "Letter of intent issued by Uttar Pradesh (company filing)", source_id: hzl-nse-2025-07-04-loi}
+      - {date: "2026-06-27", event: "Composite licence deed executed", source_id: scanx-hzl-nawatola-cl}
+    sources:
+      - ref: hzl-nse-2025-07-04-loi
+        supports: [milestones]
+        ev:
+          milestones: "the Government of Uttar Pradesh has issued Letter of Intent (LoI), under Rule 18(1) of the Mineral Auction Rules 2015, to Hindustan Zinc Limited"
+      - ref: bt-hzl-nawatola-cl
+        supports: [status]
+        ev:
+          status: "the Vedanta group firm executed the deed for grant of composite licence (CL)"
+      - ref: scanx-hzl-nawatola-cl
+        supports: [status, auction.licence_or_lease_executed]
+        ev:
+          auction.licence_or_lease_executed: "The execution, dated June 27, 2026, was completed with the Government of Uttar Pradesh"
+
+  - id: blk-br-genjana
+    set:
+      status: LoI issued
+      status_as_of: "2025-12-11"
+      status_detail: "Vedanta declared successful bidder by letter of 10 Dec 2025 after meeting LoI conditions; licence deed pending"
+    milestones:
+      - {date: "2025-12-10", event: "Declared successful bidder", source_id: vedl-bse-2025-12-11-genjana}
+    sources:
+      - ref: vedl-bse-2025-12-11-genjana
+        supports: [status, status_detail]
+        ev:
+          status: "Company has been declared as Successful Bidder in respect of Genjana Nickel, Chromium and PGE Block"
+          status_detail: "after fulfilling required statuary compliances via letter dated December 10, 2025"
+
+  - id: blk-ka-devadurga
+    set:
+      status: Licence / lease executed
+      status_as_of: "2026-08-15"
+      status_detail: "Exploration agreement with Karnataka signed Aug 2026; SCCL has five years to complete exploration"
+      auction: {licence_or_lease_executed: "2026-08-06"}
+    milestones:
+      - {date: "2026-08-06", event: "Exploration licence agreement signed with the Karnataka Department of Mines and Geology", source_id: uni-sccl-devadurga}
+    sources:
+      - ref: uni-sccl-devadurga
+        supports: [status, auction.licence_or_lease_executed, status_detail]
+        ev:
+          status: "has formally commenced exploration of gold and copper deposits in Karnataka's Devadurga Block after signing an agreement with the Karnataka Department of Mines and Geology (DMG)."
+          status_detail: "Under the agreement, SCCL will complete exploration of the Devadurga Block within five years."
+      - ref: tt-sccl-devadurga
+        supports: [status]
+        ev:
+          status: "secured a license to explore for gold and copper in the Devadurga region of Karnataka and would commence exploration activities soon"
+
+  - id: blk-cg-bhalukona-jamnidih
+    set:
+      status: LoI issued
+      status_as_of: "2025-04-28"
+      status_detail: "LoI dated 5 Oct 2023; Deccan Gold began exploration work on the composite licence area in Apr 2025"
+      auction: {loi_date: "2023-10-05"}
+    milestones:
+      - {date: "2023-10-05", event: "Letter of intent issued by Chhattisgarh", source_id: dgml-pr-2023-10-27}
+      - {date: "2025-04", event: "Exploration work began on the licence area", source_id: filingreader-dgml-2025}
+    sources:
+      - ref: dgml-pr-2023-10-27
+        supports: [status, auction.loi_date]
+        ev:
+          auction.loi_date: "has received ‘Letter of Intent’ dated October 5, 2023 (received on October 26, 2023) for the Bhalukona — Jamnidih Nickel, Chromium and Associated PGE Block"
+      - ref: filingreader-dgml-2025
+        supports: [status_detail]
+        ev:
+          status_detail: "Work commences on Composite Licence over the Bhalukona-Jamnidih Nickel, Chromium and PGE Block in Chhattisgarh"
