@@ -1,0 +1,136 @@
+# gsi_exploration layer — single source of truth. See docs/SCHEMA.md. Merged by scripts/research/merge.py.
+- id: gsi-india-2024-25
+  scope: national
+  state: null
+  season: 2024-25
+  gsi_projects: 195
+  nmedt_projects: 62
+  sources:
+  - id: ls-usq-1884-2026
+    url: "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/187/AU1884_DDUVqA.pdf?source=lsapps"
+    title: "Lok Sabha Unstarred Question 1884: National Critical Mineral Mission"
+    publisher: Lok Sabha Secretariat
+    tier: T1
+    date: '2026-02-11'
+    retrieved: '2026-10-25'
+    archive_url: null
+    supports:
+    - gsi_projects
+    - nmedt_projects
+  minerals: []
+  layer: gsi_exploration
+- id: gsi-india-2025-26
+  scope: national
+  state: null
+  season: 2025-26
+  gsi_projects: 230
+  nmedt_projects: 84
+  notes: "NMEDT count rose from 60 (Feb 2026) to 84 (Aug 2026) as projects were sanctioned during the year. GSI's\
+    \ count is also given as 228 initiated (Jul 2025)."
+  sources:
+  - id: ls-usq-1884-2026
+    url: "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/187/AU1884_DDUVqA.pdf?source=lsapps"
+    title: "Lok Sabha Unstarred Question 1884: National Critical Mineral Mission"
+    publisher: Lok Sabha Secretariat
+    tier: T1
+    date: '2026-02-11'
+    retrieved: '2026-10-25'
+    archive_url: null
+    supports:
+    - gsi_projects
+  - id: ls-usq-2978-2026
+    url: "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/188/AU2978_4TVdAQ.pdf?source=lsapps"
+    title: "Lok Sabha Unstarred Question 2978: Critical Minerals Reserves"
+    publisher: Lok Sabha Secretariat
+    tier: T1
+    date: '2026-08-05'
+    retrieved: '2026-10-25'
+    archive_url: null
+    supports:
+    - nmedt_projects
+  - id: ls-usq-476-2025
+    url: "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/185/AU476_uB8Nad.pdf?source=lsapps"
+    title: "Lok Sabha Unstarred Question 476: Funds under the National Critical Mineral Mission"
+    publisher: Lok Sabha Secretariat
+    tier: T1
+    date: '2025-07-23'
+    retrieved: '2026-10-25'
+    archive_url: null
+    supports:
+    - notes
+  minerals: []
+  layer: gsi_exploration
+- id: gsi-india-2026-27
+  scope: national
+  state: null
+  season: 2026-27
+  gsi_projects: 300
+  nmedt_projects: null
+  notes: Planned field season.
+  sources:
+  - id: ls-usq-2978-2026
+    url: "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/188/AU2978_4TVdAQ.pdf?source=lsapps"
+    title: "Lok Sabha Unstarred Question 2978: Critical Minerals Reserves"
+    publisher: Lok Sabha Secretariat
+    tier: T1
+    date: '2026-08-05'
+    retrieved: '2026-10-25'
+    archive_url: null
+    supports:
+    - gsi_projects
+  minerals: []
+  layer: gsi_exploration
+- id: gsi-target-2024-31
+  scope: national
+  state: null
+  season: 2024-25 to 2030-31
+  target_projects: 1200
+  sources:
+  - id: ls-usq-1884-2026
+    url: "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/187/AU1884_DDUVqA.pdf?source=lsapps"
+    title: "Lok Sabha Unstarred Question 1884: National Critical Mineral Mission"
+    publisher: Lok Sabha Secretariat
+    tier: T1
+    date: '2026-02-11'
+    retrieved: '2026-10-25'
+    archive_url: null
+    supports:
+    - target_projects
+  minerals: []
+  layer: gsi_exploration
+- id: gsi-rajasthan-2024-25
+  scope: state
+  state: Rajasthan
+  season: 2024-25
+  gsi_projects: 35
+  sources:
+  - id: ls-usq-728-2026
+    url: "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/187/AU728_i0HlcX.pdf?source=lsapps"
+    title: "Lok Sabha Unstarred Question 728: National Critical Mineral Mission"
+    publisher: Lok Sabha Secretariat
+    tier: T1
+    date: '2026-02-04'
+    retrieved: '2026-10-25'
+    archive_url: null
+    supports:
+    - gsi_projects
+  minerals: []
+  layer: gsi_exploration
+- id: gsi-rajasthan-2025-26
+  scope: state
+  state: Rajasthan
+  season: 2025-26
+  gsi_projects: 40
+  sources:
+  - id: ls-usq-728-2026
+    url: "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/187/AU728_i0HlcX.pdf?source=lsapps"
+    title: "Lok Sabha Unstarred Question 728: National Critical Mineral Mission"
+    publisher: Lok Sabha Secretariat
+    tier: T1
+    date: '2026-02-04'
+    retrieved: '2026-10-25'
+    archive_url: null
+    supports:
+    - gsi_projects
+  minerals: []
+  layer: gsi_exploration

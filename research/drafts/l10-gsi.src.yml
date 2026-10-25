@@ -1,0 +1,112 @@
+# L10 GSI and NMEDT critical-mineral exploration aggregates (aux, data/gsi_exploration.yml).
+# GSI's Field Season Programme documents with state-wise project counts were not found in a fetchable form
+# (OPEN_QUESTIONS 17), so rows are national per field season, plus states where a Lok Sabha answer gives figures.
+layer: gsi_exploration
+aux: true
+
+sources:
+  ls-usq-1884-2026:
+    raw: sansad.in/AU1884_DDUVqA-74598729
+    title: "Lok Sabha Unstarred Question 1884: National Critical Mineral Mission"
+    publisher: Lok Sabha Secretariat
+    tier: T1
+    date: "2026-02-11"
+  ls-usq-2978-2026:
+    raw: sansad.in/AU2978_4TVdAQ-74598729
+    title: "Lok Sabha Unstarred Question 2978: Critical Minerals Reserves"
+    publisher: Lok Sabha Secretariat
+    tier: T1
+    date: "2026-08-05"
+  ls-usq-728-2026:
+    raw: sansad.in/AU728_i0HlcX-74598729
+    title: "Lok Sabha Unstarred Question 728: National Critical Mineral Mission"
+    publisher: Lok Sabha Secretariat
+    tier: T1
+    date: "2026-02-04"
+  ls-usq-476-2025:
+    raw: sansad.in/AU476_uB8Nad-74598729
+    title: "Lok Sabha Unstarred Question 476: Funds under the National Critical Mineral Mission"
+    publisher: Lok Sabha Secretariat
+    tier: T1
+    date: "2025-07-23"
+
+records:
+  - id: gsi-india-2024-25
+    scope: national
+    state: null
+    season: "2024-25"
+    gsi_projects: 195
+    nmedt_projects: 62
+    sources:
+      - ref: ls-usq-1884-2026
+        supports: [gsi_projects, nmedt_projects]
+        ev:
+          gsi_projects: "GSI carried out 195 critical mineral exploration projects in 2024-25, and took up 230 projects in 2025-26 across the country."
+          nmedt_projects: "sanctioned 62 projects for critical mineral exploration during 2024–25 and 60 projects during 2025-26"
+
+  - id: gsi-india-2025-26
+    scope: national
+    state: null
+    season: "2025-26"
+    gsi_projects: 230
+    nmedt_projects: 84
+    notes: "NMEDT count rose from 60 (Feb 2026) to 84 (Aug 2026) as projects were sanctioned during the year. GSI's count is also given as 228 initiated (Jul 2025)."
+    sources:
+      - ref: ls-usq-1884-2026
+        supports: [gsi_projects]
+        ev:
+          gsi_projects: "GSI carried out 195 critical mineral exploration projects in 2024-25, and took up 230 projects in 2025-26 across the country."
+      - ref: ls-usq-2978-2026
+        supports: [nmedt_projects]
+        ev:
+          nmedt_projects: "Funding by NMEDT for critical and strategic mineral exploration projects also increased from 62 projects in 2024-25 to 84 projects in 2025-26."
+      - ref: ls-usq-476-2025
+        supports: [notes]
+        ev:
+          notes: "the current year 2025-26, 228 exploration projects targeting critical and strategic minerals have been initiated across the country."
+
+  - id: gsi-india-2026-27
+    scope: national
+    state: null
+    season: "2026-27"
+    gsi_projects: 300
+    nmedt_projects: null
+    notes: "Planned field season."
+    sources:
+      - ref: ls-usq-2978-2026
+        supports: [gsi_projects]
+        ev:
+          gsi_projects: "Critical and strategic mineral exploration projects across the country have been increasingly taken up by GSI from 195 in field season 2024-25 to 300 in field season 2026-27."
+
+  - id: gsi-target-2024-31
+    scope: national
+    state: null
+    season: "2024-25 to 2030-31"
+    target_projects: 1200
+    sources:
+      - ref: ls-usq-1884-2026
+        supports: [target_projects]
+        ev:
+          target_projects: "Domestic Critical Mineral Exploration Projects 1200"
+
+  - id: gsi-rajasthan-2024-25
+    scope: state
+    state: Rajasthan
+    season: "2024-25"
+    gsi_projects: 35
+    sources:
+      - ref: ls-usq-728-2026
+        supports: [gsi_projects]
+        ev:
+          gsi_projects: "GSI, took up 35 exploration projects for various critical and strategic minerals in 2024-25 and 40 projects in 2025-26 in Rajasthan."
+
+  - id: gsi-rajasthan-2025-26
+    scope: state
+    state: Rajasthan
+    season: "2025-26"
+    gsi_projects: 40
+    sources:
+      - ref: ls-usq-728-2026
+        supports: [gsi_projects]
+        ev:
+          gsi_projects: "GSI, took up 35 exploration projects for various critical and strategic minerals in 2024-25 and 40 projects in 2025-26 in Rajasthan."

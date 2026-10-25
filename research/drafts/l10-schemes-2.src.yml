@@ -1,0 +1,355 @@
+# L10 schemes, second batch: NCMM parent and sub-schemes, ACC PLI, ISM, REE corridors, Li-Ni incentive,
+# customs exemptions, MMDR amendments. Aux records (no entity skeleton).
+# Expanded by scripts/research/build_entities.py into l10-schemes-2.yml + .evidence.jsonl.
+layer: schemes
+aux: true
+
+sources:
+  ls-usq-1884-2026:
+    raw: sansad.in/AU1884_DDUVqA-74598729
+    title: "Lok Sabha Unstarred Question 1884: National Critical Mineral Mission"
+    publisher: Lok Sabha Secretariat
+    tier: T1
+    date: "2026-02-11"
+  ls-usq-476-2025:
+    raw: sansad.in/AU476_uB8Nad-74598729
+    title: "Lok Sabha Unstarred Question 476: Funds under the National Critical Mineral Mission"
+    publisher: Lok Sabha Secretariat
+    tier: T1
+    date: "2025-07-23"
+  ls-usq-2978-2026:
+    raw: sansad.in/AU2978_4TVdAQ-74598729
+    title: "Lok Sabha Unstarred Question 2978: Critical Minerals Reserves"
+    publisher: Lok Sabha Secretariat
+    tier: T1
+    date: "2026-08-05"
+  ls-usq-1521-2026:
+    raw: sansad.in/AU1521_o6qWBN-74598729
+    title: "Lok Sabha Unstarred Question 1521: Battery Manufacturing Infrastructure, Localization and Recycling"
+    publisher: Lok Sabha Secretariat
+    tier: T1
+    date: "2026-07-28"
+  ls-usq-5186-2026:
+    raw: sansad.in/AU5186_DaAihr-74598729
+    title: "Lok Sabha Unstarred Question 5186: Beneficiaries under ACC-PLI"
+    publisher: Lok Sabha Secretariat
+    tier: T1
+    date: "2026-03-24"
+  ls-usq-3696-2026:
+    raw: sansad.in/AU3696_W6SBif-74598729
+    title: "Lok Sabha Unstarred Question 3696: Advanced Chemistry Cell Batteries"
+    publisher: Lok Sabha Secretariat
+    tier: T1
+    date: "2026-08-11"
+  ncmm-note-2026:
+    raw: mines.gov.in/ncmm-status-note-2026-01-10
+    title: "National Critical Mineral Mission: status note"
+    publisher: Ministry of Mines
+    tier: T1
+    date: "2026-01-10"
+  pib-2097309:
+    raw: pib.gov.in/PressReleasePage-PRID2097309
+    title: "Cabinet Approves 'National Critical Mineral Mission' ... with an outlay of Rs.34,300 crore over seven years"
+    publisher: Press Information Bureau, Government of India
+    tier: T1
+    date: "2025-01-29"
+  ls-cms-29:
+    raw: sansad.in/18_Coal_Mines_and_Steel_29
+    title: "Standing Committee on Coal, Mines and Steel, 29th Report: KABIL: India's quest for Global Critical Minerals"
+    publisher: Lok Sabha Secretariat
+    tier: T1
+    date: "2026-08-12"
+  pib-2258119:
+    raw: pib.gov.in/PressReleasePage-PRID2258119
+    title: "Cabinet approves two more semiconductor manufacturing units with cumulative investment of more than Rs. 3,900 crore"
+    publisher: Press Information Bureau, Government of India
+    tier: T1
+    date: "2026-05-05"
+  fabs-tracker:
+    raw: fabs.pranaykotas.com/fabs-tracker-index
+    title: "India Semiconductor Tracker: Commercial & Research Facilities"
+    publisher: Takshashila Institution (India Semiconductor Tracker)
+    tier: T3
+    date: "2026-10-19"
+  reuters-lini-2026:
+    raw: kitco.com/india-unveil-incentives-lithium-nickel-processing
+    title: "India to unveil incentives for lithium, nickel processing"
+    publisher: Reuters (via Kitco)
+    tier: T3
+    date: "2026-01-29"
+  tt-lini-2026:
+    raw: telanganatoday.com/centre-to-launch-incentive-scheme-for-lithium-nickel-processing
+    title: "Centre to launch incentive scheme for lithium, nickel processing"
+    publisher: Telangana Today (PTI)
+    tier: T3
+    date: "2026-09-23"
+
+records:
+  - id: ncmm
+    name: "National Critical Mineral Mission (NCMM)"
+    ministry: "Ministry of Mines"
+    parent: null
+    outlay: {amount: 16300, currency: INR_crore, period: "2024-25 to 2030-31; Rs 18,000 crore more expected from PSUs and others (Rs 34,300 crore in all)"}
+    outlay_heads:
+      - {head: "Domestic exploration (GSI)", source: "GSI", amount: 4000}
+      - {head: "Domestic exploration (NMET)", source: "NMET", amount: 3000}
+      - {head: "Risk coverage for foreign sourcing", source: "NMET", amount: 4000}
+      - {head: "Exploration outside India", source: "NMET", amount: 1600}
+      - {head: "Recycling incentive scheme", source: "Budget", amount: 1500}
+      - {head: "Mineral recovery pilots", source: "NMET", amount: 100}
+      - {head: "R&D and human resources", source: "ANRF and other R&D schemes", amount: 500}
+      - {head: "International R&D support", source: "ANRF and other R&D schemes", amount: 500}
+      - {head: "Skill development centres", source: "Budget", amount: 100}
+      - {head: "Processing parks", source: "Budget", amount: 500}
+      - {head: "Stockpiling", source: "Budget", amount: 500}
+    dates: {approved: "2025-01-29"}
+    status: Approved
+    status_as_of: "2026-02-11"
+    status_detail: "Budget allocation Rs 410 crore in 2025-26 (token Rs 1 lakh in 2024-25)"
+    aggregates: {target_exploration_projects: 1200, target_foreign_mines: 50, target_recycled_kt: 400, target_patents: 1000, target_skilled: 10000, target_processing_parks: 4, target_coe: 3, target_stockpiles: 5}
+    children: [ncmm-recycling, ncmm-coe, ncmm-processing-parks, ncmm-recovery-pilots, ncmm-stockpile]
+    beneficiaries: []
+    bidders: []
+    disbursed: {amount: null, as_of: null}
+    notes: "Targets run 2024-25 to 2030-31. The CoE target of 3 was exceeded: nine CoEs were recognised by Oct 2025."
+    sources:
+      - ref: ls-usq-1884-2026
+        supports: [dates.approved, status, aggregates]
+        ev:
+          dates.approved: "The Union Cabinet approved the National Critical Mineral Mission (NCMM) on 29.01.2025"
+          aggregates: ["Domestic Critical Mineral Exploration Projects 1200", "Foreign Critical Mineral Mines 50", "Mineral Processing Parks 4", "Mineral Stockpile (cumulative) 5"]
+      - ref: pib-2097309
+        supports: [outlay, dates.approved]
+        ev:
+          outlay: "with an expenditure of Rs.16,300 crore and expected investment of Rs.18,000 crore by PSUs, etc."
+      - ref: ncmm-note-2026
+        supports: [outlay_heads]
+        ev:
+          outlay_heads: ["Risk Coverage for foreign sourcing NMET 4,000", "Support for exploration activities outside India NMET 1,600", "Critical Mineral Processing Parks Budget 500", "Stockpiling of Critical Minerals Budget 500", "Pilot Projects- Mineral Recovery NMET 100"]
+      - ref: ls-usq-476-2025
+        supports: [status_detail]
+        ev:
+          status_detail: "During the current FY 2025-26, ₹410 Crore has been allocated."
+
+  - id: ncmm-coe
+    name: "NCMM Centres of Excellence"
+    ministry: "Ministry of Mines"
+    parent: ncmm
+    outlay: {amount: null, currency: null, period: null}
+    dates: {approved: null}
+    status: Beneficiaries selected
+    status_as_of: "2026-02-11"
+    status_detail: "Nine institutes recognised (seven in Aug 2025, two in Oct 2025); each runs a hub-and-spoke consortium"
+    beneficiaries: [coe-iit-bombay, coe-iit-hyderabad, coe-iit-roorkee, coe-iit-ism-dhanbad, coe-iisc-bengaluru, coe-csir-immt, coe-csir-nml, coe-nftdc-hyderabad, coe-cmet-hyderabad]
+    bidders: []
+    disbursed: {amount: null, as_of: null}
+    notes: "Funded from the NCMM R&D head (Rs 500 crore via ANRF and other R&D schemes); per-CoE grants not published."
+    sources:
+      - ref: ls-usq-1884-2026
+        supports: [status, status_detail, beneficiaries]
+        ev:
+          beneficiaries: "The Government has recognised nine premier institutes as Centres of Excellence (CoEs) under the NCMM"
+
+  - id: ncmm-processing-parks
+    name: "NCMM critical mineral processing parks"
+    ministry: "Ministry of Mines"
+    parent: ncmm
+    outlay: {amount: 500, currency: INR_crore, period: "2024-25 to 2030-31"}
+    dates: {approved: null}
+    status: Sites identified
+    status_as_of: "2026-09-23"
+    status_detail: "Four parks in existing industrial areas; the Mines Secretary said four states have been identified"
+    beneficiaries: [ncmm-park-odisha-paradip, ncmm-park-gujarat-dahej, ncmm-park-maharashtra-dighi, ncmm-park-andhra-pradesh]
+    bidders: []
+    disbursed: {amount: null, as_of: null}
+    sources:
+      - ref: ls-usq-1884-2026
+        supports: [outlay, status]
+        ev:
+          outlay: "Under NCMM, ₹500 crore has been earmarked to support domestic critical mineral processing capabilities by developing mineral processing parks using existing infrastructure."
+      - ref: tt-lini-2026
+        supports: [status_detail]
+        ev:
+          status_detail: "four states have been identified for critical mineral processing plants, with separate focus areas including lithium, nickel and rare earths"
+
+  - id: ncmm-recovery-pilots
+    name: "NCMM pilot projects for recovering critical minerals from overburden, tailings, fly ash and red mud"
+    ministry: "Ministry of Mines"
+    parent: ncmm
+    outlay: {amount: 100, currency: INR_crore, period: "2024-25 to 2030-31 (NMET)"}
+    dates: {notified: "2025-11-14"}
+    status: Notified
+    status_as_of: "2026-02-11"
+    status_detail: "Funding guidelines issued 14 Nov 2025"
+    beneficiaries: []
+    bidders: []
+    disbursed: {amount: null, as_of: null}
+    sources:
+      - ref: ls-usq-1884-2026
+        supports: [dates.notified, status]
+        ev:
+          dates.notified: "Guidelines for funding pilot projects for the recovery of critical minerals from overburden/ tailings/ fly ash/ red mud, etc were issued on 14.11.2025."
+      - ref: ncmm-note-2026
+        supports: [outlay]
+        ev:
+          outlay: "Pilot Projects- Mineral Recovery NMET 100"
+
+  - id: ncmm-stockpile
+    name: "National critical mineral stockpile"
+    ministry: "Ministry of Mines"
+    parent: ncmm
+    outlay: {amount: 500, currency: INR_crore, period: "2024-25 to 2030-31"}
+    dates: {approved: "2025-01-29"}
+    status: Planned
+    status_as_of: "2026-02-11"
+    status_detail: "Target of five stockpiles by 2030-31; no stockpile announced"
+    beneficiaries: []
+    bidders: []
+    disbursed: {amount: null, as_of: null}
+    sources:
+      - ref: ncmm-note-2026
+        supports: [outlay]
+        ev:
+          outlay: "Stockpiling of Critical Minerals Budget 500"
+      - ref: ls-usq-1884-2026
+        supports: [status, status_detail, dates.approved]
+        ev:
+          status_detail: "Mineral Stockpile (cumulative) 5"
+
+  - id: acc-pli
+    name: "PLI scheme: National Programme on Advanced Chemistry Cell (ACC) Battery Storage"
+    ministry: "Ministry of Heavy Industries"
+    parent: null
+    outlay: {amount: 18100, currency: INR_crore, period: "from May 2021"}
+    dates: {approved: "2021-05"}
+    status: Beneficiaries selected
+    status_as_of: "2026-08-11"
+    status_detail: "40 of 50 GWh awarded to four firms in two rounds; 1.4 GWh installed (Ola); no incentive paid; 10 GWh for grid storage retendered globally"
+    aggregates: {target_gwh: 50, awarded_gwh: 40, installed_gwh: 1.4, beneficiaries: 4, grid_storage_gwh: 10}
+    beneficiaries: [ola-krishnagiri-cells, reliance-jamnagar-cells, acc-energy-storage-dharwad]
+    bidders: []
+    disbursed: {amount: 0, as_of: "2026-03-24"}
+    notes: "Reliance holds two of the four awards (5 GWh in round 1, 10 GWh in round 2), mapped as one Jamnagar record."
+    sources:
+      - ref: ls-usq-5186-2026
+        supports: [outlay, dates.approved, status, aggregates, disbursed, beneficiaries]
+        ev:
+          outlay: "approved in May 2021 with a total outlay of ₹18,100 crore to establish 50 GWh of domestic Advanced Chemistry Cell manufacturing capacity."
+          aggregates: "Out of the total targeted capacity of 50 GWh, 40 GWh has been awarded to four beneficiary firms."
+          disbursed: "(c): No incentive disbursement has been made till date under the PLI ACC Scheme."
+      - ref: ls-usq-1521-2026
+        supports: [status_detail]
+        ev:
+          status_detail: "has established a Giga- Scale ACC manufacturing plant with an installed capacity of 1.4 GWh."
+      - ref: ls-usq-3696-2026
+        supports: [status_detail]
+        ev:
+          status_detail: "the remaining 10 GWh ACC Capacity has been earmarked for Grid Scale Stationary Storage applications."
+
+  - id: ism
+    name: "India Semiconductor Mission (ISM)"
+    ministry: "Ministry of Electronics and Information Technology"
+    parent: null
+    outlay: {amount: 76000, currency: INR_crore, period: "initial outlay"}
+    dates: {approved: null}
+    status: Beneficiaries selected
+    status_as_of: "2026-05-05"
+    status_detail: "12 projects approved, about Rs 1.64 lakh crore in all"
+    aggregates: {approved_projects: 12, approved_investment_inr_cr: 164000}
+    beneficiaries: [crystal-matrix-dholera-gan]
+    bidders: []
+    disbursed: {amount: null, as_of: null}
+    notes: "Only the gallium-using fab is mapped here; the other approved units are on the India Semiconductor Tracker."
+    sources:
+      - ref: pib-2258119
+        supports: [status, status_detail, aggregates, beneficiaries]
+        ev:
+          aggregates: "the total number of approved projects under India Semi-conductor Mission (ISM) reaches 12, with cumulative investments of around Rs.1.64 lakh crore."
+      - ref: fabs-tracker
+        supports: [outlay]
+        ev:
+          outlay: "with an initial outlay of ₹76,000 crore to build domestic manufacturing capacity."
+
+  - id: ree-corridors
+    name: "Rare earth corridors (Union Budget 2026-27)"
+    ministry: "Ministry of Finance (Budget announcement)"
+    parent: null
+    outlay: {amount: null, currency: null, period: null}
+    dates: {announced: "2026-02-01"}
+    status: Announced
+    status_as_of: "2026-08-12"
+    status_detail: "Odisha, Andhra Pradesh, Tamil Nadu and Kerala, for light rare earths from beach sand minerals"
+    states: [Odisha, "Andhra Pradesh", "Tamil Nadu", Kerala]
+    beneficiaries: []
+    bidders: []
+    disbursed: {amount: null, as_of: null}
+    notes: "Corridor sites and outlay not published. Budget day taken as the announcement date."
+    sources:
+      - ref: ls-cms-29
+        supports: [status, status_detail, states, dates.announced]
+        ev:
+          status_detail: "Corridors have been announced under Union Budget 2026-27 in Odisha, Andhra Pradesh, Tamil Nadu and Kerala for light REEs sourced from beach sand minerals"
+
+  - id: li-ni-processing-incentive
+    name: "Incentive scheme for lithium and nickel processing"
+    ministry: "Ministry of Mines"
+    parent: null
+    outlay: {amount: null, currency: null, period: "five years"}
+    dates: {approved: null}
+    status: Proposed
+    status_as_of: "2026-09-23"
+    status_detail: "Awaiting approval; draft offers a 15% capital subsidy for plants of at least 30,000 t (lithium) or 50,000 t (nickel)"
+    beneficiaries: []
+    bidders: []
+    disbursed: {amount: null, as_of: null}
+    notes: "Design from a government presentation reported by Reuters (Jan 2026); not notified as of 23 Sept 2026."
+    sources:
+      - ref: reuters-lini-2026
+        supports: [status_detail, outlay.period]
+        ev:
+          status_detail: ["The incentive plan proposes a 15% capital subsidy for eligible investments in lithium and nickel-processing projects starting on or after April 1, 2026", "lithium processing plants must have a minimum capacity of 30,000 metric tons, while nickel plants must have at least 50,000 tons"]
+          outlay.period: "incentives would be available for five years"
+      - ref: tt-lini-2026
+        supports: [status]
+        ev:
+          status: "Further details of the scheme will be announced after the required approvals are received"
+
+  - id: customs-duty-exemptions
+    name: "Customs duty exemptions for critical minerals"
+    ministry: "Ministry of Finance"
+    parent: null
+    outlay: {amount: null, currency: null, period: null}
+    dates: {notified: null}
+    status: In force
+    status_as_of: "2026-07-28"
+    status_detail: "2024-25: duty removed on 25 critical minerals; 2025-26: cobalt powder and waste, Li-ion battery scrap; 2026-27: capital goods for processing"
+    beneficiaries: []
+    bidders: []
+    disbursed: {amount: null, as_of: null}
+    sources:
+      - ref: ls-usq-1521-2026
+        supports: [status, status_detail]
+        ev:
+          status_detail: ["During Union Budget 2024–25, customs duties were eliminated on 25 critical minerals.", "In Budget 2025–26, Basic Customs Duty (BCD) was exempted on cobalt powder and waste, scrap of lithium-ion batteries, etc.", "in Budget 2026–27, BCD was exempted on the import of capital goods required for processing of critical minerals in India."]
+
+  - id: mmdr-amendments
+    name: "MMDR Act amendments (2023 and 2025)"
+    ministry: "Ministry of Mines"
+    parent: null
+    outlay: {amount: null, currency: null, period: null}
+    dates: {notified: null}
+    status: In force
+    status_as_of: "2026-08-05"
+    status_detail: "2023: Centre auctions critical minerals (46 blocks by Feb 2026); 2025: NMEDT may fund exploration and mining abroad; overseas exploration guidelines circulated Jul 2026"
+    beneficiaries: []
+    bidders: []
+    disbursed: {amount: null, as_of: null}
+    sources:
+      - ref: ls-usq-1884-2026
+        supports: [status, status_detail]
+        ev:
+          status_detail: ["Since the amendment to the MMDR Act in 2023, Central Government has successfully auctioned 46 (as on 05.02.2026) blocks of Critical and Strategic Mineral.", "has been amended in 2025 whereby the scope of NMEDT has been expanded to support critical mineral exploration and mining overseas."]
+      - ref: ls-usq-2978-2026
+        supports: [status_detail]
+        ev:
+          status_detail: "Promotion Guidelines\" have been circulated in July 2026 to promote Indian public and private sector entities to undertake mineral exploration in overseas jurisdictions."

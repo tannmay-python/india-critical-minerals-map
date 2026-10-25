@@ -1,0 +1,1116 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head id="Head1"><title>
+	Press Release Page | Press Information Bureau
+</title><link href="css/style.css?v=1" rel="stylesheet" type="text/css" /><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="alternate stylesheet" href="css/change.css?v=1" media="screen" title="change" /><link rel="alternate stylesheet" href="css/green.css?v=1" media="screen" title="green" /><link rel="alternate stylesheet" href="css/yellow.css" media="screen" title="yellow" /><link rel="stylesheet" type="text/css" href="css/prtint.css" media="print" /><link rel="stylesheet" href="css/style3.1.css" type="text/css" /><link id="pibA11yCss" rel="stylesheet" href="/css/accessibility.css?v=7" type="text/css" />
+    <script type="text/javascript">
+        (function (d) {
+            var t = "";
+            try {
+                t = window.localStorage.getItem("pibStyle") || "";
+            } catch (e) {
+                t = "";
+            }
+            if (t === "orange") {
+                t = "yellow";
+            }
+            var c = t === "change" ? " pib-hc"
+                : t === "green" ? " pib-theme-green"
+                : t === "yellow" ? " pib-theme-yellow" : "";
+            d.documentElement.className += c + " pib-a11y-content";
+        }(document));
+    </script>
+
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/js/accessibility.js?v=7"></script>
+
+    <script type="text/javascript">
+            $(document).ready(function () {
+                  function getParameterByName(name) {
+                        var url = window.location.href;
+                        name = name.replace(/[\[\]]/g, '\\$&');
+                        var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+                              results = regex.exec(url);
+                        if (!results) return null;
+                        if (!results[2]) return '';
+                        return decodeURIComponent(results[2].replace(/\+/g, ' '));
+                  }
+                  let prid = parseInt(getParameterByName('PRID'), 10);
+
+                  if (!isNaN(prid) && prid > 0) {
+                        $.ajax({
+                              type: "POST",
+                              url: "AjaxMethod.aspx/UpdatePRHitCount",
+                              async: false,
+                              data: JSON.stringify({ 'PermId': prid }),
+                              contentType: "application/json; charset=utf-8",
+                              dataType: "json",
+                              success: function (response) {
+                                    console.log(response);
+                              },
+                              error: function (error) {
+                                    console.log("Error in AJAX request", error);
+                              }
+                        });
+                  } else {
+                        console.log("Invalid parameters:", prid);
+                  }
+            });
+    </script>
+    <style type="text/css">
+        .table-responsive {
+            width: 100%;
+            overflow-x: auto;
+        }
+
+        .banner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+        }
+
+        full-width {
+            width: 100%;
+        }
+
+        .logo-left, .logo-center, .countdown {
+            display: flex;
+            align-items: center;
+        }
+
+            .logo-left img, .logo-center img {
+                height: 70px;
+            }
+
+        .countdown {
+            text-align: center;
+            background-color: var(--dbim-text, #150202);
+            border-radius: 10px;
+            padding: 10px;
+            border: 2px solid grey;
+        }
+
+        .firstnumber {
+            color: #000000;
+            position: absolute;
+            top: 50px;
+            right: 90px;
+            font-size: 30px;
+        }
+
+        .secondnumber {
+            position: absolute;
+            color: #000000;
+            right: 45px;
+            top: 50px;
+            font-size: 30px;
+        }
+
+        .countdown .days {
+            font-size: 35px;
+            color: gold;
+        }
+
+        .countdown p {
+            margin: 0;
+        }
+
+        .countdown .text {
+            font-size: 16px;
+        }
+
+        a {
+            word-break: break-all;
+        }
+
+        iframe, img {
+            max-width: 100%;
+        }
+
+        /* === DBIM 3.0 Option 4 Separator Line & Reading Meta Styling === */
+        .pr-share--footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+            border-top: 1px solid var(--dbim-border, #d1d5db);
+            padding-top: 16px;
+            margin-top: 24px;
+        }
+
+        .pr-share__left {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .pr-reading-meta {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 0.95rem;
+            color: var(--dbim-text-secondary, #475569);
+            font-weight: 500;
+            white-space: nowrap;
+            margin-left: auto;
+        }
+
+        .pr-reading-meta__item {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .pr-reading-meta__divider {
+            color: var(--dbim-border, #cbd5e1);
+            font-weight: 300;
+        }
+
+        .pib-hc .pr-reading-meta,
+        .pib-hc .pr-reading-meta svg {
+            color: currentColor !important;
+        }
+
+        @media (max-width: 680px) {
+            .pr-share--footer {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .pr-reading-meta {
+                margin-left: 0;
+                width: 100%;
+                justify-content: flex-start;
+            }
+        }
+
+        @media(max-width:1199px) {
+            .firstnumber {
+                top: 40px;
+                right: 72px;
+                font-size: 30px;
+            }
+
+            .secondnumber {
+                right: 35px;
+                top: 40px;
+                font-size: 30px;
+            }
+        }
+
+        @media(max-width:990px) {
+            .firstnumber {
+                top: 25px;
+                right: 54px;
+                font-size: 30px;
+            }
+
+            .secondnumber {
+                right: 25px;
+                top: 25px;
+                font-size: 30px;
+            }
+        }
+
+        @media(max-width:768px) {
+            .countdown, .days {
+                font-size: 12px !important;
+            }
+
+            .firstnumber {
+                top: 25%;
+                right: 8%;
+                font-size: 30px;
+            }
+
+            .secondnumber {
+                right: 4.5%;
+                top: 25%;
+                font-size: 30px;
+            }
+        }
+
+        @media(max-width:475px) {
+            .countdown, .days {
+                font-size: 10px !important;
+                top: 20%;
+            }
+
+            .bannerimgdiv {
+                padding: 0 !important;
+            }
+
+            .bannerimg {
+                width: 108% !important;
+            }
+        }
+    </style>
+    <script type="text/javascript">
+            $(function () {
+                  $("[id*=printPDF]").click(function () {
+                        $("[id*=hfGridHtml]").val($("#PdfDiv").html());
+                  });
+            });
+            $(function () {
+                  $("[id*=printPDFEvent]").click(function () {
+                        $("[id*=hfGridHtml]").val($("#PdfDiv").html());
+                  });
+            });
+    </script>
+
+    <link id="pibConsentCss" href="/css/consent.css?v=8" rel="stylesheet" type="text/css" /><link id="pibFontsCss" href="/css/fonts-noto.css?v=6" rel="stylesheet" type="text/css" /><link id="pibDbimCss" href="/css/dbim.css?v=1120" rel="stylesheet" type="text/css" /><meta property="og:title" content="Cabinet Approves &#39;National Critical Mineral Mission&#39; to build a resilient Value Chain for critical mineral resources vital to Green Technologies, with an outlay of Rs.34,300 crore over seven years" /><meta property="og:url" content="www.pib.gov.in/Pressreleaseshare.aspx?PRID=2097309" /><meta property="og:description" content="The Union Cabinet, chaired by the Prime Minister Shri Narendra Modi, has approved the launch of the " /><meta property="og:image" content="https:/pib.gov.in/images/indian-emblem.png" />
+                                <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="C4E7H-KSCMC-422L4-W3EM5-U36MF",function(){function e(){if(!i){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,o.parentNode.appendChild(e),i=!0}}function t(e){i=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(o.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",o.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"C4E7H-KSCMC-422L4-W3EM5-U36MF";var o=document.currentScript||document.getElementsByTagName("script")[0],i=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!i)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),o.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="eqausaa4ystvkjqacqlqauyaabvn345h-f-9115ac571-clienttons-s.akamaihd.net",o="false"=="true"?2:1,i={"ak.v":"41","ak.cp":"1825201","ak.ai":parseInt("1215205",10),"ak.ol":"0","ak.cr":6,"ak.ipv":6,"ak.proto":"h2","ak.rid":"25dfe17","ak.r":24958,"ak.a2":n,"ak.m":"dscb","ak.n":"ff","ak.cport":57736,"ak.gh":"23.3.70.132","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"","ak.t":"1792930727","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==/sYvy4F5PBn+DT+hzI+yKr11ZLurtoSIyK8fXACL5t0hK9AgU2rg0JY1tX/NLdKXhYwJEEQWLjFOpRSWOISa6/9KVZ2kh3hRJxY7kjRT7zZvIDwvsHQeN/0d56pM+EP9y1N8oTkFr0vypiJRAuz0kx/tLbgFerdXeCh+hE5DCp8p05jcR+V1MkVHdQ0IKkwx0AQ8zMcNq2nlfX2xfiGvlnWBLhgF+WOF74s20i1ZShKRSWWBSyTxFd7qCpAwfD+i6XKWxKgALCXv4dVBiFVwswdlWdyffGaueZtqE46gyg9UgZEmRI2l8OPIRys36jpnWRjFoaOSYg7/EdcDAXNf9nyTZAfUcaUY8VOGBG1ZXwhzgXjad7PuxxGk/Lcldi2HETqZFJWK6ZWDZuteh57Uw6U4wqG/acssxu42mIqh+0A=","ak.pv":"9","ak.dpoabenc":"","ak.tf":o};if(""!==t)i["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))i["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var e=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+<body>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
+     style="position:absolute;width:0;height:0;overflow:hidden" id="dbim-icon-sprite">
+    <defs>
+        <symbol id="icon-angle-double-left" viewBox="0 0 24 24"><path d="M11.6 4.6 4.2 12l7.4 7.4 2.2-2.2L8.6 12l5.2-5.2z"/><path d="M19 4.6 11.6 12 19 19.4l2.2-2.2L16 12l5.2-5.2z"/></symbol>
+        <symbol id="icon-angle-double-right" viewBox="0 0 24 24"><path d="M12.4 4.6 10.2 6.8 15.4 12l-5.2 5.2 2.2 2.2L19.8 12z"/><path d="M5 4.6 2.8 6.8 8 12l-5.2 5.2L5 19.4 12.4 12z"/></symbol>
+        <symbol id="icon-arrow-left" viewBox="0 0 24 24"><path d="M20.8 10.6H9.6v2.8h11.2z"/><path d="M10.8 5.6 3.2 12l7.6 6.4z"/></symbol>
+        <symbol id="icon-arrow-right" viewBox="0 0 24 24"><path d="M3.2 10.6h11.2v2.8H3.2z"/><path d="M13.2 5.6 20.8 12l-7.6 6.4z"/></symbol>
+        <symbol id="icon-blogger" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M6.4 2.4h11.2a4 4 0 0 1 4 4v11.2a4 4 0 0 1-4 4H6.4a4 4 0 0 1-4-4V6.4a4 4 0 0 1 4-4zm2.8 5.2a2 2 0 0 0 0 4h2.4a2 2 0 0 0 0-4zm0 5.6a2 2 0 0 0 0 4h5.6a2 2 0 0 0 0-4z"/></symbol>
+        <symbol id="icon-calendar" viewBox="0 0 24 24"><path d="M7.6 2.4H10v2.4H7.6z"/><path d="M14 2.4h2.4v2.4H14z"/><path fill-rule="evenodd" d="M4 4.8h16a1.6 1.6 0 0 1 1.6 1.6v13.2a1.6 1.6 0 0 1-1.6 1.6H4a1.6 1.6 0 0 1-1.6-1.6V6.4A1.6 1.6 0 0 1 4 4.8zm.4 5.6v8.4h15.2v-8.4z"/><path d="M6.4 12.4h3.2v3.2H6.4z"/></symbol>
+        <symbol id="icon-chevron-left" viewBox="0 0 24 24"><path d="M15.4 4.6 8 12l7.4 7.4 2.2-2.2L12.4 12l5.2-5.2z"/></symbol>
+        <symbol id="icon-chevron-right" viewBox="0 0 24 24"><path d="M8.6 4.6 6.4 6.8 11.6 12l-5.2 5.2 2.2 2.2L16 12z"/></symbol>
+        <symbol id="icon-circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/></symbol>
+        <symbol id="icon-download" viewBox="0 0 24 24"><path d="M10.8 3h2.4v7.6h3.4L12 16.6l-4.6-6h3.4z"/><path d="M4 17.2h2.4v2.4h11.2v-2.4H20v3.2a1.4 1.4 0 0 1-1.4 1.4H5.4A1.4 1.4 0 0 1 4 20.4z"/></symbol>
+        <symbol id="icon-facebook" viewBox="0 0 24 24"><path d="M13.6 21.6v-8.4h2.8l.42-3.3h-3.22V7.8c0-.95.27-1.6 1.64-1.6h1.74V3.26a23 23 0 0 0-2.54-.13c-2.5 0-4.22 1.53-4.22 4.34v2.43H7.4v3.3h2.82v8.4z"/></symbol>
+        <symbol id="icon-fact-check" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.4 3.6 5.6v6.2c0 4.6 3.4 8.6 8.4 9.8 5-1.2 8.4-5.2 8.4-9.8V5.6zm-1 13.2-3.6-3.6 1.7-1.7 1.9 1.9 4.5-4.5 1.7 1.7z"/></symbol>
+        <symbol id="icon-hashtag" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M8.8 3h2.4l-1 6h3.2l1-6h2.4l-1 6h3.4v2.4h-3.8l-.6 3.2h3.6V17h-4l-1 5h-2.4l1-5h-3.2l-1 5H5.4l1-5H3V14.6h3.8l.6-3.2H3.8V9h4zm.6 8.4-.6 3.2h3.2l.6-3.2z"/></symbol>
+        <symbol id="icon-home" viewBox="0 0 24 24"><path d="M12 3.4 2.8 11.6h2.4v8.4a1 1 0 0 0 1 1h3.3v-5.4h5v5.4h3.3a1 1 0 0 0 1-1v-8.4h2.4z"/></symbol>
+        <symbol id="icon-instagram" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M7.6 2.4h8.8a5.2 5.2 0 0 1 5.2 5.2v8.8a5.2 5.2 0 0 1-5.2 5.2H7.6a5.2 5.2 0 0 1-5.2-5.2V7.6a5.2 5.2 0 0 1 5.2-5.2zm0 2.4a2.8 2.8 0 0 0-2.8 2.8v8.8a2.8 2.8 0 0 0 2.8 2.8h8.8a2.8 2.8 0 0 0 2.8-2.8V7.6a2.8 2.8 0 0 0-2.8-2.8z"/><path fill-rule="evenodd" d="M12 6.8a5.2 5.2 0 1 0 0 10.4 5.2 5.2 0 0 0 0-10.4zm0 2.4a2.8 2.8 0 1 1 0 5.6 2.8 2.8 0 0 1 0-5.6z"/><circle cx="17.3" cy="6.7" r="1.3"/></symbol>
+        <symbol id="icon-linkedin" viewBox="0 0 24 24"><path d="M4.8 8.8h3.6v12H4.8z"/><circle cx="6.6" cy="5.4" r="2.1"/><path d="M10.8 8.8h3.45v1.65h.05c.48-.9 1.65-1.85 3.4-1.85 3.63 0 4.3 2.35 4.3 5.4v6.6h-3.6v-5.85c0-1.4-.03-3.2-1.95-3.2-1.95 0-2.25 1.52-2.25 3.1v5.95h-3.6z"/></symbol>
+        <symbol id="icon-mail" viewBox="0 0 24 24"><path d="M2.4 7.6v9.2a1.6 1.6 0 0 0 1.6 1.6h16a1.6 1.6 0 0 0 1.6-1.6V7.6L12 14z"/><path d="M21.2 5.4H2.8L12 11.8z"/></symbol>
+        <symbol id="icon-mail-open" viewBox="0 0 24 24"><path d="M2.4 9.8h19.2v9.6A1.6 1.6 0 0 1 20 21H4a1.6 1.6 0 0 1-1.6-1.6z"/><path d="M12 2.6 21.6 9.2h-3.8L12 5.3 6.2 9.2H2.4z"/><path d="m3.9 11.2 8.1 5.4 8.1-5.4 1.5 1.3-9.6 6.4-9.6-6.4z"/></symbol>
+        <symbol id="icon-map-marker" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.4a7 7 0 0 0-7 7c0 5.2 7 12.2 7 12.2s7-7 7-12.2a7 7 0 0 0-7-7zm0 9.6a2.6 2.6 0 1 1 0-5.2 2.6 2.6 0 0 1 0 5.2z"/></symbol>
+        <symbol id="icon-newspaper" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M2.8 4.4h14.8v15.2H2.8zm2 2v11.2h10.8V6.4z"/><path d="M6 7.6h8.4v1.6H6z"/><path d="M6 10.8h8.4v1.6H6z"/><path d="M6 14h5.2v1.6H6z"/><path d="M18.4 8.4h2.8v9.6a1.4 1.4 0 0 1-2.8 0z"/></symbol>
+        <symbol id="icon-pause" viewBox="0 0 24 24"><rect x="7.4" y="4" width="3.6" height="16" rx="0.9"/><rect x="13" y="4" width="3.6" height="16" rx="0.9"/></symbol>
+    <symbol id="icon-play" viewBox="0 0 24 24"><path d="M8 4.5v15l12-7.5z"/></symbol>
+        <symbol id="icon-picture" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M2.4 5.2h19.2v13.6H2.4zm2 2v9.6h15.2V7.2z"/><path d="M5.6 16.4 10 11l2.6 3 2-2.2 4 4.6z"/><circle cx="8" cy="10.4" r="1.5"/></symbol>
+        <symbol id="icon-press-conference" viewBox="0 0 24 24"><circle cx="12" cy="5.2" r="2.6"/><path d="M7.6 12.2a4.4 4.4 0 0 1 8.8 0z"/><circle cx="4.9" cy="9.6" r="2.2"/><path d="M1.8 15.2a3.1 3.1 0 0 1 6.2 0z"/><circle cx="19.1" cy="9.6" r="2.2"/><path d="M16 15.2a3.1 3.1 0 0 1 6.2 0z"/><path d="M6.6 13.6h10.8l2.2 7.8H4.4z"/></symbol>
+        <symbol id="icon-print" viewBox="0 0 24 24"><path d="M6.4 2.8h11.2v4.4H6.4z"/><path d="M4 8.4h16a1.6 1.6 0 0 1 1.6 1.6v5.6a1.6 1.6 0 0 1-1.6 1.6h-1.6v-2.8H6v2.8H4a1.6 1.6 0 0 1-1.6-1.6V10A1.6 1.6 0 0 1 4 8.4z"/><path d="M7.2 15.6h9.6v5.6H7.2z"/></symbol>
+        <symbol id="icon-rss" viewBox="0 0 24 24"><circle cx="4.8" cy="19.2" r="2.4"/><path d="M2.4 11.2v3.2a6.4 6.4 0 0 1 6.4 6.4H12A9.6 9.6 0 0 0 2.4 11.2z"/><path d="M2.4 4.8V8A13.6 13.6 0 0 1 16 21.6h3.2A16.8 16.8 0 0 0 2.4 4.8z"/></symbol>
+        <symbol id="icon-search-plus" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M10 2.8a7.2 7.2 0 1 0 0 14.4 7.2 7.2 0 0 0 0-14.4zm0 2.4a4.8 4.8 0 1 1 0 9.6 4.8 4.8 0 0 1 0-9.6z"/><path d="M15.3 14.6 21.2 20.5l-1.5 1.5-5.9-5.9z"/><path d="M9.2 6.8h1.6v2.4h2.4v1.6h-2.4v2.4H9.2v-2.4H6.8V9.2h2.4z"/></symbol>
+        <symbol id="icon-share" viewBox="0 0 24 24"><circle cx="18" cy="5.6" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="18.4" r="3"/><path d="M8.3 10.9 15.7 7.2l.9 1.8-7.4 3.7z"/><path d="M9.2 13.1 16.6 16.8l-.9 1.8-7.4-3.7z"/></symbol>
+        <symbol id="icon-twitter" viewBox="0 0 24 24"><path d="M4.2 3h4.3l11.3 18h-4.3z"/><path d="M19.3 3h-2.6L4.2 21h2.6z"/></symbol>
+        <symbol id="icon-university" viewBox="0 0 24 24"><path d="M12 2.4 21.6 7.2v1.6H2.4V7.2z"/><path d="M4.8 10.4h2.4v8H4.8z"/><path d="M9.2 10.4h2.4v8H9.2z"/><path d="M13.4 10.4h2.4v8h-2.4z"/><path d="M17.6 10.4H20v8h-2.4z"/><path d="M3.2 19.8h17.6v1.8H3.2z"/></symbol>
+        <symbol id="icon-volume-up" viewBox="0 0 24 24"><path d="M3.2 9.2h3.3l5-4.2v14l-5-4.2H3.2z"/><path d="M14.6 8.4a5 5 0 0 1 0 7.2l1.6 1.6a7.2 7.2 0 0 0 0-10.4z"/><path d="M17.4 5.6a8.8 8.8 0 0 1 0 12.8l1.5 1.5a10.9 10.9 0 0 0 0-15.8z"/></symbol>
+        <symbol id="icon-whatsapp" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.4a9.5 9.5 0 0 0-8.1 14.5L2.4 21.6l4.8-1.4A9.5 9.5 0 1 0 12 2.4zm0 2.2a7.3 7.3 0 1 1-3.8 13.5l-.4-.2-2.6.7.7-2.5-.3-.4A7.3 7.3 0 0 1 12 4.6z"/><path d="M9.4 7.8c-.2-.5-.4-.5-.6-.5h-.5a1 1 0 0 0-.7.3c-.3.3-.9.9-.9 2.1s.9 2.4 1 2.6c.1.2 1.7 2.8 4.3 3.8 2.1.8 2.6.7 3 .6.5 0 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.5-.3-1.6-.8c-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6 6 0 0 1-1.8-1.1 6.6 6.6 0 0 1-1.2-1.6c-.1-.2 0-.4.1-.5l.4-.5.3-.5v-.5z"/></symbol>
+        <symbol id="icon-youtube" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M21.6 7.2a2.8 2.8 0 0 0-2-2C17.9 4.8 12 4.8 12 4.8s-5.9 0-7.6.4a2.8 2.8 0 0 0-2 2A29 29 0 0 0 2 12a29 29 0 0 0 .4 4.8 2.8 2.8 0 0 0 2 2c1.7.4 7.6.4 7.6.4s5.9 0 7.6-.4a2.8 2.8 0 0 0 2-2A29 29 0 0 0 22 12a29 29 0 0 0-.4-4.8zM10.2 15.1V8.9l5.1 3.1z"/></symbol>
+    </defs>
+</svg>
+
+    <form method="post" action="./PressReleasePage.aspx?PRID=2097309&amp;reg=48&amp;lang=2" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="sc_HiddenField" id="sc_HiddenField" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZPQet1wIx1Q48y3xJY2k25Y7qxH5RrQ9qQcN-OiTC9guZtri9w2&amp;t=639246310055090729" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=x6wALODbMJK5e0eRC_p1LdIxBJXt0U_WW5GWfJqHAqo6frgCmGRfEywglicTersO2OKrFhK1gAIp0Wk2al2YrpdR3uWqH6f4nfjBsCyRUfTUUVmb0&amp;t=ffffffffecf8d3f2" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=P5lTttoqSeZXoYRLQMIScH645UK3RD852IErF2548Wz9Ssv0rLjB4fhVKnHcMpqkaMHpNAGOeWY02Lf4aBYN9-dVBme_SNK5KJwmFQNpMixYDZ7M0&amp;t=ffffffffecf8d3f2" type="text/javascript"></script>
+<script src="/PressReleasePage.aspx?_TSM_HiddenField_=sc_HiddenField&amp;_TSM_CombinedScripts_=%3b%3bAjaxControlToolkit%2c+Version%3d3.5.7.123%2c+Culture%3dneutral%2c+PublicKeyToken%3d28f01b0e84b6d53e%3aen-US%3a5a4df314-b4a2-4da2-a207-9284f1b1e96c%3ade1feab2%3af2c8e708%3a8613aea7%3af9cec9bc%3a3202a5a2%3aab09e3fe%3a87104b7c%3a720a52bf%3a589eaa30%3aa67c2700%3abe6fb298" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="59B53027" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="Vrc8Wh2OC6VH93wMzraCTJQug/irbYkQ9YXz9ktNbm3Wu06oEhvq0tn+Xt8CkxRLGmnsRMQUds4Jpub512ex7SgHAoui1HM2cUyFK7XIX5gRjDgyYaUThqGJA7GUuksPdhl3zb+HTm1gS2eYXfyc7Y2sEJTPeV9ixN4QZpuX4oFyjMgx39AELEhpWVIM0snYJkdzO1YUYlwXP+WU24Z+p8itK2FHTpRsAbRbyvkSyptVKeuxfkpLvhuqdkKbYsv7tSuihyS0m0Z537/6Jxh9KJTkkE8=" />
+</div>
+        
+        <div id="templateCss"></div>
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('sc', 'form1', ['tupdate12','update12'], [], [], 90, '');
+//]]>
+</script>
+
+        <input type="hidden" name="hfGridHtml" id="hfGridHtml" />
+        <div class="container" style='margin-bottom: 50px;'>
+            <div id="accessories">
+                
+                <div class="pull-right" style="display: flex">
+                    <div id="voll"></div>
+                    <div id="vollDT"></div>
+                    
+
+<span class="print-icons">
+<input type="image" name="Print1$print" id="Print1_print" aria-label="Print" src="images/printer_icon.png" alt="print page button" style="padding: 5px 10px 5px 10px;" />
+</span>
+                </div>
+            </div>
+            <input type="hidden" name="hydpermid" id="hydpermid" value="2097309" />
+            
+
+            <div class="innner-page-main-about-us-content-right-part">
+                <div id="MinistryName" class="MinistryNameSubhead text-center">
+                    Ministry of Mines 
+                </div>
+                <div id="lg_g"><div class='log_oo'>  <img src='https://static.pib.gov.in/WriteReadData/specificdocs/photo/2026/sep/ph_9768_20260902_10000501.png' alt='azadi ka amrit mahotsav' /> </div></div>
+
+                <div class="text-center event-heading-background">
+                    
+                    <h1 id="Titleh2">
+                        Cabinet Approves 'National Critical Mineral Mission' to build a resilient Value Chain for critical mineral resources vital to Green Technologies, with an outlay of Rs.34,300 crore over seven years
+                    </h1>
+                    <h3 id="Subtitleh3">
+                        <span id="ltrSubtitle"></span>
+                    </h3>
+                </div>
+
+                <div id="PrDateTime" class="ReleaseDateSubHeaddateTime text-center pt20">
+                    Posted On:
+                              29 JAN 2025 3:13PM by PIB Delhi
+                </div>
+                
+                <div class='pt20'>
+                </div>
+                <input type="hidden" name="hydphotoUrl" id="hydphotoUrl" />
+                
+
+                <!-- Release content wrapper for client-side zero-reflow word count -->
+                <div id="pibReleaseBody">
+                    <p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The Union Cabinet, chaired by the Prime Minister Shri Narendra Modi, has approved the launch of the National Critical Mineral Mission (NCMM) with an expenditure of Rs.16,300 crore and expected investment of Rs.18,000 crore by PSUs, etc.</span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">As part of the Atmanirbhar Bharat initiative, and recognizing the indispensable role of critical minerals in high-tech industries, clean energy, and defense, the Government of India has undertaken several initiatives over the past two years to address challenges in the critical minerals sector.</span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">There is a need to establish an effective framework for India&#39;s self-reliance in the critical mineral sector. In line with this vision, the Finance Minister announced the setting up of the Critical Mineral Mission in the Union Budget for 2024-25 on 23rd July 2024.<br />
+&nbsp;<br />
+The National Critical Mineral Mission, approved by the Union Cabinet, will encompass all stages of the value chain, including mineral exploration, mining, beneficiation, processing, and recovery from end-of-life products. The mission will intensify the exploration of critical minerals within the country and in its offshore areas. It aims to create a fast track regulatory approval process for critical mineral mining projects. Additionally, the mission will offer financial incentives for critical mineral exploration and promote the recovery of these minerals from overburden and tailings.</span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The mission aims to encourage Indian PSUs and private sector companies to acquire critical mineral assets abroad and enhance trade with resource-rich countries. It also proposes development of stockpile of critical minerals within the country.</span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The mission includes provisions for setting up of mineral processing parks and supporting the recycling of critical minerals. It will also promote research in critical mineral technologies and proposes setting up Centre of Excellence on Critical Minerals.</span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Adopting a whole-of-government approach, the Mission will work closely with relevant ministries, PSUs, private companies, and research institutions to achieve its objectives.</span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Mines and Minerals (Development and Regulation) Act, 1957, has been amended in 2023 to increase exploration and mining of critical minerals. Consequently, the Ministry of Mines has auctioned 24 blocks of strategic minerals. Further, Geological Survey of India (GSI) has undertaken 368 exploration projects for critical minerals over the past three years, with 195 projects currently underway in FS 2024-25. Further, for FY 2025-26, GSI is going to take up 227 projects for various critical minerals. To foster innovation, the Ministry launched the Science and Technology - Promotion of Research and Innovation in Start-ups and MSMEs (S&amp;T &nbsp;PRISM) program in 2023, funding start-ups and MSMEs to bridge the gap between R&amp;D and commercialization. Moreover, KABIL, a JV of Ministry of Mines, has acquired an area of about 15703 Ha in the Catamarca province of Argentina, for exploration and mining of Lithium. Government of India has already eliminated customs duties on the majority of critical minerals in Union budget 2024-25. This will increase the availability of critical mineral in the country and will encourage the industry to set up processing facilities in India. These initiatives highlight India&#39;s commitment to securing critical mineral supplies.</span></span></p>
+
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">******</span></span></p>
+
+<p style="text-align:justify"><strong><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">MJPS/SKS</span></span></strong></p>
+
+                </div>
+
+                <div id="reel_pic">
+                </div>
+
+                <br />
+                <span id="ReleaseId">(Release ID: 2097309)</span>
+                <span id="lblViews">Visitor Counter : 15701</span>
+                <div>
+                    
+                </div>
+                
+
+                <span id="lblRefPhoto"></span>
+
+                <div class="BackgroundRelease">
+                    
+                </div>
+                <div>
+                    
+                </div>
+                <div class="ReleaseLang">Read this release in: 
+                
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2097336' target="_blank">
+                            Urdu </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2097376' target="_blank">
+                            हिन्दी </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2097402' target="_blank">
+                            Marathi </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2097543' target="_blank">
+                            Punjabi </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2097342' target="_blank">
+                            Gujarati </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2097385' target="_blank">
+                            Telugu </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2097349' target="_blank">
+                            Malayalam </a>
+                    
+                </div>
+
+                <div class="RelTag">
+                    <ul>
+                        
+                    </ul>
+                </div>
+                <div class="clear">
+                </div>
+
+                <!-- DBIM 3.0 Option 4: Separator Line with Left Share Rail & Right Reading Metrics -->
+                <div class="pr-share pr-share--footer" role="region" aria-label="Share and reading details">
+                    <div class="pr-share__left">
+                        <span class="pr-share__label" aria-hidden="true">Share</span>
+                        <ul class="pr-share__list">
+                            <li><a class="pr-share__btn pr-share__btn--facebook"
+                                href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2097309"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on Facebook">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-facebook" xlink:href="#icon-facebook"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--twitter"
+                                href="https://twitter.com/intent/tweet?url=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2097309"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on X">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-twitter" xlink:href="#icon-twitter"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--whatsapp"
+                                href="https://api.whatsapp.com/send?text=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2097309"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on WhatsApp">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-whatsapp" xlink:href="#icon-whatsapp"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--linkedin"
+                                href="https://www.linkedin.com/sharing/share-offsite/?url=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2097309"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on LinkedIn">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-linkedin" xlink:href="#icon-linkedin"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--mail"
+                                href="mailto:?subject=Press+release+from+PIB&amp;body=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2097309"
+                                aria-label="Share by email">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-mail" xlink:href="#icon-mail"></use>
+                                </svg>
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div class="pr-reading-meta" id="prReadingMeta" aria-label="Reading statistics">
+                        <span class="pr-reading-meta__item">
+                            <!-- Modern Document / Word Count Icon -->
+                            <svg class="pr-reading-meta__icon" width="18" height="18" viewbox="0 0 16 16" fill="currentColor" aria-hidden="true" focusable="false">
+                                <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5" />
+                                <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z" />
+                            </svg>
+                            <span id="prWordCount">-- words</span>
+                        </span>
+
+                        <span class="pr-reading-meta__divider" aria-hidden="true">|</span>
+
+                        <span class="pr-reading-meta__item">
+                            <!-- Modern Precision Clock / Read Time Icon -->
+                            <svg class="pr-reading-meta__icon" width="18" height="18" viewbox="0 0 16 16" fill="currentColor" aria-hidden="true" focusable="false">
+                                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                            </svg>
+                            <span id="prReadTime">-- min read</span>
+                        </span>
+                    </div>
+                </div>
+
+                <div id="RelLink" class="RelLink">
+                    <ul>
+                        
+                    </ul>
+                </div>
+                <center>
+                    
+                </center>
+            </div>
+
+            <div id="update12">
+	
+                    
+                    <input type="hidden" name="Hidden" id="Hidden" />
+                    <div id="P_CategoryManagement" class="ModalWindow" style="border-width:0px;height:60%;width:60%;overflow:auto;display: none">
+		
+                        <div>
+                            <input type="image" name="btnClose" id="btnClose" src="images/close_flat_icon.png" />
+                        </div>
+                        <div id="description">
+                        </div>
+                        <div class="text-center">
+                            <h2>
+                                
+                                <br>
+                                
+                            </h2>
+                        </div>
+                        <br />
+                        <div class="clear">
+                        </div>
+                        
+                    
+	</div>
+                
+</div>
+        </div>
+
+        <div id="PdfDiv" style="display: none;">
+            <table width="100%">
+                <tr>
+                    <td style="font-weight: 200; text-align: center">
+                        Ministry of Mines 
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 200; text-align: center; font-size: 30px;">
+                            Cabinet Approves 'National Critical Mineral Mission' to build a resilient Value Chain for critical mineral resources vital to Green Technologies, with an outlay of Rs.34,300 crore over seven years
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 200; text-align: center; font-size: 30px;">
+                            
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="text-align: center; font-size: 14px;">
+                            Posted On:
+                                          29 JAN 2025 3:13PM by PIB Delhi
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 200; text-align: left; font-size: 16px;">
+                            <p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The Union Cabinet, chaired by the Prime Minister Shri Narendra Modi, has approved the launch of the National Critical Mineral Mission (NCMM) with an expenditure of Rs.16,300 crore and expected investment of Rs.18,000 crore by PSUs, etc.</span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">As part of the Atmanirbhar Bharat initiative, and recognizing the indispensable role of critical minerals in high-tech industries, clean energy, and defense, the Government of India has undertaken several initiatives over the past two years to address challenges in the critical minerals sector.</span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">There is a need to establish an effective framework for India&#39;s self-reliance in the critical mineral sector. In line with this vision, the Finance Minister announced the setting up of the Critical Mineral Mission in the Union Budget for 2024-25 on 23rd July 2024.<br />
+&nbsp;<br />
+The National Critical Mineral Mission, approved by the Union Cabinet, will encompass all stages of the value chain, including mineral exploration, mining, beneficiation, processing, and recovery from end-of-life products. The mission will intensify the exploration of critical minerals within the country and in its offshore areas. It aims to create a fast track regulatory approval process for critical mineral mining projects. Additionally, the mission will offer financial incentives for critical mineral exploration and promote the recovery of these minerals from overburden and tailings.</span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The mission aims to encourage Indian PSUs and private sector companies to acquire critical mineral assets abroad and enhance trade with resource-rich countries. It also proposes development of stockpile of critical minerals within the country.</span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The mission includes provisions for setting up of mineral processing parks and supporting the recycling of critical minerals. It will also promote research in critical mineral technologies and proposes setting up Centre of Excellence on Critical Minerals.</span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Adopting a whole-of-government approach, the Mission will work closely with relevant ministries, PSUs, private companies, and research institutions to achieve its objectives.</span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Mines and Minerals (Development and Regulation) Act, 1957, has been amended in 2023 to increase exploration and mining of critical minerals. Consequently, the Ministry of Mines has auctioned 24 blocks of strategic minerals. Further, Geological Survey of India (GSI) has undertaken 368 exploration projects for critical minerals over the past three years, with 195 projects currently underway in FS 2024-25. Further, for FY 2025-26, GSI is going to take up 227 projects for various critical minerals. To foster innovation, the Ministry launched the Science and Technology - Promotion of Research and Innovation in Start-ups and MSMEs (S&amp;T &nbsp;PRISM) program in 2023, funding start-ups and MSMEs to bridge the gap between R&amp;D and commercialization. Moreover, KABIL, a JV of Ministry of Mines, has acquired an area of about 15703 Ha in the Catamarca province of Argentina, for exploration and mining of Lithium. Government of India has already eliminated customs duties on the majority of critical minerals in Union budget 2024-25. This will increase the availability of critical mineral in the country and will encourage the industry to set up processing facilities in India. These initiatives highlight India&#39;s commitment to securing critical mineral supplies.</span></span></p>
+
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">******</span></span></p>
+
+<p style="text-align:justify"><strong><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">MJPS/SKS</span></span></strong></p>
+
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 100; text-align: left; font-size: 16px;">
+                            (Release ID: 2097309)
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="font-weight: 200; text-align: center; font-size: 24px;"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="clearfix">
+        </div>
+
+        <div class="section1">
+            <div id="frst_t">
+                <div id="arr_rm"><div class='sticky-social_mb'><ul class='social_mb'><a href='http://www.facebook.com/share.php?u=https://pib.gov.in/PressReleasePage.aspx?PRID=2097309' target='_blank'><li class='fb_b'   ></li></a><a href='https://twitter.com/intent/tweet?url=https://pib.gov.in/PressReleasePage.aspx?PRID=2097309&text=Cabinet Approves 'National Critical Mineral Mission' to build a resilient Value Chain for critical mineral resources vital to Green Technologies, with an outlay of Rs.34,300 crore over seven years' target='_blank'><li class='twitter_r'  > </li></a><a href='https://api.whatsapp.com/send?text=https://pib.gov.in/PressReleasePage.aspx?PRID=2097309' target='_blank'><li class='whatsapp_r'  ></li></a><a href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=&su=Cabinet Approves 'National Critical Mineral Mission' to build a resilient Value Chain for critical mineral resources vital to Green Technologies, with an outlay of Rs.34,300 crore over seven years&body=https://pib.gov.in/PressReleasePage.aspx?PRID=2097309&ui=2&tf=1&pli=1' title='Share by Email' target='_blank'><li class='fa-envelope_r' ></li></a><a href='https://www.linkedin.com/shareArticle?mini=true&url=https://pib.gov.in/PressReleasePage.aspx?PRID=2097309&title=Cabinet Approves 'National Critical Mineral Mission' to build a resilient Value Chain for critical mineral resources vital to Green Technologies, with an outlay of Rs.34,300 crore over seven years&summary=My%20favorite%20developer%20program&source=LinkedIn' target='_blank'><li class='fa-linkedin_r'  ></li></a></ul></div></div>
+            </div>
+            <div id="second_t">
+                <div id="sndr_rm"><div class='sticky-social'><ul class='social'><a href='http://www.facebook.com/share.php?u=https://pib.gov.in/PressReleasePage.aspx?PRID=2097309' target='_blank'><li class='fb_b'   ></li></a><a href='https://twitter.com/intent/tweet?url=https://pib.gov.in/PressReleasePage.aspx?PRID=2097309&text=Cabinet Approves 'National Critical Mineral Mission' to build a resilient Value Chain for critical mineral resources vital to Green Technologies, with an outlay of Rs.34,300 crore over seven years' target='_blank'><li class='twitter_r'  > </li></a><a href='https://api.whatsapp.com/send?text=https://pib.gov.in/PressReleasePage.aspx?PRID=2097309' target='_blank'><li class='whatsapp_r'  ></li></a><a href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=&su=Cabinet Approves 'National Critical Mineral Mission' to build a resilient Value Chain for critical mineral resources vital to Green Technologies, with an outlay of Rs.34,300 crore over seven years&body=https://pib.gov.in/PressReleasePage.aspx?PRID=2097309&ui=2&tf=1&pli=1' title='Share by Email' target='_blank'><li class='fa-envelope_r' ></li></a><a href='https://www.linkedin.com/shareArticle?mini=true&url=https://pib.gov.in/PressReleasePage.aspx?PRID=2097309&title=Cabinet Approves 'National Critical Mineral Mission' to build a resilient Value Chain for critical mineral resources vital to Green Technologies, with an outlay of Rs.34,300 crore over seven years&summary=My%20favorite%20developer%20program&source=LinkedIn' target='_blank'><li class='fa-linkedin_r'  ></li></a></ul></div></div>
+            </div>
+        </div>
+        <input type="hidden" name="ltrTitlee" id="ltrTitlee" value="Cabinet Approves &#39;National Critical Mineral Mission&#39; to build a resilient Value Chain for critical mineral resources vital to Green Technologies, with an outlay of Rs.34,300 crore over seven years" />
+        <input type="hidden" name="ltrSubtitlee" id="ltrSubtitlee" />
+        <input type="hidden" name="ltrDescriptionn" id="ltrDescriptionn" value="&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>The Union Cabinet, chaired by the Prime Minister Shri Narendra Modi, has approved the launch of the National Critical Mineral Mission (NCMM) with an expenditure of Rs.16,300 crore and expected investment of Rs.18,000 crore by PSUs, etc.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>As part of the Atmanirbhar Bharat initiative, and recognizing the indispensable role of critical minerals in high-tech industries, clean energy, and defense, the Government of India has undertaken several initiatives over the past two years to address challenges in the critical minerals sector.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>There is a need to establish an effective framework for India&amp;#39;s self-reliance in the critical mineral sector. In line with this vision, the Finance Minister announced the setting up of the Critical Mineral Mission in the Union Budget for 2024-25 on 23rd July 2024.&lt;br />
+&amp;nbsp;&lt;br />
+The National Critical Mineral Mission, approved by the Union Cabinet, will encompass all stages of the value chain, including mineral exploration, mining, beneficiation, processing, and recovery from end-of-life products. The mission will intensify the exploration of critical minerals within the country and in its offshore areas. It aims to create a fast track regulatory approval process for critical mineral mining projects. Additionally, the mission will offer financial incentives for critical mineral exploration and promote the recovery of these minerals from overburden and tailings.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>The mission aims to encourage Indian PSUs and private sector companies to acquire critical mineral assets abroad and enhance trade with resource-rich countries. It also proposes development of stockpile of critical minerals within the country.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>The mission includes provisions for setting up of mineral processing parks and supporting the recycling of critical minerals. It will also promote research in critical mineral technologies and proposes setting up Centre of Excellence on Critical Minerals.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>Adopting a whole-of-government approach, the Mission will work closely with relevant ministries, PSUs, private companies, and research institutions to achieve its objectives.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>Mines and Minerals (Development and Regulation) Act, 1957, has been amended in 2023 to increase exploration and mining of critical minerals. Consequently, the Ministry of Mines has auctioned 24 blocks of strategic minerals. Further, Geological Survey of India (GSI) has undertaken 368 exploration projects for critical minerals over the past three years, with 195 projects currently underway in FS 2024-25. Further, for FY 2025-26, GSI is going to take up 227 projects for various critical minerals. To foster innovation, the Ministry launched the Science and Technology - Promotion of Research and Innovation in Start-ups and MSMEs (S&amp;amp;T &amp;nbsp;PRISM) program in 2023, funding start-ups and MSMEs to bridge the gap between R&amp;amp;D and commercialization. Moreover, KABIL, a JV of Ministry of Mines, has acquired an area of about 15703 Ha in the Catamarca province of Argentina, for exploration and mining of Lithium. Government of India has already eliminated customs duties on the majority of critical minerals in Union budget 2024-25. This will increase the availability of critical mineral in the country and will encourage the industry to set up processing facilities in India. These initiatives highlight India&amp;#39;s commitment to securing critical mineral supplies.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:center&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>******&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;strong>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>MJPS/SKS&lt;/span>&lt;/span>&lt;/strong>&lt;/p>
+" />
+        <script type="text/javascript">
+                  var mPlayer = document.getElementById("background_music");
+                  var mPlayAction = document.getElementById("playbutton");
+                  var isPlaying = false;
+
+                  function playAudio() {
+                        mPlayer.play();
+                        isPlaying = true;
+                        document.getElementById('stopA').style.display = "block";
+                        document.getElementById('playA').style.display = "none";
+                  }
+
+                  function pauseAudio() {
+                        mPlayer.pause();
+                        isPlaying = false;
+                        document.getElementById('playA').style.display = "block";
+                        document.getElementById('stopA').style.display = "none";
+                  }
+        </script>
+        <script type="text/javascript">
+                  var synth = window.speechSynthesis;
+
+                  function CleanHtml(html) {
+                        html = html.replace(/<script[\s\S]*?<\/script>/gi, '');
+                        return html;
+                  }
+                  function stripHtml(html) {
+                        let tmp = document.createElement("DIV");
+                        tmp.innerHTML = CleanHtml(html);
+                        return tmp.textContent || tmp.innerText || "";
+                  }
+        </script>
+        <script type="text/javascript">
+                  $(document).ready(function () {
+                        $("table").each(function () {
+                              if (!$(this).closest(".table-responsive").length) {
+                                    $(this).wrap("<div class='table-responsive'></div>");
+                              }
+                        });
+
+                        var width = $(window).width();
+                        if (width < 768) {
+                              document.getElementById('frst_t').style.display = "block";
+                              document.getElementById('second_t').style.display = "none";
+                        } else if (width < 991) {
+                              document.getElementById('frst_t').style.display = "block";
+                              document.getElementById('second_t').style.display = "none";
+                        } else if (width < 1199) {
+                              document.getElementById('frst_t').style.display = "none";
+                              document.getElementById('second_t').style.display = "block";
+                        } else {
+                              document.getElementById('frst_t').style.display = "none";
+                              document.getElementById('second_t').style.display = "block";
+                        }
+                  });
+        </script>
+        <style type="text/css">
+            @media print {
+                .sticky-social, .sticky-social_mb, .pull-right, #printPDF {
+                    display: none !important;
+                }
+            }
+
+            .f_vl {
+                padding-right: 30px;
+                font-size: 17px;
+                cursor: pointer;
+            }
+
+            .log_oo {
+                display: flex;
+                justify-content: space-between;
+            }
+
+                .log_oo img {
+                    width: 150px;
+                }
+
+            .sticky-social_mb {
+                position: fixed;
+                bottom: 0px;
+                padding: 0px;
+                margin: 0px;
+                width: 100%;
+            }
+
+            .social_mb {
+                list-style: none;
+                display: flex;
+                width: 100%;
+                margin-bottom: -8px;
+            }
+
+                .social_mb a {
+                    padding: 8px 0px;
+                    font-size: 30px;
+                    transition: all 0.8s ease-in-out;
+                    width: 20% !important;
+                    text-align: center;
+                }
+        </style>
+        <style type="text/css">
+            .section1 {
+                position: relative;
+                padding: 10px 0px;
+                width: 100%;
+            }
+
+            .sticky-social {
+                position: fixed;
+                top: 20px;
+                left: 0px;
+                padding: 0px;
+                margin: 0px;
+            }
+
+            .social {
+                list-style: none;
+            }
+
+                .social a li {
+                    padding: 8px 12px;
+                    font-size: 25px;
+                    transition: all 0.8s ease-in-out;
+                }
+
+                    .social a li:hover {
+                        margin-right: -30px;
+                        box-shadow: 2px 5px 10px grey;
+                    }
+
+                        .social a li:hover .fa {
+                            margin-left: 20px;
+                        }
+
+            .fb_b {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .twitter_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .whatsapp_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .fa-envelope_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .fa-linkedin_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+        </style>
+        <style type="text/css">
+            @media only screen and (max-device-width: 767px) {
+                p span img {
+                    max-width: 90% !important;
+                    height: auto !important;
+                }
+
+                p img {
+                    max-width: 90% !important;
+                    height: auto !important;
+                }
+
+                h2 {
+                    font-size: var(--dbim-h2, 20px);
+                    font-weight: 600 !important;
+                }
+
+                h3 {
+                    font-size: var(--dbim-h3, 16px);
+                    font-weight: 600 !important;
+                }
+            }
+        </style>
+        <style type="text/css">
+            .film-roll-badge {
+                position: absolute;
+                top: 82%;
+                right: 20px;
+                width: 230px;
+                height: 70px;
+                background: repeating-linear-gradient( to right, var(--dbim-green-key, #0F5757) 0px, var(--dbim-green-key, #0F5757) 18px, var(--dbim-text, #150202) 18px, var(--dbim-text, #150202) 36px );
+                border-top: 8px solid var(--dbim-green-key, #0F5757);
+                border-bottom: 8px solid var(--dbim-green-key, #0F5757);
+                border-radius: 8px;
+                overflow: hidden;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+                animation: moveFilm 8s linear infinite;
+                z-index: 10;
+            }
+
+                .film-roll-badge::before,
+                .film-roll-badge::after {
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 10px;
+                    background: repeating-linear-gradient( to right, var(--dbim-green-key, #0F5757) 0px, var(--dbim-green-key, #0F5757) 10px, #fff 10px, #fff 20px );
+                    left: 0;
+                    z-index: 2;
+                }
+
+                .film-roll-badge::before {
+                    top: -4px;
+                }
+
+                .film-roll-badge::after {
+                    bottom: -4px;
+                }
+
+            .film-roll-inner {
+                position: relative;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                animation: flicker 2s infinite ease-in-out;
+            }
+
+            .countdown-text {
+                font-size: 1.3rem;
+                font-weight: 700;
+                color: #fff;
+                text-shadow: 0 0 6px rgba(255, 255, 255, 0.4), 0 0 10px #000;
+                white-space: nowrap;
+            }
+
+            @keyframes moveFilm {
+                0% {
+                    background-position: 0 0;
+                }
+
+                100% {
+                    background-position: 120px 0;
+                }
+            }
+
+            @keyframes flicker {
+                0%, 100% {
+                    opacity: 1;
+                }
+
+                50% {
+                    opacity: 0.9;
+                }
+
+                25% {
+                    opacity: 0.95;
+                }
+
+                75% {
+                    opacity: 0.85;
+                }
+            }
+
+            @media (max-width: 1500px) {
+                .film-roll-badge {
+                    top: 68%;
+                    right: 18px;
+                    height: 65px;
+                    font-size: 0.85rem;
+                }
+
+                .press-section {
+                    margin-top: 35px;
+                }
+            }
+
+            @media (max-width: 992px) {
+                .film-roll-badge {
+                    top: 52%;
+                    right: 10px;
+                    width: 200px;
+                    height: 60px;
+                }
+            }
+
+            @media (max-width: 768px) {
+                .film-roll-badge {
+                    top: 56%;
+                    right: 10px;
+                    width: 124px;
+                    height: 55px;
+                }
+
+                .countdown-text {
+                    font-size: 0.9rem;
+                }
+            }
+
+            @media (max-width: 576px) {
+                .film-roll-badge {
+                    top: 59%;
+                    right: 5px;
+                    height: 50px;
+                }
+
+                .countdown-text {
+                    font-size: 0.85rem;
+                }
+            }
+        </style>
+        <script type="text/javascript">
+                  const festivalStart = new Date("2025-11-20T00:00:00").getTime();
+                  const festivalEnd = new Date("2025-11-28T23:59:59").getTime();
+                  const countdownElement = document.getElementById("countdown");
+
+                  if (countdownElement) {
+                        const interval = setInterval(() => {
+                              const now = new Date().getTime();
+
+                              if (now < festivalStart) {
+                                    const diff = festivalStart - now;
+                                    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                                    const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+
+                                    countdownElement.innerHTML = `${days} Day${days !== 1 ? 's' : ''} ${hours} Hour${hours !== 1 ? 's' : ''} to go`;
+                              } else if (now >= festivalStart && now <= festivalEnd) {
+                                    const dayNumber = Math.floor((now - festivalStart) / (1000 * 60 * 60 * 24)) + 1;
+                                    countdownElement.innerHTML = `56th IFFI - Day ${dayNumber}`;
+                              } else {
+                                    countdownElement.innerHTML = `✨ IFFI closes but never ends…`;
+                                    const elements = document.querySelectorAll('.film-roll-badge');
+                                    elements.forEach(el => el.style.width = "350px");
+                                    clearInterval(interval);
+                              }
+                        }, 1000);
+                  }
+        </script>
+        <script type="text/javascript">
+                  const miffStart = new Date("2026-06-15T00:00:00").getTime();
+                  const miffEnd = new Date("2026-06-15T23:59:59").getTime();
+                  const miffElement = document.getElementById("miff");
+
+                  if (miffElement) {
+                        const miffInterval = setInterval(() => {
+                              const now = new Date().getTime();
+
+                              if (now < miffStart) {
+                                    const diff = miffStart - now;
+                                    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                                    miffElement.innerHTML = `${days} Day${days === 1 ? '' : 's'} to MIFF ...`;
+                              } else if (now >= miffStart && now <= miffEnd) {
+                                    const dayNumber = Math.floor((now - miffStart) / (1000 * 60 * 60 * 24)) + 1;
+                                    miffElement.innerHTML = `19th MIFF - Day ${dayNumber}`;
+                              } else {
+                                    miffElement.innerHTML = `✨ MIFF concludes, cinema lives on...`;
+                                    document.querySelectorAll('.film-roll-badge').forEach(el => el.style.width = "350px");
+                                    clearInterval(miffInterval);
+                              }
+                        }, 1000);
+                  }
+        </script>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("sc_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.ModalPopupBehavior, {"BackgroundCssClass":"modalBackground","PopupControlID":"P_CategoryManagement","dynamicServicePath":"/PressReleasePage.aspx","id":"mpe"}, null, null, $get("Hidden"));
+});
+//]]>
+</script>
+<input type="hidden" name="__ncforminfo" value="S6IIj6R4bNO97vzZUrAh_8bH_8BbwMyT9CBtjxXZ7pFoEn592AIlvmc_6I8Pad06BzKRkxCiVzrY7uqtl1CFBy_cafl3vJbiZPLOQGgDgolQBygGMnn-aA=="/></form>
+    
+
+<script type="application/json" id="pibConsentConfig">{"ga4Id":"G-Q414Y0X6EE,G-QJJ6LZ8LHV","policyUrl":"/CookiePolicy.aspx","text":{"bannerLabel":"Cookie consent","title":"Cookies on this website","body":"We use essential cookies to make this website work. We also set analytics cookies when you arrive, so we can see how the site is used and improve it - you can switch these off below or at any time from the Cookie Policy page. Cookies from embedded social media content are set only if you allow them.","policyLink":"Read our Cookie Policy","accept":"Accept all","reject":"Reject optional","customize":"Customise","prefsTitle":"Cookie preferences","prefsIntro":"Choose which cookies this website may set. Essential cookies cannot be switched off because the site does not work without them. Analytics cookies are on unless you turn them off. Social media cookies stay off until you allow them. You can change these choices at any time from the Cookie Policy page.","essentialName":"Essential cookies","essentialDesc":"Needed for the site to function. These remember your session, your language and region, your text size and colour theme, and verify the security check on forms. They are always on.","analyticsName":"Analytics cookies","analyticsDesc":"Help us understand how visitors use the site - which pages are read and how long people stay - so it can be improved. The information is collected in a form that does not directly identify you. These are on when you arrive; switching them off here stops them and deletes the ones already set.","socialName":"Social media cookies","socialDesc":"Set by content embedded from X, Facebook and YouTube, such as timelines and videos. These platforms may use them to track you across websites. They stay off until you allow them.","save":"Save preferences","cancel":"Cancel"}}</script>
+<script type="text/javascript" src='/js/consent.js?v=10'></script>
+
+<script type="text/javascript" src='/js/consent-embeds.js?v=10'></script>
+
+
+    <!-- Minimal O(N) Time and O(1) Auxiliary Space Word Count & Read Time Calculation -->
+    <script type="text/javascript">
+            (function () {
+                  function calculateReadingStats() {
+                        var bodyEl = document.getElementById("pibReleaseBody");
+                        if (!bodyEl) return;
+
+                        // textContent extracts text without triggering expensive layout/reflow computations
+                        var text = bodyEl.textContent || "";
+                        var words = 0;
+                        var inWord = false;
+
+                        // O(N) single pass character code scan: achieves O(1) space with zero array allocations
+                        for (var i = 0, len = text.length; i < len; i++) {
+                              var code = text.charCodeAt(i);
+                              // Delimits on ASCII whitespace, control characters, tabs, newlines, and non-breaking spaces (160)
+                              if (code <= 32 || code === 160) {
+                                    inWord = false;
+                              } else if (!inWord) {
+                                    inWord = true;
+                                    words++;
+                              }
+                        }
+
+                        // Standard 250 WPM reading speed (e.g., 612 words yields 2 min read)
+                        var minutes = Math.max(1, Math.round(words / 250));
+
+                        var elWords = document.getElementById("prWordCount");
+                        var elTime = document.getElementById("prReadTime");
+
+                        if (elWords) elWords.textContent = words + (words === 1 ? " word" : " words");
+                        if (elTime) elTime.textContent = minutes + " min read";
+                  }
+
+                  if (document.readyState === "loading") {
+                        document.addEventListener("DOMContentLoaded", calculateReadingStats);
+                  } else {
+                        calculateReadingStats();
+                  }
+            })();
+    </script>
+
+    <script type="text/javascript">
+            (function () {
+                  try {
+                        if (window.self === window.top) { return; }
+                  } catch (e) { return; }
+                  var s = document.createElement("style");
+                  s.textContent = ".sticky-social, .sticky-social_mb { display: none !important; }";
+                  (document.head || document.documentElement).appendChild(s);
+            }());
+    </script>
+</body>
+</html>
