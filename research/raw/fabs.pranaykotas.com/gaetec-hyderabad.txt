@@ -1,0 +1,73 @@
+
+GAETEC – India Semiconductor Tracker
+India Semiconductor Tracker
+Map & Overview
+Trackers
+Timeline
+Technology Nodes
+Chip Design
+Equipment & Materials
+Policy & Budget
+About
+Takshashila
+On this page
+What does this facility make?
+Why does it matter?
+Key Facts
+Project Timeline
+Sources
+GAETEC
+Gallium Arsenide Enabling Tech Centre | Compound Semiconductor
+Published
+October 19, 2026
+Tip
+Why This Matters
+India’s strategic Gallium Arsenide fab — produces radar and electronic warfare chips for defence.
+What does this facility make?
+Gallium Arsenide (GaAs) Monolithic Microwave Integrated Circuits (MMICs) — specialised chips used in military radar, electronic warfare systems, and satellite communications.
+Why does it matter?
+GAETEC is a DRDO facility that gives India sovereign capability in GaAs MMICs — chips that cannot be easily procured from abroad due to export controls. It is small-scale and defence-focused, but strategically essential.
+Key Facts
+Company
+Gallium Arsenide Enabling Tech Centre
+Partners
+None
+Type
+Compound Semiconductor
+Capability
+GaAs MMICs (Strategic)
+Status
+Operational
+Investment
+Strategic / Government funded
+Location
+Hyderabad, Telangana
+Category
+Research & Strategic
+Technical Complexity
+1/5
+Benchmarked against a 3nm fab (5/5).
+Timeliness
+On track
+Project Timeline
+No milestones recorded yet.
+Sources
+DRDO: GAETEC
+ (01 Jan 2025)
+Note
+Have an update about this project?
+If you have new information, a correction, or a source to add, please 
+submit it via our form
+ or 
+open a GitHub Issue
+.
+Back to Map
+© 2026 
+Pranay Kotasthane
+ · 
+Takshashila Institution
+Part of the 
+Siliconpolitik Project
+ · 
+Subscribe for monthly updates
+Submit an update

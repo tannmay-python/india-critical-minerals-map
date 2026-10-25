@@ -1,0 +1,78 @@
+
+Crystal Matrix Mini/Micro-LED Fab – India Semiconductor Tracker
+India Semiconductor Tracker
+Map & Overview
+Trackers
+Timeline
+Technology Nodes
+Chip Design
+Equipment & Materials
+Policy & Budget
+About
+Takshashila
+On this page
+What does this facility make?
+Why does it matter?
+Key Facts
+Project Timeline
+Sources
+Crystal Matrix Mini/Micro-LED Fab
+Crystal Matrix Limited | Compound Semiconductor
+Published
+October 19, 2026
+Tip
+Why This Matters
+India’s first dedicated Mini/Micro-LED display manufacturing project. It pushes the tracker beyond conventional chip packaging into a higher-value optoelectronics segment.
+What does this facility make?
+Plans to make Mini-LED and Micro-LED display modules and panels, while also building Gallium Nitride epitaxy and foundry capability on 6-inch wafers. These technologies sit at the intersection of semiconductors and advanced displays.
+Why does it matter?
+Micro-LED and GaN manufacturing are strategically relevant because they open a path into XR displays, automotive HUDs, wearables, defence displays, and other high-performance optoelectronic applications. Locating the project in Dholera also deepens Gujarat’s emerging semiconductor cluster beyond silicon fabs and OSAT.
+Key Facts
+Company
+Crystal Matrix Limited
+Partners
+LUMENS Co., Ltd., South Korea
+Type
+Compound Semiconductor
+Capability
+Mini/Micro-LED Display Modules + GaN Foundry (72,000 sq m panels/year)
+Status
+Approved
+Investment
+₹3,068 crore
+Location
+Dholera, Gujarat
+Category
+Commercial (ISM Approved)
+Technical Complexity
+2/5
+Benchmarked against a 3nm fab (5/5).
+Timeliness
+On track
+Project Timeline
+05 May 2026
+ — Union Cabinet approves Crystal Matrix’s Mini/Micro-LED semiconductor unit under ISM
+Sources
+PIB: Cabinet approves two more semiconductor manufacturing units
+ (05 May 2026)
+Semiconductor projects worth ₹4,000 crore get Cabinet go-ahead
+ (05 May 2026)
+Crystal Matrix official website
+ (06 May 2026)
+Note
+Have an update about this project?
+If you have new information, a correction, or a source to add, please 
+submit it via our form
+ or 
+open a GitHub Issue
+.
+Back to Map
+© 2026 
+Pranay Kotasthane
+ · 
+Takshashila Institution
+Part of the 
+Siliconpolitik Project
+ · 
+Subscribe for monthly updates
+Submit an update

@@ -1,0 +1,194 @@
+                                                                                  
+                                                                                  
+                                                                                  
+                                 GOVERNMENT  OF INDIA                             
+                             MINISTRY OF HEAVY INDUSTRIES                         
+                                      LOK SABHA                                   
+                             UNSTARRED  QUESTION NO. 1521                         
+                                 ANSWERED ON 28.07.2026                           
+                                                                                  
+                                                                                  
+              BATTERY MANUFACTURING   INFRASTRUCTURE, LOCALIZATION  AND           
+                                     RECYCLING                                    
+                                                                                  
+          1521. SHRI P C MOHAN:                                                   
+               MRS RUCHI VIRA:                                                    
+                                                                                  
+          Will the Minister of HEAVY INDUSTRIES be pleased to state:              
+                                                                                  
+          (a) the details of status of battery manufacturing infrastructure being developed in the country under
+          the PLI scheme for Advanced Chemistry Cells, including the current level of domestic value
+          addition achieved as against the prescribed target of 60 per cent;      
+                                                                                  
+          (b) whether any industry or company has proposed or established Advanced Chemistry Cell or
+          battery manufacturing facilities in Karnataka, including Bengaluru and the details of investment
+          and capacity involved;                                                  
+                                                                                  
+                                                                                  
+          (c) the details of Government's plans and regulatory framework, including the Battery Waste
+          Management Rules, for recycling of end-of-life EV batteries and the current level of battery waste
+          recycled in the country;                                                
+                                                                                  
+          (d) whether any battery recycling facility is planned or operational in Karnataka, including
+          Bengaluru and if so, the details thereof;                               
+                                                                                  
+          (e) whether an integrated strategy is being adopted by the Government for domestic manufacturing
+          of advanced battery Cells to meet the growing demand of Electric Vehicles (EVs) and Battery
+          Energy Storage Systems (BESS);                                          
+                                                                                  
+          (f) the details of measures taken by the Government to promote economies of scale in battery
+          manufacturing with a view to reducing battery costs, making Electric Vehicles more affordable and
+          strengthening the indigenous battery value chain; and                   
+                                                                                  
+                                                                                  
+          (g) the details of incentives provided by the Government for setting up of giga-factories, localisation
+          of battery components, recycling facilities and advanced cell manufacturing technologies?
+                                                                                  
+                                       ANSWER                                     
+                      THE MINISTER OF STATE FOR HEAVY INDUSTRIES                  
+                         (SHRI BHUPATHIRAJU SRINIVASA VARMA)                      
+                                                                                  
+          (a) & (e) to (g): The Ministry of Heavy Industries administers the Production Linked
+          Incentive (PLI) scheme, namely “National Programme on Advanced Chemistry Cell (ACC) Battery
+          Storage,” approved in May 2021 with a total outlay of ₹18,100 crore to establish 50 GWh of
+          domestic Advanced Chemistry Cell manufacturing capacity.                
+                                                                                  
+               Out of the total targeted capacity of 50 GWh, 40 GWh has been awarded to four beneficiary
+          firms. One of the beneficiary firm i.e. M/s Ola Cell Technologies Pvt. Ltd., has established a Giga-
+          Scale ACC manufacturing plant with an installed capacity of 1.4 GWh.    
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                            -2-                                   
+                                                                                  
+               The scheme mandates a domestic value addition (DVA) of 25% within two years and 60%
+          within five years from the Appointed Date, as prescribed under the Programme Agreement.
+                                                                                  
+          Currently, overall value addition remains below the 60% threshold as critical battery components
+          such as Cathode Active Materials (CAM), Anode Active Materials (AAM), separators, electrolytes,
+          and foils continue to be largely imported due to limited domestic manufacturing capacity.
+                                                                                  
+               Under the PLI ACC scheme, out of targeted 50 GWh ACC capacity, 10 GWh capacity has
+          been earmarked for Grid Scale Stationary Storage applications. Further, the 40 GWh capacity is
+          end-use agnostic and can be utilized for any application including Electric Vehicles (EVs) and
+          Battery Energy Storage Systems (BESS).                                  
+                                                                                  
+              The Union Cabinet has approved the National Critical Mineral Mission (NCMM) on 29
+          January, 2025 to secure a long-term sustainable supply of critical minerals and strengthen India’s
+          critical mineral value chains encompassing all stages from mineral exploration and mining to
+          beneficiation, processing, and recovery from end-of-life products. Further, the Ministry of Mines
+          has taken several initiatives to secure critical mineral supply chain, which inter alia include:
+                                                                                  
+             The Ministry of Mines has successfully auctioned 56 critical mineral blocks. Additionally,
+              the Central Government has also successfully auctioned 11 blocks of Exploration License,
+              which include six blocks of critical minerals.                      
+             The Mines and Minerals (Development and Regulation) Act (MMDR Act), 1957 has been
+              amended in 2025 whereby the scope of NMEDT has been expanded to support critical mineral
+                                                                                  
+              exploration and mining overseas.                                    
+             Khanij Bidesh India Limited (KABIL), under Ministry of Mines, has signed an Exploration
+              and Development Agreement with CAMYEN, a state-owned enterprise of Catamarca
+              province of Argentina, for exploration and mining of five Lithium Brine Blocks in Argentina
+              covering an area of 15703 Ha.                                       
+             During Union Budget 2024–25, customs duties were eliminated on 25 critical minerals. In
+                                                                                  
+              Budget 2025–26, Basic Customs Duty (BCD) was exempted on cobalt powder and waste,
+              scrap of lithium-ion batteries, etc. Further, in Budget 2026–27, BCD was exempted on the
+              import of capital goods required for processing of critical minerals in India.
+             The Union Cabinet approved a ₹1,500 crore Incentive Scheme to develop recycling capacity
+              for the separation and production of critical minerals from secondary sources. The Scheme
+              was launched on 02.10.2025.                                         
+             Guidelines for funding Pilot Projects for Recovery of Critical Minerals from overburden /
+                                                                                  
+              tailings / fly ash / Red mud etc. issued on 14.11.2025.             
+                                                                                  
+          (b): Under the PLI ACC Scheme, M/s ACC Energy Storage Pvt. Ltd. (AESPL) has been
+          awarded 5 GWh manufacturing capacity for its manufacturing facility at Dharwad, Karnataka. As
+          on 31.05.2026, the beneficiary firm has reported a cumulative investment of ₹262 crore and creation
+          of 189 direct jobs.                                                     
+                                                                                  
+          (c): The Ministry of Environment, Forest and Climate Change, has notified the Battery Waste
+          Management Rules, 2022 on 22nd August, 2022 to ensure environmentally sound management of
+          waste batteries. The Rules cover all types of batteries, regardless of chemistry, shape, volume,
+          weight, material composition and use, viz. Electric Vehicle batteries, portable batteries, automotive
+          batteries and industrial batteries. The rules are based on the principle of Extended Producer
+          Responsibility (EPR), where the producers (including importers) of batteries have been obligated
+                                                                                  
+          for collection, recycling and/or refurbishment of waste batteries, while disposal through landfilling
+          or incineration is prohibited.                                          
+                                                                                  
+                                                                                  
+                                                                                  
+
+                                                                                  
+                                                                                  
+                                                                                  
+                                          -3-                                     
+                                                                                  
+               The Rules specifically regulate end-of-life EV batteries by requiring producers, importers
+          and manufacturers to ensure their collection, recycling or refurbishment in accordance with
+          Schedule II of the Rules. The rules also encourage the use of domestic recycled content in the
+                                                                                  
+          battery to reduce the burden on virgin material. Further, the Battery Waste Management
+          (Amendment) Rules, 2025 further strengthen provisions on digital labelling, traceability, and
+          centralised registration and reporting through the CPCB portal. As on 22.07.2026, 6166 producers,
+          783 recyclers and 2 refurbishers have applied for registration on EPR Portal for Battery Waste
+          Management, out of which, registration has been issued to 4915 producers, 561 Recyclers and 1
+          Refurbisher. The year wise quantity of waste Lithium-ion battery recycled is provided below:
+                                                                                  
+            Financial Year  Quantity of Waste Lithium-ion Battery recycled (MT)   
+            2022-2023                        699.67                               
+            2023-2024                      1,456.44                               
+            2024-2025                      45,284.12                              
+            2025-2026                    1,05,703.13                              
+                                                                                  
+                                                                                  
+          (d): As per the information provided by the Ministry of Environment, Forest and Climate
+          Change, 65 battery recycling units are operational in the State of Karnataka. Out of these, 18 battery
+          waste recyclers are registered on the EPR Portal for Battery Waste Management.
+                                                                                  
+                                        *******                                   
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  

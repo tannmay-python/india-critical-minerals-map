@@ -49,3 +49,5 @@ Every candidate considered and rejected, with the rule that rejected it, so the 
 | KABIL-MAMICO talks, Malawi; KABIL evaluations in Brazil, Canada, Russia, Indonesia | L8 | Talks only, no project or asset | Same report |
 | Delta Lithium (fifth Australian priority project) | L8 | Found unsuitable after due diligence; which Delta project is not stated | Same report |
 | Chile: KABIL-ENAMI NDA (May 2023), handed to Coal India; PSU consortium lithium brine bid not submitted (Oct 2025 NDA) | L8 | Project and site not named | Same report; LS USQ 1510 (Jul 2024) |
+| Battery pack and BESS assembly plants (e.g. GoodEnough Energy Noida 7 GWh, Amara Raja 1.5 GWh pack plant, Exide Gujarat pack plant) | L9 | Playbook L9: cell plants only | ESS News (Jan 2026); Autocar Professional (Aug 2024); Energetica (Sept 2026) |
+| SicSem SiC fab (Bhubaneswar) and other silicon or SiC fabs and OSATs in the India Semiconductor Tracker | L9 | Playbook L9: compound fabs that use gallium, germanium or indium only | fabs.pranaykotas.com (19 Oct 2026) |

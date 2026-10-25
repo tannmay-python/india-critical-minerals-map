@@ -1,0 +1,538 @@
+# L9 demand anchors: Li-ion cell plants of 1 GWh or more, and compound-semiconductor fabs that use gallium.
+# Expanded by scripts/research/build_entities.py into l9-demand.yml + .evidence.jsonl.
+# Fab records are one-liners pointing to the India Semiconductor Tracker (fabs.pranaykotas.com) via see_also.
+# Pack-only and BESS-assembly plants are out of scope (EXCLUDED.md).
+layer: demand
+
+sources:
+  ls-usq-1624-2026:
+    raw: sansad.in/AU1624_2oSB4G-74598729
+    title: "Lok Sabha Unstarred Question 1624: PLI-ACC Scheme (Ministry of Heavy Industries)"
+    publisher: Lok Sabha Secretariat
+    tier: T1
+    date: "2026-02-10"
+  ls-usq-5077-2026:
+    raw: sansad.in/AU5077_809q9i-74598729
+    title: "Lok Sabha Unstarred Question 5077: Cumulative Capacity under ACC-PLI"
+    publisher: Lok Sabha Secretariat
+    tier: T1
+    date: "2026-03-24"
+  ls-usq-1521-2026:
+    raw: sansad.in/AU1521_o6qWBN-74598729
+    title: "Lok Sabha Unstarred Question 1521: Battery Manufacturing Infrastructure, Localization and Recycling"
+    publisher: Lok Sabha Secretariat
+    tier: T1
+    date: "2026-07-28"
+  energetica-reliance-2026:
+    raw: energetica-india.net/reliance-operationalises-clean-energy-giga-complex-boosts-solar-and-battery-manufacturing
+    title: "Reliance Operationalises Clean Energy Giga Complex, Boosts Solar and Battery Manufacturing"
+    publisher: Energetica India
+    tier: T3
+    date: "2026-05-29"
+  pvm-agratas-2026:
+    raw: pv-magazine-india.com/agratas-advances-20-gwh-sanand-battery-facility
+    title: "Agratas advances 20 GWh Sanand battery facility"
+    publisher: pv magazine India
+    tier: T3
+    date: "2026-04-02"
+  bt-agratas-2026:
+    raw: businesstoday.in/tatas-battery-unit-prepares-to-manufacture-lithium-ion-cells-report-547073-2026-08-04
+    title: "Tata's battery unit prepares to manufacture lithium ion cells: Report"
+    publisher: Business Today (Bloomberg)
+    tier: T3
+    date: "2026-08-04"
+  acp-amararaja-2024:
+    raw: autocarpro.in/amara-raja-inaugurates-battery-pack-plant-lays-foundation-stone-for-customer-qualification
+    title: "Amara Raja inaugurates Battery Pack Plant, lays foundation stone for Customer Qualification Plant at Gigacorridor"
+    publisher: Autocar Professional
+    tier: T3
+    date: "2024-08-10"
+  energetica-amararaja-2026:
+    raw: energetica-india.net/amara-raja-commissions-inr-500-crore-60-mwh-battery-cqp-in-telangana
+    title: "Amara Raja Commissions INR 500 Crore 60 MWh Battery CQP in Telangana"
+    publisher: Energetica India
+    tier: T3
+    date: "2026-07-16"
+  pvm-amararaja-q4fy26:
+    raw: pv-magazine-india.com/index-76f5e67b
+    title: "Amara Raja Energy & Mobility reports 16% YoY revenue growth in Q4 FY26"
+    publisher: pv magazine India
+    tier: T3
+    date: "2026-05-26"
+  energetica-exide-2026:
+    raw: energetica-india.net/exide-commissions-6-gwh-phase-i-lithium-ion-cell-manufacturing-facility
+    title: "Exide Commissions 6 GWh Phase-I Lithium-ion Cell Manufacturing Facility"
+    publisher: Energetica India
+    tier: T3
+    date: "2026-09-28"
+  angelone-exide-2026:
+    raw: angelone.in/exide-industries-share-price-surges-completes-commissioning-phase-i-of-lithium-ion-cell-fa
+    title: "Exide Industries Share Price Surges; Completes Commissioning Phase-I of Lithium-Ion Cell Facility"
+    publisher: Angel One
+    tier: T3
+    date: "2026-09-24"
+  mercom-waaree-2026:
+    raw: mercomindia.com/waaree-to-set-up-16-gwh-lithium-ion-battery-gigafactory-in-andhra-pradesh
+    title: "Waaree to Set Up 16 GWh Lithium-Ion Battery Gigafactory in Andhra Pradesh"
+    publisher: Mercom India
+    tier: T3
+    date: "2026-02-19"
+  energetica-waaree-2026:
+    raw: energetica-india.net/waaree-energies-to-set-up-indias-largest-lithium-ion-battery-gigafactory-in-andhra-pradesh
+    title: "Waaree Energies to Set Up India's Largest Lithium-Ion Battery Gigafactory in Andhra Pradesh"
+    publisher: Energetica India
+    tier: T3
+    date: "2026-02-20"
+  pvm-chemvolt-2026:
+    raw: pv-magazine-india.com/chemvolt-global-announces-5-gwh-lithium-ion-cell-manufacturing-project-in-andhra-pradesh
+    title: "ChemVolt Global announces 5 GWh lithium-ion cell manufacturing project in Andhra Pradesh"
+    publisher: pv magazine India
+    tier: T3
+    date: "2026-01-21"
+  pvm-godi-2024:
+    raw: pv-magazine-india.com/godi-india-to-build-12-5-gwh-battery-cell-manufacturing-unit-in-telangana
+    title: "GODI India to build 12.5 GWh battery cell manufacturing unit in Telangana"
+    publisher: pv magazine India
+    tier: T3
+    date: "2024-01-18"
+  bt-jsw-2026:
+    raw: businesstoday.in/bt-explainer-why-jsw-group-is-putting-its-plans-to-make-battery-cells-in-india-on-hold-551
+    title: "BT Explainer: Why JSW Group is putting its plans to make battery cells in India on hold"
+    publisher: Business Today
+    tier: T3
+    date: "2026-08-27"
+  autocarindia-jsw-2026:
+    raw: autocarindia.com/battery-cell-is-going-to-be-the-new-oil-jsw-group-chairman-440830
+    title: "Battery cell is going to be the new oil: JSW Group chairman"
+    publisher: Autocar India
+    tier: T3
+    date: "2026-09-22"
+  acp-jsw-2024:
+    raw: autocarpro.in/jsw-group-to-produce-locally-manufactured-battery-cells-in-odisha-within-18-24-months-1197
+    title: "JSW Group to produce locally manufactured battery cells in Odisha within 18-24 months"
+    publisher: Autocar Professional
+    tier: T3
+    date: "2024-03"
+  pib-2258119:
+    raw: pib.gov.in/PressReleasePage-PRID2258119
+    title: "Cabinet approves two more semiconductor manufacturing units with cumulative investment of more than Rs. 3,900 crore"
+    publisher: Press Information Bureau, Government of India
+    tier: T1
+    date: "2026-05-05"
+  fabs-crystal-matrix:
+    raw: fabs.pranaykotas.com/crystal-matrix-dholera
+    title: "India Semiconductor Tracker: Crystal Matrix Mini/Micro-LED Fab"
+    publisher: Takshashila Institution (India Semiconductor Tracker)
+    tier: T3
+    date: "2026-10-19"
+  fabs-gaetec:
+    raw: fabs.pranaykotas.com/gaetec-hyderabad
+    title: "India Semiconductor Tracker: GAETEC"
+    publisher: Takshashila Institution (India Semiconductor Tracker)
+    tier: T3
+    date: "2026-10-19"
+  csnet-drdo-gan:
+    raw: compoundsemiconductor.net/Indiaand_s_DRDO_announces_GaN_and_SiC_milestones
+    title: "India's DRDO announces GaN and SiC milestones"
+    publisher: Compound Semiconductor
+    tier: T3
+    date: null
+
+records:
+  # ---------------- ACC PLI beneficiaries ----------------
+  - id: ola-krishnagiri-cells
+    name: "Ola Cell Technologies gigafactory, Krishnagiri"
+    stages: ["Cells & Devices"]
+    minerals: [Lithium, Graphite]
+    products: ["Li-ion cells"]
+    operator: "Ola Cell Technologies Pvt. Ltd."
+    operator_type: "Listed private"
+    location: {district: "Krishnagiri", state: "Tamil Nadu", precision: district}
+    geo: {district_centroid: Krishnagiri, state: "Tamil Nadu"}
+    status: Pilot
+    status_as_of: "2026-07-28"
+    status_detail: "1.4 GWh installed; pilot output since Mar 2024, not yet at full commercial scale; 20 GWh awarded under ACC PLI"
+    capacity:
+      planned: {value: 20, unit: "GWh", basis: "ACC PLI award", phase: null}
+      installed: {value: 1.4, unit: "GWh", basis: "installed (MHI, Jul 2026)"}
+    investment: {amount: 1503, currency: INR_crore, basis: "invested to 31 Dec 2025, as reported to MHI"}
+    feedstock: Unknown
+    dates: {first_public: "2026-02-10"}
+    milestones:
+      - {date: "2024-03", event: "Pilot production began", source_id: ls-usq-1624-2026}
+    narrative:
+      what_it_does: "The only ACC PLI plant making cells so far; it is still stabilising pilot production."
+    demand: {product: "Li-ion cells", capacity_gwh: 20, inputs: [Lithium, Graphite]}
+    confidence: high
+    notes: "Site within Krishnagiri district not given in the source; point is the district centroid. Investment and dates as reported by the firm to MHI."
+    sources:
+      - ref: ls-usq-1624-2026
+        supports: [status, location, investment, capacity.planned, operator, milestones, dates.first_public]
+        ev:
+          status: "Since March 2024, the firm has commenced pilot production and is presently working toward stabilizing operations for full-scale commercial production."
+          location: "Krishnagiri, Round 1 Ola Cell Technologies Pvt. Ltd 20 1,503 634 Tamil Nadu"
+      - ref: ls-usq-1521-2026
+        supports: [capacity.installed, status]
+        ev:
+          capacity.installed: "M/s Ola Cell Technologies Pvt. Ltd., has established a Giga- Scale ACC manufacturing plant with an installed capacity of 1.4 GWh."
+
+  - id: reliance-jamnagar-cells
+    name: "Reliance battery giga factory, Jamnagar"
+    stages: ["Cells & Devices"]
+    minerals: [Lithium, Phosphorus, Graphite]
+    products: ["LFP cells", "Battery energy storage systems"]
+    operator: "Reliance New Energy Battery Storage Ltd and Reliance New Energy Battery Ltd (Reliance Industries)"
+    operator_type: "Listed private"
+    location: {district: "Jamnagar", state: "Gujarat", precision: district}
+    geo: {district_centroid: Jamnagar, state: Gujarat}
+    status: Under construction
+    status_as_of: "2026-05-29"
+    status_detail: "Civil works complete, equipment being installed; ACC PLI awards of 5 and 10 GWh, none installed by Mar 2026"
+    capacity:
+      planned: {value: 40, unit: "GWh", basis: "initial LFP capacity", phase: null}
+    feedstock: Unknown
+    dates: {first_public: "2026-02-10"}
+    narrative:
+      what_it_does: "A 40 GWh LFP battery plant in Reliance's Jamnagar clean energy complex, holding two ACC PLI awards totalling 15 GWh."
+    demand: {product: "Li-ion cells (LFP) and storage systems", capacity_gwh: 40, inputs: [Lithium, Phosphorus, Graphite]}
+    confidence: high
+    notes: "Site within Jamnagar district not given in the sources; point is the district centroid."
+    sources:
+      - ref: ls-usq-1624-2026
+        supports: [location, operator, dates.first_public]
+        ev:
+          location: "Reliance New Energy Battery Storage 5 Jamnagar, 793 241"
+      - ref: ls-usq-5077-2026
+        supports: [status_detail]
+        ev:
+          status_detail: "4. Reliance New Energy Battery Ltd. Yes 10 0"
+      - ref: energetica-reliance-2026
+        supports: [status, capacity.planned, minerals]
+        ev:
+          status: "Civil construction for the plant has been completed, while equipment installatio"
+          capacity.planned: "The facility is designed with an initial annual production capacity of 40 GWh based on lithium iron phosphate (LFP) chemistry."
+
+  - id: acc-energy-storage-dharwad
+    name: "ACC Energy Storage cell plant, Dharwad"
+    stages: ["Cells & Devices"]
+    minerals: [Lithium, Graphite]
+    products: ["Li-ion cells"]
+    operator: "ACC Energy Storage Pvt. Ltd."
+    operator_type: "Unlisted private"
+    location: {district: "Dharwad", state: "Karnataka", precision: district}
+    geo: {district_centroid: Dharwad, state: Karnataka}
+    status: Approved
+    status_as_of: "2026-03-24"
+    status_detail: "ACC PLI award of 5 GWh; land acquired; Rs 262 crore invested by Dec 2025; nothing installed"
+    capacity:
+      planned: {value: 5, unit: "GWh", basis: "ACC PLI award", phase: null}
+    investment: {amount: 262, currency: INR_crore, basis: "invested to 31 Dec 2025, as reported to MHI"}
+    feedstock: Unknown
+    dates: {first_public: "2026-02-10"}
+    narrative:
+      what_it_does: "A 5 GWh cell plant awarded under the ACC PLI scheme's first round; no capacity built yet."
+    demand: {product: "Li-ion cells", capacity_gwh: 5, inputs: [Lithium, Graphite]}
+    confidence: high
+    notes: "Site within Dharwad district not given; point is the district centroid."
+    sources:
+      - ref: ls-usq-1624-2026
+        supports: [status, location, investment, operator, capacity.planned, dates.first_public]
+        ev:
+          location: "Dharwad, ACC Energy Storage Pvt. Ltd. 5 262 184 Karnataka"
+      - ref: ls-usq-5077-2026
+        supports: [status, status_detail]
+        ev:
+          status_detail: "1. ACC Energy Storage Pvt. Ltd. Yes 5 0"
+
+  # ---------------- Other cell plants ----------------
+  - id: agratas-sanand-cells
+    name: "Agratas battery cell plant, Sanand"
+    stages: ["Cells & Devices"]
+    minerals: [Lithium, Nickel, Cobalt, Phosphorus, Graphite]
+    products: ["NMC cells", "LFP cells"]
+    operator: "Agratas Energy Storage Solutions Pvt Ltd (Tata group)"
+    operator_type: "Unlisted private"
+    location: {village_or_town: "Sanand", district: "Ahmedabad", state: "Gujarat", precision: town}
+    geo: {q: "Sanand", state: Gujarat, district: Ahmedabad}
+    status: Under construction
+    status_as_of: "2026-08-04"
+    status_detail: "Steel frame complete Apr 2026; NMC cells expected early 2027; LFP pilot line being set up"
+    capacity:
+      planned: {value: 20, unit: "GWh", basis: "first phase", phase: "2027"}
+    feedstock: Unknown
+    dates: {first_public: "2026-04-02", original_expected_completion: "2027"}
+    narrative:
+      what_it_does: "Tata's 20 GWh cell plant for EVs and storage, using licensed NMC technology and its own LFP process."
+    demand: {product: "Li-ion cells (NMC and LFP)", capacity_gwh: 20, inputs: [Lithium, Nickel, Cobalt, Phosphorus, Graphite]}
+    confidence: high
+    sources:
+      - ref: pvm-agratas-2026
+        supports: [status, capacity.planned, location, operator, dates.first_public, dates.original_expected_completion]
+        ev:
+          status: "Agratas, the Tata group’s global battery business, has reported progress on its Sanand battery facility in India, with the steel frame now complete."
+          capacity.planned: "The facility will have an annual capacity of 20 GWh in its first phase."
+      - ref: bt-agratas-2026
+        supports: [status_detail, products, minerals]
+        ev:
+          status_detail: ["the company is setting up a pilot production line for LFP cells at its upcoming battery manufacturing facility in Sanand, Gujarat", "The Sanand facility is expected to begin producing NMC battery cells by early 2027."]
+
+  - id: amara-raja-divitipally-cells
+    name: "Amara Raja Giga Corridor cell plant, Divitipally"
+    stages: ["Cells & Devices"]
+    minerals: [Lithium, Phosphorus, Graphite]
+    products: ["Li-ion cells"]
+    operator: "Amara Raja Advanced Cell Technologies"
+    operator_type: "Listed private"
+    location: {village_or_town: "Divitipally", district: "Mahabubnagar", state: "Telangana", precision: town}
+    geo: {q: "Divitipally", state: Telangana}
+    status: Pilot
+    status_as_of: "2026-07-16"
+    status_detail: "60 MWh qualification plant commissioned Jul 2026; first 2 GWh of commercial cells due June 2027"
+    capacity:
+      planned: {value: 16, unit: "GWh", basis: "gigafactory, phased to 2031", phase: null}
+      installed: {value: 0.06, unit: "GWh", basis: "customer qualification plant"}
+    investment: {amount: 9500, currency: INR_crore, basis: "Giga Corridor programme to 2031"}
+    feedstock: Unknown
+    dates: {first_public: "2024-08-10", original_expected_completion: "2027-06"}
+    narrative:
+      what_it_does: "Makes sample cells for carmakers to qualify ahead of a 16 GWh gigafactory on the same 260-acre site."
+    related: [altmin-divitipally-lfp]
+    demand: {product: "Li-ion cells", capacity_gwh: 16, inputs: [Lithium, Graphite]}
+    confidence: high
+    sources:
+      - ref: acp-amararaja-2024
+        supports: [location, capacity.planned, investment, dates.first_public]
+        ev:
+          location: "establishing its Gigacorridor for battery pack and cell manufacturing with an overall capacity of 5GWh and 16GWh in Divitipalli of Mahbubnagar district."
+          investment: "will entail an investment of Rs 9,500 crore till 2031"
+      - ref: energetica-amararaja-2026
+        supports: [status, capacity.installed, operator]
+        ev:
+          status: "Amara Raja Advanced Cell Technologies has commissioned a Customer Qualification Plant in Telangana to manufacture lithium-ion cells for OEM qualification"
+          capacity.installed: "The CQP has been commissioned with an initial capacity of 60 MWh"
+      - ref: pvm-amararaja-q4fy26
+        supports: [status_detail, dates.original_expected_completion]
+        ev:
+          dates.original_expected_completion: "The first 2 GWh of cell manufacturing remains on track for June 2027."
+
+  - id: exide-devanahalli-cells
+    name: "Exide Energy Solutions cell plant, Devanahalli"
+    stages: ["Cells & Devices"]
+    minerals: [Lithium, Phosphorus, Nickel, Cobalt, Graphite]
+    products: ["LFP cells", "NMC cells"]
+    operator: "Exide Energy Solutions Ltd"
+    operator_type: "Listed private"
+    location: {village_or_town: "Devanahalli", district: "Bengaluru Rural", state: "Karnataka", precision: town}
+    geo: {q: "Devanahalli", state: Karnataka}
+    status: Operational
+    status_as_of: "2026-09-28"
+    status_detail: "Phase I (6 GWh) commissioned 23 Sept 2026; LFP cells first go to Exide's own three-wheeler packs"
+    capacity:
+      installed: {value: 6, unit: "GWh", basis: "Phase I"}
+    feedstock: Unknown
+    dates: {first_public: "2026-09-24", commissioned: "2026-09-23"}
+    narrative:
+      what_it_does: "A 6 GWh cell plant whose LFP cells will replace imported cells in Exide's Gujarat pack plant."
+      why_it_matters: "The largest operating cell plant in India outside the ACC PLI scheme."
+    demand: {product: "Li-ion cells (LFP and NMC)", capacity_gwh: 6, inputs: [Lithium, Phosphorus, Nickel, Cobalt, Graphite]}
+    confidence: high
+    sources:
+      - ref: energetica-exide-2026
+        supports: [status, status_detail, location, operator, capacity.installed, minerals]
+        ev:
+          status: "has commissioned Phase-I of its lithium-ion cell manufacturing facility at Devanahalli, Bengaluru, Karnataka, with a capacity of 6 GWh."
+          status_detail: "Initially, the company will use the domestically manufactured lithium iron phosphate (LFP) cells to replace imported cells at its Gujarat battery pack facility"
+      - ref: angelone-exide-2026
+        supports: [status, dates.commissioned, dates.first_public]
+        ev:
+          dates.commissioned: "The first phase has a capacity of 6 GWh and was commissioned on September 23, 2026."
+
+  - id: waaree-rambilli-cells
+    name: "Waaree lithium-ion gigafactory, Rambilli"
+    stages: ["Cells & Devices"]
+    minerals: [Lithium, Graphite]
+    products: ["Li-ion cells", "Battery packs", "Battery energy storage systems"]
+    operator: "Waaree Energies Ltd"
+    operator_type: "Listed private"
+    location: {village_or_town: "Rambilli", district: "Anakapalli", state: "Andhra Pradesh", precision: town}
+    geo: {q: "Rambilli", state: "Andhra Pradesh"}
+    status: Approved
+    status_as_of: "2026-02-20"
+    status_detail: "In-principle approval from the Andhra Pradesh State Investment Promotion Board, Feb 2026"
+    capacity:
+      planned: {value: 16, unit: "GWh", basis: "cells, packs and storage systems", phase: null}
+    investment: {amount: 8175, currency: INR_crore, basis: "proposed"}
+    feedstock: Unknown
+    dates: {first_public: "2026-02-19", approved: "2026-02"}
+    narrative:
+      what_it_does: "A planned 16 GWh plant covering cells, packs and grid storage systems."
+    demand: {product: "Li-ion cells", capacity_gwh: 16, inputs: [Lithium, Graphite]}
+    confidence: medium
+    sources:
+      - ref: mercom-waaree-2026
+        supports: [status, location, capacity.planned, operator, dates.first_public, dates.approved]
+        ev:
+          location: "a 16 GWh integrated lithium-ion battery manufacturing plant in Rambili, Anakapalli, Andhra Pradesh"
+          status: "The project has received in-principle approval from the Andhra Pradesh State Investment Promotion Board."
+      - ref: energetica-waaree-2026
+        supports: [status, investment, capacity.planned]
+        ev:
+          investment: "The proposed greenfield facility will be established at Rambilli in Anakapalli district with an investment of INR 8,175 crore"
+          status: "The Andhra Pradesh State Investment Promotion Board, chaired by Chief Minister N. Chandrababu Naidu, has granted in-principle approval for the project."
+
+  - id: chemvolt-ap-cells
+    name: "ChemVolt Global cell gigafactory, Andhra Pradesh"
+    stages: ["Cells & Devices"]
+    minerals: [Lithium, Graphite]
+    products: ["Prismatic Li-ion cells"]
+    operator: "ChemVolt Global"
+    operator_type: "Unlisted private"
+    location: {state: "Andhra Pradesh", precision: state}
+    geo: {state_centroid: true, state: "Andhra Pradesh"}
+    status: MoU signed
+    status_as_of: "2026-01-21"
+    status_detail: "MoU with Andhra Pradesh; 1 GWh by Q3 2027, 5 GWh by Q2 2029"
+    capacity:
+      planned: {value: 5, unit: "GWh", basis: "prismatic cells for storage and heavy EVs", phase: "1 GWh by Q3 2027"}
+    investment: {amount: 2500, currency: INR_crore, basis: "planned"}
+    feedstock: Unknown
+    dates: {first_public: "2026-01-21", mou: "2026-01", original_expected_completion: "2029"}
+    narrative:
+      what_it_does: "A planned 5 GWh plant for large prismatic cells aimed at grid storage and heavy EVs."
+    demand: {product: "Li-ion cells (prismatic)", capacity_gwh: 5, inputs: [Lithium, Graphite]}
+    confidence: medium
+    notes: "Site not published; point is the state centroid."
+    sources:
+      - ref: pvm-chemvolt-2026
+        supports: [status, capacity.planned, investment, operator, dates.first_public, dates.mou, dates.original_expected_completion, status_detail]
+        ev:
+          status: "ChemVolt Global has signed a memorandum of understanding (MoU) with the Government of Andhra Pradesh to establish a 5 GWh lithium-ion cell manufacturing gigafactory"
+          status_detail: "Phase I targeting a 1 GWh advanced cell production line by Q3 2027, followed by Phase II adding 4 GWh to reach 5 GWh by Q2 2029"
+
+  - id: godi-telangana-cells
+    name: "GODI India cell plant, Telangana"
+    stages: ["Cells & Devices"]
+    minerals: [Lithium, Graphite]
+    products: ["Li-ion cells", "Sodium-ion cells"]
+    operator: "GODI India"
+    operator_type: "Startup"
+    location: {state: "Telangana", precision: state}
+    geo: {state_centroid: true, state: Telangana}
+    status: MoU signed
+    status_as_of: "2024-01-18"
+    status_detail: "MoU Jan 2024 for 12.5 GWh; no later progress report found"
+    capacity:
+      planned: {value: 12.5, unit: "GWh", basis: "2.5 GWh phase 1, then 10 GWh", phase: null}
+    investment: {amount: 8000, currency: INR_crore, basis: "over five years"}
+    feedstock: Unknown
+    dates: {first_public: "2024-01-18", mou: "2024-01"}
+    narrative:
+      what_it_does: "A planned 12.5 GWh lithium- and sodium-ion cell plant."
+    demand: {product: "Li-ion and Na-ion cells", capacity_gwh: 12.5, inputs: [Lithium, Graphite]}
+    confidence: low
+    notes: "Site not published; point is the state centroid. No update found after the Jan 2024 MoU (OPEN_QUESTIONS 16)."
+    sources:
+      - ref: pvm-godi-2024
+        supports: [status, capacity.planned, investment, operator, dates.first_public, dates.mou]
+        ev:
+          status: "GODI India has signed a memorandum of understanding with the state government of Telangana to set up a 12.5 GWh lithium-ion battery cell manufacturing unit"
+          capacity.planned: "The project aims to have a 2.5 GWh cell assembly line in Phase 1, with planned expansion to 10 GWh in the second phase"
+
+  - id: jsw-odisha-cells
+    name: "JSW Group cell plant, Odisha"
+    stages: ["Cells & Devices"]
+    minerals: [Lithium, Phosphorus, Graphite]
+    products: ["LFP cells"]
+    operator: "JSW Group"
+    operator_type: "Listed private"
+    location: {state: "Odisha", precision: state}
+    geo: {state_centroid: true, state: Odisha}
+    status: Stalled
+    status_as_of: "2026-09-22"
+    status_detail: "On hold since Aug 2026 for want of an LFP technology partner; group developing its own cell technology"
+    feedstock: Unknown
+    dates: {first_public: "2024-03"}
+    narrative:
+      what_it_does: "A cell plant JSW planned in Odisha to supply its JSW MG Motor electric vehicles."
+      why_it_matters: "JSW says China will sell cells but not the know-how to make them."
+    demand: {product: "Li-ion cells (LFP)", capacity_gwh: null, inputs: [Lithium, Phosphorus, Graphite]}
+    confidence: medium
+    notes: "JSW had applied for 5-10 GWh under the ACC PLI scheme (2024). Site within Odisha not published; point is the state centroid."
+    sources:
+      - ref: acp-jsw-2024
+        supports: [location, operator, dates.first_public, notes]
+        ev:
+          location: "JSW Group will be ready with its localised lithium-ion cells from its Odisha factory within 18-24 months."
+          notes: "The Group has already applied for the Production Linked Incentive Scheme for cells with the Government of India for a 5-10 GwH capacity."
+      - ref: bt-jsw-2026
+        supports: [status, status_detail, minerals]
+        ev:
+          status: "Steel-to-automobiles conglomerate JSW Group has put its plans to manufacture battery cells in India on hold even as it scouts for a technology partner."
+      - ref: autocarindia-jsw-2026
+        supports: [status, status_detail, narrative]
+        ev:
+          status: "their battery cells will initially be imported"
+          status_detail: "We are already working on developing that cell technology, which will take, if we are lucky, one year, maybe two years for sure,"
+          narrative: "They are ready to supply the cells, but they are not giving us the know-how."
+
+  # ---------------- Compound-semiconductor fabs using gallium ----------------
+  - id: crystal-matrix-dholera-gan
+    name: "Crystal Matrix GaN Mini/Micro-LED fab, Dholera"
+    stages: ["Cells & Devices"]
+    minerals: [Gallium]
+    products: ["GaN epitaxy wafers", "Mini/Micro-LED display modules"]
+    operator: "Crystal Matrix Limited"
+    operator_type: "Unlisted private"
+    location: {village_or_town: "Dholera", district: "Ahmedabad", state: "Gujarat", precision: town}
+    geo: {q: "Dholera", state: Gujarat}
+    status: Approved
+    status_as_of: "2026-05-05"
+    status_detail: "Approved by the Union Cabinet under the India Semiconductor Mission"
+    capacity:
+      planned: {value: 24000, unit: "sets of RGB wafers/yr", basis: "GaN epitaxy (also 72,000 sq m of display panels)", phase: null}
+    feedstock: Unknown
+    dates: {first_public: "2026-05-05", approved: "2026-05-05"}
+    narrative:
+      what_it_does: "India's first commercial GaN fab, making Mini/Micro-LED displays and offering GaN foundry services on 6-inch wafers."
+    see_also: ["https://fabs.pranaykotas.com/facilities/crystal-matrix-dholera.html"]
+    demand: {product: "GaN epitaxy and Mini/Micro-LED displays", capacity_gwh: null, inputs: [Gallium]}
+    confidence: high
+    sources:
+      - ref: pib-2258119
+        supports: [status, location, capacity.planned, operator, minerals, dates.first_public, dates.approved]
+        ev:
+          status: "country’s first commercial Mini/Micro-LED display facility based on GaN (Gallium Nitride) Technology"
+          location: "will establish an integrated facility for compound semiconductor fabrication and ATMP in Dholera, Gujarat for manufacturing Mini/Micro-LED display modules."
+          capacity.planned: "for Mini-Micro-LED GaN Epitaxy Wafers is 24,000 sets of RGB wafers."
+      - ref: fabs-crystal-matrix
+        supports: [see_also]
+
+  - id: gaetec-hyderabad
+    name: "GAETEC gallium arsenide fab, Hyderabad"
+    stages: ["Cells & Devices"]
+    minerals: [Gallium]
+    products: ["GaAs MMICs", "GaN-on-SiC MMICs"]
+    operator: "Gallium Arsenide Enabling Technology Centre (DRDO)"
+    operator_type: "Research lab"
+    location: {village_or_town: "Hyderabad", state: "Telangana", precision: town}
+    geo: {q: "Hyderabad", state: Telangana}
+    status: Operational
+    status_as_of: "2026-10-19"
+    status_detail: "Makes GaAs microwave chips for defence; GaN-on-SiC chip production added"
+    feedstock: Unknown
+    dates: {first_public: "2026-10-19"}
+    narrative:
+      what_it_does: "DRDO's strategic fab for gallium arsenide and gallium nitride microwave chips used in radar and electronic warfare."
+    see_also: ["https://fabs.pranaykotas.com/facilities/gaetec-hyderabad.html"]
+    demand: {product: "GaAs and GaN MMICs", capacity_gwh: null, inputs: [Gallium]}
+    confidence: high
+    notes: "Site within Hyderabad not given; point is the city."
+    sources:
+      - ref: fabs-gaetec
+        supports: [status, operator, minerals, see_also, dates.first_public, location]
+        ev:
+          status: "India’s strategic Gallium Arsenide fab — produces radar and electronic warfare chips for defence."
+      - ref: csnet-drdo-gan
+        supports: [status, status_detail, location]
+        ev:
+          status_detail: "The establishment of indigenous GaN on SiC-based MMIC production has been successfully implemented at GAETEC (Gallium Arsenide Enabling Technology Centre) in Hyderabad."

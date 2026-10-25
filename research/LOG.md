@@ -87,3 +87,10 @@ Queries, registries pulled, decisions, inclusion calls and dead ends. Newest ent
 - Government: Zambia 9,000 sq km copper-cobalt exploration allocation (2025), mining-rights talks stalled (Apr 2026).
 - Not recorded: see EXCLUDED (L8) and OPEN_QUESTIONS 15. The committee notes that private overseas investments need not be disclosed to the ministry, so the private list is incomplete by design.
 - Builder: `build_entities.py` now passes `geo.country` to the geocoder for overseas points.
+
+## L9 Demand anchors (2026-10-25)
+
+- 12 records in `data/demand.yml` (40 excerpts checked). ACC PLI (MHI Lok Sabha answers, Feb-Jul 2026): 40 of 50 GWh awarded to four firms; only Ola has capacity (1.4 GWh, pilot output since Mar 2024); ACC Energy Storage (Dharwad, 5 GWh), Reliance (Jamnagar, 5 + 10 GWh); no incentive paid yet; 10 GWh earmarked for grid storage and retendered.
+- Other cell plants: Exide Devanahalli (6 GWh, commissioned 23 Sept 2026), Agratas Sanand (20 GWh, under construction, NMC early 2027), Amara Raja Divitipally (60 MWh qualification plant, 2 GWh due June 2027, 16 GWh planned), Waaree Rambilli (16 GWh, AP in-principle approval), ChemVolt (5 GWh MoU, AP), GODI (12.5 GWh MoU 2024, Telangana; low confidence), JSW Odisha (on hold, no LFP technology partner).
+- Gallium users from the India Semiconductor Tracker: Crystal Matrix GaN fab, Dholera (Cabinet approval 5 May 2026) and DRDO's GAETEC, Hyderabad. Records point to the tracker through `see_also`.
+- Anchors: MHI says at least 10 makers have announced about 178 GWh outside the PLI; Mercom counts a 110 GWh cell pipeline (30 Sept 2026). India's Li-ion cell imports rose 64% to Rs 41,667 crore in FY26, 84% from China (Business Today, citing commerce ministry data).
