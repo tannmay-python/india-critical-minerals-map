@@ -13,6 +13,7 @@ The owner asked for a map first and minimalism over completeness ("Don't burden 
 - **One About page** (`#/about`) replaces the method and data views: how to read the map, what is included, sources and confidence, known gaps, downloads and credits.
 - **Left out, for now:** the value-chain matrix, auction tracker, timeline and slippage, and policy views (§3.3–3.6); the time scrubber, the "story so far" panel, cluster donuts, and the operator-type, feedstock and confidence facets. The analysis can live elsewhere later; the data already carries it.
 - **Light only, Takshashila house style** shared with the India Critical Minerals Dashboard, Inside the Motor and the Tech Laws atlas: plum header with the Takshashila logo, cream paper, white cards, Newsreader headings, Hanken Grotesk text, Space Mono labels, marigold accents. This replaces §4's Inter / Roboto Mono and the dark-mode toggle.
+- **No draft banner**, and the About page carries no "sources and confidence" or "known gaps" sections (owner, 25 Oct 2026); sourcing stays visible in each record's panel, and gaps stay in `research/OPEN_QUESTIONS.md`.
 - **Record links:** `#/?id=<id>` and `#/e/<id>` both open the record on the map. No separate static entity pages.
 - **QA** is scripted: `node scripts/qa.mjs` (counts, links, console, screenshots, boundary close-ups) and `scripts/linkcheck.py` (source URLs).
 
@@ -29,7 +30,7 @@ The owner asked for a map first and minimalism over completeness ("Don't burden 
 | Search | **Fuse.js** | Fuzzy search over names, aliases, operators, places and minerals. |
 | Charts | **Observable Plot**, or hand-built SVG | Consistent with the brand tokens. |
 | Data | JSON/GeoJSON emitted by `scripts/build-data` from YAML | Never hand-edit the JSON. |
-| Hosting | **GitHub Pages via GitHub Actions** | The owner is fine with publishing immediately. Add `<meta name="robots" content="noindex,nofollow">` and a visible "Working draft, not for circulation" banner. |
+| Hosting | **GitHub Pages via GitHub Actions** | The owner is fine with publishing immediately. Add `<meta name="robots" content="noindex,nofollow">`. (The draft banner was removed by the owner, Oct 2026.) |
 
 ### Basemap
 - **No API keys.** Use **OpenFreeMap** vector styles (positron-like for light mode, and a dark style for dark mode; check which styles exist), or a self-hosted **Protomaps** PMTiles extract.

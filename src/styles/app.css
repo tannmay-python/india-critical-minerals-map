@@ -23,16 +23,7 @@ button { font: inherit; color: inherit; }
 }
 .num { font-variant-numeric: tabular-nums; }
 
-/* ---------- draft banner + header ---------- */
-.draft-banner {
-  height: var(--banner-h);
-  display: flex; align-items: center; justify-content: center;
-  background: var(--marigold);
-  color: #1b1b1f;
-  font: 500 10.5px/1 var(--font-mono);
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
+/* ---------- header ---------- */
 .app-header {
   height: var(--header-h);
   display: flex; align-items: center; gap: 16px;
@@ -76,7 +67,7 @@ button { font: inherit; color: inherit; }
 }
 .icon-btn svg { width: 16px; height: 16px; }
 
-.app-main { position: relative; height: calc(100% - var(--header-h) - var(--banner-h)); }
+.app-main { position: relative; height: calc(100% - var(--header-h)); }
 .view { position: absolute; inset: 0; overflow: auto; }
 .view[hidden] { display: none; }
 .map-canvas, .view-map .maplibregl-map { position: absolute; inset: 0; }

@@ -2,7 +2,7 @@
 
 A map of every critical-minerals project in India and every Indian-held critical-minerals asset abroad, with a dated source behind every record. Takshashila Institution, High-Tech Geopolitics Programme.
 
-**Status: working draft, not for circulation.** Live preview: https://tannmay-python.github.io/india-critical-minerals-map/
+Live preview: https://tannmay-python.github.io/india-critical-minerals-map/
 
 Governing documents: [`CLAUDE.md`](CLAUDE.md) and [`docs/`](docs/) (`BUILD_SPEC.md` §0 has the editorial decisions).
 

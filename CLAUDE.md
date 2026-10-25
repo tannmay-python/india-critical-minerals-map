@@ -30,7 +30,7 @@ It is a sibling of two existing products and must link to both:
 - **India Critical Minerals Dashboard** at https://indiacriticalminerals.com, by Tannmay Kumarr Baid and Shobhankita Reddy (Takshashila Institution). It scores India's critical minerals across ten vectors. Every mineral name in this project must match the dashboard's canonical names exactly. Every entity must deep-link to `https://indiacriticalminerals.com/#mineral/<Name>` for each mineral it touches.
 
 Owner: Tannmay Kumarr Baid, High-Tech Geopolitics Programme, Takshashila Institution, Bengaluru.
-Status: internal working draft. It may be published to GitHub Pages, but every page must carry a visible "Working draft, not for circulation" banner and a `noindex,nofollow` meta tag.
+Status: published preview on GitHub Pages with a `noindex,nofollow` meta tag. The owner removed the "Working draft, not for circulation" banner on 25 Oct 2026.
 
 ## 2. The single most important rule
 
