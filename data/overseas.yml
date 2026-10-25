@@ -58,7 +58,7 @@
   narrative:
     significance: null
     what_it_does: An LFP cathode research centre with a qualification line for testing materials at scale.
-    why_it_matters: Gives Epsilon proven LFP cathode technology for its plants in India.
+    why_it_matters: Gives Epsilon an LFP cathode process to scale up.
   related: []
   see_also: []
   confidence: medium
@@ -277,8 +277,7 @@
     significance: null
     what_it_does: Holds exclusive rights to explore, and if lithium is proven, mine five brine blocks covering about
       15,703 hectares near Fiambalá.
-    why_it_matters: The only overseas lithium asset held by an Indian state company; production is now expected
-      in December 2030.
+    why_it_matters: First production is now expected in December 2030, slipped from September 2029.
   related: []
   see_also: []
   confidence: high
@@ -725,7 +724,7 @@
     significance: null
     what_it_does: Processes copper-cobalt ore into 20,000 tonnes of copper cathode and 4,000 tonnes of cobalt a
       year.
-    why_it_matters: "Lloyds Metals holds 49% of the buyer, making this the largest cobalt producer with Indian ownership."
+    why_it_matters: "Lloyds Metals holds 49% of the buyer; an expansion at Mutoshi is at an advanced stage."
   related:
   - lloyds-chemaf-mutoshi
   see_also: []
@@ -1369,7 +1368,7 @@
   narrative:
     significance: null
     what_it_does: A planned synthetic graphite anode plant at the Mid-Atlantic Rail Industrial Park.
-    why_it_matters: "Epsilon's first plant outside India, aimed at US carmakers seeking non-Chinese anode supply."
+    why_it_matters: "Epsilon's first US plant; North Carolina approved a jobs grant for it in 2023."
   related: []
   see_also: []
   confidence: medium

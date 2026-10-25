@@ -9,7 +9,7 @@ import workerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url";
 import { loadBaseStyle, boundaryLayers, type Theme } from "./basemap";
 import { currentTheme, onThemeChange } from "../lib/theme";
 import type { Entity, Stage } from "../lib/types";
-import { primaryStage } from "../data";
+import { primaryStage, type View } from "../data";
 
 maplibregl.setWorkerUrl(workerUrl);
 
@@ -23,13 +23,28 @@ interface Palette { surface: string; ink: string; muted: string; inactive: strin
 function palette(theme: Theme): Palette {
   return theme === "dark"
     ? { surface: "#18171a", ink: "#f0efec", muted: "#9a978f", inactive: "#6d6b66", outline: "#c3c2b7", state: "#45443f", halo: "#0f0e10", world: "#3a3936", select: "#e39abd" }
-    : { surface: "#fcfcfb", ink: "#141317", muted: "#76736e", inactive: "#a9a69f", outline: "#4f4d4a", state: "#c3c2b7", halo: "#ffffff", world: "#d6d4cc", select: "#620d3c" };
+    : { surface: "#ffffff", ink: "#1a0804", muted: "#856034", inactive: "#b4a483", outline: "#620d3c", state: "#d8c585", halo: "#ffffff", world: "#d8c585", select: "#620d3c" };
 }
 
 export interface MapView {
   setEntities(list: Entity[]): void;
   select(id: string | null, fly?: boolean): void;
+  setView(view: View): void;
   resize(): void;
+}
+
+type LngLat = [number, number];
+
+/** A gentle arc from a to b (quadratic Bezier in lon/lat), so lines from India read as links, not borders. */
+function arc(a: LngLat, b: LngLat, n = 48): LngLat[] {
+  const [dx, dy] = [b[0] - a[0], b[1] - a[1]];
+  const c: LngLat = [(a[0] + b[0]) / 2 - dy * 0.18, (a[1] + b[1]) / 2 + dx * 0.18];
+  const out: LngLat[] = [];
+  for (let i = 0; i <= n; i++) {
+    const t = i / n, u = 1 - t;
+    out.push([u * u * a[0] + 2 * u * t * c[0] + t * t * b[0], u * u * a[1] + 2 * u * t * c[1] + t * t * b[1]]);
+  }
+  return out;
 }
 
 export function createMap(
@@ -37,8 +52,10 @@ export function createMap(
   stages: Stage[],
   onPick: (id: string | null) => void,
   padding: () => maplibregl.PaddingOptions,
+  initialView: View,
 ): MapView {
   let theme = currentTheme();
+  let view = initialView;
   let visible: Entity[] = [];
   let selected: string | null = null;
   const stageColor = (id: string) => {
@@ -55,14 +72,14 @@ export function createMap(
     dragRotate: false,
     pitchWithRotate: false,
     renderWorldCopies: false,
-    minZoom: 2,
+    minZoom: 1,
     maxZoom: 14,
   });
   map.touchZoomRotate.disableRotation();
   map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "bottom-right");
   map.addControl(new maplibregl.AttributionControl({ compact: true, customAttribution: ATTRIBUTION }), "bottom-right");
   map.once("load", () => {
-    if (!flyTo(selected, 0)) map.fitBounds(INDIA, { padding: padding(), duration: 0 });
+    if (!flyTo(selected, 0)) frame(0);
     container.querySelector(".maplibregl-ctrl-attrib")?.classList.remove("maplibregl-compact-show");
   });
 
@@ -81,9 +98,35 @@ export function createMap(
             id: e.id, name: e.name, status: e.status, group: e.status_group,
             color: stageColor(primaryStage(e)),
             rank: e.status_group === "active" ? 2 : e.status_group === "pipeline" ? 1 : 0,
+            muted: e.layer === "demand" ? 1 : 0,
+            where: e.layer === "overseas" ? e.location.country ?? "" : "",
           },
         })),
     };
+  }
+
+  function arcData(): FC {
+    return {
+      type: "FeatureCollection",
+      features: visible
+        .filter((e) => e.overseas?.india_link && e.lat !== null && e.lon !== null)
+        .map((e) => ({
+          type: "Feature",
+          geometry: { type: "LineString", coordinates: arc([e.overseas!.india_link.lon, e.overseas!.india_link.lat], [e.lon as number, e.lat as number]) },
+          properties: { id: e.id, group: e.status_group, color: stageColor(primaryStage(e)) },
+        })),
+    };
+  }
+
+  /** Bounds of what the current view should show: India, or every overseas site plus India. */
+  function viewBounds(): maplibregl.LngLatBoundsLike {
+    if (view === "india") return INDIA;
+    const b = new maplibregl.LngLatBounds(INDIA[0], INDIA[1]);
+    for (const e of visible) if (e.lat !== null && e.lon !== null) b.extend([e.lon, e.lat]);
+    return b;
+  }
+  function frame(duration: number): void {
+    map.fitBounds(viewBounds(), { padding: padding(), duration, maxZoom: view === "india" ? 6 : 4 });
   }
 
   function idFilter(): maplibregl.FilterSpecification {
@@ -116,6 +159,21 @@ export function createMap(
       },
     });
 
+    map.addSource("arcs", { type: "geojson", data: arcData() });
+    // solid for assets held, dashed for bids and evaluations
+    for (const [id, held] of [["arcs-held", true], ["arcs-other", false]] as const) {
+      map.addLayer({
+        id, type: "line", source: "arcs",
+        filter: held ? ["==", ["get", "group"], "active"] : ["!=", ["get", "group"], "active"],
+        paint: {
+          "line-color": ["match", ["get", "group"], "inactive", p.inactive, ["get", "color"]],
+          "line-width": 1.2,
+          "line-opacity": held ? 0.75 : 0.55,
+          ...(held ? {} : { "line-dasharray": [2, 2] }),
+        },
+      });
+    }
+
     map.addSource("points", { type: "geojson", data: pointData() });
     // Zoom must be the outermost expression; status picks the size at each stop.
     const r = (on: number, off: number): maplibregl.ExpressionSpecification => [
@@ -137,7 +195,9 @@ export function createMap(
         "circle-color": ["match", ["get", "group"], "pipeline", p.surface, "inactive", p.inactive, ["get", "color"]],
         "circle-stroke-color": ["match", ["get", "group"], "inactive", p.inactive, "pipeline", ["get", "color"], p.halo],
         "circle-stroke-width": ["match", ["get", "group"], "pipeline", 2, "inactive", 0, 1],
-        "circle-opacity": ["match", ["get", "group"], "inactive", 0.7, 1],
+        // demand sites are context: drawn fainter than the supply chain
+        "circle-opacity": ["case", ["==", ["get", "muted"], 1], 0.75, ["match", ["get", "group"], "inactive", 0.7, 1]],
+        "circle-stroke-opacity": ["case", ["==", ["get", "muted"], 1], 0.8, 1],
       },
     });
   }
@@ -152,6 +212,7 @@ export function createMap(
     const src = map.getSource("points") as GeoJSONSource | undefined;
     if (!src) return;
     src.setData(pointData());
+    (map.getSource("arcs") as GeoJSONSource | undefined)?.setData(arcData());
     for (const id of ["blocks-fill", "blocks-line"]) if (map.getLayer(id)) map.setFilter(id, idFilter());
     if (map.getLayer("points-halo")) map.setFilter("points-halo", ["==", ["get", "id"], selected ?? ""]);
   }
@@ -168,7 +229,8 @@ export function createMap(
       map.getCanvas().style.cursor = "pointer";
       const f = ev.features?.[0];
       if (!f || layer !== "points") return;
-      hover.setLngLat(ev.lngLat).setHTML(`<strong>${String(f.properties.name).replace(/</g, "&lt;")}</strong><span>${f.properties.status}</span>`).addTo(map);
+      const where = f.properties.where ? ` · ${f.properties.where}` : "";
+      hover.setLngLat(ev.lngLat).setHTML(`<strong>${String(f.properties.name).replace(/</g, "&lt;")}</strong><span>${f.properties.status}${where}</span>`).addTo(map);
     });
     map.on("mouseleave", layer, () => { map.getCanvas().style.cursor = ""; hover.remove(); });
   }
@@ -176,7 +238,7 @@ export function createMap(
   function flyTo(id: string | null, duration: number): boolean {
     const e = id ? visible.find((x) => x.id === id) : undefined;
     if (!e || e.lat === null || e.lon === null) return false;
-    map.easeTo({ center: [e.lon, e.lat], zoom: Math.max(map.getZoom(), 7), padding: padding(), duration });
+    map.easeTo({ center: [e.lon, e.lat], zoom: Math.max(map.getZoom(), view === "india" ? 7 : 4), padding: padding(), duration });
     return true;
   }
 
@@ -188,7 +250,11 @@ export function createMap(
     select(id, fly = false) {
       selected = id;
       refresh();
-      if (fly && map.loaded()) flyTo(id, 600);
+      if (fly) flyTo(id, 600);
+    },
+    setView(v) {
+      view = v;
+      frame(600);
     },
     resize() { map.resize(); },
   };

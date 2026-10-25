@@ -38,10 +38,11 @@ export function primaryStage(e: Entity): string {
   return s && e.stages.includes(s) ? s : e.stages[0] ?? "Exploration";
 }
 
-export const GROUP_LABEL: Record<StatusGroup, string> = {
-  active: "Operating or licensed",
-  pipeline: "In progress",
-  inactive: "Annulled or closed",
+export type View = "india" | "abroad";
+
+export const GROUP_LABEL: Record<View, Record<StatusGroup, string>> = {
+  india: { active: "Operating or licensed", pipeline: "In progress", inactive: "Annulled, stalled or closed" },
+  abroad: { active: "Operating or held", pipeline: "In progress", inactive: "Lost, withdrawn or stalled" },
 };
 export const GROUP_ORDER: StatusGroup[] = ["active", "pipeline", "inactive"];
 

@@ -8,26 +8,19 @@
   <title>India Critical Minerals Project Map</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <script>
-    // Apply a saved theme before first paint (no flash). Storage can be unavailable.
-    try { const t = localStorage.getItem("icm-theme"); if (t === "light" || t === "dark") document.documentElement.dataset.theme = t; } catch (e) {}
-  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="draft-banner" role="note">Working draft, not for circulation</div>
   <header class="app-header">
-    <a class="brand" href="#/" aria-label="India Critical Minerals Project Map, home">
-      <span class="eyebrow">Takshashila · High-Tech Geopolitics</span>
-      <span class="brand-title">India Critical Minerals Project Map</span>
-    </a>
+    <a class="logo" href="https://takshashila.org.in/" target="_blank" rel="noopener"><img src="takshashila-logo.svg" alt="Takshashila Institution" width="104" height="42"></a>
+    <a class="brand" href="#/"><span class="brand-title">India Critical Minerals Project Map</span></a>
     <div class="header-tools">
       <div class="search">
         <label class="sr-only" for="search-input">Search projects, operators, places, minerals</label>
         <input id="search-input" type="search" placeholder="Search" autocomplete="off" spellcheck="false">
         <ul id="search-results" class="search-results" role="listbox" hidden></ul>
       </div>
-      <button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle dark mode"></button>
     </div>
   </header>
   <main id="app" class="app-main"></main>

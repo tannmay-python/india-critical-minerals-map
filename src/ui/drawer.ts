@@ -45,7 +45,7 @@ function sources(e: Entity): string {
 
 const PRECISION_NOTE: Record<string, string> = { district: "district-level location", state: "approximate location" };
 
-export function renderDrawer(el: HTMLElement, e: Entity, stages: Stage[]): void {
+export function renderDrawer(el: HTMLElement, e: Entity, stages: Stage[], byId: Map<string, Entity>): void {
   const theme = currentTheme();
   const stageDots = e.stages
     .map((s) => {
@@ -60,14 +60,32 @@ export function renderDrawer(el: HTMLElement, e: Entity, stages: Stage[]): void 
   const loc = place(e);
   const note = PRECISION_NOTE[e.location.precision];
 
+  const os = e.overseas;
+  const schemes = e.scheme_links.map((s) => esc(s.role === "bidder" ? `${s.name} (bidder)` : s.name)).join("<br>");
+  const related = e.related
+    .map((id) => byId.get(id))
+    .filter((r): r is Entity => !!r)
+    .map((r) => `<a href="#" data-open="${esc(r.id)}">${esc(r.name)}</a>`)
+    .join("<br>");
+  const seeAlso = e.see_also
+    .map((u) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(seeAlsoLabel(u))}</a>`)
+    .join("<br>");
+
   const facts = [
     row("Minerals", minerals(e)),
+    row("Indian holders", esc(os?.indian_entities.join(", ") ?? "")),
+    row("Stake", os?.stake_pct !== null && os?.stake_pct !== undefined ? `<span class="num">${fmtNum(os.stake_pct)}%</span>` : ""),
+    row("Deal", esc(os?.deal_type ?? "")),
     row(isBlock ? "Preferred bidder" : "Operator", esc(isBlock ? lastBidder(e) : e.operator ?? "")),
+    row("Product", esc(e.demand?.product ?? "")),
     row("Concession", esc(concessionLabel(blk?.concession_type))),
     row("Area", blk?.area_sq_km ? `<span class="num">${fmtNum(blk.area_sq_km)}</span> sq km${blk.exploration_stage ? ` · ${esc(blk.exploration_stage)} exploration` : ""}` : ""),
     row("Capacity", esc(cap)),
     row("Investment", esc(fmtInvestment(e))),
     row("Location", `${esc(loc)}${note ? ` <span class="muted">(${note})</span>` : ""}`),
+    row("Schemes", schemes),
+    row("Related", related),
+    row("More", seeAlso),
   ].join("");
 
   const narrative = e.narrative.what_it_does;
@@ -90,6 +108,16 @@ export function renderDrawer(el: HTMLElement, e: Entity, stages: Stage[]): void 
     <h3>Sources</h3>
     ${sources(e)}
   `;
+}
+
+/** "https://fabs.pranaykotas.com/..." -> "India Semiconductor Tracker"; anything else -> its host name. */
+function seeAlsoLabel(u: string): string {
+  try {
+    const h = new URL(u).hostname.replace(/^www\./, "");
+    return h === "fabs.pranaykotas.com" ? "India Semiconductor Tracker" : h;
+  } catch {
+    return u;
+  }
 }
 
 function lastBidder(e: Entity): string {

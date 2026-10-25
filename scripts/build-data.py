@@ -41,6 +41,14 @@ STATUS_GROUP = {
     "Concluded": "inactive", "Bid lost": "inactive", "Withdrawn": "inactive",
 }
 
+# Short scheme names for the filter and the detail panel.
+SCHEME_SHORT = {
+    "repm": "Rare earth magnet scheme (REPM)", "ecms": "Electronics components scheme (ECMS)",
+    "ncmm-recycling": "NCMM recycling incentive", "ncmm-coe": "NCMM Centre of Excellence",
+    "ncmm-processing-parks": "NCMM processing park", "acc-pli": "Battery cell PLI (ACC)",
+    "ism": "India Semiconductor Mission",
+}
+
 
 def load(name):
     p = os.path.join(DATA, f"{name}.yml")
@@ -97,6 +105,15 @@ def main():
             entities.append(r)
     by_id = {e["id"]: e for e in entities}
 
+    # scheme membership comes from schemes.yml (beneficiaries, bidders with a mapped site)
+    scheme_links = {}
+    for sc in load("schemes"):
+        short = SCHEME_SHORT.get(sc["id"]) or sc["name"]
+        for rid in sc.get("beneficiaries") or []:
+            scheme_links.setdefault(rid, []).append({"id": sc["id"], "name": short, "role": "beneficiary"})
+        for rid in (sc.get("bidder_records") or {}).values():
+            scheme_links.setdefault(rid, []).append({"id": sc["id"], "name": short, "role": "bidder"})
+
     flat, features, polys = [], [], []
     for e in entities:
         loc = e.get("location") or {}
@@ -137,6 +154,7 @@ def main():
             "capacity": e.get("capacity"), "investment": e.get("investment"),
             "feedstock": e.get("feedstock"), "feedstock_detail": e.get("feedstock_detail"),
             "schemes": e.get("schemes") or [], "scheme_status": e.get("scheme_status") or {},
+            "scheme_links": scheme_links.get(e["id"], []),
             "dates": dates, "milestones": sorted(e.get("milestones") or [], key=lambda m: str(m.get("date"))),
             "narrative": e.get("narrative") or {}, "related": [x for x in (e.get("related") or []) if x in by_id],
             "see_also": e.get("see_also") or [], "confidence": e.get("confidence"),

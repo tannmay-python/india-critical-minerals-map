@@ -602,7 +602,7 @@
   narrative:
     significance: null
     what_it_does: A 6 GWh cell plant whose LFP cells will replace imported cells in Exide's Gujarat pack plant.
-    why_it_matters: The largest operating cell plant in India outside the ACC PLI scheme.
+    why_it_matters: null
   related: []
   see_also: []
   confidence: high
@@ -1104,8 +1104,8 @@
   milestones: []
   narrative:
     significance: null
-    what_it_does: India's first commercial GaN fab, making Mini/Micro-LED displays and offering GaN foundry services
-      on 6-inch wafers.
+    what_it_does: India's first commercial Mini/Micro-LED display plant based on GaN, also offering GaN foundry
+      services on 6-inch wafers.
     why_it_matters: null
   related: []
   see_also:

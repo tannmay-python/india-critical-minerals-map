@@ -333,7 +333,6 @@ records:
     dates: {first_public: "2026-09-24", commissioned: "2026-09-23"}
     narrative:
       what_it_does: "A 6 GWh cell plant whose LFP cells will replace imported cells in Exide's Gujarat pack plant."
-      why_it_matters: "The largest operating cell plant in India outside the ACC PLI scheme."
     demand: {product: "Li-ion cells (LFP and NMC)", capacity_gwh: 6, inputs: [Lithium, Phosphorus, Nickel, Cobalt, Graphite]}
     confidence: high
     sources:
@@ -493,7 +492,7 @@ records:
     feedstock: Unknown
     dates: {first_public: "2026-05-05", approved: "2026-05-05"}
     narrative:
-      what_it_does: "India's first commercial GaN fab, making Mini/Micro-LED displays and offering GaN foundry services on 6-inch wafers."
+      what_it_does: "India's first commercial Mini/Micro-LED display plant based on GaN, also offering GaN foundry services on 6-inch wafers."
     see_also: ["https://fabs.pranaykotas.com/facilities/crystal-matrix-dholera.html"]
     demand: {product: "GaN epitaxy and Mini/Micro-LED displays", capacity_gwh: null, inputs: [Gallium]}
     confidence: high

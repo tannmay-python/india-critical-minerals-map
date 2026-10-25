@@ -28,6 +28,7 @@ export interface Entity {
   investment?: { amount: number | string | null; currency: string | null; basis: string | null } | null;
   feedstock: string | null; feedstock_detail: string | null;
   schemes: string[]; scheme_status: Record<string, string>;
+  scheme_links: { id: string; name: string; role: "beneficiary" | "bidder" }[];
   dates: Record<string, string | null>;
   milestones: Milestone[];
   narrative: { significance?: string; what_it_does?: string; why_it_matters?: string };

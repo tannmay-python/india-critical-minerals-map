@@ -1,82 +1,47 @@
-/* Design tokens. Takshashila brand: Llama maroon #620d3c (primary), Marigold #f1a222 (accent),
-   Inter for text, Roboto Mono for eyebrows and metadata. Stage colours live in
-   data/reference/stages.yml and are injected at runtime. */
+/* Design tokens, light only. Takshashila house style shared with the India Critical Minerals
+   Dashboard, Inside the Motor and the Tech Laws atlas: Llama plum #620d3c, Marigold #f1a222,
+   cream paper, white cards with plum-tinted shadows; Hanken Grotesk for text, Newsreader for
+   headings, Space Mono for labels. Stage colours live in data/reference/stages.yml. */
 :root {
   color-scheme: light;
   --maroon: #620d3c;
-  --maroon-ink: #620d3c;          /* maroon used as text/active state on the current surface */
-  --maroon-wash: rgba(98, 13, 60, 0.08);
+  --maroon-2: #6e1545;
+  --maroon-ink: #620d3c;
+  --maroon-wash: rgba(98, 13, 60, 0.06);
+  --maroon-line: rgba(98, 13, 60, 0.14);
   --marigold: #f1a222;
-  --marigold-ink: #8a5600;        /* marigold dark enough for text on light surfaces (AA) */
+  --marigold-ink: #9a6400;        /* marigold dark enough for text (5:1 on white) */
   --marigold-wash: rgba(241, 162, 34, 0.16);
 
-  --page: #f7f6f3;
-  --surface: #fcfcfb;
-  --surface-2: #f1f0ec;
-  --ink: #141317;
-  --ink-2: #4f4d4a;
-  --muted: #76736e;               /* 4.6:1 on --surface */
-  --rule: #e1e0d9;
-  --rule-strong: #c3c2b7;
-  --focus: #1f6feb;
-  --shadow: 0 1px 2px rgba(20, 19, 23, 0.06), 0 8px 24px rgba(20, 19, 23, 0.08);
+  --page: #fffbe2;                /* cream paper */
+  --surface: #ffffff;
+  --surface-2: #fdf4d0;
+  --surface-3: #f5e8b8;
+  --ink: #1a0804;
+  --ink-2: #6b4020;
+  --muted: #856034;               /* 5.6:1 on white */
+  --rule: #ece0b4;
+  --rule-strong: #d8c585;
+  --focus: #f1a222;
+  --shadow: 0 1px 2px rgba(98, 13, 60, 0.04), 0 4px 16px rgba(98, 13, 60, 0.08);
+  --shadow-lg: 0 2px 6px rgba(98, 13, 60, 0.06), 0 18px 48px rgba(98, 13, 60, 0.14);
 
-  --status-good: #0ca30c;
-  --status-warn: #b97a00;
-  --status-bad: #c23b3b;
+  --status-good: #1e7a2e;
+  --status-warn: #9a6400;
+  --status-bad: #c42b1e;
 
-  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
-  --font-mono: "Roboto Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --font-sans: "Hanken Grotesk", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-display: "Newsreader", Georgia, "Times New Roman", serif;
+  --font-mono: "Space Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
 
-  --header-h: 52px;
+  --header-h: 60px;
   --banner-h: 22px;
   --rail-w: 300px;
   --drawer-w: 420px;
-  --radius: 4px;
-  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --radius: 7px;
+  --radius-card: 12px;
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
   --dur: 300ms;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    color-scheme: dark;
-    --maroon-ink: #e39abd;
-    --maroon-wash: rgba(227, 154, 189, 0.12);
-    --marigold-ink: #f5b84e;
-    --marigold-wash: rgba(241, 162, 34, 0.18);
-    --page: #0f0e10;
-    --surface: #18171a;
-    --surface-2: #222124;
-    --ink: #f0efec;
-    --ink-2: #c3c2b7;
-    --muted: #9a978f;
-    --rule: #2c2c2a;
-    --rule-strong: #45443f;
-    --focus: #6ea8ff;
-    --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 8px 24px rgba(0, 0, 0, 0.5);
-    --status-warn: #e0a42a;
-    --status-bad: #e66767;
-  }
-}
-
-:root[data-theme="dark"] {
-  color-scheme: dark;
-  --maroon-ink: #e39abd;
-  --maroon-wash: rgba(227, 154, 189, 0.12);
-  --marigold-ink: #f5b84e;
-  --marigold-wash: rgba(241, 162, 34, 0.18);
-  --page: #0f0e10;
-  --surface: #18171a;
-  --surface-2: #222124;
-  --ink: #f0efec;
-  --ink-2: #c3c2b7;
-  --muted: #9a978f;
-  --rule: #2c2c2a;
-  --rule-strong: #45443f;
-  --focus: #6ea8ff;
-  --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 8px 24px rgba(0, 0, 0, 0.5);
-  --status-warn: #e0a42a;
-  --status-bad: #e66767;
 }
 
 @media (prefers-reduced-motion: reduce) {
