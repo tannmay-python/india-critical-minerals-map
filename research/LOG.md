@@ -145,3 +145,10 @@ Queries, registries pulled, decisions, inclusion calls and dead ends. Newest ent
 - Overseas: five consortium bids now carry their offer dates from the Standing Committee's 29th report (Mt Marion and Wodgina NBO 17 Dec 2024, revised 27 Sept 2025; Salta NBO Jan 2026, revised Feb 2026; Mt Holland and Andover sale paused Jun 2025, reopened Feb 2026). KABIL's San Jorge, Rio Grande, Jujuy, Lai Chau and the seven extra Catamarca blocks have no date beyond the report.
 - Research: BARC from Jan 1954 (AEET). AMD, JNARDDC and CSIR-NIIST pages did not load or carry no founding date; left as found.
 - Promise check (29 records with a promised date, as of 2 Nov 2026): 4 delivered late (Exide +21 months, Kendadih +13, IREL Bhopal park +8, Hindalco foil +6); 7 past their first date with no delivery (the three 2022 PLI cell plants by 28 months, Rakha, MAM magnets, LOHUM Krishnagiri, Neogen Pakhajan); 18 not yet due. "Original" is the earliest dated promise found, which for some (Amara Raja, Agratas) is already a revised one.
+
+## App: profiles and year filter (2026-11-02)
+
+- Full profile page per project record (`src/ui/profile.ts`, route `#/p/<id>`), opened from the drawer's "Full profile" link; blocks and recyclers fall back to the map. Shared drawer/profile pieces moved to `src/ui/parts.ts`.
+- First-public year range in both panel views (`from`/`to` in the link). Pages no longer pick up map state in their URL, and searching from a page returns to the map.
+- `apply_updates.py` now stamps `last_verified` on the records it updates; the 59 records updated in today's timeline pass were stamped 2 Nov 2026.
+- QA: year links (4) and profile checks (one per layer, drawer link, back link, block fallback, year select) added; all pass.

@@ -44,6 +44,8 @@ export function renderAbout(el: HTMLElement, data: Dataset): void {
         </ul></div>
       </div>
 
+      <p class="note">Every project opens a full profile from its panel: the facts an investor would ask about where they are sourced, the first promised date against what happened, a dated timeline and every source. The year filter uses the year a record first became public: when it was announced, first put to auction or opened.</p>
+
       <h2>What is included</h2>
       <table class="layers"><tbody>${layers}</tbody></table>
       <p class="note">Left out by design: coking coal; bauxite, manganese, chromite, zinc and lead except where they yield a listed critical mineral; lead-acid battery recycling; scrap copper refining; ferro-silicon; fertiliser phosphates.</p>

@@ -26,7 +26,7 @@ import sys
 import yaml
 
 sys.path.insert(0, os.path.dirname(__file__))
-from build_entities import ROOT, deep_merge, manifest_index, squash  # noqa: E402
+from build_entities import ROOT, TODAY, deep_merge, manifest_index, squash  # noqa: E402
 
 
 def main():
@@ -55,6 +55,7 @@ def main():
             errors.append(f"{rid}: not in data/{layer}.yml")
             continue
         rec = deep_merge(current[rid], u.get("set") or {})
+        rec["last_verified"] = TODAY
         rec["milestones"] = list(rec.get("milestones") or []) + list(u.get("milestones") or [])
         have = {s.get("id") for s in rec.get("sources") or []}
         for s in u.get("sources") or []:

@@ -22,7 +22,10 @@ function expected(query) {
   const stages = (q.get("stage") ?? "").split(",").filter(Boolean);
   const groups = (q.get("status") ?? "active,pipeline,inactive").split(",");
   const mineral = q.get("mineral") ?? "", state = q.get("state") ?? "", scheme = q.get("scheme") ?? "";
+  const from = Number(q.get("from")) || null, to = Number(q.get("to")) || null;
+  const year = (e) => Number((e.dates.first_public ?? "").slice(0, 4)) || null;
   return ents.filter((e) => viewOf(e) === view && (demand || e.layer !== "demand") && (unconf || e.confidence !== "low") &&
+    ((from === null && to === null) || (year(e) !== null && (from === null || year(e) >= from) && (to === null || year(e) <= to))) &&
     (!stages.length || e.layer === "demand" || e.stages.some((s) => stages.includes(s))) &&
     groups.includes(e.status_group) &&
     (!mineral || e.minerals.includes(mineral) || (e.minerals_expanded ?? []).includes(mineral)) &&
@@ -38,7 +41,7 @@ async function fresh(hash, size = { width: 1440, height: 900 }) {
   page.on("console", (m) => { if (m.type() === "error" || m.type() === "warning") problems.push(`console ${m.type()} at ${hash}: ${m.text()}`); });
   page.on("pageerror", (err) => problems.push(`page error at ${hash}: ${err.message}`));
   await page.goto(`${BASE}?qa=${n++}#/${hash}`);
-  await page.waitForSelector(".count strong", { timeout: 20000 });
+  await page.waitForSelector(hash.startsWith("p/") ? "#profile:not([hidden]), #drawer-title" : ".count strong", { timeout: 20000 });
   return page;
 }
 async function settle(page) { // wait for tiles, if the dev map hook is present
@@ -53,6 +56,7 @@ const shownCount = async (page) => Number(await page.textContent(".count strong"
 const filterLinks = [
   "", "?view=abroad", "?demand=1", "?stage=Refining,Magnets", "?mineral=Lithium", "?view=abroad&state=Argentina",
   "?scheme=repm", "?status=active", "?demand=1&state=Karnataka", "?mineral=Graphite&status=pipeline", "?unconfirmed=1",
+  "?from=2015", "?from=2010&to=2020", "?view=abroad&from=2026", "?to=1999&stage=Mining",
 ];
 for (const q of filterLinks) {
   const page = await fresh(q);
@@ -110,6 +114,41 @@ for (const e of picks) {
   await page.click(".header-link");
   await page.waitForSelector(".about h1");
   await page.screenshot({ path: `${OUT}/about-1440.png`, fullPage: false });
+  await page.close();
+}
+
+// 4b. full profiles: one per profile layer, the drawer's link, and a block falling back to the map
+for (const layer of ["mines", "processing", "materials", "magnets", "rnd", "overseas", "demand"]) {
+  const e = ents.find((x) => x.layer === layer && x.confidence !== "low");
+  const page = await fresh(`p/${e.id}`);
+  const h1 = await page.textContent("#profile h1", { timeout: 10000 }).catch(() => null);
+  say(h1 === e.name && (await page.isVisible("#profile")), `profile p/${e.id}`);
+  if (layer === "demand") await page.screenshot({ path: `${OUT}/profile-1440.png`, fullPage: false });
+  await page.close();
+}
+{
+  const e = ents.find((x) => x.layer === "processing" && x.promise);
+  const page = await fresh(`?id=${e.id}`);
+  await page.click(".profile-link");
+  await page.waitForSelector("#profile h1");
+  say(new URL(page.url()).hash === `#/p/${e.id}` && (await page.textContent("#profile h1")) === e.name, "drawer link opens the profile");
+  await page.click("#profile .back");
+  await page.waitForSelector("#profile", { state: "hidden" });
+  say((await page.textContent("#drawer-title")) === e.name, "profile back link returns to the record on the map");
+  await page.close();
+}
+{
+  const b = ents.find((x) => x.layer === "blocks");
+  const page = await fresh(`p/${b.id}`);
+  await page.waitForSelector("#drawer-title");
+  say((await page.textContent("#drawer-title")) === b.name && !(await page.isVisible("#profile")), "block profile link falls back to the map");
+  await page.close();
+}
+{
+  const page = await fresh("");
+  await page.selectOption('[data-year="from"]', "2015");
+  say((await shownCount(page)) === expected("from=2015"), "year select narrows the count");
+  say(new URL(page.url()).hash.includes("from=2015"), "year select writes the link");
   await page.close();
 }
 

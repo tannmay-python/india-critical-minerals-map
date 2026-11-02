@@ -263,7 +263,7 @@
   related: []
   see_also: []
   confidence: high
-  last_verified: '2026-10-25'
+  last_verified: '2026-11-02'
   notes: null
   id: agratas-sanand-cells
   name: Agratas battery cell plant, Sanand
@@ -491,7 +491,7 @@
   related: []
   see_also: []
   confidence: high
-  last_verified: '2026-10-25'
+  last_verified: '2026-11-02'
   notes: Site within Jamnagar district not given in the sources; point is the district centroid.
   id: reliance-jamnagar-cells
   name: Reliance battery giga factory, Jamnagar
@@ -626,7 +626,7 @@
   related: []
   see_also: []
   confidence: high
-  last_verified: '2026-10-25'
+  last_verified: '2026-11-02'
   notes: Site within Dharwad district not given; point is the district centroid.
   id: acc-energy-storage-dharwad
   name: ACC Energy Storage cell plant, Dharwad
@@ -749,7 +749,7 @@
   related: []
   see_also: []
   confidence: high
-  last_verified: '2026-10-25'
+  last_verified: '2026-11-02'
   notes: null
   id: exide-devanahalli-cells
   name: Exide Energy Solutions cell plant, Devanahalli
@@ -998,7 +998,7 @@
   related: []
   see_also: []
   confidence: high
-  last_verified: '2026-10-25'
+  last_verified: '2026-11-02'
   notes: Site within Krishnagiri district not given in the source; point is the district centroid. Investment and
     dates as reported by the firm to MHI.
   id: ola-krishnagiri-cells
@@ -1133,7 +1133,7 @@
   - altmin-divitipally-lfp
   see_also: []
   confidence: high
-  last_verified: '2026-10-25'
+  last_verified: '2026-11-02'
   notes: null
   id: amara-raja-divitipally-cells
   name: Amara Raja Giga Corridor cell plant, Divitipally

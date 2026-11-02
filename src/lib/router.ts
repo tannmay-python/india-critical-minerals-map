@@ -1,7 +1,8 @@
 // Hash routing: everything is linkable and works on static hosting.
 //   #/  map (home)    #/about  about and data    #/e/<id>  a record (opens on the map)
+//   #/p/<id>  a record's full profile page
 // Filter state rides in the query: #/?stage=Refining,Magnets&mineral=Graphite&view=abroad
-export type View = "map" | "about" | "entity";
+export type View = "map" | "about" | "entity" | "profile";
 
 export interface Route {
   view: View;
@@ -17,11 +18,13 @@ export function parseHash(hash = location.hash): Route {
   const params = new URLSearchParams(query);
   const parts = path.split("/").filter(Boolean);
   if (parts[0] === "e" && parts[1]) return { view: "entity", entityId: decodeURIComponent(parts[1]), params };
+  if (parts[0] === "p" && parts[1]) return { view: "profile", entityId: decodeURIComponent(parts[1]), params };
   return { view: VIEWS[parts[0] ?? ""] ?? "map", params };
 }
 
 export function buildHash(view: View, params?: URLSearchParams, entityId?: string): string {
-  const path = view === "entity" ? `e/${encodeURIComponent(entityId ?? "")}` : view === "map" ? "" : view;
+  const path = view === "entity" ? `e/${encodeURIComponent(entityId ?? "")}`
+    : view === "profile" ? `p/${encodeURIComponent(entityId ?? "")}` : view === "map" ? "" : view;
   const q = params && [...params.keys()].length ? `?${params.toString().replace(/%2C/g, ",")}` : "";
   return `#/${path}${q}`;
 }
@@ -32,6 +35,7 @@ export function onRoute(fn: (r: Route) => void): void { listeners.add(fn); }
 /** Update the query of the current view without adding a history entry. */
 export function replaceParams(params: URLSearchParams): void {
   const r = parseHash();
+  if (r.view === "about" || r.view === "profile") return; // pages carry no map state
   // a record link (#/e/<id>) settles into the map's own query once the record is open
   const h = r.view === "entity" ? buildHash("map", params) : buildHash(r.view, params, r.entityId);
   if (h !== location.hash) history.replaceState(null, "", h);

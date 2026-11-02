@@ -1,20 +1,10 @@
 // Detail panel for one record: what it is, where it stands, the key numbers, and the sources.
 import type { Entity } from "../lib/types";
 import { concessionLabel, esc, fmtDate, fmtInvestment, fmtNum, fmtQuantity, place, trancheLabel } from "../lib/format";
+import { hasProfile, mineralChips, promiseText, seeAlsoLabel, sourceList } from "./parts";
 
 function row(label: string, value: string): string {
   return value ? `<dt>${esc(label)}</dt><dd>${value}</dd>` : "";
-}
-
-function minerals(e: Entity): string {
-  return e.minerals
-    .map((m) => {
-      const link = e.dashboard_links.find((d) => d.name === m);
-      return link
-        ? `<a class="chip" href="${esc(link.url)}" target="_blank" rel="noopener">${esc(m)}</a>`
-        : `<span class="chip">${esc(m)}</span>`;
-    })
-    .join("");
 }
 
 function auction(e: Entity): string {
@@ -32,33 +22,6 @@ function auction(e: Entity): string {
     return `<li>${bits.join("")}</li>`;
   });
   return `<ol class="auction">${items.join("")}</ol>`;
-}
-
-/** Source tiers in words a reader can weigh (RESEARCH_PROTOCOL §2). */
-const TIER: Record<string, string> = { T1: "Official", T2: "Company", T3: "Press", T4: "Other", T5: "Other" };
-
-function sources(e: Entity): string {
-  const items = e.sources.map((s) => {
-    const meta = [s.publisher, fmtDate(s.date)].filter(Boolean).map(esc).join(" · ");
-    return `<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a><span class="muted"><span class="tier tier-${esc(s.tier)}">${TIER[s.tier] ?? ""}</span>${meta}${s.archive_url ? ` · <a href="${esc(s.archive_url)}" target="_blank" rel="noopener">archived copy</a>` : ""}</span></li>`;
-  });
-  return `<ol class="sources">${items.join("")}</ol>`;
-}
-
-// The first dated target against what happened: delivered (late or on time), moved, or past due.
-function promise(e: Entity): string {
-  const p = e.promise;
-  if (!p) return "";
-  const n = (m: number) => `<span class="num">${m}</span> month${m === 1 ? "" : "s"}`;
-  const due = esc(fmtDate(p.due));
-  const verb = p.restart ? "restarted" : "delivered";
-  if (p.state === "delivered")
-    return p.months > 0
-      ? `${due}; ${verb} ${esc(fmtDate(p.done))}, ${n(p.months)} late`
-      : `${due}; ${verb} ${esc(fmtDate(p.done))}, on time`;
-  if (p.state === "revised") return `${due}; now ${esc(fmtDate(p.now))}, ${n(p.months)} later`;
-  if (p.state === "overdue") return `${due}; not delivered, ${n(p.months)} past`;
-  return due;
 }
 
 function milestones(e: Entity): string {
@@ -88,7 +51,7 @@ export function renderDrawer(el: HTMLElement, e: Entity, byId: Map<string, Entit
     .join("<br>");
 
   const facts = [
-    row("Minerals", minerals(e)),
+    row("Minerals", mineralChips(e)),
     row("Indian holders", esc(os?.indian_entities.join(", ") ?? "")),
     row("Stake", os?.stake_pct !== null && os?.stake_pct !== undefined ? `<span class="num">${fmtNum(os.stake_pct)}%</span>` : ""),
     row("Deal", esc(os?.deal_type ?? "")),
@@ -99,7 +62,7 @@ export function renderDrawer(el: HTMLElement, e: Entity, byId: Map<string, Entit
     row("Capacity", esc(cap)),
     row("Investment", esc(fmtInvestment(e))),
     row("Location", esc(loc)),
-    row("Promised", promise(e)),
+    row("Promised", promiseText(e)),
     row("Schemes", schemes),
     row("Related", related),
     row("More", seeAlso),
@@ -123,11 +86,12 @@ export function renderDrawer(el: HTMLElement, e: Entity, byId: Map<string, Entit
     ${e.status_detail ? `<p class="status-detail">${esc(e.status_detail)}</p>` : ""}
     ${narrative ? `<p class="lede">${esc(narrative)}</p>` : ""}
     ${why ? `<p>${esc(why)}</p>` : ""}
+    ${hasProfile(e) ? `<a class="profile-link" href="#/p/${encodeURIComponent(e.id)}">Full profile<span aria-hidden="true">→</span></a>` : ""}
     <dl class="facts">${facts}</dl>
     ${isBlock && e.auction?.history?.length ? `<h3>Auction history</h3>${auction(e)}` : ""}
     ${!isBlock && milestones(e) ? `<h3>Milestones</h3>${milestones(e)}` : ""}
     <h3>Sources</h3>
-    ${sources(e)}
+    ${sourceList(e)}
   `;
   const copy = el.querySelector<HTMLButtonElement>(".drawer-copy")!;
   copy.onclick = () => {
@@ -136,16 +100,6 @@ export function renderDrawer(el: HTMLElement, e: Entity, byId: Map<string, Entit
       () => { /* clipboard blocked: the address bar still holds the link */ },
     );
   };
-}
-
-/** "https://fabs.pranaykotas.com/..." -> "India Semiconductor Tracker"; anything else -> its host name. */
-function seeAlsoLabel(u: string): string {
-  try {
-    const h = new URL(u).hostname.replace(/^www\./, "");
-    return h === "fabs.pranaykotas.com" ? "India Semiconductor Tracker" : h;
-  } catch {
-    return u;
-  }
 }
 
 function lastBidder(e: Entity): string {

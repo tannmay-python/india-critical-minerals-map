@@ -157,7 +157,7 @@
   related: []
   see_also: []
   confidence: medium
-  last_verified: '2026-10-24'
+  last_verified: '2026-11-02'
   notes: "Point is Mindi, Visakhapatnam, the smelter's locality (geocoder); the source names Visakhapatnam only."
   id: hzl-vizag-zinc-smelter
   name: Hindustan Zinc Vizag zinc smelter
@@ -344,7 +344,7 @@
   related: []
   see_also: []
   confidence: medium
-  last_verified: '2026-10-24'
+  last_verified: '2026-11-02'
   notes: null
   id: tata-power-nellore-ingot-wafer
   name: Tata Power ingot and wafer plant, Nellore
@@ -826,7 +826,7 @@
   related: []
   see_also: []
   confidence: high
-  last_verified: '2026-10-24'
+  last_verified: '2026-11-02'
   notes: first_public is the IMYB edition date; the smelter dates to 1998 (not researched).
   id: hindalco-birla-copper-dahej
   name: Hindalco Birla Copper smelter and refinery, Dahej
@@ -931,7 +931,7 @@
   related: []
   see_also: []
   confidence: high
-  last_verified: '2026-10-24'
+  last_verified: '2026-11-02'
   notes: null
   id: kutch-copper-mundra
   name: Kutch Copper smelter and refinery, Mundra
@@ -1047,7 +1047,7 @@
   related: []
   see_also: []
   confidence: medium
-  last_verified: '2026-10-24'
+  last_verified: '2026-11-02'
   notes: No report found after the 2020 feasibility study and a Gujarat site shortlist; held at Announced because
     a stall is not confirmed by a source. Site not published (OPEN_QUESTIONS 12).
   id: manikaran-lithium-refinery
@@ -1246,7 +1246,7 @@
   related: []
   see_also: []
   confidence: medium
-  last_verified: '2026-10-24'
+  last_verified: '2026-11-02'
   notes: null
   id: hindalco-muri-alumina
   name: Hindalco Muri alumina refinery (vanadium sludge)
@@ -1453,7 +1453,7 @@
   related: []
   see_also: []
   confidence: medium
-  last_verified: '2026-10-24'
+  last_verified: '2026-11-02'
   notes: Point is Belagavi city; the refinery site is outside the city (not geocoded).
   id: hindalco-belagavi-alumina
   name: Hindalco Belagavi alumina refinery (vanadium sludge)
@@ -1558,7 +1558,7 @@
   related: []
   see_also: []
   confidence: medium
-  last_verified: '2026-10-24'
+  last_verified: '2026-11-02'
   notes: "IBM records production start at 10,000 tpy in 1990 as a 100% EOU."
   id: cmrl-edayar-synthetic-rutile
   name: Cochin Minerals and Rutile synthetic rutile plant, Edayar
@@ -1769,7 +1769,7 @@
   related: []
   see_also: []
   confidence: high
-  last_verified: '2026-10-24'
+  last_verified: '2026-11-02'
   notes: null
   id: kmml-chavara
   name: KMML titanium complex, Chavara
@@ -1889,7 +1889,7 @@
   - kmml-chavara
   see_also: []
   confidence: medium
-  last_verified: '2026-10-24'
+  last_verified: '2026-11-02'
   notes: "KMML's page is undated; first_public set to the IMYB edition that also records the plan. No construction\
     \ reported."
   id: kmml-sail-titanium-sponge-jv
@@ -2176,7 +2176,7 @@
   related: []
   see_also: []
   confidence: medium
-  last_verified: '2026-10-24'
+  last_verified: '2026-11-02'
   notes: null
   id: waaree-butibori-ingot-wafer
   name: Waaree Energies ingot and wafer plant, Butibori
@@ -2489,7 +2489,7 @@
   related: []
   see_also: []
   confidence: medium
-  last_verified: '2026-10-24'
+  last_verified: '2026-11-02'
   notes: IBM records that Damanjodi and Hindalco Renukoot had recovered gallium in the past. NALCO-BARC MoU on recovery
     technology, 2016.
   id: nalco-damanjodi-gallium
@@ -2761,7 +2761,7 @@
   related: []
   see_also: []
   confidence: medium
-  last_verified: '2026-10-24'
+  last_verified: '2026-11-02'
   notes: "Mapped as a cadmium stream under D-003. HZL's Dariba smelters list no cadmium capacity and are excluded."
   id: hzl-chanderiya-smelter
   name: Hindustan Zinc Chanderiya lead-zinc smelter (cadmium recovery)
@@ -2866,7 +2866,7 @@
   related: []
   see_also: []
   confidence: medium
-  last_verified: '2026-10-24'
+  last_verified: '2026-11-02'
   notes: null
   id: hzl-debari-smelter
   name: Hindustan Zinc Debari zinc smelter (cadmium recovery)
@@ -2980,7 +2980,7 @@
   related: []
   see_also: []
   confidence: high
-  last_verified: '2026-10-24'
+  last_verified: '2026-11-02'
   notes: null
   id: dcw-sahupuram-synthetic-rutile
   name: DCW synthetic rutile plant, Sahupuram
@@ -3454,7 +3454,7 @@
   related: []
   see_also: []
   confidence: medium
-  last_verified: '2026-10-24'
+  last_verified: '2026-11-02'
   notes: null
   id: hindalco-renukoot-alumina
   name: Hindalco Renukoot alumina refinery (vanadium sludge; past gallium)
@@ -3553,7 +3553,7 @@
   related: []
   see_also: []
   confidence: medium
-  last_verified: '2026-10-24'
+  last_verified: '2026-11-02'
   notes: null
   id: hzl-pantnagar-metal-plant
   name: Hindustan Zinc Pantnagar metal plant (antimony by-product)

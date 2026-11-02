@@ -5,13 +5,16 @@ import { createMap, type MapView } from "./map/mapview";
 import { renderDrawer } from "./ui/drawer";
 import { mountSearch } from "./ui/search";
 import { renderAbout } from "./ui/about";
-import { parseHash, replaceParams, onRoute } from "./lib/router";
+import { renderProfile } from "./ui/profile";
+import { hasProfile } from "./ui/parts";
+import { parseHash, replaceParams, onRoute, go } from "./lib/router";
 import { esc, fmtDate } from "./lib/format";
 
 interface Filters {
   view: View; stages: Set<string>; groups: Set<StatusGroup>; mineral: string; state: string; scheme: string;
-  demand: boolean; unconfirmed: boolean;
+  demand: boolean; unconfirmed: boolean; from: number | null; to: number | null;
 }
+type Skip = keyof Filters | "years";
 
 const $ = <T extends HTMLElement>(sel: string) => document.querySelector(sel) as T;
 
@@ -21,6 +24,9 @@ function regionOf(e: Entity): string {
 }
 
 const viewOf = (e: Entity): View => (e.layer === "overseas" ? "abroad" : "india");
+
+/** The year a record entered public view: its announcement, first auction notice or opening. */
+const yearOf = (e: Entity): number | null => Number((e.dates.first_public ?? "").slice(0, 4)) || null;
 
 /** Supply-chain stages shown in the mineral strip, in chain order. */
 const CHAIN_STAGES = ["Exploration", "Mining", "Beneficiation", "Refining", "Materials", "Magnets", "Recycling", "R&D"];
@@ -35,7 +41,10 @@ async function main(): Promise<void> {
       <button id="panel-toggle" class="panel-toggle" type="button" aria-controls="panel" aria-expanded="false"></button>
       <aside id="drawer" class="drawer" aria-labelledby="drawer-title" hidden></aside>
     </section>
-    <section id="about" class="view view-page" hidden></section>`;
+    <section id="about" class="view view-page" hidden></section>
+    <section id="profile" class="view view-page" hidden></section>`;
+  const about = $("#about");
+  const profile = $("#profile");
 
   let data: Dataset;
   try {
@@ -54,6 +63,7 @@ async function main(): Promise<void> {
   const route = parseHash();
   const p = route.params;
   const list = (k: string) => (p.get(k) ?? "").split(",").filter(Boolean);
+  const year = (k: string) => { const n = Number(p.get(k)); return Number.isInteger(n) && n >= 1800 && n <= 2100 ? n : null; };
   const f: Filters = {
     view: p.get("view") === "abroad" ? "abroad" : "india",
     stages: new Set(list("stage")),
@@ -63,9 +73,10 @@ async function main(): Promise<void> {
     scheme: p.get("scheme") ?? "",
     demand: p.get("demand") === "1",
     unconfirmed: p.get("unconfirmed") === "1",
+    from: year("from"), to: year("to"),
   };
   if (!f.groups.size) GROUP_ORDER.forEach((g) => f.groups.add(g));
-  let selected: string | null = route.entityId ?? p.get("id");
+  let selected: string | null = route.view === "profile" ? null : route.entityId ?? p.get("id");
   const opening = selected ? data.byId.get(selected) : undefined;
   if (opening) { // a shared link to a record decides the view
     f.view = viewOf(opening);
@@ -82,6 +93,8 @@ async function main(): Promise<void> {
     if (f.scheme) q.set("scheme", f.scheme);
     if (f.demand) q.set("demand", "1");
     if (f.unconfirmed) q.set("unconfirmed", "1");
+    if (f.from !== null) q.set("from", String(f.from));
+    if (f.to !== null) q.set("to", String(f.to));
     if (selected) q.set("id", selected);
     replaceParams(q);
   }
@@ -96,14 +109,20 @@ async function main(): Promise<void> {
   };
   const confirmed = (e: Entity) => f.unconfirmed || e.confidence !== "low";
   const inView = (e: Entity) => viewOf(e) === f.view && (f.demand || e.layer !== "demand");
-  const pass = (e: Entity, skip?: keyof Filters) =>
+  const inYears = (e: Entity) => {
+    if (f.from === null && f.to === null) return true;
+    const y = yearOf(e);
+    return y !== null && (f.from === null || y >= f.from) && (f.to === null || y <= f.to);
+  };
+  const pass = (e: Entity, skip?: Skip) =>
     inView(e) && confirmed(e) &&
     // demand sites are context, so stage chips do not hide them
     (skip === "stages" || !f.stages.size || e.layer === "demand" || e.stages.some((s) => f.stages.has(s))) &&
     (skip === "groups" || f.groups.has(e.status_group)) &&
     (skip === "mineral" || mineralMatch(e, f.mineral)) &&
     (skip === "state" || !f.state || regionOf(e) === f.state) &&
-    (skip === "scheme" || !f.scheme || e.scheme_links.some((s) => s.id === f.scheme));
+    (skip === "scheme" || !f.scheme || e.scheme_links.some((s) => s.id === f.scheme)) &&
+    (skip === "years" || inYears(e));
 
   // ---- map + drawer
   const panel = $("#panel");
@@ -155,8 +174,8 @@ async function main(): Promise<void> {
   // ---- filter panel
   function paint(): void {
     const shown = data.entities.filter((e) => pass(e));
-    const count = (skip: keyof Filters, test: (e: Entity) => boolean) => data.entities.filter((e) => pass(e, skip) && test(e)).length;
-    const filtered = f.stages.size || f.groups.size !== GROUP_ORDER.length || f.mineral || f.state || f.scheme;
+    const count = (skip: Skip, test: (e: Entity) => boolean) => data.entities.filter((e) => pass(e, skip) && test(e)).length;
+    const filtered = f.stages.size || f.groups.size !== GROUP_ORDER.length || f.mineral || f.state || f.scheme || f.from !== null || f.to !== null;
     const base = data.entities.filter((e) => inView(e) && confirmed(e));
     const nView = (v: View) => data.entities.filter((e) => viewOf(e) === v && confirmed(e) && e.layer !== "demand").length;
 
@@ -207,6 +226,18 @@ async function main(): Promise<void> {
       chain = `<div class="chain"><ol>${cells}</ol>${dash ? `<a href="${esc(dash)}" target="_blank" rel="noopener">${esc(f.mineral)} on the dashboard ↗</a>` : ""}</div>`;
     }
 
+    // Year range on the first public date: announcement, first auction notice or opening year.
+    const years = [...new Set([...base.map(yearOf), f.from, f.to].filter((y): y is number => y !== null))].sort((a, b) => a - b);
+    const yearOpts = (cur: number | null, any: string) => [`<option value="">${any}</option>`,
+      ...years.map((y) => `<option value="${y}"${y === cur ? " selected" : ""}>${y}</option>`)].join("");
+    const yearRow = `<fieldset class="years"><legend class="eyebrow">First public</legend>
+        <div class="year-range">
+          <label><span class="sr-only">From year</span><select data-year="from">${yearOpts(f.from, "Earliest")}</select></label>
+          <span aria-hidden="true">to</span>
+          <label><span class="sr-only">To year</span><select data-year="to">${yearOpts(f.to, "Latest")}</select></label>
+        </div>
+        <p class="hint">Year announced, first auctioned or opened</p></fieldset>`;
+
     const foot = `<footer class="panel-foot"><span>Updated ${fmtDate(data.meta.built.slice(0, 10))} · <a href="#/about">About and data</a></span></footer>`;
     if (abroad) {
       // Abroad: the assets themselves, grouped by host country, beside the world locator map.
@@ -223,6 +254,7 @@ async function main(): Promise<void> {
         <div class="panel-head"><p class="count"><strong class="num">${shown.length}</strong>${filtered ? ` of ${base.length}` : ""} assets abroad</p>
           ${filtered ? `<button type="button" class="link-btn" data-reset>Reset</button>` : ""}</div>
         <fieldset><legend class="eyebrow">Status</legend>${groupRows}</fieldset>
+        ${yearRow}
         <div class="abroad-list">${groups || `<p class="muted">Nothing matches these filters.</p>`}</div>
         ${foot}`;
       toggle.innerHTML = `Assets<span class="num">${shown.length}</span>`;
@@ -244,6 +276,7 @@ async function main(): Promise<void> {
         <label><span class="eyebrow">${abroad ? "Country" : "State"}</span><select data-select="state">${stateOpts}</select></label>
         ${schemes.size ? `<label><span class="eyebrow">Scheme</span><select data-select="scheme">${schemeOpts}</select></label>` : ""}
       </fieldset>
+      ${yearRow}
       ${abroad ? "" : `<label class="check"><input type="checkbox" data-demand${f.demand ? " checked" : ""}>Show demand: cell plants, gallium fabs<span class="n num">${nDemand}</span></label>`}
       ${hasLow ? `<label class="check"><input type="checkbox" data-unconfirmed${f.unconfirmed ? " checked" : ""}>Show unconfirmed</label>` : ""}
       <button type="button" class="abroad-link" data-view="abroad">Indian assets abroad<span class="num">${nView("abroad")}</span><span aria-hidden="true">→</span></button>
@@ -263,7 +296,7 @@ async function main(): Promise<void> {
       const s = chip.dataset.stage!;
       f.stages.has(s) ? f.stages.delete(s) : f.stages.add(s);
     } else if (t.closest("[data-reset]")) {
-      f.stages.clear(); f.mineral = ""; f.state = ""; f.scheme = "";
+      f.stages.clear(); f.mineral = ""; f.state = ""; f.scheme = ""; f.from = null; f.to = null;
       GROUP_ORDER.forEach((g) => f.groups.add(g));
     } else return;
     paint(); writeURL();
@@ -276,6 +309,11 @@ async function main(): Promise<void> {
     } else if (t.dataset.select === "mineral") f.mineral = t.value;
     else if (t.dataset.select === "state") f.state = t.value;
     else if (t.dataset.select === "scheme") f.scheme = t.value;
+    else if (t.dataset.year) {
+      const v = t.value ? Number(t.value) : null;
+      if (t.dataset.year === "from") f.from = v; else f.to = v;
+      if (f.from !== null && f.to !== null && f.from > f.to) [f.from, f.to] = [f.to, f.from];
+    }
     else if ("demand" in t.dataset) {
       f.demand = (t as HTMLInputElement).checked;
       if (!f.demand && selected && data.byId.get(selected)?.layer === "demand") open(null, false);
@@ -292,11 +330,13 @@ async function main(): Promise<void> {
   function choose(id: string): void {
     const e = data.byId.get(id);
     if (!e) return;
+    if (!about.hidden || !profile.hidden) { go("map", new URLSearchParams({ id })); return; } // leave the page; the route opens it
     const switching = viewOf(e) !== f.view;
     if (switching) { f.view = viewOf(e); f.state = ""; f.stages.clear(); }
     if (e.layer === "demand") f.demand = true;
     if (!pass(e)) {
-      f.stages.clear(); f.mineral = ""; f.state = ""; f.scheme = ""; GROUP_ORDER.forEach((g) => f.groups.add(g)); f.unconfirmed = true;
+      f.stages.clear(); f.mineral = ""; f.state = ""; f.scheme = ""; f.from = null; f.to = null;
+      GROUP_ORDER.forEach((g) => f.groups.add(g)); f.unconfirmed = true;
     }
     paint();
     if (switching) map.setView(f.view);
@@ -305,12 +345,24 @@ async function main(): Promise<void> {
   }
   mountSearch($("#search-input"), $("#search-results"), data.entities, choose);
 
-  const about = $("#about");
+  const baseTitle = document.title;
   function showPage(r: ReturnType<typeof parseHash>): void {
     const onAbout = r.view === "about";
+    const rec = r.view === "profile" && r.entityId ? data.byId.get(r.entityId) : undefined;
+    if (r.view === "profile" && !(rec && hasProfile(rec))) { // blocks, recyclers and unknown ids open on the map
+      go(rec ? "entity" : "map", undefined, rec?.id);
+      return;
+    }
     if (onAbout && !about.innerHTML) renderAbout(about, data);
     about.hidden = !onAbout;
     if (onAbout) about.scrollTop = 0;
+    if (rec) {
+      renderProfile(profile, rec, data.byId);
+      profile.scrollTop = 0;
+      profile.querySelector<HTMLElement>("h1")?.focus({ preventScroll: true });
+    }
+    profile.hidden = !rec;
+    document.title = rec ? `${rec.name} · ${baseTitle}` : baseTitle;
     document.querySelector(".header-link")?.setAttribute("aria-current", onAbout ? "page" : "false");
   }
 
@@ -318,9 +370,9 @@ async function main(): Promise<void> {
   showPage(route);
   if (opening) choose(opening.id); // also clears any filter that would hide it
   else selected = null;
-  onRoute((r) => { // pasted or edited links, and the About page
+  onRoute((r) => { // pasted or edited links, the About page and profiles
     showPage(r);
-    if (r.view === "about") return;
+    if (r.view === "about" || r.view === "profile") return;
     const id = r.entityId ?? r.params.get("id");
     if (id === selected) return;
     if (id && data.byId.has(id)) choose(id);

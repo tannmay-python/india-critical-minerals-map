@@ -228,7 +228,7 @@
   related: []
   see_also: []
   confidence: medium
-  last_verified: '2026-10-24'
+  last_verified: '2026-11-02'
   notes: null
   id: betla-graphite-mine
   name: Graphite mine, Betla
@@ -349,7 +349,7 @@
   - hcl-surda-mine
   see_also: []
   confidence: medium
-  last_verified: '2026-10-24'
+  last_verified: '2026-11-02'
   notes: null
   id: hcl-kendadih-mine
   name: Kendadih copper mine
@@ -528,7 +528,7 @@
   - hcl-surda-mine
   see_also: []
   confidence: medium
-  last_verified: '2026-10-24'
+  last_verified: '2026-11-02'
   notes: null
   id: hcl-rakha-mine
   name: Rakha copper mine
@@ -702,7 +702,7 @@
   - hcl-rakha-mine
   see_also: []
   confidence: high
-  last_verified: '2026-10-24'
+  last_verified: '2026-11-02'
   notes: null
   id: hcl-surda-mine
   name: Surda copper mine
@@ -859,7 +859,7 @@
   related: []
   see_also: []
   confidence: medium
-  last_verified: '2026-10-24'
+  last_verified: '2026-11-02'
   notes: "Atomic facility: shown at district precision."
   id: ucil-jaduguda-molybdenum
   name: UCIL Jaduguda mine (by-product molybdenum)
@@ -962,7 +962,7 @@
   - kmml-chavara-mine
   see_also: []
   confidence: high
-  last_verified: '2026-10-24'
+  last_verified: '2026-11-02'
   notes: null
   id: irel-chavara-mine
   name: IREL Chavara beach-sand mining and mineral separation
@@ -1074,7 +1074,7 @@
   - irel-chavara-mine
   see_also: []
   confidence: high
-  last_verified: '2026-10-24'
+  last_verified: '2026-11-02'
   notes: null
   id: kmml-chavara-mine
   name: KMML Chavara beach-sand mining and mineral separation
@@ -1172,7 +1172,7 @@
   related: []
   see_also: []
   confidence: medium
-  last_verified: '2026-10-24'
+  last_verified: '2026-11-02'
   notes: null
   id: khajuraho-stones-phosphate
   name: Khajuraho Stones rock phosphate mine, Chhatarpur
@@ -1272,7 +1272,7 @@
   related: []
   see_also: []
   confidence: medium
-  last_verified: '2026-10-24'
+  last_verified: '2026-11-02'
   notes: "MPSMCL's rock phosphate mines around Hirapur: Tigoda (Sagar district, Hirapur post office) and Maddeora\
     \ (Chhatarpur district); IBM lists MPSMCL producing in both districts."
   id: mpsmcl-hirapur
@@ -1380,7 +1380,7 @@
   related: []
   see_also: []
   confidence: high
-  last_verified: '2026-10-24'
+  last_verified: '2026-11-02'
   notes: null
   id: mpsmcl-meghnagar
   name: MPSMCL Meghnagar rock phosphate mine, Jhabua
@@ -1486,7 +1486,7 @@
   related: []
   see_also: []
   confidence: high
-  last_verified: '2026-10-24'
+  last_verified: '2026-11-02'
   notes: null
   id: hcl-malanjkhand-mine
   name: Malanjkhand copper mine and concentrator
@@ -1596,7 +1596,7 @@
   related: []
   see_also: []
   confidence: medium
-  last_verified: '2026-10-24'
+  last_verified: '2026-11-02'
   notes: "Two leases held by individuals: Gandabahali, and Gandabahali and Kirikita."
   id: gandabahali-graphite-mines
   name: Graphite mines, Gandabahali and Kirkita
@@ -1801,7 +1801,7 @@
   - irel-oscom-reep
   see_also: []
   confidence: high
-  last_verified: '2026-10-24'
+  last_verified: '2026-11-02'
   notes: null
   id: irel-oscom-mine
   name: IREL OSCOM beach-sand mining and mineral separation, Chatrapur
@@ -1913,7 +1913,7 @@
   - pradhan-banibasa-graphite
   see_also: []
   confidence: medium
-  last_verified: '2026-10-24'
+  last_verified: '2026-11-02'
   notes: Point is Kashipur tahsil, Rayagada (IBM); Bandhamandi village did not geocode.
   id: pradhan-bandhamundi-graphite
   name: Pradhan Industries graphite mine, Bandhamundi
@@ -2012,7 +2012,7 @@
   - pradhan-bandhamundi-graphite
   see_also: []
   confidence: medium
-  last_verified: '2026-10-24'
+  last_verified: '2026-11-02'
   notes: null
   id: pradhan-banibasa-graphite
   name: Pradhan Industries graphite mine, Banibasa
@@ -2109,7 +2109,7 @@
   related: []
   see_also: []
   confidence: high
-  last_verified: '2026-10-24'
+  last_verified: '2026-11-02'
   notes: null
   id: hzl-kayad-mine
   name: Kayad zinc-lead mine (cadmium-bearing)
@@ -2214,7 +2214,7 @@
   - hcl-kcc-khetri-smelter
   see_also: []
   confidence: high
-  last_verified: '2026-10-24'
+  last_verified: '2026-11-02'
   notes: null
   id: hcl-khetri-mine
   name: Khetri copper mine and concentrator
@@ -2331,7 +2331,7 @@
   - hcl-khetri-mine
   see_also: []
   confidence: high
-  last_verified: '2026-10-24'
+  last_verified: '2026-11-02'
   notes: Kolihan did not geocode; point is the Jhunjhunu district centroid (the mine is next to Khetri).
   id: hcl-kolihan-mine
   name: Kolihan copper mine
@@ -2430,7 +2430,7 @@
   related: []
   see_also: []
   confidence: high
-  last_verified: '2026-10-24'
+  last_verified: '2026-11-02'
   notes: Jhamarkotra did not geocode; point is the Udaipur district centroid.
   id: rsmml-jhamarkotra
   name: RSMML Jhamarkotra rock phosphate mine and beneficiation plant
@@ -2527,7 +2527,7 @@
   related: []
   see_also: []
   confidence: high
-  last_verified: '2026-10-24'
+  last_verified: '2026-11-02'
   notes: null
   id: hzl-rajpura-dariba-mine
   name: Rajpura Dariba zinc-lead mine (cadmium-bearing)
@@ -2626,7 +2626,7 @@
   - hzl-debari-smelter
   see_also: []
   confidence: high
-  last_verified: '2026-10-24'
+  last_verified: '2026-11-02'
   notes: Recorded as a cadmium stream under D-003; zinc, lead and silver are not on the canonical list.
   id: hzl-rampura-agucha-mine
   name: Rampura Agucha zinc-lead mine (cadmium-bearing)
@@ -2722,7 +2722,7 @@
   related: []
   see_also: []
   confidence: medium
-  last_verified: '2026-10-24'
+  last_verified: '2026-11-02'
   notes: "IBM's text attributes the 6 million tpy 'largest ore producing underground mine' line to the sentence\
     \ after Sindesar Khurd; the two-column layout makes the pairing an inference."
   id: hzl-sindesar-khurd-mine
@@ -2826,7 +2826,7 @@
   related: []
   see_also: []
   confidence: high
-  last_verified: '2026-10-24'
+  last_verified: '2026-11-02'
   notes: Zawar now falls in Salumbar district (created 2023); IBM gives Udaipur.
   id: hzl-zawar-mines
   name: Zawar group of zinc-lead mines (cadmium-bearing)
@@ -2955,7 +2955,7 @@
   - irel-tamin-thoothukudi
   see_also: []
   confidence: high
-  last_verified: '2026-10-24'
+  last_verified: '2026-11-02'
   notes: null
   id: irel-manavalakurichi-mine
   name: IREL Manavalakurichi beach-sand mining and mineral separation
@@ -3054,7 +3054,7 @@
   related: []
   see_also: []
   confidence: high
-  last_verified: '2026-10-24'
+  last_verified: '2026-11-02'
   notes: null
   id: tamin-sivaganga-graphite
   name: TAMIN graphite mine and beneficiation, Sivaganga

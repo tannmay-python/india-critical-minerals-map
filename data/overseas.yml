@@ -1604,7 +1604,7 @@
   related: []
   see_also: []
   confidence: high
-  last_verified: '2026-10-25'
+  last_verified: '2026-11-02'
   notes: Project and seller not named in the report; point is the province centroid.
   id: psu-consortium-salta-lithium-bid
   name: Indian PSU consortium bid for a lithium brine project, Salta
@@ -1804,7 +1804,7 @@
   - psu-consortium-mt-holland
   see_also: []
   confidence: high
-  last_verified: '2026-10-25'
+  last_verified: '2026-11-02'
   notes: Offered together with Mt Holland. Point is the Andover mine (geocoded by name).
   id: psu-consortium-andover
   name: "Andover lithium project, Western Australia: Indian PSU evaluation"
@@ -1909,7 +1909,7 @@
   - psu-consortium-wodgina-bid
   see_also: []
   confidence: high
-  last_verified: '2026-10-25'
+  last_verified: '2026-11-02'
   notes: "One sale process covered Mt Marion and Wodgina; stake_pct is the 20% of each mine sought in the revised\
     \ offer."
   id: psu-consortium-mt-marion-bid
@@ -2015,7 +2015,7 @@
   - psu-consortium-mt-marion-bid
   see_also: []
   confidence: high
-  last_verified: '2026-10-25'
+  last_verified: '2026-11-02'
   notes: Point is the Wodgina mine (geocoded by name).
   id: psu-consortium-wodgina-bid
   name: Indian PSU consortium bid for Wodgina lithium mine, Western Australia
@@ -2120,7 +2120,7 @@
   - psu-consortium-andover
   see_also: []
   confidence: high
-  last_verified: '2026-10-25'
+  last_verified: '2026-11-02'
   notes: Offered together with Andover. Point is Mount Holland (geocoded by name).
   id: psu-consortium-mt-holland
   name: "Mt Holland lithium project, Western Australia: Indian PSU evaluation"
