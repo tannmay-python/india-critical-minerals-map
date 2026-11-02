@@ -166,7 +166,7 @@
     closed: null
   milestones:
   - date: '2024-12-12'
-    event: Rs 177 crore expansion to 4,000 MT/year announced
+    event: Rs 177 crore expansion to 4,000 tpy announced, due in H1 FY26
     source_id: angel-ami-2024
   - date: '2026-07-24'
     event: Trial run of new battery chemicals plant completed; commercial supply started
@@ -324,6 +324,9 @@
   - date: '2026-05-26'
     event: LiPF6 approved by all major global electrolyte makers; PVDF binder qualification complete
     source_id: gfl-deck-2026-05
+  - date: '2024-02-07'
+    event: LFP line promised for Q3 2024
+    source_id: ei-gfcl-2024
   narrative:
     significance: null
     what_it_does: Makes lithium salt, electrolyte, LFP cathode and binder at one site, and is adding a natural graphite
@@ -1206,7 +1209,13 @@
     revised_expected_completion: null
     commissioned: null
     closed: null
-  milestones: []
+  milestones:
+  - date: '2023-12-06'
+    event: "Announced: phase 1 of 40,000 tpa (Rs 1,125 crore) to run within 27-36 months"
+    source_id: acp-himadri-lfp-2023
+  - date: '2024-09-19'
+    event: Construction to start Jan 2025; plant due in H2 FY27
+    source_id: tmm-himadri-lfp-2024
   narrative:
     significance: null
     what_it_does: Is building a 40,000-tonne-a-year plant to make lithium iron phosphate, the cathode material used
@@ -1248,9 +1257,11 @@
     retrieved: '2026-10-24'
     archive_url: null
     supports:
-    - location
     - dates.announced
     - dates.first_public
+    - dates.original_expected_completion
+    - location
+    - milestones
     - minerals
     - products
   - id: tmm-himadri-lfp-2024
@@ -1262,6 +1273,7 @@
     retrieved: '2026-10-24'
     archive_url: null
     supports:
+    - milestones
     - status
 - aliases:
   - Aditya Aluminium FRP and battery foil facility

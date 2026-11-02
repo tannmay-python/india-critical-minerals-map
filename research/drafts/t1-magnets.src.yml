@@ -1,0 +1,58 @@
+# Timeline research, rare earths and magnets: the Bhopal theme park's inauguration against its
+# sanctioned completion, and MAM's missed first-magnet target.
+# Applied with scripts/research/apply_updates.py.
+layer: magnets
+
+sources:
+  irel-ar-2024-25:
+    raw: irel.co.in/irel-ar-2024-25
+    title: IREL (India) Ltd Annual Report 2024-25
+    publisher: IREL (India) Ltd
+    tier: T2
+    date: "2025-09-19"
+  ians-rettp-2026:
+    raw: investmentguruindia.com/atmanitrbhar-bharat-push-rare-earth-and-titanium-theme-park-to-open-in-bhopal594046
+    title: "Atmanirbhar Bharat push: Rare Earth and Titanium Theme Park to open in Bhopal (IANS)"
+    publisher: IANS (via Investment Guru India)
+    tier: T3
+    date: "2026-05-08"
+  alc-irel-tech-2026:
+    raw: alcircle.com/irel-offers-seven-critical-mineral-technologies-for-rare-earth-and-titanium-commercialisat
+    title: "IREL offers seven critical mineral technologies for rare earth and titanium commercialisation"
+    publisher: AL Circle
+    tier: T3
+    date: "2026-08"
+  bs-mam-2025:
+    raw: bsppd.business-standard.com/midwest-advanced-materials-bets-1-000-crore-on-rare-earth-magnets-125060900001_1
+    title: "Midwest Advanced Materials bets Rs 1,000 crore on rare earth magnets"
+    publisher: Business Standard
+    tier: T3
+    date: "2025-06-09"
+
+updates:
+  - id: irel-rettp-bhopal
+    set:
+      status_as_of: "2026-08"
+      status_detail: "Inaugurated May 2026; pilot plants for La, Ce and Nd metals, magnet and phosphor recycling, and titanium; seven technologies offered to industry in Aug 2026"
+      dates: {commissioned: "2026-05", original_expected_completion: "2025-09"}
+    milestones:
+      - {date: "2025-09-19", event: "IREL reports metal and magnet-recycling plants running; whole project due by Sept 2025 under the DAE sanction", source_id: irel-ar-2024-25}
+      - {date: "2026-05", event: "Formally inaugurated", source_id: alc-irel-tech-2026}
+      - {date: "2026-08", event: "Seven technologies demonstrated at the park offered to industry for commercialisation", source_id: alc-irel-tech-2026}
+    sources:
+      - ref: irel-ar-2024-25
+        supports: [dates.original_expected_completion, milestones]
+        ev: {dates.original_expected_completion: "pilot plants is completed by September 2025 as per the"}
+      - ref: alc-irel-tech-2026
+        supports: [dates.commissioned, milestones, status, status_as_of, status_detail]
+        ev: {dates.commissioned: "The technologies were developed and demonstrated at IREL's Rare Earth & Titanium Theme Park (RETTP) in Bhopal, which was inaugurated on May 10."}
+      - ref: ians-rettp-2026
+        supports: [dates.commissioned, milestones]
+        ev: {dates.commissioned: "is set to inaugurate a \"Rare Earth and Titanium Theme Park\" in Bhopal on Saturday, officials said on Thursday."}
+
+  - id: mam-hyderabad-ndfeb
+    set: {dates: {original_expected_completion: "2025-12"}}
+    sources:
+      - ref: bs-mam-2025
+        supports: [dates.original_expected_completion]
+        ev: {dates.original_expected_completion: "is all set to produce the country's first rare earth magnets by December from its 500-tonne-per-annum facility in Hyderabad"}

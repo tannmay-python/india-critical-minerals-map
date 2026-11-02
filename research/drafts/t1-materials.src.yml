@@ -1,0 +1,67 @@
+# Timeline research, battery materials: the promise trail for plants whose first target was
+# missed or restated. Most records already carried dates from L3; this adds the original
+# promises as milestones. Applied with scripts/research/apply_updates.py.
+layer: materials
+
+sources:
+  acp-himadri-lfp-2023:
+    raw: autocarpro.in/himadri-speciality-chemical-announces-indias-first-plant-for-lfp-cathode-active-material--
+    title: "Himadri Speciality Chemical announces India's first plant for LFP cathode active material"
+    publisher: Autocar Professional
+    tier: T3
+    date: "2023-12-06"
+  tmm-himadri-lfp-2024:
+    raw: themachinemaker.com/himadri-speciality-chemical-aims-to-commission-odisha-plant-by-fy27
+    title: "Himadri Speciality Chemical aims to commission Odisha plant by FY27"
+    publisher: The Machine Maker
+    tier: T3
+    date: "2024-09-19"
+  ei-gfcl-2024:
+    raw: energetica-india.net/gfcl-ev-announces-commencement-of-lipf6-project-invests-inr-6000-crores
+    title: "GFCL EV announces commencement of LiPF6 project, invests INR 6,000 crores"
+    publisher: Energetica India
+    tier: T3
+    date: "2024-02-07"
+  angel-ami-2024:
+    raw: angelone.in/ami-organics-plans-rs-177-crore-expansion-for-electrolyte-additives-production
+    title: "AMI Organics plans Rs 177 crore expansion for electrolyte additives production"
+    publisher: Angel One
+    tier: T3
+    date: "2024-12-12"
+  acutaas-call-2026-07:
+    raw: nsearchives.nseindia.com/AMIORG_28072026182421_TranscriptSWmergedsigned
+    title: "Acutaas Chemicals Q1 FY27 earnings call transcript"
+    publisher: Acutaas Chemicals Ltd
+    tier: T2
+    date: "2026-07-24"
+
+updates:
+  - id: himadri-lfp-cam-odisha
+    milestones:
+      - {date: "2023-12-06", event: "Announced: phase 1 of 40,000 tpa (Rs 1,125 crore) to run within 27-36 months", source_id: acp-himadri-lfp-2023}
+      - {date: "2024-09-19", event: "Construction to start Jan 2025; plant due in H2 FY27", source_id: tmm-himadri-lfp-2024}
+    sources:
+      - ref: acp-himadri-lfp-2023
+        supports: [milestones, dates.original_expected_completion]
+        ev: {dates.original_expected_completion: "at an estimated cost of Rs 1,125 crore, and will be operational in 27- 36 months at Odisha."}
+      - ref: tmm-himadri-lfp-2024
+        supports: [milestones]
+        ev: {milestones: ["will start in January next year.", "We aim to have the plant operational by the second half of FY27"]}
+
+  - id: gfcl-ev-jolva
+    milestones:
+      - {date: "2024-02-07", event: "LFP line promised for Q3 2024", source_id: ei-gfcl-2024}
+    sources:
+      - ref: ei-gfcl-2024
+        supports: [milestones]
+        ev: {milestones: "LFP project is anticipated to be operational by Q3 of CY 24"}
+
+  - id: acutaas-jhagadia-additives
+    set:
+      milestones:
+        - {date: "2024-12-12", event: "Rs 177 crore expansion to 4,000 tpy announced, due in H1 FY26", source_id: angel-ami-2024}
+        - {date: "2026-07-24", event: "Trial run of new battery chemicals plant completed; commercial supply started", source_id: acutaas-call-2026-07}
+    sources:
+      - ref: angel-ami-2024
+        supports: [milestones]
+        ev: {milestones: "The project is expected to be completed in the first half of FY 2025-26."}

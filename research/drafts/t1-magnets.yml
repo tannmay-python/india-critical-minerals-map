@@ -1,0 +1,284 @@
+- aliases:
+  - RETTP Bhopal
+  - Rare Earth Metal and Titanium Theme Park
+  layer: magnets
+  stages:
+  - Magnets
+  - Recycling
+  - R&D
+  minerals:
+  - Cerium
+  - Lanthanum
+  - Neodymium
+  - Titanium
+  - Rare earths (unspecified)
+  commodity_as_stated: Rare Earth Metals like Cerium, Lanthanum, Neodymium; Titanium Sponge; recovery of magnetic
+    Rare Earths from end-of-life magnets
+  products:
+  - Cerium, lanthanum and neodymium metal (pilot)
+  - Rare earths recovered from end-of-life magnets (pilot)
+  - Titanium sponge (pilot)
+  - LED and lamp phosphors (pilot)
+  operator: IREL (India) Limited
+  operator_type: PSU (Central)
+  owners: []
+  partners:
+  - name: Bhabha Atomic Research Centre
+    country: India
+    role: technology
+  location:
+    address: null
+    village_or_town: Acharpura
+    district: Bhopal
+    state: Madhya Pradesh
+    country: India
+    lat: 23.47028
+    lon: 77.39074
+    precision: district
+    geometry: null
+  status: Pilot
+  status_as_of: 2026-08
+  status_detail: Inaugurated May 2026; pilot plants for La, Ce and Nd metals, magnet and phosphor recycling, and
+    titanium; seven technologies offered to industry in Aug 2026
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: Domestic ore
+  feedstock_detail: Rare earth oxides (IREL); end-of-life magnets for the recycling line
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2025'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: 2025-09
+    revised_expected_completion: null
+    commissioned: 2026-05
+    closed: null
+  milestones:
+  - date: '2025-09-19'
+    event: IREL reports metal and magnet-recycling plants running; whole project due by Sept 2025 under the DAE
+      sanction
+    source_id: irel-ar-2024-25
+  - date: 2026-05
+    event: Formally inaugurated
+    source_id: alc-irel-tech-2026
+  - date: 2026-08
+    event: Seven technologies demonstrated at the park offered to industry for commercialisation
+    source_id: alc-irel-tech-2026
+  narrative:
+    significance: The oxide-to-metal step is the missing link between IREL's oxides and any Indian magnet factory,
+      and this is where the government is demonstrating it.
+    what_it_does: Runs pilot plants built on BARC laboratory processes that turn rare earth oxides into metals and
+      recover rare earths from scrapped magnets.
+    why_it_matters: The park is meant to train entrepreneurs and transfer technology so that private firms can build
+      metal plants at industrial scale.
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-24'
+  notes: first_public set to the AR 2024-25 year; the park's earlier sanction and foundation dates were not researched.
+    The AR's English text says the multi-plant project 'is completed by September 2025'; the Hindi text says it
+    will be.
+  id: irel-rettp-bhopal
+  name: IREL Rare Earth & Titanium Theme Park, Bhopal
+  sources:
+  - id: irel-rettp-page
+    url: https://www.irel.co.in/rare-earth-theme-park-bhopal
+    title: Rare Earth & Titanium Theme Park, Bhopal
+    publisher: IREL (India) Limited
+    tier: T2
+    date: null
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - status
+    - location
+    - partners
+    - operator
+  - id: irel-ar-2024-25
+    url: https://www.irel.co.in/documents/20126/114997/Annual+Report+2024-25+IREL+%281%29.pdf/cb3382a3-24fa-c697-4a7c-782752762b4c?t=1762855411950
+    title: IREL (India) Limited Annual Report 2024-25
+    publisher: IREL (India) Limited
+    tier: T2
+    date: '2025-09-19'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.original_expected_completion
+    - location
+    - milestones
+    - minerals
+    - products
+    - status
+    - status_detail
+  - id: alc-irel-tech-2026
+    url: https://www.alcircle.com/news/irel-offers-seven-critical-mineral-technologies-for-rare-earth-and-titanium-commercialisation-120838
+    title: IREL offers seven critical mineral technologies for rare earth and titanium commercialisation
+    publisher: AL Circle
+    tier: T3
+    date: 2026-08
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - dates.commissioned
+    - milestones
+    - status
+    - status_as_of
+    - status_detail
+  - id: ians-rettp-2026
+    url: https://investmentguruindia.com/newsdetail/atmanitrbhar-bharat-push-rare-earth-and-titanium-theme-park-to-open-in-bhopal594046
+    title: 'Atmanirbhar Bharat push: Rare Earth and Titanium Theme Park to open in Bhopal (IANS)'
+    publisher: IANS (via Investment Guru India)
+    tier: T3
+    date: '2026-05-08'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.commissioned
+    - milestones
+- aliases:
+  - MAM rare earth magnet plant
+  layer: magnets
+  stages:
+  - Magnets
+  minerals:
+  - Neodymium
+  commodity_as_stated: Neodymium materials and Rare Earth Permanent Magnets (NdFeB)
+  products:
+  - Neodymium metal (molten salt electrolysis)
+  - Sintered NdFeB permanent magnets
+  operator: Midwest Advanced Materials Pvt. Ltd.
+  operator_type: Unlisted private
+  owners: []
+  partners:
+  - name: Non-Ferrous Materials Technology Development Centre (NFTDC)
+    country: India
+    role: technology
+  - name: Technology Development Board (DST)
+    country: India
+    role: finance
+  location:
+    address: null
+    village_or_town: Hyderabad
+    district: null
+    state: Telangana
+    country: India
+    lat: 17.36059
+    lon: 78.47406
+    precision: town
+    geometry: null
+  status: Approved
+  status_as_of: '2025-06-09'
+  status_detail: TDB funding sanctioned May 2024; company targeted first magnets by Dec 2025; no production report
+    found
+  capacity:
+    planned:
+      value: 500
+      unit: tpa
+      basis: finished NdFeB magnets
+      phase: initial; 5,000 tpa targeted by 2030
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: 250.86
+    currency: INR_crore
+    basis: TDB-supported project cost (TDB assistance Rs 125 crore)
+  feedstock: Domestic ore
+  feedstock_detail: Rare earth oxides to be supplied by IREL
+  schemes:
+  - repm
+  scheme_status:
+    repm: Bid submitted
+  dates:
+    first_public: '2024-05-30'
+    announced: null
+    mou: null
+    approved: '2024-05-30'
+    construction_start: null
+    original_expected_completion: 2025-12
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: '2024-05-30'
+    event: Technology Development Board sanctions funding; NFTDC molten-salt electrolysis technology transferred
+    source_id: pib-2022185
+  - date: '2025-06-09'
+    event: Company says first magnets by December from its 500 tpa Hyderabad facility; Rs 1,000 crore expansion
+      to 5,000 tpa considered
+    source_id: bs-mam-2025
+  narrative:
+    significance: It is the first private NdFeB project to win central funding, using a process developed by the
+      Ministry of Mines' NFTDC.
+    what_it_does: Plans to make neodymium metal by molten-salt electrolysis and turn it into sintered NdFeB magnets,
+      starting at 500 tonnes a year.
+    why_it_matters: If it reaches production it would be among India's first commercial NdFeB magnet lines; its
+      December 2025 start target has passed without a confirmed launch.
+  related: []
+  see_also: []
+  confidence: medium
+  last_verified: '2026-10-24'
+  notes: 'Plant site within the Hyderabad area not published; point at city level. Expansion figures vary: Rs 1,000
+    crore over three years (Business Standard, Jun 2025) vs Rs 2,000 crore in trade press (not archived). Bid under
+    REPM scheme filed jointly with Midwest Energy Ltd (PIB 2299078). Sister firm Midwest Ltd holds monazite mines
+    in Sri Lanka (Business Standard).'
+  id: mam-hyderabad-ndfeb
+  name: Midwest Advanced Materials NdFeB magnet plant, Hyderabad
+  sources:
+  - id: pib-2022185
+    url: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2022185
+    title: TDB approves support for M/s Midwest Advanced Materials Private Limited, Hyderabad for Sustainable Magnet
+      Production
+    publisher: Press Information Bureau, Government of India
+    tier: T1
+    date: '2024-05-30'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - status
+    - dates.approved
+    - dates.first_public
+    - capacity.planned
+    - partners
+    - feedstock
+    - operator
+    - minerals
+  - id: isti-mam
+    url: https://www.indiascienceandtechnology.gov.in/technologies/commercial-indigenous-production-neodymium-materials-rare-earth-permanent-magnets-e-mobility
+    title: Commercial Indigenous Production of Neodymium Materials & Rare Earth Permanent Magnets for E-Mobility
+    publisher: India Science, Technology & Innovation Portal (DST)
+    tier: T1
+    date: null
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - investment
+    - location
+  - id: bs-mam-2025
+    url: https://bsppd.business-standard.com/india-news/midwest-advanced-materials-bets-1-000-crore-on-rare-earth-magnets-125060900001_1.html
+    title: Midwest Advanced Materials bets Rs 1,000 crore on rare earth magnets
+    publisher: Business Standard
+    tier: T3
+    date: '2025-06-09'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - dates.original_expected_completion
+    - status_detail

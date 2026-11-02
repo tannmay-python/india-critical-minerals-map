@@ -803,9 +803,9 @@
     precision: district
     geometry: null
   status: Pilot
-  status_as_of: '2025-09-19'
-  status_detail: Pilot plants for La, Ce, Nd metals and magnet recycling under process validation; project slated
-    to finish Sept 2025
+  status_as_of: 2026-08
+  status_detail: Inaugurated May 2026; pilot plants for La, Ce and Nd metals, magnet and phosphor recycling, and
+    titanium; seven technologies offered to industry in Aug 2026
   capacity:
     planned:
       value: null
@@ -830,11 +830,21 @@
     mou: null
     approved: null
     construction_start: null
-    original_expected_completion: null
+    original_expected_completion: 2025-09
     revised_expected_completion: null
-    commissioned: null
+    commissioned: 2026-05
     closed: null
-  milestones: []
+  milestones:
+  - date: '2025-09-19'
+    event: IREL reports metal and magnet-recycling plants running; whole project due by Sept 2025 under the DAE
+      sanction
+    source_id: irel-ar-2024-25
+  - date: 2026-05
+    event: Formally inaugurated
+    source_id: alc-irel-tech-2026
+  - date: 2026-08
+    event: Seven technologies demonstrated at the park offered to industry for commercialisation
+    source_id: alc-irel-tech-2026
   narrative:
     significance: "The oxide-to-metal step is the missing link between IREL's oxides and any Indian magnet factory,\
       \ and this is where the government is demonstrating it."
@@ -874,12 +884,39 @@
     retrieved: '2026-10-23'
     archive_url: null
     supports:
+    - dates.first_public
+    - dates.original_expected_completion
+    - location
+    - milestones
+    - minerals
+    - products
     - status
     - status_detail
-    - location
-    - products
-    - minerals
-    - dates.first_public
+  - id: alc-irel-tech-2026
+    url: "https://www.alcircle.com/news/irel-offers-seven-critical-mineral-technologies-for-rare-earth-and-titanium-commercialisation-120838"
+    title: IREL offers seven critical mineral technologies for rare earth and titanium commercialisation
+    publisher: AL Circle
+    tier: T3
+    date: 2026-08
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - dates.commissioned
+    - milestones
+    - status
+    - status_as_of
+    - status_detail
+  - id: ians-rettp-2026
+    url: "https://investmentguruindia.com/newsdetail/atmanitrbhar-bharat-push-rare-earth-and-titanium-theme-park-to-open-in-bhopal594046"
+    title: "Atmanirbhar Bharat push: Rare Earth and Titanium Theme Park to open in Bhopal (IANS)"
+    publisher: IANS (via Investment Guru India)
+    tier: T3
+    date: '2026-05-08'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.commissioned
+    - milestones
 - aliases:
   - OSCOM REEP
   - Odisha Sands Complex Rare Earth Extraction Plant
@@ -1294,7 +1331,7 @@
     mou: null
     approved: '2024-05-30'
     construction_start: null
-    original_expected_completion: null
+    original_expected_completion: 2025-12
     revised_expected_completion: null
     commissioned: null
     closed: null
@@ -1362,6 +1399,7 @@
     retrieved: '2026-10-23'
     archive_url: null
     supports:
+    - dates.original_expected_completion
     - status_detail
 - aliases:
   - LOHUM Site 5 NdFeB plant
