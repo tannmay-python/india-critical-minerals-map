@@ -1,0 +1,530 @@
+- aliases: []
+  layer: overseas
+  stages:
+  - Mining
+  minerals:
+  - Lithium
+  commodity_as_stated: spodumene concentrate
+  products: []
+  operator: KABIL with Coal India, Oil India and ONGC Videsh
+  operator_type: Consortium
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Mount Marion
+    district: null
+    state: Western Australia
+    country: Australia
+    lat: -31.05477
+    lon: 121.44848
+    precision: town
+    geometry: null
+  status: Bid lost
+  status_as_of: '2026-08-12'
+  status_detail: Offers Dec 2024 and Sept 2025 lost to POSCO, which took 15% of Mt Marion and Wodgina
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: Not applicable
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2024-12-17'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: '2024-12-17'
+    event: Non-binding offer by KABIL, Coal India, Oil India and ONGC Videsh
+    source_id: ls-cms-29
+  - date: '2025-09-27'
+    event: Revised offer for 20% of Mt Marion and Wodgina; POSCO later took 15% of each
+    source_id: ls-cms-29
+  narrative:
+    significance: null
+    what_it_does: The consortium offered first USD 184 million, then AUD 325 million, for stakes in Mt Marion and
+      Wodgina through Mineral Resources.
+    why_it_matters: POSCO won with USD 765 million; the ministry cites overpricing and India's lack of a spodumene
+      value chain.
+  related:
+  - psu-consortium-wodgina-bid
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-25'
+  notes: One sale process covered Mt Marion and Wodgina; stake_pct is the 20% of each mine sought in the revised
+    offer.
+  id: psu-consortium-mt-marion-bid
+  name: Indian PSU consortium bid for Mt Marion lithium mine, Western Australia
+  overseas:
+    host_country: Australia
+    host_region: Western Australia
+    indian_entities:
+    - Khanij Bidesh India Ltd (KABIL)
+    - Coal India Ltd
+    - Oil India Ltd
+    - ONGC Videsh Ltd
+    stake_pct: 20
+    deal_type: Bid
+    india_link:
+      city: New Delhi
+      lat: 28.6139
+      lon: 77.209
+  sources:
+  - id: ls-cms-29
+    url: https://sansad.in/getFile/app/lsscommittee/Coal,%20Mines%20and%20Steel/18_Coal_Mines_and_Steel_29.pdf?source=app
+    title: 'Standing Committee on Coal, Mines and Steel, 29th Report: KABIL: India''s quest for Global Critical
+      Minerals'
+    publisher: Lok Sabha Secretariat
+    tier: T1
+    date: '2026-08-12'
+    retrieved: '2026-10-25'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - location
+    - milestones
+    - minerals
+    - narrative
+    - operator
+    - overseas.stake_pct
+    - status
+    - status_detail
+- aliases: []
+  layer: overseas
+  stages:
+  - Mining
+  minerals:
+  - Lithium
+  commodity_as_stated: spodumene concentrate
+  products: []
+  operator: KABIL with Coal India, Oil India and ONGC Videsh
+  operator_type: Consortium
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Wodgina
+    district: null
+    state: Western Australia
+    country: Australia
+    lat: -21.19122
+    lon: 118.67108
+    precision: site
+    geometry: null
+  status: Bid lost
+  status_as_of: '2026-08-12'
+  status_detail: Offers Dec 2024 and Sept 2025 lost to POSCO, which took 15% of Mt Marion and Wodgina
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: Not applicable
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2024-12-17'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: '2024-12-17'
+    event: Non-binding offer by KABIL, Coal India, Oil India and ONGC Videsh
+    source_id: ls-cms-29
+  - date: '2025-09-27'
+    event: Revised offer for 20% of Mt Marion and Wodgina; POSCO later took 15% of each
+    source_id: ls-cms-29
+  narrative:
+    significance: null
+    what_it_does: Sold together with Mt Marion; the Indian consortium sought 20% of each mine.
+    why_it_matters: null
+  related:
+  - psu-consortium-mt-marion-bid
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-25'
+  notes: Point is the Wodgina mine (geocoded by name).
+  id: psu-consortium-wodgina-bid
+  name: Indian PSU consortium bid for Wodgina lithium mine, Western Australia
+  overseas:
+    host_country: Australia
+    host_region: Western Australia
+    indian_entities:
+    - Khanij Bidesh India Ltd (KABIL)
+    - Coal India Ltd
+    - Oil India Ltd
+    - ONGC Videsh Ltd
+    stake_pct: 20
+    deal_type: Bid
+    india_link:
+      city: New Delhi
+      lat: 28.6139
+      lon: 77.209
+  sources:
+  - id: ls-cms-29
+    url: https://sansad.in/getFile/app/lsscommittee/Coal,%20Mines%20and%20Steel/18_Coal_Mines_and_Steel_29.pdf?source=app
+    title: 'Standing Committee on Coal, Mines and Steel, 29th Report: KABIL: India''s quest for Global Critical
+      Minerals'
+    publisher: Lok Sabha Secretariat
+    tier: T1
+    date: '2026-08-12'
+    retrieved: '2026-10-25'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - location
+    - milestones
+    - minerals
+    - operator
+    - overseas.stake_pct
+    - status
+    - status_detail
+- aliases: []
+  layer: overseas
+  stages:
+  - Mining
+  minerals:
+  - Lithium
+  commodity_as_stated: null
+  products: []
+  operator: KABIL with Coal India, Oil India, ONGC Videsh, NLC India and BPRL
+  operator_type: Consortium
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: null
+    district: null
+    state: Salta
+    country: Argentina
+    lat: -25.22699
+    lon: -64.5912
+    precision: state
+    geometry: null
+  status: Bid lost
+  status_as_of: '2026-08-12'
+  status_detail: Non-binding offer Jan 2026, revised Feb 2026, for 20% equity and offtake; not taken to the binding
+    phase
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: Not applicable
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: 2026-01
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: 2026-01
+    event: Non-binding offer for 20% equity and offtake
+    source_id: ls-cms-29
+  - date: 2026-02
+    event: Revised offer; not taken to the binding phase
+    source_id: ls-cms-29
+  narrative:
+    significance: null
+    what_it_does: Six Indian state companies bid together for a 20% stake and offtake in a Salta lithium brine project.
+    why_it_matters: The seller did not shortlist the consortium for binding offers.
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-25'
+  notes: Project and seller not named in the report; point is the province centroid.
+  id: psu-consortium-salta-lithium-bid
+  name: Indian PSU consortium bid for a lithium brine project, Salta
+  overseas:
+    host_country: Argentina
+    host_region: Salta
+    indian_entities:
+    - Khanij Bidesh India Ltd (KABIL)
+    - Coal India Ltd
+    - Oil India Ltd
+    - ONGC Videsh Ltd
+    - NLC India Ltd
+    - Bharat PetroResources Ltd
+    stake_pct: 20
+    deal_type: Bid
+    india_link:
+      city: New Delhi
+      lat: 28.6139
+      lon: 77.209
+  sources:
+  - id: ls-cms-29
+    url: https://sansad.in/getFile/app/lsscommittee/Coal,%20Mines%20and%20Steel/18_Coal_Mines_and_Steel_29.pdf?source=app
+    title: 'Standing Committee on Coal, Mines and Steel, 29th Report: KABIL: India''s quest for Global Critical
+      Minerals'
+    publisher: Lok Sabha Secretariat
+    tier: T1
+    date: '2026-08-12'
+    retrieved: '2026-10-25'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - milestones
+    - minerals
+    - operator
+    - overseas.stake_pct
+    - status
+    - status_detail
+- aliases: []
+  layer: overseas
+  stages:
+  - Mining
+  minerals:
+  - Lithium
+  commodity_as_stated: null
+  products: []
+  operator: KABIL with Oil India, Coal India and NLC India
+  operator_type: Consortium
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Mount Holland
+    district: null
+    state: Western Australia
+    country: Australia
+    lat: -32.09258
+    lon: 119.60005
+    precision: town
+    geometry: null
+  status: Under evaluation
+  status_as_of: '2026-08-12'
+  status_detail: Owner paused the sale in June 2025 and reopened it in Feb 2026; joint evaluation under way
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: Not applicable
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: 2025-06
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: 2025-06
+    event: Owner puts the sale of Mt Holland and Andover on hold
+    source_id: ls-cms-29
+  - date: 2026-02
+    event: Sale reopened; joint evaluation by KABIL, Oil India, Coal India and NLC India
+    source_id: ls-cms-29
+  narrative:
+    significance: null
+    what_it_does: KABIL and three state companies are evaluating a minority stake with offtake in the Mt Holland
+      lithium mine.
+    why_it_matters: null
+  related:
+  - psu-consortium-andover
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-25'
+  notes: Offered together with Andover. Point is Mount Holland (geocoded by name).
+  id: psu-consortium-mt-holland
+  name: 'Mt Holland lithium project, Western Australia: Indian PSU evaluation'
+  overseas:
+    host_country: Australia
+    host_region: Western Australia
+    indian_entities:
+    - Khanij Bidesh India Ltd (KABIL)
+    - Oil India Ltd
+    - Coal India Ltd
+    - NLC India Ltd
+    stake_pct: null
+    deal_type: Evaluation
+    india_link:
+      city: New Delhi
+      lat: 28.6139
+      lon: 77.209
+  sources:
+  - id: ls-cms-29
+    url: https://sansad.in/getFile/app/lsscommittee/Coal,%20Mines%20and%20Steel/18_Coal_Mines_and_Steel_29.pdf?source=app
+    title: 'Standing Committee on Coal, Mines and Steel, 29th Report: KABIL: India''s quest for Global Critical
+      Minerals'
+    publisher: Lok Sabha Secretariat
+    tier: T1
+    date: '2026-08-12'
+    retrieved: '2026-10-25'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - location
+    - milestones
+    - minerals
+    - operator
+    - status
+    - status_detail
+- aliases: []
+  layer: overseas
+  stages:
+  - Mining
+  minerals:
+  - Lithium
+  commodity_as_stated: null
+  products: []
+  operator: KABIL with Oil India, Coal India and NLC India
+  operator_type: Consortium
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Andover
+    district: null
+    state: Western Australia
+    country: Australia
+    lat: -20.87607
+    lon: 117.10116
+    precision: site
+    geometry: null
+  status: Under evaluation
+  status_as_of: '2026-08-12'
+  status_detail: Owner paused the sale in June 2025 and reopened it in Feb 2026; joint evaluation under way
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: Not applicable
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: 2025-06
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: 2025-06
+    event: Owner puts the sale of Mt Holland and Andover on hold
+    source_id: ls-cms-29
+  - date: 2026-02
+    event: Sale reopened; joint evaluation by KABIL, Oil India, Coal India and NLC India
+    source_id: ls-cms-29
+  narrative:
+    significance: null
+    what_it_does: KABIL and three state companies are evaluating a minority stake with offtake in the Andover lithium
+      project.
+    why_it_matters: null
+  related:
+  - psu-consortium-mt-holland
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-25'
+  notes: Offered together with Mt Holland. Point is the Andover mine (geocoded by name).
+  id: psu-consortium-andover
+  name: 'Andover lithium project, Western Australia: Indian PSU evaluation'
+  overseas:
+    host_country: Australia
+    host_region: Western Australia
+    indian_entities:
+    - Khanij Bidesh India Ltd (KABIL)
+    - Oil India Ltd
+    - Coal India Ltd
+    - NLC India Ltd
+    stake_pct: null
+    deal_type: Evaluation
+    india_link:
+      city: New Delhi
+      lat: 28.6139
+      lon: 77.209
+  sources:
+  - id: ls-cms-29
+    url: https://sansad.in/getFile/app/lsscommittee/Coal,%20Mines%20and%20Steel/18_Coal_Mines_and_Steel_29.pdf?source=app
+    title: 'Standing Committee on Coal, Mines and Steel, 29th Report: KABIL: India''s quest for Global Critical
+      Minerals'
+    publisher: Lok Sabha Secretariat
+    tier: T1
+    date: '2026-08-12'
+    retrieved: '2026-10-25'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - location
+    - milestones
+    - minerals
+    - operator
+    - status
+    - status_detail

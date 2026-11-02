@@ -1,0 +1,308 @@
+
+Bhabha Atomic Research Centre ( BARC ): About us 
+﻿
+Skip to main content
+A+
+A
+A-
+A
+हिन्दी
+(current)
+ About BARC
+About Us
+Organisation
+Directors
+Act, Rules and Notifications
+List of Holidays
+Working Hours
+Public dealing working hours
+ Research & Development
+ Research Projects
+Critical Facility
+AHWR
+Indian Nuclear Power Program 
+Thorium Fuel Cycle
+Reprocessing & Waste Management
+Environment & Radiation Monitoring
+Electronics Instrumentation & Computers
+Material Sciences & Engineering
+Chemical Engineering & Technology
+Physical Sciences
+Chemical & Radiochemical Sciences
+Health, Food & Agriculture
+ Career Opportunities
+ Recruitment
+New Vacancies
+Interviews & Results 
+ Opportunities
+Human Resources
+Officers
+Assistants & Technicians
+Administrative
+Auxiliary
+Career Growth
+DAE Doctoral Fellowship Scheme
+Rewards & Recognition
+Training Programme
+Infrastructure & Facilities
+Students's Corner
+ Right to Information
+RTI in BARC
+Activity under Sec 4
+Appellate Authority & Information Officers
+Organisation Chart
+Employees Details
+Scales of Pay
+Career Digest
+Budgetary Allocation
+ Central Information Commission
+Submissions
+Decisions
+ Publications
+ BARC Newsletter
+Current Issue
+Archival
+ Hindi Magazine - Parmanu Vigyan
+Current Issue
+For Publication
+Rajbhasha News Special
+BARC VISTA
+OpenGRID
+eBooks
+DAE Technology Bulletin
+Technical Brochures
+BARC Highlights
+PULSE
+ Public Awareness
+General Information to Public
+Environment Monitoring around Nuclear Reactors
+Safety of Nuclear Reactors
+Radioactive Waste Management: Indian scenario
+Applications of Radiation in Health Care
+Applications of Radiation in Nuclear Agriculture
+Applications of Radiation in Food Irradiation
+Desalination & Water Purification Technologies
+Applications of Radiation in Rural Development
+Applications of Radiation in Industry
+Entrepreneur's Corner
+Tenders and NITs
+Home
+About Us
+Dr. Homi Jehangir Bhabha
+Father of Nuclear Program in India
+October 30, 1909 - January 24, 1966
+Dr. Homi Jehangir Bhabha
+ conceived the Nuclear Program in India. Dr Bhabha established the 
+Tata Institute of Fundamental Research (TIFR)
+ for carrying out nuclear science research in 1945. To intensify the effort to exploit nuclear energy for the benefit of the nation, 
+ Dr Bhabha established the Atomic Energy Establishment, Trombay (AEET) in January 1954 for multidisciplinary research program essential 
+ for the ambitious nuclear program of India. After the sad demise of Bhabha in 1966, AEET was renamed Bhabha Atomic Research Centre (BARC).
+Dr. Bhabha established the BARC Training School to cater to the manpower needs of the expanding atomic energy research and development program. 
+In Bhabha’s own words "
+When Nuclear Energy has been successfully applied for power production in, say a couple of decades from now, 
+India will not have to look abroad for its experts but will find them ready at hand
+". 
+Dr Bhabha emphasized on self-reliance in all the fields of nuclear science and engineering.
+BARC is the mother of R&D institutions such as 
+Indira Gandhi Centre for Atomic Research (IGCAR)
+, 
+Raja Ramanna Centre for Advanced Technology (RRCAT)
+,
+Variable Energy Cyclotron Centre(VECC)
+, etc., which carry out pioneering.
+Atomic Energy in India
+Atomic Energy has a key role in reducing the carbon intensity of the 
+overall Power sector of India. Thermal power generation from all sources 
+contributes 234,048 MW, which is 60% of the total installed power while 
+renewables, hydro and nuclear contribute 95,875 MW (25%), 51,220 MW 
+(13%) and 6,780 MW (up to 2%) respectively.
+ Source 
+National Power Portal
+.
+ While renewable sources of energy are environment friendly, they are intermittent sources of power. 
+ Nuclear power, being a non-intermittent and concentrated source of power with negligible carbon footprint, is an essential component of the Indian power-mix to meet the International environmental commitments of India.
+India has limited domestic uranium resources while we have abundant Thorium. To exploit Thorium, our planners have envisaged the Three Stage Nuclear Power Program.
+Indigenously built Pressurised Heavy Water Reactors (PHWRs) form the backbone of the first stage Indian nuclear power program. 
+PHWRs use domestic natural uranium (UO
+2
+) containing 0.7 % fissile 
+235
+U and 99.3% 
+238
+U as fuel and Heavy water as moderator and primary coolant. 
+Reprocessing of the spent fuel from PHWRs and waste management are important components of the three stage nuclear program. These technologies were developed with total indigenous efforts. Uranium and Plutonium are chemically separated and recycled, while the other radioactive fission products were separated and sorted according to their half lives and radioactivity and stored with minimal environmental impact. 
+239
+Pu extracted from the spent fuel serves as the fuel for the Fast Breeder Reactors (FBRs) - part of the second stage of the nuclear program. 
+FBR fuel is so designed that a blanket of 
+238
+U surrounds fuel core. 
+238
+U undergoes transmutation to produce fresh 
+239
+Pu. 
+Thus an FBR not only consumes 
+239
+Pu but also breeds more 
+239
+Pu than it consumes. 
+But FBR technology is very complex and only advanced countries like USA, UK, France, Japan and USSR have mastered this technology.
+India announced its entry into this exclusive club when the 40 MWth Fast Breeder Test Reactor (FBTR) went critical in the 
+Indira Gandhi Centre for Atomic Research, Kalpakkam in October 1985. 
+A unique feature the FBTR is the indigenously developed U-Pu carbide fuel rich in Pu. With the operational experience gained from FBTR, 
+India embarked upon the construction of a 500 MWe Prototype Fast Breeder Reactor (PFBR). 
+232
+Th, which is abundant in India, is not a fissile material. 
+However, by a neutron capture reaction, 
+232
+Th transforms into 
+233
+U, which is a fissile material like 
+235
+U and 
+239
+Pu. 
+The strategy of the three stage program is to convert 
+232
+Th into 
+233
+U in the fast reactors. 
+233
+U will be the fuel in the futuristic third stage of nuclear program. 
+Further, it is proposed to use thorium along with a small feed of plutonium-based fuel in Advanced Heavy Water Reactors (AHWRs) which are expected to facilitate large-scale thorium utilization.
+BARC has active groups for Research and Development in Reactor Technologies, Fuel reprocessing and waste management, Isotope Applications, Radiation Technologies and their application to health, agriculture and environment, Accelerator and Laser Technology, Electronics, instrumentation and reactor control and Materials Science. Strong emphasis on basic and applied research in a number of core disciplines of Science has made synergy between basic research and technology development possible. 
+Research Reactors in BARC
+Dashboard-India's Power Generation Capacity 
+ Research Reactors in BARC 
+APSARA-U 
+ Apsara-U (Apsara-Upgraded) was successfully commissioned and its First Approach to Criticality (FAC) was achieved on 10
+th
+ September 2018. 
+ Indigenously developed Low Enriched Uranium (LEU) fuel in Uranium Silicide form is used in the reactor. Hot water layer concept at the top of pool, 
+ which is first of a kind in India, is employed to minimize radiation dose. 
+ By virtue of higher neutron flux, Apsara-U will enhance indigenous production of radioisotopes for various societal applications. 
+ The reactor will also be used extensively for research in nuclear physics, material science and radiation shielding.
+ More....
+APSARA 
+achieved criticality on August 4, 1956 and was the first research reactor in Asia to achieve criticality. 
+ It was a pool type reactor of 1 MW power with highly enriched uranium as fuel (4.5 kg) in the form of plates. 
+ Light water was used as both moderator and coolant. The maximum neutron flux was around 10
+13
+ neutrons/cm
+2
+/s. 
+ It was mainly used for production of isotopes, basic research, shielding experiments, neutron activation analysis, neutron radiography 
+ and for testing neutron detectors. Apsara was permanently shutdown in June, 2009. 
+ More....
+ZERLINA
+ was a 100 Watt thermal reactor based on natural uranium metallic fuel and heavy water as both 
+ moderator and coolant. It achieved criticality in January 14, 1961. It was mainly utilized for reactor lattice studies and was decommissioned 
+ in 1983.
+ More....
+CIRUS
+ reactor (40 MWth) was built in collaboration with Canada and was commissioned on 10th July 1960. 
+ CIRUS was extensively used for condensed matter research using neutron beams, material irradiation, fuel testing, 
+ neutron activation analysis and production of radioisotopes for applications in medicine, agriculture and industry. 
+ CIRUS reactor proved to be an excellent platform for training of engineers and scientists and in understanding the 
+ intricacies of managing natural uranium, heavy water, reactor systems which eventually evolved into the Indian pressurized heavy water reactor
+ programme. After 50 years of successful operation, it was permanently shut-down in December 2010.
+ More....
+DHRUVA
+ was conceived in the 1970s out of the need for a research reactor with higher neutron flux for
+ research in basic sciences in addition to a growing demand of radioisotopes and advanced. Construction of DHRUVA was a major milestone
+ in the development and implementation of indigenous nuclear technology in India. The reactor incorporates several features not only to satisfy
+ multidisciplinary user community but also in the production of radioisotopes of high specific activity. 
+ Dhruva is a National Facility for Neutron Beam Research to cater to the needs of Indian scientific 
+ community where scientists from BARC, other units of the Department of Atomic Energy (DAE), universities and national laboratories work under 
+ collaborative projects. Many of the collaborations are supported by the University Grants Commission – DAE Consortium 
+ for Scientific Research (UGC-DAE-CSR) and the Board of Research in Nuclear Sciences (BRNS).
+ More....
+PURNIMA-I
+ was the first experimental fast reactor built in BARC with Plutonium Oxide as the fuel. 
+ This 1 Watt reactor was critical on 18th May 1972 and was used for studies of fast reactor physics. It was decommissioned in 1973.
+ More....
+PURNIMA-II 
+was 100 mW experimental thermal reactor in BARC achieved criticality on May 10, 1984. 
+ This reactor operated on 
+233
+U in the form of Uranyl Nitrate Solution as fuel and light water as both moderator and coolant. 
+ PURNIMA-II had maximum neutron flux of 10
+7
+ neutrons/cm
+2
+/s. The purpose of this reactor was 
+233
+U fuel evaluation and futuristic reactor studies and was decommissioned in 1986.
+More....
+PURNIMA-III
+ was another 
+233
+U based 1 W thermal reactor built in BARC intended for mockup studies for
+ KAMINI reactor. It achieved criticality on November 9, 1990. Like its predecessor, this reactor too operated on light water as both moderator 
+ and coolant. PURNIMA-III had maximum neutron flux of 10
+8
+ neutrons/cm
+2
+/s. This reactor was decommissioned in 1991.
+ More....
+Critical Facility for Advanced Heavy Water Reactor (AHWR-CF)
+ attained first criticality on 7
+th
+ April, 2008. 
+ The Critical facility is basically a low power research reactor with built-in design features which allow arrangement of fuel rods, 
+ safety rods and experimental assemblies in the variable lattice spacing to simulate different core configurations as per the 
+ requirements of various reactor physics experiments for AHWR and 500 MWe PHWR. 
+ The critical facility has been designed for a nominal power of 100 watts for the average flux of 10
+8
+ n/cm
+2
+/sec. 
+ Based on requirements, the reactor power can go high up to 400 watts for short intervals to achieve thermal neutron flux levels of 10
+9
+ n/cm
+2
+/sec. 
+ Though the critical facility is designed for validating the reactor physics design of AHWR, it is utilized for neutron activation analysis,
+ nuclear detector testing and assessment of negative reactivity of absorber material. 
+ More....
+﻿
+Links & Pages
+Home
+Symposia
+Vacancies & Results
+Updated
+AKRUTI Programme
+Updated
+Tenders and NITs
+Updated
+General Information to Public
+Links to other DAE Units
+Public Interface Cell
+New
+Links & Pages
+Students's Corner
+Vigilance Info
+Covid-19 Corner
+Dashboard
+Updated
+Photo Gallery
+Central Library
+Help
+Links & Pages
+हिन्दी वेबसाइट
+Staff Notice
+Talks & Presentations
+Site Map
+Press Release
+Pensioner's Corner
+Contact Us
+Bhabha Atomic Research Centre,
+ Trombay, Mumbai - 400 085 India
+ +91-22- 25592000 / 69292000
+ +91-22-25505151 / 25519613 
+ webmaster [at ] barc [dot] gov [dot] in
+Web Information Manager
+ How to reach 
+Home
+ | 
+Website Policies
+ | © Site Owned & Maintained by: Bhabha Atomic Research Centre (BARC), Department of Atomic Energy(DAE),Government of India

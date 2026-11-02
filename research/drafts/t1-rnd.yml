@@ -1,0 +1,123 @@
+- aliases: []
+  layer: rnd
+  stages:
+  - R&D
+  minerals:
+  - Rare earths (unspecified)
+  - Samarium
+  - Cobalt
+  commodity_as_stated: laboratory-scale rare earth metal technologies; samarium-cobalt magnet testing
+  products:
+  - Rare earth metal process technology (licensed to IREL pilots)
+  - Testing of IREL's Sm2Co17 magnets
+  operator: Bhabha Atomic Research Centre, Department of Atomic Energy
+  operator_type: Research lab
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Trombay, Mumbai
+    district: Mumbai Suburban
+    state: Maharashtra
+    country: India
+    lat: 19.02063
+    lon: 72.92757
+    precision: site
+    geometry: null
+  status: Active
+  status_as_of: '2025-09-19'
+  status_detail: null
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: 1954-01
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: 1954-01
+    event: Atomic Energy Establishment, Trombay set up (renamed BARC after 1966)
+    source_id: barc-about
+  narrative:
+    significance: null
+    what_it_does: Developed the rare earth metal processes IREL is piloting at Bhopal and tests the samarium-cobalt
+      magnets made at Visakhapatnam.
+    why_it_matters: null
+  related:
+  - irel-rettp-bhopal
+  - irel-repm-vizag
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-24'
+  notes: null
+  id: barc-trombay-rare-earths
+  name: 'BARC Trombay: rare earth and magnet technology'
+  rnd:
+    institution_type: DAE
+    programmes: []
+    focus:
+    - Rare earth metal extraction processes
+    - Samarium-cobalt magnets
+    funding:
+      amount: null
+      currency: null
+      funder: Department of Atomic Energy
+  sources:
+  - id: irel-rettp-page
+    url: https://www.irel.co.in/rare-earth-theme-park-bhopal
+    title: Rare Earth & Titanium Theme Park, Bhopal
+    publisher: IREL (India) Limited
+    tier: T2
+    date: null
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - status
+    - products
+    - rnd
+    - operator
+    - location
+  - id: irel-ar-2024-25
+    url: https://www.irel.co.in/documents/20126/114997/Annual+Report+2024-25+IREL+%281%29.pdf/cb3382a3-24fa-c697-4a7c-782752762b4c?t=1762855411950
+    title: IREL (India) Limited Annual Report 2024-25
+    publisher: IREL (India) Limited
+    tier: T2
+    date: '2025-09-19'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - status
+    - products
+    - dates.first_public
+  - id: barc-about
+    url: https://www.barc.gov.in/about/index.html
+    title: About BARC
+    publisher: Bhabha Atomic Research Centre
+    tier: T1
+    date: '2026-11-02'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - milestones

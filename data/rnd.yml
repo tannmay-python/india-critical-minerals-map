@@ -427,7 +427,7 @@
   schemes: []
   scheme_status: {}
   dates:
-    first_public: '2025-09-19'
+    first_public: 1954-01
     announced: null
     mou: null
     approved: null
@@ -436,7 +436,10 @@
     revised_expected_completion: null
     commissioned: null
     closed: null
-  milestones: []
+  milestones:
+  - date: 1954-01
+    event: Atomic Energy Establishment, Trombay set up (renamed BARC after 1966)
+    source_id: barc-about
   narrative:
     significance: null
     what_it_does: Developed the rare earth metal processes IREL is piloting at Bhopal and tests the samarium-cobalt
@@ -488,6 +491,17 @@
     - status
     - products
     - dates.first_public
+  - id: barc-about
+    url: "https://www.barc.gov.in/about/index.html"
+    title: About BARC
+    publisher: Bhabha Atomic Research Centre
+    tier: T1
+    date: '2026-11-02'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - milestones
 - aliases: []
   layer: rnd
   stages: *id001

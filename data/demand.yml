@@ -243,16 +243,19 @@
   schemes: []
   scheme_status: {}
   dates:
-    first_public: '2026-04-02'
+    first_public: '2023-06-05'
     announced: null
-    mou: null
+    mou: 2023-06
     approved: null
     construction_start: null
     original_expected_completion: '2027'
     revised_expected_completion: null
     commissioned: null
     closed: null
-  milestones: []
+  milestones:
+  - date: 2023-06
+    event: "Agreement with Gujarat: Rs 13,000 crore for 20 GWh at Sanand"
+    source_id: eb2b-agratas-2023
   narrative:
     significance: null
     what_it_does: "Tata's 20 GWh cell plant for EVs and storage, using licensed NMC technology and its own LFP process."
@@ -301,6 +304,18 @@
     - status_detail
     - products
     - minerals
+  - id: eb2b-agratas-2023
+    url: "https://www.electronicsb2b.com/headlines/tata-group-subsidiary-to-set-up-ev-battery-plant-in-gujarat/"
+    title: Tata group subsidiary to set up EV battery plant in Gujarat
+    publisher: ElectronicsB2B
+    tier: T3
+    date: '2023-06-05'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.mou
+    - milestones
 - aliases: []
   layer: demand
   stages:
@@ -452,16 +467,22 @@
   schemes: []
   scheme_status: {}
   dates:
-    first_public: '2026-02-10'
+    first_public: '2022-07-29'
     announced: null
     mou: null
-    approved: null
+    approved: 2022-07
     construction_start: null
-    original_expected_completion: null
+    original_expected_completion: 2024-07
     revised_expected_completion: null
     commissioned: null
     closed: null
-  milestones: []
+  milestones:
+  - date: 2022-07
+    event: ACC PLI programme agreement (5 GWh); plant due within two years
+    source_id: pvm-acc-pli-2022
+  - date: '2025-02-18'
+    event: Second ACC PLI agreement, for 10 GWh
+    source_id: pvm-reliance-pli-2025
   narrative:
     significance: null
     what_it_does: "A 40 GWh LFP battery plant in Reliance's Jamnagar clean energy complex, holding two ACC PLI awards\
@@ -516,6 +537,29 @@
     - status
     - capacity.planned
     - minerals
+  - id: pvm-acc-pli-2022
+    url: "https://pv-magazine-india.com/2022/07/29/reliance-ola-rajesh-exports-sign-agreement-to-make-batteries-under-pli-scheme"
+    title: Reliance, Ola, Rajesh Exports sign agreement to make batteries under PLI scheme
+    publisher: pv magazine India
+    tier: T3
+    date: '2022-07-29'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.approved
+    - dates.original_expected_completion
+    - milestones
+  - id: pvm-reliance-pli-2025
+    url: "https://pv-magazine-india.com/2025/02/18/reliance-industries-awarded-10-gwh-advanced-chemistry-battery-capacity-under-pli-scheme"
+    title: Reliance Industries awarded 10 GWh advanced chemistry battery capacity under PLI scheme
+    publisher: pv magazine India
+    tier: T3
+    date: '2025-02-18'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - milestones
 - aliases: []
   layer: demand
   stages:
@@ -562,16 +606,19 @@
   schemes: []
   scheme_status: {}
   dates:
-    first_public: '2026-02-10'
+    first_public: '2022-07-29'
     announced: null
     mou: null
-    approved: null
+    approved: 2022-07
     construction_start: null
-    original_expected_completion: null
+    original_expected_completion: 2024-07
     revised_expected_completion: null
     commissioned: null
     closed: null
-  milestones: []
+  milestones:
+  - date: 2022-07
+    event: Rajesh Exports signs ACC PLI programme agreement (5 GWh); plant due within two years
+    source_id: pvm-acc-pli-2022
   narrative:
     significance: null
     what_it_does: "A 5 GWh cell plant awarded under the ACC PLI scheme's first round; no capacity built yet."
@@ -616,6 +663,19 @@
     supports:
     - status
     - status_detail
+  - id: pvm-acc-pli-2022
+    url: "https://pv-magazine-india.com/2022/07/29/reliance-ola-rajesh-exports-sign-agreement-to-make-batteries-under-pli-scheme"
+    title: Reliance, Ola, Rajesh Exports sign agreement to make batteries under PLI scheme
+    publisher: pv magazine India
+    tier: T3
+    date: '2022-07-29'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.approved
+    - dates.original_expected_completion
+    - milestones
 - aliases: []
   layer: demand
   stages:
@@ -666,16 +726,22 @@
   schemes: []
   scheme_status: {}
   dates:
-    first_public: '2026-09-24'
+    first_public: '2022-09-29'
     announced: null
     mou: null
     approved: null
-    construction_start: null
-    original_expected_completion: null
-    revised_expected_completion: null
+    construction_start: 2022-09
+    original_expected_completion: 2024-12
+    revised_expected_completion: 2026-03
     commissioned: '2026-09-23'
     closed: null
-  milestones: []
+  milestones:
+  - date: 2022-09
+    event: Foundation ceremony; plant due to run by end-2024 (80 acres, about Rs 4,000 crore)
+    source_id: etn-exide-2022
+  - date: '2024-11-14'
+    event: Exide now targets commercial production of 6 GWh by end-FY26
+    source_id: acp-exide-2024
   narrative:
     significance: null
     what_it_does: "A 6 GWh cell plant whose LFP cells will replace imported cells in Exide's Gujarat pack plant."
@@ -724,6 +790,30 @@
     - status
     - dates.commissioned
     - dates.first_public
+  - id: etn-exide-2022
+    url: "http://web.archive.org/web/2023id_/https://etn.news/buzz/exide-lithium-ion-battery-facility-bengaluru-details"
+    title: Exide begins construction of lithium-ion battery facility in Bengaluru
+    publisher: ETN (Energy and Technology News), via Wayback Machine
+    tier: T3
+    date: '2022-09-29'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.construction_start
+    - dates.original_expected_completion
+    - milestones
+  - id: acp-exide-2024
+    url: "https://autocarpro.in/news/exide-to-commercialize-li-ion-cell-manufacturing-with-6gwh-capacity-by-fy26-end-123530"
+    title: Exide to commercialize Li-ion cell manufacturing with 6GWh capacity by FY26 end
+    publisher: Autocar Professional
+    tier: T3
+    date: '2024-11-14'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.revised_expected_completion
+    - milestones
 - aliases: []
   layer: demand
   stages:
@@ -885,12 +975,12 @@
   schemes: []
   scheme_status: {}
   dates:
-    first_public: '2026-02-10'
+    first_public: '2022-07-29'
     announced: null
     mou: null
-    approved: null
+    approved: 2022-07
     construction_start: null
-    original_expected_completion: null
+    original_expected_completion: 2024-07
     revised_expected_completion: null
     commissioned: null
     closed: null
@@ -898,6 +988,9 @@
   - date: 2024-03
     event: Pilot production began
     source_id: ls-usq-1624-2026
+  - date: 2022-07
+    event: ACC PLI programme agreement (20 GWh); plant due within two years
+    source_id: pvm-acc-pli-2022
   narrative:
     significance: null
     what_it_does: The only ACC PLI plant making cells so far; it is still stabilising pilot production.
@@ -944,6 +1037,30 @@
     supports:
     - capacity.installed
     - status
+  - id: pvm-acc-pli-2022
+    url: "https://pv-magazine-india.com/2022/07/29/reliance-ola-rajesh-exports-sign-agreement-to-make-batteries-under-pli-scheme"
+    title: Reliance, Ola, Rajesh Exports sign agreement to make batteries under PLI scheme
+    publisher: pv magazine India
+    tier: T3
+    date: '2022-07-29'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.approved
+    - dates.original_expected_completion
+    - milestones
+  - id: powerline-acc-pli-2022
+    url: "https://powerline.net.in/2022/08/03/three-companies-sign-programme-agreement-under-pli-scheme-for-acc-battery-storage/"
+    title: Three companies sign programme agreement under PLI scheme for ACC battery storage
+    publisher: Power Line
+    tier: T3
+    date: '2022-08-03'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.approved
+    - dates.original_expected_completion
 - aliases: []
   layer: demand
   stages:
@@ -991,16 +1108,22 @@
   schemes: []
   scheme_status: {}
   dates:
-    first_public: '2024-08-10'
+    first_public: '2022-12-02'
     announced: null
-    mou: null
+    mou: 2022-12
     approved: null
-    construction_start: null
+    construction_start: '2023-05-06'
     original_expected_completion: 2027-06
     revised_expected_completion: null
     commissioned: null
     closed: null
-  milestones: []
+  milestones:
+  - date: 2022-12
+    event: "MoU with Telangana: up to 16 GWh of cells, Rs 9,500 crore over ten years"
+    source_id: bt-amararaja-2022
+  - date: '2023-05-06'
+    event: Ground broken in Telangana
+    source_id: bi-amararaja-2023
   narrative:
     significance: null
     what_it_does: Makes sample cells for carmakers to qualify ahead of a 16 GWh gigafactory on the same 260-acre
@@ -1058,6 +1181,29 @@
     supports:
     - status_detail
     - dates.original_expected_completion
+  - id: bt-amararaja-2022
+    url: "https://www.businesstoday.in/latest/corporate/story/amara-raja-to-invest-rs-500-crore-in-telangana-to-set-up-lithium-ion-battery-gigafactory-355071-2022-12-02"
+    title: Amara Raja to invest Rs 9,500 crore in Telangana, to set up lithium-ion battery gigafactory
+    publisher: Business Today
+    tier: T3
+    date: '2022-12-02'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.mou
+    - milestones
+  - id: bi-amararaja-2023
+    url: "https://www.batteriesinternational.com/2023/05/12/amara-raja-breaks-ground-for-giga-corridor-complex/"
+    title: Amara Raja breaks ground for giga corridor complex
+    publisher: Batteries International
+    tier: T3
+    date: '2023-05-12'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.construction_start
+    - milestones
 - aliases: []
   layer: demand
   stages:

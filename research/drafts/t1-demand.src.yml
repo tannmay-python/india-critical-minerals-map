@@ -1,0 +1,134 @@
+# Timeline research, demand: replace source-date placeholders with the real start of each cell
+# plant (PLI agreement, MoU or groundbreaking) and record the first promised date.
+# Applied with scripts/research/apply_updates.py.
+layer: demand
+
+sources:
+  pvm-acc-pli-2022:
+    raw: pv-magazine-india.com/reliance-ola-rajesh-exports-sign-agreement-to-make-batteries-under-pli-scheme
+    title: "Reliance, Ola, Rajesh Exports sign agreement to make batteries under PLI scheme"
+    publisher: pv magazine India
+    tier: T3
+    date: "2022-07-29"
+  powerline-acc-pli-2022:
+    raw: powerline.net.in/three-companies-sign-programme-agreement-under-pli-scheme-for-acc-battery-storage
+    title: "Three companies sign programme agreement under PLI scheme for ACC battery storage"
+    publisher: Power Line
+    tier: T3
+    date: "2022-08-03"
+  pvm-reliance-pli-2025:
+    raw: pv-magazine-india.com/reliance-industries-awarded-10-gwh-advanced-chemistry-battery-capacity-under-pli-scheme
+    title: "Reliance Industries awarded 10 GWh advanced chemistry battery capacity under PLI scheme"
+    publisher: pv magazine India
+    tier: T3
+    date: "2025-02-18"
+  eb2b-agratas-2023:
+    raw: electronicsb2b.com/tata-group-subsidiary-to-set-up-ev-battery-plant-in-gujarat
+    title: "Tata group subsidiary to set up EV battery plant in Gujarat"
+    publisher: ElectronicsB2B
+    tier: T3
+    date: "2023-06-05"
+  bt-amararaja-2022:
+    raw: businesstoday.in/amara-raja-to-invest-rs-500-crore-in-telangana-to-set-up-lithium-ion-battery-gigafactory-3
+    title: "Amara Raja to invest Rs 9,500 crore in Telangana, to set up lithium-ion battery gigafactory"
+    publisher: Business Today
+    tier: T3
+    date: "2022-12-02"
+  bi-amararaja-2023:
+    raw: batteriesinternational.com/amara-raja-breaks-ground-for-giga-corridor-complex
+    title: "Amara Raja breaks ground for giga corridor complex"
+    publisher: Batteries International
+    tier: T3
+    date: "2023-05-12"
+  etn-exide-2022:
+    raw: web.archive.org/exide-lithium-ion-battery-facility-bengaluru-details
+    title: "Exide begins construction of lithium-ion battery facility in Bengaluru"
+    publisher: ETN (Energy and Technology News), via Wayback Machine
+    tier: T3
+    date: "2022-09-29"
+  acp-exide-2024:
+    raw: autocarpro.in/exide-to-commercialize-li-ion-cell-manufacturing-with-6gwh-capacity-by-fy26-end-123530
+    title: "Exide to commercialize Li-ion cell manufacturing with 6GWh capacity by FY26 end"
+    publisher: Autocar Professional
+    tier: T3
+    date: "2024-11-14"
+
+updates:
+  - id: ola-krishnagiri-cells
+    set: {dates: {first_public: "2022-07-29", approved: "2022-07", original_expected_completion: "2024-07"}}
+    milestones:
+      - {date: "2022-07", event: "ACC PLI programme agreement (20 GWh); plant due within two years", source_id: pvm-acc-pli-2022}
+    sources:
+      - ref: pvm-acc-pli-2022
+        supports: [dates.first_public, dates.approved, dates.original_expected_completion, milestones]
+        ev:
+          dates.approved: ", and Rajesh Exports have signed the program agreement under the government's"
+          dates.original_expected_completion: "Under the ACC PLI program, the winners must set up a manufacturing facility within two years from the appointed date."
+      - ref: powerline-acc-pli-2022
+        supports: [dates.approved, dates.original_expected_completion]
+        ev: {dates.original_expected_completion: "Under the ACC PLI programme, the manufacturing facility will need to be established within two years."}
+
+  - id: reliance-jamnagar-cells
+    set: {dates: {first_public: "2022-07-29", approved: "2022-07", original_expected_completion: "2024-07"}}
+    milestones:
+      - {date: "2022-07", event: "ACC PLI programme agreement (5 GWh); plant due within two years", source_id: pvm-acc-pli-2022}
+      - {date: "2025-02-18", event: "Second ACC PLI agreement, for 10 GWh", source_id: pvm-reliance-pli-2025}
+    sources:
+      - ref: pvm-acc-pli-2022
+        supports: [dates.first_public, dates.approved, dates.original_expected_completion, milestones]
+        ev:
+          dates.approved: ", and Rajesh Exports have signed the program agreement under the government's"
+          dates.original_expected_completion: "Under the ACC PLI program, the winners must set up a manufacturing facility within two years from the appointed date."
+      - ref: pvm-reliance-pli-2025
+        supports: [milestones]
+        ev: {milestones: "This agreement awards Reliance New Energy Battery Limited a 10 GWh ACC capacity following a competitive global tender process"}
+
+  - id: acc-energy-storage-dharwad
+    set: {dates: {first_public: "2022-07-29", approved: "2022-07", original_expected_completion: "2024-07"}}
+    milestones:
+      - {date: "2022-07", event: "Rajesh Exports signs ACC PLI programme agreement (5 GWh); plant due within two years", source_id: pvm-acc-pli-2022}
+    sources:
+      - ref: pvm-acc-pli-2022
+        supports: [dates.first_public, dates.approved, dates.original_expected_completion, milestones]
+        ev:
+          dates.approved: ", and Rajesh Exports have signed the program agreement under the government's"
+          dates.original_expected_completion: "Under the ACC PLI program, the winners must set up a manufacturing facility within two years from the appointed date."
+
+  - id: agratas-sanand-cells
+    set: {dates: {first_public: "2023-06-05", mou: "2023-06"}}
+    milestones:
+      - {date: "2023-06", event: "Agreement with Gujarat: Rs 13,000 crore for 20 GWh at Sanand", source_id: eb2b-agratas-2023}
+    sources:
+      - ref: eb2b-agratas-2023
+        supports: [dates.first_public, dates.mou, milestones]
+        ev:
+          dates.mou: "signed an agreement with the government of Gujarat to set up a gigafactory for Lithium-ion batteries in Sanand."
+          milestones: "Tata will initially invest Rs 13,000 crore to have a manufacturing capacity of 20 gigawatts"
+
+  - id: amara-raja-divitipally-cells
+    set: {dates: {first_public: "2022-12-02", mou: "2022-12", construction_start: "2023-05-06"}}
+    milestones:
+      - {date: "2022-12", event: "MoU with Telangana: up to 16 GWh of cells, Rs 9,500 crore over ten years", source_id: bt-amararaja-2022}
+      - {date: "2023-05-06", event: "Ground broken in Telangana", source_id: bi-amararaja-2023}
+    sources:
+      - ref: bt-amararaja-2022
+        supports: [dates.first_public, dates.mou, milestones]
+        ev: {dates.mou: "Amara Raja Batteries signed an MoU with the Telangana government to set up a lithium-ion battery gigafactory in Mahbubnagar district of the state."}
+      - ref: bi-amararaja-2023
+        supports: [dates.construction_start, milestones]
+        ev: {dates.construction_start: "Amara Raja Batteries broke ground on May 6 for its 16GWh lithium battery cells factory and research complex"}
+
+  - id: exide-devanahalli-cells
+    set: {dates: {first_public: "2022-09-29", construction_start: "2022-09", original_expected_completion: "2024-12", revised_expected_completion: "2026-03"}}
+    milestones:
+      - {date: "2022-09", event: "Foundation ceremony; plant due to run by end-2024 (80 acres, about Rs 4,000 crore)", source_id: etn-exide-2022}
+      - {date: "2024-11-14", event: "Exide now targets commercial production of 6 GWh by end-FY26", source_id: acp-exide-2024}
+    sources:
+      - ref: etn-exide-2022
+        supports: [dates.first_public, dates.construction_start, dates.original_expected_completion, milestones]
+        ev:
+          dates.construction_start: "Indian battery major Exide has announced the formal start of the construction of its first multi-gigawatt hour lithium-ion cell manufacturing facility at Haraluru in Bengaluru."
+          dates.original_expected_completion: "the cell making facility is expected to become operational by the end of 2024."
+      - ref: acp-exide-2024
+        supports: [dates.revised_expected_completion, milestones]
+        ev: {dates.revised_expected_completion: "expects to commercialize the plant with a capacity of 6 GWh under the first phase towards the end of the financial year 2026."}

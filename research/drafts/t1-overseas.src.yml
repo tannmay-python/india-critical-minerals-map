@@ -1,0 +1,69 @@
+# Timeline research, overseas: bid and evaluation dates from the Lok Sabha Standing Committee's
+# 29th report, which these records had only as the report's own date.
+# Applied with scripts/research/apply_updates.py.
+layer: overseas
+
+sources:
+  ls-cms-29:
+    raw: sansad.in/18_Coal_Mines_and_Steel_29
+    title: "Standing Committee on Coal, Mines and Steel, 29th Report (OCR)"
+    publisher: Lok Sabha Secretariat
+    tier: T1
+    date: "2026-08-12"
+
+updates:
+  - id: psu-consortium-mt-marion-bid
+    set: {dates: {first_public: "2024-12-17"}}
+    milestones:
+      - {date: "2024-12-17", event: "Non-binding offer by KABIL, Coal India, Oil India and ONGC Videsh", source_id: ls-cms-29}
+      - {date: "2025-09-27", event: "Revised offer for 20% of Mt Marion and Wodgina; POSCO later took 15% of each", source_id: ls-cms-29}
+    sources:
+      - ref: ls-cms-29
+        supports: [dates.first_public, milestones]
+        ev:
+          dates.first_public: "a NBO (Non- Binding Offer) was submitted on 17.12.2024 by the consortium of KABIL, Coal India Limited, OlL India Limited and ONGC Videsh Limited"
+          milestones: "a revised NBO was submitted on 27.09.2025, for obtaining 20% stakes in both the mines"
+
+  - id: psu-consortium-wodgina-bid
+    set: {dates: {first_public: "2024-12-17"}}
+    milestones:
+      - {date: "2024-12-17", event: "Non-binding offer by KABIL, Coal India, Oil India and ONGC Videsh", source_id: ls-cms-29}
+      - {date: "2025-09-27", event: "Revised offer for 20% of Mt Marion and Wodgina; POSCO later took 15% of each", source_id: ls-cms-29}
+    sources:
+      - ref: ls-cms-29
+        supports: [dates.first_public, milestones]
+        ev:
+          dates.first_public: "a NBO (Non- Binding Offer) was submitted on 17.12.2024 by the consortium of KABIL, Coal India Limited, OlL India Limited and ONGC Videsh Limited"
+          milestones: "a revised NBO was submitted on 27.09.2025, for obtaining 20% stakes in both the mines"
+
+  - id: psu-consortium-salta-lithium-bid
+    set: {dates: {first_public: "2026-01"}}
+    milestones:
+      - {date: "2026-01", event: "Non-binding offer for 20% equity and offtake", source_id: ls-cms-29}
+      - {date: "2026-02", event: "Revised offer; not taken to the binding phase", source_id: ls-cms-29}
+    sources:
+      - ref: ls-cms-29
+        supports: [dates.first_public, milestones]
+        ev:
+          dates.first_public: "KABIL and the consortium partners submitted NBO during January 2026."
+          milestones: "submitted NBO during January 2026. A revised NBO was submitted in February 2026."
+
+  - id: psu-consortium-mt-holland
+    set: {dates: {first_public: "2025-06"}}
+    milestones:
+      - {date: "2025-06", event: "Owner puts the sale of Mt Holland and Andover on hold", source_id: ls-cms-29}
+      - {date: "2026-02", event: "Sale reopened; joint evaluation by KABIL, Oil India, Coal India and NLC India", source_id: ls-cms-29}
+    sources:
+      - ref: ls-cms-29
+        supports: [dates.first_public, milestones]
+        ev: {dates.first_public: "In another opportunity involving two projects (Mt Holland and Andover), project owner had placed the process on hold in June 2025, and reopened the same in February 2026."}
+
+  - id: psu-consortium-andover
+    set: {dates: {first_public: "2025-06"}}
+    milestones:
+      - {date: "2025-06", event: "Owner puts the sale of Mt Holland and Andover on hold", source_id: ls-cms-29}
+      - {date: "2026-02", event: "Sale reopened; joint evaluation by KABIL, Oil India, Coal India and NLC India", source_id: ls-cms-29}
+    sources:
+      - ref: ls-cms-29
+        supports: [dates.first_public, milestones]
+        ev: {dates.first_public: "In another opportunity involving two projects (Mt Holland and Andover), project owner had placed the process on hold in June 2025, and reopened the same in February 2026."}

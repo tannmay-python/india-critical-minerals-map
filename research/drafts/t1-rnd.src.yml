@@ -1,0 +1,21 @@
+# Timeline research, research centres: BARC's founding date in place of a source-date placeholder.
+# Applied with scripts/research/apply_updates.py.
+layer: rnd
+
+sources:
+  barc-about:
+    raw: barc.gov.in/index
+    title: "About BARC"
+    publisher: Bhabha Atomic Research Centre
+    tier: T1
+    date: "2026-11-02"
+
+updates:
+  - id: barc-trombay-rare-earths
+    set: {dates: {first_public: "1954-01"}}
+    milestones:
+      - {date: "1954-01", event: "Atomic Energy Establishment, Trombay set up (renamed BARC after 1966)", source_id: barc-about}
+    sources:
+      - ref: barc-about
+        supports: [dates.first_public, milestones]
+        ev: {dates.first_public: "Dr Bhabha established the Atomic Energy Establishment, Trombay (AEET) in January 1954 for multidisciplinary research program essential"}
