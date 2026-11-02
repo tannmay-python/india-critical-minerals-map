@@ -34,12 +34,12 @@ export async function loadBaseStyle(theme: Theme): Promise<StyleSpecification> {
   if (!res.ok) throw new Error(`basemap style ${res.status}`);
   const style = (await res.json()) as StyleSpecification;
   style.layers = style.layers.filter((l) => !isForbiddenLayer(l));
-  // Warm the light basemap towards the cream page so the map sits on the same paper.
+  // India drawn on white; the India view masks everything outside it with the cream page colour.
   if (theme === "light") {
     for (const l of style.layers) {
       const paint = (l as { paint?: Record<string, unknown> }).paint;
       if (!paint) continue;
-      if (l.type === "background") paint["background-color"] = "#fdf8e6";
+      if (l.type === "background") paint["background-color"] = "#ffffff";
       else if (l.type === "fill" && /^water/.test(l.id)) paint["fill-color"] = "#dfe5e3";
     }
   }

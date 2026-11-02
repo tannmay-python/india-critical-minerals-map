@@ -249,6 +249,14 @@ def main():
         for f in os.listdir(web):
             if f.endswith(".geojson"):
                 shutil.copy2(os.path.join(web, f), os.path.join(gdir, f))
+        # Mask for the India view: the world minus India's official outline, so nothing outside India is drawn.
+        from shapely.geometry import box, mapping, shape
+        from shapely.ops import unary_union
+        ind = json.load(open(os.path.join(web, "india-boundary.geojson")))
+        india = unary_union([shape(f["geometry"]) for f in ind["features"]]).buffer(0)
+        outside = box(-180, -85, 180, 85).difference(india)
+        with open(os.path.join(gdir, "outside-india.geojson"), "w", encoding="utf-8") as f:
+            json.dump({"type": "FeatureCollection", "features": [{"type": "Feature", "properties": {}, "geometry": mapping(outside)}]}, f)
 
     # downloads
     cols = ["id", "name", "layer", "stages", "minerals", "commodity_as_stated", "operator", "operator_type",

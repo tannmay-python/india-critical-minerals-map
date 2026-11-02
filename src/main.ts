@@ -5,7 +5,6 @@ import { createMap, type MapView } from "./map/mapview";
 import { renderDrawer } from "./ui/drawer";
 import { mountSearch } from "./ui/search";
 import { renderAbout } from "./ui/about";
-import { currentTheme, onThemeChange } from "./lib/theme";
 import { parseHash, replaceParams, onRoute } from "./lib/router";
 import { esc, fmtDate } from "./lib/format";
 
@@ -116,13 +115,13 @@ async function main(): Promise<void> {
     left: mobile.matches ? 20 : panel.offsetWidth + 40,
     right: mobile.matches ? 20 : drawer.hidden ? 40 : drawer.offsetWidth + 40,
   });
-  const map: MapView = createMap($("#map"), data.stages, (id) => open(id, false), padding, f.view);
+  const map: MapView = createMap($("#map"), (id) => open(id, false), padding, f.view);
 
   function open(id: string | null, fly: boolean): void {
     const e = id ? data.byId.get(id) : undefined;
     selected = e ? e.id : null;
     if (e) {
-      renderDrawer(drawer, e, data.stages, data.byId);
+      renderDrawer(drawer, e, data.byId);
       drawer.hidden = false;
       drawer.scrollTop = 0;
       drawer.querySelector<HTMLButtonElement>(".drawer-close")!.onclick = () => open(null, false);
@@ -131,6 +130,7 @@ async function main(): Promise<void> {
       drawer.hidden = true;
     }
     map.select(selected, fly);
+    if (f.view === "abroad") paint(); // keeps the list's current item in step
     writeURL();
   }
   document.addEventListener("keydown", (ev) => { if (ev.key === "Escape" && !drawer.hidden) open(null, false); });
@@ -140,7 +140,6 @@ async function main(): Promise<void> {
     ev.preventDefault();
     choose(a.dataset.open!);
   });
-  onThemeChange(() => { if (selected) renderDrawer(drawer, data.byId.get(selected)!, data.stages, data.byId); paint(); });
 
   function setView(v: View): void {
     if (v === f.view) return;
@@ -156,7 +155,6 @@ async function main(): Promise<void> {
   // ---- filter panel
   function paint(): void {
     const shown = data.entities.filter((e) => pass(e));
-    const theme = currentTheme();
     const count = (skip: keyof Filters, test: (e: Entity) => boolean) => data.entities.filter((e) => pass(e, skip) && test(e)).length;
     const filtered = f.stages.size || f.groups.size !== GROUP_ORDER.length || f.mineral || f.state || f.scheme;
     const base = data.entities.filter((e) => inView(e) && confirmed(e));
@@ -167,8 +165,7 @@ async function main(): Promise<void> {
       .map((s) => {
         const n = count("stages", (e) => e.layer !== "demand" && e.stages.includes(s.id));
         const on = f.stages.has(s.id);
-        return `<button type="button" class="chip-btn${on ? " on" : ""}" data-stage="${esc(s.id)}" aria-pressed="${on}">
-          <i class="dot" style="background:${s.color[theme]}"></i>${esc(s.id)}<span class="n num">${n}</span></button>`;
+        return `<button type="button" class="chip-btn${on ? " on" : ""}" data-stage="${esc(s.id)}" aria-pressed="${on}">${esc(s.id)}<span class="n num">${n}</span></button>`;
       })
       .join("");
     const groupRows = GROUP_ORDER.map((g) => {
@@ -210,16 +207,37 @@ async function main(): Promise<void> {
       chain = `<div class="chain"><ol>${cells}</ol>${dash ? `<a href="${esc(dash)}" target="_blank" rel="noopener">${esc(f.mineral)} on the dashboard ↗</a>` : ""}</div>`;
     }
 
+    const foot = `<footer class="panel-foot"><span>Updated ${fmtDate(data.meta.built.slice(0, 10))} · <a href="#/about">About and data</a></span></footer>`;
+    if (abroad) {
+      // Abroad: the assets themselves, grouped by host country, beside the world locator map.
+      const byCountry = new Map<string, Entity[]>();
+      for (const e of shown) byCountry.set(regionOf(e), [...(byCountry.get(regionOf(e)) ?? []), e]);
+      const rank = (e: Entity) => (e.status_group === "active" ? 0 : e.status_group === "pipeline" ? 1 : 2);
+      const groups = [...byCountry].sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0]))
+        .map(([country, list]) => `<section class="abroad-group"><h3 class="eyebrow">${esc(country)}</h3><ul>${list
+          .sort((a, b) => rank(a) - rank(b) || a.name.localeCompare(b.name))
+          .map((e) => `<li><button type="button" data-open="${esc(e.id)}"${e.id === selected ? ' aria-current="true"' : ""}><i class="glyph glyph-${e.status_group}"></i><span>${esc(e.name)}<small>${esc(e.status)}${e.overseas?.indian_entities?.length ? ` · ${esc(e.overseas.indian_entities[0].replace(/ \(.*\)$/, ""))}` : ""}</small></span></button></li>`)
+          .join("")}</ul></section>`).join("");
+      panel.innerHTML = `
+        <button type="button" class="back-link" data-view="india">← India</button>
+        <div class="panel-head"><p class="count"><strong class="num">${shown.length}</strong>${filtered ? ` of ${base.length}` : ""} assets abroad</p>
+          ${filtered ? `<button type="button" class="link-btn" data-reset>Reset</button>` : ""}</div>
+        <fieldset><legend class="eyebrow">Status</legend>${groupRows}</fieldset>
+        <div class="abroad-list">${groups || `<p class="muted">Nothing matches these filters.</p>`}</div>
+        ${foot}`;
+      toggle.innerHTML = `Assets<span class="num">${shown.length}</span>`;
+      map.setEntities(shown);
+      return;
+    }
+
     panel.innerHTML = `
-      <div class="seg" role="group" aria-label="Where">
-        ${(["india", "abroad"] as View[]).map((v) => `<button type="button" data-view="${v}" aria-pressed="${f.view === v}">${v === "india" ? "In India" : "Abroad"}<span class="n num">${nView(v)}</span></button>`).join("")}
-      </div>
       <div class="panel-head">
         <p class="count"><strong class="num">${shown.length}</strong>${filtered ? ` of ${base.length}` : ""} sites</p>
         ${filtered ? `<button type="button" class="link-btn" data-reset>Reset</button>` : ""}
       </div>
       <fieldset><legend class="eyebrow">Stage</legend><div class="chips">${stageChips}</div></fieldset>
-      <fieldset><legend class="eyebrow">Status</legend>${groupRows}</fieldset>
+      <fieldset><legend class="eyebrow">Status</legend>${groupRows}
+        <p class="shape-key"><span><i class="glyph glyph-key"></i>Project or site</span><span><i class="glyph glyph-key glyph-sq"></i>Auction block</span></p></fieldset>
       <fieldset class="selects">
         <label><span class="eyebrow">Mineral</span><select data-select="mineral">${mineralOpts}</select></label>
         ${chain}
@@ -228,9 +246,8 @@ async function main(): Promise<void> {
       </fieldset>
       ${abroad ? "" : `<label class="check"><input type="checkbox" data-demand${f.demand ? " checked" : ""}>Show demand: cell plants, gallium fabs<span class="n num">${nDemand}</span></label>`}
       ${hasLow ? `<label class="check"><input type="checkbox" data-unconfirmed${f.unconfirmed ? " checked" : ""}>Show unconfirmed</label>` : ""}
-      <footer class="panel-foot">
-        <span>Updated ${fmtDate(data.meta.built.slice(0, 10))} · <a href="#/about">About and data</a></span>
-      </footer>`;
+      <button type="button" class="abroad-link" data-view="abroad">Indian assets abroad<span class="num">${nView("abroad")}</span><span aria-hidden="true">→</span></button>
+      ${foot}`;
     toggle.innerHTML = `Filters<span class="num">${shown.length}</span>`;
     map.setEntities(shown);
   }
@@ -239,6 +256,8 @@ async function main(): Promise<void> {
     const t = ev.target as HTMLElement;
     const viewBtn = t.closest<HTMLElement>("[data-view]");
     if (viewBtn) { setView(viewBtn.dataset.view as View); return; }
+    const item = t.closest<HTMLElement>("[data-open]");
+    if (item) { choose(item.dataset.open!); return; }
     const chip = t.closest<HTMLElement>("[data-stage]");
     if (chip) {
       const s = chip.dataset.stage!;

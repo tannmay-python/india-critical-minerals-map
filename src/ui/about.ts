@@ -2,7 +2,6 @@
 // One page, kept short; the map is the product.
 import type { Dataset } from "../data";
 import { esc, fmtDate } from "../lib/format";
-import { currentTheme } from "../lib/theme";
 
 const LAYERS: { id: string; label: string; what: string }[] = [
   { id: "blocks", label: "Auction blocks", what: "Critical-mineral blocks offered by the Centre and the states, with each tranche's outcome" },
@@ -17,12 +16,7 @@ const LAYERS: { id: string; label: string; what: string }[] = [
 ];
 
 export function renderAbout(el: HTMLElement, data: Dataset): void {
-  const theme = currentTheme();
   const n = (layer: string) => data.entities.filter((e) => e.layer === layer).length;
-  const stages = data.stages
-    .filter((s) => data.entities.some((e) => e.stages.includes(s.id)))
-    .map((s) => `<li><i class="dot" style="background:${s.color[theme]}"></i>${esc(s.id)}</li>`)
-    .join("");
   const layers = LAYERS.map(
     (l) => `<tr><th scope="row">${esc(l.label)}</th><td class="num">${n(l.id)}</td><td>${esc(l.what)}</td></tr>`,
   ).join("");
@@ -37,12 +31,14 @@ export function renderAbout(el: HTMLElement, data: Dataset): void {
 
       <h2>Reading the map</h2>
       <div class="legend">
-        <div><h3>Colour is the stage</h3><ul class="stage-list">${stages}</ul></div>
-        <div><h3>Fill is the status</h3><ul class="key">
+        <div><h3>Colour is the status</h3><ul class="key">
           <li><i class="glyph glyph-active"></i>Operating, licensed or held</li>
           <li><i class="glyph glyph-pipeline"></i>In progress: announced to under construction, or still at auction</li>
           <li><i class="glyph glyph-inactive"></i>Annulled, stalled, closed, lost or withdrawn</li>
-          <li><i class="glyph glyph-approx"></i>Soft halo: location known only to the district or state</li>
+        </ul></div>
+        <div><h3>Shape is the kind</h3><ul class="key">
+          <li><i class="glyph glyph-key"></i>A project or site: a mine, plant, lab or company</li>
+          <li><i class="glyph glyph-key glyph-sq"></i>An auction block: an area offered for exploration or mining</li>
           <li><i class="glyph glyph-faint"></i>Faint: demand sites, and unconfirmed records when shown</li>
           <li><i class="line-key"></i>Abroad: solid line for assets held, dashed for bids and evaluations</li>
         </ul></div>

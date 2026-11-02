@@ -136,7 +136,7 @@ Commit after each layer and after each significant build milestone, with clear m
   - This is a hard requirement for an Indian research institution.
 - **No API keys in the repo.** Use a keyless basemap; see `BUILD_SPEC.md`.
 - **Every displayed fact links to its source**, either in the entity drawer or on the entity page.
-- **Precision is visible.** A district-level location must look different from an exact site.
+- **Precision is recorded** in the data (`location.precision`). The owner decided (2 Nov 2026) not to mark district-level locations differently on the map.
 - **Low-confidence entries are hidden by default**, behind a "show unconfirmed" toggle.
 
 ## 6. Writing style for narrative fields

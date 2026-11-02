@@ -1,7 +1,6 @@
 // Detail panel for one record: what it is, where it stands, the key numbers, and the sources.
-import type { Entity, Stage } from "../lib/types";
+import type { Entity } from "../lib/types";
 import { concessionLabel, esc, fmtDate, fmtInvestment, fmtNum, fmtQuantity, place, trancheLabel } from "../lib/format";
-import { currentTheme } from "../lib/theme";
 
 function row(label: string, value: string): string {
   return value ? `<dt>${esc(label)}</dt><dd>${value}</dd>` : "";
@@ -53,22 +52,13 @@ function milestones(e: Entity): string {
   return items.length ? `<ol class="auction">${items.join("")}</ol>` : "";
 }
 
-const PRECISION_NOTE: Record<string, string> = { district: "district-level location", state: "approximate location" };
-
-export function renderDrawer(el: HTMLElement, e: Entity, stages: Stage[], byId: Map<string, Entity>): void {
-  const theme = currentTheme();
-  const stageDots = e.stages
-    .map((s) => {
-      const st = stages.find((x) => x.id === s);
-      return `<span class="stage"><i style="background:${st ? st.color[theme] : "#888"}"></i>${esc(s)}</span>`;
-    })
-    .join("");
+export function renderDrawer(el: HTMLElement, e: Entity, byId: Map<string, Entity>): void {
+  const stageDots = e.stages.map((s) => `<span class="stage">${esc(s)}</span>`).join("");
 
   const isBlock = e.layer === "blocks";
   const blk = e.block;
   const cap = fmtQuantity(e.capacity?.installed) || (fmtQuantity(e.capacity?.planned) ? `${fmtQuantity(e.capacity?.planned)} (planned)` : "");
   const loc = place(e);
-  const note = PRECISION_NOTE[e.location.precision];
 
   const os = e.overseas;
   const schemes = e.scheme_links.map((s) => esc(s.role === "bidder" ? `${s.name} (bidder)` : s.name)).join("<br>");
@@ -92,7 +82,7 @@ export function renderDrawer(el: HTMLElement, e: Entity, stages: Stage[], byId: 
     row("Area", blk?.area_sq_km ? `<span class="num">${fmtNum(blk.area_sq_km)}</span> sq km${blk.exploration_stage ? ` · ${esc(blk.exploration_stage)} exploration` : ""}` : ""),
     row("Capacity", esc(cap)),
     row("Investment", esc(fmtInvestment(e))),
-    row("Location", `${esc(loc)}${note ? ` <span class="muted">(${note})</span>` : ""}`),
+    row("Location", esc(loc)),
     row("Delay", e.slippage_months && e.slippage_months > 0 ? `<span class="num">${e.slippage_months}</span> months behind the first target` : ""),
     row("Schemes", schemes),
     row("Related", related),
@@ -113,7 +103,7 @@ export function renderDrawer(el: HTMLElement, e: Entity, stages: Stage[], byId: 
       </button>
     </div>
     <h2 id="drawer-title" tabindex="-1">${esc(e.name)}</h2>
-    <p class="status status-${e.status_group}"><strong>${esc(e.status)}</strong><span class="muted">${fmtDate(e.status_as_of)}</span>${e.confidence === "low" ? `<span class="tag">Unconfirmed</span>` : ""}</p>
+    <p class="status status-${e.status_group}"><strong>${esc(e.status)}</strong><span class="muted">as of ${fmtDate(e.status_as_of)}</span>${e.confidence === "low" ? `<span class="tag">Unconfirmed</span>` : ""}</p>
     ${e.status_detail ? `<p class="status-detail">${esc(e.status_detail)}</p>` : ""}
     ${narrative ? `<p class="lede">${esc(narrative)}</p>` : ""}
     ${why ? `<p>${esc(why)}</p>` : ""}
