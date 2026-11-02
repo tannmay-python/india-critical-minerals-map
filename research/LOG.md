@@ -152,3 +152,8 @@ Queries, registries pulled, decisions, inclusion calls and dead ends. Newest ent
 - First-public year range in both panel views (`from`/`to` in the link). Pages no longer pick up map state in their URL, and searching from a page returns to the map.
 - `apply_updates.py` now stamps `last_verified` on the records it updates; the 59 records updated in today's timeline pass were stamped 2 Nov 2026.
 - QA: year links (4) and profile checks (one per layer, drawer link, back link, block fallback, year select) added; all pass.
+
+## App: colour = stage (2026-11-02)
+
+- Owner: the status colouring hid the supply-chain stage ("it needs to be more obvious"). Colour now shows the stage in five bands; status is fill (solid, open ring, faded); shape is kind (circle, square block, diamond demand site). Palette found by search over hue sets and passed the dataviz validator on all pairs against white: colour-blind worst pair dE 8.3, normal vision 17.6, every hue >= 3:1. `src/lib/bands.ts` holds the encoding; the retired per-stage colours were removed from `data/reference/stages.yml`.
+- Panel: stage chips grouped in colour rows (the filter is the legend); status rows show fill in ink; Abroad panel lists the stage colours present; phones show a colour key over the map. About page legend rewritten. QA passes.

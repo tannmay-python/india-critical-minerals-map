@@ -1,7 +1,8 @@
 // The map: official boundary over a stripped basemap, block polygons, and one marker per record.
-// Colour = status (plum: operating or held; marigold: in progress; grey: stopped). Shape = kind
-// (circle: a project or site; square: an auction block). In the India view everything outside
-// India's official outline is masked, so the map reads as India alone.
+// Colour = supply-chain stage (five bands, lib/bands.ts). Fill = status (solid operating, open
+// ring in progress, faded stopped). Shape = kind (circle a project or site, square an auction
+// block, diamond a demand site). In the India view everything outside India's official outline
+// is masked, so the map reads as India alone.
 import * as maplibregl from "maplibre-gl";
 import type { GeoJSONSource, GeoJSONSourceSpecification, Map as MLMap, MapGeoJSONFeature } from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
@@ -9,7 +10,8 @@ import "maplibre-gl/dist/maplibre-gl.css";
 import workerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url";
 import { loadBaseStyle, boundaryLayers } from "./basemap";
 import type { Entity, StatusGroup } from "../lib/types";
-import type { View } from "../data";
+import { bandOf, primaryStage, type View } from "../data";
+import { BANDS, BAND_COLOR, DEMAND_COLOR } from "../lib/bands";
 
 maplibregl.setWorkerUrl(workerUrl);
 
@@ -18,9 +20,8 @@ const ATTRIBUTION =
   "Official boundary of India: DataMeet (CC0), Survey of India depiction; states DataMeet (CC BY 4.0) · " +
   "Natural Earth · © OpenStreetMap contributors · OpenFreeMap · OpenMapTiles";
 
-/** Marker colours by status group; shared with the legend and panel swatches (app.css --st-*). */
-export const STATUS_FILL: Record<StatusGroup, string> = { active: "#620d3c", pipeline: "#f1a222", inactive: "#c4baa6" };
-const STATUS_STROKE: Record<StatusGroup, string> = { active: "#ffffff", pipeline: "#a86a00", inactive: "#ffffff" };
+/** Faded = stopped: how much of a stopped marker shows. */
+const FADED = 0.35;
 const P = { page: "#fffbe2", ink: "#1a0804", label: "#4a2c14", outline: "#620d3c", state: "#d8c585", world: "#d8c585", select: "#1a0804" };
 
 export interface MapView {
@@ -51,21 +52,24 @@ function shortName(name: string): string {
   return i > 12 ? name.slice(0, i) : name;
 }
 
-/** Square marker images for auction blocks, one per status, drawn at 2x for sharpness. */
-function addSquareIcons(map: MLMap): void {
-  const size = 22, pad = 3;
+/** Marker image: a square (auction block) or diamond (demand site) in one colour, filled by status, drawn at 2x. */
+function markerIcon(shape: "square" | "diamond", color: string, g: StatusGroup): ImageData {
+  const size = 22, pad = 4, x = Object.assign(document.createElement("canvas"), { width: size, height: size }).getContext("2d")!;
+  x.beginPath();
+  if (shape === "square") x.rect(pad, pad, size - 2 * pad, size - 2 * pad);
+  else { const m = size / 2, r = m - pad + 1.5; x.moveTo(m, m - r); x.lineTo(m + r, m); x.lineTo(m, m + r); x.lineTo(m - r, m); x.closePath(); }
+  x.globalAlpha = g === "inactive" ? FADED : 1;
+  x.fillStyle = g === "pipeline" ? "#ffffff" : color;
+  x.fill();
+  x.lineWidth = g === "pipeline" ? 4 : 2;
+  x.strokeStyle = g === "pipeline" ? color : "#ffffff";
+  x.stroke();
+  return x.getImageData(0, 0, size, size);
+}
+function addIcons(map: MLMap): void {
   for (const g of ["active", "pipeline", "inactive"] as StatusGroup[]) {
-    const id = `sq-${g}`;
-    if (map.hasImage(id)) continue;
-    const c = document.createElement("canvas");
-    c.width = c.height = size;
-    const x = c.getContext("2d")!;
-    x.fillStyle = STATUS_FILL[g];
-    x.strokeStyle = STATUS_STROKE[g];
-    x.lineWidth = 2;
-    x.fillRect(pad, pad, size - 2 * pad, size - 2 * pad);
-    x.strokeRect(pad, pad, size - 2 * pad, size - 2 * pad);
-    map.addImage(id, x.getImageData(0, 0, size, size), { pixelRatio: 2 });
+    for (const b of BANDS) if (!map.hasImage(`sq-${b.id}-${g}`)) map.addImage(`sq-${b.id}-${g}`, markerIcon("square", b.color, g), { pixelRatio: 2 });
+    if (!map.hasImage(`dm-${g}`)) map.addImage(`dm-${g}`, markerIcon("diamond", DEMAND_COLOR, g), { pixelRatio: 2 });
   }
 }
 
@@ -117,9 +121,9 @@ export function createMap(
           geometry: { type: "Point", coordinates: [e.lon as number, e.lat as number] },
           properties: {
             id: e.id, name: e.name, label: shortName(e.name), status: e.status, group: e.status_group,
-            block: e.layer === "blocks" ? 1 : 0,
+            band: bandOf(e), stage: e.layer === "demand" ? "Cells and devices" : primaryStage(e),
+            shape: e.layer === "blocks" ? "square" : e.layer === "demand" ? "diamond" : "circle",
             rank: e.status_group === "active" ? 2 : e.status_group === "pipeline" ? 1 : 0,
-            muted: e.layer === "demand" || e.confidence === "low" ? 1 : 0,
             where: e.layer === "overseas" ? e.location.country ?? "" : "",
           },
         })),
@@ -134,7 +138,7 @@ export function createMap(
         .map((e) => ({
           type: "Feature",
           geometry: { type: "LineString", coordinates: arc([e.overseas!.india_link.lon, e.overseas!.india_link.lat], [e.lon as number, e.lat as number]) },
-          properties: { id: e.id, group: e.status_group },
+          properties: { id: e.id, group: e.status_group, band: bandOf(e) },
         })),
     };
   }
@@ -153,8 +157,10 @@ export function createMap(
   function idFilter(): maplibregl.FilterSpecification {
     return ["in", ["get", "id"], ["literal", visible.map((e) => e.id)]];
   }
-  const byGroup = (key: string, colours: Record<StatusGroup, string>): maplibregl.ExpressionSpecification =>
-    ["match", ["get", key], "active", colours.active, "pipeline", colours.pipeline, colours.inactive];
+  const bandColor = ["match", ["get", "band"], ...BANDS.flatMap((b) => [b.id, b.color]), DEMAND_COLOR] as unknown as maplibregl.ExpressionSpecification;
+  /** A paint value per status group (operating, in progress, stopped). */
+  const byGroup = (active: unknown, pipeline: unknown, inactive: unknown) =>
+    ["match", ["get", "group"], "active", active, "pipeline", pipeline, inactive] as unknown as maplibregl.ExpressionSpecification;
 
   function applyViewLayers(): void {
     if (map.getLayer("outside-india")) map.setLayoutProperty("outside-india", "visibility", view === "india" ? "visible" : "none");
@@ -169,7 +175,7 @@ export function createMap(
 
   async function addDataLayers(): Promise<void> {
     indiaGeom ??= (await india).features[0].geometry;
-    addSquareIcons(map);
+    addIcons(map);
     // Basemap labels stay above the mask so names on the coast are not cut; outside-India names are filtered instead.
     baseLabels.clear();
     for (const l of map.getStyle().layers) if (l.type === "symbol") baseLabels.set(l.id, (l as { filter?: maplibregl.FilterSpecification }).filter);
@@ -184,13 +190,19 @@ export function createMap(
     if (map.getLayer("world-outline")) map.moveLayer("world-outline", "outside-india");
 
     map.addSource("blocks", { type: "geojson", data: "data/blocks-polygons.geojson" });
+    // block areas: exploration colour; solid tint once licensed, light while at auction, faint once annulled
+    const blockTint = (z: number): maplibregl.ExpressionSpecification =>
+      ["match", ["get", "status_group"], "active", 0.3 * z, "pipeline", 0.14 * z, 0.05 * z];
     map.addLayer({
       id: "blocks-fill", type: "fill", source: "blocks", minzoom: 6, filter: idFilter(),
-      paint: { "fill-color": byGroup("status_group", STATUS_FILL), "fill-opacity": ["interpolate", ["linear"], ["zoom"], 6, 0.1, 10, 0.24] },
+      paint: { "fill-color": BAND_COLOR.upstream, "fill-opacity": ["interpolate", ["linear"], ["zoom"], 6, blockTint(0.5), 10, blockTint(1)] },
     });
     map.addLayer({
       id: "blocks-line", type: "line", source: "blocks", minzoom: 6, filter: idFilter(),
-      paint: { "line-color": byGroup("status_group", STATUS_FILL), "line-width": ["interpolate", ["linear"], ["zoom"], 6, 0.6, 11, 1.6] },
+      paint: {
+        "line-color": BAND_COLOR.upstream, "line-width": ["interpolate", ["linear"], ["zoom"], 6, 0.6, 11, 1.6],
+        "line-opacity": ["match", ["get", "status_group"], "inactive", FADED, 1],
+      },
     });
 
     map.addSource("arcs", { type: "geojson", data: arcData() });
@@ -200,9 +212,9 @@ export function createMap(
         id, type: "line", source: "arcs",
         filter: held ? ["==", ["get", "group"], "active"] : ["!=", ["get", "group"], "active"],
         paint: {
-          "line-color": byGroup("group", { ...STATUS_FILL, pipeline: "#d9860a" }),
+          "line-color": bandColor,
           "line-width": 1.2,
-          "line-opacity": held ? 0.75 : 0.6,
+          "line-opacity": held ? 0.8 : ["match", ["get", "group"], "inactive", FADED, 0.65],
           ...(held ? {} : { "line-dasharray": [2, 2] }),
         },
       });
@@ -215,31 +227,35 @@ export function createMap(
       filter: ["==", ["get", "id"], selected ?? ""],
       paint: { "circle-radius": size(9), "circle-color": "transparent", "circle-stroke-color": P.select, "circle-stroke-width": 2 },
     });
+    // circles: colour = stage band; solid when operating, an open ring while in progress, faded once stopped
     map.addLayer({
       id: "points", type: "circle", source: "points",
-      filter: ["==", ["get", "block"], 0],
+      filter: ["==", ["get", "shape"], "circle"],
       layout: { "circle-sort-key": ["get", "rank"] },
       paint: {
         "circle-radius": size(5),
-        "circle-color": byGroup("group", STATUS_FILL),
-        "circle-stroke-color": byGroup("group", STATUS_STROKE),
-        "circle-stroke-width": 1.2,
-        // demand sites and unconfirmed records are context: drawn fainter
-        "circle-opacity": ["case", ["==", ["get", "muted"], 1], 0.5, 1],
-        "circle-stroke-opacity": ["case", ["==", ["get", "muted"], 1], 0.6, 1],
+        "circle-color": byGroup(bandColor, "#ffffff", bandColor),
+        "circle-stroke-color": byGroup("#ffffff", bandColor, "#ffffff"),
+        "circle-stroke-width": byGroup(1, 2.2, 1),
+        "circle-opacity": byGroup(1, 1, FADED),
+        "circle-stroke-opacity": byGroup(1, 1, FADED),
       },
     });
-    map.addLayer({
-      id: "blocks-pts", type: "symbol", source: "points",
-      filter: ["==", ["get", "block"], 1],
-      layout: {
-        "icon-image": ["concat", "sq-", ["get", "group"]],
-        "icon-size": ["interpolate", ["linear"], ["zoom"], 3, 0.8, 6, 1.1, 10, 1.5],
-        "icon-allow-overlap": true, "icon-ignore-placement": true,
-        "symbol-sort-key": ["get", "rank"],
-      },
-      paint: { "icon-opacity": ["case", ["==", ["get", "muted"], 1], 0.5, 1] },
-    });
+    for (const [id, shape, image] of [
+      ["blocks-pts", "square", ["concat", "sq-", ["get", "band"], "-", ["get", "group"]]],
+      ["demand-pts", "diamond", ["concat", "dm-", ["get", "group"]]],
+    ] as const) {
+      map.addLayer({
+        id, type: "symbol", source: "points",
+        filter: ["==", ["get", "shape"], shape],
+        layout: {
+          "icon-image": image as unknown as maplibregl.ExpressionSpecification,
+          "icon-size": ["interpolate", ["linear"], ["zoom"], 3, 0.8, 6, 1.1, 10, 1.5],
+          "icon-allow-overlap": true, "icon-ignore-placement": true,
+          "symbol-sort-key": ["get", "rank"],
+        },
+      });
+    }
     // Names appear once there is room for them; overlapping labels are dropped, never the markers.
     map.addLayer({
       id: "labels", type: "symbol", source: "points", minzoom: 6.5,
@@ -269,7 +285,7 @@ export function createMap(
   }
 
   const escHtml = (v: unknown) => String(v ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
-  const MARKERS = ["points", "blocks-pts"];
+  const MARKERS = ["points", "blocks-pts", "demand-pts"];
   /** Distinct markers under the cursor (several records can share a district centroid). */
   function pointsAt(pt: maplibregl.Point): MapGeoJSONFeature[] {
     const box: [maplibregl.PointLike, maplibregl.PointLike] = [[pt.x - 4, pt.y - 4], [pt.x + 4, pt.y + 4]];
@@ -287,7 +303,7 @@ export function createMap(
     if (hits.length > 1) {
       const items = hits
         .sort((a, b) => Number(b.properties.rank) - Number(a.properties.rank))
-        .map((f) => `<li><button type="button" data-id="${escHtml(f.properties.id)}">${escHtml(f.properties.name)}<span>${escHtml(f.properties.status)}</span></button></li>`)
+        .map((f) => `<li><button type="button" data-id="${escHtml(f.properties.id)}">${escHtml(f.properties.name)}<span>${escHtml(`${f.properties.stage} · ${f.properties.status}`)}</span></button></li>`)
         .join("");
       chooser.setLngLat(ev.lngLat).setHTML(`<p>${hits.length} sites here</p><ul>${items}</ul>`).addTo(map);
       chooser.getElement().addEventListener("click", (e) => {
@@ -306,7 +322,7 @@ export function createMap(
       const hits = pointsAt(ev.point);
       const f = hits[0];
       if (!f) return;
-      const bits = [f.properties.status, f.properties.where].filter(Boolean).join(" · ");
+      const bits = [f.properties.stage, f.properties.status, f.properties.where].filter(Boolean).join(" · ");
       const more = hits.length > 1 ? `<span>+${hits.length - 1} more here</span>` : "";
       hover.setLngLat(ev.lngLat).setHTML(`<strong>${escHtml(f.properties.name)}</strong><span>${escHtml(bits)}</span>${more}`).addTo(map);
     });

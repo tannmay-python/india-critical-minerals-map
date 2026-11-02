@@ -5,6 +5,7 @@
 import type { Entity } from "../lib/types";
 import { esc, fmtDate, fmtInvestment, fmtNum, fmtQuantity, place } from "../lib/format";
 import { hasProfile, mineralChips, months, seeAlsoLabel, sourceList, TIER } from "./parts";
+import { colorOf } from "../data";
 
 const LAYER_LABEL: Record<string, string> = {
   mines: "Mine", processing: "Processing and refining", materials: "Battery materials", magnets: "Rare earths and magnets",
@@ -140,7 +141,7 @@ export function renderProfile(el: HTMLElement, e: Entity, byId: Map<string, Enti
   el.innerHTML = `
     <article class="page profile">
       <p><a class="back" href="${back}">← Back to the map</a></p>
-      <span class="pill">${esc(LAYER_LABEL[e.layer] ?? e.layer)}</span>
+      <span class="pill"><i class="band-dot" style="--c:${colorOf(e)}"></i>${esc(LAYER_LABEL[e.layer] ?? e.layer)}</span>
       <h1 tabindex="-1">${esc(e.name)}</h1>
       ${e.operator ? `<p class="profile-sub">${esc(e.operator)}</p>` : ""}
       <p class="status status-${e.status_group}"><strong>${esc(e.status)}</strong><span class="muted">as of ${fmtDate(e.status_as_of)}</span>${e.confidence === "low" ? `<span class="tag">Unconfirmed</span>` : ""}</p>

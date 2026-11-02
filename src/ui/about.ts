@@ -2,6 +2,15 @@
 // One page, kept short; the map is the product.
 import type { Dataset } from "../data";
 import { esc, fmtDate } from "../lib/format";
+import { BANDS, type Band } from "../lib/bands";
+
+const BAND_NOTE: Record<Band, string> = {
+  upstream: "auction blocks and mines",
+  process: "smelters, refineries, processing parks",
+  make: "battery materials, rare-earth and magnet plants",
+  recycle: "battery and scrap recyclers",
+  research: "Centres of Excellence and labs",
+};
 
 const LAYERS: { id: string; label: string; what: string }[] = [
   { id: "blocks", label: "Auction blocks", what: "Critical-mineral blocks offered by the Centre and the states, with each tranche's outcome" },
@@ -31,16 +40,19 @@ export function renderAbout(el: HTMLElement, data: Dataset): void {
 
       <h2>Reading the map</h2>
       <div class="legend">
-        <div><h3>Colour is the status</h3><ul class="key">
-          <li><i class="glyph glyph-active"></i>Operating, licensed or held</li>
-          <li><i class="glyph glyph-pipeline"></i>In progress: announced to under construction, or still at auction</li>
-          <li><i class="glyph glyph-inactive"></i>Annulled, stalled, closed, lost or withdrawn</li>
+        <div><h3>Colour is the stage</h3><ul class="key">
+          ${BANDS.map((b) => `<li><i class="glyph" style="--c:${b.color};background:var(--c)"></i><span>${esc(b.label)}<span class="muted"> · ${esc(BAND_NOTE[b.id])}</span></span></li>`).join("")}
         </ul></div>
-        <div><h3>Shape is the kind</h3><ul class="key">
-          <li><i class="glyph glyph-key"></i>A project or site: a mine, plant, lab or company</li>
-          <li><i class="glyph glyph-key glyph-sq"></i>An auction block: an area offered for exploration or mining</li>
-          <li><i class="glyph glyph-faint"></i>Faint: demand sites, and unconfirmed records when shown</li>
-          <li><i class="line-key"></i>Abroad: solid line for assets held, dashed for bids and evaluations</li>
+        <div><h3>Fill is the status</h3><ul class="key">
+          <li><i class="glyph glyph-active"></i><span>Solid: operating, licensed or held</span></li>
+          <li><i class="glyph glyph-pipeline"></i><span>Open: in progress, from announcement to construction, or still at auction</span></li>
+          <li><i class="glyph glyph-inactive"></i><span>Faded: annulled, stalled, closed, lost or withdrawn</span></li>
+        </ul>
+        <h3 class="sub">Shape is the kind</h3><ul class="key">
+          <li><i class="glyph glyph-key"></i><span>Circle: a project or site</span></li>
+          <li><i class="glyph glyph-key glyph-sq"></i><span>Square: an auction block, an area offered for exploration or mining</span></li>
+          <li><i class="glyph glyph-key glyph-dm"></i><span>Diamond: a cell plant or fab using these minerals (off by default)</span></li>
+          <li><i class="line-key"></i><span>Abroad: solid line for assets held, dashed for bids and evaluations</span></li>
         </ul></div>
       </div>
 

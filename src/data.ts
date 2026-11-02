@@ -1,5 +1,6 @@
 // Loads the JSON that scripts/build-data.py writes to public/data and derives what the UI needs.
 import type { Entity, Mineral, Stage, StatusGroup } from "./lib/types";
+import { BAND_COLOR, DEMAND_COLOR, bandOfStage, type Band } from "./lib/bands";
 
 export interface Meta { built: string; entities: number; open_questions?: number }
 
@@ -37,6 +38,12 @@ export function primaryStage(e: Entity): string {
   const s = LAYER_STAGE[e.layer];
   return s && e.stages.includes(s) ? s : e.stages[0] ?? "Exploration";
 }
+
+/** The colour band a marker takes: its primary stage's band; demand sites are context, drawn apart. */
+export function bandOf(e: Entity): Band | "demand" {
+  return e.layer === "demand" ? "demand" : bandOfStage(primaryStage(e));
+}
+export const colorOf = (e: Entity): string => { const b = bandOf(e); return b === "demand" ? DEMAND_COLOR : BAND_COLOR[b]; };
 
 export type View = "india" | "abroad";
 

@@ -1,7 +1,7 @@
 /* Design tokens, light only. Takshashila house style shared with the India Critical Minerals
    Dashboard, Inside the Motor and the Tech Laws atlas: Llama plum #620d3c, Marigold #f1a222,
    cream paper, white cards with plum-tinted shadows; Hanken Grotesk for text, Newsreader for
-   headings, Space Mono for labels. Stage colours live in data/reference/stages.yml. */
+   headings, Space Mono for labels. Map marker colours (one per stage band) live in src/lib/bands.ts. */
 :root {
   color-scheme: light;
   --maroon: #620d3c;

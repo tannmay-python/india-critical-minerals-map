@@ -54,4 +54,4 @@ export interface Mineral {
   lists: { goi_critical_2023: boolean; mmdr_part_d: boolean };
 }
 
-export interface Stage { id: string; order: number; color: { light: string; dark: string }; glyph: "circle" | "square" | "diamond"; description: string }
+export interface Stage { id: string; order: number; description: string }

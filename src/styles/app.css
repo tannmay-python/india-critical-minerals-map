@@ -94,7 +94,10 @@ button { font: inherit; color: inherit; }
 .page .note { font-size: 13px; color: var(--muted); }
 .legend { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; padding: 18px 20px; background: var(--surface); border: 1px solid var(--rule); border-radius: var(--radius-card); box-shadow: var(--shadow); }
 .legend ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 7px; font-size: 13px; color: var(--ink-2); }
-.legend li { display: flex; align-items: center; gap: 9px; }
+.legend li { display: grid; grid-template-columns: auto 1fr; align-items: start; gap: 9px; }
+.legend li > .glyph, .legend li > .line-key { margin-top: 4px; }
+.legend li > .line-key { margin-top: 8px; }
+.legend h3.sub { margin-top: 16px; }
 .glyph-faint { background: var(--ink-2); opacity: 0.45; }
 .line-key {
   width: 46px; height: 2px; flex: none;
@@ -186,14 +189,24 @@ button { font: inherit; color: inherit; }
 .n { color: var(--muted); font-size: 11.5px; margin-left: auto; padding-left: 4px; }
 .check { display: flex; align-items: center; gap: 8px; padding: 3px 0; cursor: pointer; font-size: 13px; }
 .check input { margin: 0; accent-color: var(--maroon); }
-/* swatches match the map markers (mapview.ts STATUS_FILL) */
-.glyph { width: 10px; height: 10px; border-radius: 50%; flex: none; }
-.glyph-active { background: #620d3c; }
-.glyph-pipeline { background: #f1a222; box-shadow: inset 0 0 0 1px #a86a00; }
-.glyph-inactive { background: #c4baa6; }
+/* Swatches match the map markers (lib/bands.ts): colour = stage band (--c), fill = status, shape = kind.
+   Without --c a glyph is ink, so the status rows show fill alone. */
+.glyph { --c: var(--ink-2); width: 10px; height: 10px; border-radius: 50%; flex: none; }
+.glyph-active { background: var(--c); }
+.glyph-pipeline { background: #fff; box-shadow: inset 0 0 0 2px var(--c); }
+.glyph-inactive { background: var(--c); opacity: 0.35; }
 .glyph-key { background: var(--ink-2); }
 .glyph-sq { border-radius: 2px; }
-.shape-key { display: flex; gap: 14px; margin: 6px 0 0; font-size: 12px; color: var(--muted); }
+.glyph-dm { border-radius: 1px; transform: rotate(45deg) scale(0.82); }
+.legend-note { margin-left: 8px; color: var(--muted); letter-spacing: 0.04em; text-transform: none; font-family: var(--font-sans); font-size: 11px; }
+.bands { display: grid; gap: 6px; }
+.band-row { display: grid; grid-template-columns: 10px 1fr; gap: 8px; align-items: start; }
+.band-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--c); flex: none; box-shadow: 0 0 0 1.5px #fff, 0 0 0 2.5px var(--c); }
+.band-row > .band-dot { margin-top: 8px; }
+.band-key { margin: 0; padding: 0; list-style: none; display: grid; gap: 5px; font-size: 13px; color: var(--ink); }
+.band-key li { display: flex; align-items: center; gap: 9px; }
+.map-key { display: none; }
+.shape-key { display: flex; flex-wrap: wrap; gap: 6px 14px; margin: 6px 0 0; font-size: 12px; color: var(--muted); }
 .shape-key span { display: inline-flex; align-items: center; gap: 6px; }
 .shape-key .glyph { width: 8px; height: 8px; }
 .abroad-link {
@@ -233,6 +246,7 @@ button { font: inherit; color: inherit; }
   background: var(--surface-2); font: 400 9.5px/1.2 var(--font-mono); letter-spacing: 0.04em; text-transform: uppercase; color: var(--ink-2);
 }
 .chain li .num { font: 600 16px/1.1 var(--font-display); color: var(--maroon-ink); letter-spacing: 0; text-transform: none; }
+.chain li:not(.gap) { box-shadow: inset 0 3px 0 var(--c, transparent); }
 .chain li.gap { background: none; border: 1px dashed var(--rule-strong); color: var(--muted); }
 .chain li.gap .num { color: var(--muted); }
 .chain a { font-size: 12.5px; }
@@ -255,7 +269,9 @@ button { font: inherit; color: inherit; }
 }
 .drawer[hidden] { display: none; }
 .drawer-head { display: flex; align-items: flex-start; gap: 8px; }
-.drawer .stages { display: flex; flex-wrap: wrap; gap: 4px 12px; padding-top: 6px; }
+.drawer .stages { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 12px; padding-top: 6px; }
+.drawer .stages .band-dot, .pill .band-dot { width: 8px; height: 8px; }
+.pill .band-dot { display: inline-block; margin-right: 8px; vertical-align: 0; }
 .drawer .stage { font: 400 10px/1.2 var(--font-mono); letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-2); }
 .drawer h2 { margin: 10px 0 6px; font: 600 23px/1.25 var(--font-display); letter-spacing: -0.005em; color: var(--ink); outline: none; }
 .drawer h3 { margin: 22px 0 8px; font: 400 10px/1.2 var(--font-mono); letter-spacing: 0.12em; text-transform: uppercase; color: var(--maroon-ink); }
@@ -263,8 +279,8 @@ button { font: inherit; color: inherit; }
 .drawer .lede { color: var(--ink); }
 .status { display: flex; align-items: baseline; gap: 10px; }
 .status strong { font-weight: 600; }
-.status-active strong { color: var(--maroon-ink); }
-.status-pipeline strong { color: var(--marigold-ink); }
+/* status reads as words, never colour: colour on this site means the stage */
+.status strong { color: var(--ink); }
 .status-inactive strong { color: var(--muted); }
 .status-detail { font-size: 13px; }
 .muted { color: var(--muted); }
@@ -349,6 +365,16 @@ a.chip:hover { background: var(--maroon-wash); color: var(--maroon-ink); }
   .header-tools { flex: 1; min-width: 0; }
   .search-results { left: -60px; right: -40px; width: auto; }
   .facts { grid-template-columns: 96px 1fr; }
+  .map-key {
+    display: block; position: absolute; top: 10px; left: 10px; right: 56px; z-index: 3; pointer-events: none;
+  }
+  .map-key ul {
+    display: inline-flex; flex-wrap: wrap; gap: 4px 12px; margin: 0; padding: 6px 10px; list-style: none;
+    background: rgba(255, 255, 255, 0.92); border: 1px solid var(--rule); border-radius: 8px; box-shadow: var(--shadow);
+    font-size: 11.5px; color: var(--ink);
+  }
+  .map-key li { display: inline-flex; align-items: center; gap: 6px; }
+  .map-key .band-dot { width: 9px; height: 9px; }
   .facts-table th { width: 112px; padding-right: 8px; }
   .facts-table th, .facts-table td { padding-left: 10px; }
   .timeline li { grid-template-columns: 84px 1fr; gap: 10px; }

@@ -1,6 +1,7 @@
 import "./styles/app.css";
 import type { Entity, StatusGroup } from "./lib/types";
-import { loadData, mineralKeys, GROUP_LABEL, GROUP_ORDER, type Dataset, type View } from "./data";
+import { loadData, mineralKeys, bandOf, colorOf, GROUP_LABEL, GROUP_ORDER, type Dataset, type View } from "./data";
+import { BANDS, bandOfStage } from "./lib/bands";
 import { createMap, type MapView } from "./map/mapview";
 import { renderDrawer } from "./ui/drawer";
 import { mountSearch } from "./ui/search";
@@ -37,6 +38,7 @@ async function main(): Promise<void> {
   app.innerHTML = `
     <section class="view view-map">
       <div id="map" class="map-canvas" aria-label="Map of projects"></div>
+      <div id="map-key" class="map-key" aria-hidden="true"></div>
       <aside id="panel" class="panel" aria-label="Filters"></aside>
       <button id="panel-toggle" class="panel-toggle" type="button" aria-controls="panel" aria-expanded="false"></button>
       <aside id="drawer" class="drawer" aria-labelledby="drawer-title" hidden></aside>
@@ -127,6 +129,7 @@ async function main(): Promise<void> {
   // ---- map + drawer
   const panel = $("#panel");
   const drawer = $("#drawer");
+  const mapKey = $("#map-key");
   const toggle = $<HTMLButtonElement>("#panel-toggle");
   const mobile = window.matchMedia("(max-width: 760px)");
   const padding = () => ({
@@ -180,13 +183,16 @@ async function main(): Promise<void> {
     const nView = (v: View) => data.entities.filter((e) => viewOf(e) === v && confirmed(e) && e.layer !== "demand").length;
 
     const stagesPresent = data.stages.filter((s) => s.id !== "Cells & Devices" && base.some((e) => e.stages.includes(s.id)));
-    const stageChips = stagesPresent
-      .map((s) => {
-        const n = count("stages", (e) => e.layer !== "demand" && e.stages.includes(s.id));
-        const on = f.stages.has(s.id);
-        return `<button type="button" class="chip-btn${on ? " on" : ""}" data-stage="${esc(s.id)}" aria-pressed="${on}">${esc(s.id)}<span class="n num">${n}</span></button>`;
-      })
-      .join("");
+    const chip = (s: (typeof stagesPresent)[number]) => {
+      const n = count("stages", (e) => e.layer !== "demand" && e.stages.includes(s.id));
+      const on = f.stages.has(s.id);
+      return `<button type="button" class="chip-btn${on ? " on" : ""}" data-stage="${esc(s.id)}" aria-pressed="${on}">${esc(s.id)}<span class="n num">${n}</span></button>`;
+    };
+    // The stage filter is also the colour legend: one row per colour band, its stages beside the swatch.
+    const stageChips = BANDS.map((b) => {
+      const chips = stagesPresent.filter((s) => bandOfStage(s.id) === b.id).map(chip).join("");
+      return chips ? `<div class="band-row" style="--c:${b.color}" title="${esc(b.label)}"><i class="band-dot"></i><div class="chips">${chips}</div></div>` : "";
+    }).join("");
     const groupRows = GROUP_ORDER.map((g) => {
       const n = count("groups", (e) => e.status_group === g);
       const on = f.groups.has(g);
@@ -220,7 +226,7 @@ async function main(): Promise<void> {
       const rareEarth = f.mineral === "family:REE" || family.get(f.mineral) === "REE" || f.mineral === "Rare earths (unspecified)";
       const cells = CHAIN_STAGES.map((st) => [st, touching.filter((e) => e.stages.includes(st)).length] as const)
         .filter(([st, n]) => st !== "Magnets" || n > 0 || rareEarth) // a magnet "gap" only means something for rare earths
-        .map(([st, n]) => `<li class="${n ? "" : "gap"}"><span class="num">${n || "–"}</span>${esc(CHAIN_LABEL[st] ?? st)}</li>`)
+        .map(([st, n]) => `<li class="${n ? "" : "gap"}" style="--c:${BANDS.find((b) => b.id === bandOfStage(st))!.color}"><span class="num">${n || "–"}</span>${esc(CHAIN_LABEL[st] ?? st)}</li>`)
         .join("");
       const dash = data.minerals.find((m) => m.name === f.mineral)?.dashboard_url;
       chain = `<div class="chain"><ol>${cells}</ol>${dash ? `<a href="${esc(dash)}" target="_blank" rel="noopener">${esc(f.mineral)} on the dashboard ↗</a>` : ""}</div>`;
@@ -238,6 +244,13 @@ async function main(): Promise<void> {
         </div>
         <p class="hint">Year announced, first auctioned or opened</p></fieldset>`;
 
+    // Colour key for phones, where the panel is a closed sheet: the bands on screen, short names.
+    const bandsShown = new Set(shown.map(bandOf));
+    const keyItems = BANDS.filter((b) => bandsShown.has(b.id)).map((b) => `<li><i class="band-dot" style="--c:${b.color}"></i>${esc(b.short)}</li>`);
+    if (bandsShown.has("demand")) keyItems.push(`<li><i class="glyph glyph-key glyph-dm"></i>Demand</li>`);
+    mapKey.innerHTML = keyItems.length ? `<ul>${keyItems.join("")}</ul>` : "";
+    const bandKey = `<ul class="band-key">${BANDS.filter((b) => bandsShown.has(b.id)).map((b) => `<li><i class="band-dot" style="--c:${b.color}"></i>${esc(b.label)}</li>`).join("")}</ul>`;
+
     const foot = `<footer class="panel-foot"><span>Updated ${fmtDate(data.meta.built.slice(0, 10))} · <a href="#/about">About and data</a></span></footer>`;
     if (abroad) {
       // Abroad: the assets themselves, grouped by host country, beside the world locator map.
@@ -247,12 +260,13 @@ async function main(): Promise<void> {
       const groups = [...byCountry].sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0]))
         .map(([country, list]) => `<section class="abroad-group"><h3 class="eyebrow">${esc(country)}</h3><ul>${list
           .sort((a, b) => rank(a) - rank(b) || a.name.localeCompare(b.name))
-          .map((e) => `<li><button type="button" data-open="${esc(e.id)}"${e.id === selected ? ' aria-current="true"' : ""}><i class="glyph glyph-${e.status_group}"></i><span>${esc(e.name)}<small>${esc(e.status)}${e.overseas?.indian_entities?.length ? ` · ${esc(e.overseas.indian_entities[0].replace(/ \(.*\)$/, ""))}` : ""}</small></span></button></li>`)
+          .map((e) => `<li><button type="button" data-open="${esc(e.id)}"${e.id === selected ? ' aria-current="true"' : ""}><i class="glyph glyph-${e.status_group}" style="--c:${colorOf(e)}"></i><span>${esc(e.name)}<small>${esc(e.status)}${e.overseas?.indian_entities?.length ? ` · ${esc(e.overseas.indian_entities[0].replace(/ \(.*\)$/, ""))}` : ""}</small></span></button></li>`)
           .join("")}</ul></section>`).join("");
       panel.innerHTML = `
         <button type="button" class="back-link" data-view="india">← India</button>
         <div class="panel-head"><p class="count"><strong class="num">${shown.length}</strong>${filtered ? ` of ${base.length}` : ""} assets abroad</p>
           ${filtered ? `<button type="button" class="link-btn" data-reset>Reset</button>` : ""}</div>
+        <fieldset><legend class="eyebrow">Stage</legend>${bandKey}</fieldset>
         <fieldset><legend class="eyebrow">Status</legend>${groupRows}</fieldset>
         ${yearRow}
         <div class="abroad-list">${groups || `<p class="muted">Nothing matches these filters.</p>`}</div>
@@ -267,9 +281,9 @@ async function main(): Promise<void> {
         <p class="count"><strong class="num">${shown.length}</strong>${filtered ? ` of ${base.length}` : ""} sites</p>
         ${filtered ? `<button type="button" class="link-btn" data-reset>Reset</button>` : ""}
       </div>
-      <fieldset><legend class="eyebrow">Stage</legend><div class="chips">${stageChips}</div></fieldset>
-      <fieldset><legend class="eyebrow">Status</legend>${groupRows}
-        <p class="shape-key"><span><i class="glyph glyph-key"></i>Project or site</span><span><i class="glyph glyph-key glyph-sq"></i>Auction block</span></p></fieldset>
+      <fieldset><legend class="eyebrow">Stage<span class="legend-note">colour on the map</span></legend><div class="bands">${stageChips}</div></fieldset>
+      <fieldset><legend class="eyebrow">Status<span class="legend-note">fill</span></legend>${groupRows}
+        <p class="shape-key"><span><i class="glyph glyph-key"></i>Project or site</span><span><i class="glyph glyph-key glyph-sq"></i>Auction block</span>${f.demand ? `<span><i class="glyph glyph-key glyph-dm"></i>Cell plant or fab</span>` : ""}</p></fieldset>
       <fieldset class="selects">
         <label><span class="eyebrow">Mineral</span><select data-select="mineral">${mineralOpts}</select></label>
         ${chain}

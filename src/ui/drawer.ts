@@ -2,6 +2,7 @@
 import type { Entity } from "../lib/types";
 import { concessionLabel, esc, fmtDate, fmtInvestment, fmtNum, fmtQuantity, place, trancheLabel } from "../lib/format";
 import { hasProfile, mineralChips, promiseText, seeAlsoLabel, sourceList } from "./parts";
+import { colorOf } from "../data";
 
 function row(label: string, value: string): string {
   return value ? `<dt>${esc(label)}</dt><dd>${value}</dd>` : "";
@@ -73,7 +74,7 @@ export function renderDrawer(el: HTMLElement, e: Entity, byId: Map<string, Entit
 
   el.innerHTML = `
     <div class="drawer-head">
-      <div class="stages">${stageDots}</div>
+      <div class="stages"><i class="band-dot" style="--c:${colorOf(e)}"></i>${stageDots}</div>
       <button class="icon-btn drawer-copy" type="button" aria-label="Copy link to this record" title="Copy link">
         <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6.5 9.5l3-3M7 4.5l1-1a2.5 2.5 0 0 1 3.5 3.5l-1 1M9 11.5l-1 1A2.5 2.5 0 0 1 4.5 9l1-1" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
       </button>
