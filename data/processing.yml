@@ -137,16 +137,19 @@
   schemes: []
   scheme_status: {}
   dates:
-    first_public: 2025-01
+    first_public: '1978'
     announced: null
     mou: null
     approved: null
     construction_start: null
     original_expected_completion: null
     revised_expected_completion: null
-    commissioned: null
+    commissioned: '1978'
     closed: '2002'
-  milestones: []
+  milestones:
+  - date: '1978'
+    event: Commissioned
+    source_id: hzl-legacy
   narrative:
     significance: null
     what_it_does: A Hindustan Zinc smelter in Visakhapatnam, idle since 2002.
@@ -174,6 +177,18 @@
     - location
     - dates.first_public
     - operator
+  - id: hzl-legacy
+    url: "https://www.hzlindia.com/about-us/hindustan-zinc-legacy"
+    title: "Hindustan Zinc legacy: a timeline of milestones"
+    publisher: Hindustan Zinc Ltd
+    tier: T2
+    date: '2026-11-02'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.commissioned
+    - milestones
 - aliases: []
   layer: processing
   stages:
@@ -318,7 +333,10 @@
     revised_expected_completion: null
     commissioned: null
     closed: null
-  milestones: []
+  milestones:
+  - date: '2026-04-30'
+    event: "Board approves entry into ingot and wafer making: 10 GW in two 5 GW phases, about Rs 6,500 crore"
+    source_id: solarquarter-tprel-2026
   narrative:
     significance: null
     what_it_does: Plans a 10 GW ingot and wafer plant in Nellore district.
@@ -347,6 +365,16 @@
     - dates.announced
     - dates.first_public
     - operator
+  - id: solarquarter-tprel-2026
+    url: "https://solarquarter.com/2026/05/04/tata-power-renewable-energy-limited-enters-pv-ingot-and-wafer-manufacturing-with-%e2%82%b96500-crore-investment/"
+    title: Tata Power Renewable Energy Limited enters PV ingot and wafer manufacturing with Rs 6,500 crore investment
+    publisher: SolarQuarter
+    tier: T3
+    date: '2026-05-04'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - milestones
 - aliases: []
   layer: processing
   stages:
@@ -773,16 +801,22 @@
   schemes: []
   scheme_status: {}
   dates:
-    first_public: 2025-01
+    first_public: '1998'
     announced: null
     mou: null
     approved: null
     construction_start: null
     original_expected_completion: null
     revised_expected_completion: null
-    commissioned: null
+    commissioned: '1998'
     closed: null
-  milestones: []
+  milestones:
+  - date: '1998'
+    event: Commissioned as Birla Copper (Indo Gulf Corporation)
+    source_id: hindalco-dahej-page
+  - date: '2002'
+    event: Amalgamated with Hindalco
+    source_id: hindalco-dahej-page
   narrative:
     significance: null
     what_it_does: Smelts imported copper concentrate into cathode and rod, and recovers tellurium from refinery
@@ -814,6 +848,18 @@
     - feedstock
     - operator
     - dates.first_public
+  - id: hindalco-dahej-page
+    url: "https://www.hindalco.com/about-us/manufacturing/dahej"
+    title: Dahej (Birla Copper)
+    publisher: Hindalco Industries Ltd
+    tier: T2
+    date: '2026-11-02'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.commissioned
+    - milestones
 - aliases:
   - Adani Kutch Copper
   layer: processing
@@ -870,9 +916,12 @@
     construction_start: null
     original_expected_completion: null
     revised_expected_completion: null
-    commissioned: '2024'
+    commissioned: '2024-03-28'
     closed: null
-  milestones: []
+  milestones:
+  - date: '2024-03-28'
+    event: "First unit of the Mundra copper refinery commissioned (phase 1: 0.5 Mtpa, about $1.2 billion)"
+    source_id: adani-kutch-copper-2024
   narrative:
     significance: null
     what_it_does: Smelts imported concentrate into copper cathode at a 500,000-tonne plant, with a second phase
@@ -916,6 +965,18 @@
     - dates.commissioned
     - dates.first_public
     - capacity.planned
+  - id: adani-kutch-copper-2024
+    url: "https://www.bseindia.com/xml-data/corpfiling/AttachHis/8c5e96e6-8c0d-4225-9fc4-6496b7e116f7.pdf"
+    title: "Adani Enterprises media release: Kutch Copper commissions first unit of Mundra copper refinery (exchange\
+      \ filing)"
+    publisher: Adani Enterprises Ltd
+    tier: T2
+    date: '2024-03-28'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.commissioned
+    - milestones
 - aliases: []
   layer: processing
   stages:
@@ -942,9 +1003,10 @@
     lon: 71.57571
     precision: state
     geometry: null
-  status: Announced
-  status_as_of: '2020-05-07'
-  status_detail: Feasibility study approved May 2020 for 20,000 t/yr; no later progress found
+  status: MoU signed
+  status_as_of: '2022-01-05'
+  status_detail: MoU with Gujarat (Jan 2022) for a 20,000 t/yr lithium hydroxide refinery near a port; plant promised
+    within 3-4 years; no later progress found
   capacity:
     planned:
       value: 20000
@@ -966,14 +1028,17 @@
   dates:
     first_public: '2020-05-07'
     announced: null
-    mou: null
+    mou: 2022-01
     approved: null
     construction_start: null
-    original_expected_completion: null
+    original_expected_completion: '2026'
     revised_expected_completion: null
     commissioned: null
     closed: null
-  milestones: []
+  milestones:
+  - date: 2022-01
+    event: MoU with the Gujarat government; plant promised "in the next 3-4 years"
+    source_id: pvmag-manikaran-2022
   narrative:
     significance: null
     what_it_does: "Was billed as India's first lithium refinery, a 20,000-tonne lithium hydroxide plant with Australia's\
@@ -1005,6 +1070,21 @@
     - minerals
     - products
     - location
+  - id: pvmag-manikaran-2022
+    url: "https://www.pv-magazine-india.com/2022/01/05/manikaran-signs-mou-to-set-up-indias-first-lithium-refinery-in-gujarat/"
+    title: "Manikaran signs MoU to set up India's first lithium refinery in Gujarat"
+    publisher: pv magazine India
+    tier: T3
+    date: '2022-01-05'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - status
+    - status_as_of
+    - status_detail
+    - dates.mou
+    - dates.original_expected_completion
+    - milestones
 - aliases:
   - Dhirubhai Ambani Green Energy Giga Complex
   layer: processing
@@ -1143,16 +1223,22 @@
   schemes: []
   scheme_status: {}
   dates:
-    first_public: 2025-01
+    first_public: 1948-02
     announced: null
     mou: null
     approved: null
     construction_start: null
     original_expected_completion: null
     revised_expected_completion: null
-    commissioned: null
+    commissioned: 1948-02
     closed: null
-  milestones: []
+  milestones:
+  - date: 1948-02
+    event: Refinery set up by INDAL with Alcan (initial capacity 4,000 tpy)
+    source_id: hindalco-muri-page
+  - date: '2005'
+    event: Comes under Hindalco after its acquisition of INDAL
+    source_id: hindalco-muri-page
   narrative:
     significance: null
     what_it_does: Separates vanadium-rich sludge as a by-product of alumina refining.
@@ -1180,6 +1266,18 @@
     - minerals
     - operator
     - dates.first_public
+  - id: hindalco-muri-page
+    url: "https://www.hindalco.com/about-us/manufacturing/muri"
+    title: Muri
+    publisher: Hindalco Industries Ltd
+    tier: T2
+    date: '2026-11-02'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.commissioned
+    - milestones
 - aliases:
   - Indian Copper Complex
   - Maubhandar smelter
@@ -1335,16 +1433,19 @@
   schemes: []
   scheme_status: {}
   dates:
-    first_public: 2025-01
+    first_public: '1969'
     announced: null
     mou: null
     approved: null
     construction_start: null
     original_expected_completion: null
     revised_expected_completion: null
-    commissioned: null
+    commissioned: '1969'
     closed: null
-  milestones: []
+  milestones:
+  - date: '1969'
+    event: Refinery in operation
+    source_id: hindalco-belagavi-page
   narrative:
     significance: null
     what_it_does: Separates vanadium-rich sludge as a by-product of alumina refining.
@@ -1372,6 +1473,18 @@
     - minerals
     - operator
     - dates.first_public
+  - id: hindalco-belagavi-page
+    url: "https://www.hindalco.com/about-us/manufacturing/belagavi"
+    title: Belagavi
+    publisher: Hindalco Industries Ltd
+    tier: T2
+    date: '2026-11-02'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.commissioned
+    - milestones
 - aliases:
   - CMRL
   layer: processing
@@ -1419,16 +1532,25 @@
   schemes: []
   scheme_status: {}
   dates:
-    first_public: '1990'
+    first_public: '1989-08-18'
     announced: null
     mou: null
     approved: null
     construction_start: null
     original_expected_completion: null
     revised_expected_completion: null
-    commissioned: null
+    commissioned: '1993'
     closed: null
-  milestones: []
+  milestones:
+  - date: '1989-08-18'
+    event: Company incorporated to make and export synthetic rutile
+    source_id: cmrl-history
+  - date: '1993'
+    event: "Production starts: 10,000 tpy synthetic rutile"
+    source_id: cmrl-history
+  - date: '2008'
+    event: Synthetic rutile capacity raised to 45,000 tpy
+    source_id: cmrl-history
   narrative:
     significance: null
     what_it_does: Exports synthetic rutile made largely from imported ilmenite at a plant near Kochi.
@@ -1466,6 +1588,18 @@
     - status
     - feedstock
     - operator
+  - id: cmrl-history
+    url: "https://cmrlindia.com/history/"
+    title: History
+    publisher: Cochin Minerals and Rutile Ltd
+    tier: T2
+    date: '2026-11-02'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.commissioned
+    - milestones
 - aliases: []
   layer: processing
   stages:
@@ -1602,16 +1736,31 @@
   schemes: []
   scheme_status: {}
   dates:
-    first_public: 2025-01
+    first_public: '1979'
     announced: null
     mou: null
     approved: null
-    construction_start: null
+    construction_start: '1979'
     original_expected_completion: null
     revised_expected_completion: null
-    commissioned: 2011-09
+    commissioned: '1984'
     closed: null
-  milestones: []
+  milestones:
+  - date: '1979'
+    event: Construction of the chloride-route titanium dioxide plant begins
+    source_id: kmml-brief-history
+  - date: '1984'
+    event: Integrated titanium dioxide plant commissioned
+    source_id: kmml-brief-history
+  - date: '2006-12-27'
+    event: Foundation stone of the titanium sponge plant
+    source_id: kmml-brief-history
+  - date: '2011-02-27'
+    event: "Titanium sponge plant inaugurated, India's first"
+    source_id: kmml-brief-history
+  - date: '2011-09-06'
+    event: First batch of titanium sponge
+    source_id: kmml-brief-history
   narrative:
     significance: null
     what_it_does: Turns Kerala beach-sand ilmenite into synthetic rutile, chloride-route titanium pigment and titanium
@@ -1653,6 +1802,19 @@
     - status
     - status_detail
     - operator
+  - id: kmml-brief-history
+    url: "https://kmml.com/brief-history"
+    title: Brief history
+    publisher: The Kerala Minerals and Metals Ltd
+    tier: T2
+    date: '2026-11-02'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.construction_start
+    - dates.commissioned
+    - milestones
 - aliases: []
   layer: processing
   stages:
@@ -1682,7 +1844,8 @@
     geometry: null
   status: MoU signed
   status_as_of: 2025-01
-  status_detail: Rs 5,000 crore JV MoU for a 10,000 TPY sponge plant near KMML
+  status_detail: MoU of 4 Apr 2013 (SAIL, KSIDC, KMML) for a 10,000 tpy sponge plant; in Dec 2014 the Steel Ministry
+    said viability awaits cost-effective technology; no later progress found
   capacity:
     planned:
       value: 10000
@@ -1702,16 +1865,22 @@
   schemes: []
   scheme_status: {}
   dates:
-    first_public: 2025-01
+    first_public: '2013-04-04'
     announced: null
-    mou: null
+    mou: '2013-04-04'
     approved: null
     construction_start: null
     original_expected_completion: null
     revised_expected_completion: null
     commissioned: null
     closed: null
-  milestones: []
+  milestones:
+  - date: '2013-04-04'
+    event: MoU among SAIL, KSIDC and KMML to explore a titanium sponge and metal complex
+    source_id: ls-usq-4612-2014
+  - date: '2014-12-22'
+    event: "Steel Ministry: viability depends on cost-effective technology not available in India"
+    source_id: ls-usq-4612-2014
   narrative:
     significance: null
     what_it_does: "Would scale India's titanium sponge output twentyfold with a 10,000-tonne plant next to KMML."
@@ -1752,6 +1921,20 @@
     archive_url: null
     supports:
     - dates.first_public
+  - id: ls-usq-4612-2014
+    url: "http://web.archive.org/web/2020id_/https://steel.gov.in/sites/default/files/lu4612.pdf"
+    title: "Lok Sabha Unstarred Question 4612: Joint venture in steel industry (titanium sponge factory, Chavara)"
+    publisher: Ministry of Steel (Lok Sabha answer)
+    tier: T1
+    date: '2014-12-22'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.mou
+    - milestones
+    - status_detail
+    - capacity.planned
 - aliases: []
   layer: processing
   stages:
@@ -1978,11 +2161,14 @@
     mou: null
     approved: null
     construction_start: 2026-03
-    original_expected_completion: null
+    original_expected_completion: 2027-03
     revised_expected_completion: null
     commissioned: null
     closed: null
-  milestones: []
+  milestones:
+  - date: '2026-02-11'
+    event: Management guides 10 GW ingot-wafer capacity by FY27 (Nuvama note)
+    source_id: bt-waaree-2026
   narrative:
     significance: null
     what_it_does: "Is building a 10 GW ingot and wafer plant near Nagpur, which Waaree calls India's largest."
@@ -2011,6 +2197,17 @@
     - dates.construction_start
     - dates.first_public
     - operator
+  - id: bt-waaree-2026
+    url: "https://www.businesstoday.in/markets/stocks/story/waaree-energies-shares-nuvama-hosts-management-key-takeaways-target-price-515552-2026-02-11"
+    title: "Waaree Energies shares: Nuvama hosts management; key takeaways, target price"
+    publisher: Business Today
+    tier: T3
+    date: '2026-02-11'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.original_expected_completion
+    - milestones
 - aliases: []
   layer: processing
   stages:
@@ -2244,7 +2441,8 @@
     geometry: null
   status: Announced
   status_as_of: '2026-02-11'
-  status_detail: "10 tpy plant planned since 2014; pilot plant 'being set up' (early 2026)"
+  status_detail: "10 tpy plant planned at Damanjodi; R&D agreement with Chalieco (Dec 2015) and MoU with BARC (May\
+    \ 2016); a pilot plant 'being set up' in early 2026"
   capacity:
     planned:
       value: 10
@@ -2264,16 +2462,25 @@
   schemes: []
   scheme_status: {}
   dates:
-    first_public: 2025-01
+    first_public: 2015-12
     announced: null
-    mou: null
+    mou: 2016-05
     approved: null
     construction_start: null
     original_expected_completion: null
     revised_expected_completion: null
     commissioned: null
     closed: null
-  milestones: []
+  milestones:
+  - date: 2015-12
+    event: "R&D agreement with Chalieco (China) on red mud and gallium from Bayer liquor"
+    source_id: imyb-2023
+  - date: 2016-05
+    event: MoU with BARC on extracting gallium from Bayer liquor
+    source_id: imyb-2023
+  - date: 2026-02
+    event: "Pilot plant still 'being set up' to test feasibility"
+    source_id: alc-nalco-2026
   narrative:
     significance: null
     what_it_does: "Plans to recover gallium, a chip and LED metal, from the alumina liquor at NALCO's Koraput refinery."
@@ -2298,10 +2505,13 @@
     archive_url: null
     supports:
     - capacity.planned
-    - location
     - dates.first_public
+    - dates.mou
+    - location
+    - milestones
     - minerals
     - operator
+    - status_detail
   - id: alc-nalco-2026
     url: "https://www.alcircle.com/news/nalcos-gallium-plan-remains-on-paper-a-missed-opportunity-as-critical-minerals-race-heats-up-117237"
     title: "NALCO's gallium plan remains on paper"
@@ -2311,9 +2521,10 @@
     retrieved: '2026-10-24'
     archive_url: null
     supports:
+    - milestones
+    - partners
     - status
     - status_detail
-    - partners
 - aliases: []
   layer: processing
   stages:
@@ -2529,16 +2740,19 @@
   schemes: []
   scheme_status: {}
   dates:
-    first_public: 2025-01
+    first_public: '1989'
     announced: null
     mou: null
     approved: null
     construction_start: null
     original_expected_completion: null
     revised_expected_completion: null
-    commissioned: null
+    commissioned: '1989'
     closed: null
-  milestones: []
+  milestones:
+  - date: '1989'
+    event: Smelter inaugurated
+    source_id: hzl-legacy
   narrative:
     significance: null
     what_it_does: "Recovers cadmium as a by-product at the world's largest single-site zinc smelter."
@@ -2568,6 +2782,18 @@
     - operator
     - minerals
     - dates.first_public
+  - id: hzl-legacy
+    url: "https://www.hzlindia.com/about-us/hindustan-zinc-legacy"
+    title: "Hindustan Zinc legacy: a timeline of milestones"
+    publisher: Hindustan Zinc Ltd
+    tier: T2
+    date: '2026-11-02'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.commissioned
+    - milestones
 - aliases: []
   layer: processing
   stages:
@@ -2617,16 +2843,22 @@
   schemes: []
   scheme_status: {}
   dates:
-    first_public: 2025-01
+    first_public: '1966'
     announced: null
     mou: null
     approved: null
-    construction_start: null
+    construction_start: '1966'
     original_expected_completion: null
     revised_expected_completion: null
-    commissioned: null
+    commissioned: '1967'
     closed: null
-  milestones: []
+  milestones:
+  - date: '1966'
+    event: Foundation stone laid
+    source_id: hzl-legacy
+  - date: '1967'
+    event: "Commissioned: Hindustan Zinc's first smelter"
+    source_id: hzl-debari-page
   narrative:
     significance: null
     what_it_does: "Hindustan Zinc's oldest smelter, with 250 tonnes a year of cadmium recovery capacity."
@@ -2655,6 +2887,29 @@
     - operator
     - minerals
     - dates.first_public
+  - id: hzl-debari-page
+    url: "https://www.hzlindia.com/what-we-do/metal-smelting-sites/debari-smelting-operations"
+    title: Debari smelting operations
+    publisher: Hindustan Zinc Ltd
+    tier: T2
+    date: '2026-11-02'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.commissioned
+    - milestones
+  - id: hzl-legacy
+    url: "https://www.hzlindia.com/about-us/hindustan-zinc-legacy"
+    title: "Hindustan Zinc legacy: a timeline of milestones"
+    publisher: Hindustan Zinc Ltd
+    tier: T2
+    date: '2026-11-02'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.construction_start
+    - milestones
 - aliases: []
   layer: processing
   stages:
@@ -2701,16 +2956,22 @@
   schemes: []
   scheme_status: {}
   dates:
-    first_public: '1986'
+    first_public: '1970'
     announced: null
     mou: null
     approved: null
     construction_start: null
     original_expected_completion: null
     revised_expected_completion: null
-    commissioned: null
+    commissioned: '1970'
     closed: null
-  milestones: []
+  milestones:
+  - date: '1959'
+    event: Chlor-alkali plant at Sahupuram commissioned
+    source_id: dcw-about
+  - date: '1970'
+    event: Synthetic rutile plant set up, the first of its kind in Asia
+    source_id: dcw-about
   narrative:
     significance: null
     what_it_does: "Upgrades ilmenite into synthetic rutile, a high-grade titanium feedstock, at DCW's chemicals\
@@ -2748,7 +3009,18 @@
     - status
     - products
     - operator
+  - id: dcw-about
+    url: "https://www.dcwltd.com/about-us/"
+    title: About us (milestones)
+    publisher: DCW Ltd
+    tier: T2
+    date: '2026-11-02'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
     - dates.first_public
+    - dates.commissioned
+    - milestones
 - aliases:
   - Zirconium Complex, Pazhayakayal
   layer: processing
@@ -3161,16 +3433,19 @@
   schemes: []
   scheme_status: {}
   dates:
-    first_public: 2025-01
+    first_public: '1962'
     announced: null
     mou: null
     approved: null
     construction_start: null
     original_expected_completion: null
     revised_expected_completion: null
-    commissioned: null
+    commissioned: '1962'
     closed: null
-  milestones: []
+  milestones:
+  - date: '1962'
+    event: "Commissioned: Hindalco's first plant"
+    source_id: hindalco-renukoot-page
   narrative:
     significance: null
     what_it_does: Separates vanadium-rich sludge as a by-product of alumina refining; it also recovered gallium
@@ -3199,6 +3474,18 @@
     - minerals
     - operator
     - dates.first_public
+  - id: hindalco-renukoot-page
+    url: "https://www.hindalco.com/about-us/manufacturing/renukoot"
+    title: Renukoot
+    publisher: Hindalco Industries Ltd
+    tier: T2
+    date: '2026-11-02'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.commissioned
+    - milestones
 - aliases: []
   layer: processing
   stages:
@@ -3246,16 +3533,19 @@
   schemes: []
   scheme_status: {}
   dates:
-    first_public: 2025-01
+    first_public: '2012'
     announced: null
     mou: null
     approved: null
     construction_start: null
     original_expected_completion: null
     revised_expected_completion: null
-    commissioned: null
+    commissioned: '2012'
     closed: null
-  milestones: []
+  milestones:
+  - date: '2012'
+    event: Silver refinery commissioned (500 tpy)
+    source_id: hzl-legacy
   narrative:
     significance: null
     what_it_does: "Recovers antimony from smelter dust at Hindustan Zinc's silver refinery in Uttarakhand."
@@ -3284,3 +3574,15 @@
     - operator
     - minerals
     - dates.first_public
+  - id: hzl-legacy
+    url: "https://www.hzlindia.com/about-us/hindustan-zinc-legacy"
+    title: "Hindustan Zinc legacy: a timeline of milestones"
+    publisher: Hindustan Zinc Ltd
+    tier: T2
+    date: '2026-11-02'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.commissioned
+    - milestones

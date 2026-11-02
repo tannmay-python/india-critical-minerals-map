@@ -1,0 +1,210 @@
+# Timeline research, processing (first batch): commissioning years of operating smelters and
+# refineries from company pages, plus targets for pipeline projects.
+# Applied with scripts/research/apply_updates.py.
+layer: processing
+
+sources:
+  hzl-debari-page:
+    raw: hzlindia.com/debari-smelting-operations
+    title: "Debari smelting operations"
+    publisher: Hindustan Zinc Ltd
+    tier: T2
+    date: "2026-11-02"
+  hzl-legacy:
+    raw: hzlindia.com/hindustan-zinc-legacy
+    title: "Hindustan Zinc legacy: a timeline of milestones"
+    publisher: Hindustan Zinc Ltd
+    tier: T2
+    date: "2026-11-02"
+  hindalco-renukoot-page:
+    raw: hindalco.com/renukoot
+    title: "Renukoot"
+    publisher: Hindalco Industries Ltd
+    tier: T2
+    date: "2026-11-02"
+  hindalco-muri-page:
+    raw: hindalco.com/muri
+    title: "Muri"
+    publisher: Hindalco Industries Ltd
+    tier: T2
+    date: "2026-11-02"
+  hindalco-belagavi-page:
+    raw: hindalco.com/belagavi
+    title: "Belagavi"
+    publisher: Hindalco Industries Ltd
+    tier: T2
+    date: "2026-11-02"
+  hindalco-dahej-page:
+    raw: hindalco.com/dahej
+    title: "Dahej (Birla Copper)"
+    publisher: Hindalco Industries Ltd
+    tier: T2
+    date: "2026-11-02"
+  kmml-brief-history:
+    raw: kmml.com/brief-history
+    title: "Brief history"
+    publisher: The Kerala Minerals and Metals Ltd
+    tier: T2
+    date: "2026-11-02"
+  cmrl-history:
+    raw: cmrlindia.com/history
+    title: "History"
+    publisher: Cochin Minerals and Rutile Ltd
+    tier: T2
+    date: "2026-11-02"
+  adani-kutch-copper-2024:
+    raw: bseindia.com/8c5e96e6-8c0d-4225-9fc4-6496b7e116f7
+    title: "Adani Enterprises media release: Kutch Copper commissions first unit of Mundra copper refinery (exchange filing)"
+    publisher: Adani Enterprises Ltd
+    tier: T2
+    date: "2024-03-28"
+  pvmag-manikaran-2022:
+    raw: pv-magazine-india.com/manikaran-signs-mou-to-set-up-indias-first-lithium-refinery-in-gujarat
+    title: "Manikaran signs MoU to set up India's first lithium refinery in Gujarat"
+    publisher: pv magazine India
+    tier: T3
+    date: "2022-01-05"
+  solarquarter-tprel-2026:
+    raw: solarquarter.com/tata-power-renewable-energy-limited-enters-pv-ingot-and-wafer-manufacturing-with--e2-82-b9
+    title: "Tata Power Renewable Energy Limited enters PV ingot and wafer manufacturing with Rs 6,500 crore investment"
+    publisher: SolarQuarter
+    tier: T3
+    date: "2026-05-04"
+
+updates:
+  - id: hzl-debari-smelter
+    set: {dates: {first_public: "1966", construction_start: "1966", commissioned: "1967"}}
+    milestones:
+      - {date: "1966", event: "Foundation stone laid", source_id: hzl-legacy}
+      - {date: "1967", event: "Commissioned: Hindustan Zinc's first smelter", source_id: hzl-debari-page}
+    sources:
+      - ref: hzl-debari-page
+        supports: [dates.commissioned, milestones]
+        ev: {dates.commissioned: "Commissioned in 1967, Debari is Hindustan Zinc's first smelter"}
+      - ref: hzl-legacy
+        supports: [dates.first_public, dates.construction_start, milestones]
+        ev: {dates.construction_start: "1966 Foundation of Debari Smelter laid"}
+
+  - id: hzl-vizag-zinc-smelter
+    set: {dates: {first_public: "1978", commissioned: "1978"}}
+    milestones: [{date: "1978", event: "Commissioned", source_id: hzl-legacy}]
+    sources:
+      - ref: hzl-legacy
+        supports: [dates.first_public, dates.commissioned, milestones]
+        ev: {dates.commissioned: "1978 Vizag Smelter commissioned"}
+
+  - id: hzl-chanderiya-smelter
+    set: {dates: {first_public: "1989", commissioned: "1989"}}
+    milestones: [{date: "1989", event: "Smelter inaugurated", source_id: hzl-legacy}]
+    sources:
+      - ref: hzl-legacy
+        supports: [dates.first_public, dates.commissioned, milestones]
+        ev: {dates.commissioned: "1989 Chanderiya Smelter inaugurated"}
+
+  - id: hzl-pantnagar-metal-plant
+    set: {dates: {first_public: "2012", commissioned: "2012"}}
+    milestones: [{date: "2012", event: "Silver refinery commissioned (500 tpy)", source_id: hzl-legacy}]
+    sources:
+      - ref: hzl-legacy
+        supports: [dates.first_public, dates.commissioned, milestones]
+        ev: {dates.commissioned: "2012 Pantnagar Silver Refinery commissioned with 500 MT annual capacity"}
+
+  - id: hindalco-renukoot-alumina
+    set: {dates: {first_public: "1962", commissioned: "1962"}}
+    milestones: [{date: "1962", event: "Commissioned: Hindalco's first plant", source_id: hindalco-renukoot-page}]
+    sources:
+      - ref: hindalco-renukoot-page
+        supports: [dates.first_public, dates.commissioned, milestones]
+        ev: {dates.commissioned: "Commissioned in 1962, just four years after our inception"}
+
+  - id: hindalco-muri-alumina
+    set: {dates: {first_public: "1948-02", commissioned: "1948-02"}}
+    milestones:
+      - {date: "1948-02", event: "Refinery set up by INDAL with Alcan (initial capacity 4,000 tpy)", source_id: hindalco-muri-page}
+      - {date: "2005", event: "Comes under Hindalco after its acquisition of INDAL", source_id: hindalco-muri-page}
+    sources:
+      - ref: hindalco-muri-page
+        supports: [dates.first_public, dates.commissioned, milestones]
+        ev:
+          dates.commissioned: "Our state-of-the-art alumina refinery at Muri was established in February 1948 by INDAL (Indian Aluminum) in collaboration with the Canadian multinational, Alcan."
+          milestones: "In 2005, following our acquisition of INDAL, this facility came under the Hindalco banner."
+
+  - id: hindalco-belagavi-alumina
+    set: {dates: {first_public: "1969", commissioned: "1969"}}
+    milestones: [{date: "1969", event: "Refinery in operation", source_id: hindalco-belagavi-page}]
+    sources:
+      - ref: hindalco-belagavi-page
+        supports: [dates.first_public, dates.commissioned, milestones]
+        ev: {dates.commissioned: "has been operational since 1969"}
+
+  - id: hindalco-birla-copper-dahej
+    set: {dates: {first_public: "1998", commissioned: "1998"}}
+    milestones:
+      - {date: "1998", event: "Commissioned as Birla Copper (Indo Gulf Corporation)", source_id: hindalco-dahej-page}
+      - {date: "2002", event: "Amalgamated with Hindalco", source_id: hindalco-dahej-page}
+    sources:
+      - ref: hindalco-dahej-page
+        supports: [dates.first_public, dates.commissioned, milestones]
+        ev:
+          dates.commissioned: "Dahej Commissioned in 1998"
+          milestones: "It was originally a part of Indo Gulf Corporation under Grasim, but was amalgamated with Hindalco Industries Ltd. in 2002"
+
+  - id: kmml-chavara
+    set: {dates: {first_public: "1979", construction_start: "1979", commissioned: "1984"}}
+    milestones:
+      - {date: "1979", event: "Construction of the chloride-route titanium dioxide plant begins", source_id: kmml-brief-history}
+      - {date: "1984", event: "Integrated titanium dioxide plant commissioned", source_id: kmml-brief-history}
+      - {date: "2006-12-27", event: "Foundation stone of the titanium sponge plant", source_id: kmml-brief-history}
+      - {date: "2011-02-27", event: "Titanium sponge plant inaugurated, India's first", source_id: kmml-brief-history}
+      - {date: "2011-09-06", event: "First batch of titanium sponge", source_id: kmml-brief-history}
+    sources:
+      - ref: kmml-brief-history
+        supports: [dates.first_public, dates.construction_start, dates.commissioned, milestones]
+        ev:
+          dates.construction_start: "The construction of Titanium Dioxide Pigment using chloride technology started in 1979."
+          dates.commissioned: "The same was commissioned in 1984 as the first and only integrated Titanium Dioxide Plant in the world."
+          milestones: ["laid the foundation stone of the Titanium Sponge Plant", "On 27th February 2011 Honorable Minister of Defence Shri. A K Antony Inaugurated country's first Titanium Sponge Plant (TSP) at KMML.", "On 6th September 2011 KMML TSP manufactured the 1st Batch of Titanium sponge"]
+
+  - id: cmrl-edayar-synthetic-rutile
+    set: {dates: {first_public: "1989-08-18", commissioned: "1993"}}
+    milestones:
+      - {date: "1989-08-18", event: "Company incorporated to make and export synthetic rutile", source_id: cmrl-history}
+      - {date: "1993", event: "Production starts: 10,000 tpy synthetic rutile", source_id: cmrl-history}
+      - {date: "2008", event: "Synthetic rutile capacity raised to 45,000 tpy", source_id: cmrl-history}
+    sources:
+      - ref: cmrl-history
+        supports: [dates.first_public, dates.commissioned, milestones]
+        ev:
+          dates.first_public: "was incorporated as a Public Limited Company on 18th August 1989 for manufacture and export of Synthetic Rutile"
+          dates.commissioned: "1993 The company's shares were listed with the Bombay Stock Exchange (BSE). Production started with a capacity of 10,000 MT of Synthetic Rutile"
+          milestones: "Production capacity of Synthetic Rutile increased to 45,000 MT in 2008"
+
+  - id: kutch-copper-mundra
+    set: {dates: {commissioned: "2024-03-28"}}
+    milestones: [{date: "2024-03-28", event: "First unit of the Mundra copper refinery commissioned (phase 1: 0.5 Mtpa, about $1.2 billion)", source_id: adani-kutch-copper-2024}]
+    sources:
+      - ref: adani-kutch-copper-2024
+        supports: [dates.commissioned, milestones]
+        ev: {dates.commissioned: "Ahmedabad, 28 March 2024: Kutch Copper, a subsidiary of Adani Enterprises Limited, commissioned the first unit of its greenfield copper refinery project at Mundra on Thursday"}
+
+  - id: manikaran-lithium-refinery
+    set:
+      status: MoU signed
+      status_as_of: "2022-01-05"
+      status_detail: "MoU with Gujarat (Jan 2022) for a 20,000 t/yr lithium hydroxide refinery near a port; plant promised within 3-4 years; no later progress found"
+      dates: {mou: "2022-01", original_expected_completion: "2026"}
+    milestones:
+      - {date: "2022-01", event: "MoU with the Gujarat government; plant promised \"in the next 3-4 years\"", source_id: pvmag-manikaran-2022}
+    sources:
+      - ref: pvmag-manikaran-2022
+        supports: [status, status_as_of, status_detail, dates.mou, dates.original_expected_completion, milestones]
+        ev:
+          dates.mou: "has signed a memorandum of understanding (MoU) with the government of"
+          dates.original_expected_completion: "We have shortlisted Gujarat to set up our plant in the next 3-4 years."
+
+  - id: tata-power-nellore-ingot-wafer
+    milestones: [{date: "2026-04-30", event: "Board approves entry into ingot and wafer making: 10 GW in two 5 GW phases, about Rs 6,500 crore", source_id: solarquarter-tprel-2026}]
+    sources:
+      - ref: solarquarter-tprel-2026
+        supports: [milestones]
+        ev: {milestones: ["The decision was approved by the company's board on April 30, 2026", "The development will be carried out in two phases, with each phase adding 5 GW capacity."]}

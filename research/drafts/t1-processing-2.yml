@@ -1,0 +1,441 @@
+- aliases: []
+  layer: processing
+  stages:
+  - Refining
+  minerals:
+  - Titanium
+  commodity_as_stated: Synthetic Rutile (SR); Utox
+  products:
+  - Synthetic rutile
+  - Utox (recovered TiO2)
+  operator: DCW Ltd
+  operator_type: Listed private
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Sahupuram
+    district: Thoothukudi
+    state: Tamil Nadu
+    country: India
+    lat: 8.59078
+    lon: 78.08237
+    precision: town
+    geometry: null
+  status: Operational
+  status_as_of: '2026-08-13'
+  status_detail: 48,000 tpy synthetic rutile from Manavalakurichi ilmenite, alongside chlor-alkali and PVC
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: 48000
+      unit: tpy
+      basis: synthetic rutile
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: Domestic ore
+  feedstock_detail: Ilmenite from IREL Manavalakurichi
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '1970'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: '1970'
+    closed: null
+  milestones:
+  - date: '1959'
+    event: Chlor-alkali plant at Sahupuram commissioned
+    source_id: dcw-about
+  - date: '1970'
+    event: Synthetic rutile plant set up, the first of its kind in Asia
+    source_id: dcw-about
+  narrative:
+    significance: null
+    what_it_does: Upgrades ilmenite into synthetic rutile, a high-grade titanium feedstock, at DCW's chemicals complex.
+    why_it_matters: null
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-24'
+  notes: null
+  id: dcw-sahupuram-synthetic-rutile
+  name: DCW synthetic rutile plant, Sahupuram
+  sources:
+  - id: imyb-2023
+    url: https://ibm.gov.in/writereaddata/files/17454767536809dc9139ba8IMYB_BOOK_2023.pdf
+    title: Indian Minerals Yearbook 2023 (62nd edition)
+    publisher: Indian Bureau of Mines, Ministry of Mines
+    tier: T1
+    date: 2025-01
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - capacity.installed
+    - location
+    - feedstock
+  - id: dcw-deck-2026
+    url: https://nsearchives.nseindia.com/corporate/DCW_13082026202839_Intimation_Investor_Presentation_.pdf
+    title: DCW Ltd investor presentation, August 2026
+    publisher: DCW Ltd
+    tier: T2
+    date: '2026-08-13'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - products
+    - operator
+    - dates.first_public
+  - id: dcw-about
+    url: https://www.dcwltd.com/about-us/
+    title: About us (milestones)
+    publisher: DCW Ltd
+    tier: T2
+    date: '2026-11-02'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.commissioned
+    - milestones
+- aliases: []
+  layer: processing
+  stages:
+  - Refining
+  minerals:
+  - Titanium
+  commodity_as_stated: titanium sponge (10,000 TPY proposed)
+  products:
+  - Titanium sponge
+  operator: KMML-SAIL joint venture (proposed)
+  operator_type: JV
+  owners:
+  - entity: The Kerala Minerals and Metals Ltd
+    stake_pct: null
+  - entity: Steel Authority of India Ltd
+    stake_pct: null
+  partners: []
+  location:
+    address: null
+    village_or_town: Chavara
+    district: Kollam
+    state: Kerala
+    country: India
+    lat: 8.97536
+    lon: 76.53505
+    precision: town
+    geometry: null
+  status: MoU signed
+  status_as_of: 2025-01
+  status_detail: MoU of 4 Apr 2013 (SAIL, KSIDC, KMML) for a 10,000 tpy sponge plant; in Dec 2014 the Steel Ministry
+    said viability awaits cost-effective technology; no later progress found
+  capacity:
+    planned:
+      value: 10000
+      unit: TPY
+      basis: titanium sponge
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: 5000
+    currency: INR_crore
+    basis: JV MoU
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2013-04-04'
+    announced: null
+    mou: '2013-04-04'
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: '2013-04-04'
+    event: MoU among SAIL, KSIDC and KMML to explore a titanium sponge and metal complex
+    source_id: ls-usq-4612-2014
+  - date: '2014-12-22'
+    event: 'Steel Ministry: viability depends on cost-effective technology not available in India'
+    source_id: ls-usq-4612-2014
+  narrative:
+    significance: null
+    what_it_does: Would scale India's titanium sponge output twentyfold with a 10,000-tonne plant next to KMML.
+    why_it_matters: null
+  related:
+  - kmml-chavara
+  see_also: []
+  confidence: medium
+  last_verified: '2026-10-24'
+  notes: KMML's page is undated; first_public set to the IMYB edition that also records the plan. No construction
+    reported.
+  id: kmml-sail-titanium-sponge-jv
+  name: KMML-SAIL titanium sponge joint venture (proposed), Chavara
+  sources:
+  - id: kmml-sponge-page
+    url: https://www.kmml.com/initiatives/1
+    title: Titanium Sponge Plant
+    publisher: The Kerala Minerals and Metals Ltd
+    tier: T2
+    date: null
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - investment
+    - capacity.planned
+    - owners
+    - location
+    - status_detail
+    - operator
+  - id: imyb-2023
+    url: https://ibm.gov.in/writereaddata/files/17454767536809dc9139ba8IMYB_BOOK_2023.pdf
+    title: Indian Minerals Yearbook 2023 (62nd edition)
+    publisher: Indian Bureau of Mines, Ministry of Mines
+    tier: T1
+    date: 2025-01
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - dates.first_public
+  - id: ls-usq-4612-2014
+    url: http://web.archive.org/web/2020id_/https://steel.gov.in/sites/default/files/lu4612.pdf
+    title: 'Lok Sabha Unstarred Question 4612: Joint venture in steel industry (titanium sponge factory, Chavara)'
+    publisher: Ministry of Steel (Lok Sabha answer)
+    tier: T1
+    date: '2014-12-22'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.mou
+    - milestones
+    - status_detail
+    - capacity.planned
+- aliases: []
+  layer: processing
+  stages:
+  - Refining
+  minerals:
+  - Gallium
+  commodity_as_stated: gallium extraction from Bayer liquor
+  products:
+  - Gallium metal (planned, 99.99%)
+  operator: National Aluminium Company Ltd (NALCO)
+  operator_type: PSU (Central)
+  owners: []
+  partners:
+  - name: Bhabha Atomic Research Centre
+    country: India
+    role: technology
+  location:
+    address: null
+    village_or_town: Damanjodi
+    district: Koraput
+    state: Odisha
+    country: India
+    lat: 18.75828
+    lon: 82.91064
+    precision: town
+    geometry: null
+  status: Announced
+  status_as_of: '2026-02-11'
+  status_detail: 10 tpy plant planned at Damanjodi; R&D agreement with Chalieco (Dec 2015) and MoU with BARC (May
+    2016); a pilot plant 'being set up' in early 2026
+  capacity:
+    planned:
+      value: 10
+      unit: tpy
+      basis: gallium
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: Domestic ore
+  feedstock_detail: Bayer liquor from Odisha bauxite
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: 2015-12
+    announced: null
+    mou: 2016-05
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: 2015-12
+    event: R&D agreement with Chalieco (China) on red mud and gallium from Bayer liquor
+    source_id: imyb-2023
+  - date: 2016-05
+    event: MoU with BARC on extracting gallium from Bayer liquor
+    source_id: imyb-2023
+  - date: 2026-02
+    event: Pilot plant still 'being set up' to test feasibility
+    source_id: alc-nalco-2026
+  narrative:
+    significance: null
+    what_it_does: Plans to recover gallium, a chip and LED metal, from the alumina liquor at NALCO's Koraput refinery.
+    why_it_matters: India imports all its gallium while China controls most supply; this plan has been on paper
+      for a decade.
+  related: []
+  see_also: []
+  confidence: medium
+  last_verified: '2026-10-24'
+  notes: IBM records that Damanjodi and Hindalco Renukoot had recovered gallium in the past. NALCO-BARC MoU on recovery
+    technology, 2016.
+  id: nalco-damanjodi-gallium
+  name: NALCO gallium extraction plant, Damanjodi alumina refinery
+  sources:
+  - id: imyb-2023
+    url: https://ibm.gov.in/writereaddata/files/17454767536809dc9139ba8IMYB_BOOK_2023.pdf
+    title: Indian Minerals Yearbook 2023 (62nd edition)
+    publisher: Indian Bureau of Mines, Ministry of Mines
+    tier: T1
+    date: 2025-01
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - capacity.planned
+    - dates.first_public
+    - dates.mou
+    - location
+    - milestones
+    - minerals
+    - operator
+    - status_detail
+  - id: alc-nalco-2026
+    url: https://www.alcircle.com/news/nalcos-gallium-plan-remains-on-paper-a-missed-opportunity-as-critical-minerals-race-heats-up-117237
+    title: NALCO's gallium plan remains on paper
+    publisher: AL Circle
+    tier: T3
+    date: '2026-02-11'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - milestones
+    - partners
+    - status
+    - status_detail
+- aliases: []
+  layer: processing
+  stages:
+  - Refining
+  minerals:
+  - Silicon
+  commodity_as_stated: solar ingots and wafers
+  products:
+  - Silicon ingots
+  - Silicon wafers
+  operator: Waaree Energies Ltd
+  operator_type: Listed private
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Butibori
+    district: Nagpur
+    state: Maharashtra
+    country: India
+    lat: 20.92819
+    lon: 79.00708
+    precision: town
+    geometry: null
+  status: Under construction
+  status_as_of: '2026-03-16'
+  status_detail: Ground broken Mar 2026 on 300 acres; no commissioning date given
+  capacity:
+    planned:
+      value: 10
+      unit: GW
+      basis: ingot and wafer
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: 6200
+    currency: INR_crore
+    basis: around INR 62 billion
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2026-03-16'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: 2026-03
+    original_expected_completion: 2027-03
+    revised_expected_completion: null
+    commissioned: null
+    closed: null
+  milestones:
+  - date: '2026-02-11'
+    event: Management guides 10 GW ingot-wafer capacity by FY27 (Nuvama note)
+    source_id: bt-waaree-2026
+  narrative:
+    significance: null
+    what_it_does: Is building a 10 GW ingot and wafer plant near Nagpur, which Waaree calls India's largest.
+    why_it_matters: null
+  related: []
+  see_also: []
+  confidence: medium
+  last_verified: '2026-10-24'
+  notes: null
+  id: waaree-butibori-ingot-wafer
+  name: Waaree Energies ingot and wafer plant, Butibori
+  sources:
+  - id: pvm-waaree-2026
+    url: https://www.pv-magazine.com/2026/03/16/waaree-energies-begins-construction-of-10-gw-ingot-wafer-plant-in-india/
+    title: Waaree Energies begins construction of 10 GW ingot, wafer plant in India
+    publisher: pv magazine
+    tier: T3
+    date: '2026-03-16'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - location
+    - capacity.planned
+    - investment
+    - dates.construction_start
+    - dates.first_public
+    - operator
+  - id: bt-waaree-2026
+    url: https://www.businesstoday.in/markets/stocks/story/waaree-energies-shares-nuvama-hosts-management-key-takeaways-target-price-515552-2026-02-11
+    title: 'Waaree Energies shares: Nuvama hosts management; key takeaways, target price'
+    publisher: Business Today
+    tier: T3
+    date: '2026-02-11'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.original_expected_completion
+    - milestones
