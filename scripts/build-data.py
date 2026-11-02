@@ -71,6 +71,19 @@ def pdate(s):
         return None
 
 
+def pdate_end(s):
+    """Like pdate but the last day of the period: a target "by 2024" means by the end of 2024."""
+    d = pdate(s)
+    if not d:
+        return None
+    n = len(str(s).split("-"))
+    if n == 1:
+        return dt.date(d.year, 12, 31)
+    if n == 2:
+        return dt.date(d.year + (d.month == 12), d.month % 12 + 1, 1) - dt.timedelta(days=1)
+    return d
+
+
 def months_between(a, b):
     if not a or not b:
         return None
@@ -121,10 +134,29 @@ def main():
         lat, lon = loc.get("lat"), loc.get("lon")
         if (lat is None or lon is None) and loc.get("geometry"):
             lat, lon = centroid(loc["geometry"])
-        # derived: slippage, stalled, block lag
+        # derived: promise against delivery, stalled, block lag. Delivery is a restart for reopened
+        # sites, or commissioning when it came after the record's first public date (an old mine's
+        # first opening does not deliver a new promise); else the current target, else today.
         orig = pdate(dates.get("original_expected_completion"))
-        actual = pdate(dates.get("commissioned")) or pdate(dates.get("revised_expected_completion"))
-        slippage = months_between(orig, actual) if orig and actual else None
+        due = pdate_end(dates.get("original_expected_completion"))
+        comm, first = pdate(dates.get("commissioned")), pdate(dates.get("first_public"))
+        done_key = "reopened" if dates.get("reopened") else ("commissioned" if comm and first and comm > first else None)
+        done = pdate(dates.get(done_key)) if done_key else None
+        now = pdate_end(dates.get("revised_expected_completion"))
+        promise = None
+        if due:
+            if done:
+                state, months = "delivered", months_between(due, done)
+            elif now and now > due and now >= TODAY:
+                state, months = "revised", months_between(due, now)
+            elif due < TODAY:
+                state, months = "overdue", months_between(due, TODAY)
+            else:
+                state, months = "pending", 0
+            promise = {"state": state, "months": months, "due": dates.get("original_expected_completion"),
+                       "now": dates.get("revised_expected_completion"), "done": dates.get(done_key) if done_key else None,
+                       "restart": done_key == "reopened"}
+        slippage = promise["months"] if promise and promise["state"] != "pending" else None
         last_status_ev = pdate(e.get("status_as_of"))
         stalled = bool(orig and e.get("status") not in ("Operational", "Closed", "Expanding")
                        and (TODAY - orig).days > 548 and last_status_ev and last_status_ev <= orig)
@@ -162,7 +194,7 @@ def main():
             "sources": [{k: s.get(k) for k in ("id", "url", "title", "publisher", "tier", "date", "archive_url", "supports")}
                         for s in sources],
             "dashboard_links": links,
-            "slippage_months": slippage, "stalled_flag": stalled, "block_lag_months": lag,
+            "slippage_months": slippage, "promise": promise, "stalled_flag": stalled, "block_lag_months": lag,
         }
         for ext in ("block", "auction", "overseas", "rnd", "demand"):
             if e.get(ext):

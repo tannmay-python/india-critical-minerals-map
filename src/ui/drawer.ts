@@ -45,6 +45,22 @@ function sources(e: Entity): string {
   return `<ol class="sources">${items.join("")}</ol>`;
 }
 
+// The first dated target against what happened: delivered (late or on time), moved, or past due.
+function promise(e: Entity): string {
+  const p = e.promise;
+  if (!p) return "";
+  const n = (m: number) => `<span class="num">${m}</span> month${m === 1 ? "" : "s"}`;
+  const due = esc(fmtDate(p.due));
+  const verb = p.restart ? "restarted" : "delivered";
+  if (p.state === "delivered")
+    return p.months > 0
+      ? `${due}; ${verb} ${esc(fmtDate(p.done))}, ${n(p.months)} late`
+      : `${due}; ${verb} ${esc(fmtDate(p.done))}, on time`;
+  if (p.state === "revised") return `${due}; now ${esc(fmtDate(p.now))}, ${n(p.months)} later`;
+  if (p.state === "overdue") return `${due}; not delivered, ${n(p.months)} past`;
+  return due;
+}
+
 function milestones(e: Entity): string {
   const items = e.milestones
     .filter((m) => m.date && m.event)
@@ -83,7 +99,7 @@ export function renderDrawer(el: HTMLElement, e: Entity, byId: Map<string, Entit
     row("Capacity", esc(cap)),
     row("Investment", esc(fmtInvestment(e))),
     row("Location", esc(loc)),
-    row("Delay", e.slippage_months && e.slippage_months > 0 ? `<span class="num">${e.slippage_months}</span> months behind the first target` : ""),
+    row("Promised", promise(e)),
     row("Schemes", schemes),
     row("Related", related),
     row("More", seeAlso),

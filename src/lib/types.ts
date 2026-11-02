@@ -36,6 +36,7 @@ export interface Entity {
   sources: Source[];
   dashboard_links: { name: string; url: string }[];
   slippage_months: number | null; stalled_flag: boolean;
+  promise: { state: "delivered" | "revised" | "overdue" | "pending"; months: number; due: string; now: string | null; done: string | null; restart: boolean } | null;
   block_lag_months: { pb_to_lease: number | null; lease_to_production: number | null } | null;
   block?: { concession_type: string; auction_route: string; area_sq_km: number | null; exploration_stage: string | null;
     resources?: { mineral: string; quantity: number | string | null; unit: string | null; grade: string | null; category: string | null }[] };
