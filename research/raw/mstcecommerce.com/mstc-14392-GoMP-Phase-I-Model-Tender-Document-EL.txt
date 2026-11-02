@@ -796,7 +796,7 @@
           6.3. Potential bidders shall be eligible to visit the Exploration Block. The site visit to the Exploration
                                                                                   
                Block shall be conducted with prior notice to the State Government through the following e-
-               mail address geology.dgm@mp.gov.in. The email should clearly bear the following subject
+               mail address [email removed]. The email should clearly bear the following subject
                line: “Site Visit for [insert] exploration block”.                 
                                                                                   
           6.4. During such period the potential bidders may undertake the site visit to Exploration Block at
@@ -856,7 +856,7 @@
                                                                                   
           7.2. Any queries or requests for additional information concerning this Tender Document may be
                sent in .doc, .docx, .xls, .xlsx format only to the State Government by email to
-               geology.dgm@mp.gov.in in the format specified in Schedule II (Format for seeking
+               [email removed] in the format specified in Schedule II (Format for seeking
                clarifications regarding the Tender Document).                     
                                                                                   
                                                                                   
@@ -3405,7 +3405,7 @@
               other queries related to Exploration Block, the bidder can send mail to
                                                                                   
                                                                                   
-                                  mlclmstc@mstcindia.in                           
+                                  [email removed]                           
                                                                                   
               Or contact the respective MSTC Office assigned to him. (office/region is mentioned in
               the activation mail sent to bidders on receipt of the registration fee).
@@ -3416,7 +3416,7 @@
               any office of MSTC Limited for seeking assistance on the login process, details of
               which are available on MSTC website www.mstcindia.co.in.            
                                                                                   
-               Bidder may contact MSTC’s help desk number "07969066600” for assistance in
+               Bidder may contact MSTC’s help desk number "[phone removed]” for assistance in
                any technical or system related issues.                            
                                                                                   
                MSTC Limited reserves the right to call for additional documents from the bidder if
@@ -3485,7 +3485,7 @@
                  S No  Office  Office  Person                                     
                                                                                   
                        Name    Code                                               
-                   1  Bhopal BPL     Vijay Kala bplopn2@mstcindia.in 8179551100   
+                   1  Bhopal BPL     Vijay Kala [email removed] [phone removed]   
                                                                                   
                Once MSTC receives the payment in the designated account, it shall activate the link
                for downloading of the paid documents for the respective Exploration Block(s). And
@@ -3919,7 +3919,7 @@
                System Settings:                                                   
                                                                                   
                For any Queries or System Setting Related Technical issues concerns please
-               contact the following Help-Desk numbers: - 07969066600             
+               contact the following Help-Desk numbers: - [phone removed]             
                                                                                   
                Availability- 9:30 AM to 5:30 PM on all working days               
                                                                                   

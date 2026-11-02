@@ -769,7 +769,7 @@
                    6.6  The site visit to the Concession Area shall be conducted with prior notice
                                                                                     
                         to the State Government through the following email address 
-                        [biddingcell@rajasthan.gov.in].                             
+                        [[email removed]].                             
                                                                                     
                                                                                     
                                                                                     
@@ -804,7 +804,7 @@
                                                                                     
                    7.2  Any queries or requests for additional information concerning this Tender
                         Document may be sent by e-mail to the State Government to   
-                        [biddingcell@rajasthan.gov.in] in the format specified in Schedule II
+                        [[email removed]] in the format specified in Schedule II
                         (Format for seeking clarifications regarding the Tender Document).
                                                                                     
                    7.3  The email should clearly bear the following subject line: “Queries/Request
@@ -3201,7 +3201,7 @@
                 To update the DSC or any queries related to Major Mineral Block, the bidder can send
                 mail to                                                             
                                                                                     
-                                  mlclmstc@mstcindia.in                             
+                                  [email removed]                             
                                                                                     
                                                                                     
                 Or contact the respective branch/region assigned to him. (region is mentioned in the
@@ -3306,8 +3306,8 @@
                                          Code                                       
                                                                                     
                                                                                     
-                         1    Jaipur      JPR     vagrawal@mstcindia.co.in          
-                                                  mstcjaipur@mstcindia.co.in        
+                         1    Jaipur      JPR     [email removed]          
+                                                  [email removed]        
                                                                                     
                                                                                     
                       The bidder shall send the email regarding the payment details to the email

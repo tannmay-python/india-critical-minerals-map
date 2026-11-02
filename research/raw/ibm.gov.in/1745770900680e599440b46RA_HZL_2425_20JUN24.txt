@@ -1,0 +1,1001 @@
+                                                                                    
+                              INDIAN BUREAU OF MINES                                
+                   MINERALS DEVELOPMEMT AND REGULATION DIVISION                     
+                                                                                    
+                              MCDR INSPECTION REPORT                                
+                                                                                    
+                             Ajmer regional office                                  
+                                                                                    
+     Mine file No : RAJ/BLW- 56 /PB,ZN-1/6/12/2001    Mine code : 34RAJ06001        
+                                                                                    
+     (i)  Name of the Inspecting : DJ(03 )DILIP JAIN                                
+          Officer and ID No.                                                        
+     (ii) Designation        : Senior Mining Geologist                              
+     (iii) Accompaning mine  :                                                      
+          Official with                                                             
+          Designation                                                               
+      (iv) Date of Inspection : 20-JUN-24                                           
+                                                                                    
+      (v)  Prev.inspection date : 11-SEP-19                                         
+                                                                                    
+                          PART-I : GENERAL INFORMATION                              
+  1. (a)  Mine Name          : RAMPURA AGUCHA                                       
+     (b)  Registration NO.   : IBM/421/2011                                         
+                                                                                    
+     (c)  Category           : A Mechanised                                         
+     (d)  Type of Working    :                                                      
+                               Underground                                          
+     (e)  Postal address                                                            
+          State              : RAJASTHAN                                            
+          District           :  BHILWARA                                            
+          Village            :  AGUCHA                                              
+          Taluka             :  HURDA                                               
+          Post office        :  AGUCHA                                              
+          Pin Code           : 311029                                               
+          FAX No.            :  01483-233073                                        
+          E-mail             :  [email removed]                               
+          Phone              :  01483-23331, 23332                                  
+      (f)  Police Station     : Gulabpura                                           
+      (g)  First opening date : 05-FEB-81                                           
+      (h)  Weekly day of rest : MON                                                 
+                                                                                    
+  2.  Address for             : HINDUSTAN ZINC LTD.                                 
+      correspondance           RAMPURA AGUCHA MINE,                                 
+                               PO AGUCHA, BHILWARA                                  
+                                                                                    
+  3.  (a)  Lease Number       : RAJ0652                                             
+      (b)  Lease area         : 1200                                                
+      (c)  Period of lease    : 50                                                  
+      (d)  Date of Expiry     : 12-MAR-30                                           
+                                                                                    
+                                                                                    
+  4.  Mineral worked          : LEAD & ZINC ORE   Main                              
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                   PAGE : 2         
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+  5. Name and Address of the                                                        
+          Lessee      :  HINDUSTAN ZINC LTD.                                        
+                         HINDUSTAN ZINC LTD. YASHAD                                 
+                         BHAWAN YASHADGARH, UDAIPUR                                 
+                         UDAIPUR RAJASTHAN                                          
+                         Phone:[phone removed], 23332                                   
+                         FAX  :[phone removed]                                          
+          Owner       :   Sunil Duggal                                              
+                         Hindustan Zinc Limited                                     
+                         Yashad Bhawan, Swaroop                                     
+                         Sagar Udaipur BHILWARA                                     
+                         RAJASTHAN                                                  
+                         Phone: [phone removed]                                        
+                         FAX  : [phone removed]                                        
+          Agent       :  Shri Vinod Kumar                                           
+                         Rampura-Agucha Lead-Zinc                                   
+                         Mine Agucha, Bhilwara,                                     
+                         Rajasthan BHILWARA                                         
+                         RAJASTHAN                                                  
+                         Phone: [phone removed]                                        
+                         FAX  : [phone removed]                                        
+          Mining Engineer                                                           
+          Name        :  Shri Vinod Saini,Full Time                                 
+          Qualification : BE Mining                                                 
+          Appointment/ : 11-MAR-24                                                  
+          Termination date                                                          
+          Geologist                                                                 
+          Name        :  Ranjan Gupta,Full Time                                     
+          Qualification : MSc (Tech) Geology                                        
+          Appointment/ : 01-MAY-17                                                  
+          Termination date                                                          
+                                                                                    
+          Manager                                                                   
+          Name        :  Shri Basant Kishore Mahanta                                
+          Qualification : BE Mining                                                 
+          Appointment/ : 09-APR-24                                                  
+          Termination date                                                          
+                                                                                    
+  6. Date of approval of Mining : Existing rule 11 MCDR1988     25-JAN-93           
+     Plan/Scheme of Mining        Mining Scheme rule 12 MCDR1988 15-MAY-97          
+                                  Mining Scheme rule 12 MCDR1988 06-JUN-01          
+                                  Modif.approved Mining Scheme  29-JUL-03           
+                                  Modif.approved Mining Scheme  17-SEP-03           
+                                  Mining Scheme rule 12 MCDR1988 27-FEB-06          
+                                  Modif.approved Mining Scheme  02-NOV-06           
+                                  Modif.of approved Mining Plan 04-MAY-09           
+                                  Mining Scheme rule 12 MCDR1988 11-JUL-12          
+                                  Modif.approved Mining Scheme  28-JUN-13           
+                                  Modif.approved Mining Scheme  09-APR-15           
+                                  MP review under 17(1) MCR 2016 22-FEB-17          
+                                  MP modif under 17(3) MCR 2016 27-MAR-18           
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                   PAGE : 3         
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                PART - II  :  OBSERVATION/COMMENTS OF INSPECTING OFFICERS           
+                                                                                    
+      Exploration :                                                                 
+                                                                                    
+     Sl.No. Item          Proposals    Actual work          Remarks                 
+                                                                                    
+      1a    Backlog of     During the   During the previous year No backlog of      
+            previous year  previous year 2022-23, a total of 231 exploration in     
+                           2022-23, a   BHs with 44168 mts of previous year         
+                           total of 135 drilling was carried 2022-23.               
+                           BHs with     out.                                        
+                           37500 mts of                                             
+                           drilling was                                             
+                           proposed.                                                
+      1b    Exploration over During the During the reporting Nil                    
+            lease area for reporting    year (RY) 2023-24, a                        
+            geological axis 1 year (RY) total of 265 BHs with                       
+            or 2           2023-24, a   47811 mts of drilling                       
+                           total of 96  was carried out.                            
+                           BHs with                                                 
+                           35000 mts of                                             
+                           drilling was                                             
+                           proposed.                                                
+      1c    Exploration    No proposal  Exploration agency: (1) Nil                 
+            Agencies and   of           Mining Associate Pvt.                       
+            Expenditure in exploration  Ltd., Asansol, WB and                       
+            lakh rupees    agency and   (2) TDMA Pvt Ltd. Shop                      
+            during the year expenditure. no 10-11, Sector 14                        
+                                        Market, Old Delhi Road,                     
+                                        Gurgaon-122011, Haryana,                    
+                                        Total Expenditure - Rs.                     
+                                        150820782.00                                
+      1d    Balance area to An area of  Exploration was mainly As per approved      
+            be explored to 15.50 hectare carried out as per  document dated         
+            bring Geological of G3 level proposal to upgrade 30/03/2022, entire     
+            axis in 1 or 2 was proposed resource to reserve. mineralized area       
+                           to explore.                       (surface area) of      
+                                                             226.85 hectare has     
+                                                             been explored          
+                                                             under G1+G2 level      
+                                                             of exploration.        
+      1e    Balance reserve Ass per     The position reserve and Nil                
+            as on 01/04/20 approved RMP resource as on                              
+                           dated        01/04/2024 as per                           
+                           30/03/2022,  approved MRMP dated                         
+                           the position 20/05/2024 was 44.35 and                    
+                           of reserve   24.82 million tons                          
+                           and resource respectively.                               
+                           was 42.67 and                                            
+                           34.51 million                                            
+                           tons                                                     
+                           respectively.                                            
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                   PAGE : 4         
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+      1f    General remarks                                  Geologically the       
+            of inspecting                                    area belongs to        
+            officers on                                      the Bhilwara           
+            geology,                                         Supergroup of          
+            exploration etc                                  rocks. At present      
+                                                             exploration is         
+                                                             being carried out      
+                                                             using latest           
+                                                             technologies like      
+                                                             directional            
+                                                             drilling, core         
+                                                             orientation etc.       
+        Development :                                                               
+                                                                                    
+      Sl.No.  Item          Propasals  Actual work           Remarks                
+                                                                                    
+       2a   Location of   A total of  A total of 31691 mts of Violation of rule     
+            development   40345 mts of lateral & vertical    11(1) of MCDR,         
+            w.r.t.lease area lateral & development carried out 2017 issued for      
+                          vertical    during the RY at       shortfall in           
+                          development at different levels.   development.           
+                          different                                                 
+                          levels have                                               
+                          been proposed.                                            
+       2b   Separate benches No proposal Not applicable.     Nil                    
+            in topsoil,   being an                                                  
+            overburden and underground                                              
+            minerals (Rule mine.                                                    
+            15)                                                                     
+       2c   Stripping ratio No proposal Not applicable.      Nil                    
+            or ore to OB  being an                                                  
+            ratio         underground                                               
+                          mine.                                                     
+       2d   Quantity of   No proposal Not applicable.        Nil                    
+            topsoil       being an                                                  
+            generation in m3 underground                                            
+                          mine.                                                     
+       2e   Quantity of   No proposal of A total of 768299.00 CuM Low waste         
+            overburden    OB generation. of waste has been   generation in          
+            generation in m3 However, a generated through UG account of less        
+                          quantity of development during RY. development for        
+                          862819 CuM of                      which the              
+                          waste                              violation of rule      
+                          generation has                     11(1) of MCDR,         
+                          been proposed                      2017 issued.           
+                          through UG                                                
+                          development.                                              
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                   PAGE : 5         
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       2f   General remarks                                  Initially the mine     
+            of inspecting                                    was developed          
+            officers on                                      through open pit       
+            development of                                   and the same was       
+            pit w.r.t. type                                  in working upto        
+            of deposit etc                                   the year 2018. Now     
+                                                             the development is     
+                                                             being carried          
+                                                             through U/g method     
+                                                             which is best          
+                                                             suitable method as     
+                                                             the mineral zone       
+                                                             is occurring at        
+                                                             depth. Violation       
+                                                             of rule 11(1) of       
+                                                             MCDR, 2017 issued      
+                                                             for shortfall in       
+                                                             development.           
+        Exploitation:                                                               
+      Sl.No.  Item          Propasals   Actual work           Remarks               
+        3a  Number of pit  The mining  One open pit exists in Nil                   
+            proposed for   operations are the lease area, but no                    
+            production     proposed    mineral production                           
+                           through U/g through open pit during                      
+                           method.     RY. Entire mineral                           
+                                       production through U/g                       
+                                       during RY.                                   
+        3b  Quantity of ROM Year 2023-24: Year 2023-24: 4930757 Less production in  
+            mineral        6150000 MT. MT.                   account of less        
+            production                                       development.           
+            proposed                                                                
+        3c  Recovery of    Entire ROM is Entire ROM is used for Nil                 
+            sailable/usable proposed to beneficiation, hence the                    
+            mineral from ROM use for   recovery was 100%.                           
+            production     beneficiation                                            
+                           i.e. recovery                                            
+                           is 100%.                                                 
+        3d  Quantity of    No proposal of No mineral reject  Mill tailing of        
+            mineral reject mineral reject generation.        4356884.00 tons        
+            generation     (MR)                              have been              
+                           generation                        generated during       
+                           during RY.                        RY.                    
+        3e  Grade of mineral No proposal of Not applicable as no MR Nil             
+            rejects        mineral reject generation during RY.                     
+            generation and (MR)                                                     
+            threshold value generation                                              
+            declared.      during RY and                                            
+                           threshold                                                
+                           value is also                                            
+                           not declared                                             
+                           for the Pb-Zn                                            
+                           minerals.                                                
+
+                                                                                    
+                                                                   PAGE : 6         
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+        3f  Quantity of sub No proposal of Not applicable as no Nil                 
+            grade mineral  Sub-grade   sub-grade mineral                            
+            generation.    generation. generation during RY.                        
+        3g  Grade of sub   No proposal of Not applicable as no Nil                  
+            grade mineral  Sub-grade   sub-grade mineral                            
+            generation     generation. generation during RY.                        
+        3h  Manual /       No proposal of Entire ROM is being fed Nil               
+            Mechanised     ROM         to the mineral                               
+            method adopted segregation as processing plant located                  
+            for segregating entire ROM is within lease area.                        
+            from ROM       feedable to                                              
+                           mineral                                                  
+                           processing                                               
+                           plant.                                                   
+        3i  Any analysis or No proposal of Beneficiation of entire Nil              
+            beneficiation  any fresh   ROM is being carried out                     
+            study proposed beneficiation in existing                                
+            and carried out study.     beneficiation plant.                         
+            for sub grade  Beneficiation                                            
+            mineral and    facility of                                              
+            rejects.       6.5 MTPA is                                              
+                           exists within                                            
+                           lease area.                                              
+        3j  Provision of   No proposal of Not applicable.    Nil                    
+            drilling and   drilling &                                               
+            blasting in    blasting in                                              
+            mineral benches mineral                                                 
+                           benches being                                            
+                           an underground                                           
+                           mine.                                                    
+        3k  Provision of   No provision Not applicable.      Nil                    
+            mining         of mining                                                
+            machineries in machineries in                                           
+            mineral benches mineral                                                 
+                           benches being                                            
+                           an underground                                           
+                           mine.                                                    
+        3l  Whether height Not applicable Not applicable.    Nil                    
+            of benches in  being                                                    
+            overburden and production                                               
+            mineral suitable proposal from                                          
+            for method of  U/g.                                                     
+            mining proposed                                                         
+            in MP/SOM                                                               
+        3m  Total area     Year 2023-24: Year 2023-24: 180.13 Ha Nil                
+            covered under  180.13 Ha                                                
+            excavation/pits                                                         
+        3n  Ore to OB ratio No proposal of Not applicable.   Nil                    
+            for the pit/mine Ore to OB                                              
+            during the year. ratio being                                            
+                           production                                               
+                           proposal from                                            
+                           U/g.                                                     
+
+                                                                                    
+                                                                   PAGE : 7         
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+        3o  Total area put A total of  As per annual return for Violation of rule   
+            in use under   1034.28     the year 2023-24, a   11(1) of MCDR,         
+            different heads hectare area total of 1182.02 hectare 2017 issued for   
+            at the end of  has been    area has been put in use deviation in the    
+            year           proposed put under different heads at land use area.     
+                           in use under the end of the year                         
+                           different   2023-24.                                     
+                           heads at the                                             
+                           end of the                                               
+                           year 2023-24.                                            
+        3p  Production of  2019-20:    2019-12: 3940098      All figures in         
+            ROM mineral    6000000     2020-21: 4271819      tons.                  
+            during the last 2020-21:   2021-22: 4511121                             
+            five year period 6000000   2022-23: 4795130                             
+            as applicable  2021-22:    2023-24: 4930757                             
+                           6000000                                                  
+                           2022-23:                                                 
+                           6150000                                                  
+                           2023-24:                                                 
+                           6150000                                                  
+        3q  General remarks                                  Modern and             
+            of inspecting                                    scientific mining      
+            officers on                                      methods are in         
+            method of mining                                 practice for           
+             etc.                                            optimal                
+                                                             exploitation of        
+                                                             mineral wealth.        
+                                                             Latest                 
+                                                             technologies and       
+                                                             machineries are        
+                                                             being deployed.        
+                                                             The method of          
+                                                             stoping is "Long       
+                                                             Hole open Stoping      
+                                                             and its variants       
+                                                             with back filling"     
+                                                             which is best          
+                                                             suitable method        
+                                                             for the type of        
+                                                             the deposit.           
+        Solid Waste Management - Dumping:                                           
+      Sl.No.  Item          Propasals   Actual work           Remarks               
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                   PAGE : 8         
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       4a     Separate dumping No proposal of No top soil, MR and OB No top soil and OB
+              of topsoil, OB top soil, MR generation during RY. generation as       
+              and mineral   and OB      However, the waste      mining operations   
+              rejects (Rule generation. generated through U/g   are being carried   
+              32,33)        Waste       development was used for out through U/g.   
+                            generated   height raising of                           
+                            through U/g tailing dam.                                
+                            development                                             
+                            proposed to                                             
+                            use in height                                           
+                            raising of                                              
+                            tailing dam.                                            
+       4b     Location of   No proposal of Not applicable as no top Nil             
+              topsoil, OB and top soil, OB soil, OB and MR                          
+              mineral reject and MR     generation during RY.                       
+              dumps         dumping/stacki                                          
+                            ng.                                                     
+       4c     Number of dumps Inside Lease Inside Lease area- One Nil               
+              within lease  area- One   Outside lease area: NIL                     
+              area and outside Outside lease                                        
+              of lease area area: NIL                                               
+       4d     Location of   Existing waste Existing waste dump  Nil                 
+              dumps w.r.t.  dump outside outside UPL.                               
+              ultimate pit  UPL.                                                    
+              limit (Rule 16)                                                       
+       4e     Number of active No proposal of There exists one waste Nil            
+              and alive dumps. waste dumping. dump in lease area. The               
+                            However, waste waste generated through                  
+                            generated   U/g development was used                    
+                            through U/g for height raising of                       
+                            development tailing dam.                                
+                            proposed to                                             
+                            use in height                                           
+                            raising of                                              
+                            tailing dam.                                            
+       4f     Number of dead No proposal. Not applicable.       Nil                 
+              dumps.                                                                
+       4g     Number of dumps Existing dump Part of different lifts Nil             
+              established.  top and slopes of existing dump has                     
+                            are to be   been stabilized with                        
+                            stabilized  plantation and geo-                         
+                            with        textile.                                    
+                            plantation and                                          
+                            geo-textile.                                            
+       4h     Whether       Garland drain Previously constructed Nil                
+              Retaining wall all along  Garland and Retaining                       
+              or garland drain dumps.   wall around the waste                       
+              all along dumps           dump is being maintained                    
+              are there.                on regular basis.                           
+       4i     Length of     No proposal Previously constructed  Nil                 
+              Retaining wall during the RY. Garland and Retaining                   
+              or garland drain          wall around the waste                       
+              all along dumps           dump is being maintained                    
+                                        on regular basis.                           
+
+                                                                                    
+                                                                   PAGE : 9         
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       4j     Number of     No proposal Not applicable as no    Nil                 
+              settling ponds            proposal. Previously                        
+                                        constructed setting                         
+                                        ponds are being                             
+                                        maintained.                                 
+       4k     Specific                                          Part of the         
+              comments of                                       existing waste      
+              inspecting                                        dump has been       
+              officer on waste                                  stabilized and      
+              dump management                                   rehabilitated with  
+                                                                plantation. Solar   
+                                                                plan has also       
+                                                                installed on the    
+                                                                top of the dump.    
+                                                                No issue related    
+                                                                to waste dumping.   
+        Solid Waste Management - Backfilling:                                       
+      Sl.No.  Item          Propasals   Actual work           Remarks               
+                                                                                    
+       5a    Status of part No proposal. Not applicable.      Nil                   
+             or full                                                                
+             extraction of                                                          
+             mineral from                                                           
+             mined out area                                                         
+             before starting                                                        
+             backfilling.                                                           
+       5b    Area under    Tailing      Tailing quantity of   Violation of rule     
+             backfilling of quantity of 1391519 tons was      11(1) of MCDR,        
+             mined out area 2318494 tons backfilled in stope out 2017 issued for    
+                           was proposed area during RY.       deviation in          
+                           to backfill in                     backfilling           
+                           stope out                          quantity.             
+                           area.                                                    
+       5c    Concurrent use No proposal of No top soil has been Nil                 
+             of topsoil for top soil    generated during the RY.                    
+             restoration or generation                                              
+             rehabilitation during RY.                                              
+             of mineral out                                                         
+             area (Rule 32)                                                         
+       5d    Total area    No proposal of No pi area is reclaimed As per approved   
+             fully reclaimed full       and rehabilitated. Part MRMP dated          
+             and           reclamation  of the matured waste  20/05/2024 an area    
+             rehabilitated and          dump area has been    of 94 hectare of      
+                           rehabilitation rehabilitated by soil waste dump has      
+                           of mine out  capping, plantation and been rehabilitated  
+                           pit.         geo textile.          upto 2023-24.         
+       5e    General remarks                                  No issue related      
+             of inspecting                                    to the backfilling    
+             officers on                                      and reclamation.      
+             backfilling and                                                        
+             reclamation etc.                                                       
+
+                                                                                    
+                                                                   PAGE : 10        
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+         Progressive Mine Clousre Plan:                                             
+                                                                                    
+      Sl.No.  Item          Propasals   Actual work           Remarks               
+                                                                                    
+       6a    Whether Annual As per rule The PMCP report has been Show-cause notice  
+             report on PMCP 26(2) of    uploaded in AR for the issued for           
+             submitted on  MCDR,2017    year 2023-24. On      violation of rule     
+             time and      holder of    examination of PMCP   45(7) for wrong       
+             correctly. Rule mining lease report it is observed and false           
+             23 E(2).      shall submit that an area of 155   information under     
+                           PMCP before  hectare has been      AR for the year       
+                           1st day of   furnished as          20203-24.             
+                           July every   rehabilitated, whereas                      
+                           year.        in approved MRP dated                       
+                                        20/05/2024 same has been                    
+                                        furnished as 94                             
+                                        hectares.                                   
+       6b    Area available No proposal. None.                Nil                   
+             for                                                                    
+             rehabilitation                                                         
+             (ha) .                                                                 
+       6c    afforestation Gap filling  During RY 20203-24 an Nil                   
+             done (ha).    plantation   area of 15 hectare with                     
+                           over 15      23000 number of saplings                    
+                           hectare with has been covered under                      
+                           15000 number plantation over existing                    
+                           of saplings  waste dump.                                 
+                           has been                                                 
+                           proposed over                                            
+                           existing waste                                           
+                           dump.                                                    
+       6d    No. of saplings 15000 numbers. 23000 numbers.    Nil                   
+             planted during                                                         
+             the year                                                               
+       6e    Cumulative no No proposal. As per PMCP report for Nil                  
+             .of plants                 the year 2023-24,                           
+                                        cumulatively 745250                         
+                                        number of plants have                       
+                                        been planted at the end                     
+                                        of the FY 20203-24.                         
+       6f    Any other method Waste dump Wate dump area of 2.50 Nil                 
+             of            area of 2.0  hectare was covered                         
+             rehabilitation hectare was under Geo-textile during                    
+                           proposed to  RY.                                         
+                           cover under                                              
+                           Geo-textile                                              
+                           during RY.                                               
+       6g    Cost incurred on 60 lacs for 75.0 lacs during RY. Nil                  
+             watch and care plantation.                                             
+             during the year                                                        
+       6h    Compliance on Tailing      Tailing quantity of   Violation of rule     
+             reclamation and quantity of 1391519 tons was     11(1) of MCDR,        
+             rehabilitation 2318494 tons backfilled in stope out 2017 issued for    
+             by backfilling was proposed area during RY.      deviation in          
+             (i) Voids     to backfill in                     backfilling           
+             available for stope out                          quantity.             
+             backfilling ( Lx area.                                                 
+             B x D                                                                  
+
+                                                                                    
+                                                                   PAGE : 11        
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       6i    Compliance on Tailing      Tailing quantity of   Violation of rule     
+             reclamation and quantity of 1391519 tons was     11(1) of MCDR,        
+             rehabilitation 2318494 tons backfilled in stope out 2017 issued for    
+             by backfilling was proposed area during RY.      deviation in          
+             (ii) Voids    to backfill in                     backfilling           
+             filled by waste stope out                        quantity.             
+             / tailings    area.                                                    
+       6j    Compliance on No proposal. Not applicable.       Nil                   
+             reclamation and                                                        
+             rehabilitation                                                         
+             by backfilling                                                         
+             (iii)Afforestati                                                       
+             on on backfilled                                                       
+             area                                                                   
+       6k    Compliance on No proposal. Not applicable.       Nil                   
+             reclamation and                                                        
+             rehabilitation                                                         
+             by backfilling                                                         
+             (iv)                                                                   
+             Rehabilitation                                                         
+             by making water                                                        
+             reservoir                                                              
+       6l    Compliance on No proposal. Not applicable.       Nil                   
+             reclamation and                                                        
+             rehabilitation                                                         
+             by backfilling                                                         
+             (v)any other                                                           
+             specific means.                                                        
+       6m    Compliance of Gap filling  During RY 20203-24 an Nil                   
+             rehabilitation plantation  area of 15 hectare with                     
+             of waste land over 15      23000 number of saplings                    
+             within lease  hectare with has been covered under                      
+             (i)afforestation 15000 number plantation over existing                 
+                           of saplings  waste dump.                                 
+                           has been                                                 
+                           proposed over                                            
+                           existing waste                                           
+                           dump.                                                    
+       6n    Compliance of 15 hectare of 15 hectare of waste  Nil                   
+             rehabilitation waste dump. dump.                                       
+             of waste land                                                          
+             within lease                                                           
+             (ii)Area                                                               
+             rehabilitation                                                         
+             (ha)                                                                   
+       6o    Compliance of Plantation and Plantation and      Nil                   
+             rehabilitation Geotextile. Geotextile.                                 
+             of waste land                                                          
+             within lease                                                           
+             (iii)Method of                                                         
+             rehabilitation                                                         
+       6p    Compliance of Environment  Environment monitoring Nil                  
+             environmental monitoring   was carried out as per                      
+             monitoring (core stations have proposal and parameters                 
+             zone and buffer been proposed are fond within                          
+             zone)         in buffer and prescribed limit.                          
+                           core zone.                                               
+
+                                                                                    
+                                                                   PAGE : 12        
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       6q    General remarks                                  The PMCP              
+             of inspecting                                    compliance is         
+             officers on PMCP                                 satisfactory.         
+             compliance and                                   However, area of      
+             progressive                                      rehabilitation has    
+             closure                                          not furnished         
+             operations etc.                                  properly, for         
+                                                              which violation of    
+                                                              rule 45(7) of MCDR    
+                                                              issued.               
+         Mineral Conservation:                                                      
+                                                                                    
+      Sl.No.  Item          Propasals   Actual work           Remarks               
+                                                                                    
+       7a    ROM Mineral   Entire ROM   Entire ROM dispatched to Nil                
+             dispatch or   dispatch to  captive beneficiation                       
+             grade-wise    captive      plant located within                        
+             sorting within beneficiation lease area and no grade                   
+             lease area    plant and no wise sorting during RY.                     
+                           proposal for                                             
+                           grade wise                                               
+                           sorting.                                                 
+       7b    Method of grade- No proposal of Not applicable.  Nil                   
+             wise mineral  grade wise                                               
+             sorting i.e.  sorting.                                                 
+             manual or                                                              
+             mechanical.                                                            
+       7c    Different grade No proposal of Not applicable.   Nil                   
+             of mineral    grade wise                                               
+             sorted out at sorting.                                                 
+             mines.                                                                 
+       7d    Any           Beneficiation Beneficiation of ROM is Nil                
+             beneficiation plant of 6.5 being carried out as per                    
+             process at mines MTPA has been proposal.                               
+             .             installed. The                                           
+                           process                                                  
+                           includes                                                 
+                           crushing,                                                
+                           grinding,                                                
+                           classification                                           
+                           , differential                                           
+                           floatation of                                            
+                           lead & zinc                                              
+                           where the lead                                           
+                           is floated                                               
+                           initially,                                               
+                           followed by                                              
+                           zinc                                                     
+                           floatation.                                              
+                                                                                    
+
+                                                                                    
+                                                                   PAGE : 13        
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       7e    General remarks                                  No issue related      
+             of inspecting                                    to the Mineral        
+             officer on                                       conservation &        
+             Mineral                                          beneficiation as      
+             conservation and                                 the entire ROM is     
+             beneficiation                                    usable and            
+             issues                                           feedable to the       
+                                                              beneficiation         
+                                                              plant.                
+                                                                                    
+       Environment:                                                                 
+      Sl.No.  Item          Propasals   Actual work           Remarks               
+                                                                                    
+                                                                                    
+       8a    Separate removal No proposal of No generation of soil Nil              
+             and utilization top soil   during the RY.                              
+             of topsoil (Rule generation                                            
+             32)           during 2023-                                             
+                           24.                                                      
+       8b    Concurrent use No proposal of No generation of soil Nil                
+             or storage of top soil     during the RY.                              
+             topsoil       generation                                               
+                           during 2023-                                             
+                           24.                                                      
+       8c    Separate dumps Yes, proposal Waste and tailing has Waste material      
+             for overburden, of separate been disposed        used for tailing      
+             waste rock,   disposal has separately.           dam height raising    
+             rejects and   been given for                     and tailing           
+             fines (Rule 33) waste and mill                   disposed in           
+                           tailing.                           tailing dam.          
+       8d    Use of        Mill tailings Mill tailing utilized Nil                  
+             overburden,   proposed to  for backfilling of                          
+             waste rock,   utilized for stoped out area.                            
+             rejects and   backfilling of                                           
+             fines dumps for stoped out                                             
+             restoring the area.                                                    
+             land to its                                                            
+             original use                                                           
+       8e    Phased        Gap filling  During RY 20203-24 an Nil                   
+             restoration,  plantation   area of 15 hectare with                     
+             reclamation and over 15    23000 number of saplings                    
+             rehabilitation hectare with has been covered under                     
+             of lands      15000 number plantation over existing                    
+             affected by   of saplings  waste dump.                                 
+             mining        has been                                                 
+             operations    proposed over                                            
+             (Pits, dumps  existing waste                                           
+             etc)          dump.                                                    
+       8f    Baseline      A total of   A total of 23000 number Nil                 
+             information on 15000 number of saplings has been                       
+             existence of  of saplings  covered under plantation                    
+             plantation and has been    over existing waste                         
+             additional    proposed over dump.                                      
+             plantation done existing waste                                         
+             (Rule 41)     dump.                                                    
+
+                                                                                    
+                                                                   PAGE : 14        
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       8g    Survival rate 95%          95%                   Nil                   
+                                                                                    
+       8h    Water sprinkling Effective Water sprinkling has  Nil                   
+             on roads to   water        been observed over haul                     
+             control airborne sprinkling to road to control airborne                
+             dust          be done to   dust due to mining                          
+                           control      activity.                                   
+                           airborne dust.                                           
+       8i    General remarks                                  The aesthetic         
+             of inspecting                                    beauty in and         
+             officer on                                       around mine area      
+             aesthetic beauty                                 is satisfactory.      
+             in and around                                                          
+             mines area                                                             
+        Compliance of Rule 45:                                                      
+      Sl.No.  Item          Propasals   Actual work           Remarks               
+                                                                                    
+       9a    Status of     As per rule 45 Monthly and annual  Nil                   
+             submission of of MCDR, 2017 return for the RY as per                   
+             Monthly and   monthly and  rule 45 of MCDR, 2017                       
+             Annual returns annual return has been submitted.                       
+                           shall be                                                 
+                           submitted to                                             
+                           RCOM.                                                    
+       9b    Scrutiny of   Mining       Mining Engineer,      Nil                   
+             Annual return Engineer-    Geologist and Mine                          
+             for information Nirmalendu manager has been                            
+             on Mining     Kumar        appointed in the mine.                      
+             Engineer,     Geologist-                                               
+             Geologist and Ranjan Gupta                                             
+             Manager       Mine Manager-                                            
+                           Sachin M                                                 
+                           Desmukh                                                  
+       9c    Scrutiny of   Area under O/C As per approved MRMP Violation of rule    
+             Annual return on mining -180.13 dated 20/05/2024 an area 45(7) of MCDR,
+             land use pattern Ha,       of 94 hectare has been 2017 issued for      
+             for area under Reclaimed/Reha furnished under    the deviation in      
+             pits, reclaimed bilitated - rehabilitation. Whereas rehabilitated      
+             area, dumps etc. 155 Ha, Waste same has been furnished area.           
+                           disposal-    155 hectare in AR.                          
+                           303.89 Ha,                                               
+                           Infrastructure                                           
+                           - 337.44 Ha,                                             
+                           Tailing pond -                                           
+                           206.45 Ha,                                               
+                           Work done                                                
+                           under PMCP                                               
+                           during the                                               
+                           year - 15 Ha.                                            
+                                                                                    
+
+                                                                                    
+                                                                   PAGE : 15        
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       9d    Scrutiny of   Plantation   Found in order.       Nil                   
+             Annual return on within Lease-                                         
+             afforestation 23000 nos.                                               
+                           Plantation                                               
+                           Outside Lease-                                           
+                           Nil                                                      
+       9e    Scrutiny of   Mineral      No mineral reject     Mill tailing of       
+             Annual return on Reject: NIL generation.         4356884.00 tons       
+             mineral reject                                   (RA+kayad mine)       
+             generation                                       has been generated    
+             (Grade and                                       during the RY.        
+             quantity)                                                              
+       9f    Scrutiny of   ROM closing  The details furnished in Nil                
+             Annual return on stock: 36185 the AR appears in order.                 
+             ROM stock and/or tons.                                                 
+             graded ore    Lead                                                     
+                           concentrate                                              
+                           closing stock:                                           
+                           8407.80 tons.                                            
+                           Zinc                                                     
+                           concentrate                                              
+                           closing stock:                                           
+                           28753.68 tons.                                           
+       9g    Scrutiny of   Ex Mine Price- On examination of annual Violation of rule
+             Annual return on Rs. 9635.28 return it is observed 45(7) of MCDR,      
+             sale value, Ex. Production that cost of production 2017 issued for     
+             Mine price and cost- Rs.   is not furnished      the deviation in      
+             production cost 9635.28    correctly.            cost of               
+                                                              production.           
+       9h    Scrutiny of   The value of The details furnished in Nil                
+             Annual return on fixed asset the AR appears in order.                  
+             fixed assets  furnished in                                             
+                           AR is Rs.                                                
+                           46165568142.00                                           
+                           .                                                        
+       9k    Scrutiny of   Back hoe,    The information of    Nil                   
+             Annual return on Dumper, Water mining machinery                        
+             mining        tanker, Motor furnished appears in                       
+             machineries   Grader, Dozer, order.                                    
+                           Crane, LHD,                                              
+                           LPDT, Rock                                               
+                           drill, Blast                                             
+                           hole drill,                                              
+                           Wheel Loader                                             
+                           etc.                                                     
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                   PAGE : 16        
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       Details of violations observed during current inspection and compliance position of
+       violation pointed out                                                        
+                                                                                    
+                Violation observed                  Show couse position             
+         Rule NO.        Issued on Compliance on Rule NO.  Issued on Compliance on  
+                                                                                    
+       MCDR17 Rule 11(1) 25-JUL-24                                                  
+                                                                                    
+       MCDR17 Rule 31(4) 25-JUL-24                                                  
+                                                                                    
+       MCDR17 Rule 45(7)(a)25-JUL-24                                                
+                                                                                    
+      Date :                                                                        
+                                                          (DILIP JAIN)              
+                                                      Indian Bureau of Mines        
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    

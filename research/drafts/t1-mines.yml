@@ -1,0 +1,1588 @@
+- aliases: []
+  layer: mines
+  stages:
+  - Mining
+  minerals:
+  - Cadmium
+  commodity_as_stated: lead & zinc ore (cadmium recovered at smelters)
+  products:
+  - Zinc and lead concentrate
+  operator: Hindustan Zinc Ltd
+  operator_type: Listed private
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Rampura Agucha
+    district: Bhilwara
+    state: Rajasthan
+    country: India
+    lat: 25.84182
+    lon: 74.75449
+    precision: town
+    geometry: null
+  status: Operational
+  status_as_of: 2025-01
+  status_detail: Underground; 5 million tpy of lead-zinc ore
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: 5
+      unit: million tpy
+      basis: lead and zinc ore
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: Not applicable
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '1981-02-05'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: '1981-02-05'
+    closed: null
+  milestones:
+  - date: '1981-02-05'
+    event: Mine first opened (IBM record)
+    source_id: ibm-ram-2024
+  narrative:
+    significance: null
+    what_it_does: The world's largest zinc mine by output; its concentrate carries the cadmium that HZL's smelters
+      recover.
+    why_it_matters: null
+  related:
+  - hzl-chanderiya-smelter
+  - hzl-debari-smelter
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-24'
+  notes: Recorded as a cadmium stream under D-003; zinc, lead and silver are not on the canonical list.
+  id: hzl-rampura-agucha-mine
+  name: Rampura Agucha zinc-lead mine (cadmium-bearing)
+  sources:
+  - id: imyb-2023
+    url: https://ibm.gov.in/writereaddata/files/17454767536809dc9139ba8IMYB_BOOK_2023.pdf
+    title: Indian Minerals Yearbook 2023 (62nd edition)
+    publisher: Indian Bureau of Mines, Ministry of Mines
+    tier: T1
+    date: 2025-01
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - capacity.installed
+    - location
+    - operator
+    - dates.first_public
+  - id: ibm-ram-2024
+    url: https://ibm.gov.in/writereaddata/files/1745770900680e599440b46RA_HZL_2425_20JUN24.PDF
+    title: 'IBM inspection report (MCDR): Rampura Agucha mine, Hindustan Zinc (2024-25)'
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: '2024-06-20'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.commissioned
+    - milestones
+- aliases: []
+  layer: mines
+  stages:
+  - Mining
+  minerals:
+  - Cadmium
+  commodity_as_stated: lead & zinc ore
+  products:
+  - Zinc and lead concentrate
+  operator: Hindustan Zinc Ltd
+  operator_type: Listed private
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Dariba
+    district: Rajsamand
+    state: Rajasthan
+    country: India
+    lat: 24.95431
+    lon: 74.13236
+    precision: town
+    geometry: null
+  status: Operational
+  status_as_of: 2025-01
+  status_detail: null
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: 1.25
+      unit: million tpy
+      basis: lead and zinc ore
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '1970-12-28'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: '1970-12-28'
+    closed: null
+  milestones:
+  - date: '1970-12-28'
+    event: Mine first opened (IBM record)
+    source_id: ibm-rdm-2024
+  narrative:
+    significance: null
+    what_it_does: An underground zinc-lead mine beside HZL's Dariba smelting complex.
+    why_it_matters: null
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-24'
+  notes: null
+  id: hzl-rajpura-dariba-mine
+  name: Rajpura Dariba zinc-lead mine (cadmium-bearing)
+  sources:
+  - id: imyb-2023
+    url: https://ibm.gov.in/writereaddata/files/17454767536809dc9139ba8IMYB_BOOK_2023.pdf
+    title: Indian Minerals Yearbook 2023 (62nd edition)
+    publisher: Indian Bureau of Mines, Ministry of Mines
+    tier: T1
+    date: 2025-01
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - capacity.installed
+    - location
+    - operator
+    - dates.first_public
+  - id: ibm-rdm-2024
+    url: https://www.ibm.gov.in/writereaddata/files/1745770925680e59adbe529RD_HZL_2425_09OCT24.PDF
+    title: 'IBM inspection report (MCDR): Rajpura Dariba mine, Hindustan Zinc (2024-25)'
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: '2024-10-09'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.commissioned
+    - milestones
+- aliases: []
+  layer: mines
+  stages:
+  - Mining
+  minerals:
+  - Cadmium
+  commodity_as_stated: lead & zinc ore
+  products:
+  - Zinc and lead concentrate
+  operator: Hindustan Zinc Ltd
+  operator_type: Listed private
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Sindesar Khurd
+    district: Rajsamand
+    state: Rajasthan
+    country: India
+    lat: 24.9989
+    lon: 74.14301
+    precision: town
+    geometry: null
+  status: Operational
+  status_as_of: 2025-01
+  status_detail: Highly mechanised underground mine, 6 million tpy
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: 6
+      unit: million tpy
+      basis: lead and zinc ore
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '2000-08-09'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: '2000-08-09'
+    closed: null
+  milestones:
+  - date: '2000-08-09'
+    event: Mine first opened (IBM record)
+    source_id: ibm-skm-2024
+  narrative:
+    significance: null
+    what_it_does: Hindustan Zinc's largest underground ore producer, in Rajsamand district.
+    why_it_matters: null
+  related: []
+  see_also: []
+  confidence: medium
+  last_verified: '2026-10-24'
+  notes: IBM's text attributes the 6 million tpy 'largest ore producing underground mine' line to the sentence after
+    Sindesar Khurd; the two-column layout makes the pairing an inference.
+  id: hzl-sindesar-khurd-mine
+  name: Sindesar Khurd zinc-lead mine (cadmium-bearing)
+  sources:
+  - id: imyb-2023
+    url: https://ibm.gov.in/writereaddata/files/17454767536809dc9139ba8IMYB_BOOK_2023.pdf
+    title: Indian Minerals Yearbook 2023 (62nd edition)
+    publisher: Indian Bureau of Mines, Ministry of Mines
+    tier: T1
+    date: 2025-01
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - capacity.installed
+    - location
+    - operator
+    - dates.first_public
+  - id: ibm-skm-2024
+    url: https://ibm.gov.in/writereaddata/files/1715450999663fb47739ce1mcdr_20223_SKM_HZL_12JAN24.PDF
+    title: 'IBM inspection report (MCDR): Sindesar Khurd mine, Hindustan Zinc'
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: '2024-01-12'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.commissioned
+    - milestones
+- aliases:
+  - Mochia, Balaria, Zawarmala and Baroi mines
+  layer: mines
+  stages:
+  - Mining
+  minerals:
+  - Cadmium
+  commodity_as_stated: lead & zinc ore
+  products:
+  - Zinc and lead concentrate
+  operator: Hindustan Zinc Ltd
+  operator_type: Listed private
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Zawar
+    district: Udaipur
+    state: Rajasthan
+    country: India
+    lat: 24.35494
+    lon: 73.7349
+    precision: town
+    geometry: null
+  status: Operational
+  status_as_of: 2025-01
+  status_detail: Four underground mines (Mochia, Balaria, Zawarmala, Baroi), 4.41 million tpy
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: 4.41
+      unit: million tpy
+      basis: lead and zinc ore
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '1950-04-01'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: '1950-04-01'
+    closed: null
+  milestones:
+  - date: '1950-04-01'
+    event: Zawarmala mine first opened (IBM record)
+    source_id: ibm-zawarmala-2024
+  - date: '1955-04-01'
+    event: Mochia mine first opened (IBM record)
+    source_id: ibm-mochia-2023
+  - date: '1973-12-01'
+    event: Baroi mine first opened (IBM record)
+    source_id: ibm-baroi-2024
+  narrative:
+    significance: null
+    what_it_does: A cluster of four underground zinc-lead mines, among India's oldest, south of Udaipur.
+    why_it_matters: null
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-24'
+  notes: Zawar now falls in Salumbar district (created 2023); IBM gives Udaipur.
+  id: hzl-zawar-mines
+  name: Zawar group of zinc-lead mines (cadmium-bearing)
+  sources:
+  - id: imyb-2023
+    url: https://ibm.gov.in/writereaddata/files/17454767536809dc9139ba8IMYB_BOOK_2023.pdf
+    title: Indian Minerals Yearbook 2023 (62nd edition)
+    publisher: Indian Bureau of Mines, Ministry of Mines
+    tier: T1
+    date: 2025-01
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - capacity.installed
+    - location
+    - operator
+    - dates.first_public
+  - id: ibm-zawarmala-2024
+    url: https://ibm.gov.in/writereaddata/files/1745770989680e59ed18260Zawarmala_HZL_2425_11JUL24.PDF
+    title: 'IBM inspection report (MCDR): Zawarmala mine, Hindustan Zinc (2024-25)'
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: '2024-07-11'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.commissioned
+    - milestones
+  - id: ibm-mochia-2023
+    url: https://ibm.gov.in/writereaddata/files/1715499264664071003f47amcdr_2023_Mochia_HZL_24AUG23.PDF
+    title: 'IBM inspection report (MCDR): Mochia mine, Hindustan Zinc'
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: '2023-08-24'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - milestones
+  - id: ibm-baroi-2024
+    url: https://ibm.gov.in/writereaddata/files/171582606666456d9204fa0Baroi_HZL_23JAN24.PDF
+    title: 'IBM inspection report (MCDR): Baroi mine, Hindustan Zinc'
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: '2024-01-23'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - milestones
+- aliases: []
+  layer: mines
+  stages:
+  - Mining
+  minerals:
+  - Cadmium
+  commodity_as_stated: lead & zinc ore
+  products:
+  - Zinc and lead concentrate
+  operator: Hindustan Zinc Ltd
+  operator_type: Listed private
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Kayad
+    district: Ajmer
+    state: Rajasthan
+    country: India
+    lat: 26.53565
+    lon: 74.68626
+    precision: town
+    geometry: null
+  status: Operational
+  status_as_of: 2025-01
+  status_detail: null
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: 0.93
+      unit: million tpy
+      basis: lead and zinc ore
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '1998'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: '1998'
+    closed: null
+  milestones:
+  - date: '1998'
+    event: Mine first opened (IBM record, 12/01/1998)
+    source_id: ibm-kayad-2023
+  narrative:
+    significance: null
+    what_it_does: An underground zinc-lead mine near Ajmer.
+    why_it_matters: null
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-24'
+  notes: null
+  id: hzl-kayad-mine
+  name: Kayad zinc-lead mine (cadmium-bearing)
+  sources:
+  - id: imyb-2023
+    url: https://ibm.gov.in/writereaddata/files/17454767536809dc9139ba8IMYB_BOOK_2023.pdf
+    title: Indian Minerals Yearbook 2023 (62nd edition)
+    publisher: Indian Bureau of Mines, Ministry of Mines
+    tier: T1
+    date: 2025-01
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - capacity.installed
+    - location
+    - operator
+    - dates.first_public
+  - id: ibm-kayad-2023
+    url: https://www.ibm.gov.in/writereaddata/files/1715438892663f852c5299c05092023_Kayad_mcdr.PDF
+    title: 'IBM inspection report (MCDR): Kayad mine, Hindustan Zinc'
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: '2023-09-05'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.commissioned
+    - milestones
+- aliases:
+  - Khetri Copper Complex mine
+  layer: mines
+  stages:
+  - Mining
+  - Beneficiation
+  minerals:
+  - Copper
+  commodity_as_stated: copper ore
+  products:
+  - Copper ore
+  - Copper concentrate
+  operator: Hindustan Copper Ltd
+  operator_type: PSU (Central)
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Khetri
+    district: Jhunjhunu
+    state: Rajasthan
+    country: India
+    lat: 28.00034
+    lon: 75.78413
+    precision: town
+    geometry: null
+  status: Operational
+  status_as_of: '2024-12-18'
+  status_detail: Khetri and Kolihan mines produced 1.23 million t of ore in FY2023-24; KCC concentrator 2.02 million
+    tpy
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: 2.02
+      unit: million tpy
+      basis: KCC concentrator
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '1963-10-15'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: '1963-10-15'
+    closed: null
+  milestones:
+  - date: '1963-10-15'
+    event: Mine first opened (IBM record); developed by NMDC
+    source_id: ibm-khetri-2023
+  - date: '1967'
+    event: Handed over to Hindustan Copper on its formation
+    source_id: hcl-kcc-page
+  narrative:
+    significance: null
+    what_it_does: An underground copper mine feeding Hindustan Copper's Khetri concentrator in Rajasthan.
+    why_it_matters: null
+  related:
+  - hcl-kolihan-mine
+  - hcl-kcc-khetri-smelter
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-24'
+  notes: null
+  id: hcl-khetri-mine
+  name: Khetri copper mine and concentrator
+  sources:
+  - id: ls-usq-3828-2024
+    url: https://sansad.in/getFile/lsapps/loksabhaquestions/annex/183/AU3828_PuCmHU.pdf?source=lsapps
+    title: 'Lok Sabha Unstarred Question 3828: Copper mines under Hindustan Copper Limited'
+    publisher: Lok Sabha Secretariat
+    tier: T1
+    date: '2024-12-18'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - status_detail
+    - operator
+    - location
+    - dates.first_public
+  - id: imyb-2023
+    url: https://ibm.gov.in/writereaddata/files/17454767536809dc9139ba8IMYB_BOOK_2023.pdf
+    title: Indian Minerals Yearbook 2023 (62nd edition)
+    publisher: Indian Bureau of Mines, Ministry of Mines
+    tier: T1
+    date: 2025-01
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - capacity.installed
+  - id: ibm-khetri-2023
+    url: https://ibm.gov.in/writereaddata/files/17157924936644ea6ddd92dmcdr_202223_Khetri_11JUL23.PDF
+    title: 'IBM inspection report (MCDR): Khetri copper mine, Hindustan Copper (2022-23)'
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: '2023-07-11'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.commissioned
+    - milestones
+  - id: hcl-kcc-page
+    url: https://hindustancopper.com/Page/KCCPlant
+    title: Khetri Copper Complex
+    publisher: Hindustan Copper Ltd
+    tier: T2
+    date: null
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - milestones
+- aliases: []
+  layer: mines
+  stages:
+  - Mining
+  minerals:
+  - Copper
+  commodity_as_stated: copper ore
+  products:
+  - Copper ore
+  operator: Hindustan Copper Ltd
+  operator_type: PSU (Central)
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Kolihan
+    district: Jhunjhunu
+    state: Rajasthan
+    country: India
+    lat: 28.0921
+    lon: 75.54986
+    precision: district
+    geometry: null
+  status: Operational
+  status_as_of: '2024-12-18'
+  status_detail: null
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '1966-11-24'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: '1966-11-24'
+    closed: null
+  milestones:
+  - date: '1966-11-24'
+    event: Mine first opened (IBM record)
+    source_id: ibm-kolihan-2023
+  narrative:
+    significance: null
+    what_it_does: An underground copper mine in the Khetri belt, feeding the Khetri concentrator.
+    why_it_matters: null
+  related:
+  - hcl-khetri-mine
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-24'
+  notes: Kolihan did not geocode; point is the Jhunjhunu district centroid (the mine is next to Khetri).
+  id: hcl-kolihan-mine
+  name: Kolihan copper mine
+  sources:
+  - id: ls-usq-3828-2024
+    url: https://sansad.in/getFile/lsapps/loksabhaquestions/annex/183/AU3828_PuCmHU.pdf?source=lsapps
+    title: 'Lok Sabha Unstarred Question 3828: Copper mines under Hindustan Copper Limited'
+    publisher: Lok Sabha Secretariat
+    tier: T1
+    date: '2024-12-18'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - operator
+    - location
+    - dates.first_public
+  - id: ibm-kolihan-2023
+    url: https://ibm.gov.in/writereaddata/files/17157925316644ea932c202mcdr_202223_Kolihan_12JUL23.PDF
+    title: 'IBM inspection report (MCDR): Kolihan copper mine, Hindustan Copper (2022-23)'
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: '2023-07-12'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.commissioned
+    - milestones
+- aliases:
+  - Malanjkhand Copper Project
+  layer: mines
+  stages:
+  - Mining
+  - Beneficiation
+  minerals:
+  - Copper
+  commodity_as_stated: copper ore; copper concentrate
+  products:
+  - Copper ore
+  - Copper concentrate
+  operator: Hindustan Copper Ltd
+  operator_type: PSU (Central)
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Malanjkhand
+    district: Balaghat
+    state: Madhya Pradesh
+    country: India
+    lat: 22.00961
+    lon: 80.71349
+    precision: town
+    geometry: null
+  status: Operational
+  status_as_of: '2024-12-18'
+  status_detail: 2.55 million t of ore in FY2023-24; concentrator since 1982
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: 2
+      unit: million tpy
+      basis: concentrator ore throughput
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '1969'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: '1982'
+    closed: null
+  milestones:
+  - date: '1969'
+    event: Systematic exploration by the Geological Survey of India
+    source_id: hcl-mcp-page
+  - date: '1973'
+    event: Mining lease granted to Hindustan Copper
+    source_id: hcl-mcp-page
+  - date: '1982'
+    event: Open-pit project established
+    source_id: hcl-mcp-page
+  narrative:
+    significance: null
+    what_it_does: India's largest copper mine, an open pit moving underground, with its own concentrator in Balaghat
+      district.
+    why_it_matters: It supplies over half of the country's mined copper concentrate.
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-24'
+  notes: null
+  id: hcl-malanjkhand-mine
+  name: Malanjkhand copper mine and concentrator
+  sources:
+  - id: ls-usq-3828-2024
+    url: https://sansad.in/getFile/lsapps/loksabhaquestions/annex/183/AU3828_PuCmHU.pdf?source=lsapps
+    title: 'Lok Sabha Unstarred Question 3828: Copper mines under Hindustan Copper Limited'
+    publisher: Lok Sabha Secretariat
+    tier: T1
+    date: '2024-12-18'
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - status_detail
+    - dates.commissioned
+    - dates.first_public
+    - operator
+    - location
+  - id: imyb-2023
+    url: https://ibm.gov.in/writereaddata/files/17454767536809dc9139ba8IMYB_BOOK_2023.pdf
+    title: Indian Minerals Yearbook 2023 (62nd edition)
+    publisher: Indian Bureau of Mines, Ministry of Mines
+    tier: T1
+    date: 2025-01
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - capacity.installed
+  - id: hcl-mcp-page
+    url: https://hindustancopper.com/Page/MCCPlant
+    title: Malanjkhand Copper Project
+    publisher: Hindustan Copper Ltd
+    tier: T2
+    date: null
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.commissioned
+    - milestones
+- aliases: []
+  layer: mines
+  stages:
+  - Mining
+  minerals:
+  - Molybdenum
+  commodity_as_stated: by-product concentrates of molybdenum from uranium ore
+  products:
+  - Molybdenum concentrate (intermittent by-product)
+  operator: Uranium Corporation of India Ltd
+  operator_type: PSU (Central)
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: null
+    district: East Singhbhum
+    state: Jharkhand
+    country: India
+    lat: 22.58364
+    lon: 86.45068
+    precision: district
+    geometry: null
+  status: Operational
+  status_as_of: 2025-01
+  status_detail: Molybdenum concentrate produced intermittently from uranium ore
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: null
+      unit: null
+      basis: null
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '1967'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: '1967'
+    closed: null
+  milestones:
+  - date: '1967'
+    event: Mining began at Jaduguda, India's first uranium mine
+    source_id: ucil-jaduguda-page
+  narrative:
+    significance: null
+    what_it_does: India's only reported molybdenum source, recovered now and then from uranium ore at Jaduguda.
+    why_it_matters: null
+  related: []
+  see_also: []
+  confidence: medium
+  last_verified: '2026-10-24'
+  notes: 'Atomic facility: shown at district precision.'
+  id: ucil-jaduguda-molybdenum
+  name: UCIL Jaduguda mine (by-product molybdenum)
+  sources:
+  - id: imyb-2023
+    url: https://ibm.gov.in/writereaddata/files/17454767536809dc9139ba8IMYB_BOOK_2023.pdf
+    title: Indian Minerals Yearbook 2023 (62nd edition)
+    publisher: Indian Bureau of Mines, Ministry of Mines
+    tier: T1
+    date: 2025-01
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - status_detail
+    - operator
+    - location
+    - dates.first_public
+  - id: ucil-jaduguda-page
+    url: http://web.archive.org/web/2024id_/https://ucil.gov.in/jagudamine.html
+    title: Jaduguda Mine (UCIL website, archived copy)
+    publisher: Uranium Corporation of India Ltd
+    tier: T2
+    date: null
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.commissioned
+    - milestones
+- aliases: []
+  layer: mines
+  stages:
+  - Mining
+  - Beneficiation
+  minerals:
+  - Titanium
+  - Zirconium
+  - Rare earths (unspecified)
+  commodity_as_stated: ilmenite, rutile, zircon, sillimanite, monazite from beach sand
+  products:
+  - Ilmenite (about 60% TiO2)
+  - Rutile
+  - Zircon
+  - Sillimanite
+  operator: IREL (India) Limited
+  operator_type: PSU (Central)
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Chavara
+    district: Kollam
+    state: Kerala
+    country: India
+    lat: 8.97536
+    lon: 76.53505
+    precision: town
+    geometry: null
+  status: Operational
+  status_as_of: '2025-09-19'
+  status_detail: Dredge-and-wet-concentrator mining inland (two 100 tph units); zircon capacity 17,500 tpy
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: 17500
+      unit: tpy
+      basis: zircon
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '1963'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: '1963'
+    closed: null
+  milestones:
+  - date: '1963'
+    event: IREL took over the existing Chavara mining and separation company
+    source_id: irel-quick-about
+  narrative:
+    significance: null
+    what_it_does: Mines inland beach sands near Kollam and separates ilmenite, rutile, zircon and monazite.
+    why_it_matters: Chavara ilmenite is India's richest in titanium and feeds pigment and sponge plants.
+  related:
+  - kmml-chavara-mine
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-24'
+  notes: null
+  id: irel-chavara-mine
+  name: IREL Chavara beach-sand mining and mineral separation
+  sources:
+  - id: imyb-2023
+    url: https://ibm.gov.in/writereaddata/files/17454767536809dc9139ba8IMYB_BOOK_2023.pdf
+    title: Indian Minerals Yearbook 2023 (62nd edition)
+    publisher: Indian Bureau of Mines, Ministry of Mines
+    tier: T1
+    date: 2025-01
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - products
+    - operator
+    - dates.first_public
+  - id: irel-quick-about
+    url: https://www.irel.co.in/quick-aboutus
+    title: 'IREL (India) Limited: about us'
+    publisher: IREL (India) Limited
+    tier: T2
+    date: null
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.commissioned
+    - milestones
+- aliases:
+  - IREL MK unit
+  layer: mines
+  stages:
+  - Mining
+  - Beneficiation
+  minerals:
+  - Titanium
+  - Zirconium
+  - Rare earths (unspecified)
+  commodity_as_stated: ilmenite, rutile, zircon, garnet, monazite from beach sand
+  products:
+  - Ilmenite
+  - Rutile
+  - Zircon
+  - Garnet
+  - Monazite
+  operator: IREL (India) Limited
+  operator_type: PSU (Central)
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Manavalakurichi
+    district: Kanyakumari
+    state: Tamil Nadu
+    country: India
+    lat: 8.17687
+    lon: 77.30079
+    precision: town
+    geometry: null
+  status: Operational
+  status_as_of: 2025-01
+  status_detail: 300 ha deposit nearly exhausted; LoI for a further 1,144 ha received from Tamil Nadu (Jun 2022)
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: 10000
+      unit: tpy
+      basis: zircon
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '1963'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: '1963'
+    closed: null
+  milestones:
+  - date: '2022-06-28'
+    event: Tamil Nadu issues LoI for a 1,144.06 ha mining lease
+    source_id: imyb-2023
+  - date: '1963'
+    event: IREL took over the existing Manavalakurichi mining and separation company
+    source_id: irel-quick-about
+  narrative:
+    significance: null
+    what_it_does: Mines beach sands in Kanyakumari district for ilmenite, rutile, zircon, garnet and monazite.
+    why_it_matters: Its mineable land is nearly exhausted, which is why IREL is pushing the TAMIN joint venture
+      in Thoothukudi.
+  related:
+  - irel-tamin-thoothukudi
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-24'
+  notes: null
+  id: irel-manavalakurichi-mine
+  name: IREL Manavalakurichi beach-sand mining and mineral separation
+  sources:
+  - id: imyb-2023
+    url: https://ibm.gov.in/writereaddata/files/17454767536809dc9139ba8IMYB_BOOK_2023.pdf
+    title: Indian Minerals Yearbook 2023 (62nd edition)
+    publisher: Indian Bureau of Mines, Ministry of Mines
+    tier: T1
+    date: 2025-01
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - milestones
+    - operator
+    - dates.first_public
+  - id: irel-quick-about
+    url: https://www.irel.co.in/quick-aboutus
+    title: 'IREL (India) Limited: about us'
+    publisher: IREL (India) Limited
+    tier: T2
+    date: null
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.commissioned
+    - milestones
+- aliases:
+  - Odisha Sands Complex
+  layer: mines
+  stages:
+  - Mining
+  - Beneficiation
+  minerals:
+  - Titanium
+  - Zirconium
+  - Rare earths (unspecified)
+  commodity_as_stated: ilmenite, rutile, zircon, sillimanite, garnet, monazite
+  products:
+  - Ilmenite
+  - Rutile
+  - Zircon
+  - Sillimanite
+  - Garnet
+  - Monazite (to REEP)
+  operator: IREL (India) Limited
+  operator_type: PSU (Central)
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Chatrapur
+    district: Ganjam
+    state: Odisha
+    country: India
+    lat: 19.35923
+    lon: 84.97374
+    precision: town
+    geometry: null
+  status: Operational
+  status_as_of: '2025-09-19'
+  status_detail: 500 tph suction-dredge mining; lease extended to 2047; mineral output up 6.6% in FY2024-25
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: 5000
+      unit: tpy
+      basis: zircon
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '1986'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: '1986'
+    closed: null
+  milestones:
+  - date: '1986'
+    event: Orissa Sands Complex (OSCOM) commissioned
+    source_id: irel-quick-about
+  narrative:
+    significance: null
+    what_it_does: Dredges beach sands at Chatrapur and separates titanium, zirconium and monazite minerals, feeding
+      IREL's rare earth plant on the same site.
+    why_it_matters: null
+  related:
+  - irel-oscom-reep
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-24'
+  notes: null
+  id: irel-oscom-mine
+  name: IREL OSCOM beach-sand mining and mineral separation, Chatrapur
+  sources:
+  - id: imyb-2023
+    url: https://ibm.gov.in/writereaddata/files/17454767536809dc9139ba8IMYB_BOOK_2023.pdf
+    title: Indian Minerals Yearbook 2023 (62nd edition)
+    publisher: Indian Bureau of Mines, Ministry of Mines
+    tier: T1
+    date: 2025-01
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - operator
+    - dates.first_public
+  - id: irel-ar-2024-25
+    url: https://www.irel.co.in/documents/20126/114997/Annual+Report+2024-25+IREL+%281%29.pdf/cb3382a3-24fa-c697-4a7c-782752762b4c?t=1762855411950
+    title: IREL (India) Limited Annual Report 2024-25
+    publisher: IREL (India) Limited
+    tier: T2
+    date: '2025-09-19'
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - status
+  - id: irel-quick-about
+    url: https://www.irel.co.in/quick-aboutus
+    title: 'IREL (India) Limited: about us'
+    publisher: IREL (India) Limited
+    tier: T2
+    date: null
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.commissioned
+    - milestones
+- aliases: []
+  layer: mines
+  stages:
+  - Mining
+  - Beneficiation
+  minerals:
+  - Titanium
+  - Zirconium
+  commodity_as_stated: ilmenite, rutile, zircon, sillimanite from beach washings
+  products:
+  - Ilmenite
+  - Rutile
+  - Zircon
+  - Sillimanite
+  operator: The Kerala Minerals and Metals Ltd
+  operator_type: PSU (State)
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Chavara
+    district: Kollam
+    state: Kerala
+    country: India
+    lat: 8.97536
+    lon: 76.53505
+    precision: town
+    geometry: null
+  status: Operational
+  status_as_of: 2025-01
+  status_detail: Collects seasonal beach accretions; zircon capacity 6,500 tpy
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: 6500
+      unit: tpy
+      basis: zircon
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '1932'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: '1932'
+    closed: null
+  milestones:
+  - date: '1932'
+    event: F. X. Perira and Sons (Travancore), KMML's forerunner, set up
+    source_id: kmml-history
+  - date: '1956'
+    event: Taken over by the state government
+    source_id: kmml-history
+  - date: '1972'
+    event: Converted into The Kerala Minerals and Metals Ltd
+    source_id: kmml-history
+  narrative:
+    significance: null
+    what_it_does: Collects heavy mineral sand from Kerala's beaches and separates the ilmenite KMML turns into titanium
+      pigment and sponge.
+    why_it_matters: null
+  related:
+  - kmml-chavara
+  - irel-chavara-mine
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-24'
+  notes: null
+  id: kmml-chavara-mine
+  name: KMML Chavara beach-sand mining and mineral separation
+  sources:
+  - id: imyb-2023
+    url: https://ibm.gov.in/writereaddata/files/17454767536809dc9139ba8IMYB_BOOK_2023.pdf
+    title: Indian Minerals Yearbook 2023 (62nd edition)
+    publisher: Indian Bureau of Mines, Ministry of Mines
+    tier: T1
+    date: 2025-01
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - operator
+    - dates.first_public
+  - id: kmml-history
+    url: https://kmml.com/brief-history
+    title: 'KMML: brief history'
+    publisher: The Kerala Minerals and Metals Ltd
+    tier: T2
+    date: null
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.commissioned
+    - milestones
+- aliases: []
+  layer: mines
+  stages:
+  - Mining
+  - Beneficiation
+  minerals:
+  - Phosphorus
+  commodity_as_stated: rock phosphate
+  products:
+  - Rock phosphate
+  - Beneficiated rock phosphate
+  operator: Rajasthan State Mines and Minerals Ltd
+  operator_type: PSU (State)
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Jhamarkotra
+    district: Udaipur
+    state: Rajasthan
+    country: India
+    lat: 24.41867
+    lon: 73.6898
+    precision: district
+    geometry: null
+  status: Operational
+  status_as_of: 2025-01
+  status_detail: India's main rock phosphate mine; beneficiation 9 lakh tpy; Rajasthan produced 1.53 million t in
+    2022-23
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: 900000
+      unit: tpy
+      basis: beneficiation plant (run-of-mine treated)
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '1968-06-01'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: '1968-06-01'
+    closed: null
+  milestones:
+  - date: '1968-06-01'
+    event: Mine first opened (IBM record)
+    source_id: ibm-jhamarkotra-2024
+  narrative:
+    significance: null
+    what_it_does: Mines and upgrades rock phosphate near Udaipur, supplying most of India's domestic phosphate rock.
+    why_it_matters: India imports most of the phosphate it needs for fertiliser, so this is its largest home source.
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-24'
+  notes: Jhamarkotra did not geocode; point is the Udaipur district centroid.
+  id: rsmml-jhamarkotra
+  name: RSMML Jhamarkotra rock phosphate mine and beneficiation plant
+  sources:
+  - id: imyb-2023
+    url: https://ibm.gov.in/writereaddata/files/17454767536809dc9139ba8IMYB_BOOK_2023.pdf
+    title: Indian Minerals Yearbook 2023 (62nd edition)
+    publisher: Indian Bureau of Mines, Ministry of Mines
+    tier: T1
+    date: 2025-01
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - status_detail
+    - capacity.installed
+    - location
+    - operator
+    - dates.first_public
+  - id: ibm-jhamarkotra-2024
+    url: https://ibm.gov.in/writereaddata/files/17549094526899cb0c4ddfaJhamarkotra_RSMML_2425.PDF
+    title: 'IBM inspection report (MCDR): Jhamarkotra rock phosphate mine, RSMML (2024-25)'
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: '2025'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.commissioned
+    - milestones
+- aliases: []
+  layer: mines
+  stages:
+  - Mining
+  - Beneficiation
+  minerals:
+  - Phosphorus
+  commodity_as_stated: rock phosphate
+  products:
+  - Rock phosphate
+  - Beneficiated rock phosphate (600 tpd plant)
+  operator: Madhya Pradesh State Mining Corporation Ltd
+  operator_type: PSU (State)
+  owners: []
+  partners: []
+  location:
+    address: null
+    village_or_town: Meghnagar
+    district: Jhabua
+    state: Madhya Pradesh
+    country: India
+    lat: 22.90766
+    lon: 74.53986
+    precision: town
+    geometry: null
+  status: Operational
+  status_as_of: 2025-01
+  status_detail: null
+  capacity:
+    planned:
+      value: null
+      unit: null
+      basis: null
+      phase: null
+    installed:
+      value: 150000
+      unit: tpy
+      basis: run-of-mine
+  investment:
+    amount: null
+    currency: null
+    basis: null
+  feedstock: null
+  feedstock_detail: null
+  schemes: []
+  scheme_status: {}
+  dates:
+    first_public: '1999-04-27'
+    announced: null
+    mou: null
+    approved: null
+    construction_start: null
+    original_expected_completion: null
+    revised_expected_completion: null
+    commissioned: '1999-04-27'
+    closed: null
+  milestones:
+  - date: '1999-04-27'
+    event: Kachaldara mine (Meghnagar) first opened (IBM record)
+    source_id: ibm-kachaldara-2018
+  narrative:
+    significance: null
+    what_it_does: A state-run rock phosphate mine with a beneficiation plant in Jhabua district.
+    why_it_matters: null
+  related: []
+  see_also: []
+  confidence: high
+  last_verified: '2026-10-24'
+  notes: null
+  id: mpsmcl-meghnagar
+  name: MPSMCL Meghnagar rock phosphate mine, Jhabua
+  sources:
+  - id: imyb-2023
+    url: https://ibm.gov.in/writereaddata/files/17454767536809dc9139ba8IMYB_BOOK_2023.pdf
+    title: Indian Minerals Yearbook 2023 (62nd edition)
+    publisher: Indian Bureau of Mines, Ministry of Mines
+    tier: T1
+    date: 2025-01
+    retrieved: '2026-10-24'
+    archive_url: null
+    supports:
+    - status
+    - capacity.installed
+    - location
+    - operator
+    - dates.first_public
+  - id: ibm-kachaldara-2018
+    url: https://www.ibm.gov.in/writereaddata/files/07312018163033Jhabuarp_mcdr.pdf
+    title: 'IBM inspection report (MCDR): Kachaldara rock phosphate mine (Meghnagar, Jhabua), MP State Mining Corporation'
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: 2018-07
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.commissioned
+    - milestones

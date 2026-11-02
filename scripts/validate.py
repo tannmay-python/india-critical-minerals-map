@@ -52,8 +52,9 @@ STRONG_STATUS = {"Operational", "Expanding", "Preferred bidder", "LoI issued", "
                  "Cancelled", "Annulled", "Closed", "Stalled", "Bid lost", "Withdrawn"}
 BANNED = ["pivotal", "landmark", "game-changer", "game changer", "robust", "cutting-edge", "cutting edge",
           "poised to", "testament to"]
+# reopened: a closed or idle site's restart; the expected-completion fields then track that restart.
 DATE_FIELDS = ["first_public", "announced", "mou", "approved", "construction_start", "original_expected_completion",
-               "revised_expected_completion", "commissioned", "closed"]
+               "revised_expected_completion", "commissioned", "closed", "reopened"]
 FUTURE_OK = {"original_expected_completion", "revised_expected_completion"}
 ID_RX = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 DATE_RX = re.compile(r"^\d{4}(-\d{2}(-\d{2})?)?$")

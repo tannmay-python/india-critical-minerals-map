@@ -2934,7 +2934,7 @@
             jQuery.validator.addMethod("emailPattern", function(value, element) {
                 const regex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
                 return this.optional(element) || regex.test(value);
-            }, 'Please enter a valid email address (e.g., abc@gmail.com)');
+            }, 'Please enter a valid email address (e.g., [email removed])');
 
             function showMessage(type, message) {
                 $(".errorDiv").remove();
@@ -3247,8 +3247,8 @@
                     },
                     lead_email: {
                         required: 'Please enter a valid email address',
-                        email: 'Please enter a valid email address (e.g., abc@gmail.com)',
-                        emailPattern: 'Please enter a valid email address (e.g., abc@gmail.com)'
+                        email: 'Please enter a valid email address (e.g., [email removed])',
+                        emailPattern: 'Please enter a valid email address (e.g., [email removed])'
                     },
                     lead_phone: {
                         required: 'Please enter valid mobile number.'

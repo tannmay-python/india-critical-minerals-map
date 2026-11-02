@@ -922,7 +922,7 @@
           7.2. Any queries or requests for additional information concerning this Tender Document may be
                                                                                   
                sent in .doc, .docx, .xls, .xlsx format only to the Administering Authority by email to aa-
-               mom@gov.in in the format specified in Schedule II (Format for seeking clarifications
+               [email removed] in the format specified in Schedule II (Format for seeking clarifications
                regarding the Tender Document).                                    
                                                                                   
           7.3. The email should clearly bear the following subject line: “Queries/Request for Additional
@@ -4037,7 +4037,7 @@
           new Class III Signing and Encryption Combo DSC. For any other queries related to Major Mineral
           Block, the bidder can send mail to                                      
                                                                                   
-          mlclmstc@mstcindia.in                                                   
+          [email removed]                                                   
                                                                                   
           Or contact the respective branch/region assigned to him. (Region/Branch is mentioned in the activation
           mail sent to bidders on receipt of the registration fee).               
@@ -4102,12 +4102,12 @@
           S   MSTC     MSTC      Contact Person Email         Phone No.           
                                                                                   
           No  Office Name Office Code                                             
-          1   Northern NRO       Shri Setu Dutt nroopn3@mstcindia.in 7878055855   
+          1   Northern NRO       Shri Setu Dutt [email removed] [phone removed]   
                                  Sharma                                           
               Regional                                                            
               Office                                                              
                                                                                   
-          2   Northern NRO       Shri   Manoj nroopn8@mstcindia.in 9727700986     
+          2   Northern NRO       Shri   Manoj [email removed] [phone removed]     
               Regional           Pandey                                           
               Office                                                              
                                                                                   
@@ -4118,7 +4118,7 @@
           For any Queries or System Setting Related Technical issues concerns please contact the following
           Help-Desk numbers:                                                      
                                                                                   
-          Phone Numbers- 07969066600, 01123212357, 01123215163, 01123217850       
+          Phone Numbers- [phone removed], 01123212357, 01123215163, 01123217850       
                                                                                   
           Availability- 9:30 AM to 5:30 PM on all working days.                   
                                                                                   
@@ -4459,7 +4459,7 @@
           For any Queries or System Setting Related Technical issues concerns please contact the following
           Help-Desk numbers:                                                      
                                                                                   
-          Phone Numbers- 07969066600, 01123212357, 01123215163, 01123217850       
+          Phone Numbers- [phone removed], 01123212357, 01123215163, 01123217850       
                                                                                   
           Availability- 9:30 AM to 5:30 PM on all working days.                   
                                                                                   
@@ -5507,7 +5507,7 @@
                     the Act and the Rules made thereunder.                        
                                                                                   
           5.2. The reports under Clause 5.1 shall be provided to the Central Government as attachments to an
-               email addressed to the following e-mail address: aa-mom@gov.in or at such other e‐mail
+               email addressed to the following e-mail address: [email removed] or at such other e‐mail
                                                                                   
                address as may be specified in writing by the Central Government from time to time. Such
                attachments must be digitally signed by the Successful Bidder using a Class III digital signature

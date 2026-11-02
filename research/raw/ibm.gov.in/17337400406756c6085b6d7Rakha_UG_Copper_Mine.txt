@@ -1,0 +1,334 @@
+ MCDR-MiFL0Cu/3/2023-RCH-IBM_EZ                                           I/44758/2024
+                                   INDIAN BUREAU OF MINES                         
+                         MINES CONTROL AND CONSERVATION OF MINERAL DIVISION       
+                                   MCDR INSPECTION REPORT                         
+                                     Ranchi Regional Office                       
+        Mine file No: MCDR-MiFL0Cu/3/2023-RCH-IBM_EZ Mine code: 14BHR27004        
+        Date of Inspection: 24.10.2024                                            
+          Sl. No. Particulars           Details                                   
+           1.   Name of the Mines       Rakha U/G Copper Mine                     
+           2    Total Lease Area (Ha)   Total Lease Area: 785.091 Ha              
+                with breakup of non-forest land & Non forest : 501.359 Ha ;Forest : 283.732 Ha
+                forest land                                                       
+           3.   Mine code               14BHR27004                                
+           4    IBM Registration Number under rule 45 IBM/6381/2011               
+                of MCDR, 1988/2017                                                
+           5    Name of the lessee, Address, Phone, Hindustan Copper Limited, Indian Copper Complex, Ghatsila
+                email and fax number                                              
+           6    Village                 Royam                                     
+           7    Taluka/Mandal           Mosabani                                  
+           8    District                East Singhbhum                            
+           9    Pin code                832106                                    
+           10   State                   Jharkhand                                 
+           11   Post Office             Ghatsila                                  
+           12   Nearest Police Station  Jadugoda                                  
+           13   Nearest Railway station Rakha Mines                               
+           14   Date of Grant of Mining Lease 29.08.1971                          
+           15   Date of Execution       10.04.1972                                
+           16   Date of Opening of Mine 1972                                      
+           17   Date of First Renewal, if applicable and Recommendation of 1st renewal from 29.08.1991 to 28.08.2011
+                its period & expiry     (20 year) granted vide letter 2049/M dated 15.05.1998
+           18   Date of second Renewal, if applicable Form D obtained on dated 05.08.2010 for 2nd renewal for the
+                and its period & expiry period 29.08.2011 to 28.08.2031.          
+                                        Govt. of Jharkhand vide letter No. Kha. Ni. (Garhwa) 01/2012
+                                        dated 18.03.2015 under section 8A (8) of MMDR Amendment
+                                        Ordinance 2015 have extended the lease period up to
+                                        31.03.2020, The Supplementary Lease Deed executed in
+                                        support of the extended lease period on dated 15.07.2017.
+                                        Govt. of Jharkhand Dept. of Mines extended lease period up to
+                                        50 year from the initial grant vide Letter No 1761/M Ranchi
+                                        dated 30.10.2019. therefore the period of validity of the said
+                                        lease is extended from 01.04.2020 to 28th August 2021. The
+                                        lease deed executed in support of the extended lease period on
+                                        dated 04.05.2020.                         
+                                        Further, based on the application for extension of the lease
+                                        period for another 20 years w.e.f 29.08.2021, Cabinet of Govt.
+                                        of Jharkhand in its meeting at Ranchi on 20.09.2024 has
+                                        approved the extension of Rakha ML over 785.091 ha in favour
+                                        of HCL as per provision of Rule 72 (2) of MCR 2016.
+                                        and also Mines and Geology Department Govt. of Jharkhand
+                                        has issue a letter for extension of Rakha Mine vide letter no. बी./
+                                        एम.-6/07/1672/एम., र ं(cid:7)ची, dated:08.10.2024.
+           19   Date of submission of renewal                                     
+                application if Mining operations are                              
+                continuing under deemed extension                                 
+           20   Name of the Nominated Owner with Shri Sanjiv Kumar Singh          
+                Address, phone, email, fax number and M/s Hindustan Copper Limited, Tamra Bhavan 1,
+                date of appointment                                               
+                                        Ashutosh Chowdhury Avenue, Kolkata -700019, (W.B)
+                                        Phone-[phone removed] Date of appointment: 09.06.2022
+                                        Email: [email removed]
+           21   Name of the Mine Agent with Address, Shri Shyam Sundar Sethi      
+                phone email, fax number and date Moubhandar, Ghatsila, East-Singh hum, Jharkhand-832103
+                appointment in mines.   Mobile -[phone removed]                        
+                                        Date of appointment: 01.04.2023           
+                                        Email: [email removed]       
+           22   Name of the Mines Manager with Presently not appointed as the mine is non-operation w.e.f July-
+                Address, Phone, email, fax number and 2001.                       
+                date of appointment                                               
+
+ MCDR-MiFL0Cu/3/2023-RCH-IBM_EZ                                           I/44758/2024
+           23   Name of the mining engineer, Shri Daanveer Karnendra Kumar,       
+                qualification and total experience with Moubhnadar, Ghatsila, East-Singhhum, Jharkhand- 832103
+                Address, phone, email, fax number and                             
+                                        Mobile-[phone removed]; DOA in Mines: 10.02.2024,
+                date of appointment in Mines.                                     
+                                        Email: [email removed]     
+                                        Qualification: B. Tech (Mining) Experience: 14 Yrs
+           24   Whether Geologist and Mining Yes                                  
+                Engineer appointed in Mines satisfy the                           
+                rule 42 & carrying out their duties as                            
+                per rule 43 & 44.                                                 
+           25   Date of Approval of Mining No. RAN/EASTSINGHBHUM/FCu/ROMP-8/2023-24 dated
+                Plan/Modified Mining Plan with five- 04.01.2024; Period: 2021-22 to 2025 -26
+                year period and specific condition in                             
+                approval letter, if any.                                          
+           26   Date of Approval of Scheme of Mining/ No. RAN/EASTSINGHBHUM/FCu/ROMP-8/2023-24 dated
+                Modified Scheme of Mining with five- 04.01.2024; Period: 2021-22 to 2025 -26
+                year period and specific condition in                             
+                approval letter, if any.                                          
+           27   Mineral(s) granted in lease and proved Copper Ore                 
+                for mining                                                        
+           28   Method of Mining (Opencast, Underground                           
+                Underground)                                                      
+           29   Category (Fully Mechanized, Others or Fully Mechanized (Non-operational)
+                Manual)                                                           
+           30   Captive/non-captive     Captive                                   
+          Sl.No Item                    Proposals (2023-24) Actual work Remarks   
+                                                     (2023-24)                    
+           1a   Backlog of previous year     NIL        NIL                       
+           1b   Exploration over lease area for 201.8Ha 201.8Ha During the year   
+                Geological axis 1 or 2.                         2022-23 total 8776
+                                                                m of drilling work
+                                                                has been carried out
+                                                                Gr report is under
+                                                                process           
+           1c   Exploration Agency & Expenditure in MECL 14.31 Cr ok              
+                lakh Rupee during the year                                        
+           1d   Balance area to be explored to bring 134.775Ha 0 No work done     
+                Geological axis in 1 or 2                                         
+           1e   Balance reserves as on 01.04.2023 229247615 229247615 111: 3364683
+                                                                211: 3054986.     
+                                                                331: 45470559     
+                                                                332: 63399749.    
+                                                                333: 69277638     
+                                                                334: 446800000    
+                                                                Total: 229247615  
+                                                                Mines operation is
+                                                                under suspension  
+           1f   General remarks of inspecting officer Mines is under suspension.  
+                on geology, exploration etc.                                      
+     Scientific Mining: Compliance of proposals of approved mining plan/scheme of mining. (Duplication of information in existing
+     TMIS data sheets and draft write up has been avoided.) Exploration           
+     Development                                                                  
+          Sl.No Item                    Proposals(2023-24) Actual work (2023- Remarks
+                                                    24)                           
+           2a   Location of development w.r.t lease area NA Nil  Mine is Non-operational
+           2b   Separate benches in top soil, overburden Nil Nil Mine is Non-operational
+                and mineral (Rule 15)                                             
+           2c   Stripping ratio or ore to OB ratio Nil   Nil     Mine is Non-operational
+           2d   Quantity of topsoil generation in m3 Nil Nil     Mine is Non-operational
+           2e   Quantity of overburden generation in Nil Nil     Mine is Non-operational
+                m3                                                                
+           2f   General remarks of inspecting officer on Mines is under suspension.
+                development etc.                                                  
+     Exploitation                                                                 
+
+ MCDR-MiFL0Cu/3/2023-RCH-IBM_EZ                                           I/44758/2024
+          Sl. No Item                   Proposals(2023-24) Actual work(2023- Remarks
+                                                    24)                           
+           3a   Number of pits proposal for production Nil Nil   Mine is Non-operational
+           3b   Quantity of ROM mineral production Nil   Nil     Mine is Non-operational
+                proposed(cum)                                                     
+           3c   Recovery of salable/usable mineral Nil   Nil     Mine is Non-operational
+                from ROM production (tone)                                        
+           3d   Quantity of mineral reject generation Nil Nil    Mine is Non-operational
+                (cum)                                                             
+           3e   Grade of mineral reject generation and NA NA     Mine is Non-operational
+                threshold value declared                                          
+           3f   Quantity of sub-grade mineral Nil        Nil     Mine is Non-operational
+                generation                                                        
+           3g   Grade of sub-grade mineral generation NA NA      Mine is Non-operational
+           3h   Manual/Mechanized method adopted NA      NA      Mine is Non-operational
+                for segregating from ROM                                          
+           3i   Any analysis or beneficiation study Nil  Nil     Mine is Non-operational
+                proposed & carried out for sub-grade                              
+                mineral and reject                                                
+           3j   Provision of drilling & blasting in NA   NA      Mine is Non-operational
+                mineral benches                                                   
+           3k   Provision of mining machineries in Nil   Nil     Mine is Non-operational
+                mineral benches                                                   
+           3l   Whether height of benches in NA          NA      Mine is Non-operational
+                overburden and mineral suitable for                               
+                method of mining proposed in                                      
+                MP/SOM                                                            
+           3m   Total area  covered under   NA           NA      Mine is Non-operational
+                excavation/pits                                                   
+           3n   Ore to OB ratio for the pit/mine during Nil Nil  Mine is Non-operational
+                the year                                                          
+           3o   Total area put in use under different 72.55Ha 72.55Ha No Additional area was
+                heads at the end of year                         proposed for the FY
+                                                                 2023-24          
+           3p   Production of ROM mineral during last 2019-20: Nil 2019-20: Nil Mine is Non-operational
+                five-year period, as applicable 2020-21: Nil 2020-21: Nil         
+                                        2021-22: Nil 2021-22: Nil                 
+                                        2022-23: Nil 2022-23: Nil                 
+                                        2023-24: Nil 2023-24: Nil                 
+           3q   General remarks of inspecting officer Mine is Non-operational     
+                on method of mining etc.                                          
+     Solid Waste Management-Dumping                                               
+          Sl. No          Item          Proposals(2023-24) Actual work(2023- Remarks
+                                                    24)                           
+           4a.  Separate dumping of topsoil, OB & NA     NA      Mine is Non-operational
+                mineral reject (Rule 32,33)                                       
+           4b   Location of topsoil, & OB & mineral NA   NA      Mine is Non-operational
+                reject dumps                                                      
+           4c   Number of dumps within lease area and NA NA      Mine is Non-operational
+                outside lease area                                                
+           4d   Location of dumps w.r.t. ultimate pit NA NA      Mine is Non-operational
+                limit (Rule 16)                                                   
+           4e   Number of active & alive dumps NA        NA      Mine is Non-operational
+           4f   Number of dead dumps        NA           NA      Mine is Non-operational
+           4g   Number of dumps stabilized  NA           NA      Mine is Non-operational
+           4h   Whether Retaining wall or garland drain NA NA    Mine is Non-operational
+                all along dumps are there                                         
+           4i   Length of Retaining wall or garland NA   NA      Mine is Non-operational
+                drain all along dump                                              
+           4j   Number of settling ponds    NA           NA      Mine is Non-operational
+           4k   Specific comments of inspecting officer Mine is Non-operational w.e.f July 2001
+                on waste dump management                                          
+     Solid Waste Management-Backfilling                                           
+          Sl. No Item                  Proposals(2023-24) Actual work(2023- Remarks
+
+ MCDR-MiFL0Cu/3/2023-RCH-IBM_EZ                                           I/44758/2024
+                                                    24)                           
+           5a   Status on part or full extraction of Nil Nil     Mine is Non-operational
+                mineral from mined out area before                                
+                starting backfilling                                              
+           5b   Area under backfilling of mined out Nil  Nil     Mine is Non-operational
+                area                                                              
+           5c   Concurrent use of topsoil for NA         NA      Mine is Non-operational
+                restoration or rehabilitation of mined                            
+                out area (Rule 32)                                                
+           5d   Total area fully reclaimed & NA          NA      Mine is Non-operational
+                rehabilitated                                                     
+           5e   General remarks of inspecting officer Mine is non-operational w.e.f July-2001
+                on backfilling, reclamation etc.                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+     Progressive Mine Closure Plan                                                
+                                                                                  
+          Sl. No Item                    Proposals (2023- Actual work (2023- Remarks
+                                         24)        24)                           
+           6a  Whether Annual report on PMCP submitted - -       Mine is non-     
+               on time and correctly-Rule 23E (2). Details       operational w.e.f
+               should be given in the format as given in         July-2001. Owner 
+               Annexure-20                                       is neither       
+                                                                 submitting the   
+                                                                 monthly returns  
+                                                                 nor annual returns.
+           6b  Management of worked/mined out benches NA NA      NA               
+               (i) Area available for rehabilitation (ha)                         
+             ii) (ii) Afforestation done (ha)                                     
+             iii) (iii) No. of sapling planted during the year                    
+             iv) (iv) Cumulative no. of plants                                    
+             v) (v) Any other specific method of                                  
+               rehabilitation                                                     
+             vi) (vi) Cost incurred on watch & care during the                    
+               year                                                               
+           6c  Compliance on reclamation and NA          NA      NA               
+               rehabilitation by back filling                                     
+               i) Voids available for backfilling (LxBxD)                         
+               ii) Void filled by waste/tailings                                  
+               iii) Afforestation on the backfilled area                          
+               iv) Rehabilitation by making water reservoir                       
+               v) Any other specific means                                        
+           6d  Compliance of Rehabilitation of waste land NA NA  NA               
+               within lease                                                       
+               i) Afforestation                                                   
+               ii)Area rehabilitated(ha)                                          
+               iii)Method of rehabilitation                                       
+           6e  Compliance of Environmental monitoring Ambient air Quarterly ok    
+               (core zone & buffer zone)  Quality, Water Quarterly                
+                                          quality:   (Agency- Third               
+                                          Quarterly party/NABL                    
+                                          Reporting agency)                       
+           6f  General remarks of inspecting & progressive Mine is Non-operational.
+               closure operations.                                                
+     Mineral Conservation                                                         
+          Sl. No Item                    Proposals(2023- Actual work(2023- Remarks
+                                         24)        24)                           
+           7a  ROM Mineral dispatch or grade-wise sorting Nil Nil Mine is not in  
+               within lease area                                 operation.       
+           7b  Method of grade-wise mineral sorting i.e. Nil Nil                  
+               manual or mechanical                                               
+           7c  Different grade of mineral sorted out at Not proposed Nil          
+               mines                                                              
+           7d  Any beneficiation process at mines Nil    Nil     No beneficiation 
+
+ MCDR-MiFL0Cu/3/2023-RCH-IBM_EZ                                           I/44758/2024
+                                                                 process available at
+                                                                 mine site.       
+           7e  General remarks of inspecting officer on Mine is non-operational w.e.f July-2001
+               Mineral conservation & beneficiation issues                        
+     Environment                                                                  
+                                                                                  
+          Sl. No Item                    Proposals(2023- Actual work(2023- Remarks
+                                         24)        24)                           
+           8a  Separate removal and utilization of topsoil NA NA Mine is not in operation.
+               (Rule 32)                                                          
+           8b  Concurrent use or storage of topsoil NA   NA      Mine is not in operation.
+           8c  Separate dumps for overburden, waste rock NA NA   Mine is not in operation.
+               rejects and fines (Rule 33)                                        
+           8d  Use of overburden, waste rock, rejects and NA NA  Mine is not in operation.
+               fines dumps for restoring the land to its                          
+               original use                                                       
+           8e  Phased restoration, reclamation and NA    NA      Mine is not in operation.
+               rehabilitation of lands affected by mining                         
+               operations (Pits, dumps etc)                                       
+           8f  Baseline information on existence of Nil  Nil     Mine is not in operation.
+               plantation & additional plantation done                            
+               (Rule 42)                                                          
+           8g  Survival rate                  --         -       Mine is not in operation.
+           8h  Water sprinkling on roads to control airborne Nil Nil Mine is not in operation.
+               dust                                                               
+           8i  General remarks of inspecting officer on Mine is non-operational w.e.f July-2001
+               aesthetic beauty in and around mines area.                         
+                                                                                  
+     Compliance of Rule 45                                                        
+                                                                                  
+          Sl. No          Item                   Comments           Remarks       
+           9a  Status of submission of Monthly and Annual Not Filled Not Filled   
+               returns                                                            
+           9b  Scrutiny of Annual return for information on Not Filled Not Filled Not Filled
+               Mining Engineer, Geologist and Manager                             
+           9c  Scrutiny of Annual return on land use pattern Not Filled Not Filled Not Filled
+               for area under pits, reclaimed area, dumps                         
+               etc.                                                               
+           9d  Scrutiny of Annual return on afforestation Not Filled Not Filled Not Filled
+           9e  Scrutiny of Annual return on mineral reject Not Filled Not Filled Not Filled
+               generation (Grade & Quantity)                                      
+           9f  Scrutiny of Annual return on ROM stock Not Filled Not Filled Not Filled
+               and/or graded ore                                                  
+           9g  Scrutiny of Annual return on sale value, Ex. Not Filled Not Filled Not Filled
+               Mine price & production cost.                                      
+           9h  Scrutiny of Annual return on fixed assets Not Filled Not Filled Not Filled
+           9i  Scrutiny of Annual return on mining Not Filled Not Filled Not Filled
+               machineries                                                        
+     Details of violations observed during current inspection : -                 
+     Violation pointed out in the current inspection:                             
+                                                                                  
+     Rule 45: Owner is not submitting any return as per the extant provisions of MCDR Rules.
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  

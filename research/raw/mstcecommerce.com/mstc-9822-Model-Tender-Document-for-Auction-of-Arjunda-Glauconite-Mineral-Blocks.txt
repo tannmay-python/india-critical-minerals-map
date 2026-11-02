@@ -9,8 +9,8 @@
                                   Indravati Bhavan, Block-4,                      
                            Second Floor, Nawa Raipur Atal Nagar, Raipur,          
                                  Chhattisgarh - 492002, India                     
-                            Phone No. 0771-2221840, Fax: 0771-2221841             
-                                   E-mail: dgm.cg@nic.in                          
+                            Phone No. 0771-2221840, Fax: [phone removed]             
+                                   E-mail: [email removed]                          
                                                                                   
                                                                                   
          Tender No.: [●]                        Dated: 28 April 2023              
@@ -155,7 +155,7 @@
                                                Director, Geology and Mining,      
            6. Nodal Officer                                                       
                                                Government of Chhattisgarh         
-           7. E-mail address for submitting pre-bid queries dgm.cg@nic.in         
+           7. E-mail address for submitting pre-bid queries [email removed]         
                                                Directorate of Geology & Mining    
                                                Indravati Bhavan, Block-4,         
            8. Address of Mineral Resources Department                             
@@ -936,7 +936,7 @@
              advisors etc.                                                        
                                                                                   
           6.5. The site visit to the Mineral Block shall be conducted with prior notice to the State Government through
-             the following e-mail address dgm.cg@nic.in. The email should clearly bear the following subject line
+             the following e-mail address [email removed]. The email should clearly bear the following subject line
                                                                                   
              “Site Visit for [Name of mineral block]”                             
                                                                                   
@@ -944,7 +944,7 @@
         7.1  Bidders may seek clarifications or request further information regarding this Tender Document.
                                                                                   
          7.2  Any queries or requests for additional information concerning this Tender Document may be sent
-              by e-mail to the State Government at dgm.cg@nic.in in the format specified in Schedule II (Format
+              by e-mail to the State Government at [email removed] in the format specified in Schedule II (Format
               for seeking clarifications regarding the Tender Document).          
                                                                                   
                                                                                   
@@ -3776,7 +3776,7 @@
                                                                                   
         To update the DSC or any queries related to Major Mineral Block, the bidder can send mail to
                                                                                   
-                                  mlclmstc@mstcindia.in                           
+                                  [email removed]                           
                                                                                   
         Or contact the respective branch/region assigned to him. (Region is mentioned in the activation mail sent to
                                                                                   
@@ -3839,10 +3839,10 @@
                                                                                   
                                                                                   
                                                                                   
-         1    Raipur     RPR         Rohit Kumar rohitsingh@mstcindia.co.in 9886056499
+         1    Raipur     RPR         Rohit Kumar [email removed] [phone removed]
                                      Singh                                        
                                                                                   
-         2    Raipur     RPR         Raj Rohit   rrkhalko@mstcindia.co.in 9127754867
+         2    Raipur     RPR         Raj Rohit   [email removed] [phone removed]
                                      Khalko                                       
                                                                                   
         The Bidder shall send the email regarding the payment details to the email address corresponding to the office
@@ -5219,7 +5219,7 @@
                                                                                   
                                                                                   
             5.2. The reports under Clause 5.1 shall be provided to the State Government as attachments to an
-               email addressed to the following e-mail address: dgm.cg@nic.in. Such attachments must be
+               email addressed to the following e-mail address: [email removed]. Such attachments must be
                digitally signed by the Successful Bidder using a Class III digital signature certificate issued by
                                                                                   
                a certifying authority in India.                                   

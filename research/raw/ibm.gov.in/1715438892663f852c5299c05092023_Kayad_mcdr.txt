@@ -1,0 +1,814 @@
+                                                                                    
+                              INDIAN BUREAU OF MINES                                
+                   MINERALS DEVELOPMEMT AND REGULATION DIVISION                     
+                                                                                    
+                              MCDR INSPECTION REPORT                                
+                                                                                    
+                             Ajmer regional office                                  
+                                                                                    
+     Mine file No : RAJ/AJM-315/Pb.Zn-1               Mine code : 34RAJ01001        
+                                                                                    
+     (i)  Name of the Inspecting : P0(22 )PANKAJ KULSHRESTHA                        
+          Officer and ID No.                                                        
+     (ii) Designation        : Assistant Controller Mine                            
+     (iii) Accompaning mine  : Sh. Siyaram Meena,Manager and Sh. Vijendra Kashyap,G 
+          Official with                                                             
+          Designation                                                               
+      (iv) Date of Inspection : 05/09/2023                                          
+                                                                                    
+      (v)  Prev.inspection date : 17/03/2023                                        
+                                                                                    
+                          PART-I : GENERAL INFORMATION                              
+  1. (a)  Mine Name          : KAYAR                                                
+     (b)  Registration NO.   : IBM/421/2011                                         
+                                                                                    
+     (c)  Category           : A Fully Mechanised                                   
+     (d)  Type of Working    :                                                      
+                               Underground                                          
+     (e)  Postal address                                                            
+          State              : RAJASTHAN                                            
+          District           :  AJMER                                               
+          Village            :  KAYAR                                               
+          Taluka             :  AJMER                                               
+          Post office        :  KAYAR                                               
+          Pin Code           : 305023                                               
+          FAX No.            :  0145-6626266                                        
+          E-mail             :  [email removed]                         
+          Phone              :  0145-6626232                                        
+      (f)  Police Station     : Gegal                                               
+      (g)  First opening date : 12/01/1998                                          
+      (h)  Weekly day of rest : SUN                                                 
+                                                                                    
+  2.  Address for             : M/S Hindustan Zinc Limited                          
+      correspondance           Kayad Lead -Zinc Mine                                
+                               Village: Kayad, Dist & Teshil : Ajmer                
+                                                                                    
+  3.  (a)  Lease Number       : RAJ1765                                             
+      (b)  Lease area         : 480.45                                              
+      (c)  Period of lease    : 50                                                  
+      (d)  Date of Expiry     : 27/02/2048                                          
+                                                                                    
+                                                                                    
+  4.  Mineral worked          : LEAD & ZINC ORE   Main                              
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                   PAGE : 2         
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+  5. Name and Address of the                                                        
+          Lessee      :  HINDUSTAN ZINC LTD.                                        
+                         HINDUSTAN ZINC LTD. YASHAD                                 
+                         BHAWAN YASHADGARH, UDAIPUR                                 
+                         UDAIPUR RAJASTHAN                                          
+                         Phone:[phone removed], 23332                                   
+                         FAX  :[phone removed]                                          
+          Owner       :   Mr. Arun Mishra                                           
+                         M/s Hindustan Zinc Ltd.                                    
+                         Yeshad Bhawan,yashadgarh,                                  
+                         P.O.Udaipur, UDAIPUR                                       
+                         RAJASTHAN                                                  
+                         Phone: [phone removed]                                        
+                         FAX  : [phone removed]                                        
+          Agent       :  Mr. Kastoor Meena                                          
+                         Kayad Lead -Zinc Mine M/S                                  
+                         Hindustan Zinc Limited ,                                   
+                         Village: Kayad, Dist &                                     
+                         Teshil : AJM AJMER                                         
+                         RAJASTHAN                                                  
+                         Phone: [phone removed],                                       
+                         FAX  : [phone removed],                                       
+          Mining Engineer                                                           
+          Name        :  Mr. Chinni Ravi,Full Time                                  
+          Qualification : B.Tech- Mining                                            
+          Appointment/ : 20/09/2022                                                 
+          Termination date                                                          
+          Geologist                                                                 
+          Name        :  Sri Vijendra Kashyap,Full Time                             
+          Qualification : M.Sc. Geology                                             
+          Appointment/ : 12/06/2018                                                 
+          Termination date                                                          
+          Manager                                                                   
+                                                                                    
+          Name        :  Mr. Siyaram Meena                                          
+          Qualification :                                                           
+          Appointment/ : 26/09/2022                                                 
+          Termination date                                                          
+                                                                                    
+  6. Date of approval of Mining : Modif.of approved Mining Plan 05/12/2006          
+     Plan/Scheme of Mining        Modif.of approved Mining Plan 07/05/2013          
+                                  MP modif under MCR 1960       20/05/2016          
+                                  MP modif under 17(3) MCR 2016 18/10/2016          
+                                  MP modif under 17(3) MCR 2016 03/11/2017          
+                                  MP modif under 17(3) MCR 2016 06/09/2019          
+                                  MP review under 17(1) MCR 2016 25/01/2021         
+                                  MP modif under 17(3) MCR 2016 27/01/2023          
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                   PAGE : 3         
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                       PART - II : OBSERVATION/COMMENTS OF INSPECTING OFFICERS      
+                                                                                    
+      Exploration :                                                                 
+                                                                                    
+     Sl.No. Item          Proposals    Actual work          Remarks                 
+                                                                                    
+      1a    Backlog of     Nil          Nil                                         
+            previous year                                                           
+      1b    Exploration over Underground+S Underground+Surface                      
+            lease area for urface       No. of BH: 181No.                           
+            geological axis 1 No. of BH: Meterage:74956 m                           
+            or 2           190No.                                                   
+                           Meterage:5500                                            
+                           0 meter                                                  
+                           Grid:25mX12.5                                            
+                           m                                                        
+                           Depth(mRL):50                                            
+      1c    Exploration    NA           The exploration is being                    
+            Agencies and                done by HZL. Drilling                       
+            Expenditure in              agency is                                   
+            lakh rupees                 MAPL                                        
+            during the year             Plot No 110, Main Dhemo,                    
+                                        Beside Railway Siding,                      
+                                        P.O. Sitarampur-713359,                     
+                                        Asansol, West Bardhaman,                    
+                                        West Bengal, INDIA.                         
+                                        Rs. 51228200                                
+      1d    Balance area to 156 Ha      156 Ha                                      
+            be explored to                                                          
+            bring Geological                                                        
+            axis in 1 or 2                                                          
+      1e    Balance reserve Reserve-    Reserve-1396258MT                           
+            as on 01/04/20 1396258MT    Resources-5048993MT                         
+                           Resources-   Total-6445251                               
+                           5048993MT    As per approved MP dated                    
+                           Total-6445251 27/01/2023                                 
+                           As per                                                   
+                           approved MP                                              
+                           dated                                                    
+                           27/01/2023                                               
+      1f    General remarks NA          The geology and                             
+            of inspecting               exploration may be                          
+            officers on                 considered as                               
+            geology,                    satisfactory.                               
+            exploration etc                                                         
+        Development :                                                               
+                                                                                    
+      Sl.No.  Item          Propasals  Actual work           Remarks                
+                                                                                    
+       2a   Location of   Block-3     Block-3                                       
+            development   Main Lens   Main Lens                                     
+            w.r.t.lease area ,S1and K18 and K18                                     
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                   PAGE : 4         
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       2b   Separate benches NA       NA                                            
+            in topsoil,                                                             
+            overburden and                                                          
+            minerals (Rule                                                          
+            15)                                                                     
+       2c   Stripping ratio NA        NA                                            
+            or ore to OB                                                            
+            ratio                                                                   
+       2d   Quantity of   NA          NA                                            
+            topsoil                                                                 
+            generation in m3                                                        
+       2e   Quantity of   NA          NA                                            
+            overburden                                                              
+            generation in m3                                                        
+       2f   General remarks NA        The present status of                         
+            of inspecting             development w.r.t type                        
+            officers on               of deposit may be                             
+            development of            considered as                                 
+            pit w.r.t. type           satisfactory.                                 
+            of deposit etc                                                          
+        Exploitation:                                                               
+                                                                                    
+      Sl.No.  Item          Propasals   Actual work           Remarks               
+                                                                                    
+        3a  Number of pit  NIL         NA, U/g mine.                                
+            proposed for                                                            
+            production                                                              
+        3b  Quantity of ROM 748456 MT  657185 MT during the                         
+            mineral        during the  year 2022-23                                 
+            production     year 2022-23                                             
+            proposed                                                                
+        3c  Recovery of    NIL         NIL                                          
+            sailable/usable                                                         
+            mineral from ROM                                                        
+            production                                                              
+        3d  Quantity of    NIL         NIL                                          
+            mineral reject                                                          
+            generation                                                              
+        3e  Grade of mineral NIL       NIL                                          
+            rejects                                                                 
+            generation and                                                          
+            threshold value                                                         
+            declared.                                                               
+        3f  Quantity of sub NIL        NIL                                          
+            grade mineral                                                           
+            generation.                                                             
+        3g  Grade of sub   NIL         NIL                                          
+            grade mineral                                                           
+            generation                                                              
+                                                                                    
+
+                                                                                    
+                                                                   PAGE : 5         
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+        3h  Manual /       Mechanised  Mechanised                                   
+            Mechanised                                                              
+            method adopted                                                          
+            for segregating                                                         
+            from ROM                                                                
+        3i  Any analysis or NA         No such study carried                        
+            beneficiation              out during the year                          
+            study proposed             2022-23                                      
+            and carried out                                                         
+            for sub grade                                                           
+            mineral and                                                             
+            rejects.                                                                
+        3j  Provision of   NA          Drilling and blasting is                     
+            drilling and               being carried out in u/g                     
+            blasting in                faces                                        
+            mineral benches                                                         
+        3k  Provision of   Yes         In U/g operation various                     
+            mining                     mining machineries have                      
+            machineries in             been deployed.                               
+            mineral benches                                                         
+        3l  Whether height NA          NA                                           
+            of benches in                                                           
+            overburden and                                                          
+            mineral suitable                                                        
+            for method of                                                           
+            mining proposed                                                         
+            in MP/SOM                                                               
+        3m  Total area     NA          U/g mine                                     
+            covered under                                                           
+            excavation/pits                                                         
+        3n  Ore to OB ratio NA         NA (U/g mine)                                
+            for the pit/mine                                                        
+            during the year.                                                        
+        3o  Total area put NA          NA                                           
+            in use under                                                            
+            different heads                                                         
+            at the end of                                                           
+            year                                                                    
+        3p  Production of  2017-18 -   2017-18 -  1200000                           
+            ROM mineral    1200000     2018-19 -  1199592                           
+            during the last 2018-19 -  2019-20-   1139071                           
+            five year period 1200000   2020-21-   1174824                           
+            as applicable  2019-20-    2021-22-    931951                           
+                           1200000     2022-23      657185                          
+                           2020-21-                                                 
+                           1200000                                                  
+                           2021-22-                                                 
+                           1200000                                                  
+                           2022-23                                                  
+                           748456                                                   
+        3q  General remarks NA         The present status of                        
+            of inspecting              method of mining may be                      
+            officers on                considered as                                
+            method of mining           satisfactory.                                
+             etc.                                                                   
+
+                                                                                    
+                                                                   PAGE : 6         
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+             Solid Waste Management - Dumping:                                      
+                                                                                    
+      Sl.No.  Item          Propasals   Actual work           Remarks               
+                                                                                    
+       4a     Separate dumping Top soil - NIL Top soil - NIL                        
+              of topsoil, OB OB- NIL    OB- NIL                                     
+              and mineral   Waste Dump-1 Waste Dump-1                               
+              rejects (Rule                                                         
+              32,33)                                                                
+       4b     Location of   Top soil - NA Top soil - NA                             
+              topsoil, OB and OB - Nil  OB - Nil                                    
+              mineral reject Mineral Reject Mineral Reject dump -                   
+              dumps         dump - Nil  Nil                                         
+       4c     Number of dumps Inside lease Inside lease Area                        
+              within lease  Area        Waste Dump-1                                
+              area and outside Waste Dump-1 Ore Dump-1                              
+              of lease area Ore Dump-1                                              
+       4d     Location of   Point Easting Point Easting Northing                    
+              dumps w.r.t.  Northing    1 1403.8 10363.7                            
+              ultimate pit  1 1403.8    2 1416 10222                                
+              limit (Rule 16) 10363.7   3 1557 10247.7                              
+                            2 1416 10222 4 1535 10389                               
+                            3 1557 10247.7                                          
+                            4 1535 10389                                            
+       4e     Number of active Waste Dump-1 Waste Dump-1                            
+              and alive dumps. Ore Dump-1 Ore Dump-1                                
+                                                                                    
+       4f     Number of dead Nil        Nil                                         
+              dumps.                                                                
+       4g     Number of dumps Nil       NIl                                         
+              established.                                                          
+       4h     Whether       Yes         Yes, total 630 meter                        
+              Retaining wall            retaining wall                              
+              or garland drain          constructed and                             
+              all along dumps           maintained.                                 
+              are there.                                                            
+       4i     Length of     NA          Total 630 meter                             
+              Retaining wall            retaining wall                              
+              or garland drain          constructed and                             
+              all along dumps           maintained.                                 
+       4j     Number of     Nil         Nil                                         
+              settling ponds                                                        
+       4k     Specific      NA          The present status of                       
+              comments of               dump management may be                      
+              inspecting                considered as                               
+              officer on waste          satisfactory.                               
+              dump management                                                       
+        Solid Waste Management - Backfilling:                                       
+                                                                                    
+
+                                                                                    
+                                                                   PAGE : 7         
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+      Sl.No.  Item          Propasals   Actual work           Remarks               
+                                                                                    
+       5a    Status of part NA          Not applicable as it is                     
+             or full                    U/g mine                                    
+             extraction of                                                          
+             mineral from                                                           
+             mined out area                                                         
+             before starting                                                        
+             backfilling.                                                           
+       5b    Area under    NA           NA                                          
+             backfilling of                                                         
+             mined out area                                                         
+       5c    Concurrent use NA          NA                                          
+             of topsoil for                                                         
+             restoration or                                                         
+             rehabilitation                                                         
+             of mineral out                                                         
+             area (Rule 32)                                                         
+       5d    Total area    NA           NA                                          
+             fully reclaimed                                                        
+             and                                                                    
+             rehabilitated                                                          
+       5e    General remarks NA         Being U/g mine, the                         
+             of inspecting              present status may be                       
+             officers on                considered as                               
+             backfilling and            satisfactory.                               
+             reclamation etc.                                                       
+             Progressive Mine Clousre Plan:                                         
+      Sl.No.  Item          Propasals   Actual work           Remarks               
+                                                                                    
+       6a    Whether Annual Yes         Yes, annual report on                       
+             report on PMCP             PMCP submitted                              
+             submitted on                                                           
+             time and                                                               
+             correctly. Rule                                                        
+             23 E(2).                                                               
+       6b    Area available NA          No additional area                          
+             for                        available for plantation                    
+             rehabilitation             and only Gap Filling                        
+             (ha) .                     plantation                                  
+       6c    afforestation 1 hectare    1 hectare                                   
+             done (ha).                                                             
+       6d    No. of saplings 1500 Nos.  2000 saplings planted as                    
+             planted during             reported during the                         
+             the year                   inspection.                                 
+       6e    Cumulative no 44600 Nos.   49100 Nos.                                  
+             .of plants                                                             
+       6f    Any other method NA        Nil                                         
+             of                                                                     
+             rehabilitation                                                         
+       6g    Cost incurred on Rs. 195000 Rs. 390000 incured                         
+             watch and care during the  during teh year 2022-23.                    
+             during the year year 2022-23.                                          
+
+                                                                                    
+                                                                   PAGE : 8         
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       6h    Compliance on NA           NA                                          
+             reclamation and                                                        
+             rehabilitation                                                         
+             by backfilling                                                         
+             (i) Voids                                                              
+             available for                                                          
+             backfilling ( Lx                                                       
+             B x D                                                                  
+       6i    Compliance on NA           NA                                          
+             reclamation and                                                        
+             rehabilitation                                                         
+             by backfilling                                                         
+             (ii) Voids                                                             
+             filled by waste                                                        
+             / tailings                                                             
+       6j    Compliance on NA           NA                                          
+             reclamation and                                                        
+             rehabilitation                                                         
+             by backfilling                                                         
+             (iii)Afforestati                                                       
+             on on backfilled                                                       
+             area                                                                   
+       6k    Compliance on NA           NA                                          
+             reclamation and                                                        
+             rehabilitation                                                         
+             by backfilling                                                         
+             (iv)                                                                   
+             Rehabilitation                                                         
+             by making water                                                        
+             reservoir                                                              
+       6l    Compliance on NA           NA                                          
+             reclamation and                                                        
+             rehabilitation                                                         
+             by backfilling                                                         
+             (v)any other                                                           
+             specific means.                                                        
+       6m    Compliance of 1500 Nos.    Planted 1000 saplings                       
+             rehabilitation             during the year 2022-23                     
+             of waste land              on waste land.                              
+             within lease                                                           
+             (i)afforestation                                                       
+       6n    Compliance of NA           NA                                          
+             rehabilitation                                                         
+             of waste land                                                          
+             within lease                                                           
+             (ii)Area                                                               
+             rehabilitation                                                         
+             (ha)                                                                   
+       6o    Compliance of NA           NA                                          
+             rehabilitation                                                         
+             of waste land                                                          
+             within lease                                                           
+             (iii)Method of                                                         
+             rehabilitation                                                         
+
+                                                                                    
+                                                                   PAGE : 9         
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       6p    Compliance of Yes, Air,    Monitoring is being done                    
+             environmental Noise,       as per proposal.                            
+             monitoring (core vibration and                                         
+             zone and buffer water quality                                          
+             zone)         testing to be                                            
+                           done quarterly                                           
+                           in proposed                                              
+                           location.                                                
+       6q    General remarks NA         The overall status of                       
+             of inspecting              PMCP compliance and                         
+             officers on PMCP           progressive closure                         
+             compliance and             operations may be                           
+             progressive                considered as                               
+             closure                    satisfactory.                               
+             operations etc.                                                        
+         Mineral Conservation:                                                      
+      Sl.No.  Item          Propasals   Actual work           Remarks               
+                                                                                    
+       7a    ROM Mineral   All ROM      All ROM dispatched above                    
+             dispatch or   dispatched   Cutoff for further                          
+             grade-wise    above Cutoff processing to Rampura                       
+             sorting within for further Agucha Mine                                 
+             lease area    processing to                                            
+                           RA Mine.                                                 
+       7b    Method of grade- Nil - All ore Nil - All ore dispatch                  
+             wise mineral  dispatch for for processing                              
+             sorting i.e.  processing                                               
+             manual or                                                              
+             mechanical.                                                            
+       7c    Different grade NA         Not applicable                              
+             of mineral                                                             
+             sorted out at                                                          
+             mines.                                                                 
+       7d    Any           NA           Nil                                         
+             beneficiation                                                          
+             process at mines                                                       
+             .                                                                      
+       7e    General remarks NA         The ovewrall status of                      
+             of inspecting              mineral conservation may                    
+             officer on                 be considered as                            
+             Mineral                    satisfactory.                               
+             conservation and                                                       
+             beneficiation                                                          
+             issues                                                                 
+         Environment:                                                               
+      Sl.No.  Item          Propasals   Actual work           Remarks               
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                   PAGE : 10        
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       8a    Separate removal NA        Not applicable, It is a                     
+             and utilization            U/g mine.                                   
+             of topsoil (Rule                                                       
+             32)                                                                    
+       8b    Concurrent use NA          Not applicable, it is a                     
+             or storage of              U/g mine.                                   
+             topsoil                                                                
+       8c    Separate dumps OB-NIL      OB-NIL                                      
+             for overburden, Waste Dump-1 Waste Dump-1                              
+             waste rock,   Reject-NIL   Reject-NIL                                  
+             rejects and                                                            
+             fines (Rule 33)                                                        
+       8d    Use of        Waste Produced Waste Produced is                         
+             overburden,   is backfilled backfilled in                              
+             waste rock,   in Underground Underground.                              
+             rejects and                                                            
+             fines dumps for                                                        
+             restoring the                                                          
+             land to its                                                            
+             original use                                                           
+       8e    Phased        NA           NA                                          
+             restoration,                                                           
+             reclamation and                                                        
+             rehabilitation                                                         
+             of lands                                                               
+             affected by                                                            
+             mining                                                                 
+             operations                                                             
+             (Pits, dumps                                                           
+             etc)                                                                   
+       8f    Baseline      1500 Nos.    2000 saplings planted                       
+             information on             during the year 2022-23.                    
+             existence of                                                           
+             plantation and                                                         
+             additional                                                             
+             plantation done                                                        
+             (Rule 41)                                                              
+       8g    Survival rate 90% survival 90% survival rate                           
+                           rate         achieved during the year                    
+                                        2022-23.                                    
+       8h    Water sprinkling Yes       Water sprinkling on                         
+             on roads to                roads is being done to                      
+             control airborne           control airborne dust.                      
+             dust                                                                   
+       8i    General remarks NA         The overall status of                       
+             of inspecting              aesthetic beauty in and                     
+             officer on                 around mines area may be                    
+             aesthetic beauty           considered as                               
+             in and around              satisfactory.                               
+             mines area                                                             
+        Compliance of Rule 45:                                                      
+      Sl.No.  Item          Propasals   Actual work           Remarks               
+
+                                                                                    
+                                                                   PAGE : 11        
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       9a    Status of     Yes          Yes, the monthely                           
+             submission of              returns and annual                          
+             Monthly and                return have already been                    
+             Annual returns             submitted.                                  
+       9b    Scrutiny of   Mining       Yes, Mining Engineer -                      
+             Annual return Engineer -Shri Shri Chinni Ravi Tej,                     
+             for information Chinni Ravi Geologist- Shri Vijendra                   
+             on Mining     Tej,         Kashyap Mines Manager-                      
+             Engineer,     Geologist-   Shri Siyaram Meena                          
+             Geologist and Shri Vijendra                                            
+             Manager       Kashyap Mines                                            
+                           Manager -Shri                                            
+                           Siyaram Meena                                            
+       9c    Scrutiny of    Occupied by  Occupied by plant,                         
+             Annual return on plant,    buildings, residential,                     
+             land use pattern buildings, welfare buildings and                      
+             for area under residential, roads : 6.520 hects.,                      
+             pits, reclaimed welfare    Used for any other                          
+             area, dumps etc. buildings and purpose (specify)                       
+                           roads : 6.520 topsoil, mineral storage                   
+                           hects., Used and other open area :                       
+                           for any other 41.980 hects.                              
+                           purpose                                                  
+                           (specify)                                                
+                           topsoil,                                                 
+                           mineral                                                  
+                           storage and                                              
+                           other open                                               
+                           area : 41.980                                            
+                           hects.                                                   
+       9d    Scrutiny of   Number of    Total no. of trees at                       
+             Annual return on trees planted the end of the year :                   
+             afforestation during the   49100 (wml) 5700 (OML)                      
+                           year : 2000,                                             
+                           Total no. of                                             
+                           trees at the                                             
+                           end of the                                               
+                           year : 49100                                             
+                           (wml) 5700                                               
+                           (OML)                                                    
+       9e    Scrutiny of   Nil          Nil                                         
+             Annual return on                                                       
+             mineral reject                                                         
+             generation                                                             
+             (Grade and                                                             
+             quantity)                                                              
+       9f    Scrutiny of    From         From Development:                          
+             Annual return on Development: 199326 T, From Stoping                   
+             ROM stock and/or 199326 T, : 457859 t Total :                          
+             graded ore    From Stoping : 657185 t                                  
+                           457859 t Total with closing stock of                     
+                           : 657185 t   7380 t                                      
+                           with closing                                             
+                           stock of 7380                                            
+                           t                                                        
+
+                                                                                    
+                                                                   PAGE : 12        
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       9g    Scrutiny of   Ex-mine price The information about                      
+             Annual return on of the ore Ex-mine price of the ore                   
+             sale value, Ex. produced : Rs. produced as Rs. 6883.00                 
+             Mine price and 6883.00     seems to be correct.                        
+             production cost Sales-                                                 
+                           Dispatches of                                            
+                           ore and                                                  
+                           concentrates                                             
+                           effected for                                             
+                           Domestic                                                 
+                           Purposes and                                             
+                           for Exports: :                                           
+                           Nil                                                      
+       9h    Scrutiny of   Land : Rs.   The total fixed assets                      
+             Annual return on 86867596, at the beginning of the                     
+             fixed assets  Industrial   year was reported as Rs.                    
+                           building : Rs. 1908708468 with                           
+                           149393381,   additions during the                        
+                           Plant and    Year Rs. 1617952344 and                     
+                           Machinery    Sold or discarded during                    
+                           including    the year Rs. 265061260                      
+                           transport    and Depreciation during                     
+                           equipment :  the year Rs. 1025087150.                    
+                           Rs.          The net closing                             
+                           1286223744,  balance/estimated market                    
+                           Capitalised  value at the end of                         
+                           Expenditure  year 2022-23 was                            
+                           such as pre- reported as Rs.                             
+                           production   2236512402.                                 
+                           exploration,                                             
+                           development,                                             
+                           major overhaul                                           
+                           and repair to                                            
+                           machinery etc.                                           
+                           (As prescribed                                           
+                           under Income                                             
+                           Tax Act) : Rs.                                           
+                           714027681                                                
+       9k    Scrutiny of   DUMPER : 8,  The above information                       
+             Annual return on LOAD HAUL regarding the mining                        
+             mining        DUMPER: 7,   machinery deployed in                       
+             machineries   BLAST HOLE   the mine seems to be                        
+                           DRILL        correct.                                    
+                           (ELEC.):2,                                               
+                           BLAST HOLE                                               
+                           DRILL (ELEC.):                                           
+                           9, EXPLOSIVE                                             
+                           VAN : 2,                                                 
+                           GENERATOR                                                
+                           (DIESEL) : 1,                                            
+                           PUMPS (ELEC.)                                            
+                           : 4, , WINDING                                           
+                           ENGINE (ELEC.)                                           
+                           : 1, OTHER HEM                                           
+                           MACHINERY : 19                                           
+
+                                                                                    
+                                                                   PAGE : 13        
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       Details of violations observed during current inspection and compliance position of
+       violation pointed out                                                        
+                                                                                    
+                Violation observed                  Show couse position             
+         Rule NO.        Issued on Compliance on Rule NO.  Issued on Compliance on  
+                                                                                    
+       MCDR17 Rule 11(1) 21/09/2023                                                 
+                                                                                    
+                                                                                    
+      Date :                                                                        
+                                                      (PANKAJ KULSHRESTHA)          
+                                                      Indian Bureau of Mines        
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    

@@ -56,7 +56,7 @@ SKELETON = {
     "feedstock": None, "feedstock_detail": None, "schemes": [], "scheme_status": {},
     "dates": {k: None for k in ("first_public", "announced", "mou", "approved", "construction_start",
                                 "original_expected_completion", "revised_expected_completion",
-                                "commissioned", "closed")},
+                                "commissioned", "closed", "reopened")},
     "milestones": [], "narrative": {"significance": None, "what_it_does": None, "why_it_matters": None},
     "related": [], "see_also": [], "confidence": None, "last_verified": TODAY, "notes": None,
 }

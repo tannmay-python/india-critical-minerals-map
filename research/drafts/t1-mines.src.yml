@@ -1,0 +1,247 @@
+# Timeline research, mines: when each mine opened (and earlier milestones where found).
+# "First opening date" is the field in Indian Bureau of Mines inspection (MCDR) reports.
+# Applied with scripts/research/apply_updates.py.
+layer: mines
+
+sources:
+  ibm-ram-2024:
+    raw: ibm.gov.in/1745770900680e599440b46RA_HZL_2425_20JUN24
+    title: "IBM inspection report (MCDR): Rampura Agucha mine, Hindustan Zinc (2024-25)"
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: "2024-06-20"
+  ibm-rdm-2024:
+    raw: ibm.gov.in/1745770925680e59adbe529RD_HZL_2425_09OCT24
+    title: "IBM inspection report (MCDR): Rajpura Dariba mine, Hindustan Zinc (2024-25)"
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: "2024-10-09"
+  ibm-skm-2024:
+    raw: ibm.gov.in/1715450999663fb47739ce1mcdr_20223_SKM_HZL_12JAN24
+    title: "IBM inspection report (MCDR): Sindesar Khurd mine, Hindustan Zinc"
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: "2024-01-12"
+  ibm-zawarmala-2024:
+    raw: ibm.gov.in/1745770989680e59ed18260Zawarmala_HZL_2425_11JUL24
+    title: "IBM inspection report (MCDR): Zawarmala mine, Hindustan Zinc (2024-25)"
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: "2024-07-11"
+  ibm-mochia-2023:
+    raw: ibm.gov.in/1715499264664071003f47amcdr_2023_Mochia_HZL_24AUG23
+    title: "IBM inspection report (MCDR): Mochia mine, Hindustan Zinc"
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: "2023-08-24"
+  ibm-baroi-2024:
+    raw: ibm.gov.in/171582606666456d9204fa0Baroi_HZL_23JAN24
+    title: "IBM inspection report (MCDR): Baroi mine, Hindustan Zinc"
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: "2024-01-23"
+  ibm-kayad-2023:
+    raw: ibm.gov.in/1715438892663f852c5299c05092023_Kayad_mcdr
+    title: "IBM inspection report (MCDR): Kayad mine, Hindustan Zinc"
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: "2023-09-05"
+  ibm-khetri-2023:
+    raw: ibm.gov.in/17157924936644ea6ddd92dmcdr_202223_Khetri_11JUL23
+    title: "IBM inspection report (MCDR): Khetri copper mine, Hindustan Copper (2022-23)"
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: "2023-07-11"
+  ibm-kolihan-2023:
+    raw: ibm.gov.in/17157925316644ea932c202mcdr_202223_Kolihan_12JUL23
+    title: "IBM inspection report (MCDR): Kolihan copper mine, Hindustan Copper (2022-23)"
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: "2023-07-12"
+  ibm-jhamarkotra-2024:
+    raw: ibm.gov.in/17549094526899cb0c4ddfaJhamarkotra_RSMML_2425
+    title: "IBM inspection report (MCDR): Jhamarkotra rock phosphate mine, RSMML (2024-25)"
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: "2025"
+  ibm-kachaldara-2018:
+    raw: ibm.gov.in/07312018163033Jhabuarp_mcdr
+    title: "IBM inspection report (MCDR): Kachaldara rock phosphate mine (Meghnagar, Jhabua), MP State Mining Corporation"
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: "2018-07"
+  hcl-kcc-page:
+    raw: hindustancopper.com/KCCPlant
+    title: "Khetri Copper Complex"
+    publisher: Hindustan Copper Ltd
+    tier: T2
+    date: null
+  hcl-mcp-page:
+    raw: hindustancopper.com/MCCPlant
+    title: "Malanjkhand Copper Project"
+    publisher: Hindustan Copper Ltd
+    tier: T2
+    date: null
+  ucil-jaduguda-page:
+    raw: web.archive.org/ucil-jaduguda-mine-wayback
+    title: "Jaduguda Mine (UCIL website, archived copy)"
+    publisher: Uranium Corporation of India Ltd
+    tier: T2
+    date: null
+  irel-quick-about:
+    raw: irel.co.in/irel-quick-aboutus
+    title: "IREL (India) Limited: about us"
+    publisher: IREL (India) Limited
+    tier: T2
+    date: null
+  kmml-history:
+    raw: kmml.com/brief-history
+    title: "KMML: brief history"
+    publisher: The Kerala Minerals and Metals Ltd
+    tier: T2
+    date: null
+
+updates:
+  - id: hzl-rampura-agucha-mine
+    set: {dates: {first_public: "1981-02-05", commissioned: "1981-02-05"}}
+    milestones: [{date: "1981-02-05", event: "Mine first opened (IBM record)", source_id: ibm-ram-2024}]
+    sources:
+      - ref: ibm-ram-2024
+        supports: [dates.first_public, dates.commissioned, milestones]
+        ev: {dates.commissioned: "(g) First opening date : 05-FEB-81"}
+
+  - id: hzl-rajpura-dariba-mine
+    set: {dates: {first_public: "1970-12-28", commissioned: "1970-12-28"}}
+    milestones: [{date: "1970-12-28", event: "Mine first opened (IBM record)", source_id: ibm-rdm-2024}]
+    sources:
+      - ref: ibm-rdm-2024
+        supports: [dates.first_public, dates.commissioned, milestones]
+        ev: {dates.commissioned: "(g) First opening date : 28-DEC-70"}
+
+  - id: hzl-sindesar-khurd-mine
+    set: {dates: {first_public: "2000-08-09", commissioned: "2000-08-09"}}
+    milestones: [{date: "2000-08-09", event: "Mine first opened (IBM record)", source_id: ibm-skm-2024}]
+    sources:
+      - ref: ibm-skm-2024
+        supports: [dates.first_public, dates.commissioned, milestones]
+        ev: {dates.commissioned: "(g) First opening date : 09-AUG-00"}
+
+  - id: hzl-zawar-mines
+    set: {dates: {first_public: "1950-04-01", commissioned: "1950-04-01"}}
+    milestones:
+      - {date: "1950-04-01", event: "Zawarmala mine first opened (IBM record)", source_id: ibm-zawarmala-2024}
+      - {date: "1955-04-01", event: "Mochia mine first opened (IBM record)", source_id: ibm-mochia-2023}
+      - {date: "1973-12-01", event: "Baroi mine first opened (IBM record)", source_id: ibm-baroi-2024}
+    sources:
+      - ref: ibm-zawarmala-2024
+        supports: [dates.first_public, dates.commissioned, milestones]
+        ev: {dates.commissioned: "(g) First opening date : 01-APR-50"}
+      - ref: ibm-mochia-2023
+        supports: [milestones]
+        ev: {milestones: "(g) First opening date : 01-APR-55"}
+      - ref: ibm-baroi-2024
+        supports: [milestones]
+        ev: {milestones: "(g) First opening date : 01-DEC-73"}
+
+  - id: hzl-kayad-mine
+    set: {dates: {first_public: "1998", commissioned: "1998"}}
+    milestones: [{date: "1998", event: "Mine first opened (IBM record, 12/01/1998)", source_id: ibm-kayad-2023}]
+    sources:
+      - ref: ibm-kayad-2023
+        supports: [dates.first_public, dates.commissioned, milestones]
+        ev: {dates.commissioned: "(g) First opening date : 12/01/1998"}
+
+  - id: hcl-khetri-mine
+    set: {dates: {first_public: "1963-10-15", commissioned: "1963-10-15"}}
+    milestones:
+      - {date: "1963-10-15", event: "Mine first opened (IBM record); developed by NMDC", source_id: ibm-khetri-2023}
+      - {date: "1967", event: "Handed over to Hindustan Copper on its formation", source_id: hcl-kcc-page}
+    sources:
+      - ref: ibm-khetri-2023
+        supports: [dates.first_public, dates.commissioned, milestones]
+        ev: {dates.commissioned: "(g) First opening date : 15-OCT-63"}
+      - ref: hcl-kcc-page
+        supports: [milestones]
+        ev: {milestones: "Development of Khetri Mine was started by National Mineral Development Corporation (NMDC) and the project was handed over to HCL in 1967 when HCL was formed."}
+
+  - id: hcl-kolihan-mine
+    set: {dates: {first_public: "1966-11-24", commissioned: "1966-11-24"}}
+    milestones: [{date: "1966-11-24", event: "Mine first opened (IBM record)", source_id: ibm-kolihan-2023}]
+    sources:
+      - ref: ibm-kolihan-2023
+        supports: [dates.first_public, dates.commissioned, milestones]
+        ev: {dates.commissioned: "(g) First opening date : 24-NOV-66"}
+
+  - id: hcl-malanjkhand-mine
+    set: {dates: {first_public: "1969"}}
+    milestones:
+      - {date: "1969", event: "Systematic exploration by the Geological Survey of India", source_id: hcl-mcp-page}
+      - {date: "1973", event: "Mining lease granted to Hindustan Copper", source_id: hcl-mcp-page}
+      - {date: "1982", event: "Open-pit project established", source_id: hcl-mcp-page}
+    sources:
+      - ref: hcl-mcp-page
+        supports: [dates.first_public, dates.commissioned, milestones]
+        ev:
+          milestones: ["Geological Survey of India took systematic geological exploration at this deposit during 1969.", "Mining lease of the ore was granted to HCL during 1973."]
+          dates.commissioned: "Malanjkhand Copper Project was established in 1982."
+
+  - id: ucil-jaduguda-molybdenum
+    set: {dates: {first_public: "1967", commissioned: "1967"}}
+    milestones: [{date: "1967", event: "Mining began at Jaduguda, India's first uranium mine", source_id: ucil-jaduguda-page}]
+    sources:
+      - ref: ucil-jaduguda-page
+        supports: [dates.first_public, dates.commissioned, milestones]
+        ev: {dates.commissioned: "Mining operations at Jaduguda began in the year 1967. Jaduguda Mine has the distinction of being the first Uranium Mine of the country."}
+
+  - id: irel-chavara-mine
+    set: {dates: {first_public: "1963", commissioned: "1963"}}
+    milestones: [{date: "1963", event: "IREL took over the existing Chavara mining and separation company", source_id: irel-quick-about}]
+    sources:
+      - ref: irel-quick-about
+        supports: [dates.first_public, dates.commissioned, milestones]
+        ev: {dates.commissioned: "in year 1963 and took over companies engaged in mining and separation of Atomic Minerals in southern part of the country at Chavara, Kerala and the other at Manavalakurichi (MK),"}
+
+  - id: irel-manavalakurichi-mine
+    set: {dates: {first_public: "1963", commissioned: "1963"}}
+    milestones: [{date: "1963", event: "IREL took over the existing Manavalakurichi mining and separation company", source_id: irel-quick-about}]
+    sources:
+      - ref: irel-quick-about
+        supports: [dates.first_public, dates.commissioned, milestones]
+        ev: {dates.commissioned: "in year 1963 and took over companies engaged in mining and separation of Atomic Minerals in southern part of the country at Chavara, Kerala and the other at Manavalakurichi (MK),"}
+
+  - id: irel-oscom-mine
+    set: {dates: {first_public: "1986", commissioned: "1986"}}
+    milestones: [{date: "1986", event: "Orissa Sands Complex (OSCOM) commissioned", source_id: irel-quick-about}]
+    sources:
+      - ref: irel-quick-about
+        supports: [dates.first_public, dates.commissioned, milestones]
+        ev: {dates.commissioned: "IREL commissioned its largest flagship Mining & Mineral separation unit Orissa Sands Complex (OSCOM) at Chatrapur, Odisha in 1986."}
+
+  - id: kmml-chavara-mine
+    set: {dates: {first_public: "1932", commissioned: "1932"}}
+    milestones:
+      - {date: "1932", event: "F. X. Perira and Sons (Travancore), KMML's forerunner, set up", source_id: kmml-history}
+      - {date: "1956", event: "Taken over by the state government", source_id: kmml-history}
+      - {date: "1972", event: "Converted into The Kerala Minerals and Metals Ltd", source_id: kmml-history}
+    sources:
+      - ref: kmml-history
+        supports: [dates.first_public, dates.commissioned, milestones]
+        ev:
+          dates.commissioned: "By 1932, a visionary private entrepreneur established the F. X. Perira and Sons (Travancore) Pvt. Ltd, the forerunner to KMML."
+          milestones: ["In 1956 it was taken over by the state government and was placed under the control of the industries department.", "The unit was subsequently converted as a limited company in 1972"]
+
+  - id: rsmml-jhamarkotra
+    set: {dates: {first_public: "1968-06-01", commissioned: "1968-06-01"}}
+    milestones: [{date: "1968-06-01", event: "Mine first opened (IBM record)", source_id: ibm-jhamarkotra-2024}]
+    sources:
+      - ref: ibm-jhamarkotra-2024
+        supports: [dates.first_public, dates.commissioned, milestones]
+        ev: {dates.commissioned: "(g) First opening date : 01-JUN-68"}
+
+  - id: mpsmcl-meghnagar
+    set: {dates: {first_public: "1999-04-27", commissioned: "1999-04-27"}}
+    milestones: [{date: "1999-04-27", event: "Kachaldara mine (Meghnagar) first opened (IBM record)", source_id: ibm-kachaldara-2018}]
+    sources:
+      - ref: ibm-kachaldara-2018
+        supports: [dates.first_public, dates.commissioned, milestones]
+        ev: {dates.commissioned: "(g) First opening date : 27-APR-99"}

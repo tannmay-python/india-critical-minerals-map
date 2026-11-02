@@ -1,0 +1,355 @@
+# Timeline research, mines (second batch): the Singhbhum copper mines' closures and restarts,
+# and opening dates for the smaller phosphate and graphite mines from IBM inspection reports.
+# For a restarted mine, dates.reopened is the latest restart and the expected-completion fields
+# track that restart. Applied with scripts/research/apply_updates.py.
+layer: mines
+
+sources:
+  ibm-kendadih-draft:
+    raw: ibm.gov.in/171497414266386dbe298a3Draft_MCDR_Kendadih_copper_mines
+    title: "IBM inspection report (MCDR, draft): Kendadih copper mine, Hindustan Copper"
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: "2024-05"
+  bs-kendadih-2017:
+    raw: business-standard.com/hindustan-copper-surges-7-on-reopening-of-kendadih-mine-117121300200_1
+    title: "Hindustan Copper surges 7% on reopening of Kendadih mine"
+    publisher: Business Standard
+    tier: T3
+    date: "2017-12-13"
+  hcl-surda-pr-2024:
+    raw: bseindia.com/0df9630c-93a8-425a-a5f0-002cc4e3aaf2
+    title: "Hindustan Copper press release: resumption of Surda mine operations (exchange filing)"
+    publisher: Hindustan Copper Ltd
+    tier: T2
+    date: "2024-10-06"
+  hcl-investor-meet-2025:
+    raw: nsearchives.nseindia.com/HINDCOPPERMKD_24092025194040_BSENSE_InvestorMeet_Transcript_18092025
+    title: "Hindustan Copper investor meet transcript, 18 September 2025"
+    publisher: Hindustan Copper Ltd
+    tier: T2
+    date: "2025-09-18"
+  hcl-kendadih-lease-2025:
+    raw: hindustancopper.com/Execution-of-kendadih-mining-lease-deed-04.10.2025
+    title: "Hindustan Copper: execution of Kendadih mining lease deed (exchange filing)"
+    publisher: Hindustan Copper Ltd
+    tier: T2
+    date: "2025-10-04"
+  hcl-kendadih-restart-2026:
+    raw: nsearchives.nseindia.com/HINDCOPPERMKD_16012026122713_Reg30HCLKendadihresumption16012026
+    title: "Hindustan Copper: commencement of operations at Kendadih copper mine (exchange filing)"
+    publisher: Hindustan Copper Ltd
+    tier: T2
+    date: "2026-01-16"
+  hcl-rakha-mdo-2025:
+    raw: bseindia.com/ec5570f5-ecd2-47ff-b8a6-0381f82636b3
+    title: "Hindustan Copper appoints mine developer cum operator for Rakha (exchange filing and press release)"
+    publisher: Hindustan Copper Ltd
+    tier: T2
+    date: "2025-01-10"
+  bs-rakha-lease-2025:
+    raw: business-standard.com/hindustan-copper-rallies-8-on-executing-rakha-mining-lease-deed-details-125092200348_1
+    title: "Hindustan Copper rallies 8% on executing Rakha mining lease deed"
+    publisher: Business Standard
+    tier: T3
+    date: "2025-09-22"
+  ibm-rakha-2024:
+    raw: ibm.gov.in/17337400406756c6085b6d7Rakha_UG_Copper_Mine
+    title: "IBM inspection report (MCDR): Rakha underground copper mine, Hindustan Copper"
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: "2024-10-24"
+  ibm-surda-2020:
+    raw: ibm.gov.in/08282021141940mcdr_surda_05032020
+    title: "IBM inspection report (MCDR): Surda copper mine, Hindustan Copper"
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: "2020-03-05"
+  ibm-surda-2024:
+    raw: ibm.gov.in/17337400116756c5eb7d61aSurda_UG_Copper_Mine
+    title: "IBM inspection report (MCDR): Surda underground copper mine, Hindustan Copper"
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: "2024-10-22"
+  bs-surda-closure-2003:
+    raw: business-standard.com/hind-copper-closes-mine-103062101035_1
+    title: "Hind Copper closes mine"
+    publisher: Business Standard
+    tier: T3
+    date: "2003-06-21"
+  iifl-surda-2022:
+    raw: indiainfoline.com/hind-coppers-surda-mine-resumes-operations-122060800077_1
+    title: "Hind Copper's Surda mine resumes operations"
+    publisher: IIFL (Capital Market news)
+    tier: T3
+    date: "2022-06-08"
+  ibm-sivaganga-2021:
+    raw: ibm.gov.in/05252021123218mcdr_rep_revised_SVG
+    title: "IBM inspection report (MCDR): Sivaganga graphite mine, TAMIN"
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: "2021-01-28"
+  ibm-luhani-2019:
+    raw: ibm.gov.in/08102020111622mcdr_rep_LuhaniRockPhosphate_87MPR07001
+    title: "IBM inspection report (MCDR): Luhani rock phosphate mine, Khajuraho Stones (India)"
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: "2019-12-10"
+  ibm-tigoda-2022:
+    raw: ibm.gov.in/09202022171412mcdr_rep_revised_TIGODA
+    title: "IBM inspection report (MCDR): Tigoda rock phosphate mine, MP State Mining Corporation"
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: "2022-02-09"
+  ibm-maddeora-2022:
+    raw: ibm.gov.in/09202022171332mcdr_rep_revised_Maddeora
+    title: "IBM inspection report (MCDR): Maddeora rock phosphate mine, MP State Mining Corporation"
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: "2022-02-10"
+  ibm-betla-2024:
+    raw: ibm.gov.in/1730101965671f42cd4700dMCDR_Betla_Graphite_mine_202324_
+    title: "IBM inspection report (MCDR): Betla graphite mine (2023-24)"
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: "2024-07-23"
+  ibm-gandabahali-2024:
+    raw: ibm.gov.in/174256517167dd6f33e8614GANDABAHALI_MINE_MCDR
+    title: "IBM inspection report (MCDR): Gandabahali graphite mine"
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: "2024-12-10"
+  ibm-gandakirkita-2024:
+    raw: ibm.gov.in/171266213366152675ac29eMCDR_Inspection_report_Gand__kirkita_35_ha
+    title: "IBM inspection report (MCDR): Gandabahali and Kirikita graphite mine"
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: "2024-02-07"
+  ibm-bandhamandi-2025:
+    raw: ibm.gov.in/174316614167e69abd99c21MCDR_BANDHAMANDI
+    title: "IBM inspection report (MCDR): Bandhamandi graphite mine, Pradhan Industries"
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: "2025-02-20"
+  ibm-bainibasa-2025:
+    raw: ibm.gov.in/174316615867e69ace080e1MCDR_BAINIBASA
+    title: "IBM inspection report (MCDR): Bainibasa graphite mine, Pradhan Industries"
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: "2025-02-22"
+
+updates:
+  - id: hcl-kendadih-mine
+    set:
+      status: Operational
+      status_as_of: "2026-01-16"
+      status_detail: Underground mining restarted 15 Jan 2026 under a 20-year lease signed 4 Oct 2025
+      dates: {first_public: "1957-05-02", commissioned: "1957-05-02", reopened: "2026-01-15",
+              original_expected_completion: "2024", revised_expected_completion: "2025-10"}
+      narrative: {what_it_does: "A Singhbhum underground copper mine, opened in 1957, that HCL has restarted twice since closing it in 2000."}
+    milestones:
+      - {date: "1957-05-02", event: "Mine first opened (IBM record)", source_id: ibm-kendadih-draft}
+      - {date: "2000-02", event: "Closed for economic reasons", source_id: bs-kendadih-2017}
+      - {date: "2017-12-11", event: "Reopened after clearances and a lease deed", source_id: bs-kendadih-2017}
+      - {date: "2024-09-20", event: "Jharkhand cabinet approves lease extension", source_id: hcl-surda-pr-2024}
+      - {date: "2024-10-05", event: "HCL says reopening is \"on the cards this year\"", source_id: hcl-surda-pr-2024}
+      - {date: "2025-09-18", event: "HCL tells investors production will start within 15-20 days of the lease", source_id: hcl-investor-meet-2025}
+      - {date: "2025-10-04", event: "20-year mining lease deed signed", source_id: hcl-kendadih-lease-2025}
+      - {date: "2026-01-15", event: "Underground mining restarts", source_id: hcl-kendadih-restart-2026}
+    sources:
+      - ref: ibm-kendadih-draft
+        supports: [dates.first_public, dates.commissioned, milestones]
+        ev: {dates.commissioned: "(g) First opening date : 02/05/1957"}
+      - ref: bs-kendadih-2017
+        supports: [milestones]
+        ev: {milestones: ["Kendadih copper mine was closed in the February, 2000 due to economic reasons.", "it has re-opened the mine on 11th December, 2017"]}
+      - ref: hcl-surda-pr-2024
+        supports: [milestones, dates.original_expected_completion]
+        ev:
+          milestones: "Jharkhand Cabinet has approved lease extension for the Kendadih and Rakha on 20.09.2024."
+          dates.original_expected_completion: "Reopening of Kendadih and Rakha mines is on the cards this year"
+      - ref: hcl-investor-meet-2025
+        supports: [milestones, dates.revised_expected_completion]
+        ev: {dates.revised_expected_completion: "And within 15-20 days, we should start the production and all mining operations in Kendadih also."}
+      - ref: hcl-kendadih-lease-2025
+        supports: [milestones]
+        ev: {milestones: "04.10.2025 for a period of 20 years."}
+      - ref: hcl-kendadih-restart-2026
+        supports: [status, status_as_of, status_detail, dates.reopened, milestones]
+        ev: {dates.reopened: "underground mining operations at Kendadih Copper Mine, Ghatshila, Jharkhand (a unit of Hindustan Copper Ltd) has successfully commenced on 15.01.2026."}
+
+  - id: hcl-rakha-mine
+    set:
+      status: Approved
+      status_as_of: "2025-09-19"
+      status_detail: Idle since July 2001; reopening by mine developer-operator South West Mining under a 20-year lease signed 19 Sep 2025
+      dates: {first_public: "1972", commissioned: "1972", original_expected_completion: "2024", revised_expected_completion: "2027"}
+      investment: {amount: 2700, currency: INR_crore, basis: "MDO capex estimate: Rakha reopening, new Chapri mine and concentrator"}
+      narrative: {what_it_does: "A Singhbhum copper mine idle since 2001, being reopened and expanded by a mine developer-operator."}
+    milestones:
+      - {date: "1971-08-29", event: "Mining lease granted", source_id: ibm-rakha-2024}
+      - {date: "1972", event: "Mine opened", source_id: ibm-rakha-2024}
+      - {date: "2001-07", event: "Mining suspended as unviable", source_id: ibm-rakha-2024}
+      - {date: "2024-09-20", event: "Jharkhand cabinet approves lease extension", source_id: hcl-surda-pr-2024}
+      - {date: "2024-10-05", event: "HCL says reopening is \"on the cards this year\"", source_id: hcl-surda-pr-2024}
+      - {date: "2024-11-25", event: "Letter of award to South West Mining as mine developer-operator", source_id: hcl-rakha-mdo-2025}
+      - {date: "2025-01-09", event: "Mining services agreement signed with South West Mining (about Rs 2,700 crore capex)", source_id: hcl-rakha-mdo-2025}
+      - {date: "2025-09-18", event: "HCL targets first production 16-18 months after the lease", source_id: hcl-investor-meet-2025}
+      - {date: "2025-09-19", event: "20-year mining lease deed signed", source_id: bs-rakha-lease-2025}
+    sources:
+      - ref: ibm-rakha-2024
+        supports: [dates.first_public, dates.commissioned, milestones, status_detail]
+        ev:
+          dates.commissioned: "16 Date of Opening of Mine 1972"
+          milestones: ["14 Date of Grant of Mining Lease 29.08.1971", "not appointed as the mine is non-operation w.e.f July-"]
+      - ref: hcl-surda-pr-2024
+        supports: [milestones, dates.original_expected_completion]
+        ev:
+          milestones: "Jharkhand Cabinet has approved lease extension for the Kendadih and Rakha on 20.09.2024."
+          dates.original_expected_completion: "Reopening of Kendadih and Rakha mines is on the cards this year"
+      - ref: hcl-rakha-mdo-2025
+        supports: [milestones, status, status_detail, investment]
+        ev:
+          milestones: ["The Letter of Award (LoA) was issued to M/s South West Mining Limited (SWML) on 25.11.2024.", "The Mining Services Agreement was signed on 9th January, 2025 between HCL and SWML at Ranchi."]
+          status_detail: "The mining operation in Rakha Mine was suspended since 2001 on account of unviable operations."
+          investment: "The total capital expenditure (CAPEX) for this project is estimated to be approximately INR 2,700 crore."
+      - ref: hcl-investor-meet-2025
+        supports: [milestones, status, dates.revised_expected_completion]
+        ev:
+          status: "Rakha, we got the forest and environment clearance."
+          dates.revised_expected_completion: "So, we are targeting 16 to 18 months from the lease date"
+      - ref: bs-rakha-lease-2025
+        supports: [milestones, status, status_as_of, status_detail]
+        ev: {milestones: "Rakha mining lease deed has been executed between the company and District Commissioner (DC), Jamshedpur on September 19, 2025 for an extended period of 20 years."}
+
+  - id: hcl-surda-mine
+    set:
+      dates: {first_public: "1956", commissioned: "1956", reopened: "2024-10-05"}
+    milestones:
+      - {date: "1939-06-16", event: "Mining lease first granted", source_id: ibm-surda-2024}
+      - {date: "1956", event: "Mine first opened (IBM record)", source_id: ibm-surda-2020}
+      - {date: "2003-06-07", event: "Closure notice issued; mining ended and staff offered voluntary retirement", source_id: bs-surda-closure-2003}
+      - {date: "2022-06", event: "Operations resume after lease renewal and environment clearance", source_id: iifl-surda-2022}
+      - {date: "2023", event: "Production and development stop in 2023-24: lease deed not executed (IBM)", source_id: ibm-surda-2024}
+      - {date: "2024-08-29", event: "Jharkhand cabinet approves lease extension", source_id: hcl-surda-pr-2024}
+      - {date: "2024-09-26", event: "Lease deed signed", source_id: hcl-surda-pr-2024}
+      - {date: "2024-10-05", event: "Operations resume; HCL plans 0.4 to 0.9 million tpy within seven years", source_id: hcl-surda-pr-2024}
+    sources:
+      - ref: ibm-surda-2020
+        supports: [dates.first_public, dates.commissioned, milestones]
+        ev: {dates.commissioned: "(g) First opening date : 01/01/1956"}
+      - ref: ibm-surda-2024
+        supports: [milestones]
+        ev: {milestones: ["14 Date of Grant of Mining Lease 16.06.1939", "Due to the non-execution of the mining lease, mine production,", "development activities has stopped in 2023-24"]}
+      - ref: bs-surda-closure-2003
+        supports: [milestones]
+        ev: {milestones: "the closure notice was issued by the Union labour ministry on June 7 and was made public on June 10 at the Surda mines notice board."}
+      - ref: iifl-surda-2022
+        supports: [milestones]
+        ev: {milestones: "The operations have been resumed post renewal of lease by the Government of Jharkhand and after obtaining the required environment clearance (EC)"}
+      - ref: hcl-surda-pr-2024
+        supports: [milestones, dates.reopened]
+        ev:
+          dates.reopened: ["Ghatsila, Dt. 05.10.2024", "inaugurated the resumption of Surda Mine operations today in the presence of"]
+          milestones: ["Lease was approved by Cabinet of Jharkhand Government on 29.08.2024 and the", "lease deed was executed on 26.09.2024.", "enhance the mining capacity of Surda mine from the current level of 0.4 mtpa to 0,9"]
+
+  - id: tamin-sivaganga-graphite
+    set: {dates: {first_public: "1982-09-25", commissioned: "1982-09-25"}}
+    milestones: [{date: "1982-09-25", event: "Mine first opened (IBM record)", source_id: ibm-sivaganga-2021}]
+    sources:
+      - ref: ibm-sivaganga-2021
+        supports: [dates.first_public, dates.commissioned, milestones]
+        ev: {dates.commissioned: "(g) First opening date : 25/09/1982"}
+
+  - id: khajuraho-stones-phosphate
+    set:
+      aliases: [Luhani rock phosphate mine]
+      dates: {first_public: "2016-03-03", commissioned: "2016-03-03"}
+    milestones: [{date: "2016-03-03", event: "Luhani mine first opened (IBM record)", source_id: ibm-luhani-2019}]
+    sources:
+      - ref: ibm-luhani-2019
+        supports: [dates.first_public, dates.commissioned, milestones, operator]
+        ev:
+          dates.commissioned: "(g) First opening date : 03-MAR-16"
+          operator: "Lessee : KHAJURAHO STONES(INDIA) PVT. LTD."
+
+  - id: mpsmcl-hirapur
+    set:
+      aliases: [Tigoda and Maddeora rock phosphate mines]
+      dates: {first_public: "1978-10-15", commissioned: "1978-10-15"}
+      notes: "MPSMCL's rock phosphate mines around Hirapur: Tigoda (Sagar district, Hirapur post office) and Maddeora (Chhatarpur district); IBM lists MPSMCL producing in both districts."
+    milestones:
+      - {date: "1978-10-15", event: "Maddeora mine (Chhatarpur) first opened (IBM record)", source_id: ibm-maddeora-2022}
+      - {date: "1998-06-05", event: "Tigoda mine (Sagar) first opened (IBM record)", source_id: ibm-tigoda-2022}
+    sources:
+      - ref: ibm-maddeora-2022
+        supports: [dates.first_public, dates.commissioned, milestones]
+        ev: {dates.commissioned: "(g) First opening date : 15-OCT-78"}
+      - ref: ibm-tigoda-2022
+        supports: [milestones]
+        ev: {milestones: ["(g) First opening date : 05-JUN-98", "Post office : HIRAPUR"]}
+
+  - id: betla-graphite-mine
+    set:
+      operator: Parijat Mining Industries (India) Pvt Ltd
+      operator_type: Unlisted private
+      location: {district: Latehar}
+      dates: {first_public: "1996-06-17", commissioned: "1996-06-17"}
+      notes: null
+    milestones: [{date: "1996-06-17", event: "Mine opened (IBM record)", source_id: ibm-betla-2024}]
+    sources:
+      - ref: ibm-betla-2024
+        supports: [operator, location, dates.first_public, dates.commissioned, milestones]
+        ev:
+          dates.commissioned: "16 Date of Opening of Mine 17/06/1996"
+          operator: "M/s Parijat Mining Industries (India) Pvt."
+          location: "8 District Latehar"
+
+  - id: gandabahali-graphite-mines
+    set:
+      operator: Individual lessees (names withheld)
+      location: {district: Nuapada}
+      dates: {first_public: "2005-07-16", commissioned: "2005-07-16"}
+      notes: "Two leases held by individuals: Gandabahali, and Gandabahali and Kirikita."
+    milestones:
+      - {date: "2005-07-16", event: "Gandabahali mine opened (IBM record)", source_id: ibm-gandabahali-2024}
+      - {date: "2006-06-26", event: "Gandabahali and Kirikita mine opened (IBM record)", source_id: ibm-gandakirkita-2024}
+    sources:
+      - ref: ibm-gandabahali-2024
+        supports: [operator, location, dates.first_public, dates.commissioned, milestones]
+        ev:
+          dates.commissioned: "16 Date of opening of mine 16.07.2005"
+          location: "8 District Nuapada"
+      - ref: ibm-gandakirkita-2024
+        supports: [operator, location, milestones]
+        ev:
+          milestones: "21 Date of opening of mine 26.06.2006"
+          location: "12 District Nuapada"
+
+  - id: pradhan-bandhamundi-graphite
+    set:
+      location: {village_or_town: Bandhamandi, district: Rayagada, lat: 19.373179, lon: 83.116745, precision: district}
+      dates: {first_public: "1992-01-29", commissioned: "1992-01-29", reopened: "2018-02-28"}
+      notes: "Point is Kashipur tahsil, Rayagada (IBM); Bandhamandi village did not geocode."
+    milestones:
+      - {date: "1992-01-29", event: "Mine opened (IBM record)", source_id: ibm-bandhamandi-2025}
+      - {date: "2018-02-28", event: "Mine reopened (IBM record)", source_id: ibm-bandhamandi-2025}
+    sources:
+      - ref: ibm-bandhamandi-2025
+        supports: [location, dates.first_public, dates.commissioned, dates.reopened, milestones, operator]
+        ev:
+          dates.commissioned: "20 Date of opening of Mine 29.01.1992 and re - opening on 28.02.2018"
+          location: ["11 Taluka / Mandal Kashipur", "10 Village Bandhamandi"]
+
+  - id: pradhan-banibasa-graphite
+    set:
+      location: {village_or_town: Bainibasa, district: Rayagada, lat: 19.639052, lon: 83.491575, precision: town}
+      dates: {first_public: "2019-12-27", commissioned: "2019-12-27"}
+      notes: null
+    milestones: [{date: "2019-12-27", event: "Mine opened (IBM record)", source_id: ibm-bainibasa-2025}]
+    sources:
+      - ref: ibm-bainibasa-2025
+        supports: [location, dates.first_public, dates.commissioned, milestones, operator]
+        ev:
+          dates.commissioned: "20 Date of opening of Mine 27.12.2019"
+          location: ["12 District Rayagada", "10 Village Bainibasa"]

@@ -1379,7 +1379,7 @@
                             6154.213852                                           
                             1804.441701                                           
                             5340.861151                                           
-                            8064628001                                            
+                            [phone removed]                                            
                             455847135                                             
                             450615674                                             
                             990452                                                
@@ -6753,7 +6753,7 @@
         Title               with high specificity in prospecting for minerals     
         Institution         Indian Institute of Technology Delhi                  
         Principal           Madhusudan Singh                                      
-        Investigator        (7503608075, msingh@ee.iitd.ac.in)                    
+        Investigator        ([phone removed], [email removed])                    
         Project             Rs. 67,80,450.00                                      
         Cost & Duration     3 years                                               
         Objectives          A. Develop non-specific rare earth atom / heavy metal sensing devices, based on our existing
@@ -6772,7 +6772,7 @@
                             Dharwar Craton (Nuggihalli chromite belt). Geosciences and Exploration
         Institution         CSIR National Geophysical Research Institute          
         Principal           P V SUNDER RAJU                                       
-        Investigator        (9490748152, pvsraju@ngri.res.in)                     
+        Investigator        ([phone removed], [email removed])                     
         Project Cost        Rs. 15,12,000.00                                      
         & Duration          1 year                                                
         Objectives of the project To collate the published reports from GSI etc, available in public domain Integrated
@@ -6787,7 +6787,7 @@
                              natural mineral Chalcopyrite and bauxite residue. Mining (includes rock mechanics, design,
                              equipments, energy, environment, safety)             
         Institution          Indian Institute of Technology Bhubaneswar           
-        Principal Investigator Saroj Kumar Nayak (9438290179, nayaks@iitbbs.ac.in)
+        Principal Investigator Saroj Kumar Nayak ([phone removed], [email removed])
         Project Cost         Rs. 31,42,600.00                                     
         & Duration           3 years                                              
         Objectives of the project We present a research proposal explaining the significant role of nanostructured CuFeS along
@@ -6822,7 +6822,7 @@
                                                                                   
                                                                                   
         Principal           SUNITA ROUTRAY                                        
-        Investigator        (7327847963, sroutray1@cvrce.edu.in)                  
+        Investigator        ([phone removed], [email removed])                  
         Project Cost and duration Rs. 26,90,700.00                                
         Objectives of       Value addition of waste beach sand tailings           
         the project         To generate wealth from waste                         
@@ -6836,7 +6836,7 @@
                             Beneficiation, Ore Dressing, Mineral Processing & Recovery from Waste
         Institution         Jawaharlal Nehru Aluminium Research Development and Design Centre
         Principal           PRACHIPRAVA PRADHAN                                   
-        Investigator        (9438760367, prachi@jnarddc.gov.in)                   
+        Investigator        ([phone removed], [email removed])                   
         Project Cost        Rs. 29,35,800.00                                      
         & Duration          2 years                                               
         Objectives of the project Conversion of red mud as low-cost heterogeneous catalyst for biodiesel synthesis from
@@ -6848,7 +6848,7 @@
         Project Title       Dissolution of chalcopyrite and other sulphide ores using extractive deep eutectic solvents
         Institution         K.C college,                                          
                             HSNC University, Mumbai (Hyderabad Sind National Collegiate Board)
-        Principal           Hemlata K. Bagla (9821420698, hemlata.bagla @kccollege.edu. in)
+        Principal           Hemlata K. Bagla ([phone removed], hemlata.bagla @kccollege.edu. in)
         Investigator                                                              
         Project Cost        Rs. 50,00,000.00                                      
         & Duration          3 years                                               
@@ -6863,7 +6863,7 @@
         Project Title       Extraction (Metallurgical processes)                  
         Institution         Jawaharlal Nehru Aluminium Research Development and Design Centre
         Principal           KOLA IMMANUEL RAJU                                    
-        Investigator        (9980574024, immanuelkola@jnarddc.gov.in)             
+        Investigator        ([phone removed], [email removed])             
         Project Cost        Rs. 57,33,000.00                                      
         & Duration          1 year                                                
         Objectives of the project 1. To establish techno-economic scenario of copper scrap recycling Industry in the country.
@@ -6875,7 +6875,7 @@
                             process Metal Extraction (Metallurgical processes)    
         Institution         Banaras Hindu University                              
         Principal           Rajendra Kumar Singh                                  
-        Investigator        (9451000681, rajendrasingh.bhu@gmail.com)             
+        Investigator        ([phone removed], [email removed])             
         Project Cost        Rs. 28,46,655.00                                      
         & Duration          3 years                                               
         68 | Indian Minerals Yearbook 2023                                        
@@ -6907,7 +6907,7 @@
                             Beneficiation, Ore                                    
         Institution         CSIR Institute of Minerals and Materials Technology)  
         Principal           Chinmaya Kumar Sarangi                                
-        Investigator        (8895198482, cksarangi@immt.res.in)                   
+        Investigator        ([phone removed], [email removed])                   
                             Rs. 91,31,390.00                                      
         Project Cost & Duration                                                   
                             2 years                                               
@@ -6926,7 +6926,7 @@
         Institution         CSIR Institute of Minerals and Materials Technology   
                             Rakesh Saini                                          
         Principal                                                                 
-                            (09680842254, rakeshsaini@immt.res.in)                
+                            ([phone removed], [email removed])                
         Investigator                                                              
                             CSIR Institute of Minerals and Materials Technology   
                             Rs. 48,57,000.00                                      
@@ -6967,7 +6967,7 @@
                             alloys using the CALPHAD method                       
         Institution         Indian Institute of Technology Jodhpur                
         Principal           Jaiveer Singh                                         
-        Investigator        (9022080900, jaiveer@iitj.ac.in)                      
+        Investigator        ([phone removed], [email removed])                      
         Project Cost        Rs. 46,88,200.00                                      
         & Duration          3 years                                               
         Objectives of the project The major objectives of the proposed work are as follows:
@@ -6994,7 +6994,7 @@
                             Graphene (Gr) for advance applications Alloys, Rare Earths, Specialty materials and product
         Institution         Balaram Panda Trust                                   
         Principal           Priyambada Nayak                                      
-        Investigator        (7873008101, dr.priyambada@gift.edu.in)               
+        Investigator        ([phone removed], [email removed])               
         Project Cost                                                              
                             Rs. 24,41,800.00                                      
         & Duration                                                                
@@ -7018,7 +7018,7 @@
                             (Duration: 2 Yrs, 0 Mth ) Submitted                   
         Institution         SSN TRUST                                             
         Principal           V.E.Annamalai                                         
-        Investigator        (9840359093, annamalaive@ssn.edu.in)                  
+        Investigator        ([phone removed], [email removed])                  
         Project Cost        Rs. 27,47,000.00                                      
         & Duration          2 years                                               
         Objectives of the project i) The background: Garnet is an environmental friendly material withspecific applications.
@@ -7041,7 +7041,7 @@
         Institution         Jawaharlal Nehru Aluminium Research Development and Design
                             Centre                                                
         Principal           V N S U VISWANATH AMMU                                
-        Investigator        (7798546794, viswanatha@jnarddc.gov.in)               
+        Investigator        ([phone removed], [email removed])               
         Project Cost        Rs. 58,38,000.00                                      
         & Duration          1 year                                                
         Objectives          • To establish a techno-economic scenario of lead scrap recycling
@@ -7055,7 +7055,7 @@
                             Beneficiation, Ore Dressing, Mineral Processing & Recovery from waste
         Institution         CSIR Institute of Minerals and Materials Technology   
         Principal           KALI SANJAY                                           
-        Investigator        (9338291970, ksanjay@immt.res.in)                     
+        Investigator        ([phone removed], [email removed])                     
         Project Cost        Rs. 3,92,16,000.00                                    
         & Duration          3 years                                               
         Objectives of the project • Validation of Proof of Concept, Generation of engineering data and preparation of Basic
@@ -7075,7 +7075,7 @@
                             Odisha Mining (includes rock mechanics, design, equipments, energy, environment, safety)
         Institution         National Institute of Technology Rourkela)            
         Principal           Himanshu Bhushan Sahu                                 
-        Investigator        (9437245625, hbsahu@nitrkl.ac.in)                     
+        Investigator        ([phone removed], [email removed])                     
         Project Cost & Duration Rs. 38,88,600.00                                  
                             3 years                                               
         Objectives of       The main objective of the research work is to develop a sustainable material using chromite
@@ -7097,7 +7097,7 @@
                             composite                                             
         Institution         CSIR Central Glass and Ceramic Research Institute     
         Principal           Soupitak Pal                                          
-        Investigator        (8777541388, soupitak@cgcri.res.in)                   
+        Investigator        ([phone removed], [email removed])                   
                                                          Research & Development | 71
 
                                                                                   
@@ -7124,7 +7124,7 @@
                             situ synthesis and coating in Fluidized Bed Process systems
         Institution         CSIR Advanced Materials and Processes Research Institute AMPRI
         Principal           TILAK                                                 
-        Investigator        (7906445435, tilak@ampri.res.in)                      
+        Investigator        ([phone removed], [email removed])                      
         Project Cost        Rs. 91,71,500.00                                      
         & Duration          2 years                                               
         Objectives of the project • Design and development of fluidized bed apparatus for in- situ synthesis of Cu-graphene
@@ -7139,7 +7139,7 @@
         Institution         Jawaharlal Nehru Aluminium Research Development and Design
                             Centre                                                
         Principal           RAMAVAJJALA ANIL KUMAR                                
-        Investigator        (9491318525, anilkumar@jnarddc.gov.in)                
+        Investigator        ([phone removed], [email removed])                
         Project Cost        Rs. 54,09,600.00                                      
         & Duration          1 year                                                
         Objectives                                                                
@@ -7152,7 +7152,7 @@
                             Beneficiation, Ore Dressing, Mineral Processing & Recovery from waste
         Institution         CSIR Institute of Minerals and Materials Technology   
         Principal           SUJANA M G                                            
-        Investigator        (9438399955, sujana@immt.res.in)                      
+        Investigator        ([phone removed], [email removed])                      
         Project Cost        Rs. 57,46,244.00                                      
         & Duration          3 years                                               
         Objectives of the project                                                 
@@ -7190,7 +7190,7 @@
                             energy, environment, safety)                          
         Institution         National Institute of Technology Rourkela             
         Principal           Dibya Prakash Jena                                    
-        Investigator        9938084602, jenad@nitrkl.ac.in                        
+        Investigator        [phone removed], [email removed]                        
         Project Cost        Rs. 1,32,65,500.00                                    
         & Duration          Duration: 2 years,                                    
         Objectives of the project The acoustic camera is an advanced instrument that is used for noise source localization
@@ -7208,7 +7208,7 @@
                             Supercapacitor Applications                           
         Institution         Hindustan Institute of Technology and Science         
         Principal           Indrajit Shown                                        
-        Investigator        (7596917050, shownindrajit@gmail.com)                 
+        Investigator        ([phone removed], [email removed])                 
         Project Cost        Rs. 50,27,700.00                                      
         & Duration          3 years                                               
         Objectives of the project • To evaluate the thermoelectric (TE) and supercapacitor (SC) behaviour of hierarchically
@@ -7242,7 +7242,7 @@
                             Beneficiation, Ore Dressing, Mineral Processing & Recovery from waste
         Institution         Non Ferrous Materials Technology Development Centre   
         Principal           D Lokeswara Rao                                       
-        Investigator        (9849604852, lokesh@nftdc.res.in)                     
+        Investigator        ([phone removed], [email removed])                     
                                                          Research & Development | 73
 
                                                                                   
@@ -7275,7 +7275,7 @@
                             of 25- 50 TPY Nd and Pr Metal Extraction Demonstration Plant (TRL7-8) for Rare Earth
                             Magnet Production                                     
         Institution         Non Ferrous Materials Technology Development Centre   
-        PrincipalInvestigator Nirmal Panda(9985509736, nirmalpanda@nftdc.res.in)(Non Ferrous Materials Technology
+        PrincipalInvestigator Nirmal Panda([phone removed], [email removed])(Non Ferrous Materials Technology
                             Development Centre)                                   
         Project Cost & Duration Rs. 19,52,87,000                                  
                             2 years                                               
@@ -7291,7 +7291,7 @@
         Project Title       solutions                                             
         Institution         CSIR Institute of Microbial Technology                
         Principal           Srinivasan Krishnamurthi                              
-        Investigator        (7837306552, kmurthi@imtech.res.in)                   
+        Investigator        ([phone removed], [email removed])                   
         Project Cost        Rs. 20,39,730.00                                      
         & Duration          1 year                                                
                             Screening for siderophore producing bacteria from wealth of marine bacterial cultures
@@ -7309,7 +7309,7 @@
         Principal                                                                 
                             SIVAIAHBATHULA                                        
         Investigator                                                              
-                            (9958923766, sivaiahb@iitbbs.ac.in)                   
+                            ([phone removed], [email removed])                   
         Project Cost        Rs. 42,06,750.00                                      
         & Duration          3 years                                               
         74 | Indian Minerals Yearbook 2023                                        
@@ -7342,7 +7342,7 @@
                             Separation Through Advanced Hydrometallurgy.          
         Institution         Banaras Hindu University                              
         Principal           SomenathGarai                                         
-        Investigator        (8400098731, sgarai@bhu.ac.in)                        
+        Investigator        ([phone removed], [email removed])                        
                             Rs.1,61,58,500.00                                     
         Project Cost &Duration                                                    
                             3 years                                               
@@ -9714,7 +9714,7 @@
          Magnesite  t    113497 107526 61324 60461 52173 47065 54.03 56.23 -5.26  
          Marl       t    1853481 1452489 -   - 1853481 1452489 -  -    -21.63     
          Moulding Sand t  17583 17260  -     -  17583 17260  -    -     -1.84     
-         Phosphorite t   1394959 1978449 1295429 1878579 99530 99870 92.87 94.95 41.83
+         Phosphorite t   1394959 1978449 1295429 1878579 [phone removed] 92.87 94.95 41.83
          Rock Salt  t      286  1002  286  1002    -    -   100  100   250.35     
          Selenite   t      716   328  646   328   70       90.22 100   -54.19     
          Siliceous Earth t 33898 32070 -     -  33898 32070  -    -     -5.39     
@@ -43957,7 +43957,7 @@
                      eF                                                           
                      eF                                                           
                      eF                                                           
-                       8064628001                                                 
+                       [phone removed]                                                 
                        990452                                                     
                        9488737                                                    
                        4931                                                       

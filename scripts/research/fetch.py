@@ -160,6 +160,15 @@ def main():
         txt = data.decode("utf-8", errors="ignore")
     else:
         txt = ""
+    # Contact details never enter the archive (sha256 above is of the original download).
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    from scrub_contacts import scrub
+    txt = scrub(txt, plain=True)[0]
+    if ext == "html":
+        page, k = scrub(data.decode("utf-8", errors="ignore"))
+        if k:
+            with open(path, "w", encoding="utf-8") as f:
+                f.write(page)
     txtp = os.path.join(d, slug + ".txt")
     with open(txtp, "w", encoding="utf-8") as f:
         f.write(txt)

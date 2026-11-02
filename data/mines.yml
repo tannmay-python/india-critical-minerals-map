@@ -172,14 +172,14 @@
   commodity_as_stated: graphite
   products:
   - Graphite
-  operator: null
-  operator_type: null
+  operator: Parijat Mining Industries (India) Pvt Ltd
+  operator_type: Unlisted private
   owners: []
   partners: []
   location:
     address: null
     village_or_town: Betla
-    district: null
+    district: Latehar
     state: Jharkhand
     country: India
     lat: 23.89031
@@ -208,16 +208,19 @@
   schemes: []
   scheme_status: {}
   dates:
-    first_public: 2025-01
+    first_public: '1996-06-17'
     announced: null
     mou: null
     approved: null
     construction_start: null
     original_expected_completion: null
     revised_expected_completion: null
-    commissioned: null
+    commissioned: '1996-06-17'
     closed: null
-  milestones: []
+  milestones:
+  - date: '1996-06-17'
+    event: Mine opened (IBM record)
+    source_id: ibm-betla-2024
   narrative:
     significance: null
     what_it_does: "A graphite mine in the Palamu belt, listed among India's principal producers in 2022-23."
@@ -226,7 +229,7 @@
   see_also: []
   confidence: medium
   last_verified: '2026-10-24'
-  notes: "IBM's table gives the location and a Daltonganj address but no producer name (OPEN_QUESTIONS 14)."
+  notes: null
   id: betla-graphite-mine
   name: Graphite mine, Betla
   sources:
@@ -243,6 +246,20 @@
     - status_detail
     - location
     - dates.first_public
+  - id: ibm-betla-2024
+    url: "https://ibm.gov.in/writereaddata/files/1730101965671f42cd4700dMCDR_Betla_Graphite_mine_202324_.pdf"
+    title: "IBM inspection report (MCDR): Betla graphite mine (2023-24)"
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: '2024-07-23'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - operator
+    - location
+    - dates.first_public
+    - dates.commissioned
+    - milestones
 - aliases: []
   layer: mines
   stages:
@@ -266,9 +283,9 @@
     lon: 86.42355
     precision: town
     geometry: null
-  status: Stalled
-  status_as_of: 2025-01
-  status_detail: Reopened Dec 2017; production contractor terminated 25 May 2023 for poor performance
+  status: Operational
+  status_as_of: '2026-01-16'
+  status_detail: Underground mining restarted 15 Jan 2026 under a 20-year lease signed 4 Oct 2025
   capacity:
     planned:
       value: null
@@ -288,19 +305,45 @@
   schemes: []
   scheme_status: {}
   dates:
-    first_public: 2017-12
+    first_public: '1957-05-02'
     announced: null
     mou: null
     approved: null
     construction_start: null
-    original_expected_completion: null
-    revised_expected_completion: null
-    commissioned: 2017-12
+    original_expected_completion: '2024'
+    revised_expected_completion: 2025-10
+    commissioned: '1957-05-02'
     closed: null
-  milestones: []
+    reopened: '2026-01-15'
+  milestones:
+  - date: '1957-05-02'
+    event: Mine first opened (IBM record)
+    source_id: ibm-kendadih-draft
+  - date: 2000-02
+    event: Closed for economic reasons
+    source_id: bs-kendadih-2017
+  - date: '2017-12-11'
+    event: Reopened after clearances and a lease deed
+    source_id: bs-kendadih-2017
+  - date: '2024-09-20'
+    event: Jharkhand cabinet approves lease extension
+    source_id: hcl-surda-pr-2024
+  - date: '2024-10-05'
+    event: HCL says reopening is "on the cards this year"
+    source_id: hcl-surda-pr-2024
+  - date: '2025-09-18'
+    event: HCL tells investors production will start within 15-20 days of the lease
+    source_id: hcl-investor-meet-2025
+  - date: '2025-10-04'
+    event: 20-year mining lease deed signed
+    source_id: hcl-kendadih-lease-2025
+  - date: '2026-01-15'
+    event: Underground mining restarts
+    source_id: hcl-kendadih-restart-2026
   narrative:
     significance: null
-    what_it_does: A reopened Singhbhum copper mine whose production contract was terminated in 2023.
+    what_it_does: A Singhbhum underground copper mine, opened in 1957, that HCL has restarted twice since closing
+      it in 2000.
     why_it_matters: null
   related:
   - hcl-surda-mine
@@ -326,6 +369,74 @@
     - dates.first_public
     - operator
     - location
+  - id: ibm-kendadih-draft
+    url: "https://ibm.gov.in/writereaddata/files/171497414266386dbe298a3Draft_MCDR_Kendadih_copper_mines.PDF"
+    title: "IBM inspection report (MCDR, draft): Kendadih copper mine, Hindustan Copper"
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: 2024-05
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.commissioned
+    - milestones
+  - id: bs-kendadih-2017
+    url: "https://www.business-standard.com/article/markets/hindustan-copper-surges-7-on-reopening-of-kendadih-mine-117121300200_1.html"
+    title: "Hindustan Copper surges 7% on reopening of Kendadih mine"
+    publisher: Business Standard
+    tier: T3
+    date: '2017-12-13'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - milestones
+  - id: hcl-surda-pr-2024
+    url: "https://www.bseindia.com/xml-data/corpfiling/AttachHis/0df9630c-93a8-425a-a5f0-002cc4e3aaf2.pdf"
+    title: "Hindustan Copper press release: resumption of Surda mine operations (exchange filing)"
+    publisher: Hindustan Copper Ltd
+    tier: T2
+    date: '2024-10-06'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - milestones
+    - dates.original_expected_completion
+  - id: hcl-investor-meet-2025
+    url: "https://nsearchives.nseindia.com/corporate/HINDCOPPERMKD_24092025194040_BSENSE_InvestorMeet_Transcript_18092025.pdf"
+    title: Hindustan Copper investor meet transcript, 18 September 2025
+    publisher: Hindustan Copper Ltd
+    tier: T2
+    date: '2025-09-18'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - milestones
+    - dates.revised_expected_completion
+  - id: hcl-kendadih-lease-2025
+    url: "https://hindustancopper.com/Content/PDF/Execution-of-kendadih-mining-lease-deed-04.10.2025.pdf"
+    title: "Hindustan Copper: execution of Kendadih mining lease deed (exchange filing)"
+    publisher: Hindustan Copper Ltd
+    tier: T2
+    date: '2025-10-04'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - milestones
+  - id: hcl-kendadih-restart-2026
+    url: "https://nsearchives.nseindia.com/corporate/HINDCOPPERMKD_16012026122713_Reg30HCLKendadihresumption16012026.pdf"
+    title: "Hindustan Copper: commencement of operations at Kendadih copper mine (exchange filing)"
+    publisher: Hindustan Copper Ltd
+    tier: T2
+    date: '2026-01-16'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - status
+    - status_as_of
+    - status_detail
+    - dates.reopened
+    - milestones
 - aliases: []
   layer: mines
   stages:
@@ -349,9 +460,10 @@
     lon: 86.35432
     precision: town
     geometry: null
-  status: Stalled
-  status_as_of: 2025-01
-  status_detail: Mining lease expired 28 Aug 2021; extension application pending with Jharkhand
+  status: Approved
+  status_as_of: '2025-09-19'
+  status_detail: Idle since July 2001; reopening by mine developer-operator South West Mining under a 20-year lease
+    signed 19 Sep 2025
   capacity:
     planned:
       value: null
@@ -363,27 +475,54 @@
       unit: null
       basis: null
   investment:
-    amount: null
-    currency: null
-    basis: null
+    amount: 2700
+    currency: INR_crore
+    basis: "MDO capex estimate: Rakha reopening, new Chapri mine and concentrator"
   feedstock: null
   feedstock_detail: null
   schemes: []
   scheme_status: {}
   dates:
-    first_public: 2025-01
+    first_public: '1972'
     announced: null
     mou: null
     approved: null
     construction_start: null
-    original_expected_completion: null
-    revised_expected_completion: null
-    commissioned: null
+    original_expected_completion: '2024'
+    revised_expected_completion: '2027'
+    commissioned: '1972'
     closed: null
-  milestones: []
+  milestones:
+  - date: '1971-08-29'
+    event: Mining lease granted
+    source_id: ibm-rakha-2024
+  - date: '1972'
+    event: Mine opened
+    source_id: ibm-rakha-2024
+  - date: 2001-07
+    event: Mining suspended as unviable
+    source_id: ibm-rakha-2024
+  - date: '2024-09-20'
+    event: Jharkhand cabinet approves lease extension
+    source_id: hcl-surda-pr-2024
+  - date: '2024-10-05'
+    event: HCL says reopening is "on the cards this year"
+    source_id: hcl-surda-pr-2024
+  - date: '2024-11-25'
+    event: Letter of award to South West Mining as mine developer-operator
+    source_id: hcl-rakha-mdo-2025
+  - date: '2025-01-09'
+    event: Mining services agreement signed with South West Mining (about Rs 2,700 crore capex)
+    source_id: hcl-rakha-mdo-2025
+  - date: '2025-09-18'
+    event: HCL targets first production 16-18 months after the lease
+    source_id: hcl-investor-meet-2025
+  - date: '2025-09-19'
+    event: 20-year mining lease deed signed
+    source_id: bs-rakha-lease-2025
   narrative:
     significance: null
-    what_it_does: A closed Singhbhum copper mine that Hindustan Copper wants to reopen through a mine developer.
+    what_it_does: A Singhbhum copper mine idle since 2001, being reopened and expanded by a mine developer-operator.
     why_it_matters: null
   related:
   - hcl-surda-mine
@@ -408,6 +547,68 @@
     - operator
     - location
     - dates.first_public
+  - id: ibm-rakha-2024
+    url: "https://ibm.gov.in/writereaddata/files/17337400406756c6085b6d7Rakha_UG_Copper_Mine.pdf"
+    title: "IBM inspection report (MCDR): Rakha underground copper mine, Hindustan Copper"
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: '2024-10-24'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.commissioned
+    - milestones
+    - status_detail
+  - id: hcl-surda-pr-2024
+    url: "https://www.bseindia.com/xml-data/corpfiling/AttachHis/0df9630c-93a8-425a-a5f0-002cc4e3aaf2.pdf"
+    title: "Hindustan Copper press release: resumption of Surda mine operations (exchange filing)"
+    publisher: Hindustan Copper Ltd
+    tier: T2
+    date: '2024-10-06'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - milestones
+    - dates.original_expected_completion
+  - id: hcl-rakha-mdo-2025
+    url: "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ec5570f5-ecd2-47ff-b8a6-0381f82636b3.pdf"
+    title: Hindustan Copper appoints mine developer cum operator for Rakha (exchange filing and press release)
+    publisher: Hindustan Copper Ltd
+    tier: T2
+    date: '2025-01-10'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - milestones
+    - status
+    - status_detail
+    - investment
+  - id: hcl-investor-meet-2025
+    url: "https://nsearchives.nseindia.com/corporate/HINDCOPPERMKD_24092025194040_BSENSE_InvestorMeet_Transcript_18092025.pdf"
+    title: Hindustan Copper investor meet transcript, 18 September 2025
+    publisher: Hindustan Copper Ltd
+    tier: T2
+    date: '2025-09-18'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - milestones
+    - status
+    - dates.revised_expected_completion
+  - id: bs-rakha-lease-2025
+    url: "https://www.business-standard.com/markets/news/hindustan-copper-rallies-8-on-executing-rakha-mining-lease-deed-details-125092200348_1.html"
+    title: "Hindustan Copper rallies 8% on executing Rakha mining lease deed"
+    publisher: Business Standard
+    tier: T3
+    date: '2025-09-22'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - milestones
+    - status
+    - status_as_of
+    - status_detail
 - aliases:
   - Indian Copper Complex mine
   layer: mines
@@ -456,16 +657,41 @@
   schemes: []
   scheme_status: {}
   dates:
-    first_public: '2024-12-18'
+    first_public: '1956'
     announced: null
     mou: null
     approved: null
     construction_start: null
     original_expected_completion: null
     revised_expected_completion: null
-    commissioned: null
+    commissioned: '1956'
     closed: null
-  milestones: []
+    reopened: '2024-10-05'
+  milestones:
+  - date: '1939-06-16'
+    event: Mining lease first granted
+    source_id: ibm-surda-2024
+  - date: '1956'
+    event: Mine first opened (IBM record)
+    source_id: ibm-surda-2020
+  - date: '2003-06-07'
+    event: Closure notice issued; mining ended and staff offered voluntary retirement
+    source_id: bs-surda-closure-2003
+  - date: 2022-06
+    event: Operations resume after lease renewal and environment clearance
+    source_id: iifl-surda-2022
+  - date: '2023'
+    event: "Production and development stop in 2023-24: lease deed not executed (IBM)"
+    source_id: ibm-surda-2024
+  - date: '2024-08-29'
+    event: Jharkhand cabinet approves lease extension
+    source_id: hcl-surda-pr-2024
+  - date: '2024-09-26'
+    event: Lease deed signed
+    source_id: hcl-surda-pr-2024
+  - date: '2024-10-05'
+    event: Operations resume; HCL plans 0.4 to 0.9 million tpy within seven years
+    source_id: hcl-surda-pr-2024
   narrative:
     significance: null
     what_it_does: "Hindustan Copper's working underground mine in the Singhbhum copper belt, near Ghatsila."
@@ -515,6 +741,59 @@
     supports:
     - status
     - status_detail
+  - id: ibm-surda-2020
+    url: "https://ibm.gov.in/writereaddata/files/08282021141940mcdr_surda_05032020.pdf"
+    title: "IBM inspection report (MCDR): Surda copper mine, Hindustan Copper"
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: '2020-03-05'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.commissioned
+    - milestones
+  - id: ibm-surda-2024
+    url: "https://ibm.gov.in/writereaddata/files/17337400116756c5eb7d61aSurda_UG_Copper_Mine.pdf"
+    title: "IBM inspection report (MCDR): Surda underground copper mine, Hindustan Copper"
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: '2024-10-22'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - milestones
+  - id: bs-surda-closure-2003
+    url: "https://business-standard.com/article/markets/hind-copper-closes-mine-103062101035_1.html"
+    title: Hind Copper closes mine
+    publisher: Business Standard
+    tier: T3
+    date: '2003-06-21'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - milestones
+  - id: iifl-surda-2022
+    url: "https://www.indiainfoline.com/article/capital-market-hot-pursuit/hind-coppers-surda-mine-resumes-operations-122060800077_1.html"
+    title: "Hind Copper's Surda mine resumes operations"
+    publisher: IIFL (Capital Market news)
+    tier: T3
+    date: '2022-06-08'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - milestones
+  - id: hcl-surda-pr-2024
+    url: "https://www.bseindia.com/xml-data/corpfiling/AttachHis/0df9630c-93a8-425a-a5f0-002cc4e3aaf2.pdf"
+    title: "Hindustan Copper press release: resumption of Surda mine operations (exchange filing)"
+    publisher: Hindustan Copper Ltd
+    tier: T2
+    date: '2024-10-06'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - milestones
+    - dates.reopened
 - aliases: []
   layer: mines
   stages:
@@ -560,16 +839,19 @@
   schemes: []
   scheme_status: {}
   dates:
-    first_public: 2025-01
+    first_public: '1967'
     announced: null
     mou: null
     approved: null
     construction_start: null
     original_expected_completion: null
     revised_expected_completion: null
-    commissioned: null
+    commissioned: '1967'
     closed: null
-  milestones: []
+  milestones:
+  - date: '1967'
+    event: "Mining began at Jaduguda, India's first uranium mine"
+    source_id: ucil-jaduguda-page
   narrative:
     significance: null
     what_it_does: "India's only reported molybdenum source, recovered now and then from uranium ore at Jaduguda."
@@ -596,6 +878,18 @@
     - operator
     - location
     - dates.first_public
+  - id: ucil-jaduguda-page
+    url: "http://web.archive.org/web/2024id_/https://ucil.gov.in/jagudamine.html"
+    title: Jaduguda Mine (UCIL website, archived copy)
+    publisher: Uranium Corporation of India Ltd
+    tier: T2
+    date: null
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.commissioned
+    - milestones
 - aliases: []
   layer: mines
   stages:
@@ -647,16 +941,19 @@
   schemes: []
   scheme_status: {}
   dates:
-    first_public: 2025-01
+    first_public: '1963'
     announced: null
     mou: null
     approved: null
     construction_start: null
     original_expected_completion: null
     revised_expected_completion: null
-    commissioned: null
+    commissioned: '1963'
     closed: null
-  milestones: []
+  milestones:
+  - date: '1963'
+    event: IREL took over the existing Chavara mining and separation company
+    source_id: irel-quick-about
   narrative:
     significance: null
     what_it_does: Mines inland beach sands near Kollam and separates ilmenite, rutile, zircon and monazite.
@@ -686,6 +983,18 @@
     - products
     - operator
     - dates.first_public
+  - id: irel-quick-about
+    url: "https://www.irel.co.in/quick-aboutus"
+    title: "IREL (India) Limited: about us"
+    publisher: IREL (India) Limited
+    tier: T2
+    date: null
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.commissioned
+    - milestones
 - aliases: []
   layer: mines
   stages:
@@ -736,16 +1045,25 @@
   schemes: []
   scheme_status: {}
   dates:
-    first_public: 2025-01
+    first_public: '1932'
     announced: null
     mou: null
     approved: null
     construction_start: null
     original_expected_completion: null
     revised_expected_completion: null
-    commissioned: null
+    commissioned: '1932'
     closed: null
-  milestones: []
+  milestones:
+  - date: '1932'
+    event: "F. X. Perira and Sons (Travancore), KMML's forerunner, set up"
+    source_id: kmml-history
+  - date: '1956'
+    event: Taken over by the state government
+    source_id: kmml-history
+  - date: '1972'
+    event: Converted into The Kerala Minerals and Metals Ltd
+    source_id: kmml-history
   narrative:
     significance: null
     what_it_does: "Collects heavy mineral sand from Kerala's beaches and separates the ilmenite KMML turns into\
@@ -776,7 +1094,20 @@
     - location
     - operator
     - dates.first_public
-- aliases: []
+  - id: kmml-history
+    url: "https://kmml.com/brief-history"
+    title: "KMML: brief history"
+    publisher: The Kerala Minerals and Metals Ltd
+    tier: T2
+    date: null
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.commissioned
+    - milestones
+- aliases:
+  - Luhani rock phosphate mine
   layer: mines
   stages:
   - Mining
@@ -821,16 +1152,19 @@
   schemes: []
   scheme_status: {}
   dates:
-    first_public: 2025-01
+    first_public: '2016-03-03'
     announced: null
     mou: null
     approved: null
     construction_start: null
     original_expected_completion: null
     revised_expected_completion: null
-    commissioned: null
+    commissioned: '2016-03-03'
     closed: null
-  milestones: []
+  milestones:
+  - date: '2016-03-03'
+    event: Luhani mine first opened (IBM record)
+    source_id: ibm-luhani-2019
   narrative:
     significance: null
     what_it_does: A private rock phosphate producer in Chhatarpur district.
@@ -856,7 +1190,21 @@
     - location
     - operator
     - dates.first_public
-- aliases: []
+  - id: ibm-luhani-2019
+    url: "https://ibm.gov.in/writereaddata/files/08102020111622mcdr_rep_LuhaniRockPhosphate_87MPR07001.pdf"
+    title: "IBM inspection report (MCDR): Luhani rock phosphate mine, Khajuraho Stones (India)"
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: '2019-12-10'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.commissioned
+    - milestones
+    - operator
+- aliases:
+  - Tigoda and Maddeora rock phosphate mines
   layer: mines
   stages:
   - Mining
@@ -901,16 +1249,22 @@
   schemes: []
   scheme_status: {}
   dates:
-    first_public: 2025-01
+    first_public: '1978-10-15'
     announced: null
     mou: null
     approved: null
     construction_start: null
     original_expected_completion: null
     revised_expected_completion: null
-    commissioned: null
+    commissioned: '1978-10-15'
     closed: null
-  milestones: []
+  milestones:
+  - date: '1978-10-15'
+    event: Maddeora mine (Chhatarpur) first opened (IBM record)
+    source_id: ibm-maddeora-2022
+  - date: '1998-06-05'
+    event: Tigoda mine (Sagar) first opened (IBM record)
+    source_id: ibm-tigoda-2022
   narrative:
     significance: null
     what_it_does: A state-run rock phosphate mine straddling Chhatarpur and Sagar districts.
@@ -919,7 +1273,8 @@
   see_also: []
   confidence: medium
   last_verified: '2026-10-24'
-  notes: IBM lists MPSMCL producing in both Chhatarpur and Sagar districts; both are taken to be the Hirapur mine.
+  notes: "MPSMCL's rock phosphate mines around Hirapur: Tigoda (Sagar district, Hirapur post office) and Maddeora\
+    \ (Chhatarpur district); IBM lists MPSMCL producing in both districts."
   id: mpsmcl-hirapur
   name: MPSMCL Hirapur rock phosphate mine
   sources:
@@ -936,6 +1291,28 @@
     - location
     - operator
     - dates.first_public
+  - id: ibm-maddeora-2022
+    url: "https://ibm.gov.in/writereaddata/files/09202022171332mcdr_rep_revised_Maddeora.pdf"
+    title: "IBM inspection report (MCDR): Maddeora rock phosphate mine, MP State Mining Corporation"
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: '2022-02-10'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.commissioned
+    - milestones
+  - id: ibm-tigoda-2022
+    url: "https://ibm.gov.in/writereaddata/files/09202022171412mcdr_rep_revised_TIGODA.pdf"
+    title: "IBM inspection report (MCDR): Tigoda rock phosphate mine, MP State Mining Corporation"
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: '2022-02-09'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - milestones
 - aliases: []
   layer: mines
   stages:
@@ -983,16 +1360,19 @@
   schemes: []
   scheme_status: {}
   dates:
-    first_public: 2025-01
+    first_public: '1999-04-27'
     announced: null
     mou: null
     approved: null
     construction_start: null
     original_expected_completion: null
     revised_expected_completion: null
-    commissioned: null
+    commissioned: '1999-04-27'
     closed: null
-  milestones: []
+  milestones:
+  - date: '1999-04-27'
+    event: Kachaldara mine (Meghnagar) first opened (IBM record)
+    source_id: ibm-kachaldara-2018
   narrative:
     significance: null
     what_it_does: A state-run rock phosphate mine with a beneficiation plant in Jhabua district.
@@ -1019,6 +1399,18 @@
     - location
     - operator
     - dates.first_public
+  - id: ibm-kachaldara-2018
+    url: "https://www.ibm.gov.in/writereaddata/files/07312018163033Jhabuarp_mcdr.pdf"
+    title: "IBM inspection report (MCDR): Kachaldara rock phosphate mine (Meghnagar, Jhabua), MP State Mining Corporation"
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: 2018-07
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.commissioned
+    - milestones
 - aliases:
   - Malanjkhand Copper Project
   layer: mines
@@ -1067,7 +1459,7 @@
   schemes: []
   scheme_status: {}
   dates:
-    first_public: '1982'
+    first_public: '1969'
     announced: null
     mou: null
     approved: null
@@ -1076,7 +1468,16 @@
     revised_expected_completion: null
     commissioned: '1982'
     closed: null
-  milestones: []
+  milestones:
+  - date: '1969'
+    event: Systematic exploration by the Geological Survey of India
+    source_id: hcl-mcp-page
+  - date: '1973'
+    event: Mining lease granted to Hindustan Copper
+    source_id: hcl-mcp-page
+  - date: '1982'
+    event: Open-pit project established
+    source_id: hcl-mcp-page
   narrative:
     significance: null
     what_it_does: "India's largest copper mine, an open pit moving underground, with its own concentrator in Balaghat\
@@ -1115,6 +1516,18 @@
     archive_url: null
     supports:
     - capacity.installed
+  - id: hcl-mcp-page
+    url: "https://hindustancopper.com/Page/MCCPlant"
+    title: Malanjkhand Copper Project
+    publisher: Hindustan Copper Ltd
+    tier: T2
+    date: null
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.commissioned
+    - milestones
 - aliases: []
   layer: mines
   stages:
@@ -1124,14 +1537,14 @@
   commodity_as_stated: graphite
   products:
   - Graphite
-  operator: null
+  operator: Individual lessees (names withheld)
   operator_type: null
   owners: []
   partners: []
   location:
     address: null
     village_or_town: Gandabahali
-    district: null
+    district: Nuapada
     state: Odisha
     country: India
     lat: 20.13414
@@ -1160,16 +1573,22 @@
   schemes: []
   scheme_status: {}
   dates:
-    first_public: 2025-01
+    first_public: '2005-07-16'
     announced: null
     mou: null
     approved: null
     construction_start: null
     original_expected_completion: null
     revised_expected_completion: null
-    commissioned: null
+    commissioned: '2005-07-16'
     closed: null
-  milestones: []
+  milestones:
+  - date: '2005-07-16'
+    event: Gandabahali mine opened (IBM record)
+    source_id: ibm-gandabahali-2024
+  - date: '2006-06-26'
+    event: Gandabahali and Kirikita mine opened (IBM record)
+    source_id: ibm-gandakirkita-2024
   narrative:
     significance: null
     what_it_does: "Graphite mines in western Odisha, listed among India's principal producers in 2022-23."
@@ -1178,7 +1597,7 @@
   see_also: []
   confidence: medium
   last_verified: '2026-10-24'
-  notes: IBM gives a Sambalpur address but no producer name; point is Gandabahali village (OPEN_QUESTIONS 14).
+  notes: "Two leases held by individuals: Gandabahali, and Gandabahali and Kirikita."
   id: gandabahali-graphite-mines
   name: Graphite mines, Gandabahali and Kirkita
   sources:
@@ -1194,6 +1613,32 @@
     - status
     - location
     - dates.first_public
+  - id: ibm-gandabahali-2024
+    url: "https://ibm.gov.in/writereaddata/files/174256517167dd6f33e8614GANDABAHALI_MINE_MCDR.pdf"
+    title: "IBM inspection report (MCDR): Gandabahali graphite mine"
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: '2024-12-10'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - operator
+    - location
+    - dates.first_public
+    - dates.commissioned
+    - milestones
+  - id: ibm-gandakirkita-2024
+    url: "https://ibm.gov.in/writereaddata/files/171266213366152675ac29eMCDR_Inspection_report_Gand__kirkita_35_ha.pdf"
+    title: "IBM inspection report (MCDR): Gandabahali and Kirikita graphite mine"
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: '2024-02-07'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - operator
+    - location
+    - milestones
 - aliases: []
   layer: mines
   stages:
@@ -1334,16 +1779,19 @@
   schemes: []
   scheme_status: {}
   dates:
-    first_public: 2025-01
+    first_public: '1986'
     announced: null
     mou: null
     approved: null
     construction_start: null
     original_expected_completion: null
     revised_expected_completion: null
-    commissioned: null
+    commissioned: '1986'
     closed: null
-  milestones: []
+  milestones:
+  - date: '1986'
+    event: Orissa Sands Complex (OSCOM) commissioned
+    source_id: irel-quick-about
   narrative:
     significance: null
     what_it_does: "Dredges beach sands at Chatrapur and separates titanium, zirconium and monazite minerals, feeding\
@@ -1383,6 +1831,18 @@
     archive_url: null
     supports:
     - status
+  - id: irel-quick-about
+    url: "https://www.irel.co.in/quick-aboutus"
+    title: "IREL (India) Limited: about us"
+    publisher: IREL (India) Limited
+    tier: T2
+    date: null
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.commissioned
+    - milestones
 - aliases: []
   layer: mines
   stages:
@@ -1398,13 +1858,13 @@
   partners: []
   location:
     address: null
-    village_or_town: Bandhamundi
-    district: null
+    village_or_town: Bandhamandi
+    district: Rayagada
     state: Odisha
     country: India
-    lat: 20.51277
-    lon: 84.42653
-    precision: state
+    lat: 19.373179
+    lon: 83.116745
+    precision: district
     geometry: null
   status: Operational
   status_as_of: 2025-01
@@ -1428,16 +1888,23 @@
   schemes: []
   scheme_status: {}
   dates:
-    first_public: 2025-01
+    first_public: '1992-01-29'
     announced: null
     mou: null
     approved: null
     construction_start: null
     original_expected_completion: null
     revised_expected_completion: null
-    commissioned: null
+    commissioned: '1992-01-29'
     closed: null
-  milestones: []
+    reopened: '2018-02-28'
+  milestones:
+  - date: '1992-01-29'
+    event: Mine opened (IBM record)
+    source_id: ibm-bandhamandi-2025
+  - date: '2018-02-28'
+    event: Mine reopened (IBM record)
+    source_id: ibm-bandhamandi-2025
   narrative:
     significance: null
     what_it_does: "A graphite mine listed among India's principal producers in 2022-23."
@@ -1447,7 +1914,7 @@
   see_also: []
   confidence: medium
   last_verified: '2026-10-24'
-  notes: Bandhamundi did not geocode and IBM gives no district; point is the state centroid (OPEN_QUESTIONS 14).
+  notes: Point is Kashipur tahsil, Rayagada (IBM); Bandhamandi village did not geocode.
   id: pradhan-bandhamundi-graphite
   name: Pradhan Industries graphite mine, Bandhamundi
   sources:
@@ -1464,6 +1931,21 @@
     - location
     - operator
     - dates.first_public
+  - id: ibm-bandhamandi-2025
+    url: "https://ibm.gov.in/writereaddata/files/174316614167e69abd99c21MCDR_BANDHAMANDI.pdf"
+    title: "IBM inspection report (MCDR): Bandhamandi graphite mine, Pradhan Industries"
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: '2025-02-20'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - location
+    - dates.first_public
+    - dates.commissioned
+    - dates.reopened
+    - milestones
+    - operator
 - aliases: []
   layer: mines
   stages:
@@ -1479,13 +1961,13 @@
   partners: []
   location:
     address: null
-    village_or_town: Banibasa
-    district: null
+    village_or_town: Bainibasa
+    district: Rayagada
     state: Odisha
     country: India
-    lat: 20.51277
-    lon: 84.42653
-    precision: state
+    lat: 19.639052
+    lon: 83.491575
+    precision: town
     geometry: null
   status: Operational
   status_as_of: 2025-01
@@ -1509,16 +1991,19 @@
   schemes: []
   scheme_status: {}
   dates:
-    first_public: 2025-01
+    first_public: '2019-12-27'
     announced: null
     mou: null
     approved: null
     construction_start: null
     original_expected_completion: null
     revised_expected_completion: null
-    commissioned: null
+    commissioned: '2019-12-27'
     closed: null
-  milestones: []
+  milestones:
+  - date: '2019-12-27'
+    event: Mine opened (IBM record)
+    source_id: ibm-bainibasa-2025
   narrative:
     significance: null
     what_it_does: One of the five principal graphite producers listed by the Indian Bureau of Mines in 2022-23.
@@ -1528,8 +2013,7 @@
   see_also: []
   confidence: medium
   last_verified: '2026-10-24'
-  notes: Banibasa did not geocode within Odisha and IBM gives no district; point is the state centroid (OPEN_QUESTIONS
-    14).
+  notes: null
   id: pradhan-banibasa-graphite
   name: Pradhan Industries graphite mine, Banibasa
   sources:
@@ -1546,6 +2030,20 @@
     - location
     - operator
     - dates.first_public
+  - id: ibm-bainibasa-2025
+    url: "https://ibm.gov.in/writereaddata/files/174316615867e69ace080e1MCDR_BAINIBASA.pdf"
+    title: "IBM inspection report (MCDR): Bainibasa graphite mine, Pradhan Industries"
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: '2025-02-22'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - location
+    - dates.first_public
+    - dates.commissioned
+    - milestones
+    - operator
 - aliases: []
   layer: mines
   stages:
@@ -1591,16 +2089,19 @@
   schemes: []
   scheme_status: {}
   dates:
-    first_public: 2025-01
+    first_public: '1998'
     announced: null
     mou: null
     approved: null
     construction_start: null
     original_expected_completion: null
     revised_expected_completion: null
-    commissioned: null
+    commissioned: '1998'
     closed: null
-  milestones: []
+  milestones:
+  - date: '1998'
+    event: Mine first opened (IBM record, 12/01/1998)
+    source_id: ibm-kayad-2023
   narrative:
     significance: null
     what_it_does: An underground zinc-lead mine near Ajmer.
@@ -1627,6 +2128,18 @@
     - location
     - operator
     - dates.first_public
+  - id: ibm-kayad-2023
+    url: "https://www.ibm.gov.in/writereaddata/files/1715438892663f852c5299c05092023_Kayad_mcdr.PDF"
+    title: "IBM inspection report (MCDR): Kayad mine, Hindustan Zinc"
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: '2023-09-05'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.commissioned
+    - milestones
 - aliases:
   - Khetri Copper Complex mine
   layer: mines
@@ -1676,16 +2189,22 @@
   schemes: []
   scheme_status: {}
   dates:
-    first_public: '2024-12-18'
+    first_public: '1963-10-15'
     announced: null
     mou: null
     approved: null
     construction_start: null
     original_expected_completion: null
     revised_expected_completion: null
-    commissioned: null
+    commissioned: '1963-10-15'
     closed: null
-  milestones: []
+  milestones:
+  - date: '1963-10-15'
+    event: Mine first opened (IBM record); developed by NMDC
+    source_id: ibm-khetri-2023
+  - date: '1967'
+    event: Handed over to Hindustan Copper on its formation
+    source_id: hcl-kcc-page
   narrative:
     significance: null
     what_it_does: "An underground copper mine feeding Hindustan Copper's Khetri concentrator in Rajasthan."
@@ -1724,6 +2243,28 @@
     archive_url: null
     supports:
     - capacity.installed
+  - id: ibm-khetri-2023
+    url: "https://ibm.gov.in/writereaddata/files/17157924936644ea6ddd92dmcdr_202223_Khetri_11JUL23.PDF"
+    title: "IBM inspection report (MCDR): Khetri copper mine, Hindustan Copper (2022-23)"
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: '2023-07-11'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.commissioned
+    - milestones
+  - id: hcl-kcc-page
+    url: "https://hindustancopper.com/Page/KCCPlant"
+    title: Khetri Copper Complex
+    publisher: Hindustan Copper Ltd
+    tier: T2
+    date: null
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - milestones
 - aliases: []
   layer: mines
   stages:
@@ -1769,16 +2310,19 @@
   schemes: []
   scheme_status: {}
   dates:
-    first_public: '2024-12-18'
+    first_public: '1966-11-24'
     announced: null
     mou: null
     approved: null
     construction_start: null
     original_expected_completion: null
     revised_expected_completion: null
-    commissioned: null
+    commissioned: '1966-11-24'
     closed: null
-  milestones: []
+  milestones:
+  - date: '1966-11-24'
+    event: Mine first opened (IBM record)
+    source_id: ibm-kolihan-2023
   narrative:
     significance: null
     what_it_does: An underground copper mine in the Khetri belt, feeding the Khetri concentrator.
@@ -1805,6 +2349,18 @@
     - operator
     - location
     - dates.first_public
+  - id: ibm-kolihan-2023
+    url: "https://ibm.gov.in/writereaddata/files/17157925316644ea932c202mcdr_202223_Kolihan_12JUL23.PDF"
+    title: "IBM inspection report (MCDR): Kolihan copper mine, Hindustan Copper (2022-23)"
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: '2023-07-12'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.commissioned
+    - milestones
 - aliases: []
   layer: mines
   stages:
@@ -1853,16 +2409,19 @@
   schemes: []
   scheme_status: {}
   dates:
-    first_public: 2025-01
+    first_public: '1968-06-01'
     announced: null
     mou: null
     approved: null
     construction_start: null
     original_expected_completion: null
     revised_expected_completion: null
-    commissioned: null
+    commissioned: '1968-06-01'
     closed: null
-  milestones: []
+  milestones:
+  - date: '1968-06-01'
+    event: Mine first opened (IBM record)
+    source_id: ibm-jhamarkotra-2024
   narrative:
     significance: null
     what_it_does: "Mines and upgrades rock phosphate near Udaipur, supplying most of India's domestic phosphate\
@@ -1891,6 +2450,18 @@
     - location
     - operator
     - dates.first_public
+  - id: ibm-jhamarkotra-2024
+    url: "https://ibm.gov.in/writereaddata/files/17549094526899cb0c4ddfaJhamarkotra_RSMML_2425.PDF"
+    title: "IBM inspection report (MCDR): Jhamarkotra rock phosphate mine, RSMML (2024-25)"
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: '2025'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.commissioned
+    - milestones
 - aliases: []
   layer: mines
   stages:
@@ -1936,16 +2507,19 @@
   schemes: []
   scheme_status: {}
   dates:
-    first_public: 2025-01
+    first_public: '1970-12-28'
     announced: null
     mou: null
     approved: null
     construction_start: null
     original_expected_completion: null
     revised_expected_completion: null
-    commissioned: null
+    commissioned: '1970-12-28'
     closed: null
-  milestones: []
+  milestones:
+  - date: '1970-12-28'
+    event: Mine first opened (IBM record)
+    source_id: ibm-rdm-2024
   narrative:
     significance: null
     what_it_does: "An underground zinc-lead mine beside HZL's Dariba smelting complex."
@@ -1972,6 +2546,18 @@
     - location
     - operator
     - dates.first_public
+  - id: ibm-rdm-2024
+    url: "https://www.ibm.gov.in/writereaddata/files/1745770925680e59adbe529RD_HZL_2425_09OCT24.PDF"
+    title: "IBM inspection report (MCDR): Rajpura Dariba mine, Hindustan Zinc (2024-25)"
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: '2024-10-09'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.commissioned
+    - milestones
 - aliases: []
   layer: mines
   stages:
@@ -2017,16 +2603,19 @@
   schemes: []
   scheme_status: {}
   dates:
-    first_public: 2025-01
+    first_public: '1981-02-05'
     announced: null
     mou: null
     approved: null
     construction_start: null
     original_expected_completion: null
     revised_expected_completion: null
-    commissioned: null
+    commissioned: '1981-02-05'
     closed: null
-  milestones: []
+  milestones:
+  - date: '1981-02-05'
+    event: Mine first opened (IBM record)
+    source_id: ibm-ram-2024
   narrative:
     significance: null
     what_it_does: "The world's largest zinc mine by output; its concentrate carries the cadmium that HZL's smelters\
@@ -2056,6 +2645,18 @@
     - location
     - operator
     - dates.first_public
+  - id: ibm-ram-2024
+    url: "https://ibm.gov.in/writereaddata/files/1745770900680e599440b46RA_HZL_2425_20JUN24.PDF"
+    title: "IBM inspection report (MCDR): Rampura Agucha mine, Hindustan Zinc (2024-25)"
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: '2024-06-20'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.commissioned
+    - milestones
 - aliases: []
   layer: mines
   stages:
@@ -2101,16 +2702,19 @@
   schemes: []
   scheme_status: {}
   dates:
-    first_public: 2025-01
+    first_public: '2000-08-09'
     announced: null
     mou: null
     approved: null
     construction_start: null
     original_expected_completion: null
     revised_expected_completion: null
-    commissioned: null
+    commissioned: '2000-08-09'
     closed: null
-  milestones: []
+  milestones:
+  - date: '2000-08-09'
+    event: Mine first opened (IBM record)
+    source_id: ibm-skm-2024
   narrative:
     significance: null
     what_it_does: "Hindustan Zinc's largest underground ore producer, in Rajsamand district."
@@ -2138,6 +2742,18 @@
     - location
     - operator
     - dates.first_public
+  - id: ibm-skm-2024
+    url: "https://ibm.gov.in/writereaddata/files/1715450999663fb47739ce1mcdr_20223_SKM_HZL_12JAN24.PDF"
+    title: "IBM inspection report (MCDR): Sindesar Khurd mine, Hindustan Zinc"
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: '2024-01-12'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.commissioned
+    - milestones
 - aliases:
   - Mochia, Balaria, Zawarmala and Baroi mines
   layer: mines
@@ -2184,16 +2800,25 @@
   schemes: []
   scheme_status: {}
   dates:
-    first_public: 2025-01
+    first_public: '1950-04-01'
     announced: null
     mou: null
     approved: null
     construction_start: null
     original_expected_completion: null
     revised_expected_completion: null
-    commissioned: null
+    commissioned: '1950-04-01'
     closed: null
-  milestones: []
+  milestones:
+  - date: '1950-04-01'
+    event: Zawarmala mine first opened (IBM record)
+    source_id: ibm-zawarmala-2024
+  - date: '1955-04-01'
+    event: Mochia mine first opened (IBM record)
+    source_id: ibm-mochia-2023
+  - date: '1973-12-01'
+    event: Baroi mine first opened (IBM record)
+    source_id: ibm-baroi-2024
   narrative:
     significance: null
     what_it_does: "A cluster of four underground zinc-lead mines, among India's oldest, south of Udaipur."
@@ -2220,6 +2845,38 @@
     - location
     - operator
     - dates.first_public
+  - id: ibm-zawarmala-2024
+    url: "https://ibm.gov.in/writereaddata/files/1745770989680e59ed18260Zawarmala_HZL_2425_11JUL24.PDF"
+    title: "IBM inspection report (MCDR): Zawarmala mine, Hindustan Zinc (2024-25)"
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: '2024-07-11'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.commissioned
+    - milestones
+  - id: ibm-mochia-2023
+    url: "https://ibm.gov.in/writereaddata/files/1715499264664071003f47amcdr_2023_Mochia_HZL_24AUG23.PDF"
+    title: "IBM inspection report (MCDR): Mochia mine, Hindustan Zinc"
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: '2023-08-24'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - milestones
+  - id: ibm-baroi-2024
+    url: "https://ibm.gov.in/writereaddata/files/171582606666456d9204fa0Baroi_HZL_23JAN24.PDF"
+    title: "IBM inspection report (MCDR): Baroi mine, Hindustan Zinc"
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: '2024-01-23'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - milestones
 - aliases:
   - IREL MK unit
   layer: mines
@@ -2273,19 +2930,22 @@
   schemes: []
   scheme_status: {}
   dates:
-    first_public: 2025-01
+    first_public: '1963'
     announced: null
     mou: null
     approved: null
     construction_start: null
     original_expected_completion: null
     revised_expected_completion: null
-    commissioned: null
+    commissioned: '1963'
     closed: null
   milestones:
   - date: '2022-06-28'
     event: Tamil Nadu issues LoI for a 1,144.06 ha mining lease
     source_id: imyb-2023
+  - date: '1963'
+    event: IREL took over the existing Manavalakurichi mining and separation company
+    source_id: irel-quick-about
   narrative:
     significance: null
     what_it_does: Mines beach sands in Kanyakumari district for ilmenite, rutile, zircon, garnet and monazite.
@@ -2316,6 +2976,18 @@
     - milestones
     - operator
     - dates.first_public
+  - id: irel-quick-about
+    url: "https://www.irel.co.in/quick-aboutus"
+    title: "IREL (India) Limited: about us"
+    publisher: IREL (India) Limited
+    tier: T2
+    date: null
+    retrieved: '2026-10-23'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.commissioned
+    - milestones
 - aliases: []
   layer: mines
   stages:
@@ -2362,16 +3034,19 @@
   schemes: []
   scheme_status: {}
   dates:
-    first_public: 2025-01
+    first_public: '1982-09-25'
     announced: null
     mou: null
     approved: null
     construction_start: null
     original_expected_completion: null
     revised_expected_completion: null
-    commissioned: null
+    commissioned: '1982-09-25'
     closed: null
-  milestones: []
+  milestones:
+  - date: '1982-09-25'
+    event: Mine first opened (IBM record)
+    source_id: ibm-sivaganga-2021
   narrative:
     significance: null
     what_it_does: "Mines and upgrades natural graphite in Sivaganga, India's largest graphite-producing district."
@@ -2398,3 +3073,15 @@
     - location
     - operator
     - dates.first_public
+  - id: ibm-sivaganga-2021
+    url: "https://ibm.gov.in/writereaddata/files/05252021123218mcdr_rep_revised_SVG.pdf"
+    title: "IBM inspection report (MCDR): Sivaganga graphite mine, TAMIN"
+    publisher: Indian Bureau of Mines
+    tier: T1
+    date: '2021-01-28'
+    retrieved: '2026-11-02'
+    archive_url: null
+    supports:
+    - dates.first_public
+    - dates.commissioned
+    - milestones

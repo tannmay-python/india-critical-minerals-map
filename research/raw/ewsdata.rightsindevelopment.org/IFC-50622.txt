@@ -98,13 +98,13 @@ Website:
 https://gfl.co.in/gfclev.php
 General IFC Inquiries - IFC Communications:
 Address: 2121 Pennsylvania Avenue, NW, Washington DC 20433
-Telephone: +1 202-473-3800
-Fax: +1 202-974-4384
+Telephone: +[phone removed]
+Fax: +[phone removed]
 ACCESS TO INFORMATION
 You can submit a request for information disclosure at: https://disclosures.ifc.org/#/inquiries
 If you believe that your request for information from IFC has been unreasonably denied, or that this Policy has been interpreted incorrectly, you can submit a complaint at the link above to IFC's Access to Information Policy Advisor, who reports directly to IFC's Executive Vice President.
 ACCOUNTABILITY MECHANISM OF IFC/MIGA
-The Compliance Advisor Ombudsman (CAO) is the independent complaint mechanism and fact-finding body for people who believe they are likely to be, or have been, adversely affected by an IFC or MIGA- financed project. If you submit a complaint to the CAO, they may assist you in resolving a dispute with the company and/or investigate to assess whether the IFC is following its own policies and procedures for preventing harm to people or the environment. If you want to submit a complaint electronically, you can email the CAO at CAO@worldbankgroup.org You can learn more about the CAO and how to file a complaint at http://www.cao-ombudsman.org
+The Compliance Advisor Ombudsman (CAO) is the independent complaint mechanism and fact-finding body for people who believe they are likely to be, or have been, adversely affected by an IFC or MIGA- financed project. If you submit a complaint to the CAO, they may assist you in resolving a dispute with the company and/or investigate to assess whether the IFC is following its own policies and procedures for preventing harm to people or the environment. If you want to submit a complaint electronically, you can email the CAO at [email removed] You can learn more about the CAO and how to file a complaint at http://www.cao-ombudsman.org
 How it works
 How it works
 Close
@@ -140,7 +140,7 @@ Creative Commons
 Copyright IAP 2021
 Sign up for updates about the Early Warning System!
 The Early Warning System will use the information you provide on this form to get in touch with you and to share updates. 
-You can change your mind at any time by clicking the unsubscribe link in the footer of any email you receive from us, or by contacting us at ews@rightsindevelopment.org. The Early Warning System is committed to ensuring the ethical use of data that prioritizes the right to privacy and security and minimizes potential harm to individuals and communities.
+You can change your mind at any time by clicking the unsubscribe link in the footer of any email you receive from us, or by contacting us at [email removed]. The Early Warning System is committed to ensuring the ethical use of data that prioritizes the right to privacy and security and minimizes potential harm to individuals and communities.
 Email Address 
 *
 First Name 

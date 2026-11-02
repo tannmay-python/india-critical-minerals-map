@@ -1,0 +1,514 @@
+ MCDR-MiFL0Cu/1/2023-RCH-IBM_EZ                                           I/44760/2024
+                                    NDIAN BUREAU OF MINES                         
+                          MINES CONTROL AND CONSERVATION OF MINERAL DIVISION      
+                                    MCDR INSPECTION REPORT                        
+                                     Ranchi Regional Office                       
+     Mine file No: MCDR-MiFL0FE/1/2023-RCH-IBM_EZ           Mine code: 14BHR27001 
+     Date of Inspection: 23.10.2024                                               
+     General:                                                                     
+                                                                                  
+          Sl.  Particulars                Details                                 
+          No.                                                                     
+           1.  Name of the Mines          Kendadih U/G Copper Mine                
+           2   Total Lease Area (Ha) with breakup 1139.60 Ha; Non-Forest: 500.76 Ha; Forest:
+               of non-forest land and forest land 638.84 Ha)                      
+           3.  Mine code                  14BHR27001                              
+           4   IBM Registration Number under rule IBM/6381/2011                   
+               45 of MCDR, 1988/2017                                              
+           5   Name of the lessee, Address, Hindustan Copper Limited, Indian Copper
+               Phone, email, fax number   Complex, Ghatsila                       
+           6   Village                    Kendadih                                
+           7   Taluka/Mandal              Ghatsila                                
+           8   District                   East SinghBhum                          
+           9   Pin code                   832303                                  
+           10  State                      Jharkhand                               
+           11  Post Office                Ghatsila                                
+           12  Nearest Police Station     Jadugoda                                
+           13  Nearest Railway station    Ghatsila                                
+           14  Date of Grant of Mining Lease 03.06.1973                           
+           15  Date of Execution          03.06.1973                              
+           16  Date of Opening of Mine    1973                                    
+           17  Date of First Renewal, if applicable Renewal application submitted for the period of
+               and its period & expiry    20 year w.e.f03.06.1993 on dated 24th May 1992
+           18  Date of second Renewal, if Application for 2ndrenewal of the lease for a
+               applicable and its period & expiry period of 20 years w.e.f3.6.2013 (Form D
+                                          obtained on 18.04.2012).                
+                                          Govt. of Jharkhand vide letter No. Kha. Ni.
+                                          01/2012, dated 18.03.2015 under section 8A (8)
+                                          of MMDR  Amendment Ordinance 2015 has   
+                                          extended the lease period up to 31.03.2020. The
+                                          Supplementary Lease Deed executed in support
+                                          of the extended lease period 15th July 2017.
+                                          Ministry of Mines Govt. of India has issued
+                                          Mineral (Mining by Government Company) 2015
+                                          vide notification dated 3rd Dec-2015 by which as
+                                          per section 3 (1), period of mining lease has
+                                          been extended up-to 50 years from the date of
+                                          initial grant and for this in compliance, Dept. of
+                                          Mines, Govt. of Jharkhand extended lease period
+                                          up to 50 years from the initial grant vide letter
+                                          No 1772/M Ranchi dated 30.10.2019, therefore
+                                          the period of validity of the said lease is deemed
+                                          to have been extended up to 2nd day of June
+                                          2023& lease deed executed in support of the
+                                          extended lease period up to 02.06.2023 on dated
+                                          4th May 2020.                           
+                                          For extension of Kendadih Mining Lease for
+                                          further period of 20 years, application has been
+                                          submitted to  District Magistrate, East 
+                                          Singhbhum, Jamshedpur as per provision under
+                                          clause 72 (2) of Mineral Concession Rule (MCR)
+                                          2016 amended up to Nov 2021 & subsequently,
+                                          extension of Mining Lease for next 20 years has
+                                          been recommended by Dy. Commissioner,   
+                                          Jamshedpur, vide letter no. 421/ Khanan dated
+                                          09.05.2023.                             
+                                          Directorate of Mines, Govt. of Jharkhand vide
+                                          letter no. B./M.-6-1028/93/(Khand-I)122 M/, dated
+                                          17.01.2024, has communicated that under rule
+                                          72(2) of Mineral Concession Rule 2016 amended
+                                          up to Nov 2021, the application for extension of
+                                          Kendadih Mining Lease is under process and
+
+ MCDR-MiFL0Cu/1/2023-RCH-IBM_EZ                                           I/44760/2024
+                                          pending for want of statutory clearances.
+                                          Further, based on the application for extension of
+                                          the lease period for another 20 years w.e.f.
+                                          03.06.2023, Cabinet of Govt. of Jharkhand in its
+                                          meeting at Ranchi on20.09.2024 has approved
+                                          the extension of Kendadih ML over 1139.60 ha in
+                                          favor of HCL as per provision of Rule 72 (2) of
+                                          MCR 2016. Govt. of Jharkhand vide letter no. B/M
+                                          6-1028/93/Khand-1/1671/M, Ranchi dated  
+                                          08.10.2024 has extended ML from 03.06.2023 till
+                                          02.06.2043.                             
+           19  Date of submission of renewal NA                                   
+               application if Mining operations are                               
+               continuing under deemed extension                                  
+           20  Name of the Nominated Owner with Shri Sanjiv Kumar Singh; M/s Hindustan Copper
+               Address, phone, email, fax number Limited                          
+               and date of appointment    Tamra Bhavan 1, Ashutosh Chowdhury Avenue,
+                                          Kolkata -700019, West Bengal.           
+                                          Phone-[phone removed]; Fax-[phone removed];   
+                                          Date of appointment: 09.06.2022         
+                                          Email: [email removed]
+           21  Name  of the Mine Agent with Shri Shyam Sundar Sethi,              
+               Address, phone email, fax number Moubhandar, Ghatsila, East –Singhbhum,
+               and date appointment in mines. Jharkhand- 832103                   
+                                          Mobile -[phone removed] Date of appointment: 
+                                          01.04.2023                              
+                                          Email: [email removed]     
+           22  Name of the Mines Manager with Shri Sampath Kumar Sangi,           
+               Address, Phone, email, fax number Moubhnadar, Ghatsila, East –Singhbhum,
+               and date of appointment    Jharkhand-832103                        
+                                          Mobile-[phone removed]          
+                                          Email:[email removed]    
+                                          DOA in Mines:14th august 2017           
+           23  Name  of the mining engineer, Shri Sampath Kumar sangi,            
+               qualification and total experience Moubhnadar, Ghatsila, East –    
+               with Address, phone, email, fax Singhbhum,Jharkhand-832103         
+               number and date of appointment in Mobile-[phone removed]   
+               Mines.                     Email:[email removed]    
+                                          DOA in Mines: 14th august 2017          
+           24  Whether Geologist and Mining Yes                                   
+               Engineer appointed in Mines satisfy                                
+               the rule 42 & carrying out their                                   
+               duties as per rule 43 & 44.                                        
+           25  Date  of Approval of Mining RAN/ESB/Cu/ROMP-05/2023-24;25.11.2023  
+               Plan/Modified Mining Plan with five- Period: 02.06.2023 to 02.06.2028
+               year period and specific condition in                              
+               approval letter, if any.                                           
+           26  Date of Approval of Scheme of RAN/ESB/Cu/ROMP-05/2023-24 ;25.11.2023
+               Mining/Modified Scheme of Mining Period: 02.06.2023 to 02.06.2028  
+               with five-year period and specific                                 
+               condition in approval letter, if any.                              
+           27  Mineral(s) granted in lease and Copper Ore                         
+               proved for mining                                                  
+           28  Method   of  Mining(Opencast, Underground                          
+               Underground)                                                       
+           29  Category (Fully Mechanized, Others Fully Mechanized                
+               or Manual)                                                         
+           30  Captive/Non Captive        Captive                                 
+     Scientific Mining: Compliance of proposals of approved mining plan/scheme of mining. (Duplication of
+     information in existing TMIS data sheets and draft write up has been avoided.)
+     Exploration                                                                  
+                                                       Actual                     
+           Sl.                             Proposals                              
+                          Item                         work       Remarks         
+           No                              (2023-24)                              
+                                                     (2023-24)                    
+           1a  Backlog of previous year                        No proposal in     
+                                              Nil       Nil                       
+                                                               reporting year     
+           1b  Exploration over lease area for 7129M  10588M   Report is yet to be
+               Geological axis 1 or 2.                         submitted.         
+
+ MCDR-MiFL0Cu/1/2023-RCH-IBM_EZ                                           I/44760/2024
+           1c  Exploration Agency & Expenditure M/s MECL Rs. 14.4 Cr As per furnished
+               in lakh Rupee during the year                   records            
+           1d  Balance area to be explored to 277.47Ha. 277.47Ha. As per furnished
+               bring Geological axis in 1 or 2                 records            
+           1e  Reserves as  on  01.04.2023                     Kendadih  mine:    
+               beginning of the Plan Period (Qty in            4936 tons.         
+               tons)                                           Siddeswar mine :0  
+               111: 741636                                     tons.              
+               122: 154284                                                        
+                                             2,25,395M 5,63,89,375                
+               211: 639255                                                        
+                                               t        MT                        
+               222: 456596                                                        
+               331: 3663999                                                       
+               332: 20239000                                                      
+               333: 30780000                                                      
+               G. Total: 56674770 (56.67 MioT)                                    
+           1f  General remarks of inspecting Work done in the area of exploration is
+               officer on geology, exploration etc. satisfactory.                 
+                                                                                  
+      Development                                                                 
+           Sl.                            Proposals    Actual work                
+                         Item                                        Remarks      
+           No                              (2023-24)    (2023-24)                 
+               Location of development w.r.t                                      
+           2a                                NA                                   
+               lease area                                                         
+               Separate benches in top soil,                       No proposal    
+           2b  overburden and mineral (Rule  Nil           Nil     in reporting   
+               15)                                                 year           
+                                                                   No proposal    
+            2c Stripping ratio or ore to OB ratio Nil      Nil     in reporting   
+                                                                   year           
+                                                                   No proposal    
+               Quantity of topsoil generation in                                  
+           2d                                Nil           Nil     in reporting   
+               m3                                                                 
+                                                                   year           
+                                                                   No proposal    
+               Quantity of overburden                                             
+           2e                                Nil           Nil     in reporting   
+               generation in m3                                                   
+                                                                   year           
+               General remarks of inspecting                                      
+            2f                          No proposal in reporting year for this chapter.
+               officer on development etc.                                        
+      Exploitation                                                                
+           Sl.          Item             Proposals    Actual work   Remarks       
+           No                             (2023-24)    (2023-24)                  
+           3a  Number of pits proposal for                        No proposal in  
+                                            Nil           Nil                     
+               production                                         reporting year  
+           3b  Quantity of ROM  mineral 78262.15 cum  1713.89cum                  
+               production proposed(cum)  (225395 MT)   (4936 MT)                  
+           3c  Recovery of  salable/usable                        No proposal in  
+               mineral from ROM production  Nil           Nil     reporting year  
+               ( tone)                                                            
+           3d  Quantity of mineral reject                         No proposal in  
+                                            Nil           Nil                     
+               generation (cum)                                   reporting year  
+           3e  Grade  of  mineral reject                          No proposal in  
+               generation and threshold value Nil         Nil     reporting year  
+               declared                                                           
+           3f  Quantity of sub-grade mineral                      No proposal in  
+                                            Nil           Nil                     
+               generation                                         reporting year  
+           3g  Grade of sub-grade mineral                         No proposal in  
+                                            Nil           Nil                     
+               generation                                         reporting year  
+           3h  Manual/Mechanized method                           No proposal in  
+               adopted for segregating from Nil           Nil     reporting year  
+               ROM                                                                
+           3i  Any analysis or beneficiation                      No proposal in  
+               study proposed & carried out for Nil       Nil     reporting year  
+               sub-grade mineral and reject                                       
+           3j  Provision of drilling & blasting in Nil    Nil     No proposal in  
+
+ MCDR-MiFL0Cu/1/2023-RCH-IBM_EZ                                           I/44760/2024
+               mineral benches                                    reporting year  
+           3k  Provision of mining machineries                    No proposal in  
+                                            Nil           Nil                     
+               in mineral benches                                 reporting year  
+           3l  Whether height of benches in                       No proposal in  
+               overburden and mineral suitable                    reporting year  
+                                            NA            NA                      
+               for method of mining proposed                                      
+               in MP/SOM                                                          
+           3m  Total area covered under                           No proposal in  
+                                            Nil           Nil                     
+               excavation/pits                                    reporting year  
+           3n  Ore to OB ratio for the pit/mine                   No proposal in  
+                                            Nil           Nil                     
+               during the year                                    reporting year  
+           3o  Total area put in use under Total: 48.69 Total: 48.69 No Additional
+               different heads at the end of                      area required   
+               year                                                               
+                                       2019-20: 111077 2019-20: 43230             
+                                       MT            MT                           
+                                       2020-21:66199 2020-21:41772                
+                                       MT            MT           4936 MT         
+              Production of ROM mineral during 2021-22:189806 2021-22:25834 production as on
+          3p                                                                      
+              last five-year period, as applicable MT MT          31.09.2024      
+                                       2022-23:      2022-23: 26630               
+                                       222865MT      MT                           
+                                       2023-         2023-24:4936                 
+                                       24:225395MT   MT                           
+           3q  General remarks of inspecting Most of the points were not proposed in the
+               officer on method of mining etc. reporting year. The production is very less
+                                       however it is due to statutory clearances of
+                                       different govt. bodies.                    
+      Solid Waste Management-Dumping                                              
+           Sl.                          Proposals    Actual work                  
+                        Item                                        Remarks       
+           No                           (2023-24)     (2023-24)                   
+               Separate dumping of topsoil,                      No proposal in   
+           4a. OB & mineral reject (Rule  NA            NA       reporting year   
+               32,33)                                                             
+               Location of topsoil, & OB &                       No proposal in   
+           4b                             NA            NA                        
+               mineral reject dumps                              reporting year   
+               Number of dumps  within                           No proposal in   
+           4c  lease area and outside lease NA          NA       reporting year   
+               area                                                               
+               Location of dumps w.r.t.                          No proposal in   
+           4d                             NA            NA                        
+               ultimate pit limit (Rule 16)                      reporting year   
+               Number of active & alive                          No proposal in   
+           4e                             NA            NA                        
+               dumps                                             reporting year   
+                                                                 No proposal in   
+           4f  Number of dead dumps       NA            NA                        
+                                                                 reporting year   
+                                                                 No proposal in   
+           4g  Number of dumps stabilized NA            NA                        
+                                                                 reporting year   
+               Whether Retaining wall or                         No proposal in   
+           4h  garland drain all along dumps NA         NA       reporting year   
+               are there                                                          
+               Length of Retaining wall or                       No proposal in   
+           4i                             NA            NA                        
+               garland drain all along dump                      reporting year   
+                                                                 No proposal in   
+           4j  Number of settling ponds   NA            NA                        
+                                                                 reporting year   
+               Specific comments  of                                              
+           4k  inspecting officer on waste No proposal in reporting year under this chapter
+               dump management                                                    
+      Solid Waste Management-Backfilling                                          
+           Sl.                          Proposals   Actual work                   
+                        Item                                       Remarks        
+           No                           (2023-24)    (2023-24)                    
+           5a  Status on part or full extraction 174168 Tonnes 115 Tonnes Stope voids are
+               of mineral from mined out area                    back filled with 
+
+ MCDR-MiFL0Cu/1/2023-RCH-IBM_EZ                                           I/44760/2024
+               before starting backfilling                       mill tailings for
+                                                                 K-1 stope block  
+                                                                 between 2L-1L    
+           5b  Area under backfilling of mined 30238sq.m 20sq.m  Two Stopes in    
+               out area                                          stope block K-2  
+                                                                 between 4L to    
+                                                                 3L are ready for 
+                                                                 back filling.    
+               Concurrent use of topsoil for                     No proposal in   
+           5c  restoration or rehabilitation of NA NA            reporting year   
+               mined out area (Rule 32)                                           
+               Total area fully reclaimed &                      No proposal in   
+           5d                         NA           NA                             
+               rehabilitated                                     reporting year   
+               General remarks of inspecting                                      
+                                      Ok may be considered satisfactory as mines was not
+           5e  officer on    backfilling,                                         
+                                      fully operational.                          
+               reclamation etc.                                                   
+      Progressive Mine Closure Plan                                               
+           Sl.                          Proposals      Actual                     
+                        Item                                       Remarks        
+           No                           (2023-24)  work(2023-24)                  
+               Whether Annual report on                                           
+               PMCP submitted on time and                                         
+                                      Submitted on                                
+           6a  correctly-Rule 23E(2). Details      Submitted on time              
+                                      time                                        
+               should be given in the format                                      
+               as given in Annexure-20                                            
+               Management of worked/mined                        No proposal in   
+               out benches:                                      reporting year   
+               i) Area   available  for                                           
+                 rehabilitation (ha)                                              
+               ii) Afforestation done (ha)                                        
+               iii) No. of sapling planted                                        
+           6b                              NA           NA                        
+                 during year                                                      
+               iv) Cumulative no. of plants                                       
+               v) Any other specific method                                       
+                 of rehabilitation                                                
+               vi) Cost incurred on watch &                                       
+               care during the year                                               
+               Compliance on reclamation                         No proposal in   
+               and rehabilitation by back                        reporting year   
+               filling                                                            
+               i) Voids  available  for                                           
+               backfilling(LxBxD)                                                 
+           6c  ii) Void filled by waste/tailings NA     NA                        
+               iii) Afforestation on the                                          
+                 backfilled area                                                  
+               iv) Rehabilitation by making                                       
+                 water reservoir                                                  
+               v) Any other specific means                                        
+               Compliance of Rehabilitation of                   No proposal in   
+               waste land within lease                           reporting year   
+           6d  i) Afforestation            NA           NA                        
+               ii)Area rehabilitated(ha)                                          
+               iii)Method of rehabilitation                                       
+               Compliance of Environmental Quarterly Quarterly   ok               
+               monitoring (core zone & buffer Monitoring of Monitoring of         
+               zone)                                                              
+           6e                         Ambient   air Ambient   air                 
+                                      Quality, Water Quality, Water               
+                                      quality etc. quality etc.                   
+               General remarks of inspecting No proposal in reporting year for most of the points of
+           6f  &    progressive closure this chapter. Compliance of Environmental monitoring
+               operations.            was done by the lessee.                     
+      Mineral Conservation                                                        
+           Sl.                        Proposals   Actual work                     
+                       Item                                       Remarks         
+           No                         (2023-24)    (2023-24)                      
+               ROM  Mineral dispatch or                                           
+                                    225395MT     6290MT in DMT                    
+           7a  grade-wise sorting within                                          
+                                    (0.8% to1.1%) (1.08%)                         
+               lease area                                                         
+
+ MCDR-MiFL0Cu/1/2023-RCH-IBM_EZ                                           I/44760/2024
+               Method  of  grade-wise                           No proposal in    
+           7b  mineral sorting i.e. manual Nil         Nil      reporting year    
+               or mechanical                                                      
+               Different grade of mineral                       No proposal in    
+           7c                        Not proposed      Nil                        
+               sorted out at mines                              reporting year    
+               Any beneficiation process at                     No proposal in    
+           7d                        Not proposed      Nil                        
+               mines                                            reporting year    
+               General  remarks   of                                              
+               inspecting officer on Mineral                                      
+           7e                                          Ok.                        
+               conservation & beneficiation                                       
+               issues                                                             
+      Environment                                                                 
+           Sl.                        Proposals   Actual work                     
+                       Item                                       Remarks         
+           No                         (2023-24)    (2023-24)                      
+               Separate removal and                             No proposal in    
+           8a  utilization of topsoil (Rule NA         NA       reporting year    
+               32)                                                                
+               Concurrent use or storage of                     No proposal in    
+           8b                            NA            NA                         
+               topsoil                                          reporting year    
+               Separate  dumps   for                            No proposal in    
+           8c  overburden, waste rock    NA            NA       reporting year    
+               rejects and fines (Rule 33)                                        
+               Use of overburden, waste                         No proposal in    
+               rock, rejects and fines                          reporting year    
+           8d                            NA            NA                         
+               dumps for restoring the land                                       
+               to its original use                                                
+               Phased      restoration,                         No proposal in    
+               reclamation      and                             reporting year    
+           8e  rehabilitation of lands   NA            NA                         
+               affected  by   mining                                              
+               operations (Pits, dumps etc)                                       
+               Baseline information on                          ok                
+               existence of plantation &                                          
+           8f                            300          300                         
+               additional plantation done                                         
+               (Rule 42)                                                          
+           8g  Survival rate              --          70%       ok                
+               Water sprinkling on roads to                     ok                
+           8h                          Proposed     being done                    
+               control airborne dust                                              
+               General  remarks   of                                              
+               inspecting officer on                                              
+           8i                        The aesthetic beauty in and around mines area is good
+               aesthetic beauty in and                                            
+               around mines area.                                                 
+      Compliance of Rule 45                                                       
+           Sl.                                                                    
+                        Item                  COMMENTS             Remarks        
+           No                                                                     
+               Status of  submission of Submitted On time                         
+           9a                                                                     
+               Monthly and Annual returns                                         
+               Scrutiny of Annual return for Mining Mining      Matching with the 
+               information on   Mining Engineer:  Engineer:     furnished records.
+               Engineer, Geologist and Sh. Sampath Sh.  Sampath                   
+               Manager                 Kumar Samgi Kumar Samgi                    
+           9b                          Geologist: Geologist:                      
+                                       Sh.J Prakashm Sh.J Prakashm                
+                                       Manager:   Manager:                        
+                                       Sh. Sampath Sh. Sampath                    
+                                       Kumar Samgi. Kumar Samgi.                  
+           9c  Scrutiny of Annual return on Total :48.69H Total :48.69Ha Matching with the
+
+ MCDR-MiFL0Cu/1/2023-RCH-IBM_EZ                                           I/44760/2024
+               land use pattern for area a                      furnished records.
+               under pits, reclaimed area,                                        
+               dumps etc.                                                         
+               Scrutiny of Annual return on 300 saplings 300 saplings Matching with the
+           9d                                                                     
+               afforestation                                    furnished records.
+               Scrutiny of Annual return on Compiled NIL        Matching with the 
+           9e  mineral reject generation                        furnished records.
+               (Grade & Quantity)                                                 
+               Scrutiny of Annual return on ROM: 9492MT ROM: 9492MT Matching with the
+            9f                                                                    
+               ROM stock and/or graded ore Grade:1.01% Grade:1.01% furnished records.
+               Scrutiny of Annual return on Rs 7215.00 Rs 7215.00 Matching with the
+           9g  sale value, Ex. Mine price &                     furnished records.
+               production cost.                                                   
+               Scrutiny of Annual return on Rs    Rs 1092107722/- Matching with the
+           9h                                                                     
+               fixed assets            1092107722/-             furnished records.
+               Scrutiny of Annual return on Air   Air           Matching with the 
+               mining machineries      Compressor- Compressor-4 furnished records.
+                                       4          Crane-2                         
+                                       Crane-2    Generator-2                     
+                                       Generator-2 Locomotice-                    
+                                       Locomotice- 7+1                            
+                                       7+1        Mine Car-117                    
+                                       Mine Car-  rocker shovel                   
+                                       117        loader-11                       
+                                       rocker     ventilation fan-                
+           9i                                                                     
+                                       shovel     2                               
+                                       loader-11  pumps (elec.)-3                 
+                                       ventilation scrapper-23                    
+                                       fan-2      winding engine                  
+                                       pumps      (elec.)-1                       
+                                       (elec.)-3                                  
+                                       scrapper-23                                
+                                       winding                                    
+                                       engine                                     
+                                       (elec.)-1                                  
+          Details of violations observed during last inspection and compliance of 
+          violation pointed out:-                                                 
+          Rule 45(5) b); Dated 30.03.2022; Complied                               
+          Details of violations observed during current inspection and compliance position of
+          earlier violation pointed out:- NIL                                     
+                                                                                  
+                                                                      Signature   
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
